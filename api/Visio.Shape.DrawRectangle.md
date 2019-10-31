@@ -1,5 +1,5 @@
 ---
-title: Shape.DrawRectangle Method (Visio)
+title: Shape.DrawRectangle method (Visio)
 keywords: vis_sdr.chm11216220
 f1_keywords:
 - vis_sdr.chm11216220
@@ -8,33 +8,34 @@ api_name:
 - Visio.Shape.DrawRectangle
 ms.assetid: 2d02da32-0938-b019-0fa0-c4ef07d1a318
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Shape.DrawRectangle Method (Visio)
+# Shape.DrawRectangle method (Visio)
 
 Adds a rectangle to the  **Shapes** collection of a page, master, or group.
 
 
 ## Syntax
 
- _expression_. `DrawRectangle`( `_x1_` , `_y1_` , `_x2_` , `_y2_` )
+_expression_. `DrawRectangle`( `_x1_` , `_y1_` , `_x2_` , `_y2_` )
 
- _expression_ A variable that represents a [Shape](./Visio.Shape.md) object.
-
-
-### Parameters
+_expression_ A variable that represents a **[Shape](Visio.Shape.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _x1_|Required| **Double**|The  _x_-coordinate of one corner of the rectangle's width-height box.|
 | _y1_|Required| **Double**|The  _y_-coordinate of one corner of the rectangle's width-height box.|
 | _x2_|Required| **Double**|The  _x_-coordinate of the other corner of the rectangle's width-height box.|
 | _y2_|Required| **Double**|The  _y_-coordinate of the other corner of the rectangle's width-height box.|
 
-### Return Value
+## Return value
 
 Shape
 
@@ -60,4 +61,4 @@ Public Sub DrawRectangle_Example()
 End Sub
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

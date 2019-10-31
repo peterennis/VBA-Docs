@@ -1,5 +1,5 @@
 ---
-title: Application.SelectRow Method (Project)
+title: Application.SelectRow method (Project)
 keywords: vbapj.chm2045
 f1_keywords:
 - vbapj.chm2045
@@ -8,26 +8,27 @@ api_name:
 - Project.Application.SelectRow
 ms.assetid: 63d31b23-3edb-9cd9-16c5-ac4ca4555a2c
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Application.SelectRow Method (Project)
+# Application.SelectRow method (Project)
 
 Selects one or more rows.
 
 
 ## Syntax
 
- _expression_. `SelectRow`( ` _Row_`, ` _RowRelative_`, ` _Height_`, ` _Extend_`, ` _Add_` )
+_expression_. `SelectRow`( `_Row_`, `_RowRelative_`, `_Height_`, `_Extend_`, `_Add_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
-
-
-### Parameters
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _Row_|Optional|**Long**|The number of the row to select. The default is the active row.|
 | _RowRelative_|Optional|**Boolean**|**True** if the location of the new selection is relative to the active selection. The default value is **True**.|
@@ -35,7 +36,7 @@ Selects one or more rows.
 | _Extend_|Optional|**Boolean**|**True** if the active selection is extended into the new selection. The default value is **False**.|
 | _Add_|Optional|**Boolean**|**True** if the new selection is added to the active selection. The default value is **False**.|
 
-### Return Value
+## Return value
 
  **Boolean**
 
@@ -54,4 +55,4 @@ Sub Select_Row()
 End Sub
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

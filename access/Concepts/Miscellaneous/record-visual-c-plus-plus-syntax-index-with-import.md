@@ -1,24 +1,19 @@
 ---
-title: Record (Visual C++ Syntax Index with import)
+title: Record (Visual C++ syntax index with import)
 ms.prod: access
 ms.assetid: 87c6d242-4977-2e81-c829-227e6dd326e5
-ms.date: 06/08/2017
+ms.date: 10/12/2018
+localization_priority: Normal
 ---
 
 
-# Record (Visual C++ Syntax Index with #import)
-
-  
+# Record (Visual C++ syntax index with #import)
 
 **Applies to:** Access 2013 | Access 2016
 
- **Methods**
+## Methods
 
-
-
-
-```c#
- 
+```cs
 HRESULT Invalid DDUE based on source, error:link not allowed in code, link filename:mdmthadocancel_HV10294125.xml( ); 
  
 HRESULT Invalid DDUE based on source, error:link not allowed in code, link filename:mdmthclose_HV10294173.xml( ); 
@@ -35,19 +30,16 @@ _bstr_t Invalid DDUE based on source, error:link not allowed in code, link filen
  _bstr_t UserName , _bstr_t Password , enum MoveRecordOptionsEnum 
  Options , VARIANT_BOOL Async ); 
  
-HRESULT Invalid DDUE based on source, error:link not allowed in code, link filename:mdmthopenrecord_HV10294565.xml( const _variant_t &; Source , const _variant_t 
-&; ActiveConnection , enum ConnectModeEnum Mode , enum 
+HRESULT Invalid DDUE based on source, error:link not allowed in code, link filename:mdmthopenrecord_HV10294565.xml( const _variant_t & Source , const _variant_t 
+& ActiveConnection , enum ConnectModeEnum Mode , enum 
  RecordCreateOptionsEnum CreateOptions , enum RecordOpenOptionsEnum 
  Options , _bstr_t UserName , _bstr_t Password ); 
 
 ```
 
- **Properties**
+## Properties
 
-
-
-```c#
- 
+```cs
 _variant_t Invalid DDUE based on source, error:link not allowed in code, link filename:mdproactivecon_HV10293988.xml( ); 
 void PutActiveConnection( _bstr_t pvar ); 
 void PutRefActiveConnection( struct _Connection * pvar ); 
@@ -77,9 +69,11 @@ __declspec(property(get=GetState)) enum ObjectStateEnum Invalid DDUE based on so
 
 ## See also
 
-- [Access for developers forum on MSDN](https://social.msdn.microsoft.com/Forums/office/en-US/home?forum=accessdev)
+- [Access for developers forum](https://social.msdn.microsoft.com/Forums/office/home?forum=accessdev)
 - [Access help on support.office.com](https://support.office.com/search/results?query=Access)
-- [Access help on answers.microsoft.com](https://answers.microsoft.com/en-us/msoffice/forum?page=1&;tab=question&;status=all&;auth=1)
+- [Access help on answers.microsoft.com](https://answers.microsoft.com/)
 - [Access forums on UtterAccess](http://www.utteraccess.com/forum/index.php?act=idx)
 - [Access developer and VBA programming help center (FMS)](http://www.fmsinc.com/MicrosoftAccess/developer/)
 - [Access posts on StackOverflow](https://stackoverflow.com/questions/tagged/ms-access)
+
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

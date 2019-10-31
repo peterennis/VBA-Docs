@@ -1,5 +1,5 @@
 ---
-title: Application.LevelingOptions Method (Project)
+title: Application.LevelingOptions method (Project)
 keywords: vbapj.chm608
 f1_keywords:
 - vbapj.chm608
@@ -8,26 +8,27 @@ api_name:
 - Project.Application.LevelingOptions
 ms.assetid: 388a2315-e44b-3890-a16a-92ea5a778bbd
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Application.LevelingOptions Method (Project)
+# Application.LevelingOptions method (Project)
 
 Specifies leveling options for the active project.
 
 
 ## Syntax
 
- _expression_. `LevelingOptions`( ` _Automatic_`, ` _DelayInSlack_`, ` _AutoClearLeveling_`, ` _Order_`, ` _LevelEntireProject_`, ` _FromDate_`, ` _ToDate_`, ` _PeriodBasis_`, ` _LevelIndividualAssignments_`, ` _LevelingCanSplit_`, ` _LevelProposedBookings_` )
+_expression_. `LevelingOptions`( `_Automatic_`, `_DelayInSlack_`, `_AutoClearLeveling_`, `_Order_`, `_LevelEntireProject_`, `_FromDate_`, `_ToDate_`, `_PeriodBasis_`, `_LevelIndividualAssignments_`, `_LevelingCanSplit_`, `_LevelProposedBookings_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
-
-
-### Parameters
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _Automatic_|Optional|**Boolean**|**True** if Project automatically levels tasks in the active project.|
 | _DelayInSlack_|Optional|**Boolean**|**True** if the active project can be leveled only within the available slack time. **False** if the project can be delayed in order to level resources.|
@@ -41,7 +42,7 @@ Specifies leveling options for the active project.
 | _LevelingCanSplit_|Optional|**Boolean**|**True** if leveling can create splits in remaining work.|
 | _LevelProposedBookings_|Optional|**Boolean**|**True** if leveling includes proposed resource bookings.|
 
-### Return Value
+## Return value
 
  **Boolean**
 
@@ -67,4 +68,4 @@ Sub LevelOverallocatedResources()
 End Sub
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

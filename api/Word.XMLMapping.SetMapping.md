@@ -1,5 +1,5 @@
 ---
-title: XMLMapping.SetMapping Method (Word)
+title: XMLMapping.SetMapping method (Word)
 keywords: vbawd10.chm199688195
 f1_keywords:
 - vbawd10.chm199688195
@@ -8,32 +8,33 @@ api_name:
 - Word.XMLMapping.SetMapping
 ms.assetid: 0d33be39-f355-7a59-802c-33d031485a0e
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# XMLMapping.SetMapping Method (Word)
+# XMLMapping.SetMapping method (Word)
 
-Allows creating or changing the XML mapping on a content control. Returns  **True** if Microsoft Word maps the content control to a custom XML node in the document?s custom XML data store.
+Allows creating or changing the XML mapping on a content control. Returns **True** if Microsoft Word maps the content control to a custom XML node in the document's custom XML data store.
 
 
 ## Syntax
 
- _expression_. `SetMapping`( `_XPath_` , `_PrefixMapping_` , `_Source_` )
+_expression_. `SetMapping`( `_XPath_` , `_PrefixMapping_` , `_Source_` )
 
  _expression_ An expression that returns an '[XMLMapping](Word.XMLMapping.md)' object.
 
 
-### Parameters
+## Parameters
 
 
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _XPath_|Required| **String**|Specifies an XPath string that represents the XML node to which to map the content control. An invalid XPath string causes a run-time error.|
 | _PrefixMapping_|Optional| **String**|Specifies the prefix mappings to use when querying the expression provided in the XPath parameter. If omitted, Word uses the set of prefix mappings for the specified custom XML part in the current document.|
-| _Source_|Optional| **CustomXMLPart**|Specifies the desired custom XML data to which to map the content control. If this parameter is omitted, the XPath is evaluated against all custom XML in the current document, and the mapping is established with the first  **CustomXMLPart** in which the XPath resolves to an XML node.|
+| _Source_|Optional| **CustomXMLPart**|Specifies the desired custom XML data to which to map the content control. If this parameter is omitted, the XPath is evaluated against all custom XML in the current document, and the mapping is established with the first **CustomXMLPart** in which the XPath resolves to an XML node.|
 
-### Return Value
+## Return value
 
 Boolean
 
@@ -42,10 +43,11 @@ Boolean
 
 If the XML mapping already exists, Word replaces the existing XML mapping and the contents of the new mapped XML node replaces the text of the content control. If the specified XPath does not evaluate to an XML node in the specified custom XML part or parts, you can still specify the mapping, and one will be created. This mapping automatically links when the specified XPath would evaluate to an XML node in the specified custom XML parts.
 
-See also the  **[SetMappingByNode](Word.XMLMapping.SetMappingByNode.md)** method.
+See also the **[SetMappingByNode](Word.XMLMapping.SetMappingByNode.md)** method.
 
 
- **Note**  Creating a mapping for a rich-text content control causes a run-time error.
+> [!NOTE] 
+> Creating a mapping for a rich-text content control causes a run-time error.
 
 
 ## Example
@@ -90,3 +92,4 @@ objCustomControl.XMLMapping.SetMapping _
 
 [XMLMapping Object](Word.XMLMapping.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

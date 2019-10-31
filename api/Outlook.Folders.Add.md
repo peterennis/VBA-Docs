@@ -1,5 +1,5 @@
 ---
-title: Folders.Add Method (Outlook)
+title: Folders.Add method (Outlook)
 keywords: vbaol11.chm46
 f1_keywords:
 - vbaol11.chm46
@@ -8,31 +8,32 @@ api_name:
 - Outlook.Folders.Add
 ms.assetid: 20ced7ad-779c-a9b0-267e-6d729c0eb822
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Folders.Add Method (Outlook)
+# Folders.Add method (Outlook)
 
 Creates a new folder in the  **[Folders](Outlook.Folders.md)** collection.
 
 
 ## Syntax
 
- _expression_. `Add`( `_Name_` , `_Type_` )
+_expression_.**Add** (_Name_, _Type_)
 
- _expression_ A variable that represents a [Folders](./Outlook.Folders.md) object.
-
-
-### Parameters
+_expression_ A variable that represents a [Folders](Outlook.Folders.md) object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _Name_|Required| **String**|The display name for the new folder.|
-| _Type_|Optional| **Long**|The Outlook folder type for the new folder. If the folder type is not specified, the new folder will default to the same type as the folder in which it is created. Can be one of the following  **[OlDefaultFolders](Outlook.OlDefaultFolders.md)** constants: **olFolderCalendar** , **olFolderContacts** , **olFolderDrafts** , **olFolderInbox** , **olFolderJournal** , **olFolderNotes** , or **olFolderTasks** . The constants **olFolderConflicts** , **olFolderDeletedItems** , **olFolderJunk** , **olFolderLocalFailures** , **olFolderManagedEmail** , **olFolderOutbox** , **olFolderRssSubscriptions** , **olFolderSentMail** , **olFolderServerFailures** , **olFolderSyncIssues** , **olFolderToDo** , and **olPublicFoldersAllPublicFolders** cannot be specified for this argument.|
+| _Type_|Optional| **Long**|The Outlook folder type for the new folder. If the folder type is not specified, the new folder will default to the same type as the folder in which it is created. Can be one of the following  **[OlDefaultFolders](Outlook.OlDefaultFolders.md)** constants: **olFolderCalendar**, **olFolderContacts**, **olFolderDrafts**, **olFolderInbox**, **olFolderJournal**, **olFolderNotes**, or **olFolderTasks**. The constants **olFolderConflicts**, **olFolderDeletedItems**, **olFolderJunk**, **olFolderLocalFailures**, **olFolderManagedEmail**, **olFolderOutbox**, **olFolderRssSubscriptions**, **olFolderSentMail**, **olFolderServerFailures**, **olFolderSyncIssues**, **olFolderToDo**, and **olPublicFoldersAllPublicFolders** cannot be specified for this argument.|
 
-### Return Value
+## Return value
 
 A  **[Folder](Outlook.Folder.md)** object that represents the new folder.
 
@@ -54,10 +55,7 @@ Sub AddContactsFolder()
 End Sub
 ```
 
-This VBA example uses the  **Add** method to add three new folders in the Tasks folder. The first folder, "Notes Folder", will contain note items. The second folder, "Contacts Folder", will contain contact items. The third folder, ?Public Folder? will be a public folder. If the folders already exist, a message box will inform the user.
-
-
-
+This VBA example uses the **Add** method to add three new folders in the Tasks folder. The first folder, Notes Folder, will contain note items. The second folder, Contacts Folder, will contain contact items. The third folder, Public Folder, will be a public folder. If the folders already exist, a message box will inform the user.
 
 ```vb
 Sub AddFolders() 
@@ -86,3 +84,4 @@ End Sub
 
 [Folders Object](Outlook.Folders.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

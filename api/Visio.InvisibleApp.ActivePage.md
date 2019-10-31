@@ -1,5 +1,5 @@
 ---
-title: InvisibleApp.ActivePage Property (Visio)
+title: InvisibleApp.ActivePage property (Visio)
 keywords: vis_sdr.chm17513030
 f1_keywords:
 - vis_sdr.chm17513030
@@ -7,35 +7,33 @@ ms.prod: visio
 api_name:
 - Visio.InvisibleApp.ActivePage
 ms.assetid: 545ea26b-fdc6-f3c4-4768-61e6438247b1
-ms.date: 06/08/2017
+ms.date: 06/24/2019
+localization_priority: Normal
 ---
 
 
-# InvisibleApp.ActivePage Property (Visio)
+# InvisibleApp.ActivePage property (Visio)
 
-Returns the active  **Page** object. Read-only.
+Returns the active **[Page](visio.page.md)** object. Read-only.
 
 
 ## Syntax
 
- _expression_. `ActivePage`( `_lpdispRet_` )
+_expression_.**ActivePage**
 
- _expression_ A variable that represents an [InvisibleApp](./Visio.InvisibleApp.md) object.
+_expression_ A variable that represents an **[InvisibleApp](Visio.InvisibleApp.md)** object.
 
 
-### Return Value
+## Return value
 
 Page
 
 
 ## Remarks
 
-The  **ActivePage** property returns a **Page** object only when the active window displays a drawing page; otherwise, it returns **Nothing** . To verify that a page is active, use the **Is** operator to compare the **ActivePage** property with **Nothing** .
+The **ActivePage** property returns a **Page** object only when the active window displays a drawing page; otherwise, it returns **Nothing**. To verify that a page is active, use the **Is** operator to compare the **ActivePage** property with **Nothing**.
 
 It is possible to get the active window without qualification from the Microsoft Visio global object, which is automatically available to VBA code that is part of the VBA project of a Visio document. For example, you can use this code: 
-
-
-
 
 ```vb
 Set vsoPage = ActivePage
@@ -45,7 +43,6 @@ Set vsoPage = ActivePage
 ## Example
 
 This Microsoft Visual Basic for Applications (VBA) macro shows how to get the active page without qualification from the Visio global object, which is automatically available to VBA code that is part of the VBA project of a Visio document.
-
 
 ```vb
  
@@ -64,4 +61,4 @@ Public Sub ActivePage_Example()
 End Sub
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

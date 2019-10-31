@@ -2,267 +2,155 @@
 title: Functions (Visual Basic for Applications)
 ms.prod: office
 ms.assetid: c7ba6c33-7846-4a8c-bd9b-bafb96e07866
-ms.date: 06/08/2017
+ms.date: 12/13/2018
+localization_priority: Priority
 ---
 
 
 # Functions (Visual Basic for Applications)
 
-## In this section
+## Conversion functions
 
+- [Asc](user-interface-help/asc-function.md)
+- [Chr](user-interface-help/chr-function.md)
+- [CVErr](user-interface-help/cverr-function.md)
+- [Format](user-interface-help/format-function-visual-basic-for-applications.md)
+- [Hex](user-interface-help/hex-function.md)
+- [Oct](user-interface-help/oct-function.md)
+- [Str](user-interface-help/str-function.md)
+- [Val](user-interface-help/val-function.md)
 
-- [Abs Function](User-Interface-Help/abs-function.md)
-    
-- [Array Function](User-Interface-Help/array-function.md)
-    
-- [Asc Function](User-Interface-Help/asc-function.md)
-    
-- [Atn Function](User-Interface-Help/atn-function.md)
-    
-- [CallByName Function](User-Interface-Help/callbyname-function.md)
-    
-- [Choose Function](User-Interface-Help/choose-function.md)
-    
-- [Chr Function](User-Interface-Help/chr-function.md)
-    
-- [Command Function](User-Interface-Help/command-function.md)
-    
-- [Conversion Functions](User-Interface-Help/conversion-functions.md)
-    
-- [Cos Function](User-Interface-Help/cos-function.md)
-    
-- [CreateObject Function](User-Interface-Help/createobject-function.md)
-    
-- [CurDir Function](User-Interface-Help/curdir-function.md)
-    
-- [CVErr Function](User-Interface-Help/cverr-function.md)
-    
-- [Date Function](User-Interface-Help/date-function.md)
-    
-- [DateAdd Function](User-Interface-Help/dateadd-function.md)
-    
-- [DateDiff Function](User-Interface-Help/datediff-function.md)
-    
-- [DatePart Function](User-Interface-Help/datepart-function.md)
-    
-- [DateSerial Function](User-Interface-Help/dateserial-function.md)
-    
-- [DateValue Function](User-Interface-Help/datevalue-function.md)
-    
-- [Day Function](User-Interface-Help/day-function.md)
-    
-- [DDB Function](User-Interface-Help/ddb-function.md)
-    
-- [Derived Math Functions](User-Interface-Help/derived-math-functions.md)
-    
-- [Dir Function](User-Interface-Help/dir-function.md)
-    
-- [DoEvents Function](User-Interface-Help/doevents-function.md)
-    
-- [Environ Function](User-Interface-Help/environ-function.md)
-    
-- [EOF Function](User-Interface-Help/eof-function.md)
-    
-- [Error Function](User-Interface-Help/error-function.md)
-    
-- [Exp Function](User-Interface-Help/exp-function.md)
-    
-- [FileAttr Function](User-Interface-Help/fileattr-function.md)
-    
-- [FileDateTime Function](User-Interface-Help/filedatetime-function.md)
-    
-- [FileLen Function](User-Interface-Help/filelen-function.md)
-    
-- [Filter Function](User-Interface-Help/filter-function.md)
-    
-- [Format Function (Visual Basic for Applications)](User-Interface-Help/format-function-visual-basic-for-applications.md)
-    
-- [FormatCurrency Function](User-Interface-Help/formatcurrency-function.md)
-    
-- [FormatDateTime Function](User-Interface-Help/formatdatetime-function.md)
-    
-- [FormatNumber Function](User-Interface-Help/formatnumber-function.md)
-    
-- [FormatPercent Function](User-Interface-Help/formatpercent-function.md)
-    
-- [FreeFile Function](User-Interface-Help/freefile-function.md)
-    
-- [FV Function](User-Interface-Help/fv-function.md)
-    
-- [GetAllSettings Function](User-Interface-Help/getallsettings-function.md)
-    
-- [GetAttr Function](User-Interface-Help/getattr-function.md)
-    
-- [GetObject Function](User-Interface-Help/getobject-function.md)
-    
-- [GetSetting Function](User-Interface-Help/getsetting-function.md)
-    
-- [Hex Function](User-Interface-Help/hex-function.md)
-    
-- [Hour Function](User-Interface-Help/hour-function.md)
-    
-- [IIf Function](User-Interface-Help/iif-function.md)
-    
-- [IMEStatus Function](User-Interface-Help/imestatus-function.md)
-    
-- [Input Function](User-Interface-Help/input-function.md)
-    
-- [InputBox Function](User-Interface-Help/inputbox-function.md)
-    
-- [InStr Function](User-Interface-Help/instr-function.md)
-    
-- [InStrRev Function](User-Interface-Help/instrrev-function.md)
-    
-- [Int, Fix Functions](User-Interface-Help/int-fix-functions.md)
-    
-- [IPmt Function](User-Interface-Help/ipmt-function.md)
-    
-- [IRR Function](User-Interface-Help/irr-function.md)
-    
-- [IsArray Function](User-Interface-Help/isarray-function.md)
-    
-- [IsDate Function](User-Interface-Help/isdate-function.md)
-    
-- [IsEmpty Function](User-Interface-Help/isempty-function.md)
-    
-- [IsError Function](User-Interface-Help/iserror-function.md)
-    
-- [IsMissing Function](User-Interface-Help/ismissing-function.md)
-    
-- [IsNull Function](User-Interface-Help/isnull-function.md)
-    
-- [IsNumeric Function](User-Interface-Help/isnumeric-function.md)
-    
-- [IsObject Function](User-Interface-Help/isobject-function.md)
-    
-- [Join Function](User-Interface-Help/join-function.md)
-    
-- [LBound Function](User-Interface-Help/lbound-function.md)
-    
-- [LCase Function](User-Interface-Help/lcase-function.md)
-    
-- [Left Function](User-Interface-Help/left-function.md)
-    
-- [Len Function](User-Interface-Help/len-function.md)
-    
-- [Loc Function](User-Interface-Help/loc-function.md)
-    
-- [LOF Function](User-Interface-Help/lof-function.md)
-    
-- [Log Function](User-Interface-Help/log-function.md)
-    
-- [LTrim, RTrim, and Trim Functions](User-Interface-Help/ltrim-rtrim-and-trim-functions.md)
-    
-- [MacID Function](User-Interface-Help/macid-function.md)
-    
-- [MacScript Function](User-Interface-Help/macscript-function.md)
-    
-- [Math Functions](User-Interface-Help/math-functions.md)
-    
-- [Mid Function](User-Interface-Help/mid-function.md)
-    
-- [Minute Function](User-Interface-Help/minute-function.md)
-    
-- [MIRR Function](User-Interface-Help/mirr-function.md)
-    
-- [Month Function](User-Interface-Help/month-function.md)
-    
-- [MonthName Function](User-Interface-Help/monthname-function.md)
-    
-- [MsgBox Function](User-Interface-Help/msgbox-function.md)
-    
-- [Now Function](User-Interface-Help/now-function.md)
-    
-- [NPer Function](User-Interface-Help/nper-function.md)
-    
-- [NPV Function](User-Interface-Help/npv-function.md)
-    
-- [Oct Function](User-Interface-Help/oct-function.md)
-    
-- [Partition Function](User-Interface-Help/partition-function.md)
-    
-- [Pmt Function](User-Interface-Help/pmt-function.md)
-    
-- [PPmt Function](User-Interface-Help/ppmt-function.md)
-    
-- [PV Function](User-Interface-Help/pv-function.md)
-    
-- [QBColor Function](User-Interface-Help/qbcolor-function.md)
-    
-- [Rate Function](User-Interface-Help/rate-function.md)
-    
-- [Replace Function](User-Interface-Help/replace-function.md)
-    
-- [RGB Function](User-Interface-Help/rgb-function.md)
-    
-- [Right Function](User-Interface-Help/right-function.md)
-    
-- [Rnd Function](User-Interface-Help/rnd-function.md)
-    
-- [Round Function](User-Interface-Help/round-function.md)
-    
-- [Second Function](User-Interface-Help/second-function.md)
-    
-- [Seek Function](User-Interface-Help/seek-function.md)
-    
-- [Sgn Function](User-Interface-Help/sgn-function.md)
-    
-- [Shell Function](User-Interface-Help/shell-function.md)
-    
-- [Sin Function](User-Interface-Help/sin-function.md)
-    
-- [SLN Function](User-Interface-Help/sln-function.md)
-    
-- [Space Function](User-Interface-Help/space-function.md)
-    
-- [Spc Function](User-Interface-Help/spc-function.md)
-    
-- [Split Function](User-Interface-Help/split-function.md)
-    
-- [Sqr Function](User-Interface-Help/sqr-function.md)
-    
-- [Str Function](User-Interface-Help/str-function.md)
-    
-- [StrComp Function](User-Interface-Help/strcomp-function.md)
-    
-- [StrConv Function](User-Interface-Help/strconv-function.md)
-    
-- [String Function](User-Interface-Help/string-function.md)
-    
-- [StrReverse Function](User-Interface-Help/strreverse-function.md)
-    
-- [Switch Function](User-Interface-Help/switch-function.md)
-    
-- [SYD Function](User-Interface-Help/syd-function.md)
-    
-- [Tab Function](User-Interface-Help/tab-function.md)
-    
-- [Tan Function](User-Interface-Help/tan-function.md)
-    
-- [Time Function](User-Interface-Help/time-function.md)
-    
-- [Timer Function](User-Interface-Help/timer-function.md)
-    
-- [TimeSerial Function](User-Interface-Help/timeserial-function.md)
-    
-- [TimeValue Function](User-Interface-Help/timevalue-function.md)
-    
-- [Type Conversion Functions](../Concepts/Getting-Started/type-conversion-functions.md)
-    
-- [TypeName Function](User-Interface-Help/typename-function.md)
-    
-- [UBound Function](User-Interface-Help/ubound-function.md)
-    
-- [UCase Function](User-Interface-Help/ucase-function.md)
-    
-- [Val Function](User-Interface-Help/val-function.md)
-    
-- [VarType Function](User-Interface-Help/vartype-function.md)
-    
-- [Weekday Function](User-Interface-Help/weekday-function.md)
-    
-- [WeekdayName Function](User-Interface-Help/weekdayname-function.md)
-    
-- [Year Function](User-Interface-Help/year-function.md)
-    
+## Math functions
 
+- [Abs](user-interface-help/abs-function.md)
+- [Atn](user-interface-help/atn-function.md)
+- [Cos](user-interface-help/cos-function.md)
+- [Derived math](user-interface-help/derived-math-functions.md)
+- [Exp](user-interface-help/exp-function.md)
+- [Int, Fix](user-interface-help/int-fix-functions.md)
+- [Log](user-interface-help/log-function.md)
+- [Rnd](user-interface-help/rnd-function.md)
+- [Sgn](user-interface-help/sgn-function.md)
+- [Sin](user-interface-help/sin-function.md)
+- [Sqr](user-interface-help/sqr-function.md)
+- [Tan](user-interface-help/tan-function.md)
+
+## Type conversion functions
+
+- [Type conversion functions](../Concepts/Getting-Started/type-conversion-functions.md)
+
+## Other functions
+
+- [Array](user-interface-help/array-function.md)
+- [CallByName](user-interface-help/callbyname-function.md)
+- [Choose](user-interface-help/choose-function.md)
+- [Command](user-interface-help/command-function.md)
+- [CreateObject](user-interface-help/createobject-function.md)
+- [CurDir](user-interface-help/curdir-function.md)
+- [Date](user-interface-help/date-function.md)
+- [DateAdd](user-interface-help/dateadd-function.md)
+- [DateDiff](user-interface-help/datediff-function.md)
+- [DatePart](user-interface-help/datepart-function.md)
+- [DateSerial](user-interface-help/dateserial-function.md)
+- [DateValue](user-interface-help/datevalue-function.md)
+- [Day](user-interface-help/day-function.md)
+- [DDB](user-interface-help/ddb-function.md)
+- [Dir](user-interface-help/dir-function.md)
+- [DoEvents](user-interface-help/doevents-function.md)
+- [Environ](user-interface-help/environ-function.md)
+- [EOF](user-interface-help/eof-function.md)
+- [Error](user-interface-help/error-function.md)
+- [FileAttr](user-interface-help/fileattr-function.md)
+- [FileDateTime](user-interface-help/filedatetime-function.md)
+- [FileLen](user-interface-help/filelen-function.md)
+- [Filter](user-interface-help/filter-function.md)
+- [FormatCurrency](user-interface-help/formatcurrency-function.md)
+- [FormatDateTime](user-interface-help/formatdatetime-function.md)
+- [FormatNumber](user-interface-help/formatnumber-function.md)
+- [FormatPercent](user-interface-help/formatpercent-function.md)
+- [FreeFile](user-interface-help/freefile-function.md)
+- [FV](user-interface-help/fv-function.md)
+- [GetAllSettings](user-interface-help/getallsettings-function.md)
+- [GetAttr](user-interface-help/getattr-function.md)
+- [GetObject](user-interface-help/getobject-function.md)
+- [GetSetting](user-interface-help/getsetting-function.md)
+- [Hour](user-interface-help/hour-function.md)
+- [IIf](user-interface-help/iif-function.md)
+- [IMEStatus](user-interface-help/imestatus-function.md)
+- [Input](user-interface-help/input-function.md)
+- [InputBox](user-interface-help/inputbox-function.md)
+- [InStr](user-interface-help/instr-function.md)
+- [InStrRev](user-interface-help/instrrev-function.md)
+- [IPmt](user-interface-help/ipmt-function.md)
+- [IRR](user-interface-help/irr-function.md)
+- [IsArray](user-interface-help/isarray-function.md)
+- [IsDate](user-interface-help/isdate-function.md)
+- [IsEmpty](user-interface-help/isempty-function.md)
+- [IsError](user-interface-help/iserror-function.md)
+- [IsMissing](user-interface-help/ismissing-function.md)
+- [IsNull](user-interface-help/isnull-function.md)
+- [IsNumeric](user-interface-help/isnumeric-function.md)
+- [IsObject](user-interface-help/isobject-function.md)
+- [Join](user-interface-help/join-function.md)
+- [LBound](user-interface-help/lbound-function.md)
+- [LCase](user-interface-help/lcase-function.md)
+- [Left](user-interface-help/left-function.md)
+- [Len](user-interface-help/len-function.md)
+- [Loc](user-interface-help/loc-function.md)
+- [LOF](user-interface-help/lof-function.md)
+- [LTrim, RTrim, and Trim](user-interface-help/ltrim-rtrim-and-trim-functions.md)
+- [MacID](user-interface-help/macid-function.md)
+- [MacScript](user-interface-help/macscript-function.md)
+- [Mid](user-interface-help/mid-function.md)
+- [Minute](user-interface-help/minute-function.md)
+- [MIRR](user-interface-help/mirr-function.md)
+- [Month](user-interface-help/month-function.md)
+- [MonthName](user-interface-help/monthname-function.md)
+- [MsgBox](user-interface-help/msgbox-function.md)
+- [Now](user-interface-help/now-function.md)
+- [NPer](user-interface-help/nper-function.md)
+- [NPV](user-interface-help/npv-function.md)
+- [Partition](user-interface-help/partition-function.md)
+- [Pmt](user-interface-help/pmt-function.md)
+- [PPmt](user-interface-help/ppmt-function.md)
+- [PV](user-interface-help/pv-function.md)
+- [QBColor](user-interface-help/qbcolor-function.md)
+- [Rate](user-interface-help/rate-function.md)
+- [Replace](user-interface-help/replace-function.md)
+- [RGB](user-interface-help/rgb-function.md)
+- [Right](user-interface-help/right-function.md)
+- [Round](user-interface-help/round-function.md)
+- [Second](user-interface-help/second-function.md)
+- [Seek](user-interface-help/seek-function.md)
+- [Shell](user-interface-help/shell-function.md)
+- [SLN](user-interface-help/sln-function.md)
+- [Space](user-interface-help/space-function.md)
+- [Spc](user-interface-help/spc-function.md)
+- [Split](user-interface-help/split-function.md)
+- [StrComp](user-interface-help/strcomp-function.md)
+- [StrConv](user-interface-help/strconv-function.md)
+- [String](user-interface-help/string-function.md)
+- [StrReverse](user-interface-help/strreverse-function.md)
+- [Switch](user-interface-help/switch-function.md)
+- [SYD](user-interface-help/syd-function.md)
+- [Tab](user-interface-help/tab-function.md)
+- [Time](user-interface-help/time-function.md)
+- [Timer](user-interface-help/timer-function.md)
+- [TimeSerial](user-interface-help/timeserial-function.md)
+- [TimeValue](user-interface-help/timevalue-function.md)
+- [TypeName](user-interface-help/typename-function.md)
+- [UBound](user-interface-help/ubound-function.md)
+- [UCase](user-interface-help/ucase-function.md)
+- [VarType](user-interface-help/vartype-function.md)
+- [Weekday](user-interface-help/weekday-function.md)
+- [WeekdayName](user-interface-help/weekdayname-function.md)
+- [Year](user-interface-help/year-function.md)
+
+    
+## See also
+
+- [Data types](user-interface-help/data-type-summary.md)
+- [Keyword contexts](keywords-visual-basic-for-applications.md)
+- [Keywords by task](user-interface-help/keywords-by-task.md)
+
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

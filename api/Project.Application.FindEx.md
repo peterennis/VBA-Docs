@@ -1,5 +1,5 @@
 ---
-title: Application.FindEx Method (Project)
+title: Application.FindEx method (Project)
 keywords: vbapj.chm97
 f1_keywords:
 - vbapj.chm97
@@ -8,24 +8,25 @@ api_name:
 - Project.Application.FindEx
 ms.assetid: fdb2661e-f705-ffa4-1ca3-7bbc97b9958d
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Application.FindEx Method (Project)
+# Application.FindEx method (Project)
 
 Searches for an unfiltered value in a specified field or in all available fields; returns  **True** if the value is found.
 
 
 ## Syntax
 
-_expression_. **FindEx** (**_Field_**, **_Test_**, **_Value_**, **_Next_**, **_MatchCase_**, **_FieldID_**, **_TestID_**, **_SearchAllFields_**)
+_expression_.**FindEx** (_Field_, _Test_, _Value_, _Next_, _MatchCase_, _FieldID_, _TestID_, _SearchAllFields_)
 
-_expression_ An expression that returns an **Application** object.
+_expression_ An expression that returns an **[Application](Project.Application.md)** object.
 
 
-### Parameters
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _Field_|Optional|**String**|The name of the field to search.|
 | _Test_|Optional|**String**|The type of comparison made between Field and Value. Can be one of the following [comparison strings](#comparison-strings).|
@@ -38,9 +39,9 @@ _expression_ An expression that returns an **Application** object.
 
 <br/>
 
-#### Comparison strings
+### Comparison strings
 
-|**Comparison string**|**Description**|
+|Comparison string|Description|
 |:-----|:-----|
 |"equals"|The value of _Field_ equals _Value_.|
 |"does not equal"|The value of _Field_ does not equal _Value_.|
@@ -55,7 +56,7 @@ _expression_ An expression that returns an **Application** object.
 |"contains exactly"|_Field_ contains exactly _Value_.|
 
 
-### Return value
+## Return value
 
  **Boolean**
 
@@ -74,3 +75,4 @@ FindEx Field:="OtherField", value:="2", Test:="xx", FieldID:=pjTaskName, _
     TestID:=pjCompareContains, SearchAllFields:=True
 ```
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

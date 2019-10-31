@@ -1,5 +1,5 @@
 ---
-title: Application.FileFormatID Property (Project)
+title: Application.FileFormatID property (Project)
 keywords: vbapj.chm131218
 f1_keywords:
 - vbapj.chm131218
@@ -8,26 +8,27 @@ api_name:
 - Project.Application.FileFormatID
 ms.assetid: 86a6a5ce-6508-f1ad-b9cc-fb86fd96e410
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Application.FileFormatID Property (Project)
+# Application.FileFormatID property (Project)
 
 Gets a value that indicates the file format for the specified project. Possible formats are those that Project can directly open as a project file. Read-only  **String**.
 
 
 ## Syntax
 
- _expression_. `FileFormatID`( ` _Name_`, ` _UserID_`, ` _DatabasePassWord_` )
+_expression_. `FileFormatID`( `_Name_`, `_UserID_`, `_DatabasePassWord_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
-
-
-### Parameters
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _Name_|Required|**String**|Name of the project file.|
 | _UserID_|Optional|**Variant**|User name or identification number for project files stored in an ODBC database.|
@@ -59,6 +60,7 @@ The specified file must be a project file in the current directory. The  **FileF
 
 
 
- **Note**  For backward compatibility with project files that are accessible only through ODBC (Open Database Connectivity), Project can open files using an ODBC connection. To save any changes after you open the file, however, you must save the file in another format on the local computer or to Project Server.
+> [!NOTE] 
+> For backward compatibility with project files that are accessible only through ODBC (Open Database Connectivity), Project can open files using an ODBC connection. To save any changes after you open the file, however, you must save the file in another format on the local computer or to Project Server.
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

@@ -1,20 +1,21 @@
 ---
-title: PjVisualReportsTab Enumeration (Project)
+title: PjVisualReportsTab enumeration (Project)
 ms.prod: project-server
 api_name:
 - Project.PjVisualReportsTab
 ms.assetid: 5563864a-db5f-ef87-a1f5-7ed2b76a1380
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# PjVisualReportsTab Enumeration (Project)
+# PjVisualReportsTab enumeration (Project)
 
 Contains constants that specify which tab in the  **Visual Reports - Create Report** dialog box to display.
 
 
 
-|**Name**|**Value**|**Description**|
+|Name|Value|Description|
 |:-----|:-----|:-----|
 |**pjTabAll**|0|Show the  **All** tab, which contains all report types.|
 |**pjTabAssignmentNTP**|6|Show the tab for nontimephased assignment reports (the  **Assignment Summary** tab).|
@@ -24,3 +25,4 @@ Contains constants that specify which tab in the  **Visual Reports - Create Repo
 |**pjTabTaskNTP**|4|Show the tab for nontimephased task reports (the  **Task Summary** tab).|
 |**pjTabTaskTP**|1|Show the tab for timephased task reports (the  **Task Usage** tab).|
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

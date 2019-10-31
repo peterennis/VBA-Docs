@@ -6,12 +6,13 @@ f1_keywords:
 ms.prod: office
 ms.assetid: 31786025-b2c7-8046-4c15-f6bdfad54778
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
 # Type mismatch: array or user-defined type expected
 
-The type of an [argument](../../Glossary/vbe-glossary.md#argument) or[parameter](../../Glossary/vbe-glossary.md#parameter) includes whether or not it is an[array](../../Glossary/vbe-glossary.md#array) or a[user-defined type](../../Glossary/vbe-glossary.md#user-defined-type). This error has the following cause and solution:
+The type of an [argument](../../Glossary/vbe-glossary.md#argument) or [parameter](../../Glossary/vbe-glossary.md#parameter) includes whether or not it is an [array](../../Glossary/vbe-glossary.md#array) or a [user-defined type](../../Glossary/vbe-glossary.md#user-defined-type). This error has the following cause and solution:
 
 
 
@@ -24,3 +25,4 @@ The type of an [argument](../../Glossary/vbe-glossary.md#argument) or[parameter]
 
 For additional information, select the item in question and press F1 (in Windows) or HELP (on the Macintosh).
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

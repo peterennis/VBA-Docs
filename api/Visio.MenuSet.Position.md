@@ -1,5 +1,5 @@
 ---
-title: MenuSet.Position Property (Visio)
+title: MenuSet.Position property (Visio)
 keywords: vis_sdr.chm13314095
 f1_keywords:
 - vis_sdr.chm13314095
@@ -8,22 +8,23 @@ api_name:
 - Visio.MenuSet.Position
 ms.assetid: 2e970661-b8d6-a886-ad26-89759272af9d
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# MenuSet.Position Property (Visio)
+# MenuSet.Position property (Visio)
 
 Gets or sets the position of an object. Read/write.
 
 
 ## Syntax
 
- _expression_. `Position`
+_expression_.**Position**
 
- _expression_ A variable that represents a [MenuSet](./Visio.MenuSet.md) object.
+_expression_ A variable that represents a **[MenuSet](Visio.MenuSet.md)** object.
 
 
-### Return Value
+## Return value
 
 Integer
 
@@ -31,13 +32,14 @@ Integer
 ## Remarks
 
 
- **Note**  Starting with Visio, the Microsoft Office Fluent user interface (UI) replaces the previous system of layered menus, toolbars, and task panes. VBA objects and members that you used to customize the user interface in previous versions of Visio are still available in Visio, but they function differently.
+> [!NOTE] 
+> Starting with Visio 2010, the Microsoft Office Fluent user interface (UI) replaced the previous system of layered menus, toolbars, and task panes. VBA objects and members that you used to customize the user interface in previous versions of Visio are still available in Visio, but they function differently.
 
-Constants that represent possible  **Position** property values are listed below. They are also declared by the Visio type library in **VisUIBarPosition** .
+Constants that represent possible **Position** property values are listed below. They are also declared by the Visio type library in **VisUIBarPosition**.
 
 
 
-|** Constant**|** Value**|
+|Constant|Value|
 |:-----|:-----|
 | **visBarLeft**|0|
 | **visBarTop**|1|
@@ -47,3 +49,4 @@ Constants that represent possible  **Position** property values are listed below
 | **visBarPopup**|5|
 | **visBarMenu**|6|
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

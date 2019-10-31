@@ -1,5 +1,5 @@
 ---
-title: Application.FontEx Method (Project)
+title: Application.FontEx method (Project)
 keywords: vbapj.chm937
 f1_keywords:
 - vbapj.chm937
@@ -8,26 +8,27 @@ api_name:
 - Project.Application.FontEx
 ms.assetid: 4904d4b1-dacb-8020-0c4e-3af0503c68ba
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Application.FontEx Method (Project)
+# Application.FontEx method (Project)
 
 Sets the font for the text in the active cells.
 
 
 ## Syntax
 
- _expression_. `FontEx`( ` _Name_`, ` _Size_`, ` _Bold_`, ` _Italic_`, ` _Underline_`, ` _Color_`, ` _Reset_`, ` _CellColor_`, ` _Pattern_` )
+_expression_. `FontEx`( `_Name_`, `_Size_`, `_Bold_`, `_Italic_`, `_Underline_`, `_Color_`, `_Reset_`, `_CellColor_`, `_Pattern_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
-
-
-### Parameters
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _Name_|Optional|**String**|The name of the font.|
 | _Size_|Optional|**Integer**|The size of the font in points.|
@@ -39,7 +40,7 @@ Sets the font for the text in the active cells.
 | _CellColor_|Optional|**Variant**|The color of the cell. Can be one of the  **[PjColor](Project.PjColor.md)** constants.|
 | _Pattern_|Optional|**Variant**|Background pattern of the cell. Can be one of the  **[PjFillPattern](Project.PjFillPattern.md)** constants.|
 
-### Return Value
+## Return value
 
  **Boolean**
 
@@ -60,4 +61,4 @@ Sub FormatTahoma16()
 End Sub
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

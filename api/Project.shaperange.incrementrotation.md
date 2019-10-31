@@ -1,32 +1,33 @@
 ---
-title: ShapeRange.IncrementRotation Method (Project)
+title: ShapeRange.IncrementRotation method (Project)
 ms.prod: project-server
 ms.assetid: 404bd4de-7c5f-3107-baa1-63c4c3362537
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# ShapeRange.IncrementRotation Method (Project)
+# ShapeRange.IncrementRotation method (Project)
 Rotates each shape in the shape range around the z-axis by the specified number of degrees.
 
 ## Syntax
 
- _expression_. `IncrementRotation` _(Increment)_
+_expression_. `IncrementRotation` _(Increment)_
 
- _expression_ A variable that represents a 'ShapeRange' object.
-
-
-### Parameters
+_expression_ A variable that represents a 'ShapeRange' object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _Increment_|Required|**Single**|The number of degrees each shape is to be rotated. A positive value rotates the shapes clockwise; a negative value rotates the shapes counterclockwise.|
 | _Increment_|Required|FLOAT||
 |Name|Required/Optional|Data type|Description|
 
-### Return value
+## Return value
 
  **Nothing**
 
@@ -68,3 +69,5 @@ End Sub
 
 
 [ShapeRange Object](Project.shaperange.md)
+
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

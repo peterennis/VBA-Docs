@@ -1,5 +1,5 @@
 ---
-title: InvisibleApp.TraceFlags Property (Visio)
+title: InvisibleApp.TraceFlags property (Visio)
 keywords: vis_sdr.chm17514590
 f1_keywords:
 - vis_sdr.chm17514590
@@ -8,22 +8,23 @@ api_name:
 - Visio.InvisibleApp.TraceFlags
 ms.assetid: 88961668-0d06-de44-0a05-d211df6c44f4
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# InvisibleApp.TraceFlags Property (Visio)
+# InvisibleApp.TraceFlags property (Visio)
 
 Gets or sets events logged during a Microsoft Visio instance. Read/write.
 
 
 ## Syntax
 
- _expression_. `TraceFlags`
+_expression_.**TraceFlags**
 
- _expression_ A variable that represents an [InvisibleApp](./Visio.InvisibleApp.md) object.
+_expression_ A variable that represents an **[InvisibleApp](Visio.InvisibleApp.md)** object.
 
 
-### Return Value
+## Return value
 
 Long
 
@@ -34,12 +35,12 @@ The value of the  **TraceFlags** property can be a combination of the following 
 
 
 
-|**Constant**|**Value**|**Description**|
+|Constant|Value|Description|
 |:-----|:-----|:-----|
-| **visTraceEvents**|&;H1|Event occurrences|
-| **visTraceAdvises**|&;H2|Outgoing advise calls|
-| **visTraceAddonInvokes**|&;H4|Add-on invocations|
-| **visTraceCallsToVBA**|&;H8|VBA invocations|
+| **visTraceEvents**|&H1|Event occurrences|
+| **visTraceAdvises**|&H2|Outgoing advise calls|
+| **visTraceAddonInvokes**|&H4|Add-on invocations|
+| **visTraceCallsToVBA**|&H8|VBA invocations|
 
 Setting the  **visTraceEvents** flag causes Visio to log most events as they happen and display them in the Immediate window. In most cases this occurs even if no external agent is listening or responding to the event. In a few cases, Visio knows there is no listener for an event and does not log those events. Visio also does not log idle events or advises. In addition, some events are specializations of other events and aren't recorded. For example, the **SelectionAdded** event is manufactured from distinct **ShapeAdded** events, so the Immediate window records the **ShapeAdded** events but not the **SelectionAdded** events.
 
@@ -54,7 +55,7 @@ Here is a string Visio might log when  **visTraceEvents** is set:
 
 The number after -event: is the code of the event that occurred. In this case 0x8040 is the code for the  **ShapeAdded** event. The text following the event code differs from event to event.
 
-Setting the  **visTraceAdvises** flag writes a line to the Immediate window just before Visio calls an event handler procedure and another line just after the event handler returns. This includes event procedures in Microsoft Visual Basic for Applications (VBA) projects, for example, procedures in **ThisDocument** . Here is an example of what you might see:
+Setting the  **visTraceAdvises** flag writes a line to the Immediate window just before Visio calls an event handler procedure and another line just after the event handler returns. This includes event procedures in Microsoft Visual Basic for Applications (VBA) projects, for example, procedures in **ThisDocument**. Here is an example of what you might see:
 
 
 
@@ -113,4 +114,4 @@ Public Sub TraceFlags_Example()
 End Sub
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

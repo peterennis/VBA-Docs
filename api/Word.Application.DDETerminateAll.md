@@ -1,5 +1,5 @@
 ---
-title: Application.DDETerminateAll Method (Word)
+title: Application.DDETerminateAll method (Word)
 keywords: vbawd10.chm158335291
 f1_keywords:
 - vbawd10.chm158335291
@@ -8,29 +8,25 @@ api_name:
 - Word.Application.DDETerminateAll
 ms.assetid: 1e8a0805-9bdd-add9-7184-533a0d2c5d9d
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Application.DDETerminateAll Method (Word)
+# Application.DDETerminateAll method (Word)
 
 Closes all dynamic data exchange (DDE) channels opened by Microsoft Word.
 
 
 ## Syntax
 
- _expression_. `DDETerminateAll`
+_expression_. `DDETerminateAll`
 
- _expression_ A variable that represents an '[Application](Word.Application.md)' object. Optional.
+_expression_ A variable that represents an **[Application](Word.Application.md)** object.  Optional.
 
 
 ## Remarks
 
 This method does not close channels opened to Word by client applications. Using this method is the same as using the  **[DDETerminate](Word.Application.DDETerminate.md)** method for each open channel.
-
-
- **Security Note**  
-
-
 
 If you interrupt a macro that opens a DDE channel, you may inadvertently leave a channel open. Open channels are not closed automatically when a macro ends, and each open channel uses system resources. For this reason, it is a good idea to use this method when you are debugging a macro that opens one or more DDE channels.
 
@@ -59,3 +55,4 @@ DDETerminateAll
 
 [Application Object](Word.Application.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

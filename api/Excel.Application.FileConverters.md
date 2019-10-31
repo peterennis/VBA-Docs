@@ -1,5 +1,5 @@
 ---
-title: Application.FileConverters Property (Excel)
+title: Application.FileConverters property (Excel)
 keywords: vbaxl10.chm133134
 f1_keywords:
 - vbaxl10.chm133134
@@ -7,38 +7,35 @@ ms.prod: excel
 api_name:
 - Excel.Application.FileConverters
 ms.assetid: 7aebb0b3-6143-8dce-9893-e15decfe1c09
-ms.date: 06/08/2017
+ms.date: 04/04/2019
+localization_priority: Normal
 ---
 
 
-# Application.FileConverters Property (Excel)
+# Application.FileConverters property (Excel)
 
-Returns information about installed file converters. Returns  **null** if there are no converters installed. Read-only **Variant** .
+Returns information about installed file converters. Returns **null** if there are no converters installed. Read-only **Variant**.
 
 
 ## Syntax
 
- _expression_. `FileConverters`( `_Index1_` , `_Index2_` )
+_expression_.**FileConverters** (_Index1_, _Index2_)
 
- _expression_ A variable that represents an [Application](Excel.Application(Graph property).md) object.
-
-
-### Parameters
+_expression_ A variable that represents an **[Application](Excel.Application(object).md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _Index1_|Optional| **Variant**|The long name of the converter, including the file-type search string in Windows (for example, "Lotus 1-2-3 Files (*.wk*)").|
 | _Index2_|Optional| **Variant**|The path of the converter DLL or code resource.|
 
 ## Remarks
 
-If you don?t specify the index arguments, this property returns an array that containing information about all the installed file converters. Each row in the array contains information about a single file converter, as shown in the following table.
+If you don't specify the index arguments, this property returns an array that contains information about all the installed file converters. Each row in the array contains information about a single file converter, as shown in the following table.
 
-
-
-|**Column**|**Contents**|
+|Column|Contents|
 |:-----|:-----|
 |1|The long name of the converter|
 |2|The path of the converter DLL or code resource|
@@ -47,7 +44,6 @@ If you don?t specify the index arguments, this property returns an array that co
 ## Example
 
 This example displays a message if the Multiplan file converter is installed.
-
 
 ```vb
 installedCvts = Application.FileConverters 
@@ -68,8 +64,5 @@ End If
 ```
 
 
-## See also
 
-
-[Application Object](Excel.Application(object).md)
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

@@ -1,20 +1,21 @@
 ---
-title: XlChartItem Enumeration (Excel)
+title: XlChartItem enumeration (Excel)
 ms.prod: excel
 api_name:
-- Excel.XlChartItem
+- Excel.xlChartItem
 ms.assetid: 34a85683-2693-10b3-cdb2-e40e123071ad
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# XlChartItem Enumeration (Excel)
+# XlChartItem enumeration (Excel)
 
 Specifies the type of the chart item.
 
 
 
-|**Name**|**Value**|**Description**|
+|Name|Value|Description|
 |:-----|:-----|:-----|
 | **xlAxis**|21|Axis.|
 | **xlAxisTitle**|17|Axis title.|
@@ -49,3 +50,4 @@ Specifies the type of the chart item.
 | **xlXErrorBars**|10|X error bars.|
 | **xlYErrorBars**|11|Y error bars.|
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

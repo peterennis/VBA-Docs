@@ -1,5 +1,5 @@
 ---
-title: Shapes.AddPlaceholder Method (PowerPoint)
+title: Shapes.AddPlaceholder method (PowerPoint)
 keywords: vbapp10.chm543024
 f1_keywords:
 - vbapp10.chm543024
@@ -8,26 +8,27 @@ api_name:
 - PowerPoint.Shapes.AddPlaceholder
 ms.assetid: 10927d59-1810-2f91-eb52-c42113570ccc
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Shapes.AddPlaceholder Method (PowerPoint)
+# Shapes.AddPlaceholder method (PowerPoint)
 
 Restores a previously deleted placeholder on a slide. Returns a  **[Shape](PowerPoint.Shape.md)** object that represents the restored placeholder.
 
 
 ## Syntax
 
- _expression_. `AddPlaceholder`( `_Type_`, `_Left_`, `_Top_`, `_Width_`, `_Height_` )
+_expression_. `AddPlaceholder`( `_Type_`, `_Left_`, `_Top_`, `_Width_`, `_Height_` )
 
- _expression_ A variable that represents a [Shapes](./PowerPoint.Shapes.md) object.
-
-
-### Parameters
+_expression_ A variable that represents a **[Shapes](PowerPoint.Shapes.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _Type_|Required|**[PpPlaceholderType](PowerPoint.PpPlaceholderType.md)**|The type of placeholder. Placeholders of type  **ppPlaceholderVerticalBody** or **ppPlaceholderVerticalTitle** are found only on slides of layout type **ppLayoutVerticalText**, **ppLayoutClipArtAndVerticalText**, **ppLayoutVerticalTitleAndText**, or **ppLayoutVerticalTitleAndTextOverChart**. You cannot create slides with any of these layouts from the user interface; you must create them programmatically by using the **Add** method or by setting the **Layout** property of an existing slide.|
 | _Left_|Optional|**Single**|The position (in points) of the upper-left corner of the placeholder relative to the upper-left corner of the document.|
@@ -35,7 +36,7 @@ Restores a previously deleted placeholder on a slide. Returns a  **[Shape](Power
 | _Width_|Optional|**Single**|The width of the placeholder, in points.|
 | _Height_|Optional|**Single**|The height of the placeholder, in points.|
 
-### Return Value
+## Return value
 
 Shape
 
@@ -70,3 +71,4 @@ Application.ActivePresentation.Slides(2) _
 
 [Shapes Object](PowerPoint.Shapes.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

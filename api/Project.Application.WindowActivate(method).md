@@ -1,5 +1,5 @@
 ---
-title: Application.WindowActivate Method (Project)
+title: Application.WindowActivate method (Project)
 keywords: vbapj.chm705
 f1_keywords:
 - vbapj.chm705
@@ -8,32 +8,33 @@ api_name:
 - Project.Application.WindowActivate
 ms.assetid: 8b9b39f8-39e5-b162-d8d9-de9838f7b39e
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Application.WindowActivate Method (Project)
+# Application.WindowActivate method (Project)
 
 Activates a window.
 
 
 ## Syntax
 
- _expression_. `WindowActivate`( ` _WindowName_`, ` _DialogID_`, ` _TopPane_` )
+_expression_. `WindowActivate`( `_WindowName_`, `_DialogID_`, `_TopPane_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
-
-
-### Parameters
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _WindowName_|Optional|**String**|The name of the window to activate. The name of a window is the exact text that appears in the title bar of the window. The default is the name of the active window.|
 | _DialogID_|Optional|**Long**|A constant specifying the dialog box to activate. Can be the following  **[PjDialog](Project.PjDialog.md)** constant: **pjResourceAssignment**.|
 | _TopPane_|Optional|**Boolean**|**True** if Project should activate the upper pane. The default value is **True**.|
 
-### Return Value
+## Return value
 
  **Boolean**
 
@@ -88,4 +89,4 @@ Sub ChangeBookmarkedWindowName()
 End Sub
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

@@ -1,5 +1,5 @@
 ---
-title: NameSpace.OpenSharedItem Method (Outlook)
+title: NameSpace.OpenSharedItem method (Outlook)
 keywords: vbaol11.chm789
 f1_keywords:
 - vbaol11.chm789
@@ -8,30 +8,31 @@ api_name:
 - Outlook.NameSpace.OpenSharedItem
 ms.assetid: ebfed85c-0af5-eb72-7a58-ae9e8b655347
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# NameSpace.OpenSharedItem Method (Outlook)
+# NameSpace.OpenSharedItem method (Outlook)
 
 Opens a shared item from a specified path or URL.
 
 
 ## Syntax
 
- _expression_. `OpenSharedItem`( `_Path_` )
+_expression_. `OpenSharedItem`( `_Path_` )
 
  _expression_ An expression that returns a '[NameSpace](Outlook.NameSpace.md)' object.
 
 
-### Parameters
+## Parameters
 
 
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _Path_|Required| **String**|The path or URL of the shared item to be opened.|
 
-### Return Value
+## Return value
 
 An  **Object** representing the appropriate Outlook item for the shared item.
 
@@ -47,7 +48,8 @@ This method is used to open iCalendar appointment (.ics) files, vCard (.vcf) fil
 |vCard (.vcf) file| **[ContactItem](Outlook.ContactItem.md)**|
 |Outlook message (.msg) file|Type corresponds to the type of the item that was saved as the .msg file|
 
- **Note**  This method does not support iCalendar calendar (.ics) files. To open iCalendar calendar files, you can use the  **[OpenSharedFolder](Outlook.NameSpace.OpenSharedFolder.md)** method of the **NameSpace** object.
+> [!NOTE] 
+> This method does not support iCalendar calendar (.ics) files. To open iCalendar calendar files, you can use the  **[OpenSharedFolder](Outlook.NameSpace.OpenSharedFolder.md)** method of the **NameSpace** object.
 
 
 ## See also
@@ -55,3 +57,4 @@ This method is used to open iCalendar appointment (.ics) files, vCard (.vcf) fil
 
 [NameSpace Object](Outlook.NameSpace.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

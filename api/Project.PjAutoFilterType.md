@@ -1,20 +1,19 @@
 ---
-title: PjAutoFilterType Enumeration (Project)
+title: PjAutoFilterType enumeration (Project)
 ms.prod: project-server
 api_name:
 - Project.PjAutoFilterType
 ms.assetid: f7bd2ed9-90a1-63e9-493c-28c9c944795b
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# PjAutoFilterType Enumeration (Project)
+# PjAutoFilterType enumeration (Project)
 
 Contains constants that specify how to set the automatic filter.
 
-
-
-|**Name**|**Value**|**Description**|
+|Name|Value|Description|
 |:-----|:-----|:-----|
 |**pjAutoFilter1DayOrLess**|22|Filter for items that are one day or shorter.|
 |**pjAutoFilter1WeekOrLonger**|24|Filter for items that are one week or longer.|
@@ -77,3 +76,4 @@ Contains constants that specify how to set the automatic filter.
 |**pjAutoFilterYearToDate**|18|Filter for items that occur within the year to date.|
 |**pjAutoFilterYesterday**|5|Filter for items that occur yesterday.|
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

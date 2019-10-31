@@ -1,24 +1,21 @@
 ---
-title: Handline Errors in Visual J++
+title: Handline errors in Visual J++
 ms.prod: access
 ms.assetid: 100fca9d-38e3-e31c-71ce-29c928fbef88
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Handline Errors in Visual J++
-
-  
+# Handline errors in Visual J++
 
 **Applies to:** Access 2013 | Access 2016
 
-Handle ADO errors in your Microsoft Visual J++ applications using a  **try catch** block. Once an error has been thrown, you can iterate through the collection, successively handling each error. The following Visual J++ example shows a console application that deliberately causes an error.
+Handle ADO errors in your Microsoft Visual J++ applications using a **try catch** block. Once an error has been thrown, you can iterate through the collection, successively handling each error. The following Visual J++ example shows a console application that deliberately causes an error.
 
-When the  **catch** block is activated, it calls the PrintProviderError function to display the errors. The PrintProviderError function iterates through the **Errors** collection and sends a line to the standard output device that describes each error in the collection.
+When the **catch** block is activated, it calls the PrintProviderError function to display the errors. The PrintProviderError function iterates through the **Errors** collection and sends a line to the standard output device that describes each error in the collection.
 
-
-
-```c#
+```cs
  
 // BeginErrorExampleVJ 
 /** 
@@ -116,9 +113,11 @@ public class ErrorExample
 
 ## See also
 
-- [Access for developers forum on MSDN](https://social.msdn.microsoft.com/Forums/office/en-US/home?forum=accessdev)
+- [Access for developers forum](https://social.msdn.microsoft.com/Forums/office/home?forum=accessdev)
 - [Access help on support.office.com](https://support.office.com/search/results?query=Access)
-- [Access help on answers.microsoft.com](https://answers.microsoft.com/en-us/msoffice/forum?page=1&;tab=question&;status=all&;auth=1)
+- [Access help on answers.microsoft.com](https://answers.microsoft.com/)
 - [Access forums on UtterAccess](http://www.utteraccess.com/forum/index.php?act=idx)
 - [Access developer and VBA programming help center (FMS)](http://www.fmsinc.com/MicrosoftAccess/developer/)
 - [Access posts on StackOverflow](https://stackoverflow.com/questions/tagged/ms-access)
+
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

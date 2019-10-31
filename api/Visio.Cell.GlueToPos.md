@@ -1,5 +1,5 @@
 ---
-title: Cell.GlueToPos Method (Visio)
+title: Cell.GlueToPos method (Visio)
 keywords: vis_sdr.chm10116340
 f1_keywords:
 - vis_sdr.chm10116340
@@ -8,39 +8,38 @@ api_name:
 - Visio.Cell.GlueToPos
 ms.assetid: 9f9e10f2-030f-f7ad-be04-ea2804c20cb4
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Cell.GlueToPos Method (Visio)
+# Cell.GlueToPos method (Visio)
 
 Glues one shape to another from a cell in the first shape to an  _x_, _y_ position in the second shape.
 
 
 ## Syntax
 
- _expression_. `GlueToPos`( `_SheetObject_` , `_xPercent_` , `_yPercent_` )
+_expression_.**GlueToPos** (_SheetObject_, _xPercent_, _yPercent_)
 
- _expression_ A variable that represents a [Cell](./Visio.Cell.md) object.
-
-
-### Parameters
+_expression_ A variable that represents a **[Cell](Visio.Cell.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-| _SheetObject_|Required| **[IVSHAPE]**|An expression that returns the  **Shape** object to be glued to.|
+| _SheetObject_|Required| **[IVSHAPE]**|An expression that returns the **Shape** object to be glued to.|
 | _xPercent_|Required| **Double**|The x-coordinate of the position to glue to.|
 | _yPercent_|Required| **Double**|The y-coordinate of the position to glue to.|
 
-### Return Value
+## Return value
 
 Nothing
 
 
 ## Remarks
 
-The  **GlueToPos** method creates a new connection point at the location determined by _xPercent_ and _yPercent_, which represent decimal fractions of the specified shape's width and height, respectively, rather than coordinates. For example, the following creates a connection point at the center of  _SheetObject_ and glues the part of the shape that _cellObject_ represents to that point:
+The **GlueToPos** method creates a new connection point at the location determined by _xPercent_ and _yPercent_, which represent decimal fractions of the specified shape's width and height, respectively, rather than coordinates. For example, the following creates a connection point at the center of  _SheetObject_ and glues the part of the shape that _cellObject_ represents to that point:
 
  _cellObject_. **GlueToPos**_SheetObject_, 0.5, 0.5
 
@@ -49,7 +48,7 @@ Gluing the X cell of a Controls section row or a BeginX or EndX cell automatical
 
 ## Example
 
-The following example shows how to use the  **GlueToPos** method to glue shapes together.
+The following example shows how to use the **GlueToPos** method to glue shapes together.
 
 
 ```vb
@@ -75,15 +74,15 @@ Public Sub GlueToPos_Example()
  Set vsoCellGlueFromBegin = vso1DShape.Cells("BeginX") 
  Set vsoCellGlueFromEnd = vso1DShape.Cells("EndX") 
  
- 'Use the GlueToPos method to glue the begin point of the 1-D shape 
- 'to the top center of the lower 2-D shape. 
+ 'Use the GlueToPos method to glue the begin point of the 1D shape 
+ 'to the top center of the lower 2D shape. 
  vsoCellGlueFromBegin.GlueToPos vso2DShape1, 0.5, 1 
  
- 'Use the GlueToPos method to glue the endpoint of the 1-D shape 
- 'to the bottom center of the upper 2-D shape. 
+ 'Use the GlueToPos method to glue the endpoint of the 1D shape 
+ 'to the bottom center of the upper 2D shape. 
  vsoCellGlueFromEnd.GlueToPos vso2DShape2, 0.5, 0 
  
 End Sub
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

@@ -1,5 +1,5 @@
 ---
-title: Cell Object (Word)
+title: Cell object (Word)
 keywords: vbawd10.chm2382
 f1_keywords:
 - vbawd10.chm2382
@@ -8,17 +8,18 @@ api_name:
 - Word.Cell
 ms.assetid: cbe6ae71-b2da-63a9-1446-0a2f81ab8b14
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Cell Object (Word)
+# Cell object (Word)
 
 Represents a single table cell. The  **Cell** object is a member of the **[Cells](Word.cells.md)** collection. The **Cells** collection represents all the cells in the specified object.
 
 
 ## Remarks
 
-Use  **[Cell](Word.Table.Cell.md)** (row, column), where row is the row number and column is the column number, or **Cells** (index), where index is the index number, to return a **Cell** object. The following example applies shading to the second cell in the first row.
+Use  **[Cell](Word.Table.Cell.md)** (row, column), where row is the row number and column is the column number, or **Cells** (_index_), where _index_ is the index number, to return a **Cell** object. The following example applies shading to the second cell in the first row.
 
 
 ```vb
@@ -81,6 +82,6 @@ End If
 ## See also
 
 
-[Word Object Model Reference](./overview/Word/object-model.md)
+[Word Object Model Reference](overview/Word/object-model.md)
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

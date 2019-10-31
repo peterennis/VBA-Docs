@@ -1,5 +1,5 @@
 ---
-title: Filter.Apply Method (Project)
+title: Filter.Apply method (Project)
 keywords: vbapj.chm132210
 f1_keywords:
 - vbapj.chm132210
@@ -8,30 +8,31 @@ api_name:
 - Project.Filter.Apply
 ms.assetid: bc9a406c-d4ae-0fa5-a5b1-70bf3520fac4
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Filter.Apply Method (Project)
+# Filter.Apply method (Project)
 
 Applies the filter to the current view.
 
 
 ## Syntax
 
- _expression_. `Apply`( ` _Highlight_` )
+_expression_.**Apply** (_Highlight_)
 
- _expression_ An expression that returns a [Filter](./Project.Filter.md) object.
-
-
-### Parameters
+_expression_ An expression that returns a [Filter](./Project.Filter.md) object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _Highlight_|Optional|**Boolean**|If  **True**, highlights the filtered items within the list of all items. If **False**, shows only the filtered items in the view. The default is **False**.|
 
-### Return Value
+## Return value
 
  **Nothing**
 
@@ -45,4 +46,4 @@ If the current view is a task view, the following example highlights the critica
 ActiveProject.TaskFilters("Critical").Apply Highlight:=True
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

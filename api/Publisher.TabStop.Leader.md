@@ -1,5 +1,5 @@
 ---
-title: TabStop.Leader Property (Publisher)
+title: TabStop.Leader property (Publisher)
 keywords: vbapb10.chm5636101
 f1_keywords:
 - vbapb10.chm5636101
@@ -7,36 +7,36 @@ ms.prod: publisher
 api_name:
 - Publisher.TabStop.Leader
 ms.assetid: a788bdc8-8ab3-fcd3-931a-a5b83db93991
-ms.date: 06/08/2017
+ms.date: 06/15/2019
+localization_priority: Normal
 ---
 
 
-# TabStop.Leader Property (Publisher)
+# TabStop.Leader property (Publisher)
 
-Sets or returns a  **PbTabLeaderType** constant that represents the leader character for a tab stop. Read/write.
+Sets or returns a **[PbTabLeaderType](Publisher.PbTabLeaderType.md)** constant that represents the leader character for a tab stop. Read/write.
 
 
 ## Syntax
 
- _expression_. **Leader**
+_expression_.**Leader**
 
- _expression_ A variable that represents a  **TabStop** object.
+_expression_ A variable that represents a **[TabStop](Publisher.TabStop.md)** object.
 
 
-### Return Value
+## Return value
 
 PbTabLeaderType
 
 
 ## Remarks
 
-The  **Leader** property value can be one of the **[PbTabLeaderType](Publisher.PbTabLeaderType.md)** constants declared in the Microsoft Publisher type library.
+The **Leader** property value can be one of the **PbTabLeaderType** constants declared in the Microsoft Publisher type library.
 
 
 ## Example
 
 This example changes the leader tab character of the selected paragraphs to dashes. This example assumes that the selected paragraph contains at least one tab stop.
-
 
 ```vb
 Sub SetLeaderTab() 
@@ -45,10 +45,9 @@ Sub SetLeaderTab()
 End Sub
 ```
 
+<br/>
+
 This example changes the leader tab character of the first paragraph in the specified text range to an underline. This example assumes that the specified paragraph contains at least one tab stop.
-
-
-
 
 ```vb
 Sub SetNewTabLeader() 
@@ -57,4 +56,4 @@ Sub SetNewTabLeader()
 End Sub
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

@@ -1,5 +1,5 @@
 ---
-title: Shape.CellsU Property (Visio)
+title: Shape.CellsU property (Visio)
 keywords: vis_sdr.chm11251955
 f1_keywords:
 - vis_sdr.chm11251955
@@ -8,30 +8,31 @@ api_name:
 - Visio.Shape.CellsU
 ms.assetid: bee20521-6515-8a3b-e861-104f7cc71c26
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Shape.CellsU Property (Visio)
+# Shape.CellsU property (Visio)
 
 Returns a  **Cell** object that represents a ShapeSheet cell. Read-only.
 
 
 ## Syntax
 
- _expression_. `CellsU`( `_localeIndependentCellName_` )
+_expression_. `CellsU`( `_localeIndependentCellName_` )
 
- _expression_ A variable that represents a [Shape](./Visio.Shape.md) object.
-
-
-### Parameters
+_expression_ A variable that represents a **[Shape](Visio.Shape.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _localeIndependentCellName_|Required| **String**|The name of a ShapeSheet cell.|
 
-### Return Value
+## Return value
 
 Cell
 
@@ -83,7 +84,8 @@ where  _xxx_ is one of these cells: Label, Prompt, SortKey, Type, Format, Invisi
 
 
 
- **Note**  Beginning with Microsoft Visio 2000, you can use both local and universal names to refer to Visio shapes, masters, documents, pages, rows, add-ons, cells, hyperlinks, styles, fonts, master shortcuts, UI objects, and layers. When a user names a shape, for example, the user is specifying a local name. Beginning with Microsoft Office Visio 2003, the ShapeSheet spreadsheet displays only universal names in cell formulas and values. (In prior versions, universal names were not visible in the user interface.) 
+> [!NOTE] 
+> Beginning with Microsoft Visio 2000, you can use both local and universal names to refer to Visio shapes, masters, documents, pages, rows, add-ons, cells, hyperlinks, styles, fonts, master shortcuts, UI objects, and layers. When a user names a shape, for example, the user is specifying a local name. Beginning with Microsoft Office Visio 2003, the ShapeSheet spreadsheet displays only universal names in cell formulas and values. (In prior versions, universal names were not visible in the user interface.) 
 
 As a developer, you can use universal names in a program when you don't want to change a name each time a solution is localized. Use the  **Cells** property to get a **Cell** object by using the cell's local name. Use the **CellsU** property to get a **Cell** object by using the cell's universal name.
 
@@ -140,4 +142,4 @@ Public Sub CellsU_Example()
 End Sub
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

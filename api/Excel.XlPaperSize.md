@@ -1,20 +1,21 @@
 ---
-title: XlPaperSize Enumeration (Excel)
+title: XlPaperSize enumeration (Excel)
 ms.prod: excel
 api_name:
 - Excel.XlPaperSize
 ms.assetid: de26e46a-d82a-1383-91f5-a65f07daad97
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# XlPaperSize Enumeration (Excel)
+# XlPaperSize enumeration (Excel)
 
 Specifies the size of the paper.
 
 
 
-|**Name**|**Value**|**Description**|
+|Name|Value|Description|
 |:-----|:-----|:-----|
 | **xlPaper10x14**|16|10 in. x 14 in.|
 | **xlPaper11x17**|17|11 in. x 17 in.|
@@ -59,3 +60,4 @@ Specifies the size of the paper.
 | **xlPaperTabloid**|3|Tabloid (11 in. x 17 in.)|
 | **xlPaperUser**|256|User-defined|
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

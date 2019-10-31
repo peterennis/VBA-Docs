@@ -1,5 +1,5 @@
 ---
-title: GraphicItem.Delete Method (Visio)
+title: GraphicItem.Delete method (Visio)
 keywords: vis_sdr.chm16951425
 f1_keywords:
 - vis_sdr.chm16951425
@@ -8,25 +8,27 @@ api_name:
 - Visio.GraphicItem.Delete
 ms.assetid: cd395089-594a-a021-0455-5bd7de9c3468
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# GraphicItem.Delete Method (Visio)
+# GraphicItem.Delete method (Visio)
 
-Deletes a  **GraphicItem** object from the **GraphicItems** collection of a **Master** object of type **visTypeDataGraphic** .
+Deletes a  **GraphicItem** object from the **GraphicItems** collection of a **Master** object of type **visTypeDataGraphic**.
 
 
- **Note**  This Visio object or member is available only to licensed users of Visio Professional 2013.
+> [!NOTE] 
+> This Visio object or member is available only to licensed users of Visio Professional 2013.
 
 
 ## Syntax
 
- _expression_. `Delete`
+_expression_.**Delete**
 
- _expression_ A variable that represents a [GraphicItem](./Visio.GraphicItem.md) object.
+_expression_ A variable that represents a **[GraphicItem](Visio.GraphicItem.md)** object.
 
 
-### Return Value
+## Return value
 
 Nothing
 
@@ -38,7 +40,7 @@ Before you can delete a graphic item, you must use the  **[Master.Open](Visio.Ma
 
 ## Example
 
-The following Microsoft Visual Basic for Applications (VBA) macro shows how to use the  **Delete** method to delete an existing graphic item from the **GraphicItems** collection of a **Master** object. It deletes the graphic item most recently added to the collection and prints the count of graphic items in the collection of the master copy, both before and after the deletion, to the **Immediate** window. After it closes the master copy, it also prints the count of graphic items in the collection of the master itself, to show that actions performed on the copy get committed to the master.
+The following Microsoft Visual Basic for Applications (VBA) macro shows how to use the  **Delete** method to delete an existing graphic item from the **GraphicItems** collection of a **Master** object. It deletes the graphic item most recently added to the collection and prints the count of graphic items in the collection of the master copy, both before and after the deletion, to the Immediate window. After it closes the master copy, it also prints the count of graphic items in the collection of the master itself, to show that actions performed on the copy get committed to the master.
 
 The macro assumes that there is an existing data graphic master in your project in whose  **GraphicItems** collection has at least one member. You can determine the name of an existing data graphic master by moving your mouse over the master in the **Data Graphics** task pane in the Visio user interface. The master in this example is named "Data Graphic."
 
@@ -66,4 +68,4 @@ Public Sub Delete_Example()
 End Sub
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

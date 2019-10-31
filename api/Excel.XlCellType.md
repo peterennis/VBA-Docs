@@ -1,20 +1,21 @@
 ---
-title: XlCellType Enumeration (Excel)
+title: XlCellType enumeration (Excel)
 ms.prod: excel
 api_name:
-- Excel.XlCellType
+- Excel.xlCellType
 ms.assetid: 9b0dedec-60a4-6004-0049-4dda1009ef22
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# XlCellType Enumeration (Excel)
+# XlCellType enumeration (Excel)
 
 Specifies the type of cells.
 
 
 
-|**Name**|**Value**|**Description**|
+|Name|Value|Description|
 |:-----|:-----|:-----|
 | **xlCellTypeAllFormatConditions**|-4172|Cells of any format.|
 | **xlCellTypeAllValidation**|-4174|Cells having validation criteria.|
@@ -27,3 +28,4 @@ Specifies the type of cells.
 | **xlCellTypeSameValidation**|-4175|Cells having the same validation criteria.|
 | **xlCellTypeVisible**|12|All visible cells.|
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

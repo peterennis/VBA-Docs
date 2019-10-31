@@ -6,6 +6,7 @@ f1_keywords:
 ms.prod: office
 ms.assetid: ca84aa92-e41a-1167-ab66-032ab9626005
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
@@ -15,7 +16,7 @@ Visual Basic can't determine what action to take. This error has the following c
 
 
 
-- A [keyword](../../Glossary/vbe-glossary.md#keyword) or[argument](../../Glossary/vbe-glossary.md#argument) is misspelled.
+- A [keyword](../../Glossary/vbe-glossary.md#keyword) or [argument](../../Glossary/vbe-glossary.md#argument) is misspelled.
     
     Keywords and the names of [named arguments](../../Glossary/vbe-glossary.md#named-argument) must exactly match those specified in their syntax specifications. Check online Help, and then correct the spelling.
     
@@ -34,3 +35,4 @@ Visual Basic can't determine what action to take. This error has the following c
 
 For additional information, select the item in question and press F1 (in Windows) or HELP (on the Macintosh).
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

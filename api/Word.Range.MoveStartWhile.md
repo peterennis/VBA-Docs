@@ -1,5 +1,5 @@
 ---
-title: Range.MoveStartWhile Method (Word)
+title: Range.MoveStartWhile method (Word)
 keywords: vbawd10.chm157155441
 f1_keywords:
 - vbawd10.chm157155441
@@ -8,29 +8,30 @@ api_name:
 - Word.Range.MoveStartWhile
 ms.assetid: d0cff673-9248-88ae-7624-a838ce104e4b
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Range.MoveStartWhile Method (Word)
+# Range.MoveStartWhile method (Word)
 
 Moves the start position of the specified range while any of the specified characters are found in the document.
 
 
 ## Syntax
 
- _expression_. `MoveStartWhile`( `_Cset_` , `_Count_` )
+_expression_. `MoveStartWhile`( `_Cset_` , `_Count_` )
 
- _expression_ Required. A variable that represents a '[Range](Word.Range.md)' object.
-
-
-### Parameters
+_expression_ Required. A variable that represents a **[Range](Word.Range.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-| _Cset_|Required| **Variant**|One or more characters. This argument is case sensitive.|
-| _Count_|Optional| **Variant**|The maximum number of characters by which the specified range is to be moved. Can be a number or either the  **wdForward** or **wdBackward** constant. If Count is a positive number, the range is moved forward in the document. If it is a negative number, the range is moved backward. The default value is **wdForward** .|
+| _Cset_|Required| **Variant**|One or more characters. This argument is case-sensitive.|
+| _Count_|Optional| **Variant**|The maximum number of characters by which the specified range is to be moved. Can be a number or either the  **wdForward** or **wdBackward** constant. If Count is a positive number, the range is moved forward in the document. If it is a negative number, the range is moved backward. The default value is **wdForward**.|
 
 ## Remarks
 
@@ -61,3 +62,4 @@ Selection.Range.MoveStartWhile Cset:="abcdefgh", Count:=-10
 
 [Range Object](Word.Range.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

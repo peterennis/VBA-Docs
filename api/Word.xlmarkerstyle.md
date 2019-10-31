@@ -1,18 +1,19 @@
 ---
-title: XlMarkerStyle Enumeration (Word)
+title: XlMarkerStyle enumeration (Word)
 ms.prod: word
 ms.assetid: 09985bc6-00e7-203d-efed-15b32f0c2666
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# XlMarkerStyle Enumeration (Word)
+# XlMarkerStyle enumeration (Word)
 
 Specifies the marker style for a point or series in a line chart, scatter chart, or radar chart.
 
 
 
-|**Name**|**Value**|**Description**|
+|Name|Value|Description|
 |:-----|:-----|:-----|
 | **xlMarkerStyleAutomatic**|-4105|Automatic markers.|
 | **xlMarkerStyleCircle**|8|Circular markers.|
@@ -27,3 +28,4 @@ Specifies the marker style for a point or series in a line chart, scatter chart,
 | **xlMarkerStyleTriangle**|3|Triangular markers.|
 | **xlMarkerStyleX**|-4168|Square markers with an X.|
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

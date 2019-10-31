@@ -1,5 +1,5 @@
 ---
-title: Shape.TransformXYFrom Method (Visio)
+title: Shape.TransformXYFrom method (Visio)
 keywords: vis_sdr.chm11216600
 f1_keywords:
 - vis_sdr.chm11216600
@@ -8,26 +8,27 @@ api_name:
 - Visio.Shape.TransformXYFrom
 ms.assetid: 4676e464-83c7-7ff6-e742-becc41436259
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Shape.TransformXYFrom Method (Visio)
+# Shape.TransformXYFrom method (Visio)
 
 Transforms a point expressed in the local coordinate system of one  **Shape** object from an equivalent point expressed in the local coordinate system of another **Shape** object.
 
 
 ## Syntax
 
- _expression_. `TransformXYFrom`( `_OtherShape_` , `_x_` , `_y_` , `_xprime_` , `_yprime_` )
+_expression_. `TransformXYFrom`( `_OtherShape_` , `_x_` , `_y_` , `_xprime_` , `_yprime_` )
 
- _expression_ A variable that represents a [Shape](./Visio.Shape.md) object.
-
-
-### Parameters
+_expression_ A variable that represents a **[Shape](Visio.Shape.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _OtherShape_|Required| **[IVSHAPE]**|An expression that returns a  **Shape** object whose local coordinate system you are transforming the point from.|
 | _x_|Required| **Double**| _x_-coordinate corresponding to  _x_ in the _OtherShape_ coordinate system.|
@@ -35,7 +36,7 @@ Transforms a point expressed in the local coordinate system of one  **Shape** ob
 | _xprime_|Required| **Double**| _x_-coordinate in coordinate system of  _object._|
 | _yprime_|Required| **Double**| _y_-coordinate in coordinate system of  _object._|
 
-### Return Value
+## Return value
 
 Nothing
 
@@ -46,4 +47,4 @@ The points  _x_,  _y_,  _xprime_, and  _yprime_ are all treated as internal draw
 
 An exception is raised if object is not a  **Shape** object of a **Page** or **Master** object, or if _OtherShape_ is not in the same **Page** or **Master** object as _object_.
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

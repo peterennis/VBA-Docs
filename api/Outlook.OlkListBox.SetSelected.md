@@ -1,5 +1,5 @@
 ---
-title: OlkListBox.SetSelected Method (Outlook)
+title: OlkListBox.SetSelected method (Outlook)
 keywords: vbaol11.chm1000271
 f1_keywords:
 - vbaol11.chm1000271
@@ -8,26 +8,27 @@ api_name:
 - Outlook.OlkListBox.SetSelected
 ms.assetid: ee8a6553-4cf4-b99d-9289-bec4d86e7c32
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# OlkListBox.SetSelected Method (Outlook)
+# OlkListBox.SetSelected method (Outlook)
 
 Sets the selected state of an item at the specified location in the list to the given  _Selected_ value.
 
 
 ## Syntax
 
- _expression_. `SetSelected`( `_Index_` , `_Selected_` )
+_expression_. `SetSelected`( `_Index_` , `_Selected_` )
 
- _expression_ A variable that represents an [OlkListBox](./Outlook.OlkListBox.md) object.
-
-
-### Parameters
+_expression_ A variable that represents an [OlkListBox](Outlook.OlkListBox.md) object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _Index_|Required| **Long**|A zero-based value that specifies the location of an item in the list.|
 | _Selected_|Required| **Boolean**| **True** to indicate that the item should be selected, **False** to indicate that the item should not be selected.|
@@ -42,3 +43,4 @@ If  _Index_ is outside the range of the allowed values (between zero and **[List
 
 [OlkListBox Object](Outlook.OlkListBox.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

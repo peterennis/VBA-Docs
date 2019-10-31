@@ -1,5 +1,5 @@
 ---
-title: Application.TextStylesEx Method (Project)
+title: Application.TextStylesEx method (Project)
 keywords: vbapj.chm901
 f1_keywords:
 - vbapj.chm901
@@ -8,23 +8,24 @@ api_name:
 - Project.Application.TextStylesEx
 ms.assetid: 674c16c8-8ba5-604f-494c-3b59017e1207
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Application.TextStylesEx Method (Project)
+# Application.TextStylesEx method (Project)
 
 Sets the text styles for tasks and resources in the active view.
 
 ## Syntax
 
-_expression_. **TextStylesEx** (**_Item_**, **_Font_**, **_Size_**, **_Bold_**, **_Italic_**, **_Underline_**, **_Color_**, **_CellColor_**, **_Pattern_**)
+_expression_.**TextStylesEx** (_Item_, _Font_, _Size_, _Bold_, _Italic_, _Underline_, _Color_, _CellColor_, _Pattern_)
 
-_expression_ A variable that represents an **Application** object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
-### Parameters
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _Item_|Optional|**Integer**|The type of text to change. Can be one of the following **[PjTextItem](Project.PjTextItem.md)** constants. See [If the Gantt Chart is active](#if-the-gantt-chart-is-active).|
 | _Font_|Optional|**String**|The name of the font. The _Font_ argument is ignored if the active view is the **Network Diagram** and _Item_ is not **pjAll**.|
@@ -38,7 +39,7 @@ _expression_ A variable that represents an **Application** object.
 
 <br/>
 
-#### If the Gantt Chart is active
+### If the Gantt Chart is active
 
 |||
 |:-----|:-----|
@@ -54,7 +55,7 @@ _expression_ A variable that represents an **Application** object.
 
 <br/>
 
-#### If the Task Usage view is active
+### If the Task Usage view is active
 
 |||
 |:-----|:-----|
@@ -68,7 +69,7 @@ _expression_ A variable that represents an **Application** object.
 
 <br/>
 
-#### If the Task Sheet is active
+### If the Task Sheet is active
 
 |||
 |:-----|:-----|
@@ -102,7 +103,7 @@ _expression_ A variable that represents an **Application** object.
 
 <br/>
 
-#### PjColor constants
+### PjColor constants
 
 |||
 |:-----|:-----|
@@ -118,7 +119,7 @@ _expression_ A variable that represents an **Application** object.
 
 <br/>
 
-### Return value
+## Return value
 
  **Boolean**
 
@@ -126,4 +127,6 @@ _expression_ A variable that represents an **Application** object.
 
 Using the **TextStylesEx** method without specifying any arguments displays the **Text Styles** dialog box.
 
-To set the text style by using hexadicimal RGB values, see the **[TextStyles32Ex](Project.Application.TextStyles32Ex.md)** method.
+To set the text style by using hexadecimal RGB values, see the **[TextStyles32Ex](Project.Application.TextStyles32Ex.md)** method.
+
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

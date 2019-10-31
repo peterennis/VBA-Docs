@@ -1,20 +1,21 @@
 ---
-title: WdPartOfSpeech Enumeration (Word)
+title: WdPartOfSpeech enumeration (Word)
 ms.prod: word
 api_name:
 - Word.WdPartOfSpeech
 ms.assetid: c0727812-91c5-b10d-fb56-bfa6c3ba4ae8
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# WdPartOfSpeech Enumeration (Word)
+# WdPartOfSpeech enumeration (Word)
 
 Specifies the part of speech that a word represents when returned by the Word thesaurus service.
 
 
 
-|**Name**|**Value**|**Description**|
+|Name|Value|Description|
 |:-----|:-----|:-----|
 | **wdAdjective**|0|An adjective.|
 | **wdAdverb**|2|An adverb.|
@@ -27,3 +28,4 @@ Specifies the part of speech that a word represents when returned by the Word th
 | **wdPronoun**|4|A pronoun.|
 | **wdVerb**|3|A verb.|
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

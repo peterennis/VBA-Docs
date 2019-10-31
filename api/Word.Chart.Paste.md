@@ -1,5 +1,5 @@
 ---
-title: Chart.Paste Method (Word)
+title: Chart.Paste method (Word)
 keywords: vbawd10.chm79364167
 f1_keywords:
 - vbawd10.chm79364167
@@ -8,26 +8,27 @@ api_name:
 - Word.Chart.Paste
 ms.assetid: e159d28e-c2ff-9105-3b52-278fe55b078c
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Chart.Paste Method (Word)
+# Chart.Paste method (Word)
 
 Pastes chart data from the Clipboard into the chart.
 
 
 ## Syntax
 
- _expression_. `Paste`( `_Type_` )
+_expression_.**Paste** (_Type_)
 
- _expression_ A variable that represents a '[Chart](Word.Chart.md)' object.
-
-
-### Parameters
+_expression_ A variable that represents a **[Chart](Word.Chart.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _Type_|Optional| **Variant**|Specifies the chart information to paste if a chart is on the Clipboard. Can be one of the following values: 
 
@@ -59,3 +60,4 @@ End With
 
 [Chart Object](Word.Chart.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

@@ -1,5 +1,5 @@
 ---
-title: TextRange.BoundTop Property (Publisher)
+title: TextRange.BoundTop property (Publisher)
 keywords: vbapb10.chm5308437
 f1_keywords:
 - vbapb10.chm5308437
@@ -7,23 +7,24 @@ ms.prod: publisher
 api_name:
 - Publisher.TextRange.BoundTop
 ms.assetid: f3c2cd42-8d2b-f757-bcbb-140f5e567a1e
-ms.date: 06/08/2017
+ms.date: 06/15/2019
+localization_priority: Normal
 ---
 
 
-# TextRange.BoundTop Property (Publisher)
+# TextRange.BoundTop property (Publisher)
 
-Returns a  **Single** indicating the distance, in points, from the top edge of the topmost page to the top edge of the bounding box for the specified text range. Read-only.
+Returns a **Single** indicating the distance, in [points](../language/glossary/vbe-glossary.md#point), from the top edge of the topmost page to the top edge of the bounding box for the specified text range. Read-only.
 
 
 ## Syntax
 
- _expression_. **BoundTop**
+_expression_.**BoundTop**
 
- _expression_ A variable that represents a  **TextRange** object.
+_expression_ A variable that represents a **[TextRange](Publisher.TextRange.md)** object.
 
 
-### Return Value
+## Return value
 
 Single
 
@@ -31,7 +32,6 @@ Single
 ## Example
 
 The following example displays the position, width, and height of the bounding box surrounding the text in the first shape on page one of the active publication.
-
 
 ```vb
 Dim rngText As TextRange 
@@ -53,4 +53,4 @@ End With
 MsgBox strMessage
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

@@ -1,5 +1,5 @@
 ---
-title: Selection.TypeText Method (Word)
+title: Selection.TypeText method (Word)
 keywords: vbawd10.chm158663163
 f1_keywords:
 - vbawd10.chm158663163
@@ -8,32 +8,33 @@ api_name:
 - Word.Selection.TypeText
 ms.assetid: fb8e58cc-0c49-0efa-d60a-8be6c3d4435c
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Selection.TypeText Method (Word)
+# Selection.TypeText method (Word)
 
 Inserts the specified text.
 
 
 ## Syntax
 
- _expression_. `TypeText`( `_Text_` )
+_expression_. `TypeText`( `_Text_` )
 
- _expression_ Required. A variable that represents a '[Selection](Word.Selection.md)' object.
-
-
-### Parameters
+_expression_ Required. A variable that represents a **[Selection](Word.Selection.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _Text_|Required| **String**|The text to be inserted.|
 
 ## Remarks
 
-If the  **ReplaceSelection** property is **True** , the selection is replaced by the specified text. If **ReplaceSelection** is **False** , the specified text is inserted before the selection.
+If the  **ReplaceSelection** property is **True**, the selection is replaced by the specified text. If **ReplaceSelection** is **False**, the specified text is inserted before the selection.
 
 
 ## Example
@@ -67,3 +68,4 @@ End With
 
 [Selection Object](Word.Selection.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

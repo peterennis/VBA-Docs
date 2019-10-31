@@ -1,20 +1,21 @@
 ---
-title: WdEditionOption Enumeration (Word)
+title: WdEditionOption enumeration (Word)
 ms.prod: word
 api_name:
 - Word.WdEditionOption
 ms.assetid: 42cf4187-3534-a1c1-e715-990fff5ec292
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# WdEditionOption Enumeration (Word)
+# WdEditionOption enumeration (Word)
 
 This enumeration has been deprecated and should not be used.
 
 
 
-|**Name**|**Value**|**Description**|
+|Name|Value|Description|
 |:-----|:-----|:-----|
 | **wdAutomaticUpdate**|3|Not supported.|
 | **wdCancelPublisher**|0|Not supported.|
@@ -25,3 +26,4 @@ This enumeration has been deprecated and should not be used.
 | **wdSendPublisher**|1|Not supported.|
 | **wdUpdateSubscriber**|6|Not supported.|
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

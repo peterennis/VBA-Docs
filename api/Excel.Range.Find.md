@@ -1,5 +1,5 @@
 ---
-title: Range.Find Method (Excel)
+title: Range.Find method (Excel)
 keywords: vbaxl10.chm144128
 f1_keywords:
 - vbaxl10.chm144128
@@ -7,64 +7,63 @@ ms.prod: excel
 api_name:
 - Excel.Range.Find
 ms.assetid: d9585265-8164-cb4d-a9e3-262f6e06b6b8
-ms.date: 06/08/2017
+ms.date: 08/14/2019
+localization_priority: Priority
 ---
 
 
-# Range.Find Method (Excel)
+# Range.Find method (Excel)
 
 Finds specific information in a range.
 
+[!include[Add-ins note](~/includes/addinsnote.md)]
 
 ## Syntax
 
- _expression_. `Find`( `_What_` , `_After_` , `_LookIn_` , `_LookAt_` , `_SearchOrder_` , `_SearchDirection_` , `_MatchCase_` , `_MatchByte_` , `_SearchFormat_` )
+_expression_.**Find** (_What_, _After_, _LookIn_, _LookAt_, _SearchOrder_, _SearchDirection_, _MatchCase_, _MatchByte_, _SearchFormat_)
 
- _expression_ A variable that represents a [Range](Excel.Range(Graph property).md) object.
-
-
-### Parameters
+_expression_ A variable that represents a **[Range](excel.range(object).md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _What_|Required| **Variant**|The data to search for. Can be a string or any Microsoft Excel data type.|
-| _After_|Optional| **Variant**|The cell after which you want the search to begin. This corresponds to the position of the active cell when a search is done from the user interface. Notice that  _After_ must be a single cell in the range. Remember that the search begins after this cell; the specified cell isn't searched until the method wraps back around to this cell. If you do no specify this argument, the search starts after the cell in the upper-left corner of the range.|
-| _LookIn_|Optional| **Variant**|Can be one of the following  **XlFindLookIn** constants: **xlFormulas** , **xlValues** , or **xlNotes** .|
-| _LookAt_|Optional| **Variant**|Can be one of the following  **XlLookAt** constants: **xlWhole** or **xlPart** .|
-| _SearchOrder_|Optional| **Variant**|Can be one of the following  **XlSearchOrder** constants: **xlByRows** or **xlByColumns** .|
-| _SearchDirection_|Optional|[XlSearchDirection](Excel.XlSearchDirection.md)|The search direction.|
-| _MatchCase_|Optional| **Variant**| **True** to make the search case sensitive. The default value is **False** .|
-| _MatchByte_|Optional| **Variant**|Used only if you have selected or installed double-byte language support.  **True** to have double-byte characters match only double-byte characters. **False** to have double-byte characters match their single-byte equivalents.|
+| _After_|Optional| **Variant**|The cell after which you want the search to begin. This corresponds to the position of the active cell when a search is done from the user interface.<br/><br/>Notice that _After_ must be a single cell in the range. Remember that the search begins after this cell; the specified cell isn't searched until the method wraps back around to this cell.<br/><br/>If you do not specify this argument, the search starts after the cell in the upper-left corner of the range.|
+| _LookIn_|Optional| **Variant**|Can be one of the following **[XlFindLookIn](excel.xlfindlookin.md)** constants: **xlFormulas**, **xlValues**, **xlComments**, or **xlCommentsThreaded**.|
+| _LookAt_|Optional| **Variant**|Can be one of the following **[XlLookAt](excel.xllookat.md)** constants: **xlWhole** or **xlPart**.|
+| _SearchOrder_|Optional| **Variant**|Can be one of the following **[XlSearchOrder](excel.xlsearchorder.md)** constants: **xlByRows** or **xlByColumns**.|
+| _SearchDirection_|Optional| **[XlSearchDirection](Excel.xlSearchDirection.md)** |The search direction.|
+| _MatchCase_|Optional| **Variant**| **True** to make the search case-sensitive. The default value is **False**.|
+| _MatchByte_|Optional| **Variant**|Used only if you have selected or installed double-byte language support. **True** to have double-byte characters match only double-byte characters. **False** to have double-byte characters match their single-byte equivalents.|
 | _SearchFormat_|Optional| **Variant**|The search format.|
 
-### Return Value
+## Return value
 
-A [Range](Excel.Range(object).md) object that represents the first cell where that information is found.
+A **Range** object that represents the first cell where that information is found.
 
 
 ## Remarks
 
-This method returns  **Nothing** if no match is found. The **Find** method does not affect the selection or the active cell.
+This method returns **Nothing** if no match is found. The **Find** method does not affect the selection or the active cell.
 
-The settings for  _LookIn_,  _LookAt_,  _SearchOrder_, and  _MatchByte_ are saved each time you use this method. If you do not specify values for these arguments the next time you call the method, the saved values are used. Setting these arguments changes the settings in the **Find** dialog box, and changing the settings in the **Find** dialog box changes the saved values that are used if you omit the arguments. To avoid problems, set these arguments explicitly each time you use this method.
+The settings for _LookIn_,  _LookAt_,  _SearchOrder_, and _MatchByte_ are saved each time you use this method. If you do not specify values for these arguments the next time you call the method, the saved values are used. Setting these arguments changes the settings in the **Find** dialog box, and changing the settings in the **Find** dialog box changes the saved values that are used if you omit the arguments. To avoid problems, set these arguments explicitly each time you use this method.
 
-You can use the [FindNext](Excel.Range.FindNext.md) and[FindPrevious](Excel.Range.FindPrevious.md) methods to repeat the search.
+You can use the **[FindNext](Excel.Range.FindNext.md)** and **[FindPrevious](Excel.Range.FindPrevious.md)** methods to repeat the search.
 
 When the search reaches the end of the specified search range, it wraps around to the beginning of the range. To stop a search when this wraparound occurs, save the address of the first found cell, and then test each successive found-cell address against this saved address.
 
-To find cells that match more complicated patterns, use a  `For Each...Next` statement with the **Like** operator. For example, the following code searches for all cells in the range A1:C5 that use a font whose name starts with the letters Cour. When Microsoft Excel finds a match, it changes the font to Times New Roman.
+To find cells that match more complicated patterns, use a **For Each...Next** statement with the **Like** operator. For example, the following code searches for all cells in the range A1:C5 that use a font whose name starts with the letters Cour. When Microsoft Excel finds a match, it changes the font to Times New Roman.
 
- `For Each c In [A1:C5] If c.Font.Name Like "Cour*" Then c.Font.Name = "Times New Roman" End If Next`
+```vb
+For Each c In [A1:C5] If c.Font.Name Like "Cour*" Then c.Font.Name = "Times New Roman" End If Next`
 
-
-
+```
 
 ## Example
 
-This example finds all cells in the range A1:A500 on worksheet one that contain the value 2 and changes it to 5.
-
+This example finds all cells in the range A1:A500 on worksheet one that contain the value 2, and changes it to 5.
 
 ```vb
 With Worksheets(1).Range("a1:a500") 
@@ -74,17 +73,16 @@ With Worksheets(1).Range("a1:a500")
         Do 
             c.Value = 5 
             Set c = .FindNext(c) 
-        Loop While Not c Is Nothing And c.Address <> firstAddress 
+        Loop While Not c Is Nothing
     End If 
 End With
 ```
 
- **Sample code provided by:** Holy Macro! Books,[Holy Macro! It's 2,500 Excel VBA Examples](https://www.mrexcel.com/store/index.php?l=product_detail&;p=1)
+<!-- ******Removed this sample by request in this Issue: https://github.com/MicrosoftDocs/VBA-Docs/issues/133******
+
+**Sample code provided by:** Holy Macro! Books, [Holy Macro! It's 2,500 Excel VBA Examples](https://www.mrexcel.com/store/index.php?l=product_detail&p=1).
 
 This example takes a path and name of a workbook and a search term, and searches the specified workbook for the search term. If the search term is found, the address of the result is stored in cell D10 of the current workbook.
-
-
-
 
 ```vb
 Option Explicit
@@ -107,7 +105,7 @@ Sub FindAddress()
     
     'If an error occurs, use the error handling routine at the end of this file.
     On Error GoTo ErrorHandler
-    
+   
     'Turn off screen updating, and then open the target workbook.
     Application.ScreenUpdating = False
     Workbooks.Open FileName:=MyPath & MyWB
@@ -160,12 +158,8 @@ End Sub
 
 ### About the contributor
 
-Holy Macro! Books publishes entertaining books for people who use Microsoft Office. See the complete catalog at MrExcel.com. 
+Holy Macro! Books publishes entertaining books for people who use Microsoft Office. See the complete catalog at MrExcel.com. -->
 
 
-## See also
 
-
-[Range Object](Excel.Range(object).md)
-
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

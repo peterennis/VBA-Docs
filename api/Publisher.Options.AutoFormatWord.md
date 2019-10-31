@@ -1,5 +1,5 @@
 ---
-title: Options.AutoFormatWord Property (Publisher)
+title: Options.AutoFormatWord property (Publisher)
 keywords: vbapb10.chm1048579
 f1_keywords:
 - vbapb10.chm1048579
@@ -7,23 +7,24 @@ ms.prod: publisher
 api_name:
 - Publisher.Options.AutoFormatWord
 ms.assetid: b0466bd7-f0a1-44a8-480f-5d046e24e759
-ms.date: 06/08/2017
+ms.date: 06/11/2019
+localization_priority: Normal
 ---
 
 
-# Options.AutoFormatWord Property (Publisher)
+# Options.AutoFormatWord property (Publisher)
 
- **True** for Microsoft Publisher to automatically format the entire word at the cursor position, even when no text is selected. Read/write **Boolean**.
+**True** for Microsoft Publisher to automatically format the entire word at the cursor position, even when no text is selected. Read/write **Boolean**.
 
 
 ## Syntax
 
- _expression_. **AutoFormatWord**
+_expression_.**AutoFormatWord**
 
- _expression_ A variable that represents an  **Options** object.
+_expression_ A variable that represents an **[Options](Publisher.Options.md)** object.
 
 
-### Return Value
+## Return value
 
 Boolean
 
@@ -36,7 +37,6 @@ If only one or two characters in a word are selected, only the selected characte
 ## Example
 
 This example sets global options for Microsoft Publisher, including enabling automatic formatting of the entire word.
-
 
 ```vb
 Sub SetGlobalOptions() 
@@ -51,4 +51,4 @@ Sub SetGlobalOptions()
 End Sub
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

@@ -1,5 +1,5 @@
 ---
-title: BuildingBlock Object (Word)
+title: BuildingBlock object (Word)
 keywords: vbawd10.chm3107
 f1_keywords:
 - vbawd10.chm3107
@@ -8,10 +8,11 @@ api_name:
 - Word.BuildingBlock
 ms.assetid: 2558b89f-8552-bb71-fa40-101cab2635ba
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# BuildingBlock Object (Word)
+# BuildingBlock object (Word)
 
 Represents a building block in a template. A building block is pre-built content, similar to autotext, that may contain text, images, and formatting.
 
@@ -34,7 +35,8 @@ Set objBB = objTemplate.BuildingBlockEntries.Item(1)
 ```
 
 
- **Note**  Depending on how you access the collection, the collection returned may change. For example, if you access a collection of building blocks with a type of  **wdTypeAutoText** with a category of "General", the returned collection may be different from the collection returned if you access a collection of building blocks with a type of **wdTypeAutoText** with a category of "Custom". It is also different from the collection returned if you access the collection of building blocks with a type of **wdTypeCustomAutoText** with a category of "General". Therefore, the first item in a collection accessed from the **BuildingBlockEntries** collection may be different from the first item in the collection accessed from the **BuildingBlocks** collection.
+> [!NOTE] 
+> Depending on how you access the collection, the collection returned may change. For example, if you access a collection of building blocks with a type of  **wdTypeAutoText** with a category of "General", the returned collection may be different from the collection returned if you access a collection of building blocks with a type of **wdTypeAutoText** with a category of "Custom". It is also different from the collection returned if you access the collection of building blocks with a type of **wdTypeCustomAutoText** with a category of "General". Therefore, the first item in a collection accessed from the **BuildingBlockEntries** collection may be different from the first item in the collection accessed from the **BuildingBlocks** collection.
 
 To create a new building block, you can use the  **Add** method for either the **BuildingBlockEntries** collection or the **BuildingBlocks** collection. However, the recommended way to create a new building block is by using the **[Add](Word.BuildingBlockEntries.Add.md)** method for the **BuildingBlockEntries** collection. The following example adds the selected text to the watermarks building block gallery of the first template in the **[Templates](Word.templates.md)** collection.
 
@@ -82,7 +84,7 @@ Set objTemplate = Templates(1)
 objTemplate.BuildingBlockEntries(1).Delete
 ```
 
- Building blocks are organized by category and type. Use the **[BuildingBlockTypes](Word.BuildingBlockTypes.md)** collection to access individual **[BuildingBlockType](Word.BuildingBlockType.md)** objects. Use the **[Categories](Word.Categories.md)** collection to access individual **[Category](Word.BuildingBlock.Category.md)** objects. Then use the **BuildingBlocks** propery to access the **BuildingBlocks** collection for a **Category** object. The following example prints the type and category names of all the building blocks in the first template to the **Immediate Window**. (This example assumes that the **Immediate Window** is visible.)
+ Building blocks are organized by category and type. Use the **[BuildingBlockTypes](Word.BuildingBlockTypes.md)** collection to access individual **[BuildingBlockType](Word.BuildingBlockType.md)** objects. Use the **[Categories](Word.Categories.md)** collection to access individual **[Category](Word.BuildingBlock.Category.md)** objects. Then use the **BuildingBlocks** property to access the **BuildingBlocks** collection for a **Category** object. The following example prints the type and category names of all the building blocks in the first template to the **Immediate Window**. (This example assumes that the **Immediate Window** is visible.)
 
 
 
@@ -102,7 +104,7 @@ For intCount = 1 To objTemplate.BuildingBlockTypes.Count
  Debug.Print objBBT.Name 
  For intCountCat = 1 To objBBT.Categories.Count 
  Set objCat = objBBT.Categories(intCountCat) 
- Debug.Print vbTab &amp; objCat.Name 
+ Debug.Print vbTab & objCat.Name 
  Next 
  End If 
 Next
@@ -115,32 +117,26 @@ For more information about building blocks, see [Working with Building Blocks](.
 
 ## Methods
 
-
-
-|**Name**|
-|:-----|
-|[Delete](Word.BuildingBlock.Delete.md)|
-|[Insert](Word.BuildingBlock.Insert.md)|
+- [Delete](Word.BuildingBlock.Delete.md)
+- [Insert](Word.BuildingBlock.Insert.md)
 
 ## Properties
 
+- [Application](Word.BuildingBlock.Application.md)
+- [Category](Word.BuildingBlock.Category.md)
+- [Creator](Word.BuildingBlock.Creator.md)
+- [Description](Word.BuildingBlock.Description.md)
+- [ID](Word.BuildingBlock.ID.md)
+- [Index](Word.BuildingBlock.Index.md)
+- [InsertOptions](Word.BuildingBlock.InsertOptions.md)
+- [Name](Word.BuildingBlock.Name.md)
+- [Parent](Word.BuildingBlock.Parent.md)
+- [Type](Word.BuildingBlock.Type.md)
+- [Value](Word.BuildingBlock.Value.md)
 
-
-|**Name**|
-|:-----|
-|[Application](Word.BuildingBlock.Application.md)|
-|[Category](Word.BuildingBlock.Category.md)|
-|[Creator](Word.BuildingBlock.Creator.md)|
-|[Description](Word.BuildingBlock.Description.md)|
-|[ID](Word.BuildingBlock.ID.md)|
-|[Index](Word.BuildingBlock.Index.md)|
-|[InsertOptions](Word.BuildingBlock.InsertOptions.md)|
-|[Name](Word.BuildingBlock.Name.md)|
-|[Parent](Word.BuildingBlock.Parent.md)|
-|[Type](Word.BuildingBlock.Type.md)|
-|[Value](Word.BuildingBlock.Value.md)|
 
 ## See also
 
+- [Word Object Model Reference](overview/Word/object-model.md)
 
-[Word Object Model Reference](./overview/Word/object-model.md)
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

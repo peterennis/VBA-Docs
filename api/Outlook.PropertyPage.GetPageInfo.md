@@ -1,5 +1,5 @@
 ---
-title: PropertyPage.GetPageInfo Method (Outlook)
+title: PropertyPage.GetPageInfo method (Outlook)
 keywords: vbaol11.chm381
 f1_keywords:
 - vbaol11.chm381
@@ -8,31 +8,32 @@ api_name:
 - Outlook.PropertyPage.GetPageInfo
 ms.assetid: 39243864-a81a-eaa6-965d-c1a5ac5ac781
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# PropertyPage.GetPageInfo Method (Outlook)
+# PropertyPage.GetPageInfo method (Outlook)
 
 Returns Help information about a custom property page.
 
 
 ## Syntax
 
- _expression_. `GetPageInfo`( `_HelpFile_` , `_HelpContext_` )
+_expression_. `GetPageInfo`( `_HelpFile_` , `_HelpContext_` )
 
- _expression_ A variable that represents a [PropertyPage](./Outlook.PropertyPage.md) object.
-
-
-### Parameters
+_expression_ A variable that represents a [PropertyPage](Outlook.PropertyPage.md) object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _HelpFile_|Required| **String**|Specifies the Help file associated with the property page.|
 | _HelpContext_|Required| **Long**|Specifies the context ID of the Help topic associated with the property page.|
 
-### Return Value
+## Return value
 
 An  **HRESULT** value that represents the result of the method.
 
@@ -55,3 +56,4 @@ End Sub
 
 [PropertyPage Object](Outlook.PropertyPage.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

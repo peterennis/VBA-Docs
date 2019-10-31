@@ -1,5 +1,5 @@
 ---
-title: PageSetup.PrintErrors Property (Excel)
+title: PageSetup.PrintErrors property (Excel)
 keywords: vbaxl10.chm473105
 f1_keywords:
 - vbaxl10.chm473105
@@ -7,38 +7,26 @@ ms.prod: excel
 api_name:
 - Excel.PageSetup.PrintErrors
 ms.assetid: 4a864a1e-cbdb-8ef7-536d-d2c5f518f9db
-ms.date: 06/08/2017
+ms.date: 05/03/2019
+localization_priority: Normal
 ---
 
 
-# PageSetup.PrintErrors Property (Excel)
+# PageSetup.PrintErrors property (Excel)
 
-Sets or returns an  **[XlPrintErrors](Excel.XlPrintErrors.md)** contstant specifying the type of print error displayed. This feature allows users to suppress the display of error values when printing a worksheet. Read/write .
+Sets or returns an **[XlPrintErrors](Excel.XlPrintErrors.md)** constant specifying the type of print error displayed. This feature allows users to suppress the display of error values when printing a worksheet. Read/write.
 
 
 ## Syntax
 
- _expression_. `PrintErrors`
+_expression_.**PrintErrors**
 
- _expression_ A variable that represents a [PageSetup](Excel.PageSetup.md) object.
+_expression_ A variable that represents a **[PageSetup](Excel.PageSetup.md)** object.
 
-
-## Remarks
-
-
-
-
-
-| **XlPrintErrors** can be one of these **XlPrintErrors** constants.|
-| **xlPrintErrorsBlank**|
-| **xlPrintErrorsDash**|
-| **xlPrintErrorsDisplayed**|
-| **xlPrintErrorsNA**|
 
 ## Example
 
-In this example, Microsoft Excel uses a formula that returns an error in the active worksheet. The  **PrintErrors** property is set to display dashes. A Print Preview window displays the dashes for the print error. This example assumes a printer driver has been installed.
-
+In this example, Microsoft Excel uses a formula that returns an error on the active worksheet. The **PrintErrors** property is set to display dashes. A Print Preview window displays the dashes for the print error. This example assumes that a printer driver has been installed.
 
 ```vb
 Sub UsePrintErrors() 
@@ -62,8 +50,6 @@ End Sub
 ```
 
 
-## See also
 
 
-[PageSetup Object](Excel.PageSetup.md)
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

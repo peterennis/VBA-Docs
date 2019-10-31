@@ -1,19 +1,20 @@
 ---
-title: Shape.LockAspectRatio Property (Project)
+title: Shape.LockAspectRatio property (Project)
 ms.prod: project-server
 ms.assetid: b465aad3-d253-d6ce-0f6e-bb0638733647
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Shape.LockAspectRatio Property (Project)
-Gets or sets a value that indicates whether the shape retains its original proportions when you resize it; that is, whether the aspect ratio of the shape is locked. Read-write  **[MsoTriState](https://msdn.microsoft.com/en-us/library/office/ff860737%28v=office.15%29)**
+# Shape.LockAspectRatio property (Project)
+Gets or sets a value that indicates whether the shape retains its original proportions when you resize it; that is, whether the aspect ratio of the shape is locked. Read/write  **[MsoTriState](https://msdn.microsoft.com/library/office/ff860737%28v=office.15%29)**
 
 ## Syntax
 
- _expression_. `LockAspectRatio`
+_expression_.**LockAspectRatio**
 
- _expression_ A variable that represents a 'Shape' object.
+_expression_ A variable that represents a **[Shape](Project.Shape.md)** object.
 
 
 ## Remarks
@@ -69,4 +70,6 @@ In Figure 1, the right shape with the locked aspect ratio is selected.
 
 [Shape Object](Project.shape.md)
 [ShapeRange.LockAspectRatio Property](Project.shaperange.lockaspectratio.md)
-[MsoTriState](https://msdn.microsoft.com/en-us/library/office/ff860737%28v=office.15%29)
+[MsoTriState](https://msdn.microsoft.com/library/office/ff860737%28v=office.15%29)
+
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

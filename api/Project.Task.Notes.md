@@ -1,23 +1,24 @@
 ---
-title: Task.Notes Property (Project)
+title: Task.Notes property (Project)
 ms.prod: project-server
 api_name:
 - Project.Task.Notes
 ms.assetid: 65eecb2e-9116-2b00-8fb1-6df471a88f1d
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Task.Notes Property (Project)
+# Task.Notes property (Project)
 
 Gets or sets the notes for a task. Read/write  **String**.
 
 
 ## Syntax
 
- _expression_. `Notes`
+_expression_. `Notes`
 
- _expression_ A variable that represents a [Task](./Project.Task.md) object.
+_expression_ A variable that represents a [Task](./Project.Task.md) object.
 
 
 ## Remarks
@@ -30,13 +31,14 @@ The  **Notes** property does not accept characters with an ASCII value less than
 The following example adds a comment to the notes of the task in the active cell.
 
 
- **Note**  If a task is not selected, the code results in a run-time error 1004. 
+> [!NOTE] 
+> If a task is not selected, the code results in a run-time error 1004. 
 
 
 ```vb
 Sub AddDelayNote() 
- ActiveCell.Task.Notes = ActiveCell.Task.Notes &; vbCrLf &; vbCrLf &; "This task can be delayed." 
+ ActiveCell.Task.Notes = ActiveCell.Task.Notes & vbCrLf & vbCrLf & "This task can be delayed." 
 End Sub
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

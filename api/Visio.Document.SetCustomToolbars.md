@@ -1,5 +1,5 @@
 ---
-title: Document.SetCustomToolbars Method (Visio)
+title: Document.SetCustomToolbars method (Visio)
 keywords: vis_sdr.chm10516565
 f1_keywords:
 - vis_sdr.chm10516565
@@ -8,30 +8,29 @@ api_name:
 - Visio.Document.SetCustomToolbars
 ms.assetid: fddae53c-0519-90ef-0023-ee3896e86757
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Document.SetCustomToolbars Method (Visio)
+# Document.SetCustomToolbars method (Visio)
 
 Replaces the current built-in or custom toolbars of an application or document.
 
 
 ## Syntax
 
- _expression_. `SetCustomToolbars`( `_ToolbarsObject_` )
+_expression_.**SetCustomToolbars** (_ToolbarsObject_)
 
- _expression_ A variable that represents a [Document](./Visio.Document.md) object.
-
-
-### Parameters
+_expression_ A variable that represents a **[Document](Visio.Document.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-| _ToolbarsObject_|Required| **[IVUIOBJECT]**|An expression that returns a  **UIObject** object that represents the new custom toolbars.|
+| _ToolbarsObject_|Required| **[IVUIOBJECT]**|An expression that returns a **UIObject** object that represents the new custom toolbars.|
 
-### Return Value
+## Return value
 
 Nothing
 
@@ -43,12 +42,9 @@ If the  _ToolbarsObject_ object was created in a separate process by using the V
 
 ## Example
 
-This Microsoft Visual Basic for Applications (VBA) macro shows how to use the  **SetCustomToolbars** method to replace the built-in toolbar set with the custom set. It retrieves a copy of the built-in Visio toolbars, adds a toolbar and a toolbar button, sets the button icon, and then replaces the toolbar set.
+This Microsoft Visual Basic for Applications (VBA) macro shows how to use the **SetCustomToolbars** method to replace the built-in toolbar set with the custom set. It retrieves a copy of the built-in Visio toolbars, adds a toolbar and a toolbar button, sets the button icon, and then replaces the toolbar set.
 
 Before running this macro, replace  _path\filename_ in the code with the full path to and filename of an icon file (.ico) on your computer.
-
-
-
 
 ```vb
 Public Sub SetCustomToolbarItems_Example() 
@@ -100,4 +96,4 @@ Public Sub SetCustomToolbarItems_Example()
 End Sub
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

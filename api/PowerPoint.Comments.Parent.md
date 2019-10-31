@@ -1,5 +1,5 @@
 ---
-title: Comments.Parent Property (PowerPoint)
+title: Comments.Parent property (PowerPoint)
 keywords: vbapp10.chm641002
 f1_keywords:
 - vbapp10.chm641002
@@ -8,22 +8,23 @@ api_name:
 - PowerPoint.Comments.Parent
 ms.assetid: dca18f18-4a3d-6c70-6cdf-b933eec2c74b
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Comments.Parent Property (PowerPoint)
+# Comments.Parent property (PowerPoint)
 
 Returns the parent object for the specified object.
 
 
 ## Syntax
 
- _expression_. `Parent`
+_expression_.**Parent**
 
- _expression_ A variable that represents a [Comments](./PowerPoint.Comments.md) object.
+_expression_ A variable that represents a **[Comments](PowerPoint.Comments.md)** object.
 
 
-### Return Value
+## Return value
 
 Object
 
@@ -49,3 +50,4 @@ End With
 
 [Comments Object](PowerPoint.Comments.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

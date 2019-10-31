@@ -1,34 +1,35 @@
 ---
-title: Project.DeliverablesGetByProject Method (Project)
+title: Project.DeliverablesGetByProject method (Project)
 ms.prod: project-server
 api_name:
 - Project.Project.DeliverablesGetByProject
 ms.assetid: bbf626e8-a43e-dd06-dd2a-3d29aa1f0b6b
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Project.DeliverablesGetByProject Method (Project)
+# Project.DeliverablesGetByProject method (Project)
 
 Gets a list of all deliverables for the specified enterprise project in the XML member of the returned object. Project Professional only.
 
 
 ## Syntax
 
- _expression_. `DeliverablesGetByProject`( ` _ProjectGuid_` )
+_expression_. `DeliverablesGetByProject`( `_ProjectGuid_` )
 
- _expression_ A variable that represents a [Project](./Project(enumerations).md) object.
-
-
-### Parameters
+_expression_ A variable that represents a **[Project](project.project.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _ProjectGuid_|Required|**String**|GUID of the enterprise project.|
 
-### Return Value
+## Return value
 
  **Object**
 
@@ -68,7 +69,8 @@ End Sub
 ```
 
 
- **Note**  To find members of a variable of type  **Object**, such as the **ds** variable, set a watch on the object, and then set a breakpoint after you assign a value to the object. Expand the variable in the **Watch** pane, and you can see the **XML** member.
+> [!NOTE] 
+> To find members of a variable of type  **Object**, such as the **ds** variable, set a watch on the object, and then set a breakpoint after you assign a value to the object. Expand the variable in the **Watch** pane, and you can see the **XML** member.
 
 The message box shows only the first 1024 characters of the total 17,295 characters of the XML result (in this example). In the following XML result, attributes are broken into separate lines. The actual XML result is all on one line, which you can see if you print the result to the  **Immediate** pane in the VBE. The example does not show the XML schema, which makes up most of the content.
 
@@ -115,4 +117,4 @@ The  **ows_** fields are defined in the SharePoint list. Some fields that you ma
 </DeliverableMasterDocument>
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

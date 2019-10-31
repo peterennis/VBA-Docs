@@ -1,5 +1,5 @@
 ---
-title: Designs.Load Method (PowerPoint)
+title: Designs.Load method (PowerPoint)
 keywords: vbapp10.chm643005
 f1_keywords:
 - vbapp10.chm643005
@@ -8,31 +8,32 @@ api_name:
 - PowerPoint.Designs.Load
 ms.assetid: 8926e038-4b01-da8d-3e0f-6b5cdd82f1c7
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Designs.Load Method (PowerPoint)
+# Designs.Load method (PowerPoint)
 
 Returns a  **Design** object that represents a design loaded into the master list of the specified presentation.
 
 
 ## Syntax
 
- _expression_. `Load`( `_TemplateName_`, `_Index_` )
+_expression_. `Load`( `_TemplateName_`, `_Index_` )
 
- _expression_ A variable that represents a [Designs](./PowerPoint.Designs.md) object.
-
-
-### Parameters
+_expression_ A variable that represents a [Designs](PowerPoint.Designs.md) object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _TemplateName_|Required|**String**|The path to the design template.|
 | _Index_|Optional|**Long**|The index number of the design template in the collection of design templates. The default is -1, which means the design template is added to the end of the list of designs in the presentation.|
 
-### Return Value
+## Return value
 
 Design
 
@@ -55,3 +56,4 @@ End Sub
 
 [Designs Object](PowerPoint.Designs.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

@@ -1,5 +1,5 @@
 ---
-title: DistListItem.GetMember Method (Outlook)
+title: DistListItem.GetMember method (Outlook)
 keywords: vbaol11.chm1156
 f1_keywords:
 - vbaol11.chm1156
@@ -8,30 +8,31 @@ api_name:
 - Outlook.DistListItem.GetMember
 ms.assetid: 97196e1f-02a5-c1ac-be93-841702abaf52
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# DistListItem.GetMember Method (Outlook)
+# DistListItem.GetMember method (Outlook)
 
 Returns a  **[Recipient](Outlook.Recipient.md)** object representing a member in a distribution list.
 
 
 ## Syntax
 
- _expression_. `GetMember`( `_Index_` )
+_expression_. `GetMember` (_Index_)
 
- _expression_ A variable that represents a [DistListItem](./Outlook.DistListItem.md) object.
-
-
-### Parameters
+_expression_ A variable that represents a [DistListItem](Outlook.DistListItem.md) object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _Index_|Required| **Long**|The index number of the member to be retrieved.|
 
-### Return Value
+## Return value
 
 A  **Recipient** object representing the specified member.
 
@@ -97,3 +98,4 @@ End Sub
 
 [DistListItem Object](Outlook.DistListItem.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

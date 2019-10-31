@@ -6,12 +6,13 @@ f1_keywords:
 ms.prod: office
 ms.assetid: 6e641999-66f1-46fb-869f-369d3f5274b8
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
 # LSet allowed only on strings and user-defined types
 
- **LSet** is used to left align data within strings and[variables](../../Glossary/vbe-glossary.md#variable) of[user-defined type](../../Glossary/vbe-glossary.md#user-defined-type). This error has the following causes and solutions:
+ **LSet** is used to left align data within strings and [variables](../../Glossary/vbe-glossary.md#variable) of[user-defined type](../../Glossary/vbe-glossary.md#user-defined-type). This error has the following causes and solutions:
 
 
 
@@ -22,3 +23,4 @@ ms.date: 06/08/2017
 
 For additional information, select the item in question and press F1 (in Windows) or HELP (on the Macintosh).
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

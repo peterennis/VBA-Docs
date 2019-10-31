@@ -1,5 +1,5 @@
 ---
-title: LegendEntry.Index Property (Excel)
+title: LegendEntry.Index property (Excel)
 keywords: vbaxl10.chm586076
 f1_keywords:
 - vbaxl10.chm586076
@@ -7,24 +7,23 @@ ms.prod: excel
 api_name:
 - Excel.LegendEntry.Index
 ms.assetid: 022dc8b4-de7e-22ab-bded-92de775122bf
-ms.date: 06/08/2017
+ms.date: 04/27/2019
+localization_priority: Normal
 ---
 
 
-# LegendEntry.Index Property (Excel)
+# LegendEntry.Index property (Excel)
 
-Returns a  **Long** value that represents the index number of the object within the collection of similar objects.
+Returns a **Long** value that represents the index number of the object within the collection of similar objects.
 
 
 ## Syntax
 
- _expression_. `Index`
+_expression_.**Index**
 
- _expression_ A variable that represents a [LegendEntry](Excel.LegendEntry(Graph object).md) object.
-
-
-## See also
+_expression_ A variable that represents a **[LegendEntry](excel.legendentry(object).md)** object.
 
 
-[LegendEntry Object](Excel.LegendEntry(object).md)
 
+
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

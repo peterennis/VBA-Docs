@@ -1,5 +1,5 @@
 ---
-title: PropertyAccessor.SetProperty Method (Outlook)
+title: PropertyAccessor.SetProperty method (Outlook)
 keywords: vbaol11.chm1971
 f1_keywords:
 - vbaol11.chm1971
@@ -8,33 +8,34 @@ api_name:
 - Outlook.PropertyAccessor.SetProperty
 ms.assetid: 2a97c11d-3f5f-65fe-23d6-8efa40dca303
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# PropertyAccessor.SetProperty Method (Outlook)
+# PropertyAccessor.SetProperty method (Outlook)
 
-Sets the property specified by  _SchemaName_ to the value specified by _Value_ .
+Sets the property specified by  _SchemaName_ to the value specified by _Value_.
 
 
 ## Syntax
 
- _expression_. `SetProperty`( `_SchemaName_` , `_Value_` )
+_expression_. `SetProperty`( `_SchemaName_` , `_Value_` )
 
- _expression_ A variable that represents a [PropertyAccessor](./Outlook.PropertyAccessor.md) object.
-
-
-### Parameters
+_expression_ A variable that represents a [PropertyAccessor](Outlook.PropertyAccessor.md) object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-| _SchemaName_|Required| **String**|The name of a property whose value is to be set as specified by the  _Value_ parameter. The property is referenced by namespace. For more information, see[Referencing Properties by Namespace](../outlook/How-to/Navigation/referencing-properties-by-namespace.md).|
+| _SchemaName_|Required| **String**|The name of a property whose value is to be set as specified by the  _Value_ parameter. The property is referenced by namespace. For more information, see [Referencing Properties by Namespace](../outlook/How-to/Navigation/referencing-properties-by-namespace.md).|
 | _Value_|Required| **Variant**|The value that is to be set for the property specified by the  _SchemaName_ parameter.|
 
 ## Remarks
 
-If the property does not exist and the  _SchemaName_ contains a valid property specifier, then **SetProperty** creates the property and assigns the value specified by _Value_ . If the property does exist and _SchemaName_ is valid, then **SetProperty** assigns the property with the value specified by _Value_ .
+If the property does not exist and the  _SchemaName_ contains a valid property specifier, then **SetProperty** creates the property and assigns the value specified by _Value_. If the property does exist and _SchemaName_ is valid, then **SetProperty** assigns the property with the value specified by _Value_.
 
 Note that a custom property created by using the  **[PropertyAccessor](Outlook.PropertyAccessor.md)** is not supported in a custom view. If you want to view a custom property on an item, create the property by using the **[Add](Outlook.UserProperties.Add.md)** method of the **[UserProperties](Outlook.UserProperties.md)** object.
 
@@ -59,7 +60,7 @@ Use caution and ensure that all exceptions are handled correctly. Conditions whe
     
 
 
-For more information on setting properties using the  **PropertyAccessor** object, see[Best Practices for Getting and Setting Properties](../outlook/How-to/Navigation/best-practices-for-getting-and-setting-properties.md).
+For more information on setting properties using the  **PropertyAccessor** object, see [Best Practices for Getting and Setting Properties](../outlook/How-to/Navigation/best-practices-for-getting-and-setting-properties.md).
 
 
 ## Example
@@ -77,7 +78,7 @@ Sub DemoPropertyAccessorSetProperty()
  Set oMail = _ 
  Application.Session.GetDefaultFolder(olFolderInbox).Items(1) 
  'Name for custom property using the MAPI string namespace 
- myProp = "https://schemas.microsoft.com/mapi/string/" & _ 
+ myProp = "http://schemas.microsoft.com/mapi/string/" & _ 
  "{FFF40745-D92F-4C11-9E14-92701F001EB3}/myCustomer" 
  myValue = "Dan Wilson" 
  'Set value with SetProperty call 
@@ -103,3 +104,4 @@ End Sub
 
 [PropertyAccessor Object](Outlook.PropertyAccessor.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

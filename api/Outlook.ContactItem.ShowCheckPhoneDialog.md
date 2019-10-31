@@ -1,5 +1,5 @@
 ---
-title: ContactItem.ShowCheckPhoneDialog Method (Outlook)
+title: ContactItem.ShowCheckPhoneDialog method (Outlook)
 keywords: vbaol11.chm1097
 f1_keywords:
 - vbaol11.chm1097
@@ -8,26 +8,27 @@ api_name:
 - Outlook.ContactItem.ShowCheckPhoneDialog
 ms.assetid: 3ef93046-c2b0-5707-9bb1-4dbfb5d7366c
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# ContactItem.ShowCheckPhoneDialog Method (Outlook)
+# ContactItem.ShowCheckPhoneDialog method (Outlook)
 
 Displays the  **Check Phone Number** dialog box for a specified telephone number contained by a **[ContactItem](Outlook.ContactItem.md)** object.
 
 
 ## Syntax
 
- _expression_. `ShowCheckPhoneDialog`( `_PhoneNumber_` )
+_expression_. `ShowCheckPhoneDialog`( `_PhoneNumber_` )
 
- _expression_ An expression that returns a [ContactItem](./Outlook.ContactItem.md) object.
-
-
-### Parameters
+ _expression_ An expression that returns a [ContactItem](Outlook.ContactItem.md) object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _PhoneNumber_|Required| **[OlContactPhoneNumber](Outlook.OlContactPhoneNumber.md)**|The type of telephone number to be checked.|
 
@@ -36,3 +37,4 @@ Displays the  **Check Phone Number** dialog box for a specified telephone number
 
 [ContactItem Object](Outlook.ContactItem.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

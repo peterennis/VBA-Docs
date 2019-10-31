@@ -1,5 +1,5 @@
 ---
-title: Attachment.SaveAsFile Method (Outlook)
+title: Attachment.SaveAsFile method (Outlook)
 keywords: vbaol11.chm2373
 f1_keywords:
 - vbaol11.chm2373
@@ -8,26 +8,27 @@ api_name:
 - Outlook.Attachment.SaveAsFile
 ms.assetid: d755261a-d551-f3a1-1b20-d87d4d9c38ae
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Attachment.SaveAsFile Method (Outlook)
+# Attachment.SaveAsFile method (Outlook)
 
 Saves the attachment to the specified path.
 
 
 ## Syntax
 
- _expression_. `SaveAsFile`( `_Path_` )
+_expression_. `SaveAsFile`( `_Path_` )
 
- _expression_ A variable that represents an [Attachment](./Outlook.Attachment.md) object.
-
-
-### Parameters
+_expression_ A variable that represents an [Attachment](Outlook.Attachment.md) object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _Path_|Required| **String**|The location at which to save the attachment.|
 
@@ -88,3 +89,4 @@ End Sub
 
 [Attachment Object](Outlook.Attachment.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

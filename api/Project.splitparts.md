@@ -1,12 +1,13 @@
 ---
-title: SplitParts Object (Project)
+title: SplitParts object (Project)
 ms.prod: project-server
 ms.assetid: bc36310c-9289-a363-f2d6-c8a0991725e5
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# SplitParts Object (Project)
+# SplitParts object (Project)
 
 Contains a collection of  **[SplitPart](Project.SplitPart.md)** objects.
  
@@ -34,11 +35,11 @@ For Part = 1 To ActiveCell.Task.SplitParts.Count
 
  With ActiveCell.Task 
 
- Portions = Portions &amp; "Task portion " &amp; Part &amp; ": Start on " &amp; _ 
+ Portions = Portions & "Task portion " & Part & ": Start on " & _ 
 
- .SplitParts(Part).Start &amp; ", Finish on " &amp; _ 
+ .SplitParts(Part).Start & ", Finish on " & _ 
 
- .SplitParts(Part).Finish &amp; vbCrLf 
+ .SplitParts(Part).Finish & vbCrLf 
 
  End With 
 
@@ -69,7 +70,7 @@ For Each T In ActiveProject.Tasks
 
  If Not (T Is Nothing) Then 
 
- MsgBox T.Name &amp; ": " &amp; T.SplitParts.Count 
+ MsgBox T.Name & ": " & T.SplitParts.Count 
 
  End If 
 
@@ -94,7 +95,7 @@ ActiveCell.Task.Split "10/2/02", "10/7/02"
 
 
 
-|**Name**|
+|Name|
 |:-----|
 |[Add](Project.SplitParts.Add.md)|
 
@@ -102,7 +103,7 @@ ActiveCell.Task.Split "10/2/02", "10/7/02"
 
 
 
-|**Name**|
+|Name|
 |:-----|
 |[Application](Project.SplitParts.Application.md)|
 |[Count](Project.SplitParts.Count.md)|
@@ -114,3 +115,5 @@ ActiveCell.Task.Split "10/2/02", "10/7/02"
 
  
 [Project Object Model](../project/Concepts/project-object-model.md)
+
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

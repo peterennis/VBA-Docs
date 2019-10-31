@@ -7,6 +7,7 @@ f1_keywords:
 ms.prod: access
 ms.assetid: 95a4bf62-7102-d2c4-5d66-f28e49c21707
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
@@ -43,7 +44,7 @@ Const conVersion = "Version 12.0"       ' Declare a string constant.
 
 ## Intrinsic constants
 
-In addition to the constants you declare with the **Const** statement, Microsoft Access automatically declares a number of intrinsic constants and provides access to the Visual Basic for Applications (VBA) constants, and ActiveX Data Objects (ADO) constants. You can also use constants in other referenced object libraries. For more information about adding references, see [Set References to Type Libraries](http://msdn.microsoft.com/library/6314a89b-89e9-d8c1-5964-889a361afcd1%28Office.15%29.aspx).
+In addition to the constants you declare with the **Const** statement, Microsoft Access automatically declares a number of intrinsic constants and provides access to the Visual Basic for Applications (VBA) constants, and ActiveX Data Objects (ADO) constants. You can also use constants in other referenced object libraries. For more information about adding references, see [Set References to Type Libraries](https://msdn.microsoft.com/library/6314a89b-89e9-d8c1-5964-889a361afcd1%28Office.15%29.aspx).
 
 Any intrinsic constant can be used in a macro or Visual Basic. These constants are available at all times. The specific built-in constants used with a particular function, method, or property are described in the Help topic for that function, method, or property.
 
@@ -94,9 +95,11 @@ You can use the constant **Null** anywhere in Microsoft Access. For example, you
 
 ## See also
 
-- [Access for developers forum on MSDN](https://social.msdn.microsoft.com/Forums/office/en-US/home?forum=accessdev)
+- [Access for developers forum](https://social.msdn.microsoft.com/Forums/office/home?forum=accessdev)
 - [Access help on support.office.com](https://support.office.com/search/results?query=Access)
-- [Access help on answers.microsoft.com](https://answers.microsoft.com/en-us/msoffice/forum?page=1&;tab=question&;status=all&;auth=1)
+- [Access help on answers.microsoft.com](https://answers.microsoft.com/)
 - [Access forums on UtterAccess](http://www.utteraccess.com/forum/index.php?act=idx)
 - [Access developer and VBA programming help center (FMS)](http://www.fmsinc.com/MicrosoftAccess/developer/)
 - [Access posts on StackOverflow](https://stackoverflow.com/questions/tagged/ms-access)
+
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

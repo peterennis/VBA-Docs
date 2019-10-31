@@ -1,5 +1,5 @@
 ---
-title: MailMergeField.Type Property (Word)
+title: MailMergeField.Type property (Word)
 keywords: vbawd10.chm152961024
 f1_keywords:
 - vbawd10.chm152961024
@@ -8,31 +8,22 @@ api_name:
 - Word.MailMergeField.Type
 ms.assetid: 5e117156-5d15-241e-0eaf-7490d3353f19
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# MailMergeField.Type Property (Word)
+# MailMergeField.Type property (Word)
 
-Returns the field type. Read-only  **[WdFieldType](Word.WdFieldType.md)** .
+Returns the field type. Read-only  **[WdFieldType](Word.WdFieldType.md)**.
 
 
 ## Syntax
 
- _expression_. `Type`
+_expression_.**Type**
 
- _expression_ Required. A variable that represents a '[MailMergeField](Word.MailMergeField.md)' object.
-
-
-## Remarks
-
-
- **Security Note**  
+_expression_ Required. A variable that represents a '[MailMergeField](Word.MailMergeField.md)' object.
 
 
 
 
-## See also
-
-
-[MailMergeField Object](Word.MailMergeField.md)
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

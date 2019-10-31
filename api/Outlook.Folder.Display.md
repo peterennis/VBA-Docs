@@ -1,5 +1,5 @@
 ---
-title: Folder.Display Method (Outlook)
+title: Folder.Display method (Outlook)
 keywords: vbaol11.chm1996
 f1_keywords:
 - vbaol11.chm1996
@@ -8,19 +8,20 @@ api_name:
 - Outlook.Folder.Display
 ms.assetid: cde389e0-5ec9-8261-5ec0-9a5ba4f8776d
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Folder.Display Method (Outlook)
+# Folder.Display method (Outlook)
 
 Displays a new  **[Explorer](Outlook.Explorer.md)** object for the folder.
 
 
 ## Syntax
 
- _expression_. `Display`()
+_expression_. `Display`()
 
- _expression_ A variable that represents a [Folder](./Outlook.Folder.md) object.
+_expression_ A variable that represents a [Folder](Outlook.Folder.md) object.
 
 
 ## Example
@@ -49,7 +50,8 @@ End Sub
 This Visual Basic for Applications example displays the first item in the Inbox folder. This example will return an error if the Inbox is empty, because you are trying to display a specific item. If there are no items in the folder, a message box will be displayed to inform the user.
 
 
- **Note**  The items in the  **Items** collection object are not guaranteed to be in any particular order.
+> [!NOTE] 
+> The items in the  **Items** collection object are not guaranteed to be in any particular order.
 
 
 
@@ -86,3 +88,4 @@ End Sub
 
 [Folder Object](Outlook.Folder.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

@@ -1,5 +1,5 @@
 ---
-title: Application.AddAddress Method (Word)
+title: Application.AddAddress method (Word)
 keywords: vbawd10.chm158335297
 f1_keywords:
 - vbawd10.chm158335297
@@ -8,32 +8,33 @@ api_name:
 - Word.Application.AddAddress
 ms.assetid: 9114f213-9e43-a65c-7513-631820481967
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Application.AddAddress Method (Word)
+# Application.AddAddress method (Word)
 
 Adds an entry to the address book. Each entry has values for one or more tag IDs.
 
 ## Syntax
 
-_expression_. **AddAddress** (**_TagID_**, **_Value_**)
+_expression_.**AddAddress** (**_TagID_**, **_Value_**)
 
 _expression_ Required. A variable that represents an **[Application](Word.Application.md)** object.
 
 
-### Parameters
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _TagID_|Required|**String array**|The tag ID values for the new address entry. Each element in the array can contain one of the strings listed in the [following table](#tag-ids). Only the display name is required; the remaining entries are optional.|
 | _Value_|Required|**String array**|The values for the new address entry. Each element corresponds to an element in the TagID array. For more information, see the [example](#example).|
 
 <br/>
 
-#### Tag IDs
+### Tag IDs
 
-|**Tag ID**|**Description**|
+|Tag ID|Description|
 |:-----|:-----|
 |PR_DISPLAY_NAME|Name displayed in the **Address Book** dialog box|
 |PR_DISPLAY_NAME_PREFIX|Title (for example, "Ms." or "Dr.")|
@@ -93,3 +94,4 @@ Application.AddAddress TagID:=tagIDArray(), Value:=valueArray()
 
 - [Application Object](Word.Application.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

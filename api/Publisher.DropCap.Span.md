@@ -1,5 +1,5 @@
 ---
-title: DropCap.Span Property (Publisher)
+title: DropCap.Span property (Publisher)
 keywords: vbapb10.chm5505033
 f1_keywords:
 - vbapb10.chm5505033
@@ -7,23 +7,24 @@ ms.prod: publisher
 api_name:
 - Publisher.DropCap.Span
 ms.assetid: 00c51e48-5bbc-13e9-2d0c-e8993f753bbe
-ms.date: 06/08/2017
+ms.date: 06/07/2019
+localization_priority: Normal
 ---
 
 
-# DropCap.Span Property (Publisher)
+# DropCap.Span property (Publisher)
 
-Returns or sets a  **Long** that represents the number of letters included in the specified dropped capital letter. Read/write.
+Returns or sets a **Long** that represents the number of letters included in the specified dropped capital letter. Read/write.
 
 
 ## Syntax
 
- _expression_. **Span**
+_expression_.**Span**
 
- _expression_ A variable that represents a  **DropCap** object.
+_expression_ A variable that represents a **[DropCap](Publisher.DropCap.md)** object.
 
 
-### Return Value
+## Return value
 
 Long
 
@@ -31,7 +32,6 @@ Long
 ## Example
 
 This example creates a custom dropped capital letter that is five lines high, spans the first three characters of the paragraphs in the text range, and is raised one line above the first line.
-
 
 ```vb
 Sub SetDropCapSpan() 
@@ -44,4 +44,4 @@ Sub SetDropCapSpan()
 End Sub
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

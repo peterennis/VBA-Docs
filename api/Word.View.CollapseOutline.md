@@ -1,5 +1,5 @@
 ---
-title: View.CollapseOutline Method (Word)
+title: View.CollapseOutline method (Word)
 keywords: vbawd10.chm161808485
 f1_keywords:
 - vbawd10.chm161808485
@@ -8,26 +8,27 @@ api_name:
 - Word.View.CollapseOutline
 ms.assetid: b22ac567-ef40-e47e-f0fc-311263675045
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# View.CollapseOutline Method (Word)
+# View.CollapseOutline method (Word)
 
 Collapses the text under the selection or the specified range by one heading level.
 
 
 ## Syntax
 
- _expression_. `CollapseOutline`( `_Range_` )
+_expression_. `CollapseOutline`( `_Range_` )
 
- _expression_ Required. A variable that represents a '[View](Word.View.md)' object.
-
-
-### Parameters
+_expression_ Required. A variable that represents a '[View](Word.View.md)' object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _Range_|Optional| **Range object**|The range of paragraphs to be collapsed. If this argument is omitted, the entire selection is collapsed.|
 
@@ -67,3 +68,4 @@ End With
 
 [View Object](Word.View.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

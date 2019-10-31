@@ -1,5 +1,5 @@
 ---
-title: Border Object (Word)
+title: Border object (Word)
 keywords: vbawd10.chm2363
 f1_keywords:
 - vbawd10.chm2363
@@ -8,10 +8,11 @@ api_name:
 - Word.Border
 ms.assetid: be48c020-b86c-c004-ce1c-76d9edae9791
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Border Object (Word)
+# Border object (Word)
 
 Represents a border of an object. The  **Border** object is a member of the **[Borders](Word.borders.md)** collection.
 
@@ -58,28 +59,26 @@ For Each aBorder In ActiveDocument.Sections(1).Borders
 Next aBorder
 ```
 
- **Border** objects cannot be added to the **[Borders](Word.borders.md)** collection. The number of members in the **[Borders](Word.borders.md)** collection is finite and varies depending on the type of object. For example, a table has six elements in the **[Borders](Word.borders.md)** collection, whereas a paragraph has four.
+**Border** objects cannot be added to the **Borders** collection. The number of members in the **Borders** collection is finite and varies depending on the type of object. For example, a table has six elements in the **Borders** collection, whereas a paragraph has four.
 
 
 ## Properties
 
+- [Application](Word.Border.Application.md)
+- [ArtStyle](Word.Border.ArtStyle.md)
+- [ArtWidth](Word.Border.ArtWidth.md)
+- [Color](Word.Border.Color.md)
+- [ColorIndex](Word.Border.ColorIndex.md)
+- [Creator](Word.Border.Creator.md)
+- [Inside](Word.Border.Inside.md)
+- [LineStyle](Word.Border.LineStyle.md)
+- [LineWidth](Word.Border.LineWidth.md)
+- [Parent](Word.Border.Parent.md)
+- [Visible](Word.Border.Visible.md)
 
-
-|**Name**|
-|:-----|
-|[Application](Word.Border.Application.md)|
-|[ArtStyle](Word.Border.ArtStyle.md)|
-|[ArtWidth](Word.Border.ArtWidth.md)|
-|[Color](Word.Border.Color.md)|
-|[ColorIndex](Word.Border.ColorIndex.md)|
-|[Creator](Word.Border.Creator.md)|
-|[Inside](Word.Border.Inside.md)|
-|[LineStyle](Word.Border.LineStyle.md)|
-|[LineWidth](Word.Border.LineWidth.md)|
-|[Parent](Word.Border.Parent.md)|
-|[Visible](Word.Border.Visible.md)|
 
 ## See also
 
+- [Word Object Model Reference](overview/Word/object-model.md)
 
-[Word Object Model Reference](./overview/Word/object-model.md)
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

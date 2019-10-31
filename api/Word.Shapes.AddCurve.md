@@ -1,5 +1,5 @@
 ---
-title: Shapes.AddCurve Method (Word)
+title: Shapes.AddCurve method (Word)
 keywords: vbawd10.chm161415180
 f1_keywords:
 - vbawd10.chm161415180
@@ -8,37 +8,36 @@ api_name:
 - Word.Shapes.AddCurve
 ms.assetid: 105f6ff1-b8a9-aec5-285b-6bf7399ecdc7
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Shapes.AddCurve Method (Word)
+# Shapes.AddCurve method (Word)
 
-Returns a  **[Shape](Word.Shape.md)** object that represents a B?zier curve in a drawing canvas.
+Returns a  **[Shape](Word.Shape.md)** object that represents a Bézier curve in a drawing canvas.
 
 
 ## Syntax
 
- _expression_. `AddCurve`( `_SafeArrayOfPoints_` )
+_expression_.**AddCurve** (_SafeArrayOfPoints_)
 
- _expression_ Required. A variable that represents a '[Shapes](Word.shapes.md)' collection.
-
-
-### Parameters
+_expression_ Required. A variable that represents a **[Shapes](Word.Shapes.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-| _SafeArrayOfPoints_|Required| **Variant**|An array of coordinate pairs that specifies the vertices and control points of the curve. The first point you specify is the starting vertex, and the next two points are control points for the first B?zier segment. Then, for each additional segment of the curve, you specify a vertex and two control points. The last point you specify is the ending vertex for the curve. Note that you must always specify 3n + 1 points, where n is the number of segments in the curve.|
+| _SafeArrayOfPoints_|Required| **Variant**|An array of coordinate pairs that specifies the vertices and control points of the curve. The first point you specify is the starting vertex, and the next two points are control points for the first Bézier segment. Then, for each additional segment of the curve, you specify a vertex and two control points. The last point you specify is the ending vertex for the curve. Note that you must always specify 3n + 1 points, where n is the number of segments in the curve.|
 
-### Return Value
+## Return value
 
  **[Shape](Word.Shape.md)**
 
 
 ## Example
 
-This example adds a B?zier curve to a new drawing canvas.
+This example adds a Bézier curve to a new drawing canvas.
 
 
 ```vb
@@ -82,3 +81,4 @@ End Sub
 
 [Shapes Collection Object](Word.shapes.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

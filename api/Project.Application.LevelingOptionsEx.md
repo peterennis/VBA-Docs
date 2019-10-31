@@ -1,5 +1,5 @@
 ---
-title: Application.LevelingOptionsEx Method (Project)
+title: Application.LevelingOptionsEx method (Project)
 keywords: vbapj.chm2249
 f1_keywords:
 - vbapj.chm2249
@@ -8,26 +8,27 @@ api_name:
 - Project.Application.LevelingOptionsEx
 ms.assetid: f8799750-fecf-48d1-7559-25cd7a8d3d28
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Application.LevelingOptionsEx Method (Project)
+# Application.LevelingOptionsEx method (Project)
 
 Specifies leveling options for the active project, including leveling of manually scheduled tasks.
 
 
 ## Syntax
 
- _expression_. `LevelingOptionsEx`( ` _Automatic_`, ` _DelayInSlack_`, ` _AutoClearLeveling_`, ` _Order_`, ` _LevelEntireProject_`, ` _FromDate_`, ` _ToDate_`, ` _PeriodBasis_`, ` _LevelIndividualAssignments_`, ` _LevelingCanSplit_`, ` _LevelProposedBookings_`, ` _LevelPinnedTasks_` )
+_expression_. `LevelingOptionsEx`( `_Automatic_`, `_DelayInSlack_`, `_AutoClearLeveling_`, `_Order_`, `_LevelEntireProject_`, `_FromDate_`, `_ToDate_`, `_PeriodBasis_`, `_LevelIndividualAssignments_`, `_LevelingCanSplit_`, `_LevelProposedBookings_`, `_LevelPinnedTasks_` )
 
- _expression_ An expression that returns an [Application](./Project.Application.md) object.
-
-
-### Parameters
+ _expression_ An expression that returns an **[Application](Project.Application.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _Automatic_|Optional|**Boolean**|**True** if Project automatically levels tasks in the active project. **False** if leveling is manual. The default value is **False**.|
 | _DelayInSlack_|Optional|**Boolean**|**True** if the active project can be leveled only within the available slack time. **False** if the project can be delayed to level resources. The default value is **False**.|
@@ -37,12 +38,12 @@ Specifies leveling options for the active project, including leveling of manuall
 | _FromDate_|Optional|**Variant**|The starting date of a range within which overallocated resources are leveled. The  _FromDate_ argument is ignored if _LevelEntireProject_ is **True**.|
 | _ToDate_|Optional|**Variant**|The ending date of a range within which overallocated resources are leveled. The  _ToDate_ argument is ignored if _LevelEntireProject_ is **True**.|
 | _PeriodBasis_|Optional|**Integer**|Specifies how often Project should look for overallocated resources. Can be one of the  **[PjLevelPeriodBasis](Project.PjLevelPeriodBasis.md)** constants. The default value is **pjDayByDay**.|
-| _LevelIndividualAssignments_|Optional|**Boolean**|**True** if leveling can adjust individual assignments on a task; otherwise, **false**. The default value is **True**.|
+| _LevelIndividualAssignments_|Optional|**Boolean**|**True** if leveling can adjust individual assignments on a task; otherwise, **False**. The default value is **True**.|
 | _LevelingCanSplit_|Optional|**Boolean**|**True** if leveling can create splits in remaining work; otherwise, **False**. The default value is **True**.|
 | _LevelProposedBookings_|Optional|**Boolean**|**True** if leveling includes proposed resource bookings; otherwise, **False**. The default value is **False**.|
 | _LevelPinnedTasks_|Optional|**Boolean**|**True** if manually scheduled tasks are leveled; otherwise, **False**. The default value is **False**.|
 
-### Return Value
+## Return value
 
  **Boolean**
 
@@ -69,4 +70,4 @@ Sub LevelOverallocatedResources()
 End Sub
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

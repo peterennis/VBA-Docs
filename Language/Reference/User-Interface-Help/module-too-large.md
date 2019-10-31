@@ -6,12 +6,13 @@ f1_keywords:
 ms.prod: office
 ms.assetid: b00483e1-d3b2-f532-eaa3-fae61f45c013
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
 # Module too large
 
-A [module](../../Glossary/vbe-glossary.md#module) contains code within the[project](../../Glossary/vbe-glossary.md#project). This error has the following cause and solution:
+A [module](../../Glossary/vbe-glossary.md#module) contains code within the [project](../../Glossary/vbe-glossary.md#project). This error has the following cause and solution:
 
 
 
@@ -23,3 +24,4 @@ A [module](../../Glossary/vbe-glossary.md#module) contains code within the[proje
 
 For additional information, select the item in question and press F1 (in Windows) or HELP (on the Macintosh).
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

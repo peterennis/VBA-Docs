@@ -1,5 +1,5 @@
 ---
-title: Module.DeleteLines Method (Access)
+title: Module.DeleteLines method (Access)
 keywords: vbaac10.chm12278
 f1_keywords:
 - vbaac10.chm12278
@@ -7,41 +7,40 @@ ms.prod: access
 api_name:
 - Access.Module.DeleteLines
 ms.assetid: 57f65c6c-4d9c-3abd-065b-b75d1ada06cb
-ms.date: 06/08/2017
+ms.date: 03/22/2019
+localization_priority: Normal
 ---
 
 
-# Module.DeleteLines Method (Access)
+# Module.DeleteLines method (Access)
 
-The  **DeleteLines** method deletes lines from a standard module or a class module.
+The **DeleteLines** method deletes lines from a standard module or a class module.
 
 
 ## Syntax
 
- _expression_. `DeleteLines`( ` _StartLine_`, ` _Count_` )
+_expression_.**DeleteLines** (_StartLine_, _Count_)
 
- _expression_ A variable that represents a [Module](Access.Module.md) object.
-
-
-### Parameters
+_expression_ A variable that represents a **[Module](Access.Module.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _StartLine_|Required|**Long**| The number of the line from which to begin deleting.|
 | _Count_|Required|**Long**|The number of lines to delete.|
 
-### Return Value
+## Return value
 
 Nothing
 
 
 ## Remarks
 
-Lines in a module are numbered beginning with one. To determine the number of lines in a module, use the  **[CountOfLines](Access.Module.CountOfLines.md)** property.
+Lines in a module are numbered beginning with one. To determine the number of lines in a module, use the **[CountOfLines](Access.Module.CountOfLines.md)** property.
 
-To replace one line with another line, use the  **[ReplaceLine](Access.Module.ReplaceLine.md)** method.
+To replace one line with another line, use the **[ReplaceLine](Access.Module.ReplaceLine.md)** method.
 
 
 ## Example
@@ -86,10 +85,9 @@ Error_DeleteWholeLine:
 End Function
 ```
 
+<br/>
+
 You could call this function from a procedure such as the following, which searches the module Module1 for a constant declaration and deletes it.
-
-
-
 
 ```vb
 Sub DeletePiConst() 
@@ -104,6 +102,6 @@ End Sub
 
 ## See also
 
+- [DeleteLines method (VBA Add-In Object Model)](../language/reference/user-interface-help/deletelines-method-vba-add-in-object-model.md)
 
-[Module Object](Access.Module.md)
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

@@ -1,5 +1,5 @@
 ---
-title: Items.SetColumns Method (Outlook)
+title: Items.SetColumns method (Outlook)
 keywords: vbaol11.chm71
 f1_keywords:
 - vbaol11.chm71
@@ -8,26 +8,27 @@ api_name:
 - Outlook.Items.SetColumns
 ms.assetid: 90206a68-baf8-282c-5793-fee029fed452
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Items.SetColumns Method (Outlook)
+# Items.SetColumns method (Outlook)
 
 Caches certain properties for extremely fast access to those particular properties of each item in an  **[Items](Outlook.Items.md)** collection.
 
 
 ## Syntax
 
- _expression_. `SetColumns`( `_Columns_` )
+_expression_. `SetColumns`( `_Columns_` )
 
- _expression_ A variable that represents an [Items](./Outlook.Items.md) object.
-
-
-### Parameters
+_expression_ A variable that represents an [Items](Outlook.Items.md) object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _Columns_|Required| **String**|A string that contains the names of the properties to cache. The property names are delimited by commas in this string.|
 
@@ -98,3 +99,4 @@ End Sub
 
 [Items Object](Outlook.Items.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

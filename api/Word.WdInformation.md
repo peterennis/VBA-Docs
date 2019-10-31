@@ -1,20 +1,21 @@
 ---
-title: WdInformation Enumeration (Word)
+title: WdInformation enumeration (Word)
 ms.prod: word
 api_name:
 - Word.WdInformation
 ms.assetid: b5c46795-9f66-e607-1fb4-3a922b829c40
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# WdInformation Enumeration (Word)
+# WdInformation enumeration (Word)
 
 Specifies the type of information returned about a specified selection or range.
 
 
 
-|**Name**|**Value**|**Description**|
+|Name|Value|Description|
 |:-----|:-----|:-----|
 | **wdActiveEndAdjustedPageNumber**|1|Returns the number of the page that contains the active end of the specified selection or range. If you set a starting page number or make other manual adjustments, returns the adjusted page number (unlike  **wdActiveEndPageNumber**).|
 | **wdActiveEndPageNumber**|3|Returns the number of the page that contains the active end of the specified selection or range, counting from the beginning of the document. Any manual adjustments to page numbering are disregarded (unlike  **wdActiveEndAdjustedPageNumber**).|
@@ -27,8 +28,8 @@ Specifies the type of information returned about a specified selection or range.
 | **wdFirstCharacterLineNumber**|10|Returns the character position of the first character in the specified selection or range. If the selection or range is collapsed, the character number immediately to the right of the range or selection is returned (this is the same as the character line number displayed in the status bar after "Ln").|
 | **wdFrameIsSelected**|11|Returns  **True** if the selection or range is an entire frame or text box.|
 | **wdHeaderFooterType**|33|Returns a value that indicates the type of header or footer that contains the specified selection or range. See the table in the remarks section for additional information.|
-| **wdHorizontalPositionRelativeToPage**|5|Returns the horizontal position of the specified selection or range; this is the distance from the left edge of the selection or range to the left edge of the page measured in points (1 point = 20 twips, 72 points = 1 inch). If the selection or range isn't within the screen area, returns ? 1.|
-| **wdHorizontalPositionRelativeToTextBoundary**|7|Returns the horizontal position of the specified selection or range relative to the left edge of the nearest text boundary enclosing it, in points (1 point = 20 twips, 72 points = 1 inch). If the selection or range isn't within the screen area, returns - 1.|
+| **wdHorizontalPositionRelativeToPage**|5|Returns the horizontal position of the specified selection or range; this is the distance from the left edge of the selection or range to the left edge of the page measured in points (1 point = 20 twips, 72 points = 1 inch). If the selection or range isn't within the screen area, returns -1.|
+| **wdHorizontalPositionRelativeToTextBoundary**|7|Returns the horizontal position of the specified selection or range relative to the left edge of the nearest text boundary enclosing it, in points (1 point = 20 twips, 72 points = 1 inch). If the selection or range isn't within the screen area, returns -1.|
 | **wdInBibliography**|42|Returns  **True** if the specified selection or range is in a bibliography.|
 | **wdInCitation**|43|Returns  **True** if the specified selection or range is in a citation.|
 | **wdInClipboard**|38|For information about this constant, consult the language reference Help included with Microsoft Office Macintosh Edition.|
@@ -53,8 +54,9 @@ Specifies the type of information returned about a specified selection or range.
 | **wdSelectionMode**|20|Returns a value that indicates the current selection mode, as shown in the following table.|
 | **wdStartOfRangeColumnNumber**|16|Returns the table column number that contains the beginning of the selection or range.|
 | **wdStartOfRangeRowNumber**|13|Returns the table row number that contains the beginning of the selection or range.|
-| **wdVerticalPositionRelativeToPage**|6|Returns the vertical position of the selection or range; this is the distance from the top edge of the selection to the top edge of the page measured in points (1 point = 20 twips, 72 points = 1 inch). If the selection isn't visible in the document window, returns ? 1.|
-| **wdVerticalPositionRelativeToTextBoundary**|8|Returns the vertical position of the selection or range relative to the top edge of the nearest text boundary enclosing it, in points (1 point = 20 twips, 72 points = 1 inch). This is useful for determining the position of the insertion point within a frame or table cell. If the selection isn't visible, returns ? 1.|
+| **wdVerticalPositionRelativeToPage**|6|Returns the vertical position of the selection or range; this is the distance from the top edge of the selection to the top edge of the page measured in points (1 point = 20 twips, 72 points = 1 inch). If the selection isn't visible in the document window, returns -1.|
+| **wdVerticalPositionRelativeToTextBoundary**|8|Returns the vertical position of the selection or range relative to the top edge of the nearest text boundary enclosing it, in points (1 point = 20 twips, 72 points = 1 inch). This is useful for determining the position of the insertion point within a frame or table cell. If the selection isn't visible, returns -1.|
 | **wdWithInTable**|12|Returns  **True** if the selection is in a table.|
 | **wdZoomPercentage**|19|Returns the current percentage of magnification as set by the  **Percentage** property.|
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

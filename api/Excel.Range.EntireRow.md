@@ -1,5 +1,5 @@
 ---
-title: Range.EntireRow Property (Excel)
+title: Range.EntireRow property (Excel)
 keywords: vbaxl10.chm144123
 f1_keywords:
 - vbaxl10.chm144123
@@ -7,37 +7,34 @@ ms.prod: excel
 api_name:
 - Excel.Range.EntireRow
 ms.assetid: 9e66da51-6cef-4109-ea4e-2acaad42aa1f
-ms.date: 06/08/2017
+ms.date: 05/10/2019
+localization_priority: Normal
 ---
 
 
-# Range.EntireRow Property (Excel)
+# Range.EntireRow property (Excel)
 
-Returns a  **[Range](Excel.Range(object).md)** object that represents the entire row (or rows) that contains the specified range. Read-only.
+Returns a **Range** object that represents the entire row (or rows) that contains the specified range. Read-only.
 
 
 ## Syntax
 
- _expression_. `EntireRow`
+_expression_.**EntireRow**
 
- _expression_ A variable that represents a [Range](Excel.Range(Graph property).md) object.
+_expression_ A variable that represents a **[Range](excel.range(object).md)** object.
 
 
 ## Example
 
 This example sets the value of the first cell in the row that contains the active cell. The example must be run from a worksheet.
 
-
 ```vb
 ActiveCell.EntireRow.Cells(1, 1).Value = 5
 ```
 
- **Sample code provided by:** Holy Macro! Books,[Holy Macro! It's 2,500 Excel VBA Examples](https://www.mrexcel.com/store/index.php?l=product_detail&;p=1)
+<br/>
 
 This example sorts all the rows on a worksheet, including hidden rows.
-
-
-
 
 ```vb
 Sub SortAll()
@@ -50,7 +47,7 @@ Sub SortAll()
     lngLastRow = Cells(Rows.Count, 1).End(xlUp).Row
     Set rngHidden = Rows(1)
     
-    'For each row in the list, if the row is hidden add that that row to the hidden range variable.
+    'For each row in the list, if the row is hidden add that row to the hidden range variable.
     For lngRow = 1 To lngLastRow
         If Rows(lngRow).Hidden = True Then
             Set rngHidden = Union(rngHidden, Rows(lngRow))
@@ -77,14 +74,5 @@ End Sub
 ```
 
 
-### About the contributor
 
-Holy Macro! Books publishes entertaining books for people who use Microsoft Office. See the complete catalog at MrExcel.com. 
-
-
-## See also
-
-
-[Range Object](Excel.Range(object).md)
-
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

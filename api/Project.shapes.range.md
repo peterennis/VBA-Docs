@@ -1,32 +1,33 @@
 ---
-title: Shapes.Range Method (Project)
+title: Shapes.Range method (Project)
 ms.prod: project-server
 ms.assetid: 984326ae-f567-18b8-562a-fcb2160b0dad
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Shapes.Range Method (Project)
+# Shapes.Range method (Project)
 Returns a  **ShapeRange** object that represents a subset of shapes in the **Shapes** collection.
 
 ## Syntax
 
- _expression_. `Range` _(Index)_
+_expression_.**Range** (_Index_)
 
- _expression_ A variable that represents a 'Shapes' object.
-
-
-### Parameters
+_expression_ A variable that represents a **[Shapes](Project.Shapes.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _Index_|Required|**Variant**|Specifies one or more shapes to be included in the range. Can be an integer for the index number of a shape, a string for the name of a shape, or an array that contains either integers or strings.|
-| _Index_|Required|VARIANT||
+| _Index_|Required|**Variant**||
 |Name|Required/Optional|Data type|Description|
 
-### Return value
+## Return value
 
  **ShapeRange**
 
@@ -36,7 +37,8 @@ The range of shapes that are specified by the  _Index_ parameter.
 ## Remarks
 
 
- **Note**  Most operations that you can do with a  **Shape** object you can also do with a **ShapeRange** object that contains a single shape. Some operations, when performed on a **ShapeRange** object that contains multiple shapes, produce an error.
+> [!NOTE] 
+> Most operations that you can do with a  **Shape** object you can also do with a **ShapeRange** object that contains a single shape. Some operations, when performed on a **ShapeRange** object that contains multiple shapes, produce an error.
 
 Although you can use the  **Range** property to return any number of shapes on a report, it is simpler to use the default **Value** property to return a single **Shape** in the collection. For example, `Shapes(1)` is simpler than `Shapes.Range(1)`.
 
@@ -95,3 +97,5 @@ End Sub
 
 [Shapes Object](Project.shapes.md)
 [ShapeRange Object](Project.shaperange.md)
+
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

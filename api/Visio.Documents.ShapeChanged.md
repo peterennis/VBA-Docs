@@ -1,5 +1,5 @@
 ---
-title: Documents.ShapeChanged Event (Visio)
+title: Documents.ShapeChanged event (Visio)
 keywords: vis_sdr.chm10619230
 f1_keywords:
 - vis_sdr.chm10619230
@@ -8,26 +8,27 @@ api_name:
 - Visio.Documents.ShapeChanged
 ms.assetid: c39e7dd1-0baf-6a6e-b51c-e3f6e7dfa03d
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Documents.ShapeChanged Event (Visio)
+# Documents.ShapeChanged event (Visio)
 
 Occurs after a property of a shape that is not stored in a cell is changed in a document.
 
 
 ## Syntax
 
-Private Sub  _expression_ _'ShapeChanged'(**_ByVal Shape As [IVSHAPE]_**)
+_expression_.**ShapeChanged** (_Shape_)
 
- _expression_ A variable that represents a [Documents](./Visio.Documents.md) object.
-
-
-### Parameters
+_expression_ A variable that represents a **[Documents](Visio.Documents.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _Shape_|Required| **[IVSHAPE]**|The shape whose property changed.|
 
@@ -52,17 +53,24 @@ Changes to the following shape properties cause the  **ShapeChanged** event to f
     
 
 
-If you're using Microsoft Visual Basic or Visual Basic for Applications (VBA), the syntax in this topic describes a common, efficient way to handle events.
+If you are using Microsoft Visual Basic or Visual Basic for Applications (VBA), the syntax in this topic describes a common, efficient way to handle events.
 
-If you want to create your own  **Event** objects, use the **Add** or **AddAdvise** method. To create an **Event** object that runs an add-on, use the **Add** method as it applies to the **EventList** collection. To create an **Event** object that receives notification, use the **AddAdvise** method. To find an event code for the event you want to create, see[Event codes](../visio/Concepts/event-codesvisio.md).
+If you want to create your own **Event** objects, use the **[Add](visio.eventlist.add.md)** or **[AddAdvise](visio.eventlist.addadvise.md)** method. 
 
-If you are handling this event from a program that receives a notification over a connection that was created by using  **AddAdvise** , the _varMoreInfo_ argument to **VisEventProc** contains the string: "/doc=1 /page=1 /shape=Sheet.3"
+To create an **Event** object that runs an add-on, use the **Add** method as it applies to the **EventList** collection. 
+
+To create an **Event** object that receives notification, use the **AddAdvise** method. 
+
+To find an event code for the event that you want to create, see [Event codes](../visio/Concepts/event-codesvisio.md).
+
+If you are handling this event from a program that receives a notification over a connection that was created by using  **AddAdvise**, the _varMoreInfo_ argument to **VisEventProc** contains the string: "/doc=1 /page=1 /shape=Sheet.3"
 
 
 
 
- **Note**  You can use VBA  **WithEvents** variables to sink the **ShapeChanged** event.
+> [!NOTE] 
+> You can use VBA  **WithEvents** variables to sink the **ShapeChanged** event.
 
-For performance considerations, the  **Document** object's event set does not include the **ShapeChanged** event. To sink the **ShapeChanged** event from a **Document** object (and from the **ThisDocument** object in a VBA project), you must use the **AddAdvise** method.
+For performance considerations, the  **Document** object's event set does not include the **ShapeChanged** event. To sink the **ShapeChanged** event from a **Document** object (and from the **[ThisDocument](../visio/Concepts/about-the-thisdocument-object-visio.md)** object in a VBA project), you must use the **AddAdvise** method.
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

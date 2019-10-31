@@ -1,5 +1,5 @@
 ---
-title: MailMerge.ShowWizard Method (Word)
+title: MailMerge.ShowWizard method (Word)
 keywords: vbawd10.chm153092210
 f1_keywords:
 - vbawd10.chm153092210
@@ -8,26 +8,27 @@ api_name:
 - Word.MailMerge.ShowWizard
 ms.assetid: 002e6582-4600-c897-f475-546375416cf4
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# MailMerge.ShowWizard Method (Word)
+# MailMerge.ShowWizard method (Word)
 
 Displays the Mail Merge Wizard in a document.
 
 
 ## Syntax
 
- _expression_. `ShowWizard`( `_InitialState_` , `_ShowDocumentStep_` , `_ShowTemplateStep_` , `_ShowDataStep_` , `_ShowWriteStep_` , `_ShowPreviewStep_` , `_ShowMergeStep_` )
+_expression_. `ShowWizard`( `_InitialState_` , `_ShowDocumentStep_` , `_ShowTemplateStep_` , `_ShowDataStep_` , `_ShowWriteStep_` , `_ShowPreviewStep_` , `_ShowMergeStep_` )
 
- _expression_ Required. A variable that represents a '[MailMerge](Word.MailMerge.md)' object.
-
-
-### Parameters
+_expression_ Required. A variable that represents a '[MailMerge](Word.MailMerge.md)' object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _InitialState_|Required| **Variant**|The number of the Mail Merge Wizard step to display.|
 | _ShowDocumentStep_|Optional| **Variant**| **True** keeps the "Select document type" step in the sequence of mail merge steps. **False** removes step one.|
@@ -39,7 +40,7 @@ Displays the Mail Merge Wizard in a document.
 
 ## Example
 
-This example checks if the Mail Merge Wizard is already displayed and, if it is, moves to the Mail Merge Wizard's sixth step and removes the fifth step from the Wizard.
+This example checks if the Mail Merge Wizard is already displayed, and if it is, moves to the Mail Merge Wizard's sixth step and removes the fifth step from the Wizard.
 
 
 ```vb
@@ -58,3 +59,4 @@ End Sub
 
 [MailMerge Object](Word.MailMerge.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

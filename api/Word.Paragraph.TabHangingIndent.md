@@ -1,5 +1,5 @@
 ---
-title: Paragraph.TabHangingIndent Method (Word)
+title: Paragraph.TabHangingIndent method (Word)
 keywords: vbawd10.chm156696880
 f1_keywords:
 - vbawd10.chm156696880
@@ -8,26 +8,27 @@ api_name:
 - Word.Paragraph.TabHangingIndent
 ms.assetid: bb29f459-4e38-e31d-ee18-ba061e5c116e
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Paragraph.TabHangingIndent Method (Word)
+# Paragraph.TabHangingIndent method (Word)
 
 Sets a hanging indent to a specified number of tab stops. .
 
 
 ## Syntax
 
- _expression_. `TabHangingIndent`( `_Count_` )
+_expression_. `TabHangingIndent`( `_Count_` )
 
- _expression_ Required. A variable that represents a '[Paragraph](Word.Paragraph.md)' object.
-
-
-### Parameters
+_expression_ Required. A variable that represents a '[Paragraph](Word.Paragraph.md)' object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _Count_|Required| **Integer**|The number of tab stops to indent (if positive) or the number of tab stops to remove from the indent (if negative).|
 
@@ -60,3 +61,4 @@ ActiveDocument.Paragraphs(1).TabHangingIndent(-1)
 
 [Paragraph Object](Word.Paragraph.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

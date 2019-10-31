@@ -1,5 +1,5 @@
 ---
-title: Application.FieldNameToFieldConstant Method (Project)
+title: Application.FieldNameToFieldConstant method (Project)
 keywords: vbapj.chm131217
 f1_keywords:
 - vbapj.chm131217
@@ -8,31 +8,32 @@ api_name:
 - Project.Application.FieldNameToFieldConstant
 ms.assetid: 0830db06-22a7-3ca5-c9ca-f9efbc360767
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Application.FieldNameToFieldConstant Method (Project)
+# Application.FieldNameToFieldConstant method (Project)
 
 Returns a  **Long** value for a local custom field or an enterprise custom field name.
 
 
 ## Syntax
 
- _expression_. `FieldNameToFieldConstant`( ` _FieldName_`, ` _FieldType_` )
+_expression_. `FieldNameToFieldConstant`( `_FieldName_`, `_FieldType_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
-
-
-### Parameters
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _FieldName_|Required|**String**|The name of the local or enterprise custom field.|
 | _FieldType_|Optional|**Long**|The type of field. Can be one of the following  **[PjFieldType](Project.PjFieldType.md)** constants: **pjProject**, **pjResource**, or **pjTask**. The default value is **pjTask**.|
 
-### Return Value
+## Return value
 
  **Long**
 
@@ -42,7 +43,8 @@ Returns a  **Long** value for a local custom field or an enterprise custom field
 If the FieldName argument is a local custom field, the returned value can be a  **[PjField](Project.PjField.md)** constant. If FieldName is an enterprise custom field, the returned value does not match a **PjField** constant because there can be an unlimited number of enterprise custom fields.
 
 
- **Note**  For usability and performance reasons, the number of enterprise custom fields should be limited to a few hundred or less.
+> [!NOTE] 
+> For usability and performance reasons, the number of enterprise custom fields should be limited to a few hundred or less.
 
 You can access project custom fields through the  **ProjectSummaryTask** property.
 
@@ -90,4 +92,4 @@ Sub TestEnterpriseProjectCF()
 End Sub
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

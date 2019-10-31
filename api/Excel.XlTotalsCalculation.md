@@ -1,20 +1,21 @@
 ---
-title: XlTotalsCalculation Enumeration (Excel)
+title: XlTotalsCalculation enumeration (Excel)
 ms.prod: excel
 api_name:
 - Excel.XlTotalsCalculation
 ms.assetid: 49e816b8-9f78-afd7-a107-e8628774b1ac
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# XlTotalsCalculation Enumeration (Excel)
+# XlTotalsCalculation enumeration (Excel)
 
 Specifies the type of calculation in the Totals row of a list column.
 
 
 
-|**Name**|**Value**|**Description**|
+|Name|Value|Description|
 |:-----|:-----|:-----|
 | **xlTotalsCalculationAverage**|2|Average|
 | **xlTotalsCalculationCount**|3|Count of non-empty cells|
@@ -27,3 +28,4 @@ Specifies the type of calculation in the Totals row of a list column.
 | **xlTotalsCalculationSum**|1|Sum of all values in the list column|
 | **xlTotalsCalculationVar**|8|Variable|
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

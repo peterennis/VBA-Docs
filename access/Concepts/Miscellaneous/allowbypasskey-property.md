@@ -9,6 +9,7 @@ api_name:
 - Access.AllowBypassKey
 ms.assetid: fa693699-f96b-b287-5248-828e9be1bbbe
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
@@ -31,9 +32,9 @@ You can set this property by using a macro or Visual Basic .
 
 To set the **AllowBypassKey** property by using a macro or Visual Basic, you must create the property in the following ways:
 
-- In a Microsoft Access database, you can add it by using the **[CreateProperty](http://msdn.microsoft.com/library/F2039BE9-5FD8-F673-DFBF-0A71540CDC98%28Office.15%29.aspx)** method and append it to the **Properties** collection of the **Database** object.
+- In a Microsoft Access database, you can add it by using the **[CreateProperty](https://msdn.microsoft.com/library/F2039BE9-5FD8-F673-DFBF-0A71540CDC98%28Office.15%29.aspx)** method and append it to the **Properties** collection of the **Database** object.
     
-- In a Microsoft Access project (.adp), you can add it to the **[AccessObjectProperties](http://msdn.microsoft.com/library/2df86891-6038-d147-2a32-f1c77b841067%28Office.15%29.aspx)** collection of the **[CurrentProject](http://msdn.microsoft.com/library/e6baae73-1eeb-b48f-d35e-b3e921378561%28Office.15%29.aspx)** object by using the **[Add](http://msdn.microsoft.com/library/8f86d5f8-b9af-87d3-fae4-e1a24d7225b6%28Office.15%29.aspx)** method.
+- In a Microsoft Access project (.adp), you can add it to the **[AccessObjectProperties](https://msdn.microsoft.com/library/2df86891-6038-d147-2a32-f1c77b841067%28Office.15%29.aspx)** collection of the **[CurrentProject](https://msdn.microsoft.com/library/e6baae73-1eeb-b48f-d35e-b3e921378561%28Office.15%29.aspx)** object by using the **[Add](https://msdn.microsoft.com/library/8f86d5f8-b9af-87d3-fae4-e1a24d7225b6%28Office.15%29.aspx)** method.
     
 
 ## Remarks
@@ -82,9 +83,11 @@ End Function
 
 ## See also
 
-- [Access for developers forum on MSDN](https://social.msdn.microsoft.com/Forums/office/en-US/home?forum=accessdev)
+- [Access for developers forum](https://social.msdn.microsoft.com/Forums/office/home?forum=accessdev)
 - [Access help on support.office.com](https://support.office.com/search/results?query=Access)
-- [Access help on answers.microsoft.com](https://answers.microsoft.com/en-us/msoffice/forum?page=1&;tab=question&;status=all&;auth=1)
+- [Access help on answers.microsoft.com](https://answers.microsoft.com/)
 - [Access forums on UtterAccess](http://www.utteraccess.com/forum/index.php?act=idx)
 - [Access developer and VBA programming help center (FMS)](http://www.fmsinc.com/MicrosoftAccess/developer/)
 - [Access posts on StackOverflow](https://stackoverflow.com/questions/tagged/ms-access)
+
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

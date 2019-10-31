@@ -1,5 +1,5 @@
 ---
-title: OLEObjects.Count Property (Visio)
+title: OLEObjects.Count property (Visio)
 keywords: vis_sdr.chm15113330
 f1_keywords:
 - vis_sdr.chm15113330
@@ -8,29 +8,30 @@ api_name:
 - Visio.OLEObjects.Count
 ms.assetid: 5c3146b2-e2cf-165d-8432-e44b1da1593a
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# OLEObjects.Count Property (Visio)
+# OLEObjects.Count property (Visio)
 
 Returns the number of objects in a collection. Read-only.
 
 
 ## Syntax
 
- _expression_. `Count`
+_expression_.**Count**
 
- _expression_ A variable that represents an [OLEObjects](./Visio.OLEObjects.md) object.
+_expression_ A variable that represents an **[OLEObjects](Visio.OLEObjects.md)** object.
 
 
-### Return Value
+## Return value
 
 Long
 
 
 ## Example
 
-This Microsoft Visual Basic for Applications (VBA) macro shows how to use the  **Count** property to iterate through a **Documents** collection. It displays the names of all the open Microsoft Visio documents in the **Immediate** window.
+This Microsoft Visual Basic for Applications (VBA) macro shows how to use the  **Count** property to iterate through a **Documents** collection. It displays the names of all the open Microsoft Visio documents in the Immediate window.
 
 
 ```vb
@@ -51,4 +52,4 @@ Public Sub Count_Example()
 End Sub
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

@@ -1,20 +1,21 @@
 ---
-title: WdConstants Enumeration (Word)
+title: WdConstants enumeration (Word)
 ms.prod: word
 api_name:
 - Word.WdConstants
 ms.assetid: 5e9789a4-1442-5769-01f6-5425dff8a9d6
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# WdConstants Enumeration (Word)
+# WdConstants enumeration (Word)
 
 This enumeration groups together constants used with various Microsoft Word methods.
 
 
 
-|**Name**|**Value**|**Description**|
+|Name|Value|Description|
 |:-----|:-----|:-----|
 | **wdAutoPosition**|0|Represents the Auto value for the specified setting.|
 | **wdBackward**|-1073741823|Indicates that selection will be extended backward using the  **MoveStartUntil** or **MoveStartWhile** method of the **Range** or **Selection** object.|
@@ -24,3 +25,4 @@ This enumeration groups together constants used with various Microsoft Word meth
 | **wdToggle**|9999998|Toggles a property's value.|
 | **wdUndefined**|9999999|Represents an undefined value.|
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

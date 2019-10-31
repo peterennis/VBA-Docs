@@ -1,5 +1,5 @@
 ---
-title: Frameset Object (Word)
+title: Frameset object (Word)
 keywords: vbawd10.chm2530
 f1_keywords:
 - vbawd10.chm2530
@@ -8,17 +8,18 @@ api_name:
 - Word.Frameset
 ms.assetid: d76806db-c82f-f7b6-fb85-28a649de48a7
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Frameset Object (Word)
+# Frameset object (Word)
 
 Represents an entire frames page or a single frame on a frames page.
 
 
 ## Remarks
 
-Use the  **Frameset** propertyof a **Document** or **Pane** object to return a **Frameset** object.
+Use the  **Frameset** property of a **Document** or **Pane** object to return a **Frameset** object.
 
 
 -  For properties or methods that affect all frames on a frames page, use the **Frameset** object from the **Document** object ( `ActiveWindow.Document.Frameset`).
@@ -56,7 +57,7 @@ ActiveWindow.Document.Frameset _
  .ChildFramesetItem(3).FrameName = "BottomFrame"
 ```
 
-This example links the specified frame to a local file called "Order.htm." It sets the frame to be resizable, to appear with scrollbars in a Web browser, and to be 25% as high as the active window.
+This example links the specified frame to a local file called "Order.htm." It sets the frame to be resizable, to appear with scrollbars in a web browser, and to be 25% as high as the active window.
 
 
 
@@ -95,12 +96,13 @@ End With
 ```
 
 
- **Note**  For more information on creating frames pages, see [Creating frames pages](../word/Concepts/Customizing-Word/creating-frames-pages.md).
+> [!NOTE] 
+> For more information on creating frames pages, see [Creating frames pages](../word/Concepts/Customizing-Word/creating-frames-pages.md).
 
 
 ## See also
 
 
-[Word Object Model Reference](./overview/Word/object-model.md)
+[Word Object Model Reference](overview/Word/object-model.md)
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

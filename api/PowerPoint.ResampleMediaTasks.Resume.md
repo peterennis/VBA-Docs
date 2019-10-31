@@ -1,5 +1,5 @@
 ---
-title: ResampleMediaTasks.Resume Method (PowerPoint)
+title: ResampleMediaTasks.Resume method (PowerPoint)
 keywords: vbapp10.chm728004
 f1_keywords:
 - vbapp10.chm728004
@@ -8,22 +8,23 @@ api_name:
 - PowerPoint.ResampleMediaTasks.Resume
 ms.assetid: d58b0932-38f9-1589-efdc-7860fab1f5ad
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# ResampleMediaTasks.Resume Method (PowerPoint)
+# ResampleMediaTasks.Resume method (PowerPoint)
 
 Resumes mobilization of the current media asset.
 
 
 ## Syntax
 
- _expression_. `Resume`
+_expression_. `Resume`
 
- _expression_ A variable that represents a [ResampleMediaTasks](./PowerPoint.ResampleMediaTasks.md) object.
+_expression_ A variable that represents a [ResampleMediaTasks](PowerPoint.ResampleMediaTasks.md) object.
 
 
-### Return Value
+## Return value
 
 Nothing
 
@@ -33,3 +34,4 @@ Nothing
 
 [ResampleMediaTasks Object](PowerPoint.ResampleMediaTasks.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

@@ -6,12 +6,13 @@ f1_keywords:
 ms.prod: office
 ms.assetid: d07aa660-f8d3-908c-c813-9db33e4a8ac3
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
 # Too many module-level variables
 
-[Module-level](../../Glossary/vbe-glossary.md#module-level)[variables](../../Glossary/vbe-glossary.md#variable) are those declared in the Declarations section of a[module](../../Glossary/vbe-glossary.md#module), before the module's [procedures](../../Glossary/vbe-glossary.md#procedure). This error has the following cause and solution:
+[Module-level](../../Glossary/vbe-glossary.md#module-level) [variables](../../Glossary/vbe-glossary.md#variable) are those declared in the Declarations section of a [module](../../Glossary/vbe-glossary.md#module), before the module's [procedures](../../Glossary/vbe-glossary.md#procedure). This error has the following cause and solution:
 
 
 
@@ -23,3 +24,4 @@ ms.date: 06/08/2017
 
 For additional information, select the item in question and press F1 (in Windows) or HELP (on the Macintosh).
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

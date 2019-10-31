@@ -6,6 +6,7 @@ f1_keywords:
 ms.prod: office
 ms.assetid: 4fd56cfa-a45c-1ac9-5ef0-3ccec2004d48
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
@@ -15,7 +16,7 @@ The length of a record [variable](../../Glossary/vbe-glossary.md#variable) in a 
 
 
 
-- The record variable's length differs from the length specified in the corresponding  **Open** statement. Make sure the sum of the sizes of fixed-length[variables](../../Glossary/vbe-glossary.md#variable) in the[user-defined type](../../Glossary/vbe-glossary.md#user-defined-type) defining the record variable's type is the same as the value stated in the **Open** statement's **Len** clause. In the following example, assume `RecVar` is a variable of the appropriate type. You can use the **Len** function to specify the length, as follows:
+- The record variable's length differs from the length specified in the corresponding  **Open** statement. Make sure the sum of the sizes of fixed-length[variables](../../Glossary/vbe-glossary.md#variable) in the [user-defined type](../../Glossary/vbe-glossary.md#user-defined-type) defining the record variable's type is the same as the value stated in the **Open** statement's **Len** clause. In the following example, assume `RecVar` is a variable of the appropriate type. You can use the **Len** function to specify the length, as follows:
     
   ```vb
   Open MyFile As #1 Len = Len(RecVar) 
@@ -32,3 +33,4 @@ The length of a record [variable](../../Glossary/vbe-glossary.md#variable) in a 
 
 For additional information, select the item in question and press F1 (in Windows) or HELP (on the Macintosh).
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

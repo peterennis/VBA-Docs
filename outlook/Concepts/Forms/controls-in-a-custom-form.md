@@ -3,6 +3,7 @@ title: Controls in a Custom Form
 ms.prod: outlook
 ms.assetid: fcba1b34-c526-5d01-8644-cb8852bd2348
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
@@ -84,7 +85,7 @@ Some of these controls are designed to leverage features in Outlook, for example
 
 ## Run Time
 
-On custom form pages, Forms 2.0 controls are always displayed with a classic look without Windows theming. In a form region, any Forms 2.0 control that has a themed Outlook counterpart control assumes an appearance that is themed to Windows and in fact can be cast with the type of the counterpart. For example, if the user has dropped a Forms 2.0 TextBox control in a form region, programmatically, Outlook will replace this instance of the control by an instance of the Outlook counterpart control, and you will be able to apply a cast of  **Microsoft.Office.Interop.Outlook.OlkTextBox** to this control and access it as an Outlook TextBox control. You should not access it as a **Microsoft.Vbe.Interop.Forms.TextBox** control. For more information on casting controls in an add-in, see [Extending a Form Region with an Add-in](../Specifying-Form-Behavior/extending-a-form-region-with-an-add-in.md). The following table lists each Forms 2.0 control and the corresponding Outlook control (if one exists).
+On custom form pages, Forms 2.0 controls are always displayed with a classic look without Windows theming. In a form region, any Forms 2.0 control that has a themed Outlook counterpart control assumes an appearance that is themed to Windows and in fact can be cast with the type of the counterpart. For example, if the user has dropped a Forms 2.0 TextBox control in a form region, programmatically, Outlook will replace this instance of the control by an instance of the Outlook counterpart control, and you will be able to apply a cast of **Microsoft.Office.Interop.Outlook.OlkTextBox** to this control and access it as an Outlook TextBox control. You should not access it as a **Microsoft.VBE.Interop.Forms.TextBox** control. For more information on casting controls in an add-in, see [Extending a Form Region with an Add-in](../Specifying-Form-Behavior/extending-a-form-region-with-an-add-in.md). The following table lists each Forms 2.0 control and the corresponding Outlook control (if one exists).
 
 
 
@@ -124,5 +125,4 @@ The following summarizes the differences between Forms 2.0 controls and Outlook 
 |Controls displayed properly in runtime in Outlook 2003 or earlier|Yes|No|
 |Controls displayed properly in runtime in Office Outlook 2007 or later|Yes|Yes|
 
-
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

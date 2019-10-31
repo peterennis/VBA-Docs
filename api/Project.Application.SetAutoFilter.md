@@ -1,5 +1,5 @@
 ---
-title: Application.SetAutoFilter Method (Project)
+title: Application.SetAutoFilter method (Project)
 keywords: vbapj.chm2166
 f1_keywords:
 - vbapj.chm2166
@@ -8,23 +8,24 @@ api_name:
 - Project.Application.SetAutoFilter
 ms.assetid: 4e4b4d4a-838b-f9b7-e3ab-d7bfa8efce5f
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Application.SetAutoFilter Method (Project)
+# Application.SetAutoFilter method (Project)
 
 Sets the criteria for an AutoFilter for a specified field in a sheet view.
 
 ## Syntax
 
-_expression_. **SetAutoFilter** (**_FieldName_**, **_FilterType_**, **_Test1_**, **_Criteria1_**, **_Operation_**, **_Test2_**, **_Criteria2_**)
+_expression_.**SetAutoFilter** (_FieldName_, _FilterType_, _Test1_, _Criteria1_, _Operation_, _Test2_, _Criteria2_)
 
-_expression_ An expression that returns an **Application** object.
+_expression_ An expression that returns an **[Application](Project.Application.md)** object.
 
 
-### Parameters
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _FieldName_|Required|**String**|Name of the field.|
 | _FilterType_|Optional|**PjAutoFilterType**|Type of filter; can be one of the **[PjAutoFilterType](Project.PjAutoFilterType.md)** constants. The default value is **pjAutoFilterClear**, which clears the AutoFilter.|
@@ -36,9 +37,9 @@ _expression_ An expression that returns an **Application** object.
 
 <br/>
 
-#### Comparison strings
+### Comparison strings
 
-|**Comparison string**|**Description**|
+|Comparison string|Description|
 |:-----|:-----|
 |"equals"|The value of _FieldName_ equals _Criteria1_.|
 |"does not equal"|The value of _FieldName_ does not equal _Criteria1_.|
@@ -51,7 +52,7 @@ _expression_ An expression that returns an **Application** object.
 
 <br/>
 
-### Return value
+## Return value
 
  **Boolean**
 
@@ -85,4 +86,4 @@ If there is an AutoFilter set for the "% Work Complete" field, the following lin
 Application.SetAutoFilter FieldName:="% Work Complete"
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

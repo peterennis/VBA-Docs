@@ -1,5 +1,5 @@
 ---
-title: Application.EnterpriseResourcesImportEx Method (Project)
+title: Application.EnterpriseResourcesImportEx method (Project)
 keywords: vbapj.chm2090
 f1_keywords:
 - vbapj.chm2090
@@ -8,31 +8,32 @@ api_name:
 - Project.Application.EnterpriseResourcesImportEx
 ms.assetid: 58b92ff5-da61-07cc-daca-b56e4270a8a4
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Application.EnterpriseResourcesImportEx Method (Project)
+# Application.EnterpriseResourcesImportEx method (Project)
 
 Imports local resources to the enterprise resource pool, or starts the  **Resource Import Wizard**.
 
 
 ## Syntax
 
- _expression_. `EnterpriseResourcesImportEx`( ` _LocalRUIDs_`, ` _UseImportColumn_` )
+_expression_. `EnterpriseResourcesImportEx`( `_LocalRUIDs_`, `_UseImportColumn_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
-
-
-### Parameters
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _LocalRUIDs_|Optional|**String**|A comma-delimited list of the unique ID numbers of the local resources.|
 | _UseImportColumn_|Optional|**Boolean**|**True** if the **EnterpriseResourcesImportEx** method uses the **Import** column.|
 
-### Return Value
+## Return value
 
  **Boolean**
 
@@ -42,8 +43,9 @@ Imports local resources to the enterprise resource pool, or starts the  **Resour
 Using the  **EnterpriseResourcesImportEx** method with no arguments starts the **Resource Import Wizard**. Used that way, the method corresponds to the  **Import Resources to Enterprise** command in the **Add Resources** drop-down menu of the **Resource** tab in the Ribbon.
 
 
- **Note**  The  **EnterpriseResourcesImportEx** method starts the file **Open** dialog box, with a list of enterprise projects. You can open an enterprise project that contains local resources or a local project. Alternately, you can use the **[ResourceMappingDialog](Project.Application.ResourceMappingDialog.md)** method instead of **EnterpriseResourcesImportEx** to avoid the extra step of opening a project.
+> [!NOTE] 
+> The  **EnterpriseResourcesImportEx** method starts the file **Open** dialog box, with a list of enterprise projects. You can open an enterprise project that contains local resources or a local project. Alternately, you can use the **[ResourceMappingDialog](Project.Application.ResourceMappingDialog.md)** method instead of **EnterpriseResourcesImportEx** to avoid the extra step of opening a project.
 
 The  **EnterpriseResourcesImportEx** method is available in Project Professional only and requires a connection with Project Server.
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

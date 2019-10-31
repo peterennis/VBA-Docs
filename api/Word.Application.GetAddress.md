@@ -1,5 +1,5 @@
 ---
-title: Application.GetAddress Method (Word)
+title: Application.GetAddress method (Word)
 keywords: vbawd10.chm158335298
 f1_keywords:
 - vbawd10.chm158335298
@@ -8,27 +8,28 @@ api_name:
 - Word.Application.GetAddress
 ms.assetid: b0081a05-be87-d0e4-31a6-b0aab02a3371
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Application.GetAddress Method (Word)
+# Application.GetAddress method (Word)
 
 Returns an address from the default address book.
 
 
 ## Syntax
 
-_expression_. **GetAddress** (**_Name_**, **_AddressProperties_**, **_UseAutoText_**, **_DisplaySelectDialog_**, **_SelectDialog_**, **_CheckNamesDialog_**, **_RecentAddressesChoice_**, **_UpdateRecentAddresses_**)
+_expression_.**GetAddress** (**_Name_**, **_AddressProperties_**, **_UseAutoText_**, **_DisplaySelectDialog_**, **_SelectDialog_**, **_CheckNamesDialog_**, **_RecentAddressesChoice_**, **_UpdateRecentAddresses_**)
 
 _expression_ Required. A variable that represents an **[Application](Word.Application.md)** object.
 
 
-### Parameters
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _Name_|Optional|**Variant**|The name of the addressee, as specified in the **Search Name** dialog box in the address book.|
-| _AddressProperties_|Optional|**Variant**|If _UseAutoText_ is **True**, this argument denotes the name of an AutoText entry that defines a sequence of address book properties. If _UseAutoText_ is **False** or omitted, this argument defines a custom layout.<br/><br/>Valid address book property names or sets of property names are surrounded by angle brackets (`"<" and ">"`) and separated by a space or a paragraph mark (for example, `"<PR_GIVEN_NAME> <PR_SURNAME>" &; vbCr &; "<PR_OFFICE_TELEPHONE_NUMBER>"`).<br/><br/>If the _AddressProperties_ parameter is omitted, a default AutoText entry named "AddressLayout" is used. If "AddressLayout" hasn't been defined, the following address layout definition is used: `"<PR_GIVEN_NAME> <PR_SURNAME>" &; vbCr &; "<PR_STREET_ADDRESS>" &; vbCr &; "<PR_LOCALITY>" &; ", " &; "<PR_STATE_OR_PROVINCE>" &; " " &; "<PR_POSTAL_CODE>" &; vbCr &; "<PR_COUNTRY>"`.<br/><br/>For a list of the valid address book property names, see the **AddAddress** method.|
+| _AddressProperties_|Optional|**Variant**|If _UseAutoText_ is **True**, this argument denotes the name of an AutoText entry that defines a sequence of address book properties. If _UseAutoText_ is **False** or omitted, this argument defines a custom layout.<br/><br/>Valid address book property names or sets of property names are surrounded by angle brackets (`"<" and ">"`) and separated by a space or a paragraph mark (for example, `"<PR_GIVEN_NAME> <PR_SURNAME>" & vbCr & "<PR_OFFICE_TELEPHONE_NUMBER>"`).<br/><br/>If the _AddressProperties_ parameter is omitted, a default AutoText entry named "AddressLayout" is used. If "AddressLayout" hasn't been defined, the following address layout definition is used: `"<PR_GIVEN_NAME> <PR_SURNAME>" & vbCr & "<PR_STREET_ADDRESS>" & vbCr & "<PR_LOCALITY>" & ", " & "<PR_STATE_OR_PROVINCE>" & " " & "<PR_POSTAL_CODE>" & vbCr & "<PR_COUNTRY>"`.<br/><br/>For a list of the valid address book property names, see the **AddAddress** method.|
 | _UseAutoText_|Optional|**Variant**|**True** if _AddressProperties_ specifies the name of an AutoText entry that defines a sequence of address book properties; **False** if it specifies a custom layout.|
 | _DisplaySelectDialog_|Optional|**Variant**|Specifies whether the **Select Name** dialog box is displayed, as shown in the [Results](#results) table.|
 | _SelectDialog_|Optional|**Variant**|Specifies how the **Select Name** dialog box should be displayed (that is, in what mode), as shown in the [Display mode](#display-mode) table.|
@@ -38,7 +39,7 @@ _expression_ Required. A variable that represents an **[Application](Word.Applic
 
 <br/>
 
-#### Results
+### Results
 
 |**Value**|**Result**|
 |:-----|:-----|
@@ -48,7 +49,7 @@ _expression_ Required. A variable that represents an **[Application](Word.Applic
 
 <br/>
 
-#### Display mode
+### Display mode
 
 |**Value**|**Display mode**|
 |:-----|:-----|
@@ -58,7 +59,7 @@ _expression_ Required. A variable that represents an **[Application](Word.Applic
 
 <br/>
 
-### Return value
+## Return value
 
 String
 
@@ -100,3 +101,4 @@ strAddress = Application.GetAddress(Name:="John Smith", _
 
 - [Application Object](Word.Application.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

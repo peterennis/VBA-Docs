@@ -1,5 +1,5 @@
 ---
-title: AcFormView Enumeration (Access)
+title: AcFormView enumeration (Access)
 keywords: vbaac10.chm10018
 f1_keywords:
 - vbaac10.chm10018
@@ -8,16 +8,17 @@ api_name:
 - Access.AcFormView
 ms.assetid: e8abcb80-a68b-5328-80d0-ce18e2cabe42
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# AcFormView Enumeration (Access)
+# AcFormView enumeration (Access)
 
 Specifies the view when opeing a form.
 
+<br/>
 
-
-|**Name**|**Value**|**Description**|
+|Name|Value|Description|
 |:-----|:-----|:-----|
 |**acDesign**|1|The form opens in Design view.|
 |**acFormDS**|3|The form opens in Datasheet view.|
@@ -27,3 +28,4 @@ Specifies the view when opeing a form.
 |**acNormal**|0|(Default) The form opens in Form view.|
 |**acPreview**|2|The form opens in Print Preview.|
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

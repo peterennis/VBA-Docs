@@ -1,5 +1,5 @@
 ---
-title: Application.ReassignSelectedAssns Method (Project)
+title: Application.ReassignSelectedAssns method (Project)
 keywords: vbapj.chm1512
 f1_keywords:
 - vbapj.chm1512
@@ -8,30 +8,31 @@ api_name:
 - Project.Application.ReassignSelectedAssns
 ms.assetid: ab3df7f1-bc36-2b8a-23d7-30ee0387a785
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Application.ReassignSelectedAssns Method (Project)
+# Application.ReassignSelectedAssns method (Project)
 
 Reassigns the selected assignments in the Team Planner view.
 
 
 ## Syntax
 
- _expression_. `ReassignSelectedAssns`( ` _ResourceID_` )
+_expression_. `ReassignSelectedAssns`( `_ResourceID_` )
 
- _expression_ An expression that returns an [Application](./Project.Application.md) object.
-
-
-### Parameters
+ _expression_ An expression that returns an **[Application](Project.Application.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _ResourceUniqueID_|Required|**Long**|Identification number of the resource for the new assignment, or -65535 for unassigned.|
 
-### Return Value
+## Return value
 
  **Boolean**
 
@@ -61,4 +62,4 @@ The following line of code changes the assignments to unassigned.
 ReassignSelectedAssns ResourceID:=-65535
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

@@ -3,6 +3,7 @@ title: Working with Bibliographies
 ms.prod: word
 ms.assetid: ce05a0bd-bacd-16e1-0ab0-793a47a15da5
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
@@ -58,7 +59,7 @@ After following the previous steps, the Immediate Window contains the following 
 
 
 ```vb
-<b:Source xmlns:b="https://schemas.microsoft.com/office/word/2004/10/bibliography"> 
+<b:Source xmlns:b="http://schemas.microsoft.com/office/word/2004/10/bibliography"> 
     <b:Tag>And01</b:Tag> 
     <b:SourceType>Book</b:SourceType> 
     <b:Guid>{6D86D06C-9022-4932-8D4C-84C2B0843381}</b:Guid> 
@@ -90,7 +91,7 @@ After removing optional elements, you may have a structure similar to the follow
 
 
 ```vb
-<b:Source xmlns:b="https://schemas.microsoft.com/office/word/2004/10/bibliography"> 
+<b:Source xmlns:b="http://schemas.microsoft.com/office/word/2004/10/bibliography"> 
     <b:Tag>And01</b:Tag> 
     <b:SourceType></b:SourceType> 
     <b:Author> 
@@ -130,7 +131,7 @@ Sub AddBibSource()
  
     Dim strXml As String 
      
-    strXml = "<b:Source xmlns:b=""https://schemas.microsoft.com/" & _ 
+    strXml = "<b:Source xmlns:b=""http://schemas.microsoft.com/" & _ 
         "office/word/2004/10/bibliography""><b:Tag>Mor01</b:Tag>" & _ 
         "<b:SourceType>Book</b:SourceType><b:Author><b:Author>" & _ 
         "<b:NameList><b:Person><b:Last>Hezi</b:Last>" & _ 
@@ -175,7 +176,7 @@ End Sub
 There may be times when you want to share a source list with others in an organization. When you add sources to the master list, Word adds them to a file names "sources.xml" located at  `C:\Users\<user>\AppData\Roaming\Microsoft\Bibliography\sources.xml`. You can share this file with others by giving them the file, which users can then load manually from the **Source Manager** dialog box or programmatically through code.
 
 > [!NOTE] 
-> When a user loads a source file, this is a one-time-only occurence and does not change either the existing master list or their current list. They can manually add the items in the shared source file to the current list by using the **Source Manager** dialog box.
+> When a user loads a source file, this is a one-time-only occurrence and does not change either the existing master list or their current list. They can manually add the items in the shared source file to the current list by using the **Source Manager** dialog box.
 
 You can programmatically load a shared source. The following example shows how to load a shared source file that is located on a share on a local computer.
 
@@ -273,4 +274,4 @@ Sub InsertBibliography()
 End Sub
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

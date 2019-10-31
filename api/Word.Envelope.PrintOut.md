@@ -1,5 +1,5 @@
 ---
-title: Envelope.PrintOut Method (Word)
+title: Envelope.PrintOut method (Word)
 keywords: vbawd10.chm152567914
 f1_keywords:
 - vbawd10.chm152567914
@@ -8,26 +8,25 @@ api_name:
 - Word.Envelope.PrintOut
 ms.assetid: 68d8d60a-f07a-1371-e9cc-1d08118e5295
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Envelope.PrintOut Method (Word)
+# Envelope.PrintOut method (Word)
 
 Prints an envelope without adding the envelope to the active document.
 
 
 ## Syntax
 
- _expression_. `PrintOut`( `_ExtractAddress_` , `_Address_` , `_AutoText_` , `_OmitReturnAddress_` , `_ReturnAddress_` , `_ReturnAutoText_` , `_PrintBarCode_` , `_PrintFIMA_` , `_Size_` , `_Height_` , `_Width_` , `_FeedSource_` , `_AddressFromLeft_` , `_AddressFromTop_` , `_ReturnAddressFromLeft_` , `_ReturnAddressFromTop_` , `_DefaultFaceUp_` , `_DefaultOrientation_` , `_PrintEPostage_` , `_Vertical_` , `_RecipientNamefromLeft_` , `_RecipientNamefromTop_` , `_RecipientPostalfromLeft_` , `_RecipientPostalfromTop_` , `_SenderNamefromLeft_` , `_SenderNamefromTop_` , `_SenderPostalfromLeft_` , `_SenderPostalfromTop_` )
+_expression_.**PrintOut** (_ExtractAddress_, _Address_, _AutoText_, _OmitReturnAddress_, _ReturnAddress_, _ReturnAutoText_, _PrintBarCode_, _PrintFIMA_, _Size_, _Height_, _Width_, _FeedSource_, _AddressFromLeft_, _AddressFromTop_, _ReturnAddressFromLeft_, _ReturnAddressFromTop_, _DefaultFaceUp_, _DefaultOrientation_, _PrintEPostage_, _Vertical_, _RecipientNamefromLeft_, _RecipientNamefromTop_, _RecipientPostalfromLeft_, _RecipientPostalfromTop_, _SenderNamefromLeft_, _SenderNamefromTop_, _SenderPostalfromLeft_, _SenderPostalfromTop_)
 
- _expression_ Required. A variable that represents an '[Envelope](Word.Envelope.md)' object.
-
-
-### Parameters
+_expression_ Required. A variable that represents an '[Envelope](Word.Envelope.md)' object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _ExtractAddress_|Optional| **Variant**| **True** to use the text marked by the "EnvelopeAddress" bookmark (a user-defined bookmark) as the recipient's address.|
 | _Address_|Optional| **Variant**|A string that specifies the recipient's address (ignored if ExtractAddress is  **True**).|
@@ -77,3 +76,4 @@ ActiveDocument.Envelope.PrintOut Address:=recep, _
 
 [Envelope Object](Word.Envelope.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

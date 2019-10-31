@@ -1,5 +1,5 @@
 ---
-title: Presentation.CheckIn Method (PowerPoint)
+title: Presentation.CheckIn method (PowerPoint)
 keywords: vbapp10.chm583065
 f1_keywords:
 - vbapp10.chm583065
@@ -8,26 +8,27 @@ api_name:
 - PowerPoint.Presentation.CheckIn
 ms.assetid: 63621199-7cda-c464-527f-f55130753f08
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Presentation.CheckIn Method (PowerPoint)
+# Presentation.CheckIn method (PowerPoint)
 
 Returns a presentation from a local computer to a server, and sets the local file to read-only so that it cannot be edited locally.
 
 
 ## Syntax
 
- _expression_. `CheckIn`( `_SaveChanges_`, `_Comments_`, `_MakePublic_` )
+_expression_. `CheckIn`( `_SaveChanges_`, `_Comments_`, `_MakePublic_` )
 
- _expression_ A variable that represents a [Presentation](./PowerPoint.Presentation.md) object.
-
-
-### Parameters
+_expression_ A variable that represents a [Presentation](PowerPoint.Presentation.md) object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _SaveChanges_|Optional|**Boolean**|**True** saves the presentation to the server location. The default value is **False**.|
 | _Comments_|Optional|**Variant**|Comments for the revision of the presentation being checked in (only applies if SaveChanges equals  **True**).|
@@ -40,7 +41,7 @@ To take advantage of the collaboration features built into Microsoft PowerPoint,
 
 ## Example
 
-This example checks the server to see if the specified presentation can be checked in and, if so, closes the presentation and checks it back into server.
+This example checks the server to see if the specified presentation can be checked in, and if so, closes the presentation and checks it back into server.
 
 
 ```vb
@@ -80,3 +81,4 @@ End Sub
 
 [Presentation Object](PowerPoint.Presentation.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

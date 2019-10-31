@@ -1,5 +1,5 @@
 ---
-title: Document.HeaderRight Property (Visio)
+title: Document.HeaderRight property (Visio)
 keywords: vis_sdr.chm10550655
 f1_keywords:
 - vis_sdr.chm10550655
@@ -8,31 +8,32 @@ api_name:
 - Visio.Document.HeaderRight
 ms.assetid: 3d702cb7-9b70-5f00-c2ea-b619cbfed37f
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Document.HeaderRight Property (Visio)
+# Document.HeaderRight property (Visio)
 
 Gets or sets the text string that appears in the right portion of a document's header. Read/write.
 
 
 ## Syntax
 
- _expression_. `HeaderRight`
+_expression_.**HeaderRight**
 
- _expression_ A variable that represents a [Document](./Visio.Document.md) object.
+_expression_ A variable that represents a **[Document](Visio.Document.md)** object.
 
 
-### Return Value
+## Return value
 
 String
 
 
 ## Remarks
 
-You can also set this value in the  **Right** box under **Header** in the **Header and Footer** dialog box (click the **File** tab, click **Print**, click  **Print Preview**, and then in the  **Preview** group, click **Header &; Footer**).
+You can also set this value in the **Right** box under **Header** in the **Header and Footer** dialog box (click the **File** tab, click **Print**, click **Print Preview**, and then in the **Preview** group, click **Header & Footer**).
 
-Both the string that  **HeaderRight** returns and the string to which you set it can contain escape codes that represent data. These escape codes can be concatenated with other text. For a list of valid escape codes you can use with the **HeaderRight** property, see the **[FooterLeft](Visio.Document.FooterLeft.md)** property.
+Both the string that **HeaderRight** returns and the string to which you set it can contain escape codes that represent data. These escape codes can be concatenated with other text. For a list of valid escape codes you can use with the **HeaderRight** property, see the **[FooterLeft](Visio.Document.FooterLeft.md)** property.
 
 
 ## Example
@@ -55,4 +56,4 @@ Sub HeaderRight_Example()
 End Sub
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

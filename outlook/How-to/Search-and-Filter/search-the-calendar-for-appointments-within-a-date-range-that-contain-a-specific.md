@@ -3,6 +3,7 @@ title: Search the Calendar for Appointments Within a Date Range that Contain a S
 ms.prod: outlook
 ms.assetid: 92b6f569-e10e-d2cd-c941-0f062183d2bd
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
@@ -65,7 +66,7 @@ Sub FindAppts()
     'Restrict the Items collection for the 30-day date range
     Set oItemsInDateRange = oItems.Restrict(strRestriction)
     'Construct filter for Subject containing 'team'
-    Const PropTag  As String = "https://schemas.microsoft.com/mapi/proptag/"
+    Const PropTag  As String = "http://schemas.microsoft.com/mapi/proptag/"
     strRestriction = "@SQL=" & Chr(34) & PropTag _
         & "0x0037001E" & Chr(34) & " like '%team%'"
     'Restrict the last set of filtered items for the subject
@@ -78,4 +79,4 @@ Sub FindAppts()
 End Sub
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

@@ -1,5 +1,5 @@
 ---
-title: Validation.InputMessage Property (Excel)
+title: Validation.InputMessage property (Excel)
 keywords: vbaxl10.chm532081
 f1_keywords:
 - vbaxl10.chm532081
@@ -7,26 +7,26 @@ ms.prod: excel
 api_name:
 - Excel.Validation.InputMessage
 ms.assetid: cef219c7-4fb2-128c-b091-170f63f70a98
-ms.date: 06/08/2017
+ms.date: 05/18/2019
+localization_priority: Normal
 ---
 
 
-# Validation.InputMessage Property (Excel)
+# Validation.InputMessage property (Excel)
 
-Returns or sets the data validation input message. Read/write  **String** .
+Returns or sets the data validation input message. Read/write **String**.
 
 
 ## Syntax
 
- _expression_. `InputMessage`
+_expression_.**InputMessage**
 
- _expression_ A variable that represents a [Validation](./Excel.Validation.md) object.
+_expression_ A variable that represents a **[Validation](Excel.Validation.md)** object.
 
 
 ## Example
 
 This example adds data validation to cell E5 and specifies both the input and error messages.
-
 
 ```vb
 With Range("e5").Validation 
@@ -41,8 +41,6 @@ End With
 ```
 
 
-## See also
 
 
-[Validation Object](Excel.Validation.md)
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

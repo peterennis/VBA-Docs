@@ -1,5 +1,5 @@
 ---
-title: Application.PointsToInches Method (Publisher)
+title: Application.PointsToInches method (Publisher)
 keywords: vbapb10.chm131157
 f1_keywords:
 - vbapb10.chm131157
@@ -7,44 +7,42 @@ ms.prod: publisher
 api_name:
 - Publisher.Application.PointsToInches
 ms.assetid: 58bfd9ce-dee7-0a14-8ec1-7e16a5e967d8
-ms.date: 06/08/2017
+ms.date: 06/05/2019
+localization_priority: Normal
 ---
 
 
-# Application.PointsToInches Method (Publisher)
+# Application.PointsToInches method (Publisher)
 
-Converts a measurement from points to inches (1 in = 72 points). Returns the converted measurement as a  **Single**.
+Converts a measurement from [points](../language/glossary/vbe-glossary.md#point) to inches (1 in = 72 points). Returns the converted measurement as a **Single**.
 
 
 ## Syntax
 
- _expression_. **PointsToInches**(**_Value_**)
+_expression_.**PointsToInches** (_Value_)
 
- _expression_ A variable that represents an  **Application** object.
-
-
-### Parameters
+_expression_ A variable that represents an **[Application](Publisher.Application.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-|Value|Required| **Single**|The point value to be converted to inches.|
+|_Value_|Required| **Single**|The point value to be converted to inches.|
 
-### Return Value
+## Return value
 
 Single
 
 
 ## Remarks
 
-Use the  **[InchesToPoints](Publisher.Application.InchesToPoints.md)** method to convert measurements in inches to points.
+Use the **[InchesToPoints](Publisher.Application.InchesToPoints.md)** method to convert measurements in inches to points.
 
 
 ## Example
 
 This example converts measurements in points entered by the user to measurements in inches.
-
 
 ```vb
 Dim strInput As String 
@@ -71,8 +69,6 @@ Loop
 ```
 
 
-## See also
 
 
- [Application Object](Publisher.Application.md)
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

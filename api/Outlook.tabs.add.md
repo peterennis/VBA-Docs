@@ -6,6 +6,7 @@ f1_keywords:
 ms.prod: outlook
 ms.assetid: dbc72cb8-e37e-ae98-d18c-0042dc6c139f
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
@@ -16,22 +17,20 @@ Adds a  **[Tab](Outlook.tab.md)** to a **[Tabs](Outlook.tabs.md)** collection.
 
 ## Syntax
 
- _expression_. **Add**(**_bstrName_**,  **_bstrCaption_**,  **_lIndex_**)
+_expression_.**Add** (_bstrName_, _bstrCaption_, _lIndex_)
 
- _expression_ A variable that represents a  **Tabs** object.
-
-
-### Parameters
+_expression_ A variable that represents a  **Tabs** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 |bstrName|Optional| **Variant**|Specifies the name of the object being added. If a name is not specified, the system generates a default name based on the rules of the application where the form is used.|
 |bstrCaption|Optional| **Variant**|Specifies the caption to appear on a tab. If a caption is not specified, the system generates a default caption based on the rules of the application where the form is used.|
 |lIndex|Optional| **Variant**|Identifies the position of a tab within a  **Tabs** collection. If an index is not specified, the system appends the page to the end of the **Tabs** collection and assigns the appropriate index value.|
 
-### Return Value
+## Return value
 
 A  **Tab** object that represents the added tab.
 
@@ -42,4 +41,4 @@ The index value for the first  **Tab** of a collection is 0, the value for the s
 
 You can change the  **Name** property of the object at run time only if you added that control at run time with the **Add** method.
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

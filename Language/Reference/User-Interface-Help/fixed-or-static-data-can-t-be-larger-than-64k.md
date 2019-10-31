@@ -6,6 +6,7 @@ f1_keywords:
 ms.prod: office
 ms.assetid: e41c3342-6ea7-38d9-be17-f058858ec006
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
@@ -19,7 +20,7 @@ Fixed and static data include nonautomatic [variables](../../Glossary/vbe-glossa
     
     Reduce the amount of declared data. Note that although the size limit for module-level data is 64K, module-level variable-length strings and arrays can exceed this limit.
     
-- You attempted to allocate more than 64K of static [procedure-level](../../Glossary/vbe-glossary.md#procedure-level) data in the[module](../../Glossary/vbe-glossary.md#module).
+- You attempted to allocate more than 64K of static [procedure-level](../../Glossary/vbe-glossary.md#procedure-level) data in the [module](../../Glossary/vbe-glossary.md#module).
     
     Reduce the amount of this type of data declared. Static data from all [procedures](../../Glossary/vbe-glossary.md#procedure) in a module is limited to a total of 64K (not 64K per procedure). Note that static variable-length strings and arrays can exceed this limit.
     
@@ -34,3 +35,4 @@ Fixed and static data include nonautomatic [variables](../../Glossary/vbe-glossa
 
 For additional information, select the item in question and press F1 (in Windows) or HELP (on the Macintosh).
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

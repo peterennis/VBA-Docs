@@ -1,5 +1,5 @@
 ---
-title: Application.SlideSelectionChanged Event (PowerPoint)
+title: Application.SlideSelectionChanged event (PowerPoint)
 keywords: vbapp10.chm621016
 f1_keywords:
 - vbapp10.chm621016
@@ -8,32 +8,33 @@ api_name:
 - PowerPoint.Application.SlideSelectionChanged
 ms.assetid: a7bbdc4c-31e3-2072-8590-bced8bff6517
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Application.SlideSelectionChanged Event (PowerPoint)
+# Application.SlideSelectionChanged event (PowerPoint)
 
 Occurs at different times depending on the current view.
 
 
 ## Syntax
 
- _expression_. `SlideSelectionChanged`( `_SldRange_` )
+_expression_. `SlideSelectionChanged`( `_SldRange_` )
 
- _expression_ A variable that represents an [Application](./PowerPoint.Application.md) object.
-
-
-### Parameters
+_expression_ A variable that represents an **[Application](PowerPoint.Application.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _SldRange_|Required|**SlideRange**|The selection of slides. In most cases this would be a single slide (for example, in Slide View you navigate to the next slide), but in some cases this could be multiple slides (for example, a marquee selection in Slide Sorter View).|
 
 ## Remarks
 
-To access the  **Application** events, declare an **Application** variable in the General Declarations section of your code. Then set the variable equal to the **Application** object for which you want to access events. For information about using events with the Microsoft PowerPoint **Application** object, see[How to: Use Events with the Application Object](../powerpoint/How-to/use-events-with-the-application-object.md).
+To access the  **Application** events, declare an **Application** variable in the General Declarations section of your code. Then set the variable equal to the **Application** object for which you want to access events. For information about using events with the Microsoft PowerPoint **Application** object, see [How to: Use Events with the Application Object](../powerpoint/How-to/use-events-with-the-application-object.md).
 
 The following table describes when the event occurs in each of the views. 
 
@@ -65,3 +66,4 @@ End Sub
 
 [Application Object](PowerPoint.Application.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

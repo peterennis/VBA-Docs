@@ -1,5 +1,5 @@
 ---
-title: Connect.Stat Property (Visio)
+title: Connect.Stat property (Visio)
 keywords: vis_sdr.chm10314420
 f1_keywords:
 - vis_sdr.chm10314420
@@ -8,22 +8,23 @@ api_name:
 - Visio.Connect.Stat
 ms.assetid: ab0f72fe-a0be-b2f7-5e18-7985e5d69507
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Connect.Stat Property (Visio)
+# Connect.Stat property (Visio)
 
 Returns status information for an object. Read-only.
 
 
 ## Syntax
 
- _expression_. `Stat`
+_expression_.**Stat**
 
- _expression_ A variable that represents a [Connect](./Visio.Connect.md) object.
+_expression_ A variable that represents a **[Connect](Visio.Connect.md)** object.
 
 
-### Return Value
+## Return value
 
 Integer
 
@@ -39,7 +40,7 @@ A Component Object Model (COM) object, such as a Microsoft Visio  **Document** o
 
 ## Example
 
-This Microsoft Visual Basic for Applications (VBA) macro shows how to use the  **Stat** property to check the status of a **Document** object. Executing the macro prints 0 (**visStatNormal**) and then 8 (**visStatClosed**) in the **Immediate** window.
+This Microsoft Visual Basic for Applications (VBA) macro shows how to use the  **Stat** property to check the status of a **Document** object. Executing the macro prints 0 (**visStatNormal**) and then 8 (**visStatClosed**) in the Immediate window.
 
 
 ```vb
@@ -55,4 +56,4 @@ Public Sub Stat_Example()
 End Sub
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

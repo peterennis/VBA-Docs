@@ -3,6 +3,7 @@ title: Specify an Internet Encoding Scheme for the Body and Attachments of a Mes
 ms.prod: outlook
 ms.assetid: e6207bf2-238d-2b7a-cd80-5783e49c05ec
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
@@ -15,7 +16,7 @@ The following code sample in Visual C# shows how to reference  **PidTagInternetM
 
 
 ```vb
-https://schemas.microsoft.com/mapi/proptag/0x59020003
+http://schemas.microsoft.com/mapi/proptag/0x59020003
 ```
 
 where  `0x59020003` is the proptag of **PidTagInternetMailOverrideFormat**.
@@ -57,7 +58,7 @@ private void SendMail_Click()
     objRecipient = objMailItem.Recipients.Add(Recipient); 
     objRecipient.Resolve(); 
  
-    PropName = "https://schemas.microsoft.com/mapi/proptag/0x59020003"; 
+    PropName = "http://schemas.microsoft.com/mapi/proptag/0x59020003"; 
     oPA = objMailItem.PropertyAccessor; 
     oPA.SetProperty(PropName, EncodingFlag); 
  
@@ -69,4 +70,4 @@ private void SendMail_Click()
 
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

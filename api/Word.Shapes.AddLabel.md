@@ -1,5 +1,5 @@
 ---
-title: Shapes.AddLabel Method (Word)
+title: Shapes.AddLabel method (Word)
 keywords: vbawd10.chm161415181
 f1_keywords:
 - vbawd10.chm161415181
@@ -8,26 +8,25 @@ api_name:
 - Word.Shapes.AddLabel
 ms.assetid: c5a5ea1f-5ca3-2c8d-40e2-bad94a220609
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Shapes.AddLabel Method (Word)
+# Shapes.AddLabel method (Word)
 
 Adds a text label to a drawing canvas.
 
 
 ## Syntax
 
- _expression_. `AddLabel`( `_Orientation_` , `_Left_` , `_Top_` , `_Width_` , `_Height_` )
+_expression_.**AddLabel** (_Orientation_, _Left_, _Top_, _Width_, _Height_)
 
- _expression_ Required. A variable that represents a '[Shapes](Word.shapes.md)' collection.
-
-
-### Parameters
+_expression_ Required. A variable that represents a **[Shapes](Word.Shapes.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _Orientation_|Required| **MsoTextOrientation**|The orientation of the text.|
 | _Left_|Required| **Single**|The position, measured in points, of the left edge of the label relative to the left edge of the drawing canvas.|
@@ -35,7 +34,7 @@ Adds a text label to a drawing canvas.
 | _Width_|Required| **Single**|The width of the label, in points.|
 | _Height_|Required| **Single**|The height of the label, in points.|
 
-### Return Value
+## Return value
 
  **Shapes**
 
@@ -92,3 +91,4 @@ End Sub
 
 [Shapes Collection Object](Word.shapes.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

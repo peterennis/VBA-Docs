@@ -3,6 +3,7 @@ title: Filtering a Custom Field
 ms.prod: outlook
 ms.assetid: 36c0e15a-775d-5ce3-8e61-2a6bd305a746
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
@@ -27,7 +28,7 @@ In a DASL query, if the name of a custom property contains spaces, you must appl
 
 When you construct a DASL query for a custom property, you must use the namespace GUID for Outlook custom properties in the following format: 
 
- **https://schemas.microsoft.com/mapi/string/{GUID}/PropertyName**
+ **http://schemas.microsoft.com/mapi/string/{GUID}/PropertyName**
 
 where  **{GUID}** is the following GUID:
 
@@ -47,10 +48,10 @@ For example, if you want to use  **[Items.Restrict](../../../api/Outlook.Items.R
 
 
 ```vb
-criteria = "@SQL=" & Chr$(34) & "https://schemas.microsoft.com/mapi/string/" _ 
+criteria = "@SQL=" & Chr$(34) & "http://schemas.microsoft.com/mapi/string/" _ 
 & "{00020329-0000-0000-C000-000000000046}/MyProperty"_ 
 & "/0000001f" & Chr(34) & " = '12-74440'" 
 
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

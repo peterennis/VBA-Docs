@@ -1,5 +1,5 @@
 ---
-title: Application.SetTaskField Method (Project)
+title: Application.SetTaskField method (Project)
 keywords: vbapj.chm4
 f1_keywords:
 - vbapj.chm4
@@ -8,26 +8,27 @@ api_name:
 - Project.Application.SetTaskField
 ms.assetid: 44e3df27-8924-ecbb-b655-7dab9a51d96f
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Application.SetTaskField Method (Project)
+# Application.SetTaskField method (Project)
 
 Sets the value of a task field specified by the name of the field.
 
 
 ## Syntax
 
- _expression_. `SetTaskField`( ` _Field_`, ` _Value_`, ` _AllSelectedTasks_`, ` _Create_`, ` _TaskID_`, ` _ProjectName_` )
+_expression_. `SetTaskField`( `_Field_`, `_Value_`, `_AllSelectedTasks_`, `_Create_`, `_TaskID_`, `_ProjectName_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
-
-
-### Parameters
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _Field_|Required|**String**|The name of the task field to set.|
 | _Value_|Required|**String**|The value of the task field.|
@@ -36,7 +37,7 @@ Sets the value of a task field specified by the name of the field.
 | _TaskID_|Optional|**Long**|The identification number of the task containing the field to set. If  _AllSelectedTasks_ is **True**,  _TaskID_ is ignored.|
 | _ProjectName_|Optional|**String**|If the active project is a consolidated project, specifies the name of the project for the task specified by  _TaskID_. If  _TaskID_ is not specified, _ProjectName_ is ignored. The default value is the name of the active project.|
 
-### Return Value
+## Return value
 
  **Boolean**
 
@@ -65,4 +66,4 @@ Sub Set_TaskField()
 End Sub
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

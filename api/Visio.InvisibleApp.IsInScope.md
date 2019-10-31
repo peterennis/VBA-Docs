@@ -1,5 +1,5 @@
 ---
-title: InvisibleApp.IsInScope Property (Visio)
+title: InvisibleApp.IsInScope property (Visio)
 keywords: vis_sdr.chm17513750
 f1_keywords:
 - vis_sdr.chm17513750
@@ -7,46 +7,44 @@ ms.prod: visio
 api_name:
 - Visio.InvisibleApp.IsInScope
 ms.assetid: b3ba1566-a98c-55ef-b409-588b728730cf
-ms.date: 06/08/2017
+ms.date: 06/26/2019
+localization_priority: Normal
 ---
 
 
-# InvisibleApp.IsInScope Property (Visio)
+# InvisibleApp.IsInScope property (Visio)
 
-Determines whether a call to an event handler is between an  **EnterScope** event and an **ExitScope** event for a scope. Read-only.
+Determines whether a call to an event handler is between an **EnterScope** event and an **ExitScope** event for a scope. Read-only.
 
 
 ## Syntax
 
- _expression_. `IsInScope`( `_nCmdID_` )
+_expression_.**IsInScope** (_nCmdID_)
 
- _expression_ A variable that represents an [InvisibleApp](./Visio.InvisibleApp.md) object.
-
-
-### Parameters
+_expression_ A variable that represents an **[InvisibleApp](Visio.InvisibleApp.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _nCmdID_|Required| **Long**|The scope ID.|
 
-### Return Value
+## Return value
 
 Boolean
 
 
 ## Remarks
 
-Constants representing scope IDs are prefixed with  **visCmd** and are declared by the Visio type library. You can also use an ID returned by the **BeginUndoScope** method.
+Constants representing scope IDs are prefixed with **visCmd** and are declared by the Visio type library. You can also use an ID returned by the **BeginUndoScope** method.
 
-You could use this property in a  **CellChanged** event handler to determine whether a cell change was the result of a particular operation.
+You could use this property in a **CellChanged** event handler to determine whether a cell change was the result of a particular operation.
 
 
 ## Example
 
-This example shows how to use the  **IsInScope** property to determine whether a call to a procedure that handles the **CellChanged** event is in a particular scope?that is, whether the call occurs between the **EnterScope** and **ExitScope** events for that scope.
-
+This example shows how to use the **IsInScope** property to determine whether a call to a procedure that handles the **CellChanged** event is in a particular scope; that is, whether the call occurs between the **EnterScope** and **ExitScope** events for that scope.
 
 ```vb
  
@@ -113,4 +111,4 @@ Private Sub vsoApplication_ExitScope(ByVal app As IVApplication, _
 End Sub
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

@@ -1,5 +1,5 @@
 ---
-title: Selection.Move Method (Visio)
+title: Selection.Move method (Visio)
 keywords: vis_sdr.chm11151355
 f1_keywords:
 - vis_sdr.chm11151355
@@ -8,32 +8,33 @@ api_name:
 - Visio.Selection.Move
 ms.assetid: 12e60f50-f06d-45bb-b79d-db2e0d767461
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Selection.Move Method (Visio)
+# Selection.Move method (Visio)
 
 Moves a selection a specified distance.
 
 
 ## Syntax
 
- _expression_. `Move`( `_dx_` , `_dy_` , `_UnitsNameOrCode_` )
+_expression_. `Move`( `_dx_` , `_dy_` , `_UnitsNameOrCode_` )
 
- _expression_ A variable that represents a [Selection](./Visio.Selection.md) object.
-
-
-### Parameters
+_expression_ A variable that represents a **[Selection](Visio.Selection.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _dx_|Required| **Double**|Specifies the amount to move in the x-direction.|
 | _dy_|Required| **Double**|Specifies the amount to move in the y-direction.|
 | _UnitsNameOrCode_|Optional| **Variant**|Specifies the units to use for  _dx_ and _dy_. See Remarks for possible values. The default is inches.|
 
-### Return Value
+## Return value
 
 Nothing
 
@@ -68,4 +69,4 @@ Public Sub Move_Example()
 End Sub
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

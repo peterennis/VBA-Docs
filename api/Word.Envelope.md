@@ -1,5 +1,5 @@
 ---
-title: Envelope Object (Word)
+title: Envelope object (Word)
 keywords: vbawd10.chm2328
 f1_keywords:
 - vbawd10.chm2328
@@ -8,10 +8,11 @@ api_name:
 - Word.Envelope
 ms.assetid: 03664453-f7fb-f76a-ea60-37e72b53e17c
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Envelope Object (Word)
+# Envelope object (Word)
 
 Represents an envelope attached to a document.
 
@@ -35,7 +36,7 @@ End With
 
 Remarks
 
-The  **Envelope** object is available regardless of whether an envelope has been added to the specified document. However, an error occurs if you use one of the following properties when an envelope has not been added to the document: **[Address](Word.Envelope.Address.md)** , **[AddressFromLeft](Word.Envelope.AddressFromLeft.md)** , **[AddressFromTop](Word.Envelope.AddressFromTop.md)** , **[FeedSource](Word.Envelope.FeedSource.md)** , **[ReturnAddress](Word.Envelope.ReturnAddress.md)** , **[ReturnAddressFromLeft](Word.Envelope.ReturnAddressFromLeft.md)** , **[ReturnAddressFromTop](Word.Envelope.ReturnAddressFromTop.md)** , and **[UpdateDocument](Word.Envelope.UpdateDocument.md)** .
+The  **Envelope** object is available regardless of whether an envelope has been added to the specified document. However, an error occurs if you use one of the following properties when an envelope has not been added to the document: **[Address](Word.Envelope.Address.md)**, **[AddressFromLeft](Word.Envelope.AddressFromLeft.md)**, **[AddressFromTop](Word.Envelope.AddressFromTop.md)**, **[FeedSource](Word.Envelope.FeedSource.md)**, **[ReturnAddress](Word.Envelope.ReturnAddress.md)**, **[ReturnAddressFromLeft](Word.Envelope.ReturnAddressFromLeft.md)**, **[ReturnAddressFromTop](Word.Envelope.ReturnAddressFromTop.md)**, and **[UpdateDocument](Word.Envelope.UpdateDocument.md)**.
 
 The following example demonstrates how to use the  **On Error GoTo** statement to trap the error that occurs if an envelope has not been added to the active document. If, however, an envelope has been added to the document, the recipient address is displayed.
 
@@ -53,12 +54,14 @@ If Err = 5852 Then MsgBox _
 Use the  **Insert** method to add an envelope to the specified document. Use the **PrintOut** method to set the properties of an envelope and print it without adding it to the document.
 
 
- **Note**  There is no Envelopes collection; each  **Document** object contains only one **Envelope** object.
+> [!NOTE] 
+> There is no Envelopes collection; each  **Document** object contains only one **Envelope** object.
 
 
 ## See also
 
 
 
-[Word Object Model Reference](./overview/Word/object-model.md)
+[Word Object Model Reference](overview/Word/object-model.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

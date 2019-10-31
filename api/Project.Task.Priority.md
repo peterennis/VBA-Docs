@@ -1,23 +1,24 @@
 ---
-title: Task.Priority Property (Project)
+title: Task.Priority property (Project)
 ms.prod: project-server
 api_name:
 - Project.Task.Priority
 ms.assetid: 8680e903-a03e-cf83-70e7-fc856297dae2
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Task.Priority Property (Project)
+# Task.Priority property (Project)
 
 Gets or sets the priority for the task. Read/write  **Variant**.
 
 
 ## Syntax
 
- _expression_. `Priority`
+_expression_.**Priority**
 
- _expression_ A variable that represents a [Task](./Project.Task.md) object.
+_expression_ A variable that represents a [Task](./Project.Task.md) object.
 
 
 ## Remarks
@@ -25,7 +26,8 @@ Gets or sets the priority for the task. Read/write  **Variant**.
 The  **Priority** property can be a value from 0 to 1000. A value of 1000 has the effect that the task is not leveled in a leveling operation.Because **Priority** is a **Variant**, you can set the priority of task 2 to 900, for example, with the following code: `activeproject.Tasks(2).Priority = "Highest"`. The following table shows the string values and the corresponding integer values for the  **Priority** property.
 
 
- **Note**  Do not use the  **[PjPriority](Project.PjPriority.md)** constants, which have values only from 0 to 9 for some previous versions of Project.
+> [!NOTE] 
+> Do not use the  **[PjPriority](Project.PjPriority.md)** constants, which have values only from 0 to 9 for some previous versions of Project.
 
 
 |||
@@ -63,4 +65,4 @@ Sub SetPriorityOfCriticalTasks()
 End Sub
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

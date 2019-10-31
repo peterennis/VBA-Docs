@@ -1,12 +1,13 @@
 ---
-title: Shape Object (Project)
+title: Shape object (Project)
 ms.prod: project-server
 ms.assetid: d2b32bcd-5595-a4a7-9772-feb25fd0103a
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Shape Object (Project)
+# Shape object (Project)
 Represents an object in a Project report, such as a chart, report table, text box, freeform drawing, or picture.
  
 
@@ -17,7 +18,8 @@ The  **Shape** object is a member of the **[Shapes](Project.shapes.md)** collect
 
  
 
- **Note**  Macro recording for the  **Shape** object is not implemented. That is, when you record a macro in Project and manually add a shape or edit shape elements, the steps for adding and manipulating the shape are not recorded.
+> [!NOTE] 
+> Macro recording for the  **Shape** object is not implemented. That is, when you record a macro in Project and manually add a shape or edit shape elements, the steps for adding and manipulating the shape are not recorded.
  
 
 There are three objects that represent shapes: the  **Shapes** collection, which represents all the shapes on a document; the **ShapeRange** object, which represents a specified subset of the shapes on a document (for example, a **ShapeRange** object could represent shapes one and four on the document, or it could represent all the selected shapes on the document); and the **Shape** object, which represents a single shape on a document. If you want to work with several shapes at the same time or with shapes within the selection, use a **ShapeRange** collection.
@@ -49,7 +51,7 @@ Sub TestTextShape()
     textShape.Name = "TestTextBox"
     
     textShape.TextFrame2.TextRange.Characters.Text = "This is a test. It is only a test. " _
-        &amp; "If it had been real information, there would be some real text here."
+        & "If it had been real information, there would be some real text here."
     textShape.TextFrame2.TextRange.Characters(1, 15).ParagraphFormat.FirstLineIndent = 0
     
     ' Set the font for the first 15 characters to dark blue bold.
@@ -116,7 +118,7 @@ Figure 1 shows the result, where the shape is selected to make the ribbon  **FOR
 
 
 
-|**Name**|
+|Name|
 |:-----|
 |[Apply](Project.shape.apply.md)|
 |[Copy](Project.shape.copy.md)|
@@ -140,7 +142,7 @@ Figure 1 shows the result, where the shape is selected to make the ribbon  **FOR
 
 
 
-|**Name**|
+|Name|
 |:-----|
 |[Adjustments](Project.shape.adjustments.md)|
 |[AlternativeText](Project.shape.alternativetext.md)|
@@ -195,3 +197,5 @@ Figure 1 shows the result, where the shape is selected to make the ribbon  **FOR
 [Report Object](Project.report.md)
  
 [Chart Object](Project.chart.md)
+
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

@@ -6,12 +6,13 @@ f1_keywords:
 ms.prod: office
 ms.assetid: d3581bff-e345-a1ac-e092-7ccb993be618
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
 # Type-declaration character does not match declared data type
 
-The [data type](../../Glossary/vbe-glossary.md#data-type) of a[variable](../../Glossary/vbe-glossary.md#variable) can't be changed by appending the[type-declaration character](../../Glossary/vbe-glossary.md#type-declaration-character) for another type. This error has the following cause and solution:
+The [data type](../../Glossary/vbe-glossary.md#data-type) of a [variable](../../Glossary/vbe-glossary.md#variable) can't be changed by appending the [type-declaration character](../../Glossary/vbe-glossary.md#type-declaration-character) for another type. This error has the following cause and solution:
 
 
 
@@ -22,3 +23,4 @@ The [data type](../../Glossary/vbe-glossary.md#data-type) of a[variable](../../G
 
 For additional information, select the item in question and press F1 (in Windows) or HELP (on the Macintosh).
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

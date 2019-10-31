@@ -1,5 +1,5 @@
 ---
-title: Axis.MinimumScaleIsAuto Property (PowerPoint)
+title: Axis.MinimumScaleIsAuto property (PowerPoint)
 keywords: vbapp10.chm682020
 f1_keywords:
 - vbapp10.chm682020
@@ -8,19 +8,20 @@ api_name:
 - PowerPoint.Axis.MinimumScaleIsAuto
 ms.assetid: 7ec5b07d-3683-e45b-ca39-d67ce959edfc
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Axis.MinimumScaleIsAuto Property (PowerPoint)
+# Axis.MinimumScaleIsAuto property (PowerPoint)
 
  **True** if Microsoft Word calculates the minimum value for the value axis. Read/write **Boolean**.
 
 
 ## Syntax
 
- _expression_. `MinimumScaleIsAuto`
+_expression_. `MinimumScaleIsAuto`
 
- _expression_ A variable that represents an '[Axis](PowerPoint.Axis.md)' object.
+_expression_ A variable that represents an '[Axis](PowerPoint.Axis.md)' object.
 
 
 ## Remarks
@@ -33,7 +34,8 @@ Setting the  **[MinimumScale](PowerPoint.Axis.MinimumScale.md)** property sets t
 
 
 
- **Note**  Although the following code applies to Microsoft Word, you can readily modify it to apply to PowerPoint.
+> [!NOTE] 
+> Although the following code applies to Microsoft Word, you can readily modify it to apply to PowerPoint.
 
 The following example automatically calculates the minimum scale and the maximum scale for the value axis of the first chart in the active document.
 
@@ -66,3 +68,4 @@ End With
 
 [Axis Object](PowerPoint.Axis.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

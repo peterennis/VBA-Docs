@@ -3,6 +3,7 @@ title: Save Auto-Archive Properties of a Folder in Solution Storage
 ms.prod: outlook
 ms.assetid: fbcdbbdf-3320-85f3-2dae-200fddd67285
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
@@ -63,17 +64,17 @@ Function ChangeAgingProperties(oFolder As Outlook.Folder, _
  
  '6 MAPI properties for aging items in a folder 
  Const PR_AGING_AGE_FOLDER = _ 
- "https://schemas.microsoft.com/mapi/proptag/0x6857000B" 
+ "http://schemas.microsoft.com/mapi/proptag/0x6857000B" 
  Const PR_AGING_DELETE_ITEMS = _ 
- "https://schemas.microsoft.com/mapi/proptag/0x6855000B" 
+ "http://schemas.microsoft.com/mapi/proptag/0x6855000B" 
  Const PR_AGING_FILE_NAME_AFTER9 = _ 
- "https://schemas.microsoft.com/mapi/proptag/0x6859001E" 
+ "http://schemas.microsoft.com/mapi/proptag/0x6859001E" 
  Const PR_AGING_GRANULARITY = _ 
- "https://schemas.microsoft.com/mapi/proptag/0x36EE0003" 
+ "http://schemas.microsoft.com/mapi/proptag/0x36EE0003" 
  Const PR_AGING_PERIOD = _ 
- "https://schemas.microsoft.com/mapi/proptag/0x36EC0003" 
+ "http://schemas.microsoft.com/mapi/proptag/0x36EC0003" 
  Const PR_AGING_DEFAULT = _ 
- "https://schemas.microsoft.com/mapi/proptag/0x685E0003" 
+ "http://schemas.microsoft.com/mapi/proptag/0x685E0003" 
  
  Dim oStorage As StorageItem 
  Dim oPA As PropertyAccessor 
@@ -141,4 +142,4 @@ Sub TestAgingProps()
 End Sub
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

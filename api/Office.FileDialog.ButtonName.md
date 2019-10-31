@@ -1,5 +1,5 @@
 ---
-title: FileDialog.ButtonName Property (Office)
+title: FileDialog.ButtonName property (Office)
 keywords: vbaof11.chm256005
 f1_keywords:
 - vbaof11.chm256005
@@ -7,30 +7,31 @@ ms.prod: office
 api_name:
 - Office.FileDialog.ButtonName
 ms.assetid: 9f9a4f26-bd96-6e8d-099d-df15ed5e585f
-ms.date: 06/08/2017
+ms.date: 01/09/2019
+localization_priority: Normal
 ---
 
 
-# FileDialog.ButtonName Property (Office)
+# FileDialog.ButtonName property (Office)
 
-Sets or gets a  **String** representing the text that is displayed on the action button of a file dialog box. Read/write.
+Sets or gets a **String** representing the text that is displayed on the action button of a file dialog box. Read/write.
 
 
 ## Syntax
 
- _expression_. `ButtonName`
+_expression_.**ButtonName**
 
- _expression_ A variable that represents a [FileDialog](./Office.FileDialog.md) object.
+_expression_ A variable that represents a **[FileDialog](Office.FileDialog.md)** object.
 
 
 ## Remarks
 
-By default, this property is set to the standard text for the type of file dialog box. For example, in the case of the  **Open** dialog box, the property is set to "Open" by default. This string is limited to fifty-one characters.
+By default, this property is set to the standard text for the type of file dialog box. For example, in the case of the **Open** dialog box, the property is set to "Open" by default. This string is limited to fifty-one characters.
 
 
 ## Example
 
-The following example displays a  **File Picker** dialog box using the **FileDialog** object and displays each selected file in a message box.
+The following example displays a **File Picker** dialog box by using the **FileDialog** object, and displays each selected file in a message box.
 
 
 ```vb
@@ -64,7 +65,7 @@ Sub Main()
  'vrtSelectedItem is aString that contains the path of each selected item. 
  'You can use any file I/O functions that you want to work with this path. 
  'This example displays the path in a message box. 
- MsgBox "Selected item's path: " &amp; vrtSelectedItem 
+ MsgBox "Selected item's path: " & vrtSelectedItem 
  
  Next vrtSelectedItem 
  'If the user presses Cancel... 
@@ -81,10 +82,6 @@ End Sub
 
 ## See also
 
+- [FileDialog object members](overview/library-reference/filedialog-members-office.md)
 
-[FileDialog Object](Office.FileDialog.md)
-
-
-
-[FileDialog Object Members](./overview/Library-Reference/filedialog-members-office.md)
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

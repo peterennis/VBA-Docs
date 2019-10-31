@@ -1,5 +1,5 @@
 ---
-title: Styles.Count Property (Visio)
+title: Styles.Count property (Visio)
 keywords: vis_sdr.chm11513330
 f1_keywords:
 - vis_sdr.chm11513330
@@ -8,29 +8,30 @@ api_name:
 - Visio.Styles.Count
 ms.assetid: fbce264a-e16c-6235-7fed-025f36e867ab
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Styles.Count Property (Visio)
+# Styles.Count property (Visio)
 
 Returns the number of objects in a collection. Read-only.
 
 
 ## Syntax
 
- _expression_. `Count`
+_expression_.**Count**
 
- _expression_ A variable that represents a [Styles](./Visio.Styles.md) object.
+_expression_ A variable that represents a **[Styles](Visio.Styles.md)** object.
 
 
-### Return Value
+## Return value
 
 Long
 
 
 ## Example
 
-This Microsoft Visual Basic for Applications (VBA) macro shows how to use the  **Count** property to iterate through a **Documents** collection. It displays the names of all the open Microsoft Visio documents in the **Immediate** window.
+This Microsoft Visual Basic for Applications (VBA) macro shows how to use the  **Count** property to iterate through a **Documents** collection. It displays the names of all the open Microsoft Visio documents in the Immediate window.
 
 
 ```vb
@@ -51,4 +52,4 @@ Public Sub Count_Example()
 End Sub
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

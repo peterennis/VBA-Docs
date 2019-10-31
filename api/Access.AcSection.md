@@ -1,5 +1,5 @@
 ---
-title: AcSection Enumeration (Access)
+title: AcSection enumeration (Access)
 keywords: vbaac10.chm10010
 f1_keywords:
 - vbaac10.chm10010
@@ -8,16 +8,17 @@ api_name:
 - Access.AcSection
 ms.assetid: 858401a2-e892-8729-124a-97a0fb136a0a
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# AcSection Enumeration (Access)
+# AcSection enumeration (Access)
 
 Specifies the section that will contain the new control.
 
+<br/>
 
-
-|**Name**|**Value**|**Description**|
+|Name|Value|Description|
 |:-----|:-----|:-----|
 |**acDetail**|0|(Default) Detail section|
 |**acFooter**|2|Form or report footer|
@@ -29,3 +30,4 @@ Specifies the section that will contain the new control.
 |**acPageFooter**|4|Page footer|
 |**acPageHeader**|3|Page header|
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

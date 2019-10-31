@@ -1,5 +1,5 @@
 ---
-title: Application.FilePageSetupPage Method (Project)
+title: Application.FilePageSetupPage method (Project)
 keywords: vbapj.chm2355
 f1_keywords:
 - vbapj.chm2355
@@ -8,26 +8,27 @@ api_name:
 - Project.Application.FilePageSetupPage
 ms.assetid: 7c5cf66d-715b-17e1-a03a-a376617a1e02
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Application.FilePageSetupPage Method (Project)
+# Application.FilePageSetupPage method (Project)
 
 Sets up pages for printing.
 
 
 ## Syntax
 
- _expression_. `FilePageSetupPage`( ` _Name_`, ` _Portrait_`, ` _PercentScale_`, ` _PagesTall_`, ` _PagesWide_`, ` _PaperSize_`, ` _FirstPageNumber_` )
+_expression_. `FilePageSetupPage`( `_Name_`, `_Portrait_`, `_PercentScale_`, `_PagesTall_`, `_PagesWide_`, `_PaperSize_`, `_FirstPageNumber_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
-
-
-### Parameters
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _Name_|Optional|**String**|The name of the view or report for which to set up pages for printing.|
 | _Portrait_|Optional|**Boolean**|**True** if the page orientation is portrait. **False** if the page orientation is landscape.|
@@ -37,7 +38,7 @@ Sets up pages for printing.
 | _PaperSize_|Optional|**Long**|The size of the paper to be used when printing. (Some printers may not support all of these paper sizes.) Can be one of the  **[PjPaperSize](Project.PjPaperSize.md)** constants.|
 | _FirstPageNumber_|Optional|**String**|Any valid integer to print on the first page or the string "Auto" to print the actual number of the first printed page. (For example, "3" if the first printed page is page 3.) Succeeding page numbers are incremented on this number. The default value is "Auto".|
 
-### Return Value
+## Return value
 
  **Boolean**
 
@@ -46,4 +47,4 @@ Sets up pages for printing.
 
 Using the  **FilePageSetupPage** method without specifying any arguments displays the **Page Setup** dialog box with the **Page** tab selected.
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

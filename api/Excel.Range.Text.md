@@ -1,5 +1,5 @@
 ---
-title: Range.Text Property (Excel)
+title: Range.Text property (Excel)
 keywords: vbaxl10.chm144209
 f1_keywords:
 - vbaxl10.chm144209
@@ -7,30 +7,30 @@ ms.prod: excel
 api_name:
 - Excel.Range.Text
 ms.assetid: e38c15b1-5941-0a28-1acf-328bc214a2e0
-ms.date: 08/24/2018
+ms.date: 05/11/2019
+localization_priority: Normal
 ---
 
 
-# Range.Text Property (Excel)
+# Range.Text property (Excel)
 
-Returns the formatted text for the specified object. Read-only **String** .
+Returns the formatted text for the specified object. Read-only **String**.
 
 
 ## Syntax
 
- _expression_. `Text`
+_expression_.**Text**
 
- _expression_ A variable that represents a [Range](Excel.Range(Graph property).md) object.
+_expression_ A variable that represents a **[Range](excel.range(object).md)** object.
 
 
 ## Remarks
 
-The **Text** property is most often used for a **Range** of one cell. If the **Range** includes more than one cell, the **Text** property returns **Null**, except when all the cells in the **Range** have identical contents and formats.
+The **Text** property is most often used for a range of one cell. If the range includes more than one cell, the **Text** property returns **Null**, except when all the cells in the range have identical contents and formats.
 
 ## Example
 
 This example illustrates the difference between the **Text** and **[Value](Excel.Range.Value.md)**  properties of cells that contain formatted numbers.
-
 
 ```vb
 Dim c As Range
@@ -42,7 +42,6 @@ MsgBox c.Text & " is the text."   'Returns "$1,198 is the text."
 ```
 
 
-## See also
 
-- [Range Object](Excel.Range(object).md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

@@ -1,5 +1,5 @@
 ---
-title: View.NextHeaderFooter Method (Word)
+title: View.NextHeaderFooter method (Word)
 keywords: vbawd10.chm161808490
 f1_keywords:
 - vbawd10.chm161808490
@@ -8,19 +8,20 @@ api_name:
 - Word.View.NextHeaderFooter
 ms.assetid: 48b52b41-cee4-fa85-7229-86af61607556
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# View.NextHeaderFooter Method (Word)
+# View.NextHeaderFooter method (Word)
 
 Moves to the next header or footer, depending on whether a header or footer is displayed in the view.
 
 
 ## Syntax
 
- _expression_. `NextHeaderFooter`
+_expression_. `NextHeaderFooter`
 
- _expression_ Required. A variable that represents a '[View](Word.View.md)' object.
+_expression_ Required. A variable that represents a '[View](Word.View.md)' object.
 
 
 ## Remarks
@@ -28,7 +29,8 @@ Moves to the next header or footer, depending on whether a header or footer is d
 If the view displays a header, this method moves to the next header within the current section (for example, from an odd header to an even header) or to the first header in the following section. If the view displays a footer, this method moves to the next footer. 
 
 
- **Note**  If the view displays the last header or footer in the last section of the document, or if it is not displaying a header or footer at all, an error occurs.
+> [!NOTE] 
+> If the view displays the last header or footer in the last section of the document, or if it is not displaying a header or footer at all, an error occurs.
 
 
 ## Example
@@ -51,3 +53,4 @@ End With
 
 [View Object](Word.View.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

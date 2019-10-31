@@ -6,12 +6,13 @@ f1_keywords:
 ms.prod: office
 ms.assetid: 9b38809b-2fc1-8bcf-f13e-05570fd1673c
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
 # Expected array
 
-A [variable](../../Glossary/vbe-glossary.md#variable) name with a subscript indicates the variable is an[array](../../Glossary/vbe-glossary.md#array). This error has the following cause and solution:
+A [variable](../../Glossary/vbe-glossary.md#variable) name with a subscript indicates the variable is an [array](../../Glossary/vbe-glossary.md#array). This error has the following cause and solution:
 
 
 
@@ -22,3 +23,4 @@ A [variable](../../Glossary/vbe-glossary.md#variable) name with a subscript indi
 
 For additional information, select the item in question and press F1 (in Windows) or HELP (on the Macintosh).
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

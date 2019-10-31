@@ -1,12 +1,13 @@
 ---
-title: OutlineCodes Object (Project)
+title: OutlineCodes object (Project)
 ms.prod: project-server
 ms.assetid: a2e6d0c7-0741-91c6-61aa-f4bcc299e66f
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# OutlineCodes Object (Project)
+# OutlineCodes object (Project)
 
 Contains a collection of  **[OutlineCode](Project.OutlineCode.md)** objects.
  
@@ -30,7 +31,8 @@ The following example adds a custom outline code to store the location of resour
 
  
 
- **Note**  The  **OnlyLookUpTableCodes** property can be set only after the lookup table contains entries. If you try to set **OnlyLookUpTableCodes** before creating lookup table entries, the result is run-time error 7, "Out of memory."
+> [!NOTE] 
+> The  **OnlyLookUpTableCodes** property can be set only after the lookup table contains entries. If you try to set **OnlyLookUpTableCodes** before creating lookup table entries, the result is run-time error 7, "Out of memory."
  
 
 
@@ -151,7 +153,7 @@ End Sub
 
 
 
-|**Name**|
+|Name|
 |:-----|
 |[Add](Project.OutlineCodes.Add.md)|
 
@@ -159,7 +161,7 @@ End Sub
 
 
 
-|**Name**|
+|Name|
 |:-----|
 |[Application](Project.OutlineCodes.Application.md)|
 |[Count](Project.OutlineCodes.Count.md)|
@@ -171,3 +173,5 @@ End Sub
 
  
 [Project Object Model](../project/Concepts/project-object-model.md)
+
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

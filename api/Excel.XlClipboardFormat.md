@@ -1,20 +1,21 @@
 ---
-title: XlClipboardFormat Enumeration (Excel)
+title: XlClipboardFormat enumeration (Excel)
 ms.prod: excel
 api_name:
 - Excel.XlClipboardFormat
 ms.assetid: d964de02-d2b4-0b62-85ec-f9f70b5f8642
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# XlClipboardFormat Enumeration (Excel)
+# XlClipboardFormat enumeration (Excel)
 
 Specifies the format of an item on the Microsoft Windows clipboard.
 
 
 
-|**Name**|**Value**|**Description**|
+|Name|Value|Description|
 |:-----|:-----|:-----|
 | **xlClipboardFormatBIFF**|8|Binary Interchange file format for Excel version 2.x|
 | **xlClipboardFormatBIFF12**|63|Binary Interchange file format 12|
@@ -51,3 +52,4 @@ Specifies the format of an item on the Microsoft Windows clipboard.
 | **xlClipboardFormatVALU**|1|Value|
 | **xlClipboardFormatWK1**|10|Workbook|
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

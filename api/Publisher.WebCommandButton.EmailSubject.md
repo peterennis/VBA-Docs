@@ -1,5 +1,5 @@
 ---
-title: WebCommandButton.EmailSubject Property (Publisher)
+title: WebCommandButton.EmailSubject property (Publisher)
 keywords: vbapb10.chm3932168
 f1_keywords:
 - vbapb10.chm3932168
@@ -7,26 +7,26 @@ ms.prod: publisher
 api_name:
 - Publisher.WebCommandButton.EmailSubject
 ms.assetid: 4d29dacd-0da6-c706-515e-219daf5e349d
-ms.date: 06/08/2017
+ms.date: 06/18/2019
+localization_priority: Normal
 ---
 
 
-# WebCommandButton.EmailSubject Property (Publisher)
+# WebCommandButton.EmailSubject property (Publisher)
 
-Sets or returns a  **String** that represents the subject for e-mail messages generated to process Web form data. Read/write.
+Sets or returns a **String** that represents the subject for email messages generated to process web form data. Read/write.
 
 
 ## Syntax
 
- _expression_. **EmailSubject**
+_expression_.**EmailSubject**
 
- _expression_ A variable that represents a  **WebCommandButton** object.
+_expression_ A variable that represents a **[WebCommandButton](Publisher.WebCommandButton.md)** object.
 
 
 ## Example
 
-This example sets Publisher to process data on the Web form in the current publication by sending an e-mail message with a subject line to a specified e-mail address.
-
+This example sets Publisher to process data on the web form in the current publication by sending an email message with a subject line to a specified email address.
 
 ```vb
 Sub WebFormData() 
@@ -38,4 +38,4 @@ Sub WebFormData()
 End Sub
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

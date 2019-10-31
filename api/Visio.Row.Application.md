@@ -1,5 +1,5 @@
 ---
-title: Row.Application Property (Visio)
+title: Row.Application property (Visio)
 keywords: vis_sdr.chm15813090
 f1_keywords:
 - vis_sdr.chm15813090
@@ -8,24 +8,25 @@ api_name:
 - Visio.Row.Application
 ms.assetid: 4e828a82-45a8-48a1-2230-edebbf991c81
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Row.Application Property (Visio)
+# Row.Application property (Visio)
 
 Returns the instance of Microsoft Visio that is associated with an object. Read-only.
 
 
 ## Syntax
 
- _expression_. `Application`
+_expression_.**Application**
 
- _expression_ A variable that represents a [Row](./Visio.Row.md) object.
+_expression_ A variable that represents a **[Row](Visio.Row.md)** object.
 
 
-### Return Value
+## Return value
 
-Application
+**[Application](visio.application.md)**
 
 
 ## Example
@@ -49,4 +50,4 @@ Public Sub Application_Example()
 End Sub
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

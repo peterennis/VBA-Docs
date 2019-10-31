@@ -1,5 +1,5 @@
 ---
-title: FileDialogSelectedItems.Count Property (Office)
+title: FileDialogSelectedItems.Count property (Office)
 keywords: vbaof11.chm253002
 f1_keywords:
 - vbaof11.chm253002
@@ -7,30 +7,31 @@ ms.prod: office
 api_name:
 - Office.FileDialogSelectedItems.Count
 ms.assetid: c571c03e-02de-f0a3-0e3f-1fdf9f0d221c
-ms.date: 06/08/2017
+ms.date: 01/09/2019
+localization_priority: Normal
 ---
 
 
-# FileDialogSelectedItems.Count Property (Office)
+# FileDialogSelectedItems.Count property (Office)
 
-Gets a  **Long** indicating the number of items in the **FileDialogSelectedItem** s collection. Read-only.
+Gets a **Long** indicating the number of items in the **FileDialogSelectedItems** collection. Read-only.
 
 
 ## Syntax
 
- _expression_. `Count`
+_expression_.**Count**
 
- _expression_ A variable that represents a [FileDialogSelectedItems](./Office.FileDialogSelectedItems.md) object.
+_expression_ A variable that represents a **[FileDialogSelectedItems](Office.FileDialogSelectedItems.md)** object.
 
 
-### Return Value
+## Return value
 
 Long
 
 
 ## Example
 
-The following example displays a  **File Picker** dialog box and displays each selected file in a message box.
+The following example displays a **File Picker** dialog box and displays each selected file in a message box.
 
 
 ```vb
@@ -65,7 +66,7 @@ Sub Main()
  'vrtSelectedItem is aString that contains the path of each selected item. 
  'You can use any file I/O functions that you want to work with this path. 
  'This example displays the path in a message box. 
- MsgBox "Selected item's path: " &amp; vrtSelectedItem(cnt) 
+ MsgBox "Selected item's path: " & vrtSelectedItem(cnt) 
  
  Next 
  'The user pressed Cancel. 
@@ -83,10 +84,6 @@ End Sub
 
 ## See also
 
+- [FileDialogSelectedItems object members](overview/library-reference/filedialogselecteditems-members-office.md)
 
-[FileDialogSelectedItems Object](Office.FileDialogSelectedItems.md)
-
-
-
-[FileDialogSelectedItems Object Members](./overview/Library-Reference/filedialogselecteditems-members-office.md)
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

@@ -1,5 +1,5 @@
 ---
-title: ParagraphFormat Object (Word)
+title: ParagraphFormat object (Word)
 keywords: vbawd10.chm2387
 f1_keywords:
 - vbawd10.chm2387
@@ -8,10 +8,11 @@ api_name:
 - Word.ParagraphFormat
 ms.assetid: 712d754a-dc92-f1a3-531d-dfae74a42c23
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# ParagraphFormat Object (Word)
+# ParagraphFormat object (Word)
 
 Represents all the formatting for a paragraph.
 
@@ -54,7 +55,7 @@ myParaF.Borders.Enable = True
 ActiveDocument.Paragraphs(1).Format = myParaF
 ```
 
-You can also make a standalone copy of an existing  **ParagraphFormat** object by using the **Duplicate** property. The following example duplicates the paragraph formatting of the first paragraph in the active document and stores the formatting in _myDup_ . The example changes the left indent of _myDup_ to 1 inch, creates a new document, inserts text into the document, and applies the paragraph formatting of _myDup_ to the text.
+You can also make a standalone copy of an existing  **ParagraphFormat** object by using the **Duplicate** property. The following example duplicates the paragraph formatting of the first paragraph in the active document and stores the formatting in _myDup_. The example changes the left indent of _myDup_ to 1 inch, creates a new document, inserts text into the document, and applies the paragraph formatting of _myDup_ to the text.
 
 
 
@@ -72,5 +73,6 @@ Selection.Paragraphs.Format = myDup
 
 
 
-[Word Object Model Reference](./overview/Word/object-model.md)
+[Word Object Model Reference](overview/Word/object-model.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

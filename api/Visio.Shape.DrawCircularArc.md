@@ -1,5 +1,5 @@
 ---
-title: Shape.DrawCircularArc Method (Visio)
+title: Shape.DrawCircularArc method (Visio)
 keywords: vis_sdr.chm11252015
 f1_keywords:
 - vis_sdr.chm11252015
@@ -8,26 +8,27 @@ api_name:
 - Visio.Shape.DrawCircularArc
 ms.assetid: 538ee927-c34a-c697-8bf1-f134355e6060
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Shape.DrawCircularArc Method (Visio)
+# Shape.DrawCircularArc method (Visio)
 
 Creates a new shape whose path consists of a circular arc defined by its center, radius, and start and end angles.
 
 
 ## Syntax
 
- _expression_. `DrawCircularArc`( `_xCenter_` , `_yCenter_` , `_Radius_` , `_StartAngle_` , `_EndAngle_` )
+_expression_. `DrawCircularArc`( `_xCenter_` , `_yCenter_` , `_Radius_` , `_StartAngle_` , `_EndAngle_` )
 
- _expression_ A variable that represents a [Shape](./Visio.Shape.md) object.
-
-
-### Parameters
+_expression_ A variable that represents a **[Shape](Visio.Shape.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _xCenter_|Required| **Double**|The x-coordinate of the center of the arc.|
 | _yCenter_|Required| **Double**|The y-coordinate of the center of the arc.|
@@ -35,7 +36,7 @@ Creates a new shape whose path consists of a circular arc defined by its center,
 | _StartAngle_|Optional| **Double**|The angle in radians with respect to the x-axis at which to start drawing the arc. The default is 0.|
 | _EndAngle_|Optional| **Double**|The angle in radians with respect to the x-axis at which to end the arc. The default is pi (3.14592634898).|
 
-### Return Value
+## Return value
 
 Shape
 
@@ -59,4 +60,4 @@ Public Sub DrawCircularArc_Example
 End Sub
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

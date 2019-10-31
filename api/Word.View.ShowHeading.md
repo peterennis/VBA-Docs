@@ -1,5 +1,5 @@
 ---
-title: View.ShowHeading Method (Word)
+title: View.ShowHeading method (Word)
 keywords: vbawd10.chm161808488
 f1_keywords:
 - vbawd10.chm161808488
@@ -8,26 +8,27 @@ api_name:
 - Word.View.ShowHeading
 ms.assetid: b459e936-13fa-f2f4-33e6-f25d21a6f77c
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# View.ShowHeading Method (Word)
+# View.ShowHeading method (Word)
 
 Shows all headings up to the specified heading level and hides subordinate headings and body text.
 
 
 ## Syntax
 
- _expression_. `ShowHeading`( `_Level_` )
+_expression_. `ShowHeading`( `_Level_` )
 
- _expression_ Required. A variable that represents a '[View](Word.View.md)' object.
-
-
-### Parameters
+_expression_ Required. A variable that represents a '[View](Word.View.md)' object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _Level_|Required| **Long**|The outline heading level (a number from 1 to 9).|
 
@@ -66,3 +67,4 @@ End With
 
 [View Object](Word.View.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

@@ -3,6 +3,7 @@ title: Import Appointment XML Data into Outlook Appointment Objects (Outlook)
 ms.prod: outlook
 ms.assetid: ecfd3849-877b-01ad-2b76-1a54e980f6e2
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
@@ -15,8 +16,7 @@ This topic shows how to read appointment data formatted in XML, save the data to
 |
 ![MVP logo](../../../images/MVPLogo_Small_ZA10349011.jpg)
 
-|Helmut Obertanner provided the following code samples. Helmut is a  [Microsoft Most Valuable Professional](https://mvp.microsoft.com/en-us/default.aspx
-) with expertise in Microsoft Office development tools in Microsoft Visual Studio and Microsoft Office Outlook.|
+|Helmut Obertanner provided the following code samples. Helmut is a  [Microsoft Most Valuable Professional](https://mvp.microsoft.com/) with expertise in Microsoft Office development tools in Microsoft Visual Studio and Microsoft Office Outlook.|
 
 
 
@@ -113,7 +113,7 @@ namespace OutlookAddIn1
                     "The input string is not valid XML data or the specified file doesn't exist."); 
             } 
  
-            // Select all appointment nodes under the root appointements node. 
+            // Select all appointment nodes under the root appointments node. 
             XmlNodeList appointmentNodes = xmlDoc.SelectNodes("appointments/appointment"); 
             foreach (XmlNode appointmentNode in appointmentNodes) 
             { 
@@ -192,7 +192,7 @@ Namespace OutlookAddIn2
             End If 
  
  
-            ' Select all appointment nodes under the root appointements node. 
+            ' Select all appointment nodes under the root appointments node. 
             Dim appointmentNodes As XmlNodeList = xmlDoc.SelectNodes("appointments/appointment") 
  
             For Each appointmentNode As XmlNode In appointmentNodes 
@@ -244,4 +244,4 @@ Namespace OutlookAddIn2
 End Namespace
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

@@ -1,5 +1,5 @@
 ---
-title: Application.TableEdit Method (Project)
+title: Application.TableEdit method (Project)
 keywords: vbapj.chm403
 f1_keywords:
 - vbapj.chm403
@@ -8,26 +8,27 @@ api_name:
 - Project.Application.TableEdit
 ms.assetid: 370ab75d-9b99-b4b3-db5f-96697320bc68
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Application.TableEdit Method (Project)
+# Application.TableEdit method (Project)
 
 Creates, edits, or copies a table.
 
 
 ## Syntax
 
- _expression_. `TableEdit`( ` _Name_`, ` _TaskTable_`, ` _Create_`, ` _OverwriteExisting_`, ` _NewName_`, ` _FieldName_`, ` _NewFieldName_`, ` _Title_`, ` _Width_`, ` _Align_`, ` _ShowInMenu_`, ` _LockFirstColumn_`, ` _DateFormat_`, ` _RowHeight_`, ` _ColumnPosition_`, ` _AlignTitle_`, ` _HeaderAutoRowHeightAdjustment_`, ` _HeaderTextWrap_` )
+_expression_. `TableEdit`( `_Name_`, `_TaskTable_`, `_Create_`, `_OverwriteExisting_`, `_NewName_`, `_FieldName_`, `_NewFieldName_`, `_Title_`, `_Width_`, `_Align_`, `_ShowInMenu_`, `_LockFirstColumn_`, `_DateFormat_`, `_RowHeight_`, `_ColumnPosition_`, `_AlignTitle_`, `_HeaderAutoRowHeightAdjustment_`, `_HeaderTextWrap_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
-
-
-### Parameters
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _Name_|Required|**String**| The name of a table to edit, create, or copy.|
 | _TaskTable_|Required|**Boolean**|**True** if the active table contains information about tasks or resources; otherwise, **False**.|
@@ -48,7 +49,7 @@ Creates, edits, or copies a table.
 | _HeaderAutoRowHeightAdjustment_|Optional|**Boolean**|**True** if Project automatically adjusts the row height of the table; otherwise, **False**. The default value is **True**.|
 | _HeaderTextWrap_|Optional|**Boolean**|**True** if Project wraps text in the header of the table; otherwise, **False**. The default value is **True**.|
 
-### Return Value
+## Return value
 
  **Boolean**
 
@@ -79,4 +80,4 @@ Sub CreateNewTaskUsageTable()
 End Sub
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

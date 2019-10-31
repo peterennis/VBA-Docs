@@ -1,5 +1,5 @@
 ---
-title: Document.Footnotes Property (Word)
+title: Document.Footnotes property (Word)
 keywords: vbawd10.chm158007303
 f1_keywords:
 - vbawd10.chm158007303
@@ -8,24 +8,25 @@ api_name:
 - Word.Document.Footnotes
 ms.assetid: 6257f658-69f5-4223-153b-56bc3791a99d
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Document.Footnotes Property (Word)
+# Document.Footnotes property (Word)
 
 Returns a  **[Footnotes](Word.footnotes.md)** collection that represents all the footnotes in a document. Read-only.
 
 
 ## Syntax
 
- _expression_. `Footnotes`
+_expression_. `Footnotes`
 
- _expression_ A variable that represents a '[Document](Word.Document.md)' object.
+_expression_ A variable that represents a **[Document](Word.Document.md)** object.
 
 
 ## Remarks
 
-For information about returning a single member of a collection, see [Returning an Object from a Collection](../word/Concepts/Miscellaneous/returning-an-object-from-a-collection-word.md).
+For information about returning a single member of a collection, see [Returning an object from a collection](../word/Concepts/Miscellaneous/returning-an-object-from-a-collection-word.md).
 
 
 ## Example
@@ -57,3 +58,4 @@ ActiveDocument.Footnotes.Add Range:=Selection.Range, _
 
 [Document Object](Word.Document.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

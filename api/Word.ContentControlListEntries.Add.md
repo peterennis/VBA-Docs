@@ -1,5 +1,5 @@
 ---
-title: ContentControlListEntries.Add Method (Word)
+title: ContentControlListEntries.Add method (Word)
 keywords: vbawd10.chm230948970
 f1_keywords:
 - vbawd10.chm230948970
@@ -8,32 +8,33 @@ api_name:
 - Word.ContentControlListEntries.Add
 ms.assetid: 159747c0-279c-f0ee-62d9-f2f01865c083
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# ContentControlListEntries.Add Method (Word)
+# ContentControlListEntries.Add method (Word)
 
 Adds a new list item to a drop-down list or combo box content control and returns a  **[ContentControlListEntry](Word.ContentControlListEntry.md)** object.
 
 
 ## Syntax
 
- _expression_. `Add`( `_Text_` , `_Value_` , `_Index_` )
+_expression_.**Add** (_Text_, _Value_, _Index_)
 
  _expression_ An expression that returns a [ContentControlListEntries](./Word.ContentControlListEntries.md) object.
 
 
-### Parameters
+## Parameters
 
 
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _Text_|Required| **String**|Specifies the display text for the list item. Corresponds to the  **[Text](Word.ContentControlListEntry.Text.md)** property for a **ContentControlListEntry** object.|
 | _Value_|Optional| **String**|Specifies the value of the list item. Corresponds to the  **[Value](Word.ContentControlListEntry.Value.md)** property for a **ContentControlListEntry** object. If omitted, the **Value** property is equal to the **Text** property.|
 | _Index_|Optional| **Long**|Specifies the ordinal position of the new item in the list. If an item exists at the position specified, the existing item is pushed down in the list. If omitted, the new item is added to the end of the list.|
 
-### Return Value
+## Return value
 
 ContentControlListEntry
 
@@ -70,3 +71,4 @@ objCC.DropdownListEntries.Add "Other"
 
 [ContentControlListEntries Collection](Word.ContentControlListEntries.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

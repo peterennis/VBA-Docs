@@ -1,34 +1,35 @@
 ---
-title: Application.OpenXML Method (Project)
+title: Application.OpenXML method (Project)
 ms.prod: project-server
 api_name:
 - Project.Application.OpenXML
 ms.assetid: dcf3dd0e-78ec-b95c-b890-dca5507acd92
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Application.OpenXML Method (Project)
+# Application.OpenXML method (Project)
 
 Opens a project from an XML string.
 
 
 ## Syntax
 
- _expression_. `OpenXML`( ` _XML_` )
+_expression_. `OpenXML`( `_XML_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
-
-
-### Parameters
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _XML_|Required|**String**|String containing a valid Project XML string that conforms to the Project XML schema.|
 
-### Return Value
+## Return value
 
  **Long**
 
@@ -40,7 +41,8 @@ The Project XML schema is available in the Project SDK, as the file mspdi_pj15.x
 The  **OpenXML** method returns 0 if it is successful.
 
 
- **Note**  You can also use the  **[FileOpenEx](Project.Application.FileOpenEx.md)** method to open a valid Project XML file. The **OpenXML** method is primarily designed to open a project by using an XML string.
+> [!NOTE] 
+> You can also use the  **[FileOpenEx](Project.Application.FileOpenEx.md)** method to open a valid Project XML file. The **OpenXML** method is primarily designed to open a project by using an XML string.
 
 
 ## Example
@@ -72,4 +74,4 @@ Sub ImportXMLProject()
 End Sub
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

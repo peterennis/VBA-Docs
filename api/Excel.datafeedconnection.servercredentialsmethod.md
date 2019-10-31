@@ -1,46 +1,40 @@
 ---
-title: DataFeedConnection.ServerCredentialsMethod Property (Excel)
+title: DataFeedConnection.ServerCredentialsMethod property (Excel)
 keywords: vbaxl10.chm928083
 f1_keywords:
 - vbaxl10.chm928083
 ms.prod: excel
 ms.assetid: 0c471a76-c9b4-5065-aa1e-6f9d8eb650af
-ms.date: 06/08/2017
+ms.date: 03/28/2019
+localization_priority: Normal
 ---
 
 
-# DataFeedConnection.ServerCredentialsMethod Property (Excel)
+# DataFeedConnection.ServerCredentialsMethod property (Excel)
 
-Returns or sets the type of credentials that should be used for server authentication.  **[XlCredentialsMethod Enumeration (Excel)](Excel.XlCredentialsMethod.md)** Read/Write
+Returns or sets the type of credentials that should be used for server authentication. Read/write **[XlCredentialsMethod](Excel.xlCredentialsMethod.md)** enumeration.
 
 
 ## Syntax
 
- _expression_. `ServerCredentialsMethod`
+_expression_.**ServerCredentialsMethod**
 
- _expression_ A variable that represents a[DataFeedConnection Object (Excel)](Excel.datafeedconnection.md) object.
+_expression_ A variable that represents a **[DataFeedConnection](Excel.datafeedconnection.md)** object.
 
 
 ## Remarks
 
 Following are the types of credentials that may be used:
 
-
--  **xlCredentialsMethodIntegrated**
-    
--  **xlCredentialsMethodNone**
-    
+-  **xlCredentialsMethodIntegrated**    
+-  **xlCredentialsMethodNone**    
 -  **xlCredentialsMethodStored**
     
 
 ## Property value
 
- **XLCREDENTIALSMETHOD**
-
-
-## See also
+**XLCREDENTIALSMETHOD**
 
 
 
-[DataFeedConnection Object](Excel.datafeedconnection.md)
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

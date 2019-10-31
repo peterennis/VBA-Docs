@@ -1,20 +1,21 @@
 ---
-title: WdTextboxTightWrap Enumeration (Word)
+title: WdTextboxTightWrap enumeration (Word)
 ms.prod: word
 api_name:
 - Word.WdTextboxTightWrap
 ms.assetid: 6d9e0dcd-816a-e055-b96a-7da5dcea38f7
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# WdTextboxTightWrap Enumeration (Word)
+# WdTextboxTightWrap enumeration (Word)
 
 Specifies how Microsoft Word tightly wraps text around text boxes.
 
 
 
-|**Name**|**Value**|**Description**|
+|Name|Value|Description|
 |:-----|:-----|:-----|
 | **wdTightAll**|1|Wraps text around the text box tightly to the contents of the text box on all lines.|
 | **wdTightFirstAndLastLines**|2|Wraps text tightly only on first and last lines.|
@@ -27,6 +28,7 @@ Specifies how Microsoft Word tightly wraps text around text boxes.
 Typically, text is wrapped to the extents of the text box, including any white space around its contents. These settings allow the surrounding text to wrap to the contents of the text box and not the extents of the text box itself.
 
 
- **Note**  This setting works only if the text box is floating and has no border or fill set.
+> [!NOTE] 
+> This setting works only if the text box is floating and has no border or fill set.
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

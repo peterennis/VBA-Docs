@@ -1,20 +1,21 @@
 ---
-title: XlFormatConditionOperator Enumeration (Excel)
+title: XlFormatConditionOperator enumeration (Excel)
 ms.prod: excel
 api_name:
 - Excel.XlFormatConditionOperator
 ms.assetid: f395f440-0870-513d-a1ae-0a15262f1a7a
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# XlFormatConditionOperator Enumeration (Excel)
+# XlFormatConditionOperator enumeration (Excel)
 
-Specifies the operator to use to compare a formula against the value in a cell or, for  **xlBetween** and **xlNotBetween** , to compare two formulas.
+Specifies the operator to use to compare a formula against the value in a cell or, for  **xlBetween** and **xlNotBetween**, to compare two formulas.
 
 
 
-|**Name**|**Value**|**Description**|
+|Name|Value|Description|
 |:-----|:-----|:-----|
 | **xlBetween**|1|Between. Can be used only if two formulas are provided.|
 | **xlEqual**|3|Equal.|
@@ -25,3 +26,4 @@ Specifies the operator to use to compare a formula against the value in a cell o
 | **xlNotBetween**|2|Not between. Can be used only if two formulas are provided.|
 | **xlNotEqual**|4|Not equal.|
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

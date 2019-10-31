@@ -6,12 +6,13 @@ f1_keywords:
 ms.prod: office
 ms.assetid: bf8ccbbe-87fa-8de4-dfd6-97642feee087
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
 # Bad DLL calling convention (Error 49)
 
-[Arguments](../../Glossary/vbe-glossary.md#argument) passed to a[dynamic-link library](../../Glossary/vbe-glossary.md#dynamic-link-library-dll) (DLL) or Macintosh code resource routine must exactly match those expected by the routine. Calling conventions deal with number, type, and order of arguments. This error has the following causes and solutions:
+[Arguments](../../Glossary/vbe-glossary.md#argument) passed to a [dynamic-link library](../../Glossary/vbe-glossary.md#dynamic-link-library-dll) (DLL) or Macintosh code resource routine must exactly match those expected by the routine. Calling conventions deal with number, type, and order of arguments. This error has the following causes and solutions:
 
 
 
@@ -26,3 +27,4 @@ ms.date: 06/08/2017
 
 For additional information, select the item in question and press F1 (in Windows) or HELP (on the Macintosh).
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

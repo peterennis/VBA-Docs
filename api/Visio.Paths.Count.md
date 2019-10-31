@@ -1,5 +1,5 @@
 ---
-title: Paths.Count Property (Visio)
+title: Paths.Count property (Visio)
 keywords: vis_sdr.chm15313330
 f1_keywords:
 - vis_sdr.chm15313330
@@ -8,29 +8,30 @@ api_name:
 - Visio.Paths.Count
 ms.assetid: fb8ac400-7767-667a-d2b1-79962ed0fcac
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Paths.Count Property (Visio)
+# Paths.Count property (Visio)
 
 Returns the number of objects in a collection. Read-only.
 
 
 ## Syntax
 
- _expression_. `Count`
+_expression_.**Count**
 
- _expression_ A variable that represents a [Paths](./Visio.Paths.md) object.
+_expression_ A variable that represents a **[Paths](Visio.Paths.md)** object.
 
 
-### Return Value
+## Return value
 
 Long
 
 
 ## Example
 
-This Microsoft Visual Basic for Applications (VBA) macro shows how to use the  **Count** property to iterate through a **Documents** collection. It displays the names of all the open Microsoft Visio documents in the **Immediate** window.
+This Microsoft Visual Basic for Applications (VBA) macro shows how to use the  **Count** property to iterate through a **Documents** collection. It displays the names of all the open Microsoft Visio documents in the Immediate window.
 
 
 ```vb
@@ -51,4 +52,4 @@ Public Sub Count_Example()
 End Sub
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

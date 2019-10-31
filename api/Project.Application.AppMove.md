@@ -1,5 +1,5 @@
 ---
-title: Application.AppMove Method (Project)
+title: Application.AppMove method (Project)
 keywords: vbapj.chm2010
 f1_keywords:
 - vbapj.chm2010
@@ -8,32 +8,33 @@ api_name:
 - Project.Application.AppMove
 ms.assetid: 73ab96b7-4985-b25f-d202-89e6230e6e4e
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Application.AppMove Method (Project)
+# Application.AppMove method (Project)
 
 Moves the main Project window.
 
 
 ## Syntax
 
- _expression_. `AppMove`( ` _XPosition_`, ` _YPosition_`, ` _Points_` )
+_expression_. `AppMove`( `_XPosition_`, `_YPosition_`, `_Points_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
-
-
-### Parameters
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _XPosition_|Optional|**Long**|A number that specifies the distance of the main window from the left edge of the screen.|
 | _YPosition_|Optional|**Long**|A number that specifies the distance of the main window from the top edge of the screen.|
 | _Points_|Optional|**Boolean**|**True** if **XPosition** and **YPosition** are measured in points. **False** if they are measured in pixels. The default value is **False**|
 
-### Return Value
+## Return value
 
  **Boolean**
 
@@ -49,4 +50,4 @@ Sub MoveMainWindowToLeft()
 End Sub
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

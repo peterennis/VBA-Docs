@@ -1,5 +1,5 @@
 ---
-title: Workbook.RemovePersonalInformation Property (Excel)
+title: Workbook.RemovePersonalInformation property (Excel)
 keywords: vbaxl10.chm199202
 f1_keywords:
 - vbaxl10.chm199202
@@ -7,26 +7,26 @@ ms.prod: excel
 api_name:
 - Excel.Workbook.RemovePersonalInformation
 ms.assetid: f5cdc655-8ba9-6dd1-ab05-028d98c11972
-ms.date: 06/08/2017
+ms.date: 05/29/2019
+localization_priority: Normal
 ---
 
 
-# Workbook.RemovePersonalInformation Property (Excel)
+# Workbook.RemovePersonalInformation property (Excel)
 
- **True** if personal information can be removed from the specified workbook. The default value is **False** . Read/write **Boolean** .
+**True** if personal information can be removed from the specified workbook. The default value is **False**. Read/write **Boolean**.
 
 
 ## Syntax
 
- _expression_. `RemovePersonalInformation`
+_expression_.**RemovePersonalInformation**
 
- _expression_ A variable that represents a [Workbook](./Excel.Workbook.md) object.
+_expression_ A variable that represents a **[Workbook](Excel.Workbook.md)** object.
 
 
 ## Example
 
 In this example, Microsoft Excel determines if personal information can be removed from the specified workbook and notifies the user.
-
 
 ```vb
 Sub UsePersonalInformation() 
@@ -46,8 +46,6 @@ End Sub
 ```
 
 
-## See also
 
 
-[Workbook Object](Excel.Workbook.md)
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

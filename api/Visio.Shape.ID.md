@@ -1,5 +1,5 @@
 ---
-title: Shape.ID Property (Visio)
+title: Shape.ID property (Visio)
 keywords: vis_sdr.chm11213675
 f1_keywords:
 - vis_sdr.chm11213675
@@ -8,22 +8,23 @@ api_name:
 - Visio.Shape.ID
 ms.assetid: 948982c0-a872-802f-a2d3-69c6539ca3f2
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Shape.ID Property (Visio)
+# Shape.ID property (Visio)
 
 Gets the ID of an object. Read-only.
 
 
 ## Syntax
 
- _expression_. `ID`
+_expression_.**ID**
 
- _expression_ A variable that represents a [Shape](./Visio.Shape.md) object.
+_expression_ A variable that represents a **[Shape](Visio.Shape.md)** object.
 
 
-### Return Value
+## Return value
 
 Long
 
@@ -36,9 +37,9 @@ If a shape, page, master, or style is deleted, future objects in the same scope 
 
 For  **Shape** objects, you can use the **ID** property with methods such as **GetResults** and **SetResults** to get or set many cell values at once, possibly cells in many different shapes. To do this, you must pass shape IDs to the methods. If you create shapes by using the **DropMany** method, the method returns the IDs of the shapes it creates to your program.
 
-If your Visual Studio solution includes the  **Microsoft.Office.Interop.Visio** reference, this property maps to the following types:
+If your Visual Studio solution includes the [Microsoft.Office.Interop.Visio](https://docs.microsoft.com/visualstudio/vsto/office-primary-interop-assemblies?view=vs-2019) reference, this property maps to the following types:
 
 
 -  **Microsoft.Office.Interop.Visio.IVShape.ID**
-    
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

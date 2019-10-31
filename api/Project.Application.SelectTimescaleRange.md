@@ -1,5 +1,5 @@
 ---
-title: Application.SelectTimescaleRange Method (Project)
+title: Application.SelectTimescaleRange method (Project)
 keywords: vbapj.chm954
 f1_keywords:
 - vbapj.chm954
@@ -8,33 +8,34 @@ api_name:
 - Project.Application.SelectTimescaleRange
 ms.assetid: 16a4bd12-7a60-c172-6a73-c3552b2baf4b
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Application.SelectTimescaleRange Method (Project)
+# Application.SelectTimescaleRange method (Project)
 
 Selects one or more timescale data cells in a usage view.
 
 
 ## Syntax
 
- _expression_. `SelectTimescaleRange`( ` _Row_`, ` _StartTime_`, ` _Width_`, ` _Height_` )
+_expression_. `SelectTimescaleRange`( `_Row_`, `_StartTime_`, `_Width_`, `_Height_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
-
-
-### Parameters
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _Row_|Required|**Long**|The number of the row containing the cell to select.|
 | _StartTime_|Required|**String**|A time (from the timescale) that functions as the starting point of the selection.|
 | _Width_|Required|**Integer**| The number of columns to select.|
 | _Height_|Required|**Long**|The number of rows to select.|
 
-### Return Value
+## Return value
 
  **Boolean**
 
@@ -57,4 +58,4 @@ Sub SelectWeek()
 End Sub
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

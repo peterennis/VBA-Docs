@@ -6,6 +6,7 @@ f1_keywords:
 ms.prod: office
 ms.assetid: 112f0ff9-fa41-4f6f-9254-557b4ddec91f
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
@@ -13,9 +14,10 @@ ms.date: 06/08/2017
 
 Hi there! You have landed on one of our F1 Help redirector pages. Please select the topic you were looking for below.
 
-[NavigationButton.GridlineStyleBottom Property (Access)](http://msdn.microsoft.com/library/1b20284b-559a-d06c-8a24-2ecd6dcd7837%28Office.15%29.aspx)
+[NavigationButton.GridlineStyleBottom property (Access)](http://msdn.microsoft.com/library/1b20284b-559a-d06c-8a24-2ecd6dcd7837%28Office.15%29.aspx)
 
-[CustomControl.GridlineStyleBottom Property (Access)](http://msdn.microsoft.com/library/6cacbac2-3960-3f3e-45a1-d5b0d8fd3ac0%28Office.15%29.aspx)
+[CustomControl.GridlineStyleBottom property (Access)](http://msdn.microsoft.com/library/6cacbac2-3960-3f3e-45a1-d5b0d8fd3ac0%28Office.15%29.aspx)
 
-[CommandButton.GridlineStyleBottom Property (Access)](http://msdn.microsoft.com/library/77ee45fb-5dde-2925-d88b-da62a6f9ed27%28Office.15%29.aspx)
+[CommandButton.GridlineStyleBottom property (Access)](http://msdn.microsoft.com/library/77ee45fb-5dde-2925-d88b-da62a6f9ed27%28Office.15%29.aspx)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

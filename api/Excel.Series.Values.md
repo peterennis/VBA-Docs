@@ -1,5 +1,5 @@
 ---
-title: Series.Values Property (Excel)
+title: Series.Values property (Excel)
 keywords: vbaxl10.chm578111
 f1_keywords:
 - vbaxl10.chm578111
@@ -7,20 +7,21 @@ ms.prod: excel
 api_name:
 - Excel.Series.Values
 ms.assetid: 3db2577e-ef0e-75ea-412b-531d7e67c098
-ms.date: 06/08/2017
+ms.date: 05/11/2019
+localization_priority: Normal
 ---
 
 
-# Series.Values Property (Excel)
+# Series.Values property (Excel)
 
-Returns or sets a  **Variant** value that represents a collection of all the values in the series.
+Returns or sets a **Variant** value that represents a collection of all the values in the series.
 
 
 ## Syntax
 
- _expression_. `Values`
+_expression_.**Values**
 
- _expression_ A variable that represents a [Series](./Excel.Series(Graph object).md) object.
+_expression_ A variable that represents a **[Series](Excel.Series(object).md)** object.
 
 
 ## Remarks
@@ -32,16 +33,14 @@ The value of this property can be a range on a worksheet or an array of constant
 
 This example sets the series values from a range.
 
-
 ```vb
 Charts("Chart1").SeriesCollection(1).Values = _ 
  Worksheets("Sheet1").Range("C5:T5")
 ```
 
+<br/>
+
 To assign a constant value to each individual data point, you must use an array.
-
-
-
 
 ```vb
 Charts("Chart1").SeriesCollection(1).Values = _ 
@@ -49,8 +48,6 @@ Charts("Chart1").SeriesCollection(1).Values = _
 ```
 
 
-## See also
 
 
-[Series Object](Excel.Series(object).md)
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

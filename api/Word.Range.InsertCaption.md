@@ -1,5 +1,5 @@
 ---
-title: Range.InsertCaption Method (Word)
+title: Range.InsertCaption method (Word)
 keywords: vbawd10.chm157155745
 f1_keywords:
 - vbawd10.chm157155745
@@ -8,26 +8,27 @@ api_name:
 - Word.Range.InsertCaption
 ms.assetid: fee41e81-1a78-2886-9693-dcf90da7c1bc
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Range.InsertCaption Method (Word)
+# Range.InsertCaption method (Word)
 
 Inserts a caption immediately preceding or following the specified range.
 
 
 ## Syntax
 
- _expression_. `InsertCaption`( `_Label_` , `_Title_` , `_TitleAutoText_` , `_Position_` , `_ExcludeLabel_` )
+_expression_. `InsertCaption`( `_Label_` , `_Title_` , `_TitleAutoText_` , `_Position_` , `_ExcludeLabel_` )
 
- _expression_ Required. A variable that represents a '[Range](Word.Range.md)' object.
-
-
-### Parameters
+_expression_ Required. A variable that represents a **[Range](Word.Range.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _Label_|Required| **Variant**|The caption label to be inserted. Can be a  **String** or one of the **WdCaptionLabelID** constants. If the label has not yet been defined, an error occurs. Use the **Add** method with the **CaptionLabels** object to define new caption labels.|
 | _Title_|Optional| **Variant**|The string to be inserted immediately following the label in the caption (ignored if TitleAutoText is specified).|
@@ -52,3 +53,4 @@ ActiveDocument.Tables(1).Range.InsertCaption _
 
 [Range Object](Word.Range.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

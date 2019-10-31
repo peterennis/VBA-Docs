@@ -1,5 +1,5 @@
 ---
-title: Cell.CellChanged Event (Visio)
+title: Cell.CellChanged event (Visio)
 keywords: vis_sdr.chm10119090
 f1_keywords:
 - vis_sdr.chm10119090
@@ -8,26 +8,25 @@ api_name:
 - Visio.Cell.CellChanged
 ms.assetid: f39c2a33-bff9-ee67-1bfe-618f5d702c8b
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Cell.CellChanged Event (Visio)
+# Cell.CellChanged event (Visio)
 
 Occurs after the value changes in a cell in a document.
 
 
 ## Syntax
 
-Private Sub  _expression_ _'CellChanged'(**_ByVal Cell As [IVCELL]_**)
+_expression_.**CellChanged** (_Cell_)
 
- _expression_ A variable that represents a [Cell](./Visio.Cell.md) object.
-
-
-### Parameters
+_expression_ A variable that represents a **[Cell](Visio.Cell.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _Cell_|Required| **[IVCELL]**|The cell whose value has changed.|
 
@@ -35,19 +34,20 @@ Private Sub  _expression_ _'CellChanged'(**_ByVal Cell As [IVCELL]_**)
 
 If you are using Microsoft Visual Basic or Visual Basic for Applications (VBA), the syntax in this topic describes a common, efficient way to handle events.
 
-If you want to create your own  **Event** objects, use the **Add** or **AddAdvise** method. To create an **Event** object that runs an add-on, use the **Add** method as it applies to the **EventList** collection. To create an **Event** object that receives notification, use the **AddAdvise** method. To find an event code for the event you want to create, see[Event codes](../visio/Concepts/event-codesvisio.md).
+If you want to create your own **Event** objects, use the **[Add](visio.eventlist.add.md)** or **[AddAdvise](visio.eventlist.addadvise.md)** method. To create an **Event** object that runs an add-on, use the **Add** method as it applies to the **EventList** collection. To create an **Event** object that receives notification, use the **AddAdvise** method. To find an event code for the event that you want to create, see [Event codes](../visio/Concepts/event-codesvisio.md).
 
 
 
 
- **Note**  You can use VBA  **WithEvents** variables to sink the **CellChanged** event.
+> [!NOTE] 
+> You can use VBA **WithEvents** variables to sink the **CellChanged** event.
 
-For performance considerations, the  **Document** object's event set does not include the **CellChanged** event. To sink the **CellChanged** event from a **Document** object (and the **ThisDocument** object in a VBA project), you must use the **AddAdvise** method.
+For performance considerations, the **Document** object's event set does not include the **CellChanged** event. To sink the **CellChanged** event from a **Document** object (and the **[ThisDocument](../visio/Concepts/about-the-thisdocument-object-visio.md)** object in a VBA project), you must use the **AddAdvise** method.
 
 
 ## Example
 
-This VBA module shows how to use the  **CellChanged** event to trap changes to a shape's cells.
+This VBA module shows how to use the **CellChanged** event to trap changes to a shape's cells.
 
 
 ```vb
@@ -76,4 +76,4 @@ Private Sub vsoApplication_CellChanged(ByVal vsoCell As IVCell)
 End Sub
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

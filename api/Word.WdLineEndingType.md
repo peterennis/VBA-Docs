@@ -1,20 +1,21 @@
 ---
-title: WdLineEndingType Enumeration (Word)
+title: WdLineEndingType enumeration (Word)
 ms.prod: word
 api_name:
 - Word.WdLineEndingType
 ms.assetid: 6a0d8e41-4248-e48f-1db6-77fa59a6f212
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# WdLineEndingType Enumeration (Word)
+# WdLineEndingType enumeration (Word)
 
 Specifies how Microsoft Word marks the line and paragraph breaks in documents saved as text files.
 
 
 
-|**Name**|**Value**|**Description**|
+|Name|Value|Description|
 |:-----|:-----|:-----|
 | **wdCRLF**|0|Carriage return plus line feed.|
 | **wdCROnly**|1|Carriage return only.|
@@ -22,3 +23,4 @@ Specifies how Microsoft Word marks the line and paragraph breaks in documents sa
 | **wdLFOnly**|2|Line feed only.|
 | **wdLSPS**|4|Not supported.|
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

@@ -1,5 +1,5 @@
 ---
-title: MailMergeDataSource.InvalidComments Property (Word)
+title: MailMergeDataSource.InvalidComments property (Word)
 keywords: vbawd10.chm152895503
 f1_keywords:
 - vbawd10.chm152895503
@@ -8,19 +8,20 @@ api_name:
 - Word.MailMergeDataSource.InvalidComments
 ms.assetid: 4eb0ea4d-e89d-548d-f3be-1d0c3592ce53
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# MailMergeDataSource.InvalidComments Property (Word)
+# MailMergeDataSource.InvalidComments property (Word)
 
-If the  **[InvalidAddress](Word.MailMergeDataSource.InvalidAddress.md)** property is **True** , returns or sets a **String** that describes an invalid address error. Read/write.
+If the  **[InvalidAddress](Word.MailMergeDataSource.InvalidAddress.md)** property is **True**, returns or sets a **String** that describes an invalid address error. Read/write.
 
 
 ## Syntax
 
- _expression_. `InvalidComments`
+_expression_. `InvalidComments`
 
- _expression_ A variable that represents a '[MailMergeDataSource](Word.MailMergeDataSource.md)' object.
+_expression_ A variable that represents a '[MailMergeDataSource](Word.MailMergeDataSource.md)' object.
 
 
 ## Remarks
@@ -69,3 +70,4 @@ End Sub
 
 [MailMergeDataSource Object](Word.MailMergeDataSource.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

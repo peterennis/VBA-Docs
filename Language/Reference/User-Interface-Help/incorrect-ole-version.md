@@ -6,12 +6,13 @@ f1_keywords:
 ms.prod: office
 ms.assetid: 577f33f5-f44e-08c1-1cb8-b64277068d01
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
 # Incorrect OLE version
 
-Your versions of the OLE [dynamic-link libraries (DLL)](../../Glossary/vbe-glossary.md#dynamic-link-library-dll) (Windows) or code resource (Macintosh) don't match those expected by the[host application](../../Glossary/vbe-glossary.md#host-application). In Microsoft Windows, the application searches for the DLLs first in the current directory, then along your path settings, and then in the WINDOWS\SYSTEM directory. This error has the following cause and solution:
+Your versions of the OLE [dynamic-link libraries (DLL)](../../Glossary/vbe-glossary.md#dynamic-link-library-dll) (Windows) or code resource (Macintosh) don't match those expected by the [host application](../../Glossary/vbe-glossary.md#host-application). In Microsoft Windows, the application searches for the DLLs first in the current directory, then along your path settings, and then in the WINDOWS\SYSTEM directory. This error has the following cause and solution:
 
 
 
@@ -21,3 +22,4 @@ Your versions of the OLE [dynamic-link libraries (DLL)](../../Glossary/vbe-gloss
 Note that on the Macintosh, OLE files are normally only found in the Extensions folder so it is unlikely that this error will occur.
 For additional information, select the item in question and press F1 (in Windows) or HELP (on the Macintosh).
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

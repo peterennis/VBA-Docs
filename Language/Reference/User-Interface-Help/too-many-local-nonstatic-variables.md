@@ -6,12 +6,13 @@ f1_keywords:
 ms.prod: office
 ms.assetid: 009374ba-1cf5-e4dc-f487-1865bf79de2e
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
 # Too many local, nonstatic variables
 
-Local, nonstatic [variables](../../Glossary/vbe-glossary.md#variable) are variables that are defined within a[procedure](../../Glossary/vbe-glossary.md#procedure) and reinitialized each time the procedure is called. This error has the following cause and solution:
+Local, nonstatic [variables](../../Glossary/vbe-glossary.md#variable) are variables that are defined within a [procedure](../../Glossary/vbe-glossary.md#procedure) and reinitialized each time the procedure is called. This error has the following cause and solution:
 
 
 
@@ -20,3 +21,4 @@ Local, nonstatic [variables](../../Glossary/vbe-glossary.md#variable) are variab
 
 For additional information, select the item in question and press F1 (in Windows) or HELP (on the Macintosh).
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

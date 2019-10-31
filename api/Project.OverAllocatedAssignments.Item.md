@@ -1,30 +1,31 @@
 ---
-title: OverAllocatedAssignments.Item Property (Project)
+title: OverAllocatedAssignments.Item property (Project)
 ms.prod: project-server
 api_name:
 - Project.OverAllocatedAssignments.Item
 ms.assetid: 5939e712-0abd-cb4b-31fe-ad2fa61835d6
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# OverAllocatedAssignments.Item Property (Project)
+# OverAllocatedAssignments.Item property (Project)
 
 Gets a single  **Assignment** object from the **OverAllocatedAssignments** collection. Read-only **[Assignment](Project.Assignment.md)**.
 
 
 ## Syntax
 
- _expression_. `Item`( ` _Index_` )
+_expression_.**Item** (_Index_)
 
- _expression_ An expression that returns an 'OverAllocatedAssignments' object.
-
-
-### Parameters
+_expression_ An expression that returns an 'OverAllocatedAssignments' object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _Index_|Required|**Long**|The index number of the  **Assignment** to return.|
 
@@ -91,3 +92,4 @@ End Sub
 
 [OverAllocatedAssignments Collection Object](Project.overallocatedassignments.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

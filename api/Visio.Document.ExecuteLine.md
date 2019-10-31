@@ -1,5 +1,5 @@
 ---
-title: Document.ExecuteLine Method (Visio)
+title: Document.ExecuteLine method (Visio)
 keywords: vis_sdr.chm10516260
 f1_keywords:
 - vis_sdr.chm10516260
@@ -8,42 +8,41 @@ api_name:
 - Visio.Document.ExecuteLine
 ms.assetid: 0443c879-b569-c35b-e28c-77d0bf4b23ba
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Document.ExecuteLine Method (Visio)
+# Document.ExecuteLine method (Visio)
 
 Executes a line of Microsoft Visual Basic code.
 
 
 ## Syntax
 
- _expression_. `ExecuteLine`( `_Line_` )
+_expression_.**ExecuteLine** (_Line_)
 
- _expression_ A variable that represents a [Document](./Visio.Document.md) object.
-
-
-### Parameters
+_expression_ A variable that represents a **[Document](Visio.Document.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _Line_|Required| **String**|A string that will be interpreted as Microsoft Visual Basic for Applications (VBA) code.|
 
-### Return Value
+## Return value
 
 Nothing
 
 
 ## Remarks
 
-The VBA project of the  **Document** object is told to execute the supplied string. VBA treats the string as it would treat the same string typed into its Immediate window.
+The VBA project of the **Document** object is told to execute the supplied string. VBA treats the string as it would treat the same string typed into its Immediate window.
 
 
 ## Example
 
-The following are some possible uses of the  **ExecuteLine** method:
+The following are some possible uses of the **ExecuteLine** method:
 
 
 ```vb
@@ -72,4 +71,4 @@ The following are some possible uses of the  **ExecuteLine** method:
 
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

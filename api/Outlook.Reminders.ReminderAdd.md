@@ -1,5 +1,5 @@
 ---
-title: Reminders.ReminderAdd Event (Outlook)
+title: Reminders.ReminderAdd event (Outlook)
 keywords: vbaol11.chm576
 f1_keywords:
 - vbaol11.chm576
@@ -8,26 +8,27 @@ api_name:
 - Outlook.Reminders.ReminderAdd
 ms.assetid: cb1710f1-0c1d-eb71-e57f-6e33e3268576
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Reminders.ReminderAdd Event (Outlook)
+# Reminders.ReminderAdd event (Outlook)
 
 Occurs after a reminder is added.
 
 
 ## Syntax
 
- _expression_. `ReminderAdd`( `_ReminderObject_` )
+_expression_. `ReminderAdd`( `_ReminderObject_` )
 
- _expression_ A variable that represents a [Reminders](./Outlook.Reminders.md) object.
-
-
-### Parameters
+_expression_ A variable that represents a [Reminders](Outlook.Reminders.md) object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _ReminderObject_|Required| **[_REMINDER]**|The  **[Reminder](Outlook.Reminder.md)** object added to the collection.|
 
@@ -75,3 +76,4 @@ End Sub
 
 [Reminders Object](Outlook.Reminders.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

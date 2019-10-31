@@ -7,6 +7,7 @@ f1_keywords:
 ms.prod: access
 ms.assetid: 26c849e7-d433-8d7d-641a-d3171b20d8bd
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
@@ -27,7 +28,7 @@ To run the event procedure associated with the event, select **[Event Procedure]
 > [!NOTE] 
 > Although using an event procedure is the recommended method for running Visual Basic code in response to an event, you can also run a user-defined function when an event occurs. To run a user-defined function, place an equal sign (=) before the function name and parentheses after it, as in **=** _functionname_ **( )**.
 
-You can set event properties in the [property sheet](http://msdn.microsoft.com/library/03349d86-f107-9e49-89df-62f55f3a0735%28Office.15%29.aspx) for an object, in a macro , or by using Visual Basic. Note that you can't set any event properties while you're formatting or printing a form or report.
+You can set event properties in the [property sheet](https://msdn.microsoft.com/library/03349d86-f107-9e49-89df-62f55f3a0735%28Office.15%29.aspx) for an object, in a macro, or by using Visual Basic. Note that you can't set any event properties while you are formatting or printing a form or report.
 
 > [!TIP] 
 > You can use builders to help you set an event property. To use them, click the **Build** button
@@ -65,9 +66,11 @@ End Sub
 
 ## See also
 
-- [Access for developers forum on MSDN](https://social.msdn.microsoft.com/Forums/office/en-US/home?forum=accessdev)
+- [Access for developers forum](https://social.msdn.microsoft.com/Forums/office/home?forum=accessdev)
 - [Access help on support.office.com](https://support.office.com/search/results?query=Access)
-- [Access help on answers.microsoft.com](https://answers.microsoft.com/en-us/msoffice/forum?page=1&;tab=question&;status=all&;auth=1)
+- [Access help on answers.microsoft.com](https://answers.microsoft.com/)
 - [Access forums on UtterAccess](http://www.utteraccess.com/forum/index.php?act=idx)
 - [Access developer and VBA programming help center (FMS)](http://www.fmsinc.com/MicrosoftAccess/developer/)
 - [Access posts on StackOverflow](https://stackoverflow.com/questions/tagged/ms-access)
+
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

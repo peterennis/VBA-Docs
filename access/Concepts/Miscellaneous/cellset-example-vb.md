@@ -1,20 +1,17 @@
 ---
-title: Cellset Example (VB)
+title: Cellset example (VB)
 ms.prod: access
 ms.assetid: 59de67e4-0522-f52e-3e5e-2a0df500e343
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Cellset Example (VB)
-
-  
+# Cellset example (VB)
 
 **Applies to:** Access 2013 | Access 2016
 
 This Visual Basic project demonstrates the basics of using ADO MD to access cube data. It displays member captions for column and row headers, then displays formatted values of specific cells within the cellset.
-
-
 
 
 ```vb
@@ -114,9 +111,11 @@ End Sub
 
 ## See also
 
-- [Access for developers forum on MSDN](https://social.msdn.microsoft.com/Forums/office/en-US/home?forum=accessdev)
+- [Access for developers forum](https://social.msdn.microsoft.com/Forums/office/home?forum=accessdev)
 - [Access help on support.office.com](https://support.office.com/search/results?query=Access)
-- [Access help on answers.microsoft.com](https://answers.microsoft.com/en-us/msoffice/forum?page=1&;tab=question&;status=all&;auth=1)
+- [Access help on answers.microsoft.com](https://answers.microsoft.com/)
 - [Access forums on UtterAccess](http://www.utteraccess.com/forum/index.php?act=idx)
 - [Access developer and VBA programming help center (FMS)](http://www.fmsinc.com/MicrosoftAccess/developer/)
 - [Access posts on StackOverflow](https://stackoverflow.com/questions/tagged/ms-access)
+
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

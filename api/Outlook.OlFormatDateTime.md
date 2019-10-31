@@ -1,5 +1,5 @@
 ---
-title: OlFormatDateTime Enumeration (Outlook)
+title: OlFormatDateTime enumeration (Outlook)
 keywords: vbaol11.chm3133
 f1_keywords:
 - vbaol11.chm3133
@@ -8,16 +8,17 @@ api_name:
 - Outlook.OlFormatDateTime
 ms.assetid: b176f40b-cc51-95cc-1b82-accb1cefaa7f
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# OlFormatDateTime Enumeration (Outlook)
+# OlFormatDateTime enumeration (Outlook)
 
 Indicates the format used to display date/time Outlook item properties.
 
 
 
-|**Name**|**Value**|**Description**|
+|Name|Value|Description|
 |:-----|:-----|:-----|
 | **olFormatDateTimeBestFit**|17|Displays the date/time value using the best fit for the data contained in the column.|
 | **olFormatDateTimeLongDate**|6|Displays a long date, without the day name, according to your locale's format.|
@@ -36,3 +37,4 @@ Indicates the format used to display date/time Outlook item properties.
 | **olFormatDateTimeShortMonthYearNumOnly**|12|Displays the month and year of a date, using numeric representations of the month and year, according to your locale's format.|
 | **olFormatDateTimeShortTime**|16|Displays a short time according to your locale's format.|
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

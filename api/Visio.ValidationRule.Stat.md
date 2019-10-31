@@ -1,5 +1,5 @@
 ---
-title: ValidationRule.Stat Property (Visio)
+title: ValidationRule.Stat property (Visio)
 keywords: vis_sdr.chm18414420
 f1_keywords:
 - vis_sdr.chm18414420
@@ -8,22 +8,23 @@ api_name:
 - Visio.ValidationRule.Stat
 ms.assetid: efcf067c-8adf-8983-6521-7fbe76a289ca
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# ValidationRule.Stat Property (Visio)
+# ValidationRule.Stat property (Visio)
 
 Returns status information for an object. Read-only.
 
 
 ## Syntax
 
- _expression_. `Stat`
+_expression_.**Stat**
 
- _expression_ A variable that represents a '[ValidationRule](Visio.ValidationRule.md)' object.
+_expression_ A variable that represents a **[ValidationRule](Visio.ValidationRule.md)** object.
 
 
-### Return Value
+## Return value
 
  **[VisStatCodes](Visio.visstatcodes.md)**
 
@@ -36,4 +37,4 @@ If an object is a reference to an entity that has been deleted, the  **Stat** pr
 
 A Component Object Model (COM) object, such as a Microsoft Visio  **[Document](Visio.Document.md)** object, lives as long as it is held (pointed to) by a client, even if the object is logically in a deleted or closed state.
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

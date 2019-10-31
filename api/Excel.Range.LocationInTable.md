@@ -1,5 +1,5 @@
 ---
-title: Range.LocationInTable Property (Excel)
+title: Range.LocationInTable property (Excel)
 keywords: vbaxl10.chm144156
 f1_keywords:
 - vbaxl10.chm144156
@@ -7,43 +7,26 @@ ms.prod: excel
 api_name:
 - Excel.Range.LocationInTable
 ms.assetid: 7a86a0fe-cd46-331e-595b-6be168091d0c
-ms.date: 06/08/2017
+ms.date: 05/11/2019
+localization_priority: Normal
 ---
 
 
-# Range.LocationInTable Property (Excel)
+# Range.LocationInTable property (Excel)
 
-Returns a constant that describes the part of the  **[PivotTable](Excel.PivotTable.md)** report that contains the upper-left corner of the specified range. Can be one of the following **[XlLocationInTable](Excel.XlLocationInTable.md)** . constants. Read-only **Long** .
+Returns a constant that describes the part of the **[PivotTable](Excel.PivotTable.md)** report that contains the upper-left corner of the specified range. Can be one of the following **[XlLocationInTable](Excel.XlLocationInTable.md)** constants. Read-only **Long**.
 
 
 ## Syntax
 
- _expression_. `LocationInTable`
+_expression_.**LocationInTable**
 
- _expression_ A variable that represents a [Range](Excel.Range(Graph property).md) object.
+_expression_ A variable that represents a **[Range](excel.range(object).md)** object.
 
-
-## Remarks
-
-
-
-
-
-| **XlLocationInTable** can be one of these **XlLocationInTable** constants.|
-| **xlRowHeader**|
-| **xlColumnHeader**|
-| **xlPageHeader**|
-| **xlDataHeader**|
-| **xlRowItem**|
-| **xlColumnItem**|
-| **xlPageItem**|
-| **xlDataItem**|
-| **xlTableBody**|
 
 ## Example
 
 This example displays a message box that describes the location of the active cell within the PivotTable report.
-
 
 ```vb
 Worksheets("Sheet1").Activate 
@@ -70,8 +53,6 @@ End Select
 ```
 
 
-## See also
 
 
-[Range Object](Excel.Range(object).md)
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

@@ -1,5 +1,5 @@
 ---
-title: MailMergeDataField.Parent Property (Publisher)
+title: MailMergeDataField.Parent property (Publisher)
 keywords: vbapb10.chm6422531
 f1_keywords:
 - vbapb10.chm6422531
@@ -7,26 +7,26 @@ ms.prod: publisher
 api_name:
 - Publisher.MailMergeDataField.Parent
 ms.assetid: cca35fe6-b959-0cfe-85de-347db2655c38
-ms.date: 06/08/2017
+ms.date: 06/11/2019
+localization_priority: Normal
 ---
 
 
-# MailMergeDataField.Parent Property (Publisher)
+# MailMergeDataField.Parent property (Publisher)
 
-Returns an object that represents the parent object of the specified object. For example, for a  **[TextFrame](Publisher.TextFrame.md)** object, returns a **[Shape](Publisher.Shape.md)** object representing the parent shape of the text frame. Read-only.
+Returns an object that represents the parent object of the specified object. For example, for a **[TextFrame](Publisher.TextFrame.md)** object, returns a **[Shape](Publisher.Shape.md)** object representing the parent shape of the text frame. Read-only.
 
 
 ## Syntax
 
- _expression_. **Parent**
+_expression_.**Parent**
 
- _expression_ A variable that represents a  **MailMergeDataField** object.
+_expression_ A variable that represents a **[MailMergeDataField](Publisher.MailMergeDataField.md)** object.
 
 
 ## Example
 
 This example accesses the parent object of the selected shape, and then adds a new shape to it and sets the fill for the new shape.
-
 
 ```vb
 Sub ParentObject() 
@@ -41,10 +41,9 @@ Sub ParentObject()
 End Sub
 ```
 
+<br/>
+
 This example returns the parent object of a text frame, which is the first shape in the active publication, and then fills the shape with a pattern.
-
-
-
 
 ```vb
 Sub ParentShape() 
@@ -54,4 +53,4 @@ Sub ParentShape()
 End Sub
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

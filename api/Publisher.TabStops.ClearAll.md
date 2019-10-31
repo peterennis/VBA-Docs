@@ -1,5 +1,5 @@
 ---
-title: TabStops.ClearAll Method (Publisher)
+title: TabStops.ClearAll method (Publisher)
 keywords: vbapb10.chm5570564
 f1_keywords:
 - vbapb10.chm5570564
@@ -7,31 +7,33 @@ ms.prod: publisher
 api_name:
 - Publisher.TabStops.ClearAll
 ms.assetid: bb7e2a0e-c044-872d-aa74-2683886e77a6
-ms.date: 06/08/2017
+ms.date: 06/15/2019
+localization_priority: Normal
 ---
 
 
-# TabStops.ClearAll Method (Publisher)
+# TabStops.ClearAll method (Publisher)
 
 Clears all the custom tab stops from the specified paragraphs.
 
 
 ## Syntax
 
- _expression_. **ClearAll**
+_expression_.**ClearAll**
 
- _expression_ A variable that represents a  **TabStops** object.
+_expression_ A variable that represents a **[TabStops](Publisher.TabStops.md)** object.
 
 
 ## Remarks
 
-To clear an individual tab stop, use the  **[Clear](Publisher.TabStop.Clear.md)** method of the  **[TabStop](Publisher.TabStop.md)** object. The  **ClearAll** method doesn't clear the default tab stops. To manipulate the default tab stops, use the **[DefaultTabStop](Publisher.Document.DefaultTabStop.md)** property for the document.
+To clear an individual tab stop, use the **[Clear](Publisher.TabStop.Clear.md)** method of the **TabStop** object. 
+
+The **ClearAll** method doesn't clear the default tab stops. To manipulate the default tab stops, use the **[DefaultTabStop](Publisher.Document.DefaultTabStop.md)** property for the document.
 
 
 ## Example
 
 This example clears all the custom tab stops in the first shape on the first page of the active publication. This example assumes that the specified shape is a text frame and not another type of shape.
-
 
 ```vb
 Sub ClearAllTabStops() 
@@ -40,4 +42,4 @@ Sub ClearAllTabStops()
 End Sub
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

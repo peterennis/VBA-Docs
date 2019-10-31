@@ -1,20 +1,21 @@
 ---
-title: PjColor Enumeration (Project)
+title: PjColor enumeration (Project)
 ms.prod: project-server
 api_name:
 - Project.PjColor
 ms.assetid: 46108cf5-1e35-9774-b424-6c84223d9aac
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# PjColor Enumeration (Project)
+# PjColor enumeration (Project)
 
 Contains constants that specify a color.
 
 
 
-|**Name**|**Value**|**Description**|
+|Name|Value|Description|
 |:-----|:-----|:-----|
 |**pjAqua**|4|Color is aqua.|
 |**pjBlack**|0|Color is black.|
@@ -34,3 +35,4 @@ Contains constants that specify a color.
 |**pjWhite**|7|Color is white.|
 |**pjYellow**|2|Color is yellow.|
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

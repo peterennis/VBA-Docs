@@ -1,28 +1,29 @@
 ---
-title: TextRange2.RotatedBounds Method (PowerPoint)
+title: TextRange2.RotatedBounds method (PowerPoint)
 ms.assetid: 8cb245a9-88e4-4261-8c68-bdd478a6d29f
 ms.date: 06/08/2017
 ms.prod: powerpoint
+localization_priority: Normal
 ---
 
 
-# TextRange2.RotatedBounds Method (PowerPoint)
+# TextRange2.RotatedBounds method (PowerPoint)
 
 Gets the coordinates of the vertices of the text bounding box for the specified text range. Read-only.
 
 
 ## Syntax
 
- _expression_. `RotatedBounds`( `_X1_`, `_Y1_`, `_X2_`, `_Y2_`, `_X3_`, `_Y3_`, `_x4_`, `_y4_` )
+_expression_. `RotatedBounds`( `_X1_`, `_Y1_`, `_X2_`, `_Y2_`, `_X3_`, `_Y3_`, `_x4_`, `_y4_` )
 
  _expression_ An expression that returns a 'TextRange2' object.
 
 
-### Parameters
+## Parameters
 
 
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _X1_|Required|**Single**|Returns the position (in points) of the X coordinate of the first vertex of the bounding box for the text within the specified text range.|
 | _Y1_|Required|**Single**|Returns the position (in points) of the Y coordinate of the first vertex of the bounding box for the text within the specified text range.|
@@ -67,6 +68,6 @@ End With
 ## See also
 
 
-[TextRange2 Object (PowerPoint)](PowerPoint.textrange2.md)
+[TextRange2 object (PowerPoint)](PowerPoint.textrange2.md)
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

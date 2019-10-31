@@ -1,5 +1,5 @@
 ---
-title: Application.DocumentExport Method (Project)
+title: Application.DocumentExport method (Project)
 keywords: vbapj.chm2173
 f1_keywords:
 - vbapj.chm2173
@@ -8,28 +8,29 @@ api_name:
 - Project.Application.DocumentExport
 ms.assetid: 891bf868-1256-2688-cdb2-2bccfbf2afc2
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Application.DocumentExport Method (Project)
+# Application.DocumentExport method (Project)
 
 Exports the active project as a document in PDF or XPS format.
 
 
 ## Syntax
 
- _expression_. `DocumentExport`( ` _Filename_`, ` _FileType_`, ` _IncludeDocumentProperties_`, ` _IncludeDocumentMarkup_`, ` _ArchiveFormat_`, ` _FromDate_`, ` _ToDate_` )
+_expression_. `DocumentExport`( `_FileName_`, `_FileType_`, `_IncludeDocumentProperties_`, `_IncludeDocumentMarkup_`, `_ArchiveFormat_`, `_FromDate_`, `_ToDate_` )
 
- _expression_ An expression that returns an [Application](./Project.Application.md) object.
-
-
-### Parameters
+ _expression_ An expression that returns an **[Application](Project.Application.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-| _Filename_|Optional|**String**|Specifies the file name of the exported document. The default value is the name of the active project as a PDF file.|
+| _FileName_|Optional|**String**|Specifies the file name of the exported document. The default value is the name of the active project as a PDF file.|
 | _FileType_|Optional|**[PjDocExportType](Project.PjDocExportType.md)**|Specifies whether to export the project as a PDF or an XPS document. The default value is  **pjPDF** (0).|
 | _IncludeDocumentProperties_|Optional|**Variant**|If  **True** or 1, the last page of the exported document includes some document properties. The default value is **True**.|
 | _IncludeDocumentMarkup_|Optional|**Variant**|If  **True** or 1, the last page of the exported document includes a legend of the symbols shown in the view. The default is **True**.|
@@ -37,7 +38,7 @@ Exports the active project as a document in PDF or XPS format.
 | _FromDate_|Optional|**Variant**|The start date of the range of dates to publish. The default value is the project start date.|
 | _ToDate_|Optional|**Variant**|The end date of the range of dates to publish. The default value is the project end date.|
 
-### Return Value
+## Return value
 
  **Boolean**
 
@@ -58,4 +59,4 @@ If the active project shows a Network Diagram view, the following example create
 DocumentExport FileName:="TestProject.xps", FileType:=pjXPS
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

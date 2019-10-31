@@ -1,5 +1,5 @@
 ---
-title: CustomProperties.Item Property (Excel)
+title: CustomProperties.Item property (Excel)
 keywords: vbaxl10.chm680076
 f1_keywords:
 - vbaxl10.chm680076
@@ -7,34 +7,32 @@ ms.prod: excel
 api_name:
 - Excel.CustomProperties.Item
 ms.assetid: f2b9890b-2a25-e192-323b-dca72b461229
-ms.date: 06/08/2017
+ms.date: 04/23/2019
+localization_priority: Normal
 ---
 
 
-# CustomProperties.Item Property (Excel)
+# CustomProperties.Item property (Excel)
 
 Returns a single object from a collection.
 
 
 ## Syntax
 
- _expression_. `Item`( `_Index_` )
+_expression_.**Item** (_Index_)
 
- _expression_ A variable that represents a [CustomProperties](Excel.CustomProperties.md) object.
-
-
-### Parameters
+_expression_ A variable that represents a **[CustomProperties](Excel.CustomProperties.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _Index_|Required| **Integer**|The index number of the object.|
 
 ## Example
 
 The following example demonstrates this feature. In this example, Microsoft Excel adds identifier information to the active worksheet and returns the name and value to the user.
-
 
 ```vb
 Sub CheckCustomProperties() 
@@ -56,8 +54,6 @@ End Sub
 ```
 
 
-## See also
 
 
-[CustomProperties Object](Excel.CustomProperties.md)
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

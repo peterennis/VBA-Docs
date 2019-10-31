@@ -4,6 +4,7 @@ ROBOTS: INDEX
 ms.prod: access
 ms.assetid: e2315ef1-41ff-22b6-2417-6eba1f5f06d7
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
@@ -27,7 +28,7 @@ Set objDF = RDS1.CreateObject("RDSServer.DataFactory", strServer)Set objRs = obj
 RDC1.SQL = vString 
 RDC1.ExecuteOptions = adcExecSyncRDC1.FetchOptions = adcFetchUpFront
 RDC1.Refresh 
-MsgBox "RecordCount = " &; RDC1.Recordset.RecordCountEnd Sub
+MsgBox "RecordCount = " & RDC1.Recordset.RecordCountEnd Sub
 </SCRIPT> 
 Connect String:<INPUT TYPE=Text NAME=txtConnect SIZE=50
 VALUE="Provider=sqloledb;Initial Catalog=pubs;Integrated Security='SSPI';"><BR> 
@@ -46,9 +47,11 @@ CLASSID="clsid:BD96C556-65A3-11D0-983A-00C04FC29E33"></OBJECT>
 
 ## See also
 
-- [Access for developers forum on MSDN](https://social.msdn.microsoft.com/Forums/office/en-US/home?forum=accessdev)
+- [Access for developers forum](https://social.msdn.microsoft.com/Forums/office/home?forum=accessdev)
 - [Access help on support.office.com](https://support.office.com/search/results?query=Access)
-- [Access help on answers.microsoft.com](https://answers.microsoft.com/en-us/msoffice/forum?page=1&;tab=question&;status=all&;auth=1)
+- [Access help on answers.microsoft.com](https://answers.microsoft.com/)
 - [Access forums on UtterAccess](http://www.utteraccess.com/forum/index.php?act=idx)
 - [Access developer and VBA programming help center (FMS)](http://www.fmsinc.com/MicrosoftAccess/developer/)
 - [Access posts on StackOverflow](https://stackoverflow.com/questions/tagged/ms-access)
+
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

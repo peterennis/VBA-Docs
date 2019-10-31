@@ -1,25 +1,26 @@
 ---
-title: ThemeVariant.Height Property (PowerPoint)
+title: ThemeVariant.Height property (PowerPoint)
 ms.assetid: 05d084e8-d804-77f9-1826-e70654a3f86b
 ms.date: 06/08/2017
 ms.prod: powerpoint
+localization_priority: Normal
 ---
 
 
-# ThemeVariant.Height Property (PowerPoint)
+# ThemeVariant.Height property (PowerPoint)
 
 Returns the height of the theme variation. Read-only.
 
 
 ## Syntax
 
- _expression_. `Height`
+_expression_.**Height**
 
- _expression_ A variable that represents a 'ThemeVariant' object.
+_expression_ A variable that represents a 'ThemeVariant' object.
 
 
 ## Property value
 
  **INT32**
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

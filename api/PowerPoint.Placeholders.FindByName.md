@@ -1,5 +1,5 @@
 ---
-title: Placeholders.FindByName Method (PowerPoint)
+title: Placeholders.FindByName method (PowerPoint)
 keywords: vbapp10.chm544004
 f1_keywords:
 - vbapp10.chm544004
@@ -8,30 +8,31 @@ api_name:
 - PowerPoint.Placeholders.FindByName
 ms.assetid: 8911f52e-b544-4246-8b75-8af3650da4de
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Placeholders.FindByName Method (PowerPoint)
+# Placeholders.FindByName method (PowerPoint)
 
 Finds the placeholder in the  **[Placeholders](PowerPoint.Placeholders.md)** collection at the specified index location or with the specified name.
 
 
 ## Syntax
 
- _expression_. `FindByName`( `_Index_` )
+_expression_. `FindByName` (_Index_)
 
- _expression_ An expression that returns a [Placeholders](./PowerPoint.Placeholders.md) object.
-
-
-### Parameters
+ _expression_ An expression that returns a [Placeholders](PowerPoint.Placeholders.md) object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _Index_|Required|**Variant**|The index of the placeholder to be found.|
 
-### Return Value
+## Return value
 
 Shape
 
@@ -64,3 +65,4 @@ End Sub
 
 [Placeholders Object](PowerPoint.Placeholders.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

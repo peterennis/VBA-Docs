@@ -1,5 +1,5 @@
 ---
-title: Application.WindowHandle32 Property (Visio)
+title: Application.WindowHandle32 property (Visio)
 keywords: vis_sdr.chm10014660
 f1_keywords:
 - vis_sdr.chm10014660
@@ -8,54 +8,56 @@ api_name:
 - Visio.Application.WindowHandle32
 ms.assetid: d4c653ae-6582-0d86-75ee-969fe978e754
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Application.WindowHandle32 Property (Visio)
+# Application.WindowHandle32 property (Visio)
 
 Returns the 32-bit handle of a Microsoft Visio window. Read-only.
 
 
 ## Syntax
 
- _expression_. `WindowHandle32`
+_expression_.**WindowHandle32**
 
- _expression_ A variable that represents an [Application](./Visio.Application.md) object.
+_expression_ A variable that represents an **[Application](Visio.Application.md)** object.
 
 
-### Return Value
+## Return value
 
 Long
 
 
 ## Remarks
 
-The  **WindowHandle32** property of an **Application** object returns one of the following:
+The **WindowHandle32** property of an **Application** object returns one of the following:
 
 
 
 
-- The  **HWND** for the main Visio (frame) window (most common).
+- The **HWND** for the main Visio (frame) window (most common).
     
-- The  **HWND** for the container application's main frame window if Visio is running in-place and active.
+- The **HWND** for the container application's main frame window if Visio is running in-place and active.
     
-- The  **HWND** for the window returned by the **GetActiveWindow** () function if either frame window is disabled (for example, if a modal dialog box is running). For details about the **GetActiveWindow** function, see the Microsoft Platform SDK on the Microsoft Developer Network (MSDN) Web site.
+- The **HWND** for the window returned by the **GetActiveWindow** () function if either frame window is disabled (for example, if a modal dialog box is running). For details about the **GetActiveWindow** function, see the Microsoft Platform SDK on the Microsoft Developer Network (MSDN) Web site.
     
 
 
-Use the  **WindowHandle32** property of the **Window** object to obtain the **HWND** for a window in the **Windows** collection of a Visio instance.
+Use the **WindowHandle32** property of the **Window** object to obtain the **HWND** for a window in the **Windows** collection of a Visio instance.
 
-You can use the obtained  **HWND** in Windows API calls.
-
-
- **Note**  Calls to the  **WindowHandle** property (now hidden) are directed to the **WindowHandle32** property.
-
-If your Visual Studio solution includes the  **Microsoft.Office.Interop.Visio** reference, this property maps to the following types:
+You can use the obtained **HWND** in Windows API calls.
 
 
--  **Microsoft.Office.Interop.Visio.IVApplication.WindowHandle**
+> [!NOTE] 
+> Calls to the **WindowHandle** property (now hidden) are directed to the **WindowHandle32** property.
+
+If your Visual Studio solution includes the [Microsoft.Office.Interop.Visio](https://docs.microsoft.com/visualstudio/vsto/office-primary-interop-assemblies?view=vs-2019) reference, this property maps to the following types:
+
+
+- **Microsoft.Office.Interop.Visio.IVApplication.WindowHandle**
     
--  **Microsoft.Office.Interop.Visio.IVApplication.WindowHandle32**
+- **Microsoft.Office.Interop.Visio.IVApplication.WindowHandle32**
     
 
 ## Example
@@ -82,4 +84,4 @@ Public Sub WindowHandle32_Example()
 End Sub
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

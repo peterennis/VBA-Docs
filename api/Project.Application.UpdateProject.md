@@ -1,5 +1,5 @@
 ---
-title: Application.UpdateProject Method (Project)
+title: Application.UpdateProject method (Project)
 keywords: vbapj.chm611
 f1_keywords:
 - vbapj.chm611
@@ -8,32 +8,33 @@ api_name:
 - Project.Application.UpdateProject
 ms.assetid: a6f80334-7faf-ca95-b5ed-0a9fba516169
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Application.UpdateProject Method (Project)
+# Application.UpdateProject method (Project)
 
 Updates progress information and reschedules work for tasks in a project.
 
 
 ## Syntax
 
- _expression_. `UpdateProject`( ` _All_`, ` _UpdateDate_`, ` _Action_` )
+_expression_. `UpdateProject`( `_All_`, `_UpdateDate_`, `_Action_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
-
-
-### Parameters
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _All_|Optional|**Boolean**|**True** if all tasks in the active project are updated. **False** if only the selected tasks are updated. The default value is **True**.|
 | _UpdateDate_|Optional|**Variant**|The update date to use for the specified action. |
 | _action_|Optional|**Integer**|The action to take with the specified tasks. Can be one of the following  **[PjProjectUpdate](Project.PjProjectUpdate.md)** constants: **pj0or100Percent**, **pj0to100Percent**, or **pjReschedule**. The default is **pj0to100Percent**.|
 
-### Return Value
+## Return value
 
  **Boolean**
 
@@ -65,4 +66,4 @@ Sub Update_Project()
 End Sub
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

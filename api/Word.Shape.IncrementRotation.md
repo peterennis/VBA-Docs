@@ -1,5 +1,5 @@
 ---
-title: Shape.IncrementRotation Method (Word)
+title: Shape.IncrementRotation method (Word)
 keywords: vbawd10.chm161480719
 f1_keywords:
 - vbawd10.chm161480719
@@ -8,26 +8,27 @@ api_name:
 - Word.Shape.IncrementRotation
 ms.assetid: 67f44fb6-0cce-9a5c-5ac7-b8116dffc167
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Shape.IncrementRotation Method (Word)
+# Shape.IncrementRotation method (Word)
 
 Changes the rotation of the specified shape around the z-axis by the specified number of degrees.
 
 
 ## Syntax
 
- _expression_. `IncrementRotation`( `_Increment_` )
+_expression_. `IncrementRotation`( `_Increment_` )
 
- _expression_ Required. A variable that represents a '[Shape](Word.Shape.md)' object.
-
-
-### Parameters
+_expression_ Required. A variable that represents a **[Shape](Word.Shape.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _Increment_|Required| **Single**|Specifies how far the shape is to be rotated horizontally, in degrees. A positive value rotates the shape clockwise; a negative value rotates it counterclockwise.|
 
@@ -38,7 +39,7 @@ Use the  **[Rotation](Word.Shape.Rotation.md)** property to set the absolute rot
 
 ## Example
 
-This example duplicates shape one on  _myDocument_ , sets the fill for the duplicate, moves it 70 points to the right and 50 points up, and rotates it 30 degrees clockwise.
+This example duplicates shape one on _myDocument_ , sets the fill for the duplicate, moves it 70 points to the right and 50 points up, and rotates it 30 degrees clockwise.
 
 
 ```vb
@@ -57,3 +58,4 @@ End With
 
 [Shape Object](Word.Shape.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

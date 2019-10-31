@@ -1,18 +1,19 @@
 ---
-title: XlPieSliceLocation Enumeration (Word)
+title: XlPieSliceLocation enumeration (Word)
 ms.prod: word
 ms.assetid: d3a2113f-8779-096c-ce6a-52f29db242b3
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# XlPieSliceLocation Enumeration (Word)
+# XlPieSliceLocation enumeration (Word)
 
 Specifies which position on the slice to return the coordinate of.
 
 
 
-|**Name**|**Value**|**Description**|
+|Name|Value|Description|
 |:-----|:-----|:-----|
 | **xlCenterPoint**|5|The center point of a pie slice.|
 | **xlInnerCenterPoint**|8|The innermost center point of a doughnut slice.|
@@ -24,3 +25,4 @@ Specifies which position on the slice to return the coordinate of.
 | **xlOuterClockwisePoint**|3|The outermost clockwise point of the circumference of a slice.|
 | **xlOuterCounterClockwisePoint**|1|The outermost counterclockwise point of the circumference of a slice.|
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

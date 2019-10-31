@@ -1,20 +1,21 @@
 ---
-title: WdColorIndex Enumeration (Word)
+title: WdColorIndex enumeration (Word)
 ms.prod: word
 api_name:
 - Word.WdColorIndex
 ms.assetid: 4c4a9a72-79d6-79ab-9e82-377abe2fb300
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# WdColorIndex Enumeration (Word)
+# WdColorIndex enumeration (Word)
 
 Specifies the color to apply.
 
 
 
-|**Name**|**Value**|**Description**|
+|Name|Value|Description|
 |:-----|:-----|:-----|
 | **wdAuto**|0|Automatic color. Default; usually black.|
 | **wdBlack**|1|Black color.|
@@ -36,3 +37,4 @@ Specifies the color to apply.
 | **wdWhite**|8|White color.|
 | **wdYellow**|7|Yellow color.|
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

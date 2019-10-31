@@ -1,5 +1,5 @@
 ---
-title: Shape.RemoveCatalogMergeArea Method (Publisher)
+title: Shape.RemoveCatalogMergeArea method (Publisher)
 keywords: vbapb10.chm5308691
 f1_keywords:
 - vbapb10.chm5308691
@@ -7,33 +7,33 @@ ms.prod: publisher
 api_name:
 - Publisher.Shape.RemoveCatalogMergeArea
 ms.assetid: addff960-562e-b8e8-ec56-ddcf2b9ccaa7
-ms.date: 06/08/2017
+ms.date: 06/13/2019
+localization_priority: Normal
 ---
 
 
-# Shape.RemoveCatalogMergeArea Method (Publisher)
+# Shape.RemoveCatalogMergeArea method (Publisher)
 
 Deletes the catalog merge area from the specified publication page. All shapes contained in the catalog merge area remain in place on the page, but are no longer connected to the catalog merge data source.
 
 
 ## Syntax
 
- _expression_. **RemoveCatalogMergeArea**
+_expression_.**RemoveCatalogMergeArea**
 
- _expression_ A variable that represents a  **Shape** object.
+_expression_ A variable that represents a **[Shape](Publisher.Shape.md)** object.
 
 
 ## Remarks
 
-Removing a catalog merge area from a publication page does not disconnect the data source from the publication. Use the  **[IsDataSourceConnected](Publisher.Document.IsDataSourceConnected.md)** property of the **[Document](Publisher.Document.md)** object to determine if a data source is connected to a publication.
+Removing a catalog merge area from a publication page does not disconnect the data source from the publication. Use the **[IsDataSourceConnected](Publisher.Document.IsDataSourceConnected.md)** property of the **Document** object to determine if a data source is connected to a publication.
 
-Use the  **[AddCatalogMergeArea](Publisher.Shapes.AddCatalogMergeArea.md)** method of the **[Shapes](Publisher.Shapes.md)** collection to add a catalog merge area to a publication. A publication page can contain only one catalog merge area.
+Use the **[AddCatalogMergeArea](Publisher.Shapes.AddCatalogMergeArea.md)** method of the **Shapes** collection to add a catalog merge area to a publication. A publication page can contain only one catalog merge area.
 
 
 ## Example
 
 The following example tests whether any page in the specified publication contains a catalog merge area. If any page does, all the shapes are removed from the catalog merge area and deleted, and the catalog merge area is then removed from the publication.
-
 
 ```vb
 Sub DeleteCatalogMergeAreaAndAllShapesWithin() 
@@ -62,4 +62,4 @@ Sub DeleteCatalogMergeAreaAndAllShapesWithin()
 End Sub
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

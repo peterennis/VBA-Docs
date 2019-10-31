@@ -1,5 +1,5 @@
 ---
-title: TextFrame Object (PowerPoint)
+title: TextFrame object (PowerPoint)
 keywords: vbapp10.chm558000
 f1_keywords:
 - vbapp10.chm558000
@@ -8,10 +8,11 @@ api_name:
 - PowerPoint.TextFrame
 ms.assetid: 03346e81-71b2-0b9e-843d-fb8aa0e3c868
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# TextFrame Object (PowerPoint)
+# TextFrame object (PowerPoint)
 
 Represents the text frame in a  **Shape** object. Contains the text in the text frame and the properties and methods that control the alignment and anchoring of the text frame.
 
@@ -41,7 +42,7 @@ With myDocument.Shapes _
 End With
 ```
 
-Use the [HasTextFrame](./PowerPoint.Shape.HasTextFrame.md)property to determine whether a shape has a text frame, and use the [HasText](./PowerPoint.TextFrame.HasText.md)property to determine whether the text frame contains text, as shown in the following example.
+Use the [HasTextFrame](PowerPoint.Shape.HasTextFrame.md)property to determine whether a shape has a text frame, and use the [HasText](PowerPoint.TextFrame.HasText.md)property to determine whether the text frame contains text, as shown in the following example.
 
 
 
@@ -69,33 +70,35 @@ Next
 
 
 
-|**Name**|
+|Name|
 |:-----|
-|[DeleteText](./PowerPoint.TextFrame.DeleteText.md)|
+|[DeleteText](PowerPoint.TextFrame.DeleteText.md)|
 
 ## Properties
 
 
 
-|**Name**|
+|Name|
 |:-----|
-|[Application](./PowerPoint.TextFrame.Application.md)|
-|[AutoSize](./PowerPoint.TextFrame.AutoSize.md)|
-|[Creator](./PowerPoint.TextFrame.Creator.md)|
-|[HasText](./PowerPoint.TextFrame.HasText.md)|
-|[HorizontalAnchor](./PowerPoint.TextFrame.HorizontalAnchor.md)|
-|[MarginBottom](./PowerPoint.TextFrame.MarginBottom.md)|
-|[MarginLeft](./PowerPoint.TextFrame.MarginLeft.md)|
-|[MarginRight](./PowerPoint.TextFrame.MarginRight.md)|
-|[MarginTop](./PowerPoint.TextFrame.MarginTop.md)|
-|[Orientation](./PowerPoint.TextFrame.Orientation.md)|
-|[Parent](./PowerPoint.TextFrame.Parent.md)|
-|[Ruler](./PowerPoint.TextFrame.Ruler.md)|
-|[TextRange](./PowerPoint.TextFrame.TextRange.md)|
-|[VerticalAnchor](./PowerPoint.TextFrame.VerticalAnchor.md)|
-|[WordWrap](./PowerPoint.TextFrame.WordWrap.md)|
+|[Application](PowerPoint.TextFrame.Application.md)|
+|[AutoSize](PowerPoint.TextFrame.AutoSize.md)|
+|[Creator](PowerPoint.TextFrame.Creator.md)|
+|[HasText](PowerPoint.TextFrame.HasText.md)|
+|[HorizontalAnchor](PowerPoint.TextFrame.HorizontalAnchor.md)|
+|[MarginBottom](PowerPoint.TextFrame.MarginBottom.md)|
+|[MarginLeft](PowerPoint.TextFrame.MarginLeft.md)|
+|[MarginRight](PowerPoint.TextFrame.MarginRight.md)|
+|[MarginTop](PowerPoint.TextFrame.MarginTop.md)|
+|[Orientation](PowerPoint.TextFrame.Orientation.md)|
+|[Parent](PowerPoint.TextFrame.Parent.md)|
+|[Ruler](PowerPoint.TextFrame.Ruler.md)|
+|[TextRange](PowerPoint.TextFrame.TextRange.md)|
+|[VerticalAnchor](PowerPoint.TextFrame.VerticalAnchor.md)|
+|[WordWrap](PowerPoint.TextFrame.WordWrap.md)|
 
 ## See also
 
 
-[PowerPoint Object Model Reference](./overview/PowerPoint/object-model.md)
+[PowerPoint Object Model Reference](overview/PowerPoint/object-model.md)
+
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

@@ -1,29 +1,29 @@
 ---
-title: Chart.UpdateChartData Method (Project)
+title: Chart.UpdateChartData method (Project)
 keywords: vbapj.chm131637
 f1_keywords:
 - vbapj.chm131637
 ms.prod: project-server
 ms.assetid: ecdef74d-480c-05a7-757c-a5c2e3e7359c
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Chart.UpdateChartData Method (Project)
+# Chart.UpdateChartData method (Project)
+
 Updates the specified Project data on a chart.
 
 ## Syntax
 
- _expression_. `UpdateChartData` _(Task,_? _Timephased,_? _GroupName,_? _FilterName,_? _LabelField,_? _OutlineLevel,_? _SafeArrayOfPjField,_? _SafeArrayOfPjTimescaledData,_? _TimeScaleUnit,_? _TimescaleUnitCount,_? _StartDate,_? _FinishDate)_
+_expression_.**UpdateChartData** (_Task_, _Timephased_, _GroupName_, _FilterName_, _LabelField_, _OutlineLevel_, _SafeArrayOfPjField_, _SafeArrayOfPjTimescaledData_, _TimeScaleUnit_, _TimescaleUnitCount_, _StartDate_, _FinishDate_)
 
- _expression_ A variable that represents a 'Chart' object.
-
-
-### Parameters
+_expression_ A variable that represents a **[Chart](Project.Chart.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data type**|**Description**|
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _Task_|Required|**Boolean**|**True** to update the task data; otherwise, **False**.|
 | _Timephased_|Required|**Boolean**|**True** to update the timephased data; otherwise, **False**.|
@@ -37,25 +37,13 @@ Updates the specified Project data on a chart.
 | _TimescaleUnitCount_|Optional|**Long**|Specifies the number of timescale units to be included in the update. The default value is 1. For example, if the unit is  **pjTimescaleWeeks**, a value of 5 indicates five weeks.|
 | _StartDate_|Optional|**Variant**|Specifies the start date for the update.|
 | _FinishDate_|Optional|**Variant**|Specifies the finish date for the update.|
-| _Task_|Required|BOOL||
-| _Timephased_|Required|BOOL||
-| _GroupName_|Optional|STRING||
-| _FilterName_|Optional|STRING||
-| _LabelField_|Optional|PJFIELD||
-| _OutlineLevel_|Optional|INT||
-| _SafeArrayOfPjField_|Optional|VARIANT||
-| _SafeArrayOfPjTimescaledData_|Optional|VARIANT||
-| _TimeScaleUnit_|Optional|PJTIMESCALEUNIT||
-| _TimescaleUnitCount_|Optional|INT||
-| _StartDate_|Optional|VARIANT||
-| _FinishDate_|Optional|VARIANT||
-
-### Return value
-
- **Nothing**
 
 
-## See also
+## Return value
+
+**Nothing**
 
 
-[Chart Object](Project.chart.md)
+
+
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

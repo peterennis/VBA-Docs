@@ -4,6 +4,7 @@ ms.prod: access
 ms.assetid: 4eb23608-e976-49a8-3f0e-f3537b948bfd
 ROBOTS: INDEX
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
@@ -22,7 +23,7 @@ The following table describes the arguments of the **CreateInstallPackage** meth
 
 <br/>
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _WizardSettingsFile_|Required|**String**|The path and file name of the wizard template file that contains the settings to use when creating the deployment package. To create a wizard template (.adepsws), click **Save Wizard Settings** on any Package Solution Wizard page.|
 
@@ -66,5 +67,5 @@ To use this example, you must set a reference to the Access Developer Extensions
 1. On the **Tools** menu, click **References**.
     
 2. Select the **Microsoft Office Access Developer Extensions Type Library 1.0** check box, and then click **OK**.
-    
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

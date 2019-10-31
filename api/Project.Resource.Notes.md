@@ -1,23 +1,24 @@
 ---
-title: Resource.Notes Property (Project)
+title: Resource.Notes property (Project)
 ms.prod: project-server
 api_name:
 - Project.Resource.Notes
 ms.assetid: 63916a17-8ac0-e921-a29f-4d315c6cbc79
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Resource.Notes Property (Project)
+# Resource.Notes property (Project)
 
 Gets or sets the notes for a resource. Read/write  **String**.
 
 
 ## Syntax
 
- _expression_. `Notes`
+_expression_. `Notes`
 
- _expression_ A variable that represents a [Resource](./Project.Resource.md) object.
+_expression_ A variable that represents a [Resource](./Project.Resource.md) object.
 
 
 ## Remarks
@@ -30,7 +31,8 @@ The  **Notes** property does not accept characters with an ASCII value less than
 The following example adds a comment to the notes of the resource in the active cell.
 
 
- **Note**  If a resource is not selected, the code results in a run-time error 1004. 
+> [!NOTE] 
+> If a resource is not selected, the code results in a run-time error 1004. 
 
 
 ```vb
@@ -48,4 +50,4 @@ Sub AddStatusNote()
 End Sub
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

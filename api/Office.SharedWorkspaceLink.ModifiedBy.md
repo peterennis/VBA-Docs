@@ -1,5 +1,5 @@
 ---
-title: SharedWorkspaceLink.ModifiedBy Property (Office)
+title: SharedWorkspaceLink.ModifiedBy property (Office)
 keywords: vbaof11.chm270006
 f1_keywords:
 - vbaof11.chm270006
@@ -7,11 +7,12 @@ ms.prod: office
 api_name:
 - Office.SharedWorkspaceLink.ModifiedBy
 ms.assetid: 3070460c-c3af-ff17-19b7-25a3c6339628
-ms.date: 06/08/2017
+ms.date: 01/24/2019
+localization_priority: Normal
 ---
 
 
-# SharedWorkspaceLink.ModifiedBy Property (Office)
+# SharedWorkspaceLink.ModifiedBy property (Office)
 
 Gets the name of the user who last modified the object. Read-only.
 
@@ -21,24 +22,24 @@ Gets the name of the user who last modified the object. Read-only.
 
 ## Syntax
 
- _expression_. `ModifiedBy`
+_expression_.**ModifiedBy**
 
- _expression_ A variable that represents a [SharedWorkspaceLink](./Office.SharedWorkspaceLink.md) object.
+_expression_ A variable that represents a **[SharedWorkspaceLink](Office.SharedWorkspaceLink.md)** object.
 
 
-### Return Value
+## Return value
 
 String
 
 
 ## Remarks
 
-For shared workspace objects, the  **ModifiedBy** property returns the display name stored in the **Name** property of the **SharedWorkspaceMember** object.
+For shared workspace objects, the **ModifiedBy** property returns the display name stored in the **Name** property of the **SharedWorkspaceMember** object.
 
 
 ## Example
 
-The following example lists the links in a shared workspace site that were modified by a particular users.
+The following example lists the links in a shared workspace site that were modified by particular users.
 
 
 ```vb
@@ -50,11 +51,11 @@ The following example lists the links in a shared workspace site that were modif
     Set swsOwner = ActiveWorkbook.SharedWorkspace.Members(1) 
     For Each swsLink In ActiveWorkbook.SharedWorkspace.Links 
         If swsLink.ModifiedBy = strUser Then 
-            strMemberlinks = strMemberlinks &amp; swsLink.URL &amp; vbCrLf 
+            strMemberlinks = strMemberlinks & swsLink.URL & vbCrLf 
         End If 
     Next 
-    MsgBox "These links were modified by " &amp; _ 
-        strUser &amp; vbCrLf &amp; strMemberlinks, _ 
+    MsgBox "These links were modified by " & _ 
+        strUser & vbCrLf & strMemberlinks, _ 
         vbInformation + vbOKOnly, "Modified Links" 
     Set swsOwner = Nothing 
     Set swsLink = Nothing 
@@ -64,10 +65,8 @@ The following example lists the links in a shared workspace site that were modif
 
 ## See also
 
-
-[SharedWorkspaceLink Object](Office.SharedWorkspaceLink.md)
-
+- [SharedWorkspaceLink object members](overview/Library-Reference/sharedworkspacelink-members-office.md)
 
 
-[SharedWorkspaceLink Object Members](./overview/Library-Reference/sharedworkspacelink-members-office.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

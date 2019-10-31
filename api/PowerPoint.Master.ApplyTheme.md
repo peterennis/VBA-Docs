@@ -1,5 +1,5 @@
 ---
-title: Master.ApplyTheme Method (PowerPoint)
+title: Master.ApplyTheme method (PowerPoint)
 keywords: vbapp10.chm533019
 f1_keywords:
 - vbapp10.chm533019
@@ -8,26 +8,27 @@ api_name:
 - PowerPoint.Master.ApplyTheme
 ms.assetid: ae30318b-20e6-4eae-df4c-1f159fd77d6a
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Master.ApplyTheme Method (PowerPoint)
+# Master.ApplyTheme method (PowerPoint)
 
 Applies a theme or design template to the specified slide master, title master, handout master, notes master, or design master.
 
 
 ## Syntax
 
- _expression_. `ApplyTheme`( `_themeName_` )
+_expression_. `ApplyTheme`( `_themeName_` )
 
- _expression_ A variable that represents a [Master](./PowerPoint.Master.md) object.
-
-
-### Parameters
+_expression_ A variable that represents a [Master](PowerPoint.Master.md) object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _themeName_|Required|**String**|The path and name of the theme file (.thmx) or design template file (.pot) to apply to the  **Master** object.|
 
@@ -55,3 +56,4 @@ ActivePresentation.SlideMaster.ApplyTheme "C:\Program Files\Microsoft Office\Tem
 
 [Master Object](PowerPoint.Master.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

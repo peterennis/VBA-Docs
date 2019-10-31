@@ -1,5 +1,5 @@
 ---
-title: Effect.MoveTo Method (PowerPoint)
+title: Effect.MoveTo method (PowerPoint)
 keywords: vbapp10.chm652004
 f1_keywords:
 - vbapp10.chm652004
@@ -8,26 +8,27 @@ api_name:
 - PowerPoint.Effect.MoveTo
 ms.assetid: 7b424225-e53c-7dc9-1e5c-14b824110027
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Effect.MoveTo Method (PowerPoint)
+# Effect.MoveTo method (PowerPoint)
 
 Moves the specified object to a specific location within the same collection, renumbering all other items in the collection appropriately.
 
 
 ## Syntax
 
- _expression_. `MoveTo`( `_toPos_` )
+_expression_. `MoveTo`( `_toPos_` )
 
- _expression_ A variable that represents an [Effect](./PowerPoint.Effect.md) object.
-
-
-### Parameters
+_expression_ A variable that represents an [Effect](PowerPoint.Effect.md) object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _toPos_|Required|**Long**|The index position to which to move the animation effect.|
 
@@ -71,3 +72,4 @@ End Sub
 
 [Effect Object](PowerPoint.Effect.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

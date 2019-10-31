@@ -1,22 +1,22 @@
 ---
-title: ORDER BY Clause (Microsoft Access SQL)
+title: ORDER BY clause (Microsoft Access SQL)
 keywords: jetsql40.chm5277571
 f1_keywords:
 - jetsql40.chm5277571
 ms.prod: access
 ms.assetid: 9e5e6911-1117-b220-7f11-1ae7f87cbdc0
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# ORDER BY Clause (Microsoft Access SQL)
+# ORDER BY clause (Microsoft Access SQL)
 
 **Applies to:** Access 2013 | Access 2016
 
 Sorts a query's resulting records on a specified field or fields in ascending or descending order.
 
 ## Syntax
-<a name="sectionSection0"> </a>
 
 SELECT  _fieldlist_ FROM _table_ WHERE _selectcriteria_ [ORDER BY _field1_ [ASC | DESC ][, _field2_ [ASC | DESC ]][, …]]]
 
@@ -24,7 +24,7 @@ A SELECT statement containing an ORDER BY clause has these parts:
 
 
 
-|**Part**|**Description**|
+|Part|Description|
 |:-----|:-----|
 | _fieldlist_|The name of the field or fields to be retrieved along with any field-name aliases, [SQL aggregate functions](https://msdn.microsoft.com/library/8866cd71-0216-25b4-6a6a-02cb7acad9a2%28Office.15%29.aspx), selection predicates ([ALL, DISTINCT, DISTINCTROW, or TOP](all-distinct-distinctrow-top-predicates-microsoft-access-sql.md)), or other [SELECT](https://msdn.microsoft.com/library/a5c9da94-5f9e-0fc0-767a-4117f38a5ef3%28Office.15%29.aspx) statement options.|
 | _table_|The name of the table from which records are retrieved. For more information, see the [FROM](from-clause-microsoft-access-sql.md) clause.|
@@ -32,7 +32,6 @@ A SELECT statement containing an ORDER BY clause has these parts:
 | _field1_, _field2_|The names of the fields on which to sort records.|
 
 ## Remarks
-<a name="sectionSection1"> </a>
 
 ORDER BY is optional. However, if you want your data displayed in sorted order, then you must use ORDER BY.
 
@@ -60,16 +59,9 @@ If you specify a field containing Memo or OLE Object data in the ORDER BY clause
 ORDER BY is usually the last item in an SQL statement.
 
 You can include additional fields in the ORDER BY clause. Records are sorted first by the first field listed after ORDER BY. Records that have equal values in that field are then sorted by the value in the second field listed, and so on.
-
-**Link provided by:**
-![Community Member Icon](../../../images/8b9774c4-6c97-470e-b3a2-56d8f786444c.png) The[UtterAccess](https://www.utteraccess.com) community |[About the Contributors](#AboutContributors)
-
-
-- [Record Order](https://www.utteraccess.com/wiki/index.php/Record_Order)
     
 
 ## Example
-<a name="sectionSection2"> </a>
 
 The SQL statement shown in the following example uses the ORDER BY clause to sort records by last name in descending order (Z-A). It calls the EnumFields procedure, which you can find in the SELECT statement example.
 
@@ -100,20 +92,20 @@ Sub OrderByX()
 End Sub
 ```
 
+### About the contributors
 
-## About the Contributors
-<a name="AboutContributors"> </a>
+**Link provided by** ![Community Member Icon](../../../images/8b9774c4-6c97-470e-b3a2-56d8f786444c.png) the [UtterAccess](https://www.utteraccess.com) community.
 
-UtterAccess is the premier Microsoft Access wiki and help forum. Click here to join. 
+- [Record Order](https://www.utteraccess.com/wiki/index.php/Record_Order)
+
+UtterAccess is the premier Microsoft Access wiki and help forum. 
 
 ## See also
 
-- [Access for developers forum on MSDN](https://social.msdn.microsoft.com/Forums/office/en-US/home?forum=accessdev)
+- [Access for developers forum](https://social.msdn.microsoft.com/Forums/office/home?forum=accessdev)
 - [Access help on support.office.com](https://support.office.com/search/results?query=Access)
-- [Access help on answers.microsoft.com](https://answers.microsoft.com/en-us/office/forum/access?page=1&;tab=question&;status=all&;auth=1)
-- [Search for specific Access error codes on Bing](https://www.bing.com/)
 - [Access forums on UtterAccess](https://www.utteraccess.com/forum/index.php?act=idx)
-- [Access wiki on UtterAcess](https://www.utteraccess.com/forum/index.php?act=idx)
 - [Access developer and VBA programming help center (FMS)](https://www.fmsinc.com/MicrosoftAccess/developer/)
 - [Access posts on StackOverflow](https://stackoverflow.com/questions/tagged/ms-access)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

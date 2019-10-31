@@ -1,26 +1,27 @@
 ---
-title: Shapes.AddConnector Method (Project)
+title: Shapes.AddConnector method (Project)
 ms.prod: project-server
 ms.assetid: bfd75cf3-f70b-8d19-bf28-94e2f4b227dd
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Shapes.AddConnector Method (Project)
+# Shapes.AddConnector method (Project)
 Creates a connector and returns a  **Shape** object the represents the new connector.
 
 ## Syntax
 
- _expression_. `AddConnector` _(Type,_ _BeginX,_ _BeginY,_ _EndX,_ _EndY)_
+_expression_.**AddConnector** (_Type_, _BeginX_, _BeginY_, _EndX_, _EndY_)
 
- _expression_ A variable that represents a 'Shapes' object.
-
-
-### Parameters
+_expression_ A variable that represents a **[Shapes](Project.Shapes.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _Type_|Required|**MsoConnectorType**|The type of connector. Can be one of the following constants:  **msoConnectorElbow**,  **msoConnectorTypeMixed**,  **msoConnectorCurve**, or  **msoConnectorStraight**.|
 | _BeginX_|Required|**Single**|The horizontal position (in points) of the connector's starting point, relative to the upper-left corner of the document.|
@@ -34,7 +35,7 @@ Creates a connector and returns a  **Shape** object the represents the new conne
 | _EndY_|Required|FLOAT||
 |Name|Required/Optional|Data type|Description|
 
-### Return value
+## Return value
 
  **Shape**
 
@@ -42,7 +43,8 @@ Creates a connector and returns a  **Shape** object the represents the new conne
 ## Remarks
 
 
- **Note**  In Project, the methods to attach the beginning and end of a connector to other shapes in the report (**ConnectorFormat.BeginConnect** and **ConnectorFormat.EndConnect**) do not work. You can use only the  **AddConnector** parameters to position the connector. For more information, see the[ConnectorFormat](Project.shape.connectorformat.md) property.
+> [!NOTE] 
+> In Project, the methods to attach the beginning and end of a connector to other shapes in the report (**ConnectorFormat.BeginConnect** and **ConnectorFormat.EndConnect**) do not work. You can use only the  **AddConnector** parameters to position the connector. For more information, see the [ConnectorFormat](Project.shape.connectorformat.md) property.
 
 
 ## Example
@@ -83,4 +85,6 @@ End Sub
 [Shape Object](Project.shape.md)
 [ConnectorFormat Property](Project.shape.connectorformat.md)
 [AutoShapeType Property](Project.shape.autoshapetype.md)
-[MsoConnectorType](https://msdn.microsoft.com/en-us/library/office/ff860918%28v=office.15%29)
+[MsoConnectorType](https://msdn.microsoft.com/library/office/ff860918%28v=office.15%29)
+
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

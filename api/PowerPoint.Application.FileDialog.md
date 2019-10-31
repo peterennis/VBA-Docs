@@ -1,5 +1,5 @@
 ---
-title: Application.FileDialog Property (PowerPoint)
+title: Application.FileDialog property (PowerPoint)
 keywords: vbapp10.chm502046
 f1_keywords:
 - vbapp10.chm502046
@@ -8,30 +8,31 @@ api_name:
 - PowerPoint.Application.FileDialog
 ms.assetid: 0f0d5b6c-e478-6d15-7218-be04df978d6b
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Application.FileDialog Property (PowerPoint)
+# Application.FileDialog property (PowerPoint)
 
 Returns a  **FileDialog** object that represents a single instance of a file dialog box. Read-only.
 
 
 ## Syntax
 
- _expression_. `FileDialog`( `_Type_` )
+_expression_. `FileDialog`( `_Type_` )
 
- _expression_ A variable that represents an [Application](./PowerPoint.Application.md) object.
-
-
-### Parameters
+_expression_ A variable that represents an **[Application](PowerPoint.Application.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _Type_|Required|**MsoFileDialogType**|The type of dialog to return.|
 
-### Return Value
+## Return value
 
 FileDialog
 
@@ -93,3 +94,4 @@ End Sub
 
 [Application Object](PowerPoint.Application.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

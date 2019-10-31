@@ -1,5 +1,5 @@
 ---
-title: ConnectorFormat.EndConnect Method (PowerPoint)
+title: ConnectorFormat.EndConnect method (PowerPoint)
 keywords: vbapp10.chm555004
 f1_keywords:
 - vbapp10.chm555004
@@ -8,26 +8,27 @@ api_name:
 - PowerPoint.ConnectorFormat.EndConnect
 ms.assetid: b1a864e3-c2c2-ceeb-ac7c-5a26e7248dbe
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# ConnectorFormat.EndConnect Method (PowerPoint)
+# ConnectorFormat.EndConnect method (PowerPoint)
 
 Attaches the end of the specified connector to a specified shape. 
 
 
 ## Syntax
 
- _expression_. `EndConnect`( `_ConnectedShape_`, `_ConnectionSite_` )
+_expression_. `EndConnect`( `_ConnectedShape_`, `_ConnectionSite_` )
 
- _expression_ A variable that represents a [ConnectorFormat](./PowerPoint.ConnectorFormat.md) object.
-
-
-### Parameters
+_expression_ A variable that represents a [ConnectorFormat](PowerPoint.ConnectorFormat.md) object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _ConnectedShape_|Required|**[Shape](PowerPoint.Shape.md)**|The shape to attach the end of the connector to. The specified  **Shape** object must be in the same **[Shapes](PowerPoint.Shapes.md)** collection as the connector.|
 | _ConnectionSite_|Required|**Long**|A connection site on the shape specified by ConnectedShape. Must be an integer between 1 and the integer returned by the  **ConnectionSiteCount** property of the specified shape. If you want the connector to automatically find the shortest path between the two shapes it connects, specify any valid integer for this argument and then use the **RerouteConnections** method after the connector is attached to shapes at both ends.|
@@ -65,3 +66,4 @@ End With
 
 [ConnectorFormat Object](PowerPoint.ConnectorFormat.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

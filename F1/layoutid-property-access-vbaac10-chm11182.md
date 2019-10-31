@@ -6,6 +6,7 @@ f1_keywords:
 ms.prod: office
 ms.assetid: d01f8d0c-1a12-408f-bb12-9dee41a168ff
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
@@ -13,8 +14,8 @@ ms.date: 06/08/2017
 
 Hi there! You have landed on one of our F1 Help redirector pages. Please select the topic you were looking for below.
 
-[TextBox.LayoutID Property (Access)](http://msdn.microsoft.com/library/b77ccc32-fbaf-e574-b0ae-293d6f999879%28Office.15%29.aspx)
+[TextBox.LayoutID property (Access)](http://msdn.microsoft.com/library/b77ccc32-fbaf-e574-b0ae-293d6f999879%28Office.15%29.aspx)
 
-[NavigationControl.LayoutID Property (Access)](http://msdn.microsoft.com/library/2fd85cf8-90c3-9b00-6d2a-9078be79f668%28Office.15%29.aspx)
+[NavigationControl.LayoutID property (Access)](http://msdn.microsoft.com/library/2fd85cf8-90c3-9b00-6d2a-9078be79f668%28Office.15%29.aspx)
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

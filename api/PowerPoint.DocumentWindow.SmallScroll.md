@@ -1,5 +1,5 @@
 ---
-title: DocumentWindow.SmallScroll Method (PowerPoint)
+title: DocumentWindow.SmallScroll method (PowerPoint)
 keywords: vbapp10.chm511018
 f1_keywords:
 - vbapp10.chm511018
@@ -8,26 +8,27 @@ api_name:
 - PowerPoint.DocumentWindow.SmallScroll
 ms.assetid: f6710bca-ad85-9257-061a-dbe5829d8b7b
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# DocumentWindow.SmallScroll Method (PowerPoint)
+# DocumentWindow.SmallScroll method (PowerPoint)
 
 Scrolls through the specified document window by lines and columns.
 
 
 ## Syntax
 
- _expression_. `SmallScroll`( `_Down_`, `_Up_`, `_ToRight_`, `_ToLeft_` )
+_expression_.**SmallScroll** (_Down_, _Up_, _ToRight_, _ToLeft_)
 
- _expression_ A variable that represents a [DocumentWindow](./PowerPoint.DocumentWindow.md) object.
-
-
-### Parameters
+_expression_ A variable that represents a [DocumentWindow](PowerPoint.DocumentWindow.md) object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _Down_|Optional|**Long**|Specifies the number of lines to scroll down.|
 | _Up_|Optional|**Long**|Specifies the number of lines to scroll up.|
@@ -57,3 +58,4 @@ Application.ActiveWindow.SmallScroll Down:=3
 
 [DocumentWindow Object](PowerPoint.DocumentWindow.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

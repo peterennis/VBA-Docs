@@ -1,5 +1,5 @@
 ---
-title: ControlFormat.AddItem Method (Excel)
+title: ControlFormat.AddItem method (Excel)
 keywords: vbaxl10.chm630073
 f1_keywords:
 - vbaxl10.chm630073
@@ -7,40 +7,38 @@ ms.prod: excel
 api_name:
 - Excel.ControlFormat.AddItem
 ms.assetid: fffc243b-3f94-14ab-f7b4-83c56325aa5e
-ms.date: 06/08/2017
+ms.date: 04/23/2019
+localization_priority: Normal
 ---
 
 
-# ControlFormat.AddItem Method (Excel)
+# ControlFormat.AddItem method (Excel)
 
 Adds an item to a list box or a combo box.
 
 
 ## Syntax
 
- _expression_. `AddItem`( `_Text_` , `_Index_` )
+_expression_.**AddItem** (_Text_, _Index_)
 
- _expression_ A variable that represents a [ControlFormat](Excel.ControlFormat.md) object.
-
-
-### Parameters
+_expression_ A variable that represents a **[ControlFormat](Excel.ControlFormat.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _Text_|Required| **String**|The text to be added.|
 | _Index_|Optional| **Variant**|The position of the new entry. If the list has fewer entries than the specified index, blank items from the end of the list are added to the specified position. If this argument is omitted, the item is appended to the existing list.|
 
 ## Remarks
 
-Using this method clears any range specified by the  **[ListFillRange](Excel.ControlFormat.ListFillRange.md)** property.
+Using this method clears any range specified by the **[ListFillRange](Excel.ControlFormat.ListFillRange.md)** property.
 
 
 ## Example
 
 This example creates a list box and fills it with integers from 1 to 10.
-
 
 ```vb
 With Worksheets(1) 
@@ -52,8 +50,5 @@ End With
 ```
 
 
-## See also
 
-
-[ControlFormat Object](Excel.ControlFormat.md)
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

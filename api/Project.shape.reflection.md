@@ -1,19 +1,20 @@
 ---
-title: Shape.Reflection Property (Project)
+title: Shape.Reflection property (Project)
 ms.prod: project-server
 ms.assetid: 02aaa497-5941-fdb9-5c34-5a596f11d1af
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Shape.Reflection Property (Project)
-Gets the reflection formatting for the shape. Read-only  **[ReflectionFormat](https://msdn.microsoft.com/en-us/library/office/ff863140%28v=office.15%29)**.
+# Shape.Reflection property (Project)
+Gets the reflection formatting for the shape. Read-only  **[ReflectionFormat](https://msdn.microsoft.com/library/office/ff863140%28v=office.15%29)**.
 
 ## Syntax
 
- _expression_. `Reflection`
+_expression_.**Reflection**
 
- _expression_ A variable that represents a 'Shape' object.
+_expression_ A variable that represents a **[Shape](Project.Shape.md)** object.
 
 
 ## Property value
@@ -25,4 +26,6 @@ Gets the reflection formatting for the shape. Read-only  **[ReflectionFormat](ht
 
 
 [Shape Object](Project.shape.md)
-[ReflectionFormat](https://msdn.microsoft.com/en-us/library/office/ff863140%28v=office.15%29)
+[ReflectionFormat](https://msdn.microsoft.com/library/office/ff863140%28v=office.15%29)
+
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

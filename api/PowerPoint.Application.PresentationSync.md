@@ -1,5 +1,5 @@
 ---
-title: Application.PresentationSync Event (PowerPoint)
+title: Application.PresentationSync event (PowerPoint)
 keywords: vbapp10.chm621022
 f1_keywords:
 - vbapp10.chm621022
@@ -8,26 +8,27 @@ api_name:
 - PowerPoint.Application.PresentationSync
 ms.assetid: 391b486e-7e92-bc90-224a-77c499cdf774
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Application.PresentationSync Event (PowerPoint)
+# Application.PresentationSync event (PowerPoint)
 
 Occurs when the local copy of a presentation that is part of a Document Workspace is synchronized with the copy on the server. Provides important status information regarding the success or failure of the synchronization of the presentation.
 
 
 ## Syntax
 
- _expression_. `PresentationSync`( `_Pres_`, `_SyncEventType_` )
+_expression_. `PresentationSync`( `_Pres_`, `_SyncEventType_` )
 
- _expression_ A variable that represents an [Application](./PowerPoint.Application.md) object.
-
-
-### Parameters
+_expression_ A variable that represents an **[Application](PowerPoint.Application.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _Pres_|Required|**Presentation**|The presentation that is being synchronized.|
 | _SyncEventType_|Required|**MsoSyncEventType**|The status of the synchronization.|
@@ -75,3 +76,4 @@ End Sub
 
 [Application Object](PowerPoint.Application.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

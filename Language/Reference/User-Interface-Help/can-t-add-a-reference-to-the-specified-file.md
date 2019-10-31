@@ -6,12 +6,13 @@ f1_keywords:
 ms.prod: office
 ms.assetid: e5a1c7f9-4689-e62e-0608-01750ad6309c
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
 # Can't add a reference to the specified file
 
-Not all [object libraries](../../Glossary/vbe-glossary.md#object-library) or[type libraries](../../Glossary/vbe-glossary.md#type-library) can be accessed by Visual Basic. This error has the following cause and solution:
+Not all [object libraries](../../Glossary/vbe-glossary.md#object-library) or [type libraries](../../Glossary/vbe-glossary.md#type-library) can be accessed by Visual Basic. This error has the following cause and solution:
 
 
 
@@ -20,3 +21,4 @@ Not all [object libraries](../../Glossary/vbe-glossary.md#object-library) or[typ
 
 For additional information, select the item in question and press F1 (in Windows) or HELP (on the Macintosh).
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

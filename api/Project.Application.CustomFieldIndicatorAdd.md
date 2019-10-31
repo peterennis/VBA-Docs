@@ -1,5 +1,5 @@
 ---
-title: Application.CustomFieldIndicatorAdd Method (Project)
+title: Application.CustomFieldIndicatorAdd method (Project)
 keywords: vbapj.chm38
 f1_keywords:
 - vbapj.chm38
@@ -8,26 +8,27 @@ api_name:
 - Project.Application.CustomFieldIndicatorAdd
 ms.assetid: dc5d071b-3cf8-fe56-df16-c5a6051142da
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Application.CustomFieldIndicatorAdd Method (Project)
+# Application.CustomFieldIndicatorAdd method (Project)
 
 Creates a test condition against the value of a custom field to determine which graphical indicator to display in place of the actual data.
 
 
 ## Syntax
 
- _expression_. `CustomFieldIndicatorAdd`( ` _FieldID_`, ` _Test_`, ` _Value_`, ` _IndicatorID_`, ` _CriteriaList_`, ` _Index_` )
+_expression_. `CustomFieldIndicatorAdd`( `_FieldID_`, `_Test_`, `_Value_`, `_IndicatorID_`, `_CriteriaList_`, `_Index_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
-
-
-### Parameters
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _FieldID_|Required|**Long**|The custom field. Can be one of the  **[PjCustomField](Project.PjCustomField.md)** constants.|
 | _Test_|Required|**Long**|The type of comparison to perform between  **Value** and the custom field specified by **FieldID**. Can be one of the **[PjComparison](Project.PjComparison.md)** constants.|
@@ -36,7 +37,7 @@ Creates a test condition against the value of a custom field to determine which 
 | _CriteriaList_|Optional|**Long**|The criteria list to which the test condition should be added. Can be one of the  **[PjCriteriaList](Project.PjCriteriaList.md)** constants. The default value is **pjCriteriaNonSummary**.|
 | _Index_|Optional|**Integer**|The position to add the test condition in the list specified by  **CriteriaList**. Tests are evaluated in ascending **Index** order. If **Index** is n + 2 or greater, where n is the number of existing tests, the test is added at n + 1. The default value is n + 1.|
 
-### Return Value
+## Return value
 
  **Boolean**
 
@@ -45,4 +46,4 @@ Creates a test condition against the value of a custom field to determine which 
 
 The  **CustomFieldIndicatorAdd** method returns a trappable error (error code 1004) if the list specified by _CriteriaList_ is read-only because it has been set to inherit values from another list.
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

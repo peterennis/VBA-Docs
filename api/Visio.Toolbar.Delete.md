@@ -1,5 +1,5 @@
 ---
-title: Toolbar.Delete Method (Visio)
+title: Toolbar.Delete method (Visio)
 keywords: vis_sdr.chm13716165
 f1_keywords:
 - vis_sdr.chm13716165
@@ -8,23 +8,24 @@ api_name:
 - Visio.Toolbar.Delete
 ms.assetid: e7da5fe0-ad12-352e-67d9-c545ddd7011c
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Toolbar.Delete Method (Visio)
+# Toolbar.Delete method (Visio)
 
 Deletes an object.
 
 
 ## Syntax
 
- _expression_. `Delete`
+_expression_.**Delete**
 
- _expression_ A variable that represents a [Toolbar](./Visio.Toolbar.md) object.
+_expression_ A variable that represents a **[Toolbar](Visio.Toolbar.md)** object.
 
 
-### Return Value
+## Return value
 
 Nothing
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

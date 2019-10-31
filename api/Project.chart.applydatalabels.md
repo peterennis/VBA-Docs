@@ -1,26 +1,25 @@
 ---
-title: Chart.ApplyDataLabels Method (Project)
+title: Chart.ApplyDataLabels method (Project)
 ms.prod: project-server
 ms.assetid: cda031a4-ed86-1ec8-583d-44767785e3a1
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Chart.ApplyDataLabels Method (Project)
+# Chart.ApplyDataLabels method (Project)
 Applies data labels to all the series in a chart.
 
 ## Syntax
 
- _expression_. `ApplyDataLabels` _(Type,_ _IMsoLegendKey,_ _AutoText,_ _HasLeaderLines,_ _ShowSeriesName,_ _ShowCategoryName,_ _ShowValue,_ _ShowPercentage,_ _ShowBubbleSize,_ _Separator)_
+_expression_.**ApplyDataLabels** (_Type,_ _IMsoLegendKey,_ _AutoText,_ _HasLeaderLines,_ _ShowSeriesName,_ _ShowCategoryName,_ _ShowValue,_ _ShowPercentage,_ _ShowBubbleSize,_ _Separator_)
 
- _expression_ A variable that represents a 'Chart' object.
-
-
-### Parameters
+_expression_ A variable that represents a **[Chart](Project.Chart.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data type**|**Description**|
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _Type_|Optional|**Office.XlDataLabelsType**|The type of data label to apply. The default value is  **xlDataLabelsShowValue**.|
 | _IMsoLegendKey_|Optional|**Variant**|**True** to show the legend key next to the point. The default value is **False**.|
@@ -33,7 +32,7 @@ Applies data labels to all the series in a chart.
 | _ShowBubbleSize_|Optional|**Variant**|**True** to enable the bubble size for the data label. **False** to disable the bubble size.|
 | _Separator_|Optional|**Variant**|The separator for the data label.|
 
-### Return value
+## Return value
 
  **Nothing**
 
@@ -60,3 +59,5 @@ End Sub
 
 
 [Chart Object](Project.chart.md)
+
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

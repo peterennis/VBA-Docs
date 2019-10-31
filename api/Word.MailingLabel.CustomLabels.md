@@ -1,5 +1,5 @@
 ---
-title: MailingLabel.CustomLabels Property (Word)
+title: MailingLabel.CustomLabels property (Word)
 keywords: vbawd10.chm152502280
 f1_keywords:
 - vbawd10.chm152502280
@@ -8,24 +8,25 @@ api_name:
 - Word.MailingLabel.CustomLabels
 ms.assetid: c4bad9e7-8da9-d469-4d49-a3b43c5cc4de
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# MailingLabel.CustomLabels Property (Word)
+# MailingLabel.CustomLabels property (Word)
 
 Returns a  **[CustomLabels](Word.customlabels.md)** collection that represents the available custom mailing labels. Read-only.
 
 
 ## Syntax
 
- _expression_. `CustomLabels`
+_expression_. `CustomLabels`
 
- _expression_ A variable that represents a '[MailingLabel](Word.MailingLabel.md)' object.
+_expression_ A variable that represents a '[MailingLabel](Word.MailingLabel.md)' object.
 
 
 ## Remarks
 
-For information about returning a single member of a collection, see [Returning an Object from a Collection](../word/Concepts/Miscellaneous/returning-an-object-from-a-collection-word.md).
+For information about returning a single member of a collection, see [Returning an object from a collection](../word/Concepts/Miscellaneous/returning-an-object-from-a-collection-word.md).
 
 
 ## Example
@@ -64,3 +65,4 @@ Application.MailingLabel.CreateNewDocument _
 
 [MailingLabel Object](Word.MailingLabel.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

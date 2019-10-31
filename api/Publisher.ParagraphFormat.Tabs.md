@@ -1,5 +1,5 @@
 ---
-title: ParagraphFormat.Tabs Property (Publisher)
+title: ParagraphFormat.Tabs property (Publisher)
 keywords: vbapb10.chm5439506
 f1_keywords:
 - vbapb10.chm5439506
@@ -7,23 +7,24 @@ ms.prod: publisher
 api_name:
 - Publisher.ParagraphFormat.Tabs
 ms.assetid: c42ba898-b84f-7215-129d-8134670f75ac
-ms.date: 06/08/2017
+ms.date: 06/12/2019
+localization_priority: Normal
 ---
 
 
-# ParagraphFormat.Tabs Property (Publisher)
+# ParagraphFormat.Tabs property (Publisher)
 
-Returns a  **[TabStops](Publisher.TabStops.md)** object representing the custom and default tabs for a paragraph or group of paragraphs.
+Returns a **[TabStops](Publisher.TabStops.md)** object representing the custom and default tabs for a paragraph or group of paragraphs.
 
 
 ## Syntax
 
- _expression_. **Tabs**
+_expression_.**Tabs**
 
- _expression_ A variable that represents a  **ParagraphFormat** object.
+_expression_ A variable that represents a **[ParagraphFormat](Publisher.ParagraphFormat.md)** object.
 
 
-### Return Value
+## Return value
 
 TabStops
 
@@ -31,7 +32,6 @@ TabStops
 ## Example
 
 The following example adds two tab stops to the selected paragraphs. The first tab stop is a left-aligned tab with a dotted tab leader positioned at 1 inch (72 points). The second tab stop is centered and is positioned at 2 inches.
-
 
 ```vb
 Dim tabsAll As TabStops 
@@ -46,4 +46,4 @@ With tabsAll
 End With
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

@@ -1,5 +1,5 @@
 ---
-title: CaptionLabel Object (Word)
+title: CaptionLabel object (Word)
 keywords: vbawd10.chm2425
 f1_keywords:
 - vbawd10.chm2425
@@ -8,17 +8,18 @@ api_name:
 - Word.CaptionLabel
 ms.assetid: 71c82dfd-6a66-e0f4-e30f-ae453c764864
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# CaptionLabel Object (Word)
+# CaptionLabel object (Word)
 
 Represents a single caption label. The  **CaptionLabel** object is a member of the **[CaptionLabels](Word.captionlabels.md)** collection. The items in the **CaptionLabels** collection are listed in the **Label** box in the **Caption** dialog box.
 
 
 ## Remarks
 
-Use  **[CaptionLabels](Word.Application.CaptionLabels.md)** (index), where index is the caption label name or index number, to return a single **CaptionLabel** object. The following example sets the numbering style for the Figure caption label.
+Use  **[CaptionLabels](Word.Application.CaptionLabels.md)** (_index_), where _index_ is the caption label name or index number, to return a single **CaptionLabel** object. The following example sets the numbering style for the Figure caption label.
 
 
 ```vb
@@ -49,7 +50,7 @@ CaptionLabels.Add Name:="Photo"
 
 
 
-|**Name**|
+|Name|
 |:-----|
 |[Delete](Word.CaptionLabel.Delete.md)|
 
@@ -57,7 +58,7 @@ CaptionLabels.Add Name:="Photo"
 
 
 
-|**Name**|
+|Name|
 |:-----|
 |[Application](Word.CaptionLabel.Application.md)|
 |[BuiltIn](Word.CaptionLabel.BuiltIn.md)|
@@ -74,4 +75,6 @@ CaptionLabels.Add Name:="Photo"
 ## See also
 
 
-[Word Object Model Reference](./overview/Word/object-model.md)
+[Word Object Model Reference](overview/Word/object-model.md)
+
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

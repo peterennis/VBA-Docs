@@ -1,24 +1,20 @@
 ---
-title: Catalog Example (VB)
+title: Catalog example (VB)
 ms.prod: access
 ms.assetid: fcd982a8-0033-8643-99b0-a1b065e445f4
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Catalog Example (VB)
-
-  
+# Catalog example (VB)
 
 **Applies to:** Access 2013 | Access 2016
 
 This Visual Basic project creates a new cube using MDX. Then, it documents the structure of a cube in a Microsoft Word document.
 
 
-
-
 ```vb
- 
 Sub cmdCreateDocForCube_Click() 
  On Error GoTo Error_cmdCreateDocForCube_Click 
  
@@ -416,9 +412,11 @@ End Sub
 
 ## See also
 
-- [Access for developers forum on MSDN](https://social.msdn.microsoft.com/Forums/office/en-US/home?forum=accessdev)
+- [Access for developers forum](https://social.msdn.microsoft.com/Forums/office/home?forum=accessdev)
 - [Access help on support.office.com](https://support.office.com/search/results?query=Access)
-- [Access help on answers.microsoft.com](https://answers.microsoft.com/en-us/msoffice/forum?page=1&;tab=question&;status=all&;auth=1)
+- [Access help on answers.microsoft.com](https://answers.microsoft.com/)
 - [Access forums on UtterAccess](http://www.utteraccess.com/forum/index.php?act=idx)
 - [Access developer and VBA programming help center (FMS)](http://www.fmsinc.com/MicrosoftAccess/developer/)
 - [Access posts on StackOverflow](https://stackoverflow.com/questions/tagged/ms-access)
+
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

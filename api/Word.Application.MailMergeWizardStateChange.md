@@ -1,5 +1,5 @@
 ---
-title: Application.MailMergeWizardStateChange Event (Word)
+title: Application.MailMergeWizardStateChange event (Word)
 keywords: vbawd10.chm4000023
 f1_keywords:
 - vbawd10.chm4000023
@@ -8,26 +8,27 @@ api_name:
 - Word.Application.MailMergeWizardStateChange
 ms.assetid: d112d3f1-7fe7-1db6-891b-917598eea2ef
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Application.MailMergeWizardStateChange Event (Word)
+# Application.MailMergeWizardStateChange event (Word)
 
 Occurs when a user changes from a specified step to a specified step in the Mail Merge Wizard.
 
 
 ## Syntax
 
- _expression_. `Private Sub object_MailMergeWizardStateChange`( `_ByVal Doc As Document_` , `_FromState As Long_` , `_ToState As Long_` , `_Handled As Boolean_` )
+_expression_.**MailMergeWizardStateChange** (_Doc_, _FromState_, _ToState_, _Handled_)
 
- _expression_ A variable that represents an '[Application](Word.Application.md)' object that has been declared with events in a class module. For information about using events with the **Application** object, see[Using Events with the Application Object](../word/Concepts/Objects-Properties-Methods/using-events-with-the-application-object-word.md).
+_expression_ A variable that represents an **[Application](Word.Application.md)** object. 
 
-
-### Parameters
-
+For information about using events with the **Application** object, see [Using events with the Application object](../word/Concepts/Objects-Properties-Methods/using-events-with-the-application-object-word.md).
 
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+## Parameters
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _Doc_|Required| **Document**|The mail merge main document.|
 | _FromState_|Required| **Long**|The Mail Merge Wizard step from which a user is moving.|
@@ -70,3 +71,4 @@ End Sub
 
 [Application Object](Word.Application.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

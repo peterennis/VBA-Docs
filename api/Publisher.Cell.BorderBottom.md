@@ -1,5 +1,5 @@
 ---
-title: Cell.BorderBottom Property (Publisher)
+title: Cell.BorderBottom property (Publisher)
 keywords: vbapb10.chm5111811
 f1_keywords:
 - vbapb10.chm5111811
@@ -7,31 +7,31 @@ ms.prod: publisher
 api_name:
 - Publisher.Cell.BorderBottom
 ms.assetid: 78892893-a1c9-5151-fb7b-1449c01e0bd4
-ms.date: 06/08/2017
+ms.date: 06/06/2019
+localization_priority: Normal
 ---
 
 
-# Cell.BorderBottom Property (Publisher)
+# Cell.BorderBottom property (Publisher)
 
-Returns a  [CellBorder](Publisher.CellBorder.md)object that represents the bottom border for a specified table cell.
+Returns a **[CellBorder](Publisher.CellBorder.md)** object that represents the bottom border for a specified table cell.
 
 
 ## Syntax
 
- _expression_. **BorderBottom**
+_expression_.**BorderBottom**
 
- _expression_ A variable that represents a  **Cell** object.
+_expression_ A variable that represents a **[Cell](Publisher.Cell.md)** object.
 
 
-### Return Value
+## Return value
 
 CellBorder
 
 
 ## Example
 
-This example creates a checkerboard design using borders and a fill color with an existing table. This assumes the first shape on page two is a table and not another type of shape and that the table has an uneven number of columns.
-
+This example creates a checkerboard design by using borders and a fill color with an existing table. This assumes that the first shape on page two is a table and not another type of shape and that the table has an uneven number of columns.
 
 ```vb
 Sub FillCellsByRow() 
@@ -77,4 +77,4 @@ Sub FillCellsByRow()
 End Sub
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

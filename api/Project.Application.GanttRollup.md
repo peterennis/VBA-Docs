@@ -1,5 +1,5 @@
 ---
-title: Application.GanttRollup Method (Project)
+title: Application.GanttRollup method (Project)
 keywords: vbapj.chm2119
 f1_keywords:
 - vbapj.chm2119
@@ -8,32 +8,33 @@ api_name:
 - Project.Application.GanttRollup
 ms.assetid: 8bb5ef38-d0c7-7425-a6ac-e50c7ae979d8
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Application.GanttRollup Method (Project)
+# Application.GanttRollup method (Project)
 
 Specifies the rollup behavior of bars on the Gantt Chart.
 
 
 ## Syntax
 
- _expression_. `GanttRollup`( ` _AlwaysRollup_`, ` _HideWhenSummaryExpanded_` )
+_expression_. `GanttRollup`( `_AlwaysRollup_`, `_HideWhenSummaryExpanded_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
-
-
-### Parameters
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _AlwaysRollup_|Optional|**Boolean**|**True** if rolled-up Gantt bars always display. The default value is **False**.|
 | _HideWhenSummaryExpanded_|Optional|**Boolean**|**True** if rolled-up Gantt bars should be hidden when summary tasks are expanded. The default value is **False**.|
 
-### Return Value
+## Return value
 
  **Boolean**
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

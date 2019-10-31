@@ -1,5 +1,5 @@
 ---
-title: Window.SelectedMasters Property (Visio)
+title: Window.SelectedMasters property (Visio)
 keywords: vis_sdr.chm11651645
 f1_keywords:
 - vis_sdr.chm11651645
@@ -8,22 +8,23 @@ api_name:
 - Visio.Window.SelectedMasters
 ms.assetid: 8a4546b4-4930-8c69-9df6-84e6b5a1bce0
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Window.SelectedMasters Property (Visio)
+# Window.SelectedMasters property (Visio)
 
  Returns an array of the masters or master shortcuts selected in a Microsoft Visio stencil window. Read-only.
 
 
 ## Syntax
 
- _expression_. `SelectedMasters`
+_expression_. `SelectedMasters`
 
- _expression_ A variable that represents a [Window](./Visio.Window.md) object.
+_expression_ A variable that represents a **[Window](Visio.Window.md)** object.
 
 
-### Return Value
+## Return value
 
 Object()
 
@@ -35,7 +36,7 @@ The  **SelectedMasters** property applies only to stencil windows. If you try to
 
 ## Example
 
-This Microsoft Visual Basic for Applications (VBA) macro uses the  **SelectedMasters** property to get the number of masters and master shortcuts selected in a stencil window and then prints the name of the stencil and the selected masters and master shortcuts in the **Immediate** window.
+This Microsoft Visual Basic for Applications (VBA) macro uses the  **SelectedMasters** property to get the number of masters and master shortcuts selected in a stencil window and then prints the name of the stencil and the selected masters and master shortcuts in the Immediate window.
 
 Before running this macro, make sure that at least one master or master shortcut is selected in a docked stencil in the active Visio window.
 
@@ -92,4 +93,4 @@ Sub SelectedMasters_Example()
 End Sub
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

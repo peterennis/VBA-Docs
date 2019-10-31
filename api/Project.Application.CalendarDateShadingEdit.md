@@ -1,5 +1,5 @@
 ---
-title: Application.CalendarDateShadingEdit Method (Project)
+title: Application.CalendarDateShadingEdit method (Project)
 keywords: vbapj.chm2343
 f1_keywords:
 - vbapj.chm2343
@@ -8,32 +8,33 @@ api_name:
 - Project.Application.CalendarDateShadingEdit
 ms.assetid: 73c8875c-fc54-ae8a-55de-f2640ac4c23a
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Application.CalendarDateShadingEdit Method (Project)
+# Application.CalendarDateShadingEdit method (Project)
 
 Changes the background color and pattern of date boxes in the Calendar view.
 
 
 ## Syntax
 
- _expression_. `CalendarDateShadingEdit`( ` _Item_`, ` _Pattern_`, ` _Color_` )
+_expression_. `CalendarDateShadingEdit`( `_Item_`, `_Pattern_`, `_Color_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
-
-
-### Parameters
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _Item_|Required|**Long**|The type of calendar day to change. Can be one of the  **[PjCalendarShading](Project.PjCalendarShading.md)** constants.|
 | _Pattern_|Optional|**Long**|The pattern for the type of date box specified by  **Item**. Can be one of the **[PjFillPattern](Project.PjFillPattern.md)** constants.|
 | _Color_|Optional|**Long**|The color for the type of date box specified by  **Item**. Can be one of the **[PjColor](Project.PjColor.md)** constants.|
 
-### Return Value
+## Return value
 
  **Boolean**
 
@@ -52,7 +53,7 @@ To edit calendar date boxes where the colors can be RGB values, use the  **[Cale
 
 ## Example
 
-The following example changes the background color of working days in the base calander to a stippled purple and the color of nonworking days to gray.
+The following example changes the background color of working days in the base calendar to a stippled purple and the color of nonworking days to gray.
 
 
 ```vb
@@ -65,4 +66,4 @@ Sub CalendarDate_ShadingEdit()
 End Sub
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

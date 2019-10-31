@@ -1,5 +1,5 @@
 ---
-title: Application.FileOpenEx Method (Project)
+title: Application.FileOpenEx method (Project)
 keywords: vbapj.chm102
 f1_keywords:
 - vbapj.chm102
@@ -8,29 +8,30 @@ api_name:
 - Project.Application.FileOpenEx
 ms.assetid: d03c13b0-c12f-1d45-bb80-26711d69a378
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Application.FileOpenEx Method (Project)
+# Application.FileOpenEx method (Project)
 
 Opens a project or imports data.
 
 
 ## Syntax
 
-_expression_. **FileOpenEx** (**_Name_**, **_ReadOnly_**, **_Merge_**, **_TaskInformation_**, **_Table_**, **_Sheet_**, **_NoAuto_**, **_UserID_**, **_DatabasePassWord_**, **_FormatID_**, **_Map_**, **_openPool_**, **_Password_**, **_WriteResPassword_**, **_IgnoreReadOnlyRecommended_**, **_XMLName_**, **_DoNotLoadFromEnterprise_**)
+_expression_.**FileOpenEx** (_Name_, _ReadOnly_, _Merge_, _TaskInformation_, _Table_, _Sheet_, _NoAuto_, _UserID_, _DatabasePassWord_, _FormatID_, _Map_, _openPool_, _Password_, _WriteResPassword_, _IgnoreReadOnlyRecommended_, _XMLName_, _DoNotLoadFromEnterprise_)
 
-_expression_ A variable that represents an **Application** object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
-### Parameters
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _Name_|Optional|**String**|The name of the project file, source file, or data source to open. If _Name_ is not specified, Project displays the **Open** dialog box.|
 | _ReadOnly_|Optional|**Boolean**|**True** if the file is opened read-only. If selectively importing data instead of loading a complete project, _ReadOnly_ is ignored.|
 | _Merge_|Optional|**Long**|Specifies whether to automatically merge the file (MPX and XMLDOM formats only) with the active project. To automatically merge XLS, CSV, or TXT file formats, you can set the merge key in the import map that you are using. The _Map_ argument should be used in place of _Merge_, which is included for backward compatibility. If _Map_ is specified, _Merge_ is ignored. Can be one of the [PjMergeType](Project.PjMergeType.md) constants. The default value is **pjDoNotMerge**.|
-| _TaskInformation_|Optional|**Boolean**|**True** if the file contains information about tasks for a project saved under a non-Project file format. **False** if the file contains information about resources. The _Map_ argument should be used in place of _TaskInformation_, which is included for backward compatibility. If _Map_ is specified, _TaskInformation_ is ignored. The default value is **True** if the active view is a task view; otherwise it is **False**.|
+| _TaskInformation_|Optional|**Boolean**|**True** if the file contains information about tasks for a project saved under a non-Project file format. **False** if the file contains information about resources. The _Map_ argument should be used in place of _TaskInformation_, which is included for backward compatibility. If _Map_ is specified, _TaskInformation_ is ignored. The default value is **True** if the active view is a task view; otherwise, it is **False**.|
 | _Table_|Optional|**String**|The name of a table in which to place the resource or task information for a project saved under a non-Project file format.  _Table_ is required if the value of the _Merge_ argument is **pjMerge**. The _Map_ argument should be used in place of _Table_, which is included for backward compatibility. If _Map_ is specified, or _Name_ specifies a database file or format, _Table_ is ignored. The default value for _Table_ is the name of the active table.|
 | _Sheet_|Optional|**String**|The sheet to read when opening a workbook created in Excel version 5.0 or later. The _Map_ argument should be used in place of _Sheet_, which is included for backward compatibility. If _Map_ is specified, or if the file specified by _Name_ is not an Excel file, _Sheet_ is ignored.|
 | _NoAuto_|Optional|**Boolean**|**True** if any **Auto_Open** macro is prevented from running. The default value is **False**.|
@@ -47,7 +48,7 @@ _expression_ A variable that represents an **Application** object.
 
 <br/>
 
-#### Format strings
+### Format strings
 
 |**Format string**|**Description**|
 |:-----|:-----|
@@ -67,7 +68,7 @@ _expression_ A variable that represents an **Application** object.
 
 
 
-### Return value
+## Return value
 
  **Boolean**
 
@@ -82,4 +83,4 @@ If you do not want to modify a project, set the _ReadOnly_ parameter to **True**
 
 The _Name_ parameter can contain a file name string or an ODBC data source name (DSN) and project name string. The syntax for a data source is <DataSourceName>\Projectname. The less than (<) and greater than (>) symbols must be included, and a backslash ( \ ) must separate the data source name from the project name. _DataSourceName_ itself can either be one of the ODBC data source names installed on the computer or a path and file name for a file-based database.
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

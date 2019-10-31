@@ -3,6 +3,7 @@ title: Prevent a Replacement Form Region from Being Used to Create a New Item or
 ms.prod: outlook
 ms.assetid: af7ea177-329f-1e96-287a-392a4780ff2a
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
@@ -14,7 +15,7 @@ ms.date: 06/08/2017
 ## To prevent a form region from being modified in the Forms Designer
 
 
-- In the form region manifest XML file, specify  **false** as the value of the **hidden** element.
+- In the form region manifest XML file, specify  **False** as the value of the **hidden** element.
     
 The following example disables a replacement form region from being used to create a new item or from being modified in the Forms Designer:
 
@@ -23,7 +24,7 @@ The following example disables a replacement form region from being used to crea
 <hidden>false</hidden>
 ```
 
+> [!NOTE] 
+> You can assign either a string value or an integer value to  **hidden**. The default value is  **False** or **0**. To prevent a form region from being used to create a new item or from being modified in the Forms Designer, assign either  **True** or **1**.
 
- **Note**  You can assign either a string value or an integer value to  **hidden**. The default value is  **false** or **0**. To prevent a form region from being used to create a new item or from being modified in the Forms Designer, assign either  **true** or **1**.
-
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

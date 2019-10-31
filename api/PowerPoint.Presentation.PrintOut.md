@@ -1,5 +1,5 @@
 ---
-title: Presentation.PrintOut Method (PowerPoint)
+title: Presentation.PrintOut method (PowerPoint)
 keywords: vbapp10.chm583034
 f1_keywords:
 - vbapp10.chm583034
@@ -8,26 +8,25 @@ api_name:
 - PowerPoint.Presentation.PrintOut
 ms.assetid: 57685390-43c1-4bd4-d2ee-ba34641e34c5
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Presentation.PrintOut Method (PowerPoint)
+# Presentation.PrintOut method (PowerPoint)
 
 Prints the specified presentation.
 
 
 ## Syntax
 
- _expression_. `PrintOut`( `_From_`, `_To_`, `_PrintToFile_`, `_Copies_`, `_Collate_` )
+_expression_.**PrintOut** (_From_, _To_, _PrintToFile_, _Copies_, _Collate_)
 
- _expression_ A variable that represents a [Presentation](./PowerPoint.Presentation.md) object.
-
-
-### Parameters
+_expression_ A variable that represents a [Presentation](PowerPoint.Presentation.md) object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _From_|Optional|**Integer**|The number of the first page to be printed. If this argument is omitted, printing starts at the beginning of the presentation. Specifying the To and From arguments sets the contents of the  **[PrintRanges](PowerPoint.PrintRanges.md)** object and sets the value of the **RangeType** property for the presentation.|
 | _To_|Optional|**Integer**|The number of the last page to be printed. If this argument is omitted, printing continues to the end of the presentation. Specifying the To and From arguments sets the contents of the  **[PrintRanges](PowerPoint.PrintRanges.md)** object and sets the value of the **RangeType** property for the presentation.|
@@ -41,14 +40,14 @@ The  _Collate_ parameter value can be one of these **MsoTriState** constants.
 
 
 
-|**Constant**|**Description**|
+|Constant|Description|
 |:-----|:-----|
 |**msoFalse**|Prints all copies of one page before printing the first copy of the next page.|
 |**msoTrue**|Prints a complete copy of the presentation before the first page of the next copy is printed.|
 
 ## Example
 
-This example prints two uncollated copies of each slide ? whether visible or hidden ? from slide two to slide five in the active presentation.
+This example prints two uncollated copies of each slide&mdash;whether visible or hidden&mdash;from slide two to slide five in the active presentation.
 
 
 ```vb
@@ -78,3 +77,4 @@ Application.ActivePresentation.PrintOut PrintToFile:="TestPrnt"
 
 [Presentation Object](PowerPoint.Presentation.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

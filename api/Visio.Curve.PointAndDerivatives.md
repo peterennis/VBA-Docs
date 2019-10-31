@@ -1,5 +1,5 @@
 ---
-title: Curve.PointAndDerivatives Method (Visio)
+title: Curve.PointAndDerivatives method (Visio)
 keywords: vis_sdr.chm15516440
 f1_keywords:
 - vis_sdr.chm15516440
@@ -8,26 +8,25 @@ api_name:
 - Visio.Curve.PointAndDerivatives
 ms.assetid: 2df3753b-f0f5-37ff-75d9-f63d6fc491dc
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Curve.PointAndDerivatives Method (Visio)
+# Curve.PointAndDerivatives method (Visio)
 
 Returns a point and its derivatives at a position along a curve's path.
 
 
 ## Syntax
 
- _expression_. `PointAndDerivatives`( `_t_` , `_n_` , `_x_` , `_y_` , `_dxdt_` , `_dydt_` , `_ddxdt_` , `_ddydt_` )
+_expression_.**PointAndDerivatives** (_t_, _n_, _x_, _y_, _dxdt_, _dydt_, _ddxdt_, _ddydt_)
 
- _expression_ A variable that represents a [Curve](./Visio.Curve.md) object.
-
-
-### Parameters
+_expression_ A variable that represents a **[Curve](Visio.Curve.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _t_|Required| **Double**|The value in the curve's parameter domain to evaluate.|
 | _n_|Required| **Integer**|0: get point; 1: point and 1st derivative; 2: point plus first and second derivative.|
@@ -38,21 +37,21 @@ Returns a point and its derivatives at a position along a curve's path.
 | _ddxdt_|Required| **Double**|Returns second derivative ( _ddx/dt_) at  _t_ if _n_> 1.|
 | _ddydt_|Required| **Double**|Returns second derivative ( _ddy/dt_) at  _t_ if _n_> 1.|
 
-### Return Value
+## Return value
 
 Nothing
 
 
 ## Remarks
 
-Use the  **PointAndDerivatives** method of the **Curve** object to obtain the coordinates of a point within the curve's parameter domain and its first and second derivatives.
+Use the **PointAndDerivatives** method of the **Curve** object to obtain the coordinates of a point within the curve's parameter domain and its first and second derivatives.
 
-A  **Curve** object is described in terms of its parameter domain, which is the range [Start(),End()]. The **PointAndDerivatives** method can be used to extrapolate the curve's path outside [Start(),End()].
+A **Curve** object is described in terms of its parameter domain, which is the range [Start(),End()]. The **PointAndDerivatives** method can be used to extrapolate the curve's path outside [Start(),End()].
 
 
 ## Example
 
-This Microsoft Visual Basic for Applications (VBA) macro draws an oval on the document's active page and then retrieves it and iterates through its  **Paths** collection and each **Path** object to display the coordinates of various points along the curve. Because the shape drawn is an oval, it contains only one path and only one **Curve** object.
+This Microsoft Visual Basic for Applications (VBA) macro draws an oval on the document's active page and then retrieves it and iterates through its **Paths** collection and each **Path** object to display the coordinates of various points along the curve. Because the shape drawn is an oval, it contains only one path and only one **Curve** object.
 
 
 ```vb
@@ -106,4 +105,4 @@ Sub PointAndDerivatives_Example()
 End Sub
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

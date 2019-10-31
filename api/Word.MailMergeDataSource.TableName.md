@@ -1,5 +1,5 @@
 ---
-title: MailMergeDataSource.TableName Property (Word)
+title: MailMergeDataSource.TableName property (Word)
 keywords: vbawd10.chm152895505
 f1_keywords:
 - vbawd10.chm152895505
@@ -8,19 +8,20 @@ api_name:
 - Word.MailMergeDataSource.TableName
 ms.assetid: 0dd6f6de-a4b3-383f-d2eb-c76539540d73
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# MailMergeDataSource.TableName Property (Word)
+# MailMergeDataSource.TableName property (Word)
 
 Returns a  **String** with the SQL query used to retrieve the records from the data source file attached to a mail merge document. Read-only.
 
 
 ## Syntax
 
- _expression_. `TableName`
+_expression_.**TableName**
 
- _expression_ A variable that represents a '[MailMergeDataSource](Word.MailMergeDataSource.md)' object.
+_expression_ A variable that represents a '[MailMergeDataSource](Word.MailMergeDataSource.md)' object.
 
 
 ## Remarks
@@ -33,7 +34,8 @@ This property may be blank if the table name is unknown or not applicable to the
 This example checks to see if the Customers table is the name of the table in the attached data source. If not, it attaches the Customers table in the Northwind database.
 
 
- **Note**  This example uses the Visual Basic  **InStr** function, which returns the position of the first character in the second string if it exists in the first string. A value of zero (0) is returned if the first string does not contain the second string. Setting the conditional value to less than one (1) indicates that the attached table is not named Customers.
+> [!NOTE] 
+> This example uses the Visual Basic  **InStr** function, which returns the position of the first character in the second string if it exists in the first string. A value of zero (0) is returned if the first string does not contain the second string. Setting the conditional value to less than one (1) indicates that the attached table is not named Customers.
 
 
 ```vb
@@ -54,3 +56,4 @@ End Sub
 
 [MailMergeDataSource Object](Word.MailMergeDataSource.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

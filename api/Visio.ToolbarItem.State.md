@@ -1,5 +1,5 @@
 ---
-title: ToolbarItem.State Property (Visio)
+title: ToolbarItem.State property (Visio)
 keywords: vis_sdr.chm13514425
 f1_keywords:
 - vis_sdr.chm13514425
@@ -8,50 +8,46 @@ api_name:
 - Visio.ToolbarItem.State
 ms.assetid: 1a3c97f0-d6bd-00d2-0caf-ac9876c533aa
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# ToolbarItem.State Property (Visio)
+# ToolbarItem.State property (Visio)
 
 Determines a button's state, pressed or not pressed. Read/write.
 
 
 ## Syntax
 
- _expression_. `State`
+_expression_.**State**
 
- _expression_ A variable that represents a [ToolbarItem](./Visio.ToolbarItem.md) object.
+_expression_ A variable that represents a **[ToolbarItem](Visio.ToolbarItem.md)** object.
 
 
-### Return Value
+## Return value
 
 Integer
 
 
 ## Remarks
 
+> [!NOTE] 
+> Starting with Visio 2010, the Microsoft Office Fluent user interface (UI) replaced the previous system of layered menus, toolbars, and task panes. VBA objects and members that you used to customize the user interface in previous versions of Visio are still available in Visio, but they function differently.
 
- **Note**  Starting with Visio, the Microsoft Office Fluent user interface (UI) replaces the previous system of layered menus, toolbars, and task panes. VBA objects and members that you used to customize the user interface in previous versions of Visio are still available in Visio, but they function differently.
+The **State** property can be one of the following constants declared by the Visio type library in **VisUIButtonState**.
 
-The  **State** property can be one of the following constants declared by the Visio type library in **VisUIButtonState** .
-
-
-
-|** Constant**|** Value**|** Description**|
+|Constant|Value|Description|
 |:-----|:-----|:-----|
 | **visButtonUp**|0|Button is not pressed|
 | **visButtonDown**|-1|Button is pressed|
 
 ## Example
 
-This example shows how to use the  **State** property to set the state of a toolbar button (make it appear pressed). The example adds a custom toolbar button to the **Standard** toolbar. Pressing the button saves the active document. This button appears in the Microsoft Visio user interface and is available while the document is active.
+This example shows how to use the **State** property to set the state of a toolbar button (make it appear pressed). The example adds a custom toolbar button to the **Standard** toolbar. Pressing the button saves the active document. This button appears in the Microsoft Visio user interface and is available while the document is active.
 
-Before running this code, replace  _path\filename_ with the full path to and name of a valid icon (.ico) file on your computer.
+Before running this code, replace `path\filename` with the full path to and name of a valid icon (.ico) file on your computer.
 
-To restore the built-in Visio toolbars after you run this macro, call the  **ThisDocument.ClearCustomToolbars** method.
-
-
-
+To restore the built-in Visio toolbars after you run this macro, call the **ThisDocument.ClearCustomToolbars** method.
 
 ```vb
  
@@ -99,7 +95,7 @@ Sub State_Example()
  vsoToolbarItem.CmdNum = visCmdFileSave 
  vsoToolbarItem.Style = visButtonIconandCaption 
  vsoToolbarItem.State = visButtonDown 
- vsoToolbarItem.IconFileName "path\filename " 
+ vsoToolbarItem.IconFileName "path\filename" 
  
  
  'Use the new UIObject object while this document is active. 
@@ -108,4 +104,4 @@ Sub State_Example()
 End Sub
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

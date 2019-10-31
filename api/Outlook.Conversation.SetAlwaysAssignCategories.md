@@ -1,5 +1,5 @@
 ---
-title: Conversation.SetAlwaysAssignCategories Method (Outlook)
+title: Conversation.SetAlwaysAssignCategories method (Outlook)
 keywords: vbaol11.chm3444
 f1_keywords:
 - vbaol11.chm3444
@@ -8,26 +8,27 @@ api_name:
 - Outlook.Conversation.SetAlwaysAssignCategories
 ms.assetid: 9b19f083-3aa9-8a0b-ea91-ff52fe46ad35
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Conversation.SetAlwaysAssignCategories Method (Outlook)
+# Conversation.SetAlwaysAssignCategories method (Outlook)
 
 Applies one or more categories to all existing items and future items of the conversation.
 
 
 ## Syntax
 
- _expression_. `SetAlwaysAssignCategories`( `_Categories_` , `_Store_` )
+_expression_. `SetAlwaysAssignCategories`( `_Categories_` , `_Store_` )
 
- _expression_ A variable that represents a '[Conversation](Outlook.Conversation.md)' object.
-
-
-### Parameters
+_expression_ A variable that represents a '[Conversation](Outlook.Conversation.md)' object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _Categories_|Required| **String**|A comma-delimited string of one or more category names that are always assigned to all items in the conversation.|
 | _Store_|Required| **[Store](Outlook.Store.md)**|The store in which items of the conversation should always be assigned the categories specified by the  _Categories_ parameter.|
@@ -42,7 +43,7 @@ To determine existing master categories for the current user, examine the  **[Ca
 
 To determine the existing categories that are always assigned to items of the conversation in the specified store, use the  **[GetAlwaysAssignCategories](Outlook.Conversation.GetAlwaysAssignCategories.md)** method.
 
-If  **SetAlwaysAssignCategories** is called more than once, the result is cumulative. For example, if you call **SetAlwaysAssignCategories** specifying the category ?Important? and then call **SetAlwaysAssignCategories** again specifying the categories "Business" and "Social", the categories that are always assigned are "Important", "Business", and "Social".
+If  **SetAlwaysAssignCategories** is called more than once, the result is cumulative. For example, if you call **SetAlwaysAssignCategories** specifying the category "Important" and then call **SetAlwaysAssignCategories** again specifying the categories "Business" and "Social", the categories that are always assigned are "Important", "Business", and "Social".
 
 To stop the action of always assigning categories, use the  **[ClearAlwaysAssignCategories](Outlook.Conversation.ClearAlwaysAssignCategories.md)** method. After the **ClearAlwaysAssignCategories** method has been called, **GetAlwaysAssignCategories** returns an empty string.
 
@@ -78,3 +79,4 @@ End Sub
 
 [Conversation Object](Outlook.Conversation.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

@@ -1,5 +1,5 @@
 ---
-title: AcSpreadSheetType Enumeration (Access)
+title: AcSpreadSheetType enumeration (Access)
 keywords: vbaac10.chm10032
 f1_keywords:
 - vbaac10.chm10032
@@ -8,16 +8,17 @@ api_name:
 - Access.AcSpreadSheetType
 ms.assetid: 76a567c8-5f12-633f-5433-117135dd6ccd
 ms.date: 06/08/2017
+localization_priority: Priority
 ---
 
 
-# AcSpreadSheetType Enumeration (Access)
+# AcSpreadSheetType enumeration (Access)
 
 Used with the [TransferSpreadsheet](Access.DoCmd.TransferSpreadsheet.md) method to specify the type of spreadsheet to import from, export to, or link to.
 
+<br/>
 
-
-|**Name**|**Value**|**Description**|
+|Name|Value|Description|
 |:-----|:-----|:-----|
 |**acSpreadsheetTypeExcel3**|0|Microsoft Excel 3.0 format|
 |**acSpreadsheetTypeExcel4**|6|Microsoft Excel 4.0 format|
@@ -28,3 +29,4 @@ Used with the [TransferSpreadsheet](Access.DoCmd.TransferSpreadsheet.md) method 
 |**acSpreadsheetTypeExcel12**|9|Microsoft Excel 2010 format|
 |**acSpreadsheetTypeExcel12Xml**|10|Microsoft Excel 2010/2013/2016 XML format (.xlsx, .xlsm, .xlsb)|
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

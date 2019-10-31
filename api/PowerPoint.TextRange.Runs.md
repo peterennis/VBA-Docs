@@ -1,5 +1,5 @@
 ---
-title: TextRange.Runs Method (PowerPoint)
+title: TextRange.Runs method (PowerPoint)
 keywords: vbapp10.chm569015
 f1_keywords:
 - vbapp10.chm569015
@@ -8,31 +8,32 @@ api_name:
 - PowerPoint.TextRange.Runs
 ms.assetid: 0bf2724a-0735-bd79-31e5-894d1320b9b2
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# TextRange.Runs Method (PowerPoint)
+# TextRange.Runs method (PowerPoint)
 
 Returns a  **TextRange** object that represents the specified subset of text runs. A text run consists of a range of characters that share the same font attributes.
 
 
 ## Syntax
 
- _expression_. `Runs`( `_Start_`, `_Length_` )
+_expression_. `Runs`( `_Start_`, `_Length_` )
 
- _expression_ A variable that represents a [TextRange](./PowerPoint.TextRange.md) object.
-
-
-### Parameters
+_expression_ A variable that represents a [TextRange](PowerPoint.TextRange.md) object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _Start_|Optional|**Long**|The first run in the returned range.|
 | _Length_|Optional|**Long**|The number of runs to be returned.|
 
-### Return Value
+## Return value
 
 TextRange
 
@@ -84,3 +85,4 @@ End With
 
 [TextRange Object](PowerPoint.TextRange.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

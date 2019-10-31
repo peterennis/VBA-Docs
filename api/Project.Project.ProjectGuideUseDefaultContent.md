@@ -1,5 +1,5 @@
 ---
-title: Project.ProjectGuideUseDefaultContent Property (Project)
+title: Project.ProjectGuideUseDefaultContent property (Project)
 keywords: vbapj.chm131090
 f1_keywords:
 - vbapj.chm131090
@@ -8,25 +8,27 @@ api_name:
 - Project.Project.ProjectGuideUseDefaultContent
 ms.assetid: 6105b6f4-1508-8289-32e2-4dcbbf4dd4d1
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Project.ProjectGuideUseDefaultContent Property (Project)
+# Project.ProjectGuideUseDefaultContent property (Project)
 
  **True** if the Project Guide uses the default content. **False** if you want to use custom content for the Project Guide. Read/write **Boolean**.
 
 
 ## Syntax
 
- _expression_. `ProjectGuideUseDefaultContent`
+_expression_. `ProjectGuideUseDefaultContent`
 
- _expression_ A variable that represents a [Project](./Project(enumerations).md) object.
+_expression_ A variable that represents a **[Project](project.project.md)** object.
 
 
 ## Remarks
 
 
- **Note**  The Project Guide is deprecated in Project. Instead of the Project Guide, we recommend that you create task pane apps.
+> [!NOTE] 
+> The Project Guide is deprecated in Project. Instead of the Project Guide, we recommend that you create task pane apps.
 
 However, you can still use custom Project Guides and get the default Project Guide files from the Project SDK download. The Project Guide files are modified for access in a flat folder structure and to remove the  `gbui://` protocol (**gbui** is the goal-based user interface protocol in Office Project 2007 and previous versions). All Project Guide settings must be made programmatically.
 
@@ -40,7 +42,8 @@ The following code sample changes the default content for the Project Guide to t
 
 
 
- **Note**  Before running this macro, change path to an example path you would like to use, and change filename to the name of an example file, such as custom.xml.
+> [!NOTE] 
+> Before running this macro, change path to an example path you would like to use, and change filename to the name of an example file, such as custom.xml.
 
 
 
@@ -69,4 +72,4 @@ Sub UseCustomProjectGuide()
 End Sub
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

@@ -1,5 +1,5 @@
 ---
-title: TaskDependency.Lag Property (Project)
+title: TaskDependency.Lag property (Project)
 keywords: vbapj.chm132365
 f1_keywords:
 - vbapj.chm132365
@@ -8,19 +8,20 @@ api_name:
 - Project.TaskDependency.Lag
 ms.assetid: d3370ea3-5485-24d5-e363-ec4b5a0ec95b
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# TaskDependency.Lag Property (Project)
+# TaskDependency.Lag property (Project)
 
 The duration of lag time between linked tasks. Read/write  **Variant**.
 
 
 ## Syntax
 
- _expression_. `Lag`
+_expression_. `Lag`
 
- _expression_ A variable that represents a [TaskDependency](./Project.TaskDependency.md) object.
+_expression_ A variable that represents a [TaskDependency](./Project.TaskDependency.md) object.
 
 
 ## Remarks
@@ -30,7 +31,7 @@ To specify lead time between tasks, use a negative value. String values default 
 
 ## Example
 
-To use the  **SetLagWeeks** macro, create two tasks, where Task 2 is linked to Task 1. When you run the macro, the **Immediate** window shows 4800 and 9, where the lag time is 4800 minutes and the type of lag is 9 (**pjWeeks**).
+To use the  **SetLagWeeks** macro, create two tasks, where Task 2 is linked to Task 1. When you run the macro, the Immediate window shows 4800 and 9, where the lag time is 4800 minutes and the type of lag is 9 (**pjWeeks**).
 
 
 ```vb
@@ -45,4 +46,4 @@ Sub SetLagWeeks()
 End Sub
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

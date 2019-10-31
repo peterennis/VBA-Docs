@@ -1,24 +1,19 @@
 ---
-title: Stream (Visual C++ Syntax Index with import)
+title: Stream (Visual C++ syntax index with import)
 ms.prod: access
 ms.assetid: a3188858-9c0d-aff6-c893-2111aee77383
-ms.date: 06/08/2017
+ms.date: 10/12/2018
+localization_priority: Normal
 ---
 
 
-# Stream (Visual C++ Syntax Index with #import)
-
-  
+# Stream (Visual C++ syntax index with #import)
 
 **Applies to:** Access 2013 | Access 2016
 
- **Methods**
+## Methods
 
-
-
-
-```c#
- 
+```cs
 HRESULT Invalid DDUE based on source, error:link not allowed in code, link filename:mdmthadocancel_HV10294125.xml( ); 
  
 HRESULT Invalid DDUE based on source, error:link not allowed in code, link filename:mdmthclose_HV10294173.xml( ); 
@@ -29,7 +24,7 @@ HRESULT Invalid DDUE based on source, error:link not allowed in code, link filen
  
 HRESULT Invalid DDUE based on source, error:link not allowed in code, link filename:mdmthloadfromfile_HV10294485.xml( _bstr_t FileName ); 
  
-HRESULT Invalid DDUE based on source, error:link not allowed in code, link filename:mdmthopenstream_HV10294567.xml( const _variant_t &; Source , enum 
+HRESULT Invalid DDUE based on source, error:link not allowed in code, link filename:mdmthopenstream_HV10294567.xml( const _variant_t & Source , enum 
  ConnectModeEnum Mode , enum StreamOpenOptionsEnum Options , _bstr_t 
  UserName , _bstr_t Password ); 
  
@@ -43,18 +38,15 @@ HRESULT Invalid DDUE based on source, error:link not allowed in code, link filen
  
 HRESULT Invalid DDUE based on source, error:link not allowed in code, link filename:mdmthskipline_HV10294780.xml( ); 
  
-HRESULT Invalid DDUE based on source, error:link not allowed in code, link filename:mdmthwrite_HV10294958.xml( const _variant_t &; Buffer ); 
+HRESULT Invalid DDUE based on source, error:link not allowed in code, link filename:mdmthwrite_HV10294958.xml( const _variant_t & Buffer ); 
  
 HRESULT Invalid DDUE based on source, error:link not allowed in code, link filename:mdmthwritetext_HV10294959.xml( _bstr_t Data , enum StreamWriteEnumOptions ); 
 
 ```
 
- **Properties**
+## Properties
 
-
-
-```c#
- 
+```cs
 _bstr_t GetCharset( ); 
 void PutCharset( _bstr_t pbstrCharset ); 
 __declspec(property(get=GetCharset,put=PutCharset)) _bstr_t Invalid DDUE based on source, error:link not allowed in code, link filename:mdprocharset_HV10294162.xml; 
@@ -89,9 +81,11 @@ __declspec(property(get=GetType,put=PutType)) enum StreamTypeEnum Invalid DDUE b
 
 ## See also
 
-- [Access for developers forum on MSDN](https://social.msdn.microsoft.com/Forums/office/en-US/home?forum=accessdev)
+- [Access for developers forum](https://social.msdn.microsoft.com/Forums/office/home?forum=accessdev)
 - [Access help on support.office.com](https://support.office.com/search/results?query=Access)
-- [Access help on answers.microsoft.com](https://answers.microsoft.com/en-us/msoffice/forum?page=1&;tab=question&;status=all&;auth=1)
+- [Access help on answers.microsoft.com](https://answers.microsoft.com/)
 - [Access forums on UtterAccess](http://www.utteraccess.com/forum/index.php?act=idx)
 - [Access developer and VBA programming help center (FMS)](http://www.fmsinc.com/MicrosoftAccess/developer/)
 - [Access posts on StackOverflow](https://stackoverflow.com/questions/tagged/ms-access)
+
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

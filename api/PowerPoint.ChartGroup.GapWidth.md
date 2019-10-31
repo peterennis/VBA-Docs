@@ -1,5 +1,5 @@
 ---
-title: ChartGroup.GapWidth Property (PowerPoint)
+title: ChartGroup.GapWidth property (PowerPoint)
 keywords: vbapp10.chm692011
 f1_keywords:
 - vbapp10.chm692011
@@ -8,19 +8,20 @@ api_name:
 - PowerPoint.ChartGroup.GapWidth
 ms.assetid: aca7a9a3-f1e4-3401-062e-31d3fbb6a8b0
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# ChartGroup.GapWidth Property (PowerPoint)
+# ChartGroup.GapWidth property (PowerPoint)
 
 For bar and column charts, returns or sets the space, as a percentage of the bar or column width, between bar or column clusters. For pie-of-pie and bar-of-pie charts, returns or sets the space between the primary and secondary sections of the chart. Read/write  **Long**.
 
 
 ## Syntax
 
- _expression_. `GapWidth`
+_expression_.**GapWidth**
 
- _expression_ A variable that represents a '[ChartGroup](PowerPoint.ChartGroup.md)' object.
+_expression_ A variable that represents a **[ChartGroup](PowerPoint.ChartGroup.md)** object.
 
 
 ## Remarks
@@ -33,7 +34,8 @@ The value of this property must be between 0 and 500.
 
 
 
- **Note**  Although the following code applies to Microsoft Word, you can readily modify it to apply to PowerPoint.
+> [!NOTE] 
+> Although the following code applies to Microsoft Word, you can readily modify it to apply to PowerPoint.
 
 The following example sets the space between column clusters for the first chart in the active document to be 50 percent of the column width.
 
@@ -58,3 +60,4 @@ End With
 
 [ChartGroup Object](PowerPoint.ChartGroup.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

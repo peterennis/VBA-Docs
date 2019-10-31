@@ -1,5 +1,5 @@
 ---
-title: OlkListBox.RemoveItem Method (Outlook)
+title: OlkListBox.RemoveItem method (Outlook)
 keywords: vbaol11.chm1000277
 f1_keywords:
 - vbaol11.chm1000277
@@ -8,26 +8,27 @@ api_name:
 - Outlook.OlkListBox.RemoveItem
 ms.assetid: fe7bc0c4-d607-e4d1-b304-48b08f9c1e7a
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# OlkListBox.RemoveItem Method (Outlook)
+# OlkListBox.RemoveItem method (Outlook)
 
 Removes the specified item from the list.
 
 
 ## Syntax
 
- _expression_. `RemoveItem`( `_Index_` )
+_expression_.**RemoveItem** (_Index_)
 
- _expression_ A variable that represents an [OlkListBox](./Outlook.OlkListBox.md) object.
-
-
-### Parameters
+_expression_ A variable that represents an [OlkListBox](Outlook.OlkListBox.md) object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _Index_|Required| **Long**|A zero-based value indexing into the array of items in the list.|
 
@@ -41,3 +42,4 @@ If  _Index_ is outside the range of the allowed values (between zero and **[List
 
 [OlkListBox Object](Outlook.OlkListBox.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

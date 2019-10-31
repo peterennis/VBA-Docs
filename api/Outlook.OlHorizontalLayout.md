@@ -1,5 +1,5 @@
 ---
-title: OlHorizontalLayout Enumeration (Outlook)
+title: OlHorizontalLayout enumeration (Outlook)
 keywords: vbaol11.chm1000538
 f1_keywords:
 - vbaol11.chm1000538
@@ -8,19 +8,21 @@ api_name:
 - Outlook.OlHorizontalLayout
 ms.assetid: 97d132c7-658a-28d4-b0e4-4352e5341987
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# OlHorizontalLayout Enumeration (Outlook)
+# OlHorizontalLayout enumeration (Outlook)
 
 Specifies the alignment of controls in the horizontal direction.
 
 
 
-|**Name**|**Value**|**Description**|
+|Name|Value|Description|
 |:-----|:-----|:-----|
 | **olHorizontalLayoutAlignCenter**|1|Align controls horizontally by the center of each control.|
 | **olHorizontalLayoutGrow**|3|Resize control horizontally with the form.|
 | **olHorizontalLayoutAlignLeft**|0|Align controls horizontally by the left edge of each control.|
 | **olHorizontalLayoutAlignRight**|2|Align controls horizontally by the right edge of each control.|
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

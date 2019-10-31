@@ -1,5 +1,5 @@
 ---
-title: CalloutFormat.Length Property (Word)
+title: CalloutFormat.Length property (Word)
 keywords: vbawd10.chm163905644
 f1_keywords:
 - vbawd10.chm163905644
@@ -8,26 +8,27 @@ api_name:
 - Word.CalloutFormat.Length
 ms.assetid: 60b80a93-7a31-c4f6-57ab-445d788f6cbd
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# CalloutFormat.Length Property (Word)
+# CalloutFormat.Length property (Word)
 
-Returns the length (in points) of the first segment of the callout line (the segment attached to the text callout box). Read-only  **Single** .
+Returns the length (in points) of the first segment of the callout line (the segment attached to the text callout box). Read-only **Single**.
 
 
 ## Syntax
 
- _expression_. `Length`
+_expression_.**Length**
 
- _expression_ An expression that returns a '[CalloutFormat](Word.CalloutFormat.md)' object.
+_expression_ An expression that returns a **[CalloutFormat](Word.CalloutFormat.md)** object.
 
 
 ## Remarks
 
-The  **Length** property returns a value only when the **[AutoLength](Word.CalloutFormat.AutoLength.md)** property of the specified callout is set to **False** and applies only to callouts whose lines consist of more than one segment (types **msoCalloutThree** and **msoCalloutFour**).
+The **Length** property returns a value only when the **[AutoLength](Word.CalloutFormat.AutoLength.md)** property of the specified callout is set to **False** and applies only to callouts whose lines consist of more than one segment (types **msoCalloutThree** and **msoCalloutFour**).
 
-This property is read-only. Use the  **[CustomLength](Word.CalloutFormat.CustomLength.md)** method to set the value of this property for the **[CalloutFormat](Word.CalloutFormat.md)** object.
+This property is read-only. Use the **[CustomLength](Word.CalloutFormat.CustomLength.md)** method to set the value of this property for the **[CalloutFormat](Word.CalloutFormat.md)** object.
 
 
 ## Example
@@ -53,3 +54,4 @@ End With
 
 [CalloutFormat Object](Word.CalloutFormat.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

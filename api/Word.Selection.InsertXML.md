@@ -1,5 +1,5 @@
 ---
-title: Selection.InsertXML Method (Word)
+title: Selection.InsertXML method (Word)
 keywords: vbawd10.chm158663684
 f1_keywords:
 - vbawd10.chm158663684
@@ -8,31 +8,32 @@ api_name:
 - Word.Selection.InsertXML
 ms.assetid: 7a9e52b5-9b05-f939-6fd0-33a923989f48
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Selection.InsertXML Method (Word)
+# Selection.InsertXML method (Word)
 
 Inserts the specified XML into the document at the cursor, replacing any selected text.
 
 
 ## Syntax
 
- _expression_. `InsertXML`( `_XML_` , `_Transform_` )
+_expression_. `InsertXML`( `_XML_` , `_Transform_` )
 
  _expression_ An expression that returns a [Selection](./Word.Selection.md) object.
 
 
-### Parameters
+## Parameters
 
 
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _XML_|Required| **String**|Specifies the XML to insert. This can be any valid custom XML.|
 | _Transform_|Optional| **Variant**|Specifies the XML Transformation (XSLT) used to transform the XML. If omitted, the XML is inserted as custom XML without applying a transform.|
 
-### Return Value
+## Return value
 
 Nothing
 
@@ -45,7 +46,7 @@ The following example inserts the specified XML string into the document at the 
 ```vb
 Dim strXML As String 
  
-strXML = "<?xml version=""1.0""?><abc:books xmlns:abc=""urn:books"" " & _ 
+strXML = "<"xml version=""1.0""><abc:books xmlns:abc=""urn:books"" " & _ 
  "xmlns:xsi=""https://www.w3.org/2001/XMLSchema-instance"" " & _ 
  "xsi:schemaLocation=""urn:books books.xsd""><book>" & _ 
  "<author>Matt Hink</author><title>Migration Paths of the Red " & _ 
@@ -65,3 +66,4 @@ Selection.InsertXML strXML
 
 [Selection Object](Word.Selection.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

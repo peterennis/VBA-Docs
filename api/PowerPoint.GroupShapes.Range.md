@@ -1,5 +1,5 @@
 ---
-title: GroupShapes.Range Method (PowerPoint)
+title: GroupShapes.Range method (PowerPoint)
 keywords: vbapp10.chm549005
 f1_keywords:
 - vbapp10.chm549005
@@ -8,30 +8,31 @@ api_name:
 - PowerPoint.GroupShapes.Range
 ms.assetid: d7273a15-71f2-2e50-a481-055e8cc39e1f
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# GroupShapes.Range Method (PowerPoint)
+# GroupShapes.Range method (PowerPoint)
 
 Returns a  **ShapeRange** object.
 
 
 ## Syntax
 
- _expression_. `Range`( `_Index_` )
+_expression_.**Range** (_Index_)
 
- _expression_ A variable that represents a [GroupShapes](./PowerPoint.GroupShapes.md) object.
-
-
-### Parameters
+_expression_ A variable that represents a [GroupShapes](PowerPoint.GroupShapes.md) object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _Index_|Required|**Variant**|The individual shapes that are to be included in the range. Can be an  **Integer** that specifies the index number of the shape, a **String** that specifies the name of the shape, or an array that contains either integers or strings. If this argument is omitted, the **Range** method returns all the objects in the specified collection.|
 
-### Return Value
+## Return value
 
 ShapeRange
 
@@ -50,3 +51,4 @@ To specify an array of integers or strings for  **Index**, you can use the **Arr
 
 [GroupShapes Object](PowerPoint.GroupShapes.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

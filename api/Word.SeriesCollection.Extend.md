@@ -1,5 +1,5 @@
 ---
-title: SeriesCollection.Extend Method (Word)
+title: SeriesCollection.Extend method (Word)
 keywords: vbawd10.chm150405347
 f1_keywords:
 - vbawd10.chm150405347
@@ -8,26 +8,25 @@ api_name:
 - Word.SeriesCollection.Extend
 ms.assetid: 6358fc57-394c-4982-c9b4-8ed2b256f5ea
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# SeriesCollection.Extend Method (Word)
+# SeriesCollection.Extend method (Word)
 
 Adds new data points to an existing series collection.
 
 
 ## Syntax
 
- _expression_. `Extend`( `_Source_` , `_Rowcol_` , `_CategoryLabels_` )
+_expression_.**Extend** (_Source_, _Rowcol_, _CategoryLabels_)
 
- _expression_ A variable that represents a '[SeriesCollection](Word.SeriesCollection.md)' object.
-
-
-### Parameters
+_expression_ A variable that represents a **[SeriesCollection](Word.SeriesCollection.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _Source_|Required| **Variant**|The new data to be added to the  **SeriesCollection** object, represented as an A1-style range reference.|
 | _Rowcol_|Optional| **Variant**|One of the  **[XlRowCol](Word.xlrowcol.md)** enumeration values that specifies whether the new values are in the rows or columns of the given range source. If this argument is omitted, Microsoft Word attempts to determine where the values are by the size and orientation of the selected range or by the dimensions of the array.|
@@ -58,3 +57,4 @@ End With
 
 [SeriesCollection Object](Word.SeriesCollection.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

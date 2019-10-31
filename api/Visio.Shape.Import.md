@@ -1,5 +1,5 @@
 ---
-title: Shape.Import Method (Visio)
+title: Shape.Import method (Visio)
 keywords: vis_sdr.chm11216355
 f1_keywords:
 - vis_sdr.chm11216355
@@ -8,30 +8,31 @@ api_name:
 - Visio.Shape.Import
 ms.assetid: 07c858ee-0bbc-5ac1-37be-1e853cdf2361
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Shape.Import Method (Visio)
+# Shape.Import method (Visio)
 
 Imports a file into the current document.
 
 
 ## Syntax
 
- _expression_. `Import`( `_FileName_` )
+_expression_.**Import** (_FileName_)
 
- _expression_ A variable that represents a [Shape](./Visio.Shape.md) object.
-
-
-### Parameters
+_expression_ A variable that represents a **[Shape](Visio.Shape.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _FileName_|Required| **String**|The name of the file to import; must be a fully qualified path.|
 
-### Return Value
+## Return value
 
 Shape
 
@@ -56,4 +57,4 @@ Public Sub Import_Example()
 End Sub
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

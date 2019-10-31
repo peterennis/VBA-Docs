@@ -1,5 +1,5 @@
 ---
-title: Application.AppSize Method (Project)
+title: Application.AppSize method (Project)
 keywords: vbapj.chm2012
 f1_keywords:
 - vbapj.chm2012
@@ -8,32 +8,33 @@ api_name:
 - Project.Application.AppSize
 ms.assetid: 31183106-d66d-235d-608c-02d3844c0e1b
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Application.AppSize Method (Project)
+# Application.AppSize method (Project)
 
 Sets the width and height of the main window.
 
 
 ## Syntax
 
- _expression_. `AppSize`( ` _Width_`, ` _Height_`, ` _Points_` )
+_expression_. `AppSize`( `_Width_`, `_Height_`, `_Points_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
-
-
-### Parameters
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _Width_|Optional|**Long**|A number that specifies the new width of the main window.|
 | _Height_|Optional|**Long**|A number that specifies the new height of the main window.|
 | _Points_|Optional|**Boolean**|**True** if **Width** and **Height** are measured in points. **False** if they are measured in pixels. The default value is **False**.|
 
-### Return Value
+## Return value
 
  **Boolean**
 
@@ -60,4 +61,4 @@ Sub MoveMainWindowToLeftHalf()
 End Sub
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

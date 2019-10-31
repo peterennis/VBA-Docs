@@ -1,5 +1,5 @@
 ---
-title: UsedObjects.Count Property (Excel)
+title: UsedObjects.Count property (Excel)
 keywords: vbaxl10.chm678073
 f1_keywords:
 - vbaxl10.chm678073
@@ -7,24 +7,23 @@ ms.prod: excel
 api_name:
 - Excel.UsedObjects.Count
 ms.assetid: f40380a8-602c-3d4b-b288-c791a4b9c35b
-ms.date: 06/08/2017
+ms.date: 05/18/2019
+localization_priority: Normal
 ---
 
 
-# UsedObjects.Count Property (Excel)
+# UsedObjects.Count property (Excel)
 
-Returns a  **Long** value that represents the number of objects in the collection.
+Returns a **Long** value that represents the number of objects in the collection.
 
 
 ## Syntax
 
- _expression_. `Count`
+_expression_.**Count**
 
- _expression_ A variable that represents an [UsedObjects](./Excel.UsedObjects.md) object.
-
-
-## See also
+_expression_ A variable that represents a **[UsedObjects](Excel.UsedObjects.md)** object.
 
 
-[UsedObjects Object](Excel.UsedObjects.md)
 
+
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

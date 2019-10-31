@@ -1,5 +1,5 @@
 ---
-title: DocumentLibraryVersion.Comments Property (Office)
+title: DocumentLibraryVersion.Comments property (Office)
 keywords: vbaof11.chm277021
 f1_keywords:
 - vbaof11.chm277021
@@ -7,20 +7,21 @@ ms.prod: office
 api_name:
 - Office.DocumentLibraryVersion.Comments
 ms.assetid: ce99f474-527a-4895-c360-7e5d02435655
-ms.date: 06/08/2017
+ms.date: 01/08/2019
+localization_priority: Normal
 ---
 
 
-# DocumentLibraryVersion.Comments Property (Office)
+# DocumentLibraryVersion.Comments property (Office)
 
 Gets any optional comments associated with the specified version of the shared document. Read-only.
 
 
 ## Syntax
 
- _expression_. `Comments`
+_expression_.**Comments**
 
- _expression_ A variable that represents a [DocumentLibraryVersion](./Office.DocumentLibraryVersion.md) object.
+_expression_ A variable that represents a **[DocumentLibraryVersion](Office.DocumentLibraryVersion.md)** object.
 
 
 ## Remarks
@@ -39,14 +40,14 @@ The following example lists comments and other properties for each version of a 
  Dim strVersionInfo As String 
  Set dlvVersions = ActiveDocument.DocumentLibraryVersions 
  If dlvVersions.IsVersioningEnabled Then 
- strVersionInfo = "This document has " &amp; _ 
- dlvVersions.Count &amp; " versions: " &amp; vbCrLf 
+ strVersionInfo = "This document has " & _ 
+ dlvVersions.Count & " versions: " & vbCrLf 
  For Each dlvVersion In dlvVersions 
- strVersionInfo = strVersionInfo &amp; _ 
- " - Version #: " &amp; dlvVersion.Index &amp; vbCrLf &amp; _ 
- " - Modified by: " &amp; dlvVersion.ModifiedBy &amp; vbCrLf &amp; _ 
- " - Modified on: " &amp; dlvVersion.Modified &amp; vbCrLf &amp; _ 
- " - Comments: " &amp; dlvVersion.Comments &amp; vbCrLf 
+ strVersionInfo = strVersionInfo & _ 
+ " - Version #: " & dlvVersion.Index & vbCrLf & _ 
+ " - Modified by: " & dlvVersion.ModifiedBy & vbCrLf & _ 
+ " - Modified on: " & dlvVersion.Modified & vbCrLf & _ 
+ " - Comments: " & dlvVersion.Comments & vbCrLf 
  Next 
  Else 
  strVersionInfo = "Versioning not enabled for this document." 
@@ -59,10 +60,6 @@ The following example lists comments and other properties for each version of a 
 
 ## See also
 
+- [DocumentLibraryVersion object members](overview/library-reference/documentlibraryversion-members-office.md)
 
-[DocumentLibraryVersion Object](Office.DocumentLibraryVersion.md)
-
-
-
-[DocumentLibraryVersion Object Members](./overview/Library-Reference/documentlibraryversion-members-office.md)
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

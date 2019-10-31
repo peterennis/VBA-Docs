@@ -1,17 +1,18 @@
 ---
-title: Find the Number of Working Days Between Two Dates
+title: Find the number of working days between two dates
 ms.prod: access
 ms.assetid: 2831d409-1b10-06ef-54ec-9c3386e70021
-ms.date: 06/08/2017
+ms.date: 09/21/2018
+localization_priority: Normal
 ---
 
 
-# Find the Number of Working Days Between Two Dates
+# Find the number of working days between two dates
 
 Access does not have a built-in function to determine the number of working days between two dates. The following user-defined function illustrates how to calculate the number of working days between two dates. 
 
-
- **Note**  This function does not account for holidays.
+> [!NOTE] 
+> This function does not account for holidays.
 
 
 ```vb
@@ -57,4 +58,4 @@ Exit Function
 End Function
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

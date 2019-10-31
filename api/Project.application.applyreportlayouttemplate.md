@@ -1,34 +1,35 @@
 ---
-title: Application.ApplyReportLayoutTemplate Method (Project)
+title: Application.ApplyReportLayoutTemplate method (Project)
 keywords: vbapj.chm1524
 f1_keywords:
 - vbapj.chm1524
 ms.prod: project-server
 ms.assetid: cbc233c9-b955-3cd2-b1b8-99e4257bfea0
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Application.ApplyReportLayoutTemplate Method (Project)
+# Application.ApplyReportLayoutTemplate method (Project)
 Applies the specified report template to the active report.
 
 ## Syntax
 
- _expression_. `ApplyReportLayoutTemplate` _(TemplateId)_
+_expression_. `ApplyReportLayoutTemplate` _(TemplateId)_
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
-
-
-### Parameters
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _TemplateId_|Optional|**[PjReportLayoutTemplateId](Project.pjreportlayouttemplateid.md)**|Specifies the kind of report; can be one of the following constants:  **pjReportLayoutComparison**,  **pjReportLayoutTitleAndChart**,  **pjReportLayoutTitleAndTable**, or  **pjReportLayoutTitleOnly**.|
 | _TemplateId_|Optional|PJREPORTLAYOUTTEMPLATEID||
 
-### Return value
+## Return value
 
  **Boolean**
 
@@ -74,3 +75,5 @@ End Sub
 
 [Report Object](Project.report.md)
 [PjReportLayoutTemplateId Enumeration](Project.pjreportlayouttemplateid.md)
+
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

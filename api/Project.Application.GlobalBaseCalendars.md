@@ -1,5 +1,5 @@
 ---
-title: Application.GlobalBaseCalendars Property (Project)
+title: Application.GlobalBaseCalendars property (Project)
 keywords: vbapj.chm132295
 f1_keywords:
 - vbapj.chm132295
@@ -8,19 +8,20 @@ api_name:
 - Project.Application.GlobalBaseCalendars
 ms.assetid: 98a498f9-e040-9b00-e84a-806a8a17a181
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Application.GlobalBaseCalendars Property (Project)
+# Application.GlobalBaseCalendars property (Project)
 
 Gets or sets a  **[Calendars](Project.Calendar.md)** collection representing the base calendars of the Global.mpt file. Read/write **Calendars**.
 
 
 ## Syntax
 
- _expression_. `GlobalBaseCalendars`
+_expression_. `GlobalBaseCalendars`
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Remarks
@@ -35,7 +36,8 @@ To enable creating local base calendars in an enterprise project, check  **Allow
 The following example creates a local base calendar and then imports the calendar to the enterprise global template.
 
 
- **Note**  The  **GlobalBaseCalendars** property is the collection of calendars in the local Global.mpt file, not in the enterprise global template.
+> [!NOTE] 
+> The  **GlobalBaseCalendars** property is the collection of calendars in the local Global.mpt file, not in the enterprise global template.
 
 
 ```vb
@@ -53,4 +55,4 @@ Sub CreateEGlobalCalendar()
 End Sub
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

@@ -1,5 +1,5 @@
 ---
-title: CustomerData.Item Method (PowerPoint)
+title: CustomerData.Item method (PowerPoint)
 keywords: vbapp10.chm675003
 f1_keywords:
 - vbapp10.chm675003
@@ -8,30 +8,29 @@ api_name:
 - PowerPoint.CustomerData.Item
 ms.assetid: 4ccbd7b2-3fd5-fc13-42b6-060fc88f1465
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# CustomerData.Item Method (PowerPoint)
+# CustomerData.Item method (PowerPoint)
 
-Returns the specified  **[CustomXMLPart](./Office.CustomXMLPart.md)** object from the **[CustomerData](PowerPoint.CustomerData.md)** collection. Read-only.
+Returns the specified  **[CustomXMLPart](Office.CustomXMLPart.md)** object from the **[CustomerData](PowerPoint.CustomerData.md)** collection. Read-only.
 
 
 ## Syntax
 
- _expression_. `Item`( `_Id_` )
+_expression_.**Item** (_Id_)
 
- _expression_ An expression that returns a [CustomerData](./PowerPoint.CustomerData.md) object.
-
-
-### Parameters
+ _expression_ An expression that returns a [CustomerData](PowerPoint.CustomerData.md) object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _Id_|Required|**String**|The ID of the  **CustomXMLPart** object.|
 
-### Return Value
+## Return value
 
 CustomXMLPart
 
@@ -83,3 +82,4 @@ End Sub
 
 [CustomerData Collection](PowerPoint.CustomerData.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

@@ -1,14 +1,15 @@
 ---
-title: XMLNodes Object (Word)
+title: XMLNodes object (Word)
 ms.prod: word
 api_name:
 - Word.XMLNodes
 ms.assetid: c29850f2-8db2-aef6-57ee-fed1b625616c
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# XMLNodes Object (Word)
+# XMLNodes object (Word)
 
 A collection of  **XMLNode** objects that represents the nodes in the tree view of the **XML Structure** task pane, which indicates the elements that a user has applied to a document. Each node in the tree view is an instance of an **XMLNode** object. The hierarchy in the tree view indicates whether a node contains child nodes.Y
 
@@ -19,7 +20,7 @@ ou can return an  **XMLNodes** collection for a selection, a range, or the entir
 
 Use the  **Item** method of the **XMLNodes** collection to return an individual **XMLNode** object. Use the **Validate** method to verify that an XML element is valid according to the applied schemas and that any required child elements exist and are in the required order. Once you run the **Validate** method, use the **ValidationStatus** property to verify whether an element is valid and the **ValidationErrorText** property to display a message to the user as to what the user needs to fix to make the XML in the document conform to the XML schema rules.
 
-The following example validates each of the XML elements in the active document and, if the element or attribute is found to be invalid against the schema, returns a message to the user explaining why the element is invalid.
+The following example validates each of the XML elements in the active document, and if the element or attribute is found to be invalid against the schema, returns a message to the user explaining why the element is invalid.
 
 
 
@@ -38,7 +39,8 @@ Next
 Use the  **Add** method to add an XML element to a selection, a range, or the document. The following example inserts the example element from the SimpleSample schema into the active document at the insertion point or surrounding the active selection.
 
 
- **Note**  Because XML is case sensitive, the XML element as typed in the Name parameter of the  **Add** method must be typed exactly as it appears in the schema referenced in the Namespace parameter.
+> [!NOTE] 
+> Because XML is case-sensitive, the XML element as typed in the Name parameter of the  **Add** method must be typed exactly as it appears in the schema referenced in the Namespace parameter.
 
 
 
@@ -63,5 +65,6 @@ End If
 
 
 
-[Word Object Model Reference](./overview/Word/object-model.md)
+[Word Object Model Reference](overview/Word/object-model.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

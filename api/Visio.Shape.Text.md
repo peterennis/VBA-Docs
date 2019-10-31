@@ -1,5 +1,5 @@
 ---
-title: Shape.Text Property (Visio)
+title: Shape.Text property (Visio)
 keywords: vis_sdr.chm11251175
 f1_keywords:
 - vis_sdr.chm11251175
@@ -8,44 +8,45 @@ api_name:
 - Visio.Shape.Text
 ms.assetid: 5c002c5d-f5ce-7f89-d799-4fc6ccb1a1f7
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Shape.Text Property (Visio)
+# Shape.Text property (Visio)
 
 Returns all of the shape's text. Read/write.
 
 
 ## Syntax
 
- _expression_. `Text`
+_expression_.**Text**
 
- _expression_ A variable that represents a [Shape](./Visio.Shape.md) object.
+_expression_ A variable that represents a **[Shape](Visio.Shape.md)** object.
 
 
-### Return Value
+## Return value
 
 String
 
 
 ## Remarks
 
-In the text returned by the  **Text** property of a **Shape** object, fields are represented by an escape character (30 (&;H1E)) For example, if a **Shape** object's text contains a field that displays the file name of a drawing, the **Shape** object's **Text** property returns an escape character where that field is inserted into the text. If you want the text to contain the expanded field, get the shape's **Characters** property, and then get the **Text** property of the resulting **Characters** object.
+In the text returned by the  **Text** property of a **Shape** object, fields are represented by an escape character (30 (&H1E)) For example, if a **Shape** object's text contains a field that displays the file name of a drawing, the **Shape** object's **Text** property returns an escape character where that field is inserted into the text. If you want the text to contain the expanded field, get the shape's **Characters** property, and then get the **Text** property of the resulting **Characters** object.
 
 If the shape is a group, the text returned is dependent on the value of the IsTextEditTarget cell.
 
 
 
 
-- If IsTextEditTarget is TRUE, the  **Text** property of the **Shape** object returns the text of the group.
+- If IsTextEditTarget is **True**, the  **Text** property of the **Shape** object returns the text of the group.
     
-- If IsTextEditTarget is FALSE, the  **Text** property of the **Shape** object returns the text of the shape in the group at the top of the stacking order.
+- If IsTextEditTarget is **False**, the  **Text** property of the **Shape** object returns the text of the shape in the group at the top of the stacking order.
     
 
 
 Objects from other applications and guides do not have a  **Text** property.
 
-If your Visual Studio solution includes the  **Microsoft.Office.Interop.Visio** reference, this property maps to the following types:
+If your Visual Studio solution includes the [Microsoft.Office.Interop.Visio](https://docs.microsoft.com/visualstudio/vsto/office-primary-interop-assemblies?view=vs-2019) reference, this property maps to the following types:
 
 
 -  **Microsoft.Office.Interop.Visio.IVShape.Text**
@@ -91,4 +92,4 @@ Public Sub ShapeText_Example()
 End Sub
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

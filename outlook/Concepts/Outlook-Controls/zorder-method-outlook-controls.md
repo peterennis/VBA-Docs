@@ -6,6 +6,7 @@ f1_keywords:
 ms.prod: outlook
 ms.assetid: 62bf7af1-8935-fd5e-da70-1b93408e015e
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
@@ -21,11 +22,11 @@ Places the object at the front or back of the z-order.
  _expression_ A variable that represents an Outlook control object.
 
 
-### Parameters
+## Parameters
 
 
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 |zPosition|Optional| **Variant**|A control's position, front or back, in the container's z-order.|
 
@@ -35,7 +36,7 @@ The settings for  _zPosition_ are:
 
 
 
-|**Value**|**Description**|
+|Value|Description|
 |:-----|:-----|
 |0|Places the control at the front of the z-order. The control appears on top of other controls (default).|
 |1|Places the control at the back of the z-order. The control appears underneath other controls.|
@@ -46,4 +47,4 @@ In design mode, the  **Bring to Front** or **Send To Back** commands set the z-o
 
 You can't Undo or Redo layering commands, such as  **Send To Back** or **Bring to Front**. For example, if you select an object and click  **Move Backward** on the shortcut menu, you won't be able to Undo or Redo that action.
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

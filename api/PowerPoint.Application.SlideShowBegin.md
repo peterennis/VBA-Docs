@@ -1,5 +1,5 @@
 ---
-title: Application.SlideShowBegin Event (PowerPoint)
+title: Application.SlideShowBegin event (PowerPoint)
 keywords: vbapp10.chm621011
 f1_keywords:
 - vbapp10.chm621011
@@ -8,26 +8,27 @@ api_name:
 - PowerPoint.Application.SlideShowBegin
 ms.assetid: f70ca9cb-11a7-2a81-19bb-36e0b0ca0b97
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Application.SlideShowBegin Event (PowerPoint)
+# Application.SlideShowBegin event (PowerPoint)
 
 Occurs when you start a slide show.
 
 
 ## Syntax
 
- _expression_. `SlideShowBegin`( `_Wn_` )
+_expression_. `SlideShowBegin`(_Wn_)
 
- _expression_ A variable that represents an [Application](./PowerPoint.Application.md) object.
-
-
-### Parameters
+_expression_ A variable that represents an **[Application](PowerPoint.Application.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _Wn_|Required|**SlideShowWindow**|The slide show window initialized prior to this event.|
 
@@ -35,7 +36,7 @@ Occurs when you start a slide show.
 
 Microsoft PowerPoint creates the slide show window and passes it to this event. If one slide show branches to another, the  **SlideShowBegin** event does not occur again when the second slide show begins.
 
-For information about using events with the  **Application** object, see[How to: Use Events with the Application Object](../powerpoint/How-to/use-events-with-the-application-object.md).
+For information about using events with the  **Application** object, see [How to: Use Events with the Application Object](../powerpoint/How-to/use-events-with-the-application-object.md).
 
 
 ## Example
@@ -67,3 +68,4 @@ End Sub
 
 [Application Object](PowerPoint.Application.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

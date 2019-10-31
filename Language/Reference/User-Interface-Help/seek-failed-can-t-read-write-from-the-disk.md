@@ -6,6 +6,7 @@ f1_keywords:
 ms.prod: office
 ms.assetid: b91ba9ad-672d-a2a8-ffa2-4f19cdf2119e
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
@@ -19,10 +20,11 @@ ms.date: 06/08/2017
     
 - The file has become unavailable, for example, if a removable disk has been physically changed. If the file has been moved to another disk, access it from there. Otherwise, you can't access the file.
     
-- You attempted to read from a [project](../../Glossary/vbe-glossary.md#project) file, an[object library](../../Glossary/vbe-glossary.md#object-library), or a [type library](../../Glossary/vbe-glossary.md#type-library), but the file has been corrupted.
+- You attempted to read from a [project](../../Glossary/vbe-glossary.md#project) file, an [object library](../../Glossary/vbe-glossary.md#object-library), or a [type library](../../Glossary/vbe-glossary.md#type-library), but the file has been corrupted.
     
     Obtain a new copy of the library or project file.
     
 
 For additional information, select the item in question and press F1 (in Windows) or HELP (on the Macintosh).
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

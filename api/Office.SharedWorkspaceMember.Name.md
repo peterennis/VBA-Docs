@@ -1,5 +1,5 @@
 ---
-title: SharedWorkspaceMember.Name Property (Office)
+title: SharedWorkspaceMember.Name property (Office)
 keywords: vbaof11.chm272002
 f1_keywords:
 - vbaof11.chm272002
@@ -7,11 +7,12 @@ ms.prod: office
 api_name:
 - Office.SharedWorkspaceMember.Name
 ms.assetid: 6a7918a0-6029-4fe1-6c55-d100a360eddc
-ms.date: 06/08/2017
+ms.date: 01/24/2019
+localization_priority: Normal
 ---
 
 
-# SharedWorkspaceMember.Name Property (Office)
+# SharedWorkspaceMember.Name property (Office)
 
 Gets the display name of the shared workspace member. Read-only.
 
@@ -21,12 +22,12 @@ Gets the display name of the shared workspace member. Read-only.
 
 ## Syntax
 
- _expression_. `Name`
+_expression_.**Name**
 
- _expression_ A variable that represents a [SharedWorkspaceMember](./Office.SharedWorkspaceMember.md) object.
+_expression_ A variable that represents a **[SharedWorkspaceMember](Office.SharedWorkspaceMember.md)** object.
 
 
-### Return Value
+## Return value
 
 String
 
@@ -40,8 +41,8 @@ The following example displays properties of the shared workspace member.
     Dim swsWorkspaceMember As Office.SharedWorkspaceMember 
     Dim strSWSInfo As String 
     Set swsWorkspaceMember = ActiveWorkbook.SharedWorkspace.Members 
-    strSWSInfo = swsWorkspaceMember.Name &amp; vbCrLf &amp; _ 
-        " - URL: " &amp; swsWorkspaceMember.URL &amp; vbCrLf 
+    strSWSInfo = swsWorkspaceMember.Name & vbCrLf & _ 
+        " - URL: " & swsWorkspaceMember.URL & vbCrLf 
     MsgBox strSWSInfo, vbInformation + vbOKOnly, _ 
         "Shared Workspace Member Information" 
     Set swsWorkspaceMember = Nothing 
@@ -51,10 +52,8 @@ The following example displays properties of the shared workspace member.
 
 ## See also
 
-
-[SharedWorkspaceMember Object](Office.SharedWorkspaceMember.md)
-
+- [SharedWorkspaceMember object members](overview/Library-Reference/sharedworkspacemember-members-office.md)
 
 
-[SharedWorkspaceMember Object Members](./overview/Library-Reference/sharedworkspacemember-members-office.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

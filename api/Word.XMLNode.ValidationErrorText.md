@@ -1,5 +1,5 @@
 ---
-title: XMLNode.ValidationErrorText Property (Word)
+title: XMLNode.ValidationErrorText property (Word)
 keywords: vbawd10.chm37748760
 f1_keywords:
 - vbawd10.chm37748760
@@ -8,26 +8,27 @@ api_name:
 - Word.XMLNode.ValidationErrorText
 ms.assetid: 85816e71-2629-0f5c-3775-e42f7fb7f9a5
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# XMLNode.ValidationErrorText Property (Word)
+# XMLNode.ValidationErrorText property (Word)
 
 Returns a  **String** that represents the description for a validation error on an **XMLNode** object.
 
 
 ## Syntax
 
- _expression_. `ValidationErrorText`( `_Advanced_` )
+_expression_. `ValidationErrorText`( `_Advanced_` )
 
- _expression_ A variable that represents a '[XMLNode](Word.XMLNode.md)' object.
-
-
-### Parameters
+_expression_ A variable that represents a '[XMLNode](Word.XMLNode.md)' object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _Advanced_|Optional| **Boolean**|Indicates that the error text displayed is the advanced version of the validation error description, which comes from the MSXML 5.0 component included with Microsoft Word.|
 
@@ -59,3 +60,4 @@ MsgBox "The following elements do not validate against " & _
 
 [XMLNode Object](Word.XMLNode.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

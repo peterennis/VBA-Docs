@@ -1,5 +1,5 @@
 ---
-title: Module.ProcCountLines Property (Access)
+title: Module.ProcCountLines property (Access)
 keywords: vbaac10.chm12281
 f1_keywords:
 - vbaac10.chm12281
@@ -7,67 +7,58 @@ ms.prod: access
 api_name:
 - Access.Module.ProcCountLines
 ms.assetid: d85cacb5-127a-68a1-3bff-cc13a8a7e9ed
-ms.date: 06/08/2017
+ms.date: 03/22/2019
+localization_priority: Normal
 ---
 
 
-# Module.ProcCountLines Property (Access)
+# Module.ProcCountLines property (Access)
 
-The  **ProcCountLines** property returns the number of lines in a specified procedure in a standard module or a class module. Read-only **Long**.
+The **ProcCountLines** property returns the number of lines in a specified procedure in a standard module or a class module. Read-only **Long**.
 
 
 ## Syntax
 
- _expression_. `ProcCountLines`( ` _ProcName_`, ` _ProcKind_` )
+_expression_.**ProcCountLines** (_ProcName_, _ProcKind_)
 
- _expression_ A variable that represents a [Module](Access.Module.md) object.
-
-
-### Parameters
+_expression_ A variable that represents a **[Module](Access.Module.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _ProcName_|Required|**String**|The name of a procedure in the module.|
 | _ProcKind_|Required|**vbext_ProcKind**|The type of procedure. See the Remarks section for the possible settings.|
 
 ## Remarks
 
-The  _ProcKind_ argument can be one of the following **vbext_ProcKind** constants:
+The _ProcKind_ argument can be one of the following **vbext_ProcKind** constants.
 
-
-
-|**Constant**|**Description**|
+|Constant|Description|
 |:-----|:-----|
-|**vbext_pk_Get**|A  **Property Get** procedure.|
-|**vbext_pk_Let**|A  **Property Let** procedure.|
-|**vbext_pk_Proc**|A  **Sub** or **Function** procedure.|
-|**vbext_pk_Set**|A  **Property Set** procedure.|
+|**vbext_pk_Get**|A **Property Get** procedure.|
+|**vbext_pk_Let**|A **Property Let** procedure.|
+|**vbext_pk_Proc**|A **Sub** or **Function** procedure.|
+|**vbext_pk_Set**|A **Property Set** procedure.|
 
 The procedure begins with any comments and compilation constants that immediately precede the procedure definition, denoted by one of the following:
 
+- A **Sub** statement  
+- A **Function** statement    
+- A **Property Get** statement    
+- A **Property Let** statement  
+- A **Property Set** statement
+    
+The **ProcCountLines** property returns the number of lines in a procedure, beginning with the line returned by the **[ProcStartLine](Access.Module.ProcStartLine.md)** property and ending with the line that ends the procedure. The procedure may be ended with **End Sub**, **End Function**, or **End Property**.
 
-- A  **Sub** statement.
-    
-- A  **Function** statement.
-    
-- A  **Property Get** statement.
-    
-- A  **Property Let** statement.
-    
-- A  **Property Set** statement.
-    
-The  **ProcCountLines** property returns the number of lines in a procedure, beginning with the line returned by the **[ProcStartLine](Access.Module.ProcStartLine.md)** property and ending with the line that ends the procedure. The procedure may be ended with **End Sub**, **End Function**, or **End Property**.
-
-
- **Note**  The  **ProcCountLines** property treats **Sub** and **Function** procedures similarly, but distinguishes between each type of Property procedure.
+> [!NOTE] 
+> The **ProcCountLines** property treats **Sub** and **Function** procedures similarly, but distinguishes between each type of Property procedure.
 
 
 ## Example
 
 The following example displays a message indicating the number of lines in a given procedure.
-
 
 ```vb
 Dim strForm As String 
@@ -81,8 +72,4 @@ MsgBox "There are " & Forms(strForm).Module.ProcCountLines(strProc, vbext_pk_Pro
 ```
 
 
-## See also
-
-
-[Module Object](Access.Module.md)
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

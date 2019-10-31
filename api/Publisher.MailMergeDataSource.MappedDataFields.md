@@ -1,5 +1,5 @@
 ---
-title: MailMergeDataSource.MappedDataFields Property (Publisher)
+title: MailMergeDataSource.MappedDataFields property (Publisher)
 keywords: vbapb10.chm6291475
 f1_keywords:
 - vbapb10.chm6291475
@@ -7,23 +7,24 @@ ms.prod: publisher
 api_name:
 - Publisher.MailMergeDataSource.MappedDataFields
 ms.assetid: 9f2a15a7-41b0-6025-73d6-eb70a412b830
-ms.date: 06/08/2017
+ms.date: 06/11/2019
+localization_priority: Normal
 ---
 
 
-# MailMergeDataSource.MappedDataFields Property (Publisher)
+# MailMergeDataSource.MappedDataFields property (Publisher)
 
-Returns a  **[MailMergeMappedDataFields](Publisher.MailMergeMappedDataFields.md)** object that represents the mapped data fields available in Microsoft Publisher.
+Returns a **[MailMergeMappedDataFields](Publisher.MailMergeMappedDataFields.md)** object that represents the mapped data fields available in Microsoft Publisher.
 
 
 ## Syntax
 
- _expression_. **MappedDataFields**
+_expression_.**MappedDataFields**
 
- _expression_ A variable that represents a  **MailMergeDataSource** object.
+_expression_ A variable that represents a **[MailMergeDataSource](Publisher.MailMergeDataSource.md)** object.
 
 
-### Return Value
+## Return value
 
 MailMergeMappedDataFields
 
@@ -31,7 +32,6 @@ MailMergeMappedDataFields
 ## Example
 
 This example creates a table on a new page of the current publication and lists the mapped data fields available in Publisher and the fields in the data source to which they are mapped. This example assumes that the current publication is a mail merge publication and that the data source fields have corresponding mapped data fields.
-
 
 ```vb
 Sub MappedFields() 
@@ -77,4 +77,4 @@ Sub MappedFields()
 End Sub
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

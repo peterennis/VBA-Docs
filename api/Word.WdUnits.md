@@ -1,20 +1,21 @@
 ---
-title: WdUnits Enumeration (Word)
+title: WdUnits enumeration (Word)
 ms.prod: word
 api_name:
 - Word.WdUnits
 ms.assetid: d8726033-e492-0d2d-bea1-3713e84d5701
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# WdUnits Enumeration (Word)
+# WdUnits enumeration (Word)
 
 Specifies a unit of measure to use.
 
 
 
-|**Name**|**Value**|**Description**|
+|Name|Value|Description|
 |:-----|:-----|:-----|
 | **wdCell**|12|A cell.|
 | **wdCharacter**|1|A character.|
@@ -33,3 +34,4 @@ Specifies a unit of measure to use.
 | **wdWindow**|11|A window.|
 | **wdWord**|2|A word.|
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

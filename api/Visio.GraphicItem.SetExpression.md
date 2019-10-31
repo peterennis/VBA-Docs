@@ -1,5 +1,5 @@
 ---
-title: GraphicItem.SetExpression Method (Visio)
+title: GraphicItem.SetExpression method (Visio)
 keywords: vis_sdr.chm16960430
 f1_keywords:
 - vis_sdr.chm16960430
@@ -8,50 +8,52 @@ api_name:
 - Visio.GraphicItem.SetExpression
 ms.assetid: e0fd9a38-1fc0-3189-9def-64f2c181951d
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# GraphicItem.SetExpression Method (Visio)
+# GraphicItem.SetExpression method (Visio)
 
-Sets the value of the expression string that is part of a  **GraphicItem** object?s rule, against which shape data (custom properties) are evaluated.
+Sets the value of the expression string that is part of a **GraphicItem** object's rule, against which shape data (custom properties) are evaluated.
 
 
- **Note**  This Visio object or member is available only to licensed users of Visio Professional 2013.
+> [!NOTE] 
+> This Visio object or member is available only to licensed users of Visio Professional 2013.
 
 
 ## Syntax
 
- _expression_. `SetExpression`( `_Field_` , `_Expression_` )
+_expression_. `SetExpression`( `_Field_` , `_Expression_` )
 
- _expression_ An expression that returns a [GraphicItem](./Visio.GraphicItem.md) object.
-
-
-### Parameters
+ _expression_ An expression that returns a **[GraphicItem](Visio.GraphicItem.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-| _Field_|Required| **VisGraphicField**|The label or formula of the primary data field (column) assigned to the  **GraphicItem** . See Remarks for possible values.|
+| _Field_|Required| **VisGraphicField**|The label or formula of the primary data field (column) assigned to the **GraphicItem**. See Remarks for possible values.|
 | _Expression_|Required| **String**|The ShapeSheet expression associated with the Field parameter.|
 
-### Return Value
+## Return value
 
 Nothing
 
 
 ## Remarks
 
-The Field parameter should be one of the following values from the  **VisGraphicField** enumeration, which is declared in the Microsoft Visio Type Library.
+The Field parameter should be one of the following values from the **VisGraphicField** enumeration, which is declared in the Microsoft Visio Type Library.
 
 
 
-|**Constant**|**Value**|**Description**|
+|Constant|Value|Description|
 |:-----|:-----|:-----|
 | **visGraphicPropertyLabel**|1|The label of a shape data item.|
 | **visGraphicExpression**|2|The ShapeSheet formula of a shape data item.|
 
-When you pass the  **SetExpression** method a shape-data-item label (that is, when you pass **visGraphicPropertyLabel** for the Field parameter), you must enclose the label within curly braces ({}). For example, if you want to pass the name of the "Cost" shape-data item, you must write it like this: {Cost}.
+When you pass the **SetExpression** method a shape-data-item label (that is, when you pass **visGraphicPropertyLabel** for the Field parameter), you must enclose the label within curly braces ({}). For example, if you want to pass the name of the "Cost" shape-data item, you must write it like this: {Cost}.
 
 You can reference the shape data of a shape other than the one to which the data graphic is applied by passing the name of the shape followed by an exclamation point (!) and then the name of the field. For example, in the example shown below, to refer to the width of the shape named Ellipse.34, you could use the following syntax:
 
@@ -62,19 +64,20 @@ You can reference the shape data of a shape other than the one to which the data
 vsoGraphicItem.SetExpression visGraphicExpression, "Ellipse.34!Width"
 ```
 
-Before you can edit a graphic item, including setting its expression string, you must use the  **[Master.Open](Visio.Master.Open.md)** method to open for editing a copy of the data graphic master whose **GraphicItems** collection the graphic item belongs to. After you have set the expression of the graphic item and made whatever other edits you want to make, use the **Master.Close** method to commit changes.
+Before you can edit a graphic item, including setting its expression string, you must use the **[Master.Open](Visio.Master.Open.md)** method to open for editing a copy of the data graphic master whose **GraphicItems** collection the graphic item belongs to. After you have set the expression of the graphic item and made whatever other edits you want to make, use the **Master.Close** method to commit changes.
 
 
 ## Example
 
-The following Microsoft Visual Basic for Applications (VBA) macro shows how to use the  **SetExpression** method to set the value of the expression string for a data graphic item. It opens a copy of the **Master** object of type **visTypeDataGraphic** (commonly called a data graphic) named "Data Graphic," and then sets the expression of the first graphic item in the **GraphicItems** collection of the data graphic to display the width of any shape to which the data graphic is applied.
+The following Microsoft Visual Basic for Applications (VBA) macro shows how to use the **SetExpression** method to set the value of the expression string for a data graphic item. It opens a copy of the **Master** object of type **visTypeDataGraphic** (commonly called a data graphic) named "Data Graphic," and then sets the expression of the first graphic item in the **GraphicItems** collection of the data graphic to display the width of any shape to which the data graphic is applied.
 
 
- **Note**  You can determine the name of an existing data graphic master by moving your mouse over the master in the  **Data Graphics** task pane in the Visio user interface.
+> [!NOTE] 
+> You can determine the name of an existing data graphic master by moving your mouse over the master in the **Data Graphics** task pane in the Visio user interface.
 
-Then it closes the master and uses the  **GetExpression** method to get the mostly recently applied expression for the graphic item. Finally, it prints the field type and the value of the expression in the **Immediate** window.
+Then it closes the master and uses the **GetExpression** method to get the mostly recently applied expression for the graphic item. Finally, it prints the field type and the value of the expression in the Immediate window.
 
-The macro assumes that a data graphic named "Data Graphic" exists in the current document. For more information about adding a data graphic master to the  **Masters** collection of the current document, see **[Masters.AddEx ](Visio.Masters.AddEx.md)** .
+The macro assumes that a data graphic named "Data Graphic" exists in the current document. For more information about adding a data graphic master to the **Masters** collection of the current document, see **[Masters.AddEx](Visio.Masters.AddEx.md)**.
 
 
 
@@ -103,4 +106,4 @@ Public Sub SetExpression_Example()
 End Sub
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

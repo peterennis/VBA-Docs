@@ -1,5 +1,5 @@
 ---
-title: OlSaveAsType Enumeration (Outlook)
+title: OlSaveAsType enumeration (Outlook)
 keywords: vbaol11.chm3080
 f1_keywords:
 - vbaol11.chm3080
@@ -8,16 +8,17 @@ api_name:
 - Outlook.OlSaveAsType
 ms.assetid: d1d3a914-6548-ddbf-6ce7-8cf86fa84960
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# OlSaveAsType Enumeration (Outlook)
+# OlSaveAsType enumeration (Outlook)
 
 Specifies the file format.
 
 
 
-|**Name**|**Value**|**Description**|
+|Name|Value|Description|
 |:-----|:-----|:-----|
 | **olDoc**|4|Microsoft Office Word format (.doc)|
 | **olHTML**|5|HTML format (.html)|
@@ -35,4 +36,4 @@ Specifies the file format.
 
 Used as an optional parameter to the  **SaveAs** method for Outlook items.
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

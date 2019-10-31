@@ -1,12 +1,13 @@
 ---
-title: Chart Object (Project)
+title: Chart object (Project)
 ms.prod: project-server
 ms.assetid: 810d4ec1-69d2-c432-b9da-57042b783b85
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Chart Object (Project)
+# Chart object (Project)
 The  **Chart** object represents a chart on a report in Project.
 
 
@@ -16,10 +17,11 @@ The  **Chart** object represents a chart on a report in Project.
 
 The  **Chart** object in Project includes the standard members that other Office applications implement for Office Art. For example, see the **Chart** object in the VBA object model for Word, Excel, and PowerPoint.
 
-In Project, a chart is represented by a  **Chart** object, which is contained by a **[Shape](./Project.shape.md)** object or a **[ShapeRange](./Project.shaperange.md)** collection in a **[Report](./Project.report.md)** object. For a diagram that shows the **Chart** object in the Project object model hierarchy, see[Application and Projects object map](../project/Concepts/application-and-projects-object-map-project.md).
+In Project, a chart is represented by a  **Chart** object, which is contained by a **[Shape](./Project.shape.md)** object or a **[ShapeRange](./Project.shaperange.md)** collection in a **[Report](./Project.report.md)** object. For a diagram that shows the **Chart** object in the Project object model hierarchy, see [Application and Projects object map](../project/Concepts/application-and-projects-object-map-project.md).
 
 
- **Note**  Macro recording for the  **Chart** object is not implemented. That is, when you record a macro in Project and manually add a chart, add chart elements, or manually format a chart in a report, the steps for adding and manipulating the chart are not recorded.
+> [!NOTE] 
+> Macro recording for the  **Chart** object is not implemented. That is, when you record a macro in Project and manually add a chart, add chart elements, or manually format a chart in a report, the steps for adding and manipulating the chart are not recorded.
 
 You can use the  **[Shapes.AddChart](./Project.shapes.addchart.md)** method to add a chart to a report. To determine whether a **Shape** or a **ShapeRange** contains a chart, use the **HasChart** method.
 
@@ -43,7 +45,7 @@ To create some sample data, add four tasks to a new project, assign local resour
 |T3|4d|7|
 |T4|2d|0|
 
-?
+
 
 
 
@@ -106,7 +108,7 @@ Sub DeleteTheReport()
     reportName = "Simple scalar chart"
 
     ' To delete the active report, change to another view.
-    ViewApplyEx Name:="&amp;Gantt Chart"
+    ViewApplyEx Name:="&Gantt Chart"
     
     ActiveProject.Reports(reportName).Delete
 End Sub
@@ -117,7 +119,7 @@ End Sub
 
 
 
-|**Name**|
+|Name|
 |:-----|
 |[ApplyChartTemplate](./Project.chart.applycharttemplate.md)|
 |[ApplyCustomType](./Project.chart.applycustomtype.md)|
@@ -147,7 +149,7 @@ End Sub
 
 
 
-|**Name**|
+|Name|
 |:-----|
 |[Application](./Project.chart.application.md)|
 |[AutoScaling](./Project.chart.autoscaling.md)|
@@ -196,3 +198,5 @@ End Sub
 
 
 [Shape Object](./Project.shape.md)
+
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

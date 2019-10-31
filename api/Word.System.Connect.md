@@ -1,5 +1,5 @@
 ---
-title: System.Connect Method (Word)
+title: System.Connect method (Word)
 keywords: vbawd10.chm154468454
 f1_keywords:
 - vbawd10.chm154468454
@@ -8,26 +8,27 @@ api_name:
 - Word.System.Connect
 ms.assetid: c2f2bc89-89a7-8ca0-3e78-ea558068b044
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# System.Connect Method (Word)
+# System.Connect method (Word)
 
 Establishes a connection to a network drive.
 
 
 ## Syntax
 
- _expression_. `Connect`( `_Path_` , `_Drive_` , `_Password_` )
+_expression_. `Connect`( `_Path_` , `_Drive_` , `_Password_` )
 
- _expression_ Required. A variable that represents a '[System](Word.System.md)' object.
-
-
-### Parameters
+_expression_ Required. A variable that represents a '[System](Word.System.md)' object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _Path_|Required| **String**|The path for the network drive (for example, "\\Project\Info").|
 | _Drive_|Optional| **Variant**|A number corresponding to the letter you want to assign to the network drive, where 0 (zero) corresponds to the first available drive letter, 1 corresponds to the second available drive letter, and so on. If this argument is omitted, the next available letter is used.|
@@ -75,3 +76,4 @@ System.Connect Path:="\\Team1\Public", Drive:=2
 
 [System Object](Word.System.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

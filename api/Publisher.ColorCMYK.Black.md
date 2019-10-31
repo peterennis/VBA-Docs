@@ -1,5 +1,5 @@
 ---
-title: ColorCMYK.Black Property (Publisher)
+title: ColorCMYK.Black property (Publisher)
 keywords: vbapb10.chm2621442
 f1_keywords:
 - vbapb10.chm2621442
@@ -7,31 +7,31 @@ ms.prod: publisher
 api_name:
 - Publisher.ColorCMYK.Black
 ms.assetid: f404ee43-45e1-6c6d-75cc-b868fdedcd86
-ms.date: 06/08/2017
+ms.date: 06/06/2019
+localization_priority: Normal
 ---
 
 
-# ColorCMYK.Black Property (Publisher)
+# ColorCMYK.Black property (Publisher)
 
-Sets or returns a  **Long** that represents the black component of a CMYK color. Value can be any number between 0 and 255. Read/write.
+Sets or returns a **Long** that represents the black component of a CMYK color. Value can be any number between 0 and 255. Read/write.
 
 
 ## Syntax
 
- _expression_. **Black**
+_expression_.**Black**
 
- _expression_ A variable that represents a  **ColorCMYK** object.
+_expression_ A variable that represents a **[ColorCMYK](Publisher.ColorCMYK.md)** object.
 
 
-### Return Value
+## Return value
 
 Long
 
 
 ## Example
 
-This example creates two new shapes and then sets the CMYK fill color for one shape and sets the CMYK values of the second shape to the same CMYK values.
-
+This example creates two new shapes, and then sets the CMYK fill color for one shape and the CMYK values of the second shape to the same CMYK values.
 
 ```vb
 Sub ReturnAndSetCMYK() 
@@ -64,4 +64,4 @@ Sub ReturnAndSetCMYK()
 End Sub
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

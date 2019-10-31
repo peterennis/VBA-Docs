@@ -7,6 +7,7 @@ f1_keywords:
 ms.prod: access
 ms.assetid: 9fc87446-68bd-d592-71c8-8d8c022af2c4
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
@@ -40,7 +41,7 @@ The objects for which you can display properties in the Database window are tabl
 
 The following **Object** properties are available from the Database window.
 
-|**Property**|**Description**|
+|Property|Description|
 |:-----|:-----|
 |**Name**|This is the name of the object and contains the setting from the object's **Name** property.|
 |**Type**|This is the object's type. Microsoft Access object types are Form, Macro, Module, Query, Report, and Table.|
@@ -97,9 +98,11 @@ End Sub
 
 ## See also
 
-- [Access for developers forum on MSDN](https://social.msdn.microsoft.com/Forums/office/en-US/home?forum=accessdev)
+- [Access for developers forum](https://social.msdn.microsoft.com/Forums/office/home?forum=accessdev)
 - [Access help on support.office.com](https://support.office.com/search/results?query=Access)
-- [Access help on answers.microsoft.com](https://answers.microsoft.com/en-us/msoffice/forum?page=1&;tab=question&;status=all&;auth=1)
+- [Access help on answers.microsoft.com](https://answers.microsoft.com/)
 - [Access forums on UtterAccess](http://www.utteraccess.com/forum/index.php?act=idx)
 - [Access developer and VBA programming help center (FMS)](http://www.fmsinc.com/MicrosoftAccess/developer/)
 - [Access posts on StackOverflow](https://stackoverflow.com/questions/tagged/ms-access)
+
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

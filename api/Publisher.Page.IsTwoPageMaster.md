@@ -1,5 +1,5 @@
 ---
-title: Page.IsTwoPageMaster Property (Publisher)
+title: Page.IsTwoPageMaster property (Publisher)
 keywords: vbapb10.chm131100
 f1_keywords:
 - vbapb10.chm131100
@@ -7,36 +7,36 @@ ms.prod: publisher
 api_name:
 - Publisher.Page.IsTwoPageMaster
 ms.assetid: dbfc3c21-0070-3f0a-c0b0-746d83c46765
-ms.date: 06/08/2017
+ms.date: 06/11/2019
+localization_priority: Normal
 ---
 
 
-# Page.IsTwoPageMaster Property (Publisher)
+# Page.IsTwoPageMaster property (Publisher)
 
- **True** if the specified **Page** object is a two-page master. Read/write **Boolean**.
+**True** if the specified **Page** object is a two-page master. Read/write **Boolean**.
 
 
 ## Syntax
 
- _expression_. **IsTwoPageMaster**
+_expression_.**IsTwoPageMaster**
 
- _expression_ A variable that represents an  **Page** object.
+_expression_ A variable that represents a **[Page](Publisher.Page.md)** object.
 
 
-### Return Value
+## Return value
 
 Boolean
 
 
 ## Remarks
 
-This method works for master pages only. Returns a  **This feature is only for master pages** error when attempting to access this property from a publication page object.
+This method works for master pages only. Returns a "This feature is only for master pages" error when attempting to access this property from a publication page object.
 
 
 ## Example
 
 The following example adds text to each header of a two-page master page specifying the master page PageNumber and its place in the spread: 1 or 2.
-
 
 ```vb
 Dim objMasterPage As Page 
@@ -57,4 +57,4 @@ Next i
 
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

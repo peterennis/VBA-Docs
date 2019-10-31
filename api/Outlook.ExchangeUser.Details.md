@@ -1,5 +1,5 @@
 ---
-title: ExchangeUser.Details Method (Outlook)
+title: ExchangeUser.Details method (Outlook)
 keywords: vbaol11.chm2074
 f1_keywords:
 - vbaol11.chm2074
@@ -8,26 +8,27 @@ api_name:
 - Outlook.ExchangeUser.Details
 ms.assetid: 6c93a583-cc61-e527-7832-88dba525854a
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# ExchangeUser.Details Method (Outlook)
+# ExchangeUser.Details method (Outlook)
 
 Displays a modal dialog box that provides detailed information about an  **[ExchangeUser](Outlook.ExchangeUser.md)** object.
 
 
 ## Syntax
 
- _expression_. `Details`( `_HWnd_` )
+_expression_. `Details`( `_HWnd_` )
 
- _expression_ A variable that represents an [ExchangeUser](./Outlook.ExchangeUser.md) object.
-
-
-### Parameters
+_expression_ A variable that represents an [ExchangeUser](Outlook.ExchangeUser.md) object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _HWnd_|Optional| **Variant**| The parent window handle for the Details dialog box. A zero value (the default) specifies a modal dialog box.|
 
@@ -43,3 +44,4 @@ The  **Details** method actually stops the code from running while the dialog bo
 
 [ExchangeUser Object](Outlook.ExchangeUser.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

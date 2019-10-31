@@ -1,5 +1,5 @@
 ---
-title: TabStop.Alignment Property (Publisher)
+title: TabStop.Alignment property (Publisher)
 keywords: vbapb10.chm5636100
 f1_keywords:
 - vbapb10.chm5636100
@@ -7,31 +7,31 @@ ms.prod: publisher
 api_name:
 - Publisher.TabStop.Alignment
 ms.assetid: 59b35d9a-d53b-88cd-952b-6324d1ee7c01
-ms.date: 06/08/2017
+ms.date: 06/15/2019
+localization_priority: Normal
 ---
 
 
-# TabStop.Alignment Property (Publisher)
+# TabStop.Alignment property (Publisher)
 
-Returns or sets a  **PbTabAlignmentType** constant that represents the alignment for the specified tab stop. Read/write.
+Returns or sets a **[PbTabAlignmentType](Publisher.PbTabAlignmentType.md)** constant that represents the alignment for the specified tab stop. Read/write.
 
 
 ## Syntax
 
- _expression_. **Alignment**
+_expression_.**Alignment**
 
- _expression_ A variable that represents a  **TabStop** object.
+_expression_ A variable that represents a **[TabStop](Publisher.TabStop.md)** object.
 
 
 ## Remarks
 
-The  **Alignment** property value can be one of the **[PbTabAlignmentType](Publisher.PbTabAlignmentType.md)** constants declared in the Microsoft Publisher type library.
+The **Alignment** property value can be one of the **PbTabAlignmentType** constants declared in the Microsoft Publisher type library.
 
 
 ## Example
 
 This example enters a tabbed list and sets the alignment for two custom tab stops. This example assumes that the specified shape is a text frame and not another type of shape and that there are at least two custom tab stops already set.
-
 
 ```vb
 Sub CustomDecimalTabStop() 
@@ -53,4 +53,4 @@ Sub CustomDecimalTabStop()
 End Sub
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

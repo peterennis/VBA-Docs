@@ -6,6 +6,7 @@ f1_keywords:
 ms.prod: office
 ms.assetid: a79a5b0f-b4c8-48e4-8be0-d975a73bd554
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
@@ -13,8 +14,8 @@ ms.date: 06/08/2017
 
 Hi there! You have landed on one of our F1 Help redirector pages. Please select the topic you were looking for below.
 
-[SparklineGroup.Points Property (Excel)](http://msdn.microsoft.com/library/8891e8f6-811b-9540-b4d3-0651206013e2%28Office.15%29.aspx)
+[SparklineGroup.Points property (Excel)](http://msdn.microsoft.com/library/8891e8f6-811b-9540-b4d3-0651206013e2%28Office.15%29.aspx)
 
-[Points Property](http://msdn.microsoft.com/library/afcc972f-aa1b-74f8-7b00-332cc3fa17a3%28Office.15%29.aspx)
+[Points property](http://msdn.microsoft.com/library/afcc972f-aa1b-74f8-7b00-332cc3fa17a3%28Office.15%29.aspx)
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

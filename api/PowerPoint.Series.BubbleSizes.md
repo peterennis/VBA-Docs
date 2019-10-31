@@ -1,5 +1,5 @@
 ---
-title: Series.BubbleSizes Property (PowerPoint)
+title: Series.BubbleSizes property (PowerPoint)
 keywords: vbapp10.chm67200
 f1_keywords:
 - vbapp10.chm67200
@@ -8,19 +8,20 @@ api_name:
 - PowerPoint.Series.BubbleSizes
 ms.assetid: c4be04b4-fb9c-1301-a5cb-e16528a97903
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Series.BubbleSizes Property (PowerPoint)
+# Series.BubbleSizes property (PowerPoint)
 
 Returns or sets a string that refers to the worksheet cells that contain the x-value, y-value, and size data for the bubble chart. Read/write  **Variant**.
 
 
 ## Syntax
 
- _expression_. `BubbleSizes`
+_expression_.**BubbleSizes**
 
- _expression_ A variable that represents a '[Series](PowerPoint.Series.md)' object.
+_expression_ A variable that represents a '[Series](PowerPoint.Series.md)' object.
 
 
 ## Remarks
@@ -28,7 +29,8 @@ Returns or sets a string that refers to the worksheet cells that contain the x-v
  When you return the cell reference, it will return a string that describes the cells in A1-style notation. To set the size data for the bubble chart, you must use R1C1-style notation.
 
 
- **Note**  This property applies only to bubble charts.
+> [!NOTE] 
+> This property applies only to bubble charts.
 
 
 ## Example
@@ -36,7 +38,8 @@ Returns or sets a string that refers to the worksheet cells that contain the x-v
 
 
 
- **Note**  Although the following code applies to Microsoft Word, you can readily modify it to apply to PowerPoint.
+> [!NOTE] 
+> Although the following code applies to Microsoft Word, you can readily modify it to apply to PowerPoint.
 
 The following example displays the cell reference for the cells that contain the bubble chart x-value, y-value, and size data for the first chart in the active document.
 
@@ -58,7 +61,8 @@ End With
 
 
 
- **Note**  Although the following code applies to Microsoft Word, you can readily modify it to apply to PowerPoint.
+> [!NOTE] 
+> Although the following code applies to Microsoft Word, you can readily modify it to apply to PowerPoint.
 
 This example shows how to set this property using R1C1-style notation.
 
@@ -80,3 +84,4 @@ End With
 
 [Series Object](PowerPoint.Series.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

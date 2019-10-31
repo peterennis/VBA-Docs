@@ -4,6 +4,7 @@ ROBOTS: INDEX
 ms.prod: access
 ms.assetid: bd88c63f-89d9-c73b-3ee0-288ff078b938
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
@@ -11,7 +12,7 @@ ms.date: 06/08/2017
 
 **Applies to:** Access 2013 | Access 2016
 
-This code shows how to set the [Connect](http://msdn.microsoft.com/library/11aa3284-18e9-6d2d-761b-c25090370b77%28Office.15%29.aspx) property at design time:
+This code shows how to set the [Connect](https://msdn.microsoft.com/library/11aa3284-18e9-6d2d-761b-c25090370b77%28Office.15%29.aspx) property at design time:
 
 ```vb
 <OBJECT CLASSID="clsid:BD96C556-65A3-11D0-983A-00C04FC29E33" ID="ADC1"> 
@@ -55,8 +56,8 @@ CONNECT: <INPUT Name="txtConnect" Size="100"><BR>SQL: <INPUT Name="txtSQL" Size=
 <Script Language="VBScript">' Set parameters of RDS.DataControl at Run Time
 Sub Run_OnClickDim Cnxn
 ' build connection stringCnxn = "Provider='sqloledb';"
-Cnxn = Cnxn &; "Data Source="Cnxn = Cnxn &; document.frmInput.txtDataSource.value &; ";"
-Cnxn = Cnxn &; "Initial Catalog='Northwind';"Cnxn = Cnxn &; "Integrated Security='SSPI';"
+Cnxn = Cnxn & "Data Source="Cnxn = Cnxn & document.frmInput.txtDataSource.value & ";"
+Cnxn = Cnxn & "Initial Catalog='Northwind';"Cnxn = Cnxn & "Integrated Security='SSPI';"
 ' assign the valuedocument.frmInput.txtConnect.value = Cnxn
 MsgBox "Here we go!"' set RDS properties
 RDS.Server = document.frmInput.txtServer.valueRDS.SQL = document.frmInput.txtSQL.value
@@ -68,9 +69,11 @@ End Sub</Script>
 
 ## See also
 
-- [Access for developers forum on MSDN](https://social.msdn.microsoft.com/Forums/office/en-US/home?forum=accessdev)
+- [Access for developers forum](https://social.msdn.microsoft.com/Forums/office/home?forum=accessdev)
 - [Access help on support.office.com](https://support.office.com/search/results?query=Access)
-- [Access help on answers.microsoft.com](https://answers.microsoft.com/en-us/msoffice/forum?page=1&;tab=question&;status=all&;auth=1)
+- [Access help on answers.microsoft.com](https://answers.microsoft.com/)
 - [Access forums on UtterAccess](http://www.utteraccess.com/forum/index.php?act=idx)
 - [Access developer and VBA programming help center (FMS)](http://www.fmsinc.com/MicrosoftAccess/developer/)
 - [Access posts on StackOverflow](https://stackoverflow.com/questions/tagged/ms-access)
+
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

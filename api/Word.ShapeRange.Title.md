@@ -1,5 +1,5 @@
 ---
-title: ShapeRange.Title Property (Word)
+title: ShapeRange.Title property (Word)
 keywords: vbawd10.chm162857166
 f1_keywords:
 - vbawd10.chm162857166
@@ -8,27 +8,28 @@ api_name:
 - Word.ShapeRange.Title
 ms.assetid: 0ee66d0b-9c32-7975-2e50-3205a15730a5
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# ShapeRange.Title Property (Word)
+# ShapeRange.Title property (Word)
 
 Returns or sets a  **String** that contains a title for the shapes in the specified shape range. Read/write.
 
 
 ## Syntax
 
- _expression_. `Title`
+_expression_.**Title**
 
- _expression_ A variable that represents a '[ShapeRange](Word.shaperange.md)' object.
+_expression_ A variable that represents a **[ShapeRange](Word.shaperange.md)** object.
 
 
 ## Remarks
 
 Use the  **Title** property to provide an alternative text title for a shape. This property adds title text to the **Title** text box on the **Alt Text** pane of the **Format Shape** dialog in Word.
 
-
- **Note**  Web browsers display alternative text while tables are loading or if they are missing. Web search engines use the alternative text to help find Web pages. Alternative text is also used to assist disabilities.
+> [!NOTE] 
+> Web browsers display alternative text while tables are loading or if they are missing. Web search engines use the alternative text to help find Web pages. Alternative text is also used to assist disabilities.
 
 
 ## Example
@@ -46,3 +47,4 @@ ActiveDocument.Shapes.Range(Array(1, 3)).Title = "Part of a shape array."
 
 [ShapeRange Collection Object](Word.shaperange.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

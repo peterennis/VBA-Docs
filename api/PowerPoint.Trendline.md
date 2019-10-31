@@ -1,5 +1,5 @@
 ---
-title: Trendline Object (PowerPoint)
+title: Trendline object (PowerPoint)
 keywords: vbapp10.chm720000
 f1_keywords:
 - vbapp10.chm720000
@@ -8,10 +8,11 @@ api_name:
 - PowerPoint.Trendline
 ms.assetid: 74755c19-0a7d-cbbf-857e-78740adf6aa4
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Trendline Object (PowerPoint)
+# Trendline object (PowerPoint)
 
 Represents a trendline in a chart.
 
@@ -26,7 +27,8 @@ A trendline shows the trend, or direction, of data in a series. The  **Trendline
 
 
 
- **Note**  Although the following code applies to Microsoft Word, you can readily modify it to apply to PowerPoint.
+> [!NOTE] 
+> Although the following code applies to Microsoft Word, you can readily modify it to apply to PowerPoint.
 
 Use  **[Trendlines](PowerPoint.Series.Trendlines.md)** (Index), where Index is the trendline index number, to return a single **Trendline** object.
 
@@ -55,3 +57,4 @@ End With
 
 [PowerPoint Object Model Reference](overview/PowerPoint/object-model.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

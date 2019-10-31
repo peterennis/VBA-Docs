@@ -1,20 +1,21 @@
 ---
-title: PjBackgroundPattern Enumeration (Project)
+title: PjBackgroundPattern enumeration (Project)
 ms.prod: project-server
 api_name:
 - Project.PjBackgroundPattern
 ms.assetid: ae452d71-3cfd-15c3-5435-4918fbaac4a1
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# PjBackgroundPattern Enumeration (Project)
+# PjBackgroundPattern enumeration (Project)
 
 Contains constants that specify the background pattern.
 
 
 
-|**Name**|**Value**|**Description**|
+|Name|Value|Description|
 |:-----|:-----|:-----|
 |**pjBackgroundDarkDiagonalLeft**|7|Dark diagonal left.|
 |**pjBackgroundDarkDiagonalRight**|8|Dark diagonal right.|
@@ -31,3 +32,4 @@ Contains constants that specify the background pattern.
 |**pjBackgroundSolidFill**|1|Solid fill.|
 |**pjBackgroundThinVerticalStripe**|9|Thin vertical stripe.|
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

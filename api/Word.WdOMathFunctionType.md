@@ -1,20 +1,21 @@
 ---
-title: WdOMathFunctionType Enumeration (Word)
+title: WdOMathFunctionType enumeration (Word)
 ms.prod: word
 api_name:
 - Word.WdOMathFunctionType
 ms.assetid: c87a7268-f93c-ab33-4a56-0f74a16d41ec
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# WdOMathFunctionType Enumeration (Word)
+# WdOMathFunctionType enumeration (Word)
 
 Specifies the type of equation function.
 
 
 
-|**Name**|**Value**|**Description**|
+|Name|Value|Description|
 |:-----|:-----|:-----|
 | **wdOMathFunctionAcc**|1|Equation accent mark.|
 | **wdOMathFunctionBar**|2|Equation fraction bar.|
@@ -38,3 +39,4 @@ Specifies the type of equation function.
 | **wdOMathFunctionScrSup**|19|Scr sup.|
 | **wdOMathFunctionText**|20|Equation text.|
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

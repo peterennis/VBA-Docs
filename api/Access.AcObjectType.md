@@ -1,5 +1,5 @@
 ---
-title: AcObjectType Enumeration (Access)
+title: AcObjectType enumeration (Access)
 keywords: vbaac10.chm10015
 f1_keywords:
 - vbaac10.chm10015
@@ -8,16 +8,17 @@ api_name:
 - Access.AcObjectType
 ms.assetid: 157a8d35-2b27-4f62-8e74-525043f6ec71
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# AcObjectType Enumeration (Access)
+# AcObjectType enumeration (Access)
 
 Specifies the type of object.
 
+<br/>
 
-
-|**Name**|**Value**|**Description**|
+|Name|Value|Description|
 |:-----|:-----|:-----|
 |**acDatabaseProperties**|11|Database property|
 |**acDefault**|-1||
@@ -33,3 +34,4 @@ Specifies the type of object.
 |**acTable**|0|Table|
 |**acTableDataMacro**|12|Data macro|
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

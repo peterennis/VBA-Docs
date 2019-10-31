@@ -1,5 +1,5 @@
 ---
-title: ShapeRange.RerouteConnections Method (Publisher)
+title: ShapeRange.RerouteConnections method (Publisher)
 keywords: vbapb10.chm2293796
 f1_keywords:
 - vbapb10.chm2293796
@@ -7,23 +7,24 @@ ms.prod: publisher
 api_name:
 - Publisher.ShapeRange.RerouteConnections
 ms.assetid: ae2a64ea-1b7a-4ff6-304c-680dd96fd386
-ms.date: 06/08/2017
+ms.date: 06/14/2019
+localization_priority: Normal
 ---
 
 
-# ShapeRange.RerouteConnections Method (Publisher)
+# ShapeRange.RerouteConnections method (Publisher)
 
-Reroutes connectors so that they take the shortest possible path between the shapes they connect. To do this, the  **RerouteConnections** method may detach the ends of a connector and reattach them to different connecting sites on the connected shapes.
+Reroutes connectors so that they take the shortest possible path between the shapes they connect. To do this, the **RerouteConnections** method may detach the ends of a connector and reattach them to different connecting sites on the connected shapes.
 
 
 ## Syntax
 
- _expression_. **RerouteConnections**
+_expression_.**RerouteConnections**
 
- _expression_ A variable that represents a  **ShapeRange** object.
+_expression_ A variable that represents a **[ShapeRange](Publisher.ShapeRange.md)** object.
 
 
-### Return Value
+## Return value
 
 Nothing
 
@@ -35,8 +36,7 @@ This method reroutes all connectors attached to the specified shape; if the spec
 
 ## Example
 
-This example adds two rectangles to the first page in the active publication and connects them with a curved connector. Note that the  **RerouteConnections** method overrides the values you supply for the **_ConnectionSite_** arguments used with the **BeginConnect**and  **EndConnect** methods.
-
+This example adds two rectangles to the first page in the active publication and connects them with a curved connector. Note that the **RerouteConnections** method overrides the values that you supply for the _ConnectionSite_ arguments used with the **BeginConnect** and **EndConnect** methods.
 
 ```vb
 Dim shpRect1 As Shape 
@@ -67,4 +67,4 @@ End With
 
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

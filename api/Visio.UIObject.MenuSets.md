@@ -1,5 +1,5 @@
 ---
-title: UIObject.MenuSets Property (Visio)
+title: UIObject.MenuSets property (Visio)
 keywords: vis_sdr.chm14913915
 f1_keywords:
 - vis_sdr.chm14913915
@@ -8,22 +8,23 @@ api_name:
 - Visio.UIObject.MenuSets
 ms.assetid: 8acecfc4-5a49-e11f-b9e9-07d5a464681a
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# UIObject.MenuSets Property (Visio)
+# UIObject.MenuSets property (Visio)
 
 Returns the  **MenuSets** collection of a **UIObject** object. Read-only.
 
 
 ## Syntax
 
- _expression_. `MenuSets`
+_expression_. `MenuSets`
 
- _expression_ A variable that represents a [UIObject](./Visio.UIObject.md) object.
+_expression_ A variable that represents a **[UIObject](Visio.UIObject.md)** object.
 
 
-### Return Value
+## Return value
 
 MenuSets
 
@@ -31,7 +32,8 @@ MenuSets
 ## Remarks
 
 
- **Note**  Starting with Visio, the Microsoft Office Fluent user interface (UI) replaces the previous system of layered menus, toolbars, and task panes. VBA objects and members that you used to customize the user interface in previous versions of Visio are still available in Visio, but they function differently.
+> [!NOTE] 
+> Starting with Visio 2010, the Microsoft Office Fluent user interface (UI) replaced the previous system of layered menus, toolbars, and task panes. VBA objects and members that you used to customize the user interface in previous versions of Visio are still available in Visio, but they function differently.
 
 If a  **UIObject** object represents menus and accelerators (for example, if the object was retrieved using the **BuiltInMenus** property of an **Application** or **Document** object), its **MenuSets** collection represents all of the menus for that **UIObject** object.
 
@@ -89,4 +91,4 @@ Public Sub MenuSets_Example()
 End Sub
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

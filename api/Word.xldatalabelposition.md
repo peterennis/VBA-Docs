@@ -1,18 +1,19 @@
 ---
-title: XlDataLabelPosition Enumeration (Word)
+title: XlDataLabelPosition enumeration (Word)
 ms.prod: word
 ms.assetid: d177e309-b43a-85cd-b84c-13865c6eaeba
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# XlDataLabelPosition Enumeration (Word)
+# XlDataLabelPosition enumeration (Word)
 
 Specifies where the data label is positioned.
 
 
 
-|**Name**|**Value**|**Description**|
+|Name|Value|Description|
 |:-----|:-----|:-----|
 | **xlLabelPositionAbove**|0|The data label is positioned above the data point.|
 | **xlLabelPositionBelow**|1|The data label is positioned below the data point.|
@@ -26,3 +27,4 @@ Specifies where the data label is positioned.
 | **xlLabelPositionOutsideEnd**|2|The data label is positioned outside the data point at the top edge.|
 | **xlLabelPositionRight**|-4152|The data label is positioned to the right of the data point.|
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

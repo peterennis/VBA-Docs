@@ -1,5 +1,5 @@
 ---
-title: ColorScheme Object (PowerPoint)
+title: ColorScheme object (PowerPoint)
 keywords: vbapp10.chm537000
 f1_keywords:
 - vbapp10.chm537000
@@ -8,10 +8,11 @@ api_name:
 - PowerPoint.ColorScheme
 ms.assetid: c1945542-b628-e2b1-5114-e064f0563a01
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# ColorScheme Object (PowerPoint)
+# ColorScheme object (PowerPoint)
 
 Represents a color scheme, which is a set of eight colors used for the different elements of a slide, notes page, or handout, such as the title or background. (Note that the color schemes for slides, notes pages, and handouts in a presentation can be set independently.)
 
@@ -32,7 +33,7 @@ The following examples describe how to do the following:
 
 ## Example
 
-Use  **ColorSchemes** (index), where index is the color scheme index number, to return a single **ColorScheme** object. The following example deletes color scheme two from the active presentation.
+Use  **ColorSchemes** (_index_), where _index_ is the color scheme index number, to return a single **ColorScheme** object. The following example deletes color scheme two from the active presentation.
 
 
 ```vb
@@ -55,7 +56,7 @@ Set newStandardScheme = _
 ActivePresentation.SlideMaster.ColorScheme = newStandardScheme
 ```
 
-Use the [Colors](PowerPoint.ColorScheme.Colors.md)method to return an  **RGBColor** object that represents the color of a single slide-element type. You can set an **RGBColor** object to another **RGBColor** object, or you can use the[RGB](PowerPoint.ColorFormat.RGB.md)property to set or return the explicit red-green-blue (RGB) value for an  **RGBColor** object. The following example sets the background color in color scheme one to red and sets the title color to the title color that's defined for color scheme two.
+Use the [Colors](PowerPoint.ColorScheme.Colors.md)method to return an  **RGBColor** object that represents the color of a single slide-element type. You can set an **RGBColor** object to another **RGBColor** object, or you can use the [RGB](PowerPoint.ColorFormat.RGB.md)property to set or return the explicit red-green-blue (RGB) value for an  **RGBColor** object. The following example sets the background color in color scheme one to red and sets the title color to the title color that's defined for color scheme two.
 
 
 
@@ -76,3 +77,4 @@ End With
 
 [PowerPoint Object Model Reference](overview/PowerPoint/object-model.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

@@ -1,5 +1,5 @@
 ---
-title: Application.VBAEnabled Property (Visio)
+title: Application.VBAEnabled property (Visio)
 keywords: vis_sdr.chm10052085
 f1_keywords:
 - vis_sdr.chm10052085
@@ -8,22 +8,23 @@ api_name:
 - Visio.Application.VBAEnabled
 ms.assetid: fd4aa300-2117-aa66-54da-3be7be920287
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Application.VBAEnabled Property (Visio)
+# Application.VBAEnabled property (Visio)
 
 Specifies whether Microsoft Visual Basic for Applications (VBA) is enabled in the application. Read-only.
 
 
 ## Syntax
 
- _expression_. `VBAEnabled`
+_expression_.**VBAEnabled**
 
- _expression_ A variable that represents an [Application](./Visio.Application.md) object.
+_expression_ A variable that represents an **[Application](Visio.Application.md)** object.
 
 
-### Return Value
+## Return value
 
  **Boolean**
 
@@ -44,14 +45,14 @@ If a document that contains a VBA project is opened with VBA disabled, and then 
     
 - Macros remain disabled.
     
-The  **VBAEnabled** property is set to **True** if the **Trust access to the VBA project object model** check box is selected under **Developer Macro Settings** on the **Macro Settings** page of the **Trust Center** (click the **File** tab, click **Options**, click  **Trust Center**, and then click  **Trust Center Settings**). If it is not selected, the property reports  **False** .
+The  **VBAEnabled** property is set to **True** if the **Trust access to the VBA project object model** check box is selected under **Developer Macro Settings** on the **Macro Settings** page of the **Trust Center** (click the **File** tab, click **Options**, click  **Trust Center**, and then click  **Trust Center Settings**). If it is not selected, the property reports  **False**.
 
 
 ## Example
 
 You may have a document that requires VBA to be enabled to run properly, for example, code in a document's  **DocumentOpened** event handler. The following code can be run from an add-on to verify whether VBA is enabled in the application before a document that depends on VBA is opened.
 
-Before running this procedure, supply a valid document file name for the variable  _filename_ .
+Before running this procedure, supply a valid document file name for the variable  _filename_.
 
 
 
@@ -77,4 +78,4 @@ Public Sub VBAEnabled_Example()
 End Sub
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

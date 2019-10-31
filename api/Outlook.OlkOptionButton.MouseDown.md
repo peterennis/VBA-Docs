@@ -1,5 +1,5 @@
 ---
-title: OlkOptionButton.MouseDown Event (Outlook)
+title: OlkOptionButton.MouseDown event (Outlook)
 keywords: vbaol11.chm1000181
 f1_keywords:
 - vbaol11.chm1000181
@@ -8,26 +8,27 @@ api_name:
 - Outlook.OlkOptionButton.MouseDown
 ms.assetid: a6cd60ae-c880-f6ca-8121-6873c53c481d
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# OlkOptionButton.MouseDown Event (Outlook)
+# OlkOptionButton.MouseDown event (Outlook)
 
 Occurs when the user presses a mouse button on the control.
 
 
 ## Syntax
 
- _expression_. `MouseDown`( `_Button_` , `_Shift_` , `_X_` , `_Y_` )
+_expression_.**MouseDown** (_Button_, _Shift_, _x_, _y_)
 
- _expression_ A variable that represents an [OlkOptionButton](./Outlook.OlkOptionButton.md) object.
-
-
-### Parameters
+_expression_ A variable that represents an [OlkOptionButton](Outlook.OlkOptionButton.md) object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _Button_|Required| **Integer**|An  **[OlMouseButton](Outlook.OlMouseButton.md)** constant that specifies which button on the mouse has been pressed.|
 | _Shift_|Required| **Integer**|A bitwise-OR mask of constants in the  **[OlShiftState](Outlook.OlShiftState.md)** enumeration that specifies whether the **SHIFT**,  **CTRL**, or  **ALT** keys have been pressed.|
@@ -39,3 +40,4 @@ Occurs when the user presses a mouse button on the control.
 
 [OlkOptionButton Object](Outlook.OlkOptionButton.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

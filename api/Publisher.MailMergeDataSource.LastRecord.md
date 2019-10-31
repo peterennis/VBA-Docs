@@ -1,5 +1,5 @@
 ---
-title: MailMergeDataSource.LastRecord Property (Publisher)
+title: MailMergeDataSource.LastRecord property (Publisher)
 keywords: vbapb10.chm6291474
 f1_keywords:
 - vbapb10.chm6291474
@@ -7,31 +7,31 @@ ms.prod: publisher
 api_name:
 - Publisher.MailMergeDataSource.LastRecord
 ms.assetid: c1d11d3e-5f6f-2729-081b-5727c75fbc8d
-ms.date: 06/08/2017
+ms.date: 06/11/2019
+localization_priority: Normal
 ---
 
 
-# MailMergeDataSource.LastRecord Property (Publisher)
+# MailMergeDataSource.LastRecord property (Publisher)
 
-Returns or sets a  **Long** that represents the number of the last record to be merged in a mail merge or catalog merge operation. Read/write.
+Returns or sets a **Long** that represents the number of the last record to be merged in a mail merge or catalog merge operation. Read/write.
 
 
 ## Syntax
 
- _expression_. **LastRecord**
+_expression_.**LastRecord**
 
- _expression_ A variable that represents a  **MailMergeDataSource** object.
+_expression_ A variable that represents a **[MailMergeDataSource](Publisher.MailMergeDataSource.md)** object.
 
 
-### Return Value
+## Return value
 
 Long
 
 
 ## Example
 
-This example sets the active record as the first record to be merged and then sets the last record as the record two records forward in the data source. This example assumes that the active publication is a mail merge publication.
-
+This example sets the active record as the first record to be merged and then sets the last record as the record that is two records forward in the data source. This example assumes that the active publication is a mail merge publication.
 
 ```vb
 Sub RecordOne() 
@@ -43,4 +43,4 @@ Sub RecordOne()
 End Sub
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

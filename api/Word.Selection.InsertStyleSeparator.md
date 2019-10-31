@@ -1,5 +1,5 @@
 ---
-title: Selection.InsertStyleSeparator Method (Word)
+title: Selection.InsertStyleSeparator method (Word)
 keywords: vbawd10.chm158663676
 f1_keywords:
 - vbawd10.chm158663676
@@ -8,19 +8,20 @@ api_name:
 - Word.Selection.InsertStyleSeparator
 ms.assetid: cbfd7a55-4048-0e16-eeb2-e8d8d167a769
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Selection.InsertStyleSeparator Method (Word)
+# Selection.InsertStyleSeparator method (Word)
 
 Inserts a special hidden paragraph mark that allows Microsoft Word to join paragraphs formatted using different paragraph styles, so lead-in headings can be inserted into a table of contents.
 
 
 ## Syntax
 
- _expression_. `InsertStyleSeparator`
+_expression_. `InsertStyleSeparator`
 
- _expression_ Required. A variable that represents a '[Selection](Word.Selection.md)' object.
+_expression_ Required. A variable that represents a **[Selection](Word.Selection.md)** object.
 
 
 ## Example
@@ -28,7 +29,8 @@ Inserts a special hidden paragraph mark that allows Microsoft Word to join parag
 This example inserts a style separator after every paragraph formatted with the built-in "Heading 4" style.
 
 
- **Note**  The paragraph count is inside the Do...Loop because when Word inserts the style separator, the two paragraphs become one paragraph, so the paragraph count for the document changes as the procedure runs.
+> [!NOTE] 
+> The paragraph count is inside the Do...Loop because when Word inserts the style separator, the two paragraphs become one paragraph, so the paragraph count for the document changes as the procedure runs.
 
 
 ```vb
@@ -62,3 +64,4 @@ End Sub
 
 [Selection Object](Word.Selection.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

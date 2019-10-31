@@ -1,5 +1,5 @@
 ---
-title: ColorSchemes.Add Method (PowerPoint)
+title: ColorSchemes.Add method (PowerPoint)
 keywords: vbapp10.chm536004
 f1_keywords:
 - vbapp10.chm536004
@@ -8,30 +8,31 @@ api_name:
 - PowerPoint.ColorSchemes.Add
 ms.assetid: 1e727a60-0e19-e033-2dc2-c00083263e06
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# ColorSchemes.Add Method (PowerPoint)
+# ColorSchemes.Add method (PowerPoint)
 
 Adds a color scheme to the collection of available schemes. Returns a  **[ColorScheme](PowerPoint.ColorScheme.md)** object that represents the added color scheme.
 
 
 ## Syntax
 
- _expression_. `Add`( `_Scheme_` )
+_expression_.**Add** (_Scheme_)
 
- _expression_ A variable that represents a [ColorSchemes](./PowerPoint.ColorSchemes.md) object.
-
-
-### Parameters
+_expression_ A variable that represents a [ColorSchemes](PowerPoint.ColorSchemes.md) object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _Scheme_|Optional|**ColorScheme**|The color scheme to add. Can be a  **ColorScheme** object from any slide or master or an item in the **ColorSchemes** collection from any open presentation. If you omit this parameter, the first **ColorScheme** object (the first standard color scheme) in the specified presentation's **ColorSchemes** collection is used.|
 
-### Return Value
+## Return value
 
 ColorScheme
 
@@ -50,3 +51,4 @@ Note that although Microsoft PowerPoint automatically checks whether a color sch
 
 [ColorSchemes Object](PowerPoint.ColorSchemes.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

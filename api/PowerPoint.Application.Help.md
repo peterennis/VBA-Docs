@@ -1,5 +1,5 @@
 ---
-title: Application.Help Method (PowerPoint)
+title: Application.Help method (PowerPoint)
 keywords: vbapp10.chm502021
 f1_keywords:
 - vbapp10.chm502021
@@ -8,26 +8,27 @@ api_name:
 - PowerPoint.Application.Help
 ms.assetid: 97dabc76-1987-6e08-ea42-6762be6b7d60
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Application.Help Method (PowerPoint)
+# Application.Help method (PowerPoint)
 
 Displays a Help topic.
 
 
 ## Syntax
 
- _expression_. `Help`( `_HelpFile_`, `_ContextID_` )
+_expression_. `Help`( `_HelpFile_`, `_ContextID_` )
 
- _expression_ A variable that represents a [Application](./PowerPoint.Application.md) object.
-
-
-### Parameters
+_expression_ A variable that represents an **[Application](PowerPoint.Application.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _HelpFile_|Optional|**String**|The name of the Help file you want to display. Can be either a .chm or an .hlp file. If this argument is not specified, Microsoft PowerPoint Help is used.|
 | _ContextID_|Optional|**Long**|The context ID number for the Help topic. If this argument is not specified or if it specifies a context ID number that is not associated with a Help topic, the  **Help Topics** dialog box is displayed.|
@@ -47,3 +48,4 @@ Application.Help "MyHelpFile.chm", 65527
 
 [Application Object](PowerPoint.Application.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

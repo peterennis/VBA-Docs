@@ -1,5 +1,5 @@
 ---
-title: ShapeRange.Tags Property (PowerPoint)
+title: ShapeRange.Tags property (PowerPoint)
 keywords: vbapp10.chm548049
 f1_keywords:
 - vbapp10.chm548049
@@ -8,22 +8,23 @@ api_name:
 - PowerPoint.ShapeRange.Tags
 ms.assetid: 98620c36-50aa-a2a0-e6b6-125229dd87af
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# ShapeRange.Tags Property (PowerPoint)
+# ShapeRange.Tags property (PowerPoint)
 
 Returns a  **[Tags](PowerPoint.Tags.md)** object that represents the tags for the specified object. Read-only.
 
 
 ## Syntax
 
- _expression_. `Tags`
+_expression_. `Tags`
 
- _expression_ A variable that represents a [ShapeRange](./PowerPoint.ShapeRange.md) object.
+_expression_ A variable that represents a **[ShapeRange](PowerPoint.ShapeRange.md)** object.
 
 
-### Return Value
+## Return value
 
 Tags
 
@@ -31,7 +32,8 @@ Tags
 ## Example
 
 
- **Note**  Tag values are added and stored in uppercase text. You should perform tests on tag values using uppercase text, as shown in the second example.
+> [!NOTE] 
+> Tag values are added and stored in uppercase text. You should perform tests on tag values using uppercase text, as shown in the second example.
 
 This example adds a tag named "REGION" and a tag named "PRIORITY" to slide one in the active presentation.
 
@@ -93,3 +95,4 @@ Next
 
 [ShapeRange Object](PowerPoint.ShapeRange.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

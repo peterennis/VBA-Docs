@@ -1,5 +1,5 @@
 ---
-title: Workbooks.CanCheckOut Method (Excel)
+title: Workbooks.CanCheckOut method (Excel)
 keywords: vbaxl10.chm203086
 f1_keywords:
 - vbaxl10.chm203086
@@ -7,31 +7,30 @@ ms.prod: excel
 api_name:
 - Excel.Workbooks.CanCheckOut
 ms.assetid: 06259bbd-2e55-3fbe-d08c-094985cb9fff
-ms.date: 06/08/2017
+ms.date: 05/18/2019
+localization_priority: Normal
 ---
 
 
-# Workbooks.CanCheckOut Method (Excel)
+# Workbooks.CanCheckOut method (Excel)
 
- **True** if Microsoft Excel can check out a specified workbook from a server. Read/write **Boolean** .
+**True** if Microsoft Excel can check out a specified workbook from a server. Read/write **Boolean**.
 
 
 ## Syntax
 
- _expression_. `CanCheckOut`( `_Filename_` )
+_expression_.**CanCheckOut** (_FileName_)
 
- _expression_ A variable that represents a [Workbooks](./Excel.Workbooks.md) object.
-
-
-### Parameters
+_expression_ A variable that represents a **[Workbooks](Excel.Workbooks.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-| _Filename_|Required| **String**|The name of the file to check out.|
+| _FileName_|Required| **String**|The name of the file to check out.|
 
-### Return Value
+## Return value
 
 Boolean
 
@@ -39,7 +38,6 @@ Boolean
 ## Example
 
 This example verifies that a workbook is not checked out by another user and can be checked out. If the workbook can be checked out, it copies the workbook to the local computer for editing.
-
 
 ```vb
 Sub UseCanCheckOut(docCheckOut As String) 
@@ -55,8 +53,5 @@ End Sub
 ```
 
 
-## See also
 
-
-[Workbooks Object](Excel.Workbooks.md)
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

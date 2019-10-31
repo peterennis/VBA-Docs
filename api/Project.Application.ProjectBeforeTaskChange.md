@@ -1,30 +1,31 @@
 ---
-title: Application.ProjectBeforeTaskChange Event (Project)
+title: Application.ProjectBeforeTaskChange event (Project)
 ms.prod: project-server
 api_name:
 - Project.Application.ProjectBeforeTaskChange
 ms.assetid: 995024c3-b031-0ddd-0fbe-4d817f237473
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Application.ProjectBeforeTaskChange Event (Project)
+# Application.ProjectBeforeTaskChange event (Project)
 
 Occurs before the user changes the value of a task field.
 
 
 ## Syntax
 
- _expression_. `ProjectBeforeTaskChange`( ` _tsk_`, ` _Field_`, ` _NewVal_`, ` _Cancel_` )
+_expression_. `ProjectBeforeTaskChange`( `_tsk_`, `_Field_`, `_NewVal_`, `_Cancel_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
-
-
-### Parameters
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _tsk_|Required|**Task**|The task whose field is being changed.|
 | _Field_|Required|**Long**|The field being changed. If more than one field is changed by the user, the event is fired for each field changed. Can be one of the  **[PjField](Project.PjField.md)** constants.|
@@ -35,7 +36,7 @@ Occurs before the user changes the value of a task field.
 
 Project events do not occur when the project is embedded in another document or application.
 
-The  **ProjectBeforeTaskChange** event doesn't occur when timescaled data changes, when constraint data in the Task Details Form changes, when a task is split by manipulating its task bar on the Gantt Chart, when changes are made to outline level or outline number, when a baseline is saved, when a baseline is cleared, when an entire task row is pasted, during resource pool operations, when inserting or removing a subproject, or when changes have been made using a custom form. For more information and sample code for creating and testing an event handler, see[Using Events with Application and Project Objects](../project/Concepts/using-events-with-application-and-project-objects.md).
+The  **ProjectBeforeTaskChange** event doesn't occur when timescaled data changes, when constraint data in the Task Details Form changes, when a task is split by manipulating its task bar on the Gantt Chart, when changes are made to outline level or outline number, when a baseline is saved, when a baseline is cleared, when an entire task row is pasted, during resource pool operations, when inserting or removing a subproject, or when changes have been made using a custom form. For more information and sample code for creating and testing an event handler, see [Using Events with Application and Project Objects](../project/Concepts/using-events-with-application-and-project-objects.md).
 
 
 ## Example
@@ -64,4 +65,4 @@ Private Sub App_ProjectBeforeTaskChange(ByVal tsk As Task, ByVal Field As PjFiel
 End Sub
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

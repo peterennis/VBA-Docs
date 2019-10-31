@@ -1,20 +1,21 @@
 ---
-title: XlDataLabelPosition Enumeration (Excel)
+title: XlDataLabelPosition enumeration (Excel)
 ms.prod: excel
 api_name:
 - Excel.XlDataLabelPosition
 ms.assetid: 0373c2a8-b79b-17a1-b999-f3bb1d37aa0a
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# XlDataLabelPosition Enumeration (Excel)
+# XlDataLabelPosition enumeration (Excel)
 
 Specifies where the data label is positioned.
 
 
 
-|**Name**|**Value**|**Description**|
+|Name|Value|Description|
 |:-----|:-----|:-----|
 | **xlLabelPositionAbove**|0|Data label is positioned above the data point.|
 | **xlLabelPositionBelow**|1|Data label is positioned below the data point.|
@@ -28,3 +29,4 @@ Specifies where the data label is positioned.
 | **xlLabelPositionOutsideEnd**|2|Data label is positioned outside the data point at the top edge.|
 | **xlLabelPositionRight**|-4152|Data label is positioned to the right of the data point.|
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

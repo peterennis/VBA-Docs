@@ -1,5 +1,5 @@
 ---
-title: Page.AutoConnectMany Method (Visio)
+title: Page.AutoConnectMany method (Visio)
 keywords: vis_sdr.chm10962130
 f1_keywords:
 - vis_sdr.chm10962130
@@ -8,33 +8,34 @@ api_name:
 - Visio.Page.AutoConnectMany
 ms.assetid: 292d0f58-d753-6ef3-fd62-269fd44d003c
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Page.AutoConnectMany Method (Visio)
+# Page.AutoConnectMany method (Visio)
 
 Automatically draws multiple connections in the specified directions between the specified shapes. Returns the number of shapes connected.
 
 
 ## Syntax
 
- _expression_. `AutoConnectMany`( `_FromShapeIDs()_` , `_ToShapeIDs()_` , `_PlacementDirs()_` , `_[Connector]_` )
+_expression_. `AutoConnectMany`( `_FromShapeIDs()_` , `_ToShapeIDs()_` , `_PlacementDirs()_` , `_[Connector]_` )
 
- _expression_ A variable that represents a '[Page](Visio.Page.md)' object.
-
-
-### Parameters
+_expression_ A variable that represents a **[Page](Visio.Page.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _FromShapeIDs()_|Required| **Long**|An array of identifers of the shapes from which to draw a connection.|
 | _ToShapeIDs()_|Required| **Long**|An array of identifers of the shapes to which to draw a connection.|
 | _PlacementDirs()_|Required| **Long**|An array of  **[VisAutoConnectDir](Visio.visautoconnectdir.md)** constants that represent the directions in which to draw the connections. See Remarks for possible values.|
-| _Connector_|Optional| **[UNKNOWN]**|The connector to use. Can be a  **[Master](Visio.Master.md)** , **[MasterShortcut](Visio.MasterShortcut.md)** , **[Shape](Visio.Shape.md)** , or **IDataObject** object.|
+| _Connector_|Optional| **[UNKNOWN]**|The connector to use. Can be a  **[Master](Visio.Master.md)**, **[MasterShortcut](Visio.MasterShortcut.md)**, **[Shape](Visio.Shape.md)**, or **IDataObject** object.|
 
-### Return Value
+## Return value
 
  **Long**
 
@@ -45,7 +46,7 @@ For the  _PlacementDirs()_ parameter, pass an array of values from the **VisAuto
 
 
 
-|**Constant**|**Value**|**Description**|
+|Constant|Value|Description|
 |:-----|:-----|:-----|
 |visAutoConnectDirDown|2|Connect down.|
 |visAutoConnectDirLeft|3|Connect to the left.|
@@ -65,4 +66,4 @@ The optional  _Connector_ parameter value must be an object that references a on
 
 If you use the  **IDataObject** interface to pass a selection of shapes for _Connector_ , Visio uses only the first shape. If _Connector_ is not a Visio object, Visio returns an Invalid Parameter error. If _Connector_ is not a shape that matches the context of the method, Visio returns an Invalid Source error.
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

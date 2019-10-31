@@ -1,5 +1,5 @@
 ---
-title: MenuSet.Menus Property (Visio)
+title: MenuSet.Menus property (Visio)
 keywords: vis_sdr.chm13313910
 f1_keywords:
 - vis_sdr.chm13313910
@@ -8,22 +8,23 @@ api_name:
 - Visio.MenuSet.Menus
 ms.assetid: 507d64e5-fcb4-74dc-ece6-9fad28b0379d
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# MenuSet.Menus Property (Visio)
+# MenuSet.Menus property (Visio)
 
 Returns the  **Menus** collection of a **MenuSet** object. Read-only.
 
 
 ## Syntax
 
- _expression_. `Menus`
+_expression_. `Menus`
 
- _expression_ A variable that represents a [MenuSet](./Visio.MenuSet.md) object.
+_expression_ A variable that represents a **[MenuSet](Visio.MenuSet.md)** object.
 
 
-### Return Value
+## Return value
 
 Menus
 
@@ -31,7 +32,8 @@ Menus
 ## Remarks
 
 
- **Note**  Starting with Visio, the Microsoft Office Fluent user interface (UI) replaces the previous system of layered menus, toolbars, and task panes. VBA objects and members that you used to customize the user interface in previous versions of Visio are still available in Visio, but they function differently.
+> [!NOTE] 
+> Starting with Visio 2010, the Microsoft Office Fluent user interface (UI) replaced the previous system of layered menus, toolbars, and task panes. VBA objects and members that you used to customize the user interface in previous versions of Visio are still available in Visio, but they function differently.
 
 A  **Menu** object's index within the **Menus** collection determines its left-to-right position on the menu bar.
 
@@ -88,4 +90,4 @@ Public Sub Menus_Example()
 End Sub
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

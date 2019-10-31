@@ -4,6 +4,7 @@ ROBOTS: INDEX
 ms.prod: access
 ms.assetid: b1e78418-9770-b0b4-1f24-f8ef866b7b42
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
@@ -11,9 +12,9 @@ ms.date: 06/08/2017
 
 **Applies to:** Access 2013 | Access 2016
 
-The following example shows how to set the necessary parameters of [RDS.DataControl](http://msdn.microsoft.com/library/ac430669-7628-696c-c036-b5d35405d788%28Office.15%29.aspx) at run time. 
+The following example shows how to set the necessary parameters of [RDS.DataControl](https://msdn.microsoft.com/library/ac430669-7628-696c-c036-b5d35405d788%28Office.15%29.aspx) at run time. 
 
-The manner in which a [Recordset](http://msdn.microsoft.com/library/0f963bf8-f066-dc8a-b754-f427de712df1%28Office.15%29.aspx) is retrieved using the [Refresh](http://msdn.microsoft.com/library/f1c8829f-9c7d-12b6-7470-727ff38d663e%28Office.15%29.aspx) method is determined by the settings of the [ExecuteOptions](http://msdn.microsoft.com/library/fb244cbd-9a03-9128-1373-694c9061c9da%28Office.15%29.aspx) and [FetchOptions](http://msdn.microsoft.com/library/0d86c5e4-9abc-5c0e-dc04-4183f4c278cc%28Office.15%29.aspx) properties. 
+The manner in which a [Recordset](https://msdn.microsoft.com/library/0f963bf8-f066-dc8a-b754-f427de712df1%28Office.15%29.aspx) is retrieved using the [Refresh](https://msdn.microsoft.com/library/f1c8829f-9c7d-12b6-7470-727ff38d663e%28Office.15%29.aspx) method is determined by the settings of the [ExecuteOptions](https://msdn.microsoft.com/library/fb244cbd-9a03-9128-1373-694c9061c9da%28Office.15%29.aspx) and [FetchOptions](https://msdn.microsoft.com/library/0d86c5e4-9abc-5c0e-dc04-4183f4c278cc%28Office.15%29.aspx) properties. 
 
 To test this example, cut and paste the following code into a normal ASP document and name it **RefreshVBS.asp**. Use **Find** to locate the file Adovbs.inc and place it in the directory you plan to use. ASP script will identify your server.
 
@@ -75,9 +76,9 @@ End Sub
 ' Set parameters of RDS.DataControl at Run TimeSub Run_OnClick
 RDC.Server = txtServer.ValueRDC.SQL = txtSQL.Value
 RDC.Connect = txtConnect.ValueIf EO = "adcExecSync" Then 'Determine which ExecuteOption chosen
-RDC.ExecuteOptions = adcExecSyncMsgBox "Recordset brought in on current calling thread Syncronously"
+RDC.ExecuteOptions = adcExecSyncMsgBox "Recordset brought in on current calling thread Synchronously"
 ElseRDC.ExecuteOptions = adcExecAsync
-MsgBox "Recordset brought in on another thread Asyncronously"End If 
+MsgBox "Recordset brought in on another thread Asynchronously"End If 
 If FO = "adcFetchBackground" Then 'Determine 'which FetchOption chosenRDC.FetchOptions = adcFetchBackground
 MsgBox "Control goes back to user after first batch of records returned"ElseIf FO = " adcFetchUpFront" Then
 RDC.FetchOptions = adcFetchUpFrontMsgBox "All records returned before control goes back to user"
@@ -92,9 +93,11 @@ RDC.RefreshEnd Sub
 
 ## See also
 
-- [Access for developers forum on MSDN](https://social.msdn.microsoft.com/Forums/office/en-US/home?forum=accessdev)
+- [Access for developers forum](https://social.msdn.microsoft.com/Forums/office/home?forum=accessdev)
 - [Access help on support.office.com](https://support.office.com/search/results?query=Access)
-- [Access help on answers.microsoft.com](https://answers.microsoft.com/en-us/msoffice/forum?page=1&;tab=question&;status=all&;auth=1)
+- [Access help on answers.microsoft.com](https://answers.microsoft.com/)
 - [Access forums on UtterAccess](http://www.utteraccess.com/forum/index.php?act=idx)
 - [Access developer and VBA programming help center (FMS)](http://www.fmsinc.com/MicrosoftAccess/developer/)
 - [Access posts on StackOverflow](https://stackoverflow.com/questions/tagged/ms-access)
+
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

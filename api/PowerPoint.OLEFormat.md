@@ -1,5 +1,5 @@
 ---
-title: OLEFormat Object (PowerPoint)
+title: OLEFormat object (PowerPoint)
 keywords: vbapp10.chm562000
 f1_keywords:
 - vbapp10.chm562000
@@ -8,10 +8,11 @@ api_name:
 - PowerPoint.OLEFormat
 ms.assetid: fbb6d6dd-4dbb-461b-986e-5095c6dc1486
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# OLEFormat Object (PowerPoint)
+# OLEFormat object (PowerPoint)
 
 Contains properties and methods that apply to OLE objects. 
 
@@ -51,25 +52,27 @@ Next
 
 
 
-|**Name**|
+|Name|
 |:-----|
-|[Activate](./PowerPoint.OLEFormat.Activate.md)|
-|[DoVerb](./PowerPoint.OLEFormat.DoVerb.md)|
+|[Activate](PowerPoint.OLEFormat.Activate.md)|
+|[DoVerb](PowerPoint.OLEFormat.DoVerb.md)|
 
 ## Properties
 
 
 
-|**Name**|
+|Name|
 |:-----|
-|[Application](./PowerPoint.OLEFormat.Application.md)|
-|[FollowColors](./PowerPoint.OLEFormat.FollowColors.md)|
-|[Object](./PowerPoint.OLEFormat.Object.md)|
-|[ObjectVerbs](./PowerPoint.OLEFormat.ObjectVerbs.md)|
-|[Parent](./PowerPoint.OLEFormat.Parent.md)|
-|[ProgID](./PowerPoint.OLEFormat.ProgID.md)|
+|[Application](PowerPoint.OLEFormat.Application.md)|
+|[FollowColors](PowerPoint.OLEFormat.FollowColors.md)|
+|[Object](PowerPoint.OLEFormat.Object.md)|
+|[ObjectVerbs](PowerPoint.OLEFormat.ObjectVerbs.md)|
+|[Parent](PowerPoint.OLEFormat.Parent.md)|
+|[ProgID](PowerPoint.OLEFormat.ProgID.md)|
 
 ## See also
 
 
-[PowerPoint Object Model Reference](./overview/PowerPoint/object-model.md)
+[PowerPoint Object Model Reference](overview/PowerPoint/object-model.md)
+
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

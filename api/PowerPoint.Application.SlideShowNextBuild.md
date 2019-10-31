@@ -1,5 +1,5 @@
 ---
-title: Application.SlideShowNextBuild Event (PowerPoint)
+title: Application.SlideShowNextBuild event (PowerPoint)
 keywords: vbapp10.chm621012
 f1_keywords:
 - vbapp10.chm621012
@@ -8,32 +8,33 @@ api_name:
 - PowerPoint.Application.SlideShowNextBuild
 ms.assetid: 63919ea5-57e4-853a-0e5a-94e1126cbfbf
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Application.SlideShowNextBuild Event (PowerPoint)
+# Application.SlideShowNextBuild event (PowerPoint)
 
 Occurs upon mouse-click or timing animation, but before the animated object becomes visible. .
 
 
 ## Syntax
 
- _expression_. `SlideShowNextBuild`( `_Wn_` )
+_expression_. `SlideShowNextBuild`(_Wn_)
 
- _expression_ A variable that represents an [Application](./PowerPoint.Application.md) object.
-
-
-### Parameters
+_expression_ A variable that represents an **[Application](PowerPoint.Application.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _Wn_|Required|**SlideShowWindow**|The active slide show window.|
 
 ## Remarks
 
-For information about using events with the  **Application** object, see[How to: Use Events with the Application Object](../powerpoint/How-to/use-events-with-the-application-object.md).
+For information about using events with the  **Application** object, see [How to: Use Events with the Application Object](../powerpoint/How-to/use-events-with-the-application-object.md).
 
 
 ## Example
@@ -77,3 +78,4 @@ End Sub
 
 [Application Object](PowerPoint.Application.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

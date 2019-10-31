@@ -1,5 +1,5 @@
 ---
-title: Presentation.CustomDocumentProperties Property (PowerPoint)
+title: Presentation.CustomDocumentProperties property (PowerPoint)
 keywords: vbapp10.chm583021
 f1_keywords:
 - vbapp10.chm583021
@@ -8,22 +8,23 @@ api_name:
 - PowerPoint.Presentation.CustomDocumentProperties
 ms.assetid: 3f972f15-f606-0a11-56b6-1994e617def2
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Presentation.CustomDocumentProperties Property (PowerPoint)
+# Presentation.CustomDocumentProperties property (PowerPoint)
 
 Returns a  **DocumentProperties** collection that represents all the custom document properties for the specified presentation. Read-only.
 
 
 ## Syntax
 
- _expression_. `CustomDocumentProperties`
+_expression_. `CustomDocumentProperties`
 
- _expression_ A variable that represents a [Presentation](./PowerPoint.Presentation.md) object.
+_expression_ A variable that represents a [Presentation](PowerPoint.Presentation.md) object.
 
 
-### Return Value
+## Return value
 
 DocumentProperties
 
@@ -32,7 +33,7 @@ DocumentProperties
 
 Use the  **[BuiltInDocumentProperties](PowerPoint.Presentation.BuiltInDocumentProperties.md)** property to return the collection of built-in document properties.
 
-For information about returning a single member of a collection, see [Returning an Object from a Collection](../powerpoint/How-to/return-objects-from-collections.md).
+For information about returning a single member of a collection, see [Returning an object from a collection](../powerpoint/How-to/return-objects-from-collections.md).
 
 
 ## Example
@@ -65,3 +66,4 @@ End With
 
 [Presentation Object](PowerPoint.Presentation.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

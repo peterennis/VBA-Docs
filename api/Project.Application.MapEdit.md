@@ -1,5 +1,5 @@
 ---
-title: Application.MapEdit Method (Project)
+title: Application.MapEdit method (Project)
 keywords: vbapj.chm243
 f1_keywords:
 - vbapj.chm243
@@ -8,26 +8,27 @@ api_name:
 - Project.Application.MapEdit
 ms.assetid: 316d596e-95b3-d616-c8d6-21da651ff284
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Application.MapEdit Method (Project)
+# Application.MapEdit method (Project)
 
 Creates or edits an import/export map.
 
 
 ## Syntax
 
- _expression_. `MapEdit`( ` _Name_`, ` _Create_`, ` _OverwriteExisting_`, ` _NewName_`, ` _DataCategory_`, ` _CategoryEnabled_`, ` _TableName_`, ` _FieldName_`, ` _ExternalFieldName_`, ` _ExportFilter_`, ` _ImportMethod_`, ` _MergeKey_`, ` _HeaderRow_`, ` _AssignmentData_`, ` _TextDelimiter_`, ` _TextFileOrigin_`, ` _UseHtmlTemplate_`, ` _TemplateFile_`, ` _IncludeImage_`, ` _ImageFile_` )
+_expression_. `MapEdit`( `_Name_`, `_Create_`, `_OverwriteExisting_`, `_NewName_`, `_DataCategory_`, `_CategoryEnabled_`, `_TableName_`, `_FieldName_`, `_ExternalFieldName_`, `_ExportFilter_`, `_ImportMethod_`, `_MergeKey_`, `_HeaderRow_`, `_AssignmentData_`, `_TextDelimiter_`, `_TextFileOrigin_`, `_UseHtmlTemplate_`, `_TemplateFile_`, `_IncludeImage_`, `_ImageFile_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
-
-
-### Parameters
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _Name_|Optional|**String**|The name of the map to create, copy, or edit.|
 | _Create_|Optional|**Boolean**|**True** if Project should create a new map. If NewName is not specified, the new map is given the name specified with Name. Otherwise, the new map is a copy of the map specified with Name and is given the name specified with NewName. The default value is **False**.|
@@ -50,7 +51,7 @@ Creates or edits an import/export map.
 | _IncludeImage_|Optional|**Boolean**|**True** if a reference to an image file should be included when exporting to HTML. The default value is **False**.|
 | _ImageFile_|Optional|**String**|The name of an image file to include when exporting to HTML.|
 
-### Return Value
+## Return value
 
  **Boolean**
 
@@ -82,4 +83,4 @@ Sub MakeEntryTableMap()
 End Sub
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

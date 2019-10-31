@@ -1,5 +1,5 @@
 ---
-title: UIObject.SaveToFile Method (Visio)
+title: UIObject.SaveToFile method (Visio)
 keywords: vis_sdr.chm14916510
 f1_keywords:
 - vis_sdr.chm14916510
@@ -8,30 +8,31 @@ api_name:
 - Visio.UIObject.SaveToFile
 ms.assetid: 0e734a30-08be-e3e8-590f-88e399e699fd
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# UIObject.SaveToFile Method (Visio)
+# UIObject.SaveToFile method (Visio)
 
 Saves the user interface represented by a  **UIObject** object in a file.
 
 
 ## Syntax
 
- _expression_. `SaveToFile`( `_FileName_` )
+_expression_. `SaveToFile`( `_FileName_` )
 
- _expression_ A variable that represents a [UIObject](./Visio.UIObject.md) object.
-
-
-### Parameters
+_expression_ A variable that represents a **[UIObject](Visio.UIObject.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _FileName_|Required| **String**|The name of the file in which to save the  **UIObject** object.|
 
-### Return Value
+## Return value
 
 Nothing
 
@@ -39,7 +40,8 @@ Nothing
 ## Remarks
 
 
- **Note**  Starting with Visio, the Microsoft Office Fluent user interface (UI) replaces the previous system of layered menus, toolbars, and task panes. VBA objects and members that you used to customize the user interface in previous versions of Visio are still available in Visio, but they function differently.
+> [!NOTE] 
+> Starting with Visio 2010, the Microsoft Office Fluent user interface (UI) replaced the previous system of layered menus, toolbars, and task panes. VBA objects and members that you used to customize the user interface in previous versions of Visio are still available in Visio, but they function differently.
 
 The file can be loaded into the application by using the  **LoadFromFile** method of a **UIObject** object.
 
@@ -67,4 +69,4 @@ Public Sub SaveMenusToFile_Example()
 End Sub
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

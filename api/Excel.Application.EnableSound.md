@@ -1,5 +1,5 @@
 ---
-title: Application.EnableSound Property (Excel)
+title: Application.EnableSound property (Excel)
 keywords: vbaxl10.chm133132
 f1_keywords:
 - vbaxl10.chm133132
@@ -7,20 +7,21 @@ ms.prod: excel
 api_name:
 - Excel.Application.EnableSound
 ms.assetid: 8372b9dd-2929-6b5d-f51b-4409349dd6e6
-ms.date: 06/08/2017
+ms.date: 04/04/2019
+localization_priority: Normal
 ---
 
 
-# Application.EnableSound Property (Excel)
+# Application.EnableSound property (Excel)
 
- **True** if sound is enabled for Microsoft Office. Read/write **Boolean** .
+**True** if sound is enabled for Microsoft Office. Read/write **Boolean**.
 
 
 ## Syntax
 
- _expression_. `EnableSound`
+_expression_.**EnableSound**
 
- _expression_ A variable that represents an [Application](Excel.Application(Graph property).md) object.
+_expression_ A variable that represents an **[Application](Excel.Application(object).md)** object.
 
 
 ## Example
@@ -33,8 +34,6 @@ Application.EnableSound = False
 ```
 
 
-## See also
 
 
-[Application Object](Excel.Application(object).md)
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

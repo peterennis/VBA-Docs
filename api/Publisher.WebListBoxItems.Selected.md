@@ -1,5 +1,5 @@
 ---
-title: WebListBoxItems.Selected Method (Publisher)
+title: WebListBoxItems.Selected method (Publisher)
 keywords: vbapb10.chm4128775
 f1_keywords:
 - vbapb10.chm4128775
@@ -7,35 +7,33 @@ ms.prod: publisher
 api_name:
 - Publisher.WebListBoxItems.Selected
 ms.assetid: 2db3b8cb-2922-1cca-9613-67402772ee27
-ms.date: 06/08/2017
+ms.date: 06/18/2019
+localization_priority: Normal
 ---
 
 
-# WebListBoxItems.Selected Method (Publisher)
+# WebListBoxItems.Selected method (Publisher)
 
-Selects or cancels the selection of an item in a Web list box control.
+Selects or cancels the selection of an item in a web list box control.
 
 
 ## Syntax
 
- _expression_. **Selected**(**_Index_**,  **_SelectState_**)
+_expression_.**Selected** (_Index_, _SelectState_)
 
- _expression_ A variable that represents a  **WebListBoxItems** object.
-
-
-### Parameters
+_expression_ A variable that represents a **[WebListBoxItems](Publisher.WebListBoxItems.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-|Index|Required| **Long**|The number of the Web list box item.|
-|SelectState|Required| **Boolean**| **True** to select the list item.|
+|_Index_|Required| **Long**|The number of the web list box item.|
+|_SelectState_|Required| **Boolean**| **True** to select the list item.|
 
 ## Example
 
-This example verifies that an existing Web list box control allows selecting multiple entries and then selects two items in the list.
-
+This example verifies that an existing web list box control allows selecting multiple entries and then selects two items in the list.
 
 ```vb
 Sub SelectListBoxItem() 
@@ -51,4 +49,4 @@ Sub SelectListBoxItem()
 End Sub
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

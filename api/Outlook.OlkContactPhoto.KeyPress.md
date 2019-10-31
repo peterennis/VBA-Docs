@@ -1,5 +1,5 @@
 ---
-title: OlkContactPhoto.KeyPress Event (Outlook)
+title: OlkContactPhoto.KeyPress event (Outlook)
 keywords: vbaol11.chm1000319
 f1_keywords:
 - vbaol11.chm1000319
@@ -8,26 +8,27 @@ api_name:
 - Outlook.OlkContactPhoto.KeyPress
 ms.assetid: 43b7f7e0-79c5-e02c-5d9e-a204098509c2
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# OlkContactPhoto.KeyPress Event (Outlook)
+# OlkContactPhoto.KeyPress event (Outlook)
 
 Occurs when the user presses an ANSI key.
 
 
 ## Syntax
 
- _expression_. `KeyPress`( `_KeyAscii_` )
+_expression_. `KeyPress`( `_KeyAscii_` )
 
- _expression_ A variable that represents an [OlkContactPhoto](./Outlook.OlkContactPhoto.md) object.
-
-
-### Parameters
+_expression_ A variable that represents an [OlkContactPhoto](Outlook.OlkContactPhoto.md) object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _KeyAscii_|Required| **Long**|The numerical value of the key pressed.|
 
@@ -54,3 +55,4 @@ A  **KeyPress** event does not occur under the following conditions:
 
 [OlkContactPhoto Object](Outlook.OlkContactPhoto.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

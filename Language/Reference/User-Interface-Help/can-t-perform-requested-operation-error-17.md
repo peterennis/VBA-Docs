@@ -6,6 +6,7 @@ f1_keywords:
 ms.prod: office
 ms.assetid: 4cde1fa7-b509-4d69-2157-7fb0a429d99f
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
@@ -15,7 +16,7 @@ An operation can't be carried out if it would invalidate the current state of th
 
 
 
-- The requested operation would invalidate the current state of the project. For example, the error occurs if you use the  **References** dialog box to add a reference to a new project or[object library](../../Glossary/vbe-glossary.md#object-library) while a program is in[break mode](../../Glossary/vbe-glossary.md#break-mode).
+- The requested operation would invalidate the current state of the project. For example, the error occurs if you use the  **References** dialog box to add a reference to a new project or [object library](../../Glossary/vbe-glossary.md#object-library) while a program is in [break mode](../../Glossary/vbe-glossary.md#break-mode).
     
     Stop execution of the current code, and then retry the operation.
     
@@ -26,3 +27,4 @@ An operation can't be carried out if it would invalidate the current state of th
 
 For additional information, select the item in question and press F1 (in Windows) or HELP (on the Macintosh).
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

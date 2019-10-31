@@ -1,14 +1,13 @@
 ---
-title: Calculating Fields in SQL Functions
+title: Calculating fields in SQL functions
 ms.prod: access
 ms.assetid: 441af335-469d-5d70-bd90-5309717cb941
-ms.date: 06/08/2017
+ms.date: 10/12/2018
+localization_priority: Normal
 ---
 
 
-# Calculating Fields in SQL Functions
-
-  
+# Calculating fields in SQL functions
 
 **Applies to:** Access 2013 | Access 2016
 
@@ -25,21 +24,22 @@ The following table provides examples of calculations on fields from the Orders 
 |Divide a field by a number| `Freight / 2`|
 |Add one field to another| `UnitsInStock + UnitsOnOrder`|
 |Subtract one field from another| `ReorderLevel - UnitsInStock`|
+
 The following example calculates the average discount amount of all orders in the Northwind.mdb database. It multiplies the values in the UnitPrice and Discount fields to determine the discount amount of each order and then calculates the average. You can use this expression in an SQL statement in Visual Basic code:
 
-
+<br/>
 
 ```sql
 SELECT Avg(UnitPrice * Discount) AS [Average Discount] FROM [Order Details];
-
-
 ```
 
 ## See also
 
-- [Access for developers forum on MSDN](https://social.msdn.microsoft.com/Forums/office/en-US/home?forum=accessdev)
+- [Access for developers forum](https://social.msdn.microsoft.com/Forums/office/home?forum=accessdev)
 - [Access help on support.office.com](https://support.office.com/search/results?query=Access)
-- [Access help on answers.microsoft.com](https://answers.microsoft.com/en-us/msoffice/forum?page=1&;tab=question&;status=all&;auth=1)
+- [Access help on answers.microsoft.com](https://answers.microsoft.com/)
 - [Access forums on UtterAccess](http://www.utteraccess.com/forum/index.php?act=idx)
 - [Access developer and VBA programming help center (FMS)](http://www.fmsinc.com/MicrosoftAccess/developer/)
 - [Access posts on StackOverflow](https://stackoverflow.com/questions/tagged/ms-access)
+
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

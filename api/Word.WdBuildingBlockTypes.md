@@ -1,20 +1,21 @@
 ---
-title: WdBuildingBlockTypes Enumeration (Word)
+title: WdBuildingBlockTypes enumeration (Word)
 ms.prod: word
 api_name:
 - Word.WdBuildingBlockTypes
 ms.assetid: be7fcedb-04fd-f27d-8f36-3120ca263f06
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# WdBuildingBlockTypes Enumeration (Word)
+# WdBuildingBlockTypes enumeration (Word)
 
 Specifies the type of building block.
 
 
 
-|**Name**|**Value**|**Description**|
+|Name|Value|Description|
 |:-----|:-----|:-----|
 | **wdTypeAutoText**|9|Autotext building block.|
 | **wdTypeBibliography**|34|Bibliography building block.|
@@ -36,11 +37,11 @@ Specifies the type of building block.
 | **wdTypeCustomPageNumberTop**|25|Building block for custom page numbering on the top of the page.|
 | **wdTypeCustomQuickParts**|15|Custom quick parts building block.|
 | **wdTypeCustomTableOfContents**|28|Custom table of contents building block.|
-| **wdTypeCustomTables**|21|Custom table bulding block.|
+| **wdTypeCustomTables**|21|Custom table building block.|
 | **wdTypeCustomTextBox**|24|Custom text box building block.|
 | **wdTypeCustomWatermarks**|22|Custom watermark building block.|
 | **wdTypeEquations**|3|Equation building block.|
-| **wdTypeFooters**|4|Footer bulding block.|
+| **wdTypeFooters**|4|Footer building block.|
 | **wdTypeHeaders**|5|Header building block.|
 | **wdTypePageNumber**|6|Page numbering building block.|
 | **wdTypePageNumberBottom**|12|Building block for page numbering on the bottom of the page.|
@@ -52,3 +53,4 @@ Specifies the type of building block.
 | **wdTypeTextBox**|10|Text box building block.|
 | **wdTypeWatermarks**|8|Watermark building block.|
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

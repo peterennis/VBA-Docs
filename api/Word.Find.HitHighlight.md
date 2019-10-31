@@ -1,5 +1,5 @@
 ---
-title: Find.HitHighlight Method (Word)
+title: Find.HitHighlight method (Word)
 keywords: vbawd10.chm162529725
 f1_keywords:
 - vbawd10.chm162529725
@@ -8,23 +8,24 @@ api_name:
 - Word.Find.HitHighlight
 ms.assetid: 11f6a7e5-7aba-a374-db39-327f6427364b
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Find.HitHighlight Method (Word)
+# Find.HitHighlight method (Word)
 
 Highlights all found matches and returns a **Boolean** that represents whether matches were found.
 
 ## Syntax
 
-_expression_. **HitHighlight** (**_FindText_**, **_HighlightColor_**, **_TextColor_**, **_MatchCase_**, **_MatchWholeWord_**, **_MatchPrefix_**, **_MatchSuffix_**, **_MatchPhrase_**, **_MatchWildcards_**, **_MatchSoundsLike_**, **_MatchAllWordForms_**, **_MatchByte_**, **_MatchFuzzy_**, **_MatchKashida_**, **_MatchDiacritics_**, **_MatchAlefHamza_**, **_MatchControl_**, **_IgnoreSpace_**, **_IgnorePunct_**, **_HanjaPhoneticHangul_**)
+_expression_.**HitHighlight** (**_FindText_**, **_HighlightColor_**, **_TextColor_**, **_MatchCase_**, **_MatchWholeWord_**, **_MatchPrefix_**, **_MatchSuffix_**, **_MatchPhrase_**, **_MatchWildcards_**, **_MatchSoundsLike_**, **_MatchAllWordForms_**, **_MatchByte_**, **_MatchFuzzy_**, **_MatchKashida_**, **_MatchDiacritics_**, **_MatchAlefHamza_**, **_MatchControl_**, **_IgnoreSpace_**, **_IgnorePunct_**, **_HanjaPhoneticHangul_**)
 
 _expression_ An expression that returns a **Find** object.
 
 
-### Parameters
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _FindText_|Required| **Variant**|Specifies the text to find. Use an empty string ("") to search for formatting only. You can search for special characters by specifying appropriate character codes. For example, `"^p"` corresponds to a paragraph mark and `"^t"` corresponds to a tab character.|
 | _HighlightColor_|Optional| **Variant**|Specifies the highlight color for the text. Can be any RGB color or one of the **[WdColor](Word.WdColor.md)** constants.|
@@ -47,15 +48,16 @@ _expression_ An expression that returns a **Find** object.
 | _IgnorePunct_|Optional| **Variant**|**True** ignores all punctuation characters between words. Corresponds to the **Ignore punctuation** check box in the **Find and Replace** dialog box.|
 | _HanjaPhoneticHangul_|Optional| **Variant**|**True** ignores phonetic hangul and hanja characters. Available only if you have support for Korean languages.|
 
-### Return value
+## Return value
 
 Boolean
 
 ## Remarks
 
-The **HitHighlight** method applies primarily to search highlighting in Office Outlook when Word is specified as the e-mail editor. However, you can use this method on documents inside Word if you want to highlight found text. Otherwise, use the **[Execute](Word.Find.Execute.md)** method.
+The **HitHighlight** method applies primarily to search highlighting in Office Outlook when Word is specified as the email editor. However, you can use this method on documents inside Word if you want to highlight found text. Otherwise, use the **[Execute](Word.Find.Execute.md)** method.
 
 ## See also
 
 - [Find Object](Word.Find.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

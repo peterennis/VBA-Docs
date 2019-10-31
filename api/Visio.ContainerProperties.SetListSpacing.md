@@ -1,5 +1,5 @@
 ---
-title: ContainerProperties.SetListSpacing Method (Visio)
+title: ContainerProperties.SetListSpacing method (Visio)
 keywords: vis_sdr.chm17662315
 f1_keywords:
 - vis_sdr.chm17662315
@@ -8,37 +8,36 @@ api_name:
 - Visio.ContainerProperties.SetListSpacing
 ms.assetid: 2aa7d9c3-5945-5b2c-ab0c-3663e6d49288
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# ContainerProperties.SetListSpacing Method (Visio)
+# ContainerProperties.SetListSpacing method (Visio)
 
 Sets the gap between adjacent member shapes in the list.
 
 
 ## Syntax
 
- _expression_. `SetListSpacing`( `_SpacingUnits_` , `_SpacingSize_` )
+_expression_.**SetListSpacing** (_SpacingUnits_, _SpacingSize_)
 
- _expression_ A variable that represents a '[ContainerProperties](Visio.ContainerProperties.md)' object.
-
-
-### Parameters
+_expression_ A variable that represents a **[ContainerProperties](Visio.ContainerProperties.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _SpacingUnits_|Required| **[VisUnitCodes](Visio.visunitcodes.md)**|The units in which to measure the gap.|
 | _SpacingSize_|Required| **Double**|The size of the gap.|
 
-### Return Value
+## Return value
 
- **Nothing**
+**Nothing**
 
 
 ## Remarks
 
 If the container is not a list, Microsoft Visio returns an Invalid Source error.
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

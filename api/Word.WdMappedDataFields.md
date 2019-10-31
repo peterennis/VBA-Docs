@@ -1,20 +1,21 @@
 ---
-title: WdMappedDataFields Enumeration (Word)
+title: WdMappedDataFields enumeration (Word)
 ms.prod: word
 api_name:
 - Word.WdMappedDataFields
 ms.assetid: 99f4c08f-b0bc-6610-4a30-5cd785aa3402
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# WdMappedDataFields Enumeration (Word)
+# WdMappedDataFields enumeration (Word)
 
 Specifies a type of mapped data field.
 
 
 
-|**Name**|**Value**|**Description**|
+|Name|Value|Description|
 |:-----|:-----|:-----|
 | **wdAddress1**|10|Address 1 field.|
 | **wdAddress2**|11|Address 2 field.|
@@ -26,7 +27,7 @@ Specifies a type of mapped data field.
 | **wdCountryRegion**|15|Country/region field.|
 | **wdCourtesyTitle**|2|Courtesy title field.|
 | **wdDepartment**|30|Department field.|
-| **wdEmailAddress**|20|E-mail address field.|
+| **wdEmailAddress**|20|Email address field.|
 | **wdFirstName**|3|First name field.|
 | **wdHomeFax**|19|Home fax field.|
 | **wdHomePhone**|18|Home phone field.|
@@ -47,3 +48,4 @@ Specifies a type of mapped data field.
 | **wdUniqueIdentifier**|1|Unique identifier field.|
 | **wdWebPageURL**|21|Web page uniform resource locator (URL) field.|
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

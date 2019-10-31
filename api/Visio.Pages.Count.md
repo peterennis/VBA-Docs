@@ -1,5 +1,5 @@
 ---
-title: Pages.Count Property (Visio)
+title: Pages.Count property (Visio)
 keywords: vis_sdr.chm11013330
 f1_keywords:
 - vis_sdr.chm11013330
@@ -8,29 +8,30 @@ api_name:
 - Visio.Pages.Count
 ms.assetid: 1e240cc4-07f3-ceb1-7eb3-7a6d5071f630
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Pages.Count Property (Visio)
+# Pages.Count property (Visio)
 
 Returns the number of objects in a collection. Read-only.
 
 
 ## Syntax
 
- _expression_. `Count`
+_expression_.**Count**
 
- _expression_ A variable that represents a [Pages](./Visio.Pages.md) object.
+_expression_ A variable that represents a **[Pages](Visio.Pages.md)** object.
 
 
-### Return Value
+## Return value
 
 Integer
 
 
 ## Example
 
-This Microsoft Visual Basic for Applications (VBA) macro shows how to use the  **Count** property to iterate through a **Documents** collection. It displays the names of all the open Microsoft Visio documents in the **Immediate** window.
+This Microsoft Visual Basic for Applications (VBA) macro shows how to use the  **Count** property to iterate through a **Documents** collection. It displays the names of all the open Microsoft Visio documents in the Immediate window.
 
 
 ```vb
@@ -51,4 +52,4 @@ Public Sub Count_Example()
 End Sub
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

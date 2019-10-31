@@ -1,5 +1,5 @@
 ---
-title: TaskRequestUpdateItem.GetAssociatedTask Method (Outlook)
+title: TaskRequestUpdateItem.GetAssociatedTask method (Outlook)
 keywords: vbaol11.chm1955
 f1_keywords:
 - vbaol11.chm1955
@@ -8,42 +8,43 @@ api_name:
 - Outlook.TaskRequestUpdateItem.GetAssociatedTask
 ms.assetid: b663f5fe-05bf-c1c7-f53b-1fbd308f22f8
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# TaskRequestUpdateItem.GetAssociatedTask Method (Outlook)
+# TaskRequestUpdateItem.GetAssociatedTask method (Outlook)
 
 Returns a  **[TaskItem](Outlook.TaskItem.md)** object that represents the requested task.
 
 
 ## Syntax
 
- _expression_. `GetAssociatedTask`( `_AddToTaskList_` )
+_expression_. `GetAssociatedTask`( `_AddToTaskList_` )
 
- _expression_ A variable that represents a [TaskRequestUpdateItem](./Outlook.TaskRequestUpdateItem.md) object.
-
-
-### Parameters
+_expression_ A variable that represents a [TaskRequestUpdateItem](Outlook.TaskRequestUpdateItem.md) object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _AddToTaskList_|Required| **Boolean**| **True** if the task is added to the default **Tasks** folder.|
 
-### Return Value
+## Return value
 
 A  **TaskItem** object that represents the requested task.
 
 
 ## Remarks
 
-The  **GetAssociatedTask** method will not work unless the **TaskItem** is processed before the method is called. To do so, call the **[Display](Outlook.TaskItem.Display.md)** method before calling **GetAssociatedTask** .
+The  **GetAssociatedTask** method will not work unless the **TaskItem** is processed before the method is called. To do so, call the **[Display](Outlook.TaskItem.Display.md)** method before calling **GetAssociatedTask**.
 
 
 ## Example
 
-This Microsoft Visual Basic for Applications (VBA) example accepts a  **[TaskRequestUpdateItem Object](Outlook.TaskRequestUpdateItem.md)** , sending the response without displaying the inspector.
+This Microsoft Visual Basic for Applications (VBA) example accepts a  **[TaskRequestUpdateItem Object](Outlook.TaskRequestUpdateItem.md)**, sending the response without displaying the inspector.
 
 
 ```vb
@@ -86,3 +87,4 @@ End Sub
 
 [TaskRequestUpdateItem Object](Outlook.TaskRequestUpdateItem.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

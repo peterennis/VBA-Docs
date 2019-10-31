@@ -1,5 +1,5 @@
 ---
-title: MailMergeFields.AddIf Method (Word)
+title: MailMergeFields.AddIf method (Word)
 keywords: vbawd10.chm153026664
 f1_keywords:
 - vbawd10.chm153026664
@@ -8,26 +8,27 @@ api_name:
 - Word.MailMergeFields.AddIf
 ms.assetid: 13c9338a-b70e-1132-0390-121d4daa15fb
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# MailMergeFields.AddIf Method (Word)
+# MailMergeFields.AddIf method (Word)
 
 Adds an IF field to a mail merge main document. Returns a  **MailMergeField** object.
 
 
 ## Syntax
 
- _expression_. `AddIf`( `_Range_` , `_MergeField_` , `_Comparison_` , `_CompareTo_` , `_TrueAutoText_` , `_TrueText_` , `_FalseAutoText_` , `_FalseText_` )
+_expression_. `AddIf`( `_Range_` , `_MergeField_` , `_Comparison_` , `_CompareTo_` , `_TrueAutoText_` , `_TrueText_` , `_FalseAutoText_` , `_FalseText_` )
 
- _expression_ Required. A variable that represents a '[MailMergeFields](Word.mailmergefields.md)' collection.
-
-
-### Parameters
+_expression_ Required. A variable that represents a '[MailMergeFields](Word.mailmergefields.md)' collection.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _Range_|Required| **Range object**|The location for the IF field.|
 | _MergeField_|Required| **String**|The merge field name.|
@@ -38,7 +39,7 @@ Adds an IF field to a mail merge main document. Returns a  **MailMergeField** ob
 | _FalseAutoText_|Optional| **Variant**|The AutoText entry that's inserted if the comparison is false. If this argument is specified, FalseText is ignored.|
 | _FalseText_|Optional| **Variant**|The text that's inserted if the comparison is false.|
 
-### Return Value
+## Return value
 
 MailMergeField
 
@@ -66,3 +67,4 @@ ActiveDocument.MailMerge.Fields.AddIf Range:=Selection.Range, _
 
 [MailMergeFields Collection Object](Word.mailmergefields.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

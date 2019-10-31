@@ -1,5 +1,5 @@
 ---
-title: NameSpace.GetSelectNamesDialog Method (Outlook)
+title: NameSpace.GetSelectNamesDialog method (Outlook)
 keywords: vbaol11.chm781
 f1_keywords:
 - vbaol11.chm781
@@ -8,22 +8,23 @@ api_name:
 - Outlook.NameSpace.GetSelectNamesDialog
 ms.assetid: 883d90e0-b3cc-e76e-cbe6-cb271e9ccb37
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# NameSpace.GetSelectNamesDialog Method (Outlook)
+# NameSpace.GetSelectNamesDialog method (Outlook)
 
 Obtains a  **[SelectNamesDialog](Outlook.SelectNamesDialog.md)** object for the current session.
 
 
 ## Syntax
 
- _expression_. `GetSelectNamesDialog`
+_expression_. `GetSelectNamesDialog`
 
- _expression_ A variable that represents a '[NameSpace](Outlook.NameSpace.md)' object.
+_expression_ A variable that represents a '[NameSpace](Outlook.NameSpace.md)' object.
 
 
-### Return Value
+## Return value
 
 A  **SelectNamesDialog** object for the current session. The **SelectNamesDialog** object supports displaying the **Select Names** dialog box for the user to select entries from one or more address lists in the current session.
 
@@ -67,3 +68,4 @@ End Sub
 
 [NameSpace Object](Outlook.NameSpace.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

@@ -1,20 +1,21 @@
 ---
-title: WdStyleSort Enumeration (Word)
+title: WdStyleSort enumeration (Word)
 ms.prod: word
 api_name:
 - Word.WdStyleSort
 ms.assetid: b5113d24-6f1a-4079-df09-469a226fccf0
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# WdStyleSort Enumeration (Word)
+# WdStyleSort enumeration (Word)
 
 Indicates how to sort styles in the  **Styles** task pane.
 
 
 
-|**Name**|**Value**|**Description**|
+|Name|Value|Description|
 |:-----|:-----|:-----|
 | **wdStyleSortByBasedOn**|3|Sorts styles based on the item indicated in the  **Sort Styles Based On** option.|
 | **wdStyleSortByFont**|2|Sorts styles based on the name of the font used.|
@@ -22,3 +23,4 @@ Indicates how to sort styles in the  **Styles** task pane.
 | **wdStyleSortByType**|4|Sorts styles based on whether the style is a paragraph style or character style.|
 | **wdStyleSortRecommended**|1|Sorts styles based on whether they are recommended for use.|
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

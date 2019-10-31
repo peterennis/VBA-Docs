@@ -6,6 +6,7 @@ f1_keywords:
 ms.prod: office
 ms.assetid: 4bce75c1-1ef4-497a-bfa2-c64a79235bab
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
@@ -13,8 +14,8 @@ ms.date: 06/08/2017
 
 Hi there! You have landed on one of our F1 Help redirector pages. Please select the topic you were looking for below.
 
-[NavigationControl.MouseUp Event (Access)](http://msdn.microsoft.com/library/174c4b0d-9906-5f73-80a2-a59b3d66aae1%28Office.15%29.aspx)
+[NavigationControl.MouseUp event (Access)](http://msdn.microsoft.com/library/174c4b0d-9906-5f73-80a2-a59b3d66aae1%28Office.15%29.aspx)
 
-[TextBox.MouseUp Event (Access)](http://msdn.microsoft.com/library/0dfdc0b3-4a31-fd96-481c-d13db8197edd%28Office.15%29.aspx)
+[TextBox.MouseUp event (Access)](http://msdn.microsoft.com/library/0dfdc0b3-4a31-fd96-481c-d13db8197edd%28Office.15%29.aspx)
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

@@ -1,5 +1,5 @@
 ---
-title: Document.Undo Method (Word)
+title: Document.Undo method (Word)
 keywords: vbawd10.chm158007412
 f1_keywords:
 - vbawd10.chm158007412
@@ -8,30 +8,29 @@ api_name:
 - Word.Document.Undo
 ms.assetid: f9fd64c9-aeb9-b698-6318-beb1db653ee6
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Document.Undo Method (Word)
+# Document.Undo method (Word)
 
-Undoes the last action or a sequence of actions, which are displayed in the  **Undo** list. Returns **True** if the actions were successfully undone.
+Undoes the last action or a sequence of actions, which are displayed in the **Undo** list. Returns **True** if the actions were successfully undone.
 
 
 ## Syntax
 
- _expression_. `Undo`( `_Times_` )
+_expression_.**Undo** (_Times_)
 
- _expression_ Required. A variable that represents a '[Document](Word.Document.md)' object.
-
-
-### Parameters
+_expression_ Required. A variable that represents a **[Document](Word.Document.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _Times_|Optional| **Variant**|The number of actions to be undone.|
 
-### Return Value
+## Return value
 
 Boolean
 
@@ -62,3 +61,4 @@ If ActiveDocument.Undo = False Then _
 
 [Document Object](Word.Document.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

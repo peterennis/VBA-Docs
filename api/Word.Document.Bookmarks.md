@@ -1,5 +1,5 @@
 ---
-title: Document.Bookmarks Property (Word)
+title: Document.Bookmarks property (Word)
 keywords: vbawd10.chm158007300
 f1_keywords:
 - vbawd10.chm158007300
@@ -8,24 +8,25 @@ api_name:
 - Word.Document.Bookmarks
 ms.assetid: 47aaace6-843c-0a2d-e584-7a8ef52f6953
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Document.Bookmarks Property (Word)
+# Document.Bookmarks property (Word)
 
 Returns a  **[Bookmarks](Word.bookmarks.md)** collection that represents all the bookmarks in a document. Read-only.
 
 
 ## Syntax
 
- _expression_. `Bookmarks`
+_expression_. `Bookmarks`
 
- _expression_ A variable that represents a '[Document](Word.Document.md)' object.
+_expression_ A variable that represents a **[Document](Word.Document.md)** object.
 
 
 ## Remarks
 
-For information about returning a single member of a collection, see [Returning an Object from a Collection](../word/Concepts/Miscellaneous/returning-an-object-from-a-collection-word.md).
+For information about returning a single member of a collection, see [Returning an object from a collection](../word/Concepts/Miscellaneous/returning-an-object-from-a-collection-word.md).
 
 
 ## Example
@@ -62,3 +63,4 @@ End If
 
 [Document Object](Word.Document.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

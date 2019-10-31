@@ -1,5 +1,5 @@
 ---
-title: Application.UsageViewEntryEx Method (Project)
+title: Application.UsageViewEntryEx method (Project)
 keywords: vbapj.chm2163
 f1_keywords:
 - vbapj.chm2163
@@ -8,51 +8,50 @@ api_name:
 - Project.Application.UsageViewEntryEx
 ms.assetid: 2aac9824-ab5c-006d-99d2-07e019e6409d
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Application.UsageViewEntryEx Method (Project)
+# Application.UsageViewEntryEx method (Project)
 
 Adds fields to the  **Details** pane and option menu for the Task Usage or Resource Usage views, and formats the styles to help distinguish detail rows.
 
 
 ## Syntax
 
- _expression_. `UsageViewEntryEx`( ` _CurIndex_`, ` _Order_`, ` _FontWord_`, ` _CellBackground_`, ` _Pattern_`, ` _Shortcut_`, ` _DisplayField_`, ` _FontColor_` )
+_expression_. `UsageViewEntryEx`( `_CurIndex_`, `_Order_`, `_FontWord_`, `_CellBackground_`, `_Pattern_`, `_Shortcut_`, `_DisplayField_`, `_FontColor_` )
 
- _expression_ An expression that returns an [Application](./Project.Application.md) object.
-
-
-### Parameters
+ _expression_ An expression that returns an **[Application](Project.Application.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _CurIndex_|Optional|**Integer**|Current zero-based index of fields in the  **Show these fields** list in the **Detail Styles** dialog box. Values greater than the number of fields currently shown are reduced to the next highest value in the actual list. For example, if there are two fields showing and _CurIndex_ = 8, the value of _CurIndex_ is reduced to 2. The default value is 0.|
 | _Order_|Optional|**Integer**|Order of the field in an internal array of fields. For valid values, see the table of field names in the Remarks section.|
 | _FontWord_|Optional|**Long**|Deprecated in Project. In some versions of Project,  _FontWord_ set the font color by using the **PjColor** enumeration.|
-| _CellBackground_|Optional|**Long**|Color of the cells for entry. Can be a hexadecimal RGB value, where red is the last byte. For example, &;HFFFF00 is blue-green.|
+| _CellBackground_|Optional|**Long**|Color of the cells for entry. Can be a hexadecimal RGB value, where red is the last byte. For example, &HFFFF00 is blue-green.|
 | _Pattern_|Optional|**Integer**|Background pattern of the cells for entry. Can be one of the  **[PjBackgroundPattern](Project.PjBackgroundPattern.md)** constants.|
 | _Shortcut_|Optional|**Boolean**|**True** if the field is shown on the option menu of the **Details** pane; otherwise, **False**. Shortcut is **True** if DisplayField is **True**.|
 | _DisplayField_|Optional|**Boolean**|**True** if the field is displayed in the **Details** pane; otherwise, **False**. The DisplayField parameter has no effect on fields that are already displayed.|
-| _FontColor_|Optional|**Long**|Color of text in the  **Details** column for usage entry. Can be a hexadecimal RGB value, where red is the last byte. For example, &;HFF00FF is purple.|
+| _FontColor_|Optional|**Long**|Color of text in the  **Details** column for usage entry. Can be a hexadecimal RGB value, where red is the last byte. For example, &HFF00FF is purple.|
 
-### Return Value
+## Return value
 
  **Boolean**
 
 
 ## Remarks
 
-In the Task Usage or Resource Usage view, choose the  **FORMAT** tab to see the six default fields in the **Details** group on the ribbon. The **Add Details** command displays the **Detail Styles** dialog box, which shows?in alphabetical order?all of the fields available in the current view.
+In the Task Usage or Resource Usage view, choose the  **FORMAT** tab to see the six default fields in the **Details** group on the ribbon. The **Add Details** command displays the **Detail Styles** dialog box, which shows&mdash;in alphabetical order&mdash;all of the fields available in the current view.
 
 The following table lists the possible fields for the  _Order_ parameter, and shows values for the Task Usage and Resource Usage views.
 
-
-||||
+|Field name for the _Order_ parameter|Task Usage Value|Resource Usage Value|
 |:-----|:-----|:-----|
-|**Field name for the  _Order_ parameter**|**Task Usage Value**|**Resource Usage Value**|
 |Work|0|0|
 |Overtime Work|1|1|
 |Actual Work|2|2|
@@ -131,7 +130,7 @@ The following table lists the possible fields for the  _Order_ parameter, and sh
 |All Resource Rows|N/A|66|
 |All Assignment Rows |72|67|
 
- In Project 2003 and Office Project 2007, the original **UsageViewEntry** method was not exposed in the VBA object model.
+In Project 2003 and Office Project 2007, the original **UsageViewEntry** method was not exposed in the VBA object model.
 
 
 ## Example
@@ -153,4 +152,4 @@ In the Task Usage view, the default field is  **Work**. The following statement 
 Application.UsageViewEntryEx Order:=11, CurIndex:=1, DisplayField:=True, FontColor:=&H10FF10
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

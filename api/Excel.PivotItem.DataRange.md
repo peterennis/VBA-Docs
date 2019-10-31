@@ -1,5 +1,5 @@
 ---
-title: PivotItem.DataRange Property (Excel)
+title: PivotItem.DataRange property (Excel)
 keywords: vbaxl10.chm246075
 f1_keywords:
 - vbaxl10.chm246075
@@ -7,29 +7,26 @@ ms.prod: excel
 api_name:
 - Excel.PivotItem.DataRange
 ms.assetid: 6946f4eb-60ef-0d7a-394a-cd7904967a02
-ms.date: 06/08/2017
+ms.date: 05/07/2019
+localization_priority: Normal
 ---
 
 
-# PivotItem.DataRange Property (Excel)
+# PivotItem.DataRange property (Excel)
 
-Returns a  **[Range](Excel.Range(object).md)** object as shown in the following table. Read-only.
+Returns a **[Range](Excel.Range(object).md)** object as shown in the following table. Read-only.
 
 
 ## Syntax
 
- _expression_. `DataRange`
+_expression_.**DataRange**
 
- _expression_ A variable that represents a [PivotItem](Excel.PivotItem.md) object.
+_expression_ A variable that represents a **[PivotItem](Excel.PivotItem.md)** object.
 
 
 ## Remarks
 
-
-
-
-
-|**Object**|**Data range**|
+|Object|Data range|
 |:-----|:-----|
 |Data field|Data contained in the field|
 |Row, column, or page field|Items in the field|
@@ -37,8 +34,7 @@ Returns a  **[Range](Excel.Range(object).md)** object as shown in the following 
 
 ## Example
 
-This example selects the PivotTable items in the field named "REGION."
-
+This example selects the PivotTable items in the field named REGION.
 
 ```vb
 Set pvtTable = Worksheets("Sheet1").Range("A3").PivotTable 
@@ -47,8 +43,5 @@ pvtTable.PivotFields("REGION").DataRange.Select
 ```
 
 
-## See also
 
-
-[PivotItem Object](Excel.PivotItem.md)
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

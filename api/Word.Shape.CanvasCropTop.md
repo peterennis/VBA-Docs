@@ -1,5 +1,5 @@
 ---
-title: Shape.CanvasCropTop Method (Word)
+title: Shape.CanvasCropTop method (Word)
 keywords: vbawd10.chm161480845
 f1_keywords:
 - vbawd10.chm161480845
@@ -8,26 +8,27 @@ api_name:
 - Word.Shape.CanvasCropTop
 ms.assetid: 5d7cd546-4d47-d45a-9642-b2cd1e955480
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Shape.CanvasCropTop Method (Word)
+# Shape.CanvasCropTop method (Word)
 
 Crops a percentage of the height of a drawing canvas from the top of the canvas.
 
 
 ## Syntax
 
- _expression_. `CanvasCropBottom`( `_Increment_` )
+_expression_. `CanvasCropBottom`( `_Increment_` )
 
- _expression_ Required. A variable that represents a '[Shape](Word.Shape.md)' object.
-
-
-### Parameters
+_expression_ Required. A variable that represents a **[Shape](Word.Shape.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _Increment_|Required| **Single**|The amount in percentage points of a canvas's height that you want remaining after the canvas is cropped. Entering 0.9 as the increment crops ten percent of the canvas's height from the top. Entering 0.1 crops ninety percent of the canvas's height from the top.|
 
@@ -51,3 +52,4 @@ End Sub
 
 [Shape Object](Word.Shape.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

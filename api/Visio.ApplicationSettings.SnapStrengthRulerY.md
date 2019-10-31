@@ -1,5 +1,5 @@
 ---
-title: ApplicationSettings.SnapStrengthRulerY Property (Visio)
+title: ApplicationSettings.SnapStrengthRulerY property (Visio)
 keywords: vis_sdr.chm16251540
 f1_keywords:
 - vis_sdr.chm16251540
@@ -8,29 +8,30 @@ api_name:
 - Visio.ApplicationSettings.SnapStrengthRulerY
 ms.assetid: b0b6a3da-a87d-496e-901c-e6850e6c612b
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# ApplicationSettings.SnapStrengthRulerY Property (Visio)
+# ApplicationSettings.SnapStrengthRulerY property (Visio)
 
 Specifies the distance in pixels along the y-axis that rulers pull when snapping is enabled. Read/write.
 
 
 ## Syntax
 
- _expression_. `SnapStrengthRulerY`
+_expression_.**SnapStrengthRulerY**
 
- _expression_ A variable that represents an [ApplicationSettings](./Visio.ApplicationSettings.md) object.
+_expression_ A variable that represents an **[ApplicationSettings](Visio.ApplicationSettings.md)** object.
 
 
-### Return Value
+## Return value
 
 Long
 
 
 ## Remarks
 
-Setting the  **SnapStrengthRulerY** property is equivalent to setting the **Rulers** option under **Snap strength** on the **Advanced** tab in the **Snap &; Glue** dialog box (click the **Visual Aids** arrow on the **View** tab). Setting snap strength in the UI sets both _x_ and _y_ values to the same value.
+Setting the  **SnapStrengthRulerY** property is equivalent to setting the **Rulers** option under **Snap strength** on the **Advanced** tab in the **Snap & Glue** dialog box (click the **Visual Aids** arrow on the **View** tab). Setting snap strength in the UI sets both _x_ and _y_ values to the same value.
 
 The minimum allowable value for the  **SnapStrengthRulerY** property is 0 (zero), and the maximum is 999. Attempting to set a value outside that range returns an error. The default value is 4.
 
@@ -54,4 +55,4 @@ Public Sub SnapStrengthRulerY_Example()
 End Sub
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

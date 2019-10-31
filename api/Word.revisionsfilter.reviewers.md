@@ -1,24 +1,25 @@
 ---
-title: RevisionsFilter.Reviewers Property (Word)
+title: RevisionsFilter.Reviewers property (Word)
 keywords: vbawd10.chm40566787
 f1_keywords:
 - vbawd10.chm40566787
 ms.prod: word
 ms.assetid: c076a572-602e-537a-52ce-eb36b778ad73
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# RevisionsFilter.Reviewers Property (Word)
+# RevisionsFilter.Reviewers property (Word)
 
 Returns a [Reviewers](Word.Reviewers.md) object that represents the collection of reviewers of one or more documents.
 
 
 ## Syntax
 
- _expression_. `Reviewers`
+_expression_. `Reviewers`
 
- _expression_ A variable that represents a 'RevisionsFilter' object.
+_expression_ A variable that represents a 'RevisionsFilter' object.
 
 
 ## Remarks
@@ -26,7 +27,8 @@ Returns a [Reviewers](Word.Reviewers.md) object that represents the collection o
 The  **Reviewers** collection returned by **Reviewers** contains the names of all reviewers who have reviewed documents opened or edited on a computer.
 
 
- **Note**  The  **Reviewers** property replaces the **View.Reviewers** property found in previous versions of Word, which is now deprecated.
+> [!NOTE] 
+> The  **Reviewers** property replaces the **View.Reviewers** property found in previous versions of Word, which is now deprecated.
 
 
 ## Example
@@ -53,4 +55,4 @@ End Sub
 
 [RevisionsFilter Object](Word.revisionsfilter.md)
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

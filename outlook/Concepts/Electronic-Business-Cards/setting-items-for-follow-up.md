@@ -3,6 +3,7 @@ title: Setting Items for Follow-up
 ms.prod: outlook
 ms.assetid: 738e2558-2957-54fb-898d-b67a6462dc66
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
@@ -58,7 +59,7 @@ Private Sub TableForIsMarkedAsTask()
  ' Define a DASL filter string that filters only those items 
  ' with an IsMarkedAsTask property value set to True. 
  strFilter = "@SQL=" & Chr(34) & _ 
- "https://schemas.microsoft.com/mapi/proptag/0x0E2B0003" & _ 
+ "http://schemas.microsoft.com/mapi/proptag/0x0E2B0003" & _ 
  Chr(34) & " = 1" 
  
  ' Use the filter to construct a table of Outlook items 
@@ -102,4 +103,4 @@ ErrRoutine:
 End Sub
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

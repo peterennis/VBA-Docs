@@ -3,6 +3,7 @@ title: Working with Content Controls
 ms.prod: word
 ms.assetid: b4092c71-a383-f1db-8d68-de69e8d8a86b
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 # Working with Content Controls
@@ -36,7 +37,7 @@ The following table shows the objects in the Word object model that relate to co
 Each of these objects or collections has methods and properties that allow you to work with the content controls both individually and as a collection. Because there are various types of content controls (see the following section "Types of Content Controls"), the **ContentControl** object has members that might not apply to all the different types of content controls. The following table shows those properties and methods of the **ContentControl** object that only apply to certain types of content controls.
 
 > [!NOTE] 
-> For a complete list of all properties and methods of the **ContentControl** object, see [Content Controls](https://msdn.microsoft.com/en-us/library/bb157891.aspx).
+> For a complete list of all properties and methods of the **ContentControl** object, see [Content Controls](https://msdn.microsoft.com/library/bb157891.aspx).
 
 |**Property/Method**|**Applies To**|
 |:-----|:-----|
@@ -153,3 +154,5 @@ End Sub
 ```
 
 These are just a few of the ways that you can use the object model to manipulate content controls in your documents. For more examples, see the  [How To](../Objects-Properties-Methods/how-do-i-word-vba-reference.md) section.
+
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

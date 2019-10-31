@@ -1,5 +1,5 @@
 ---
-title: Application.PresentationSave Event (PowerPoint)
+title: Application.PresentationSave event (PowerPoint)
 keywords: vbapp10.chm621005
 f1_keywords:
 - vbapp10.chm621005
@@ -8,32 +8,33 @@ api_name:
 - PowerPoint.Application.PresentationSave
 ms.assetid: 229a02a7-58e4-2445-3bd5-963e88438d7e
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Application.PresentationSave Event (PowerPoint)
+# Application.PresentationSave event (PowerPoint)
 
 Occurs before any open presentation is saved.
 
 
 ## Syntax
 
- _expression_. `PresentationSave`( `_Pres_` )
+_expression_. `PresentationSave`( `_Pres_` )
 
- _expression_ A variable that represents an [Application](./PowerPoint.Application.md) object.
-
-
-### Parameters
+_expression_ A variable that represents an **[Application](PowerPoint.Application.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _Pres_|Required|**Presentation**|The presentation to be saved.|
 
 ## Remarks
 
-For information about using events with the  **Application** object, see[How to: Use Events with the Application Object](../powerpoint/How-to/use-events-with-the-application-object.md).
+For information about using events with the  **Application** object, see [How to: Use Events with the Application Object](../powerpoint/How-to/use-events-with-the-application-object.md).
 
 
 ## Example
@@ -66,3 +67,4 @@ End Sub
 
 [Application Object](PowerPoint.Application.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

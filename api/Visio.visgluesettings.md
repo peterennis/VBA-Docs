@@ -1,27 +1,29 @@
 ---
-title: VisGlueSettings Enumeration (Visio)
+title: VisGlueSettings enumeration (Visio)
 keywords: vis_sdr.chm70330
 f1_keywords:
 - vis_sdr.chm70330
 ms.prod: visio
 ms.assetid: 8b8f0e7e-d9d0-ade4-6738-2b74631ace57
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# VisGlueSettings Enumeration (Visio)
+# VisGlueSettings enumeration (Visio)
 
 Flags passed to or returned by the  **Document.GlueSettings** property.
 
 
 
-|**Constant**|**Value**|**Description**|
+|Constant|Value|Description|
 |:-----|:-----|:-----|
-| **visGlueToConnectionPoints**|&;H8|Glue to connection points.|
-| **visGlueToDisabled**|&;H8000|Disable glue.|
-| **visGlueToGeometry**|&;H20|Glue to shape geometry.|
-| **visGlueToGuides**|&;H1|Glue to guides.|
-| **visGlueToHandles**|&;H2|Glue to shape handles.|
-| **visGlueToNone**|&;H0|Glue is enabled but no other glue settings are on.|
-| **visGlueToVertices**|&;H4|Glue to shape vertices.|
+| **visGlueToConnectionPoints**|&H8|Glue to connection points.|
+| **visGlueToDisabled**|&H8000|Disable glue.|
+| **visGlueToGeometry**|&H20|Glue to shape geometry.|
+| **visGlueToGuides**|&H1|Glue to guides.|
+| **visGlueToHandles**|&H2|Glue to shape handles.|
+| **visGlueToNone**|&H0|Glue is enabled but no other glue settings are on.|
+| **visGlueToVertices**|&H4|Glue to shape vertices.|
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

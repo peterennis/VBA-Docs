@@ -1,15 +1,16 @@
 ---
-title: Windows Object (Project)
+title: Windows object (Project)
 keywords: vbapj.chm131357
 f1_keywords:
 - vbapj.chm131357
 ms.prod: project-server
 ms.assetid: 6fc70ece-0257-5565-907b-e0e7a6770980
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Windows Object (Project)
+# Windows object (Project)
 
 Contains a collection of  **[Window](Project.Window.md)** objects. The **Windows** collection for the **Application** object contains all the windows in the application, whereas the **Windows** collection for the **Project** object contains only the windows in the specified project.
  
@@ -18,7 +19,8 @@ Contains a collection of  **[Window](Project.Window.md)** objects. The **Windows
 ## Remarks
 
 
- **Note**  The  **Windows** collection is maintained for backward compatibility. We recommend that you use the **[Windows2](Project.windows2(object).md)** collection for all new development.
+> [!NOTE] 
+> The  **Windows** collection is maintained for backward compatibility. We recommend that you use the **[Windows2](Project.windows2(object).md)** collection for all new development.
  
 
 
@@ -89,7 +91,7 @@ Application.WindowNewWindow
 
 
 
-|**Name**|
+|Name|
 |:-----|
 |[ActiveWindow](Project.Windows.ActiveWindow.md)|
 |[Application](Project.Windows.Application.md)|
@@ -102,3 +104,5 @@ Application.WindowNewWindow
 
  
 [Project Object Model](../project/Concepts/project-object-model.md)
+
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

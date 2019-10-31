@@ -1,5 +1,5 @@
 ---
-title: Application.TableApply Method (Project)
+title: Application.TableApply method (Project)
 keywords: vbapj.chm402
 f1_keywords:
 - vbapj.chm402
@@ -8,30 +8,31 @@ api_name:
 - Project.Application.TableApply
 ms.assetid: 3d335475-a0b7-dd61-1c93-a668a878d347
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Application.TableApply Method (Project)
+# Application.TableApply method (Project)
 
 Applies a table to the active view.
 
 
 ## Syntax
 
- _expression_. `TableApply`( ` _Name_` )
+_expression_. `TableApply`( `_Name_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
-
-
-### Parameters
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _Name_|Optional|**String**| The name of the table to apply.|
 
-### Return Value
+## Return value
 
  **Boolean**
 
@@ -47,4 +48,4 @@ Sub ApplyVarianceTable()
 End Sub
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

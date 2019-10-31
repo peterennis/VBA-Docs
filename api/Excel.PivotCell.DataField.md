@@ -1,5 +1,5 @@
 ---
-title: PivotCell.DataField Property (Excel)
+title: PivotCell.DataField property (Excel)
 keywords: vbaxl10.chm692075
 f1_keywords:
 - vbaxl10.chm692075
@@ -7,31 +7,31 @@ ms.prod: excel
 api_name:
 - Excel.PivotCell.DataField
 ms.assetid: d5373236-ba29-301a-2c49-ccda89c69328
-ms.date: 06/08/2017
+ms.date: 05/04/2019
+localization_priority: Normal
 ---
 
 
-# PivotCell.DataField Property (Excel)
+# PivotCell.DataField property (Excel)
 
-Returns a  **[PivotField](Excel.PivotField.md)** object that corresponds to the selected data field.
+Returns a **[PivotField](Excel.PivotField.md)** object that corresponds to the selected data field.
 
 
 ## Syntax
 
- _expression_. `DataField`
+_expression_.**DataField**
 
- _expression_ A variable that represents a [PivotCell](Excel.PivotCell.md) object.
+_expression_ A variable that represents a **[PivotCell](Excel.PivotCell.md)** object.
 
 
 ## Remarks
 
-This property will return an error if the  **PivotCell** object is not one of the allowed constants of **[XlPivotCellType](Excel.XlPivotCellType.md)** : **xlPivotCellTypeDataField** , **xlPivotCellTypeSubtotal** , or **xlPivotCellTypeGrandTotal** .
+This property returns an error if the **PivotCell** object is not one of the allowed constants of **[XlPivotCellType](Excel.XlPivotCellType.md)**: **xlPivotCellTypeDataField**, **xlPivotCellTypeSubtotal**, or **xlPivotCellTypeGrandTotal**.
 
 
 ## Example
 
-This example determines if cell L10 is in the data field of the PivotTable and either returns the PivotTable field that corresponds to the cell by notifying the user, or handles the run-time error. The example assumes a PivotTable exists in the active worksheet.
-
+This example determines if cell L10 is in the data field of the PivotTable, and either returns the PivotTable field that corresponds to the cell by notifying the user, or handles the run-time error. The example assumes that a PivotTable exists on the active worksheet.
 
 ```vb
 Sub CheckDataField() 
@@ -48,8 +48,6 @@ End Sub
 ```
 
 
-## See also
 
 
-[PivotCell Object](Excel.PivotCell.md)
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

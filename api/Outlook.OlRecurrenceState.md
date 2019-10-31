@@ -1,5 +1,5 @@
 ---
-title: OlRecurrenceState Enumeration (Outlook)
+title: OlRecurrenceState enumeration (Outlook)
 keywords: vbaol11.chm3076
 f1_keywords:
 - vbaol11.chm3076
@@ -8,16 +8,17 @@ api_name:
 - Outlook.OlRecurrenceState
 ms.assetid: 4b9be4ca-3094-8f0f-6406-978635795aaa
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# OlRecurrenceState Enumeration (Outlook)
+# OlRecurrenceState enumeration (Outlook)
 
-Indicates the recurrence state of an  **AppointmentItem** .
+Indicates the recurrence state of an  **AppointmentItem**.
 
 
 
-|**Name**|**Value**|**Description**|
+|Name|Value|Description|
 |:-----|:-----|:-----|
 | **olApptException**|3|The appointment is an exception to a recurrence pattern defined by a master appointment. |
 | **olApptMaster**|1|The appointment is a master appointment.|
@@ -26,6 +27,6 @@ Indicates the recurrence state of an  **AppointmentItem** .
 
 ## Remarks
 
-See [AppointmentItem.RecurrenceState Property (Outlook)](Outlook.AppointmentItem.RecurrenceState.md).
+See [AppointmentItem.RecurrenceState property (Outlook)](Outlook.AppointmentItem.RecurrenceState.md).
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

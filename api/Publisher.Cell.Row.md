@@ -1,5 +1,5 @@
 ---
-title: Cell.Row Property (Publisher)
+title: Cell.Row property (Publisher)
 keywords: vbapb10.chm5111831
 f1_keywords:
 - vbapb10.chm5111831
@@ -7,26 +7,26 @@ ms.prod: publisher
 api_name:
 - Publisher.Cell.Row
 ms.assetid: b961af2b-6b03-f54b-922e-d2e7633a3dfe
-ms.date: 06/08/2017
+ms.date: 06/06/2019
+localization_priority: Normal
 ---
 
 
-# Cell.Row Property (Publisher)
+# Cell.Row property (Publisher)
 
-Returns a  **Long** that represents the row number containing the specified cell. Read-only.
+Returns a **Long** that represents the row number containing the specified cell. Read-only.
 
 
 ## Syntax
 
- _expression_. **Row**
+_expression_.**Row**
 
- _expression_ A variable that represents a  **Cell** object.
+_expression_ A variable that represents a **[Cell](Publisher.Cell.md)** object.
 
 
 ## Example
 
-This example enters the fill for all even-numbered rows and clears the fill for all odd-numbered rows in the specified table. This example assumes the specified shape is a table and not another type of shape.
-
+This example enters the fill for all even-numbered rows and clears the fill for all odd-numbered rows in the specified table. This example assumes that the specified shape is a table and not another type of shape.
 
 ```vb
 Sub FillCellsByRow() 
@@ -52,4 +52,4 @@ Sub FillCellsByRow()
 End Sub
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

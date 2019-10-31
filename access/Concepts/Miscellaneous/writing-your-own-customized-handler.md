@@ -4,6 +4,7 @@ ROBOTS: INDEX
 ms.prod: access
 ms.assetid: 67186df9-26b9-428d-2987-cd0bc165f231
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
@@ -17,14 +18,14 @@ The MSDFMAP.Handler implements the **IDataFactoryHandler** interface.
 
 ## IDataFactoryHandler interface
 
-This interface has two methods, **GetRecordset** and **Reconnect**. Both methods require that the [CursorLocation](http://msdn.microsoft.com/library/8A048BD4-AE25-A555-1C07-14364B7E6560%28Office.15%29.aspx) property be set to **adUseClient**.
+This interface has two methods, **GetRecordset** and **Reconnect**. Both methods require that the [CursorLocation](https://msdn.microsoft.com/library/8A048BD4-AE25-A555-1C07-14364B7E6560%28Office.15%29.aspx) property be set to **adUseClient**.
 
 Both methods take arguments that appear after the first comma in the "**Handler=**" keyword. For example, `"Handler=progid,arg1,arg2;"` will pass an argument string of `"arg1,arg2"`, and will pass an argument string of  `"arg1,arg2"`, and  `"Handler=progid"` will pass a null argument.
 
 
 ## GetRecordset method
 
-This method queries the data source and creates a new [Recordset](http://msdn.microsoft.com/library/0F963BF8-F066-DC8A-B754-F427DE712DF1%28Office.15%29.aspx) object using the arguments provided. The **Recordset** must be opened with **adLockBatchOptimistic** and must not be opened asynchronously.
+This method queries the data source and creates a new [Recordset](https://msdn.microsoft.com/library/0F963BF8-F066-DC8A-B754-F427DE712DF1%28Office.15%29.aspx) object using the arguments provided. The **Recordset** must be opened with **adLockBatchOptimistic** and must not be opened asynchronously.
 
 
 ### Arguments
@@ -40,7 +41,7 @@ _ppRS_ The pointer where the **Recordset** should be returned.
 
 ## Reconnect method
 
-This method updates the data source. It creates a new [Connection](http://msdn.microsoft.com/library/C16023AA-0321-2513-EE71-255D6FFBA03D%28Office.15%29.aspx) object and attaches the given **Recordset**.
+This method updates the data source. It creates a new [Connection](https://msdn.microsoft.com/library/C16023AA-0321-2513-EE71-255D6FFBA03D%28Office.15%29.aspx) object and attaches the given **Recordset**.
 
 
 ### Arguments
@@ -56,7 +57,7 @@ _pRS_ A **Recordset** object.
 
 This is the interface definition for **IDataFactoryHandler** that appears in the **msdfhdl.idl** file.
 
-```sql
+```idl
 [ 
   uuid(D80DE8B3-0001-11d1-91E6-00C04FBBBFB3), 
   version(1.0) 
@@ -100,9 +101,11 @@ HRESULT _stdcall GetRecordset(
 
 ## See also
 
-- [Access for developers forum on MSDN](https://social.msdn.microsoft.com/Forums/office/en-US/home?forum=accessdev)
+- [Access for developers forum](https://social.msdn.microsoft.com/Forums/office/home?forum=accessdev)
 - [Access help on support.office.com](https://support.office.com/search/results?query=Access)
-- [Access help on answers.microsoft.com](https://answers.microsoft.com/en-us/msoffice/forum?page=1&;tab=question&;status=all&;auth=1)
+- [Access help on answers.microsoft.com](https://answers.microsoft.com/)
 - [Access forums on UtterAccess](http://www.utteraccess.com/forum/index.php?act=idx)
 - [Access developer and VBA programming help center (FMS)](http://www.fmsinc.com/MicrosoftAccess/developer/)
 - [Access posts on StackOverflow](https://stackoverflow.com/questions/tagged/ms-access)
+
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

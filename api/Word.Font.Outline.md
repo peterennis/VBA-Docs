@@ -1,5 +1,5 @@
 ---
-title: Font.Outline Property (Word)
+title: Font.Outline property (Word)
 keywords: vbawd10.chm156369043
 f1_keywords:
 - vbawd10.chm156369043
@@ -8,30 +8,30 @@ api_name:
 - Word.Font.Outline
 ms.assetid: f2ec3056-5b5d-be3c-af8d-1eed86b4d01e
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Font.Outline Property (Word)
+# Font.Outline property (Word)
 
- **True** if the font is formatted as outline. Read/write **Long** .
+**True** if the font is formatted as outline. Read/write **Long**.
 
 
 ## Syntax
 
- _expression_. `Outline`
+_expression_.**Outline**
 
- _expression_ An expression that returns a '[Font](Word.Font.md)' object.
+_expression_ An expression that returns a **[Font](Word.Font.md)** object.
 
 
 ## Remarks
 
-Returns  **True** , **False** , or **wdUndefined** (a mixture of **True** and **False**). Can be set to **True** , **False** , or **wdToggle** .
+Returns **True**, **False**, or **wdUndefined** (a mixture of **True** and **False**). Can be set to **True**, **False**, or **wdToggle**.
 
 
 ## Example
 
 This example applies outline font formatting to the first three words in the active document.
-
 
 ```vb
 Set myRange = ActiveDocument.Range(Start:= _ 
@@ -42,17 +42,11 @@ myRange.Font.Outline = True
 
 This example toggles outline formatting for the selected text.
 
-
-
-
 ```vb
 Selection.Font.Outline = wdToggle
 ```
 
 This example removes outline font formatting from the selection if outline formatting is partially applied to the selection.
-
-
-
 
 ```vb
 Set myFont = Selection.Font 
@@ -67,3 +61,4 @@ End If
 
 [Font Object](Word.Font.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

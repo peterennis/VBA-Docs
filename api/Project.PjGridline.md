@@ -1,20 +1,21 @@
 ---
-title: PjGridline Enumeration (Project)
+title: PjGridline enumeration (Project)
 ms.prod: project-server
 api_name:
 - Project.PjGridline
 ms.assetid: 0cfe14fe-422a-416a-3dac-93a954bb188b
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# PjGridline Enumeration (Project)
+# PjGridline enumeration (Project)
 
 Contains constants that specify the type of gridline.
 
 
 
-|**Name**|**Value**|**Description**|
+|Name|Value|Description|
 |:-----|:-----|:-----|
 |**pjBarRows**|1|Bar rows.|
 |**pjCalendarDays**|0|Calendar days.|
@@ -57,3 +58,4 @@ Contains constants that specify the type of gridline.
 |**pjUsageTitleHorizontal**|3|Usage title horizontal.|
 |**pjUsageTitleVertical**|2|Usage title vertical.|
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

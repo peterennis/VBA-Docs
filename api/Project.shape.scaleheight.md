@@ -1,26 +1,27 @@
 ---
-title: Shape.ScaleHeight Method (Project)
+title: Shape.ScaleHeight method (Project)
 ms.prod: project-server
 ms.assetid: 9dd7a3ee-9149-4aa2-c4ad-5fc0ca45ee21
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Shape.ScaleHeight Method (Project)
+# Shape.ScaleHeight method (Project)
 Scales the height of the shape by a specified factor.
 
 ## Syntax
 
- _expression_. `ScaleHeight` _(Factor,_ _RelativeToOriginalSize,_ _fScale)_
+_expression_.**ScaleHeight** (_Factor_, _RelativeToOriginalSize_, _fScale_)
 
- _expression_ A variable that represents a 'Shape' object.
-
-
-### Parameters
+_expression_ A variable that represents a **[Shape](Project.Shape.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _Factor_|Required|**Single**|The ratio between the height of the shape after you resize it and the current height. For example, to make a rectangle 50 percent higher, specify 1.5 for the  _Factor_ parameter.|
 | _RelativeToOriginalSize_|Required|MSOTRISTATE|**msoFalse** scales the shape relative to its current size. For Project, the value must be **msoFalse**.|
@@ -30,7 +31,7 @@ Scales the height of the shape by a specified factor.
 | _fScale_|Optional|MSOSCALEFROM||
 |Name|Required/Optional|Data type|Description|
 
-### Return value
+## Return value
 
  **Nothing**
 
@@ -72,5 +73,7 @@ End Sub
 
 
 [Shape Object](Project.shape.md)
-[MsoTriState](https://msdn.microsoft.com/en-us/library/office/ff860737%28v=office.15%29)
-[MsoScaleFrom](https://msdn.microsoft.com/en-us/library/office/ff863348%28v=office.15%29)
+[MsoTriState](https://msdn.microsoft.com/library/office/ff860737%28v=office.15%29)
+[MsoScaleFrom](https://msdn.microsoft.com/library/office/ff863348%28v=office.15%29)
+
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

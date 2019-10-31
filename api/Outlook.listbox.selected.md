@@ -6,6 +6,7 @@ f1_keywords:
 ms.prod: outlook
 ms.assetid: 653a977d-5ef8-0bd8-d851-927f03942a2c
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
@@ -16,16 +17,16 @@ Returns or sets a  **Boolean** that indicates the selection state of items in a 
 
 ## Syntax
 
- _expression_. **Selected**(**_pvargIndex_**)
+_expression_.**Selected**(**_pvargIndex_**)
 
- _expression_ A variable that represents a  **ListBox** object.
-
-
-### Parameters
+_expression_ A variable that represents a  **ListBox** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 |pvargIndex|Required| **Variant**|An integer with a range from 0 to one less than the number of items in the list.|
 
@@ -43,4 +44,4 @@ When a list box control's  **[MultiSelect](Outlook.listbox.multiselect.md)** pro
 
 Entering a value that is out of range for the index does not generate an error message, but does not set a property for any item in the list.
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

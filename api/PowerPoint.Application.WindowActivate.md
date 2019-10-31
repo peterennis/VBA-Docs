@@ -1,5 +1,5 @@
 ---
-title: Application.WindowActivate Event (PowerPoint)
+title: Application.WindowActivate event (PowerPoint)
 keywords: vbapp10.chm621009
 f1_keywords:
 - vbapp10.chm621009
@@ -8,33 +8,34 @@ api_name:
 - PowerPoint.Application.WindowActivate
 ms.assetid: 0d83fda3-b0ad-18df-57bf-c34dafcf782f
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Application.WindowActivate Event (PowerPoint)
+# Application.WindowActivate event (PowerPoint)
 
 Occurs when the application window or any document window is activated.
 
 
 ## Syntax
 
- _expression_. `WindowActivate`( `_Pres_`, `_Wn_` )
+_expression_.**WindowActivate** (_Pres_, _Wn_)
 
- _expression_ A variable that represents an [Application](./PowerPoint.Application.md) object.
-
-
-### Parameters
+_expression_ A variable that represents an **[Application](PowerPoint.Application.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _Pres_|Required|**Presentation**|The presentation displayed in the activated window.|
 | _Wn_|Required|**DocumentWindow**|The activated document window.|
 
 ## Remarks
 
-For information about using events with the  **Application** object, see[How to: Use Events with the Application Object](../powerpoint/How-to/use-events-with-the-application-object.md).
+For information about using events with the  **Application** object, see [How to: Use Events with the Application Object](../powerpoint/How-to/use-events-with-the-application-object.md).
 
 If your Visual Studio solution includes the  **Microsoft.Office.Interop.PowerPoint** reference, this event maps to the following types:
 
@@ -61,3 +62,4 @@ End Sub
 
 [Application Object](PowerPoint.Application.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

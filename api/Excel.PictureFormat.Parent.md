@@ -1,5 +1,5 @@
 ---
-title: PictureFormat.Parent Property (Excel)
+title: PictureFormat.Parent property (Excel)
 keywords: vbaxl10.chm113001
 f1_keywords:
 - vbaxl10.chm113001
@@ -7,24 +7,23 @@ ms.prod: excel
 api_name:
 - Excel.PictureFormat.Parent
 ms.assetid: 215d013c-02cc-bbe2-32f1-585888506ece
-ms.date: 06/08/2017
+ms.date: 05/03/2019
+localization_priority: Normal
 ---
 
 
-# PictureFormat.Parent Property (Excel)
+# PictureFormat.Parent property (Excel)
 
 Returns the parent object for the specified object. Read-only.
 
 
 ## Syntax
 
- _expression_. `Parent`
+_expression_.**Parent**
 
- _expression_ A variable that represents a [PictureFormat](Excel.PictureFormat.md) object.
-
-
-## See also
+_expression_ A variable that represents a **[PictureFormat](Excel.PictureFormat.md)** object.
 
 
-[PictureFormat Object](Excel.PictureFormat.md)
 
+
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

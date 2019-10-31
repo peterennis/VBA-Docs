@@ -1,5 +1,5 @@
 ---
-title: Application.VisualReportsSaveCube Method (Project)
+title: Application.VisualReportsSaveCube method (Project)
 keywords: vbapj.chm2139
 f1_keywords:
 - vbapj.chm2139
@@ -8,33 +8,34 @@ api_name:
 - Project.Application.VisualReportsSaveCube
 ms.assetid: 51b65e15-7ab5-79ff-9513-c47b204c1751
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Application.VisualReportsSaveCube Method (Project)
+# Application.VisualReportsSaveCube method (Project)
 
 Saves a Visual Reports cube to the default directory or to a specified directory.
 
 
 ## Syntax
 
- _expression_. `VisualReportsSaveCube`( ` _strNamePath_`, ` _PjVisualReportsCubeType_`, ` _ReportAlLFields_`, ` _PjVisualReportsDataLevel_` )
+_expression_. `VisualReportsSaveCube`( `_strNamePath_`, `_PjVisualReportsCubeType_`, `_ReportAlLFields_`, `_PjVisualReportsDataLevel_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
-
-
-### Parameters
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _strNamePath_|Optional|**String**|Name and full path of the location to which to save the cube file (.cub).|
 | _PjVisualReportsCubeType_|Optional|**Long**|Save cube type. Can be one of the  **[PjVisualReportsCubeType](Project.PjVisualReportsCubeType.md)** consants. Default is **pjTaskTP**.|
 | _ReportAlLFields_|Optional|**Boolean**|If  **True**, all noncustom fields are included in the report. Default is **False**.|
 | _PjVisualReportsDataLevel_|Optional|**Long**|Save data level. Can be one of the  **[PjVisualReportsDataLevel](Project.PjVisualReportsDataLevel.md)** constants. Default is **pjLevelAutomatic**.|
 
-### Return Value
+## Return value
 
  **Boolean**
 
@@ -63,4 +64,4 @@ Sub a()
 End Sub
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

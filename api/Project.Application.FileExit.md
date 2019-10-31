@@ -1,5 +1,5 @@
 ---
-title: Application.FileExit Method (Project)
+title: Application.FileExit method (Project)
 keywords: vbapj.chm114
 f1_keywords:
 - vbapj.chm114
@@ -8,30 +8,31 @@ api_name:
 - Project.Application.FileExit
 ms.assetid: a69bc574-dcc3-3710-c705-0566fcf10235
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Application.FileExit Method (Project)
+# Application.FileExit method (Project)
 
 Quits Project.
 
 
 ## Syntax
 
- _expression_. `FileExit`( ` _Save_` )
+_expression_. `FileExit`( `_Save_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
-
-
-### Parameters
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _Save_|Optional|**Long**|Can be one of the [PjSaveType](Project.PjSaveType.md) constants. The default value is **pjPromptSave** for new project files and projects that have changed since the last save.|
 
-### Return Value
+## Return value
 
  **Boolean**
 
@@ -47,4 +48,4 @@ Sub SaveAndCloseActiveProject()
 End Sub
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

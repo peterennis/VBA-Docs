@@ -1,25 +1,21 @@
 ---
-title: Parameter (ADO/WFC Syntax)
+title: Parameter (ADO/WFC syntax)
 ms.prod: access
 ms.assetid: e5e2ec60-4d62-5959-a8a0-d1f94b54fb7f
-ms.date: 06/08/2017
+ms.date: 10/12/2018
+localization_priority: Normal
 ---
 
 
-# Parameter (ADO/WFC Syntax)
-
-  
+# Parameter (ADO/WFC syntax)
 
 **Applies to:** Access 2013 | Access 2016
 
- **package com.ms.wfc.data**
+**package com.ms.wfc.data**
 
- **Constructor**
+## Constructor
 
-
-
-```
- 
+```vb
 public Invalid DDUE based on source, error:link not allowed in code, link filename:mdobjparameter_HV10294590.xml() 
 public Parameter(String name ) 
 public Parameter(String name , int type ) 
@@ -29,24 +25,18 @@ public Parameter(String name , int type , int dir , int size , Object value )
 
 ```
 
- **Methods**
+## Methods
 
-
-
-```
- 
+```vb
 public void Invalid DDUE based on source, error:link not allowed in code, link filename:mdmthappchunk_HV10294090.xml(byte[] bytes ) 
 public void appendChunk(char[] chars ) 
 public void appendChunk(String chars ) 
 
 ```
 
- **Properties**
+## Properties
 
-
-
-```
- 
+```vb
 public int Invalid DDUE based on source, error:link not allowed in code, link filename:mdproattributes_HV10294098.xml() 
 public void setAttributes(int attr ) 
 public int Invalid DDUE based on source, error:link not allowed in code, link filename:mdprodirection_HV10294320.xml() 
@@ -68,21 +58,17 @@ public AdoProperties Invalid DDUE based on source, error:link not allowed in cod
 ```
 
 
-## Parameter Accessor Methods
+## Parameter accessor methods
 
-The [Value](http://msdn.microsoft.com/library/ff21d122-98e3-2b48-d92f-e696b8079fc5%28Office.15%29.aspx) property of a[Parameter](http://msdn.microsoft.com/library/7577598e-3d0c-30c6-5f24-1cfe98791798%28Office.15%29.aspx) object gets or sets the content of that object. The content is represented as a VARIANT, a type of object that can be assigned a value and any of several data types.
+The [Value](https://msdn.microsoft.com/library/ff21d122-98e3-2b48-d92f-e696b8079fc5%28Office.15%29.aspx) property of a [Parameter](https://msdn.microsoft.com/library/7577598e-3d0c-30c6-5f24-1cfe98791798%28Office.15%29.aspx) object gets or sets the content of that object. The content is represented as a VARIANT, a type of object that can be assigned a value and any of several data types.
 
-ADO/WFC implements the  **Value** property with the **getValue** method, which returns a VARIANT object; and the **setValue** method, which takes a VARIANT as an argument. VARIANTs are highly efficient in certain languages, such as Microsoft Visual Basic. However, you can attain better performance in Microsoft Visual J++ by using native Java data types.
+ADO/WFC implements the **Value** property with the **getValue** method, which returns a VARIANT object; and the **setValue** method, which takes a VARIANT as an argument. VARIANTs are highly efficient in certain languages, such as Microsoft Visual Basic. However, you can attain better performance in Microsoft Visual J++ by using native Java data types.
 
-In addition to the  **Value** property, ADO/WFC provides _accessor_ methods that use Java data types to get and set the content of **Parameter** objects. Most of these methods have names of the form **get** _DataType_ or **set** _DataType_.
+In addition to the **Value** property, ADO/WFC provides _accessor_ methods that use Java data types to get and set the content of **Parameter** objects. Most of these methods have names of the form **get** _DataType_ or **set** _DataType_.
 
-There is one noteworthy exception: There is no  **getNull** property; instead, there is an **isNull** property that returns a Boolean value indicating whether the field is null.
+There is one noteworthy exception: There is no **getNull** property; instead, there is an **isNull** property that returns a Boolean value indicating whether the field is null.
 
-
-
-
-```js
- 
+```vb
 public boolean getBoolean() 
 public void setBoolean(boolean v ) 
 public byte getByte() 
@@ -106,9 +92,11 @@ public void setNull()
 
 ## See also
 
-- [Access for developers forum on MSDN](https://social.msdn.microsoft.com/Forums/office/en-US/home?forum=accessdev)
+- [Access for developers forum](https://social.msdn.microsoft.com/Forums/office/home?forum=accessdev)
 - [Access help on support.office.com](https://support.office.com/search/results?query=Access)
-- [Access help on answers.microsoft.com](https://answers.microsoft.com/en-us/msoffice/forum?page=1&;tab=question&;status=all&;auth=1)
+- [Access help on answers.microsoft.com](https://answers.microsoft.com/)
 - [Access forums on UtterAccess](http://www.utteraccess.com/forum/index.php?act=idx)
 - [Access developer and VBA programming help center (FMS)](http://www.fmsinc.com/MicrosoftAccess/developer/)
 - [Access posts on StackOverflow](https://stackoverflow.com/questions/tagged/ms-access)
+
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

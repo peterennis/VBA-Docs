@@ -1,5 +1,5 @@
 ---
-title: OlkComboBox.MouseUp Event (Outlook)
+title: OlkComboBox.MouseUp event (Outlook)
 keywords: vbaol11.chm1000239
 f1_keywords:
 - vbaol11.chm1000239
@@ -8,26 +8,27 @@ api_name:
 - Outlook.OlkComboBox.MouseUp
 ms.assetid: 6ed2b75b-10e7-48a1-6cf6-8a6ec98ec923
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# OlkComboBox.MouseUp Event (Outlook)
+# OlkComboBox.MouseUp event (Outlook)
 
 Occurs after the user releases a mouse button that has been pressed on the control.
 
 
 ## Syntax
 
- _expression_. `MouseUp`( `_Button_` , `_Shift_` , `_X_` , `_Y_` )
+_expression_.**MouseUp** (_Button_, _Shift_, _x_, _y_)
 
- _expression_ A variable that represents an [OlkComboBox](./Outlook.OlkComboBox.md) object.
-
-
-### Parameters
+_expression_ A variable that represents an [OlkComboBox](Outlook.OlkComboBox.md) object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _Button_|Required| **Integer**|An  **[OlMouseButton](Outlook.OlMouseButton.md)** constant that specifies which button on the mouse has been pressed.|
 | _Shift_|Required| **Integer**|A bitwise-OR mask of constants in the  **[OlShiftState](Outlook.OlShiftState.md)** enumeration that specifies whether the **SHIFT**,  **CTRL**, or  **ALT** keys have been pressed.|
@@ -39,3 +40,4 @@ Occurs after the user releases a mouse button that has been pressed on the contr
 
 [OlkComboBox Object](Outlook.OlkComboBox.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

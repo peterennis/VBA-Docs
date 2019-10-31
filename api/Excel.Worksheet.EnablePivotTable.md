@@ -1,5 +1,5 @@
 ---
-title: Worksheet.EnablePivotTable Property (Excel)
+title: Worksheet.EnablePivotTable property (Excel)
 keywords: vbaxl10.chm175097
 f1_keywords:
 - vbaxl10.chm175097
@@ -7,20 +7,21 @@ ms.prod: excel
 api_name:
 - Excel.Worksheet.EnablePivotTable
 ms.assetid: 8cd09896-9752-677f-a7fd-da46d68ac42a
-ms.date: 06/08/2017
+ms.date: 05/30/2019
+localization_priority: Normal
 ---
 
 
-# Worksheet.EnablePivotTable Property (Excel)
+# Worksheet.EnablePivotTable property (Excel)
 
- **True** if PivotTable controls and actions are enabled when user-interface-only protection is turned on. Read/write **Boolean** .
+**True** if PivotTable controls and actions are enabled when user-interface-only protection is turned on. Read/write **Boolean**.
 
 
 ## Syntax
 
- _expression_. `EnablePivotTable`
+_expression_.**EnablePivotTable**
 
- _expression_ A variable that represents a [Worksheet](./Excel.Worksheet.md) object.
+_expression_ A variable that represents a **[Worksheet](Excel.Worksheet.md)** object.
 
 
 ## Remarks
@@ -34,15 +35,12 @@ There must be a sufficient number of unlocked cells below and to the right of th
 
 This example enables PivotTable controls on a protected worksheet.
 
-
 ```vb
 ActiveSheet.EnablePivotTable = True 
 ActiveSheet.Protect contents:=True, userInterfaceOnly:=True
 ```
 
 
-## See also
 
 
-[Worksheet Object](Excel.Worksheet.md)
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

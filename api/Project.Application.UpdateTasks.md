@@ -1,5 +1,5 @@
 ---
-title: Application.UpdateTasks Method (Project)
+title: Application.UpdateTasks method (Project)
 keywords: vbapj.chm2350
 f1_keywords:
 - vbapj.chm2350
@@ -8,26 +8,27 @@ api_name:
 - Project.Application.UpdateTasks
 ms.assetid: 4a04e459-9f5c-f944-d39f-dcbbfc48fdab
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Application.UpdateTasks Method (Project)
+# Application.UpdateTasks method (Project)
 
 Updates the selected tasks.
 
 
 ## Syntax
 
- _expression_. `UpdateTasks`( ` _PercentComplete_`, ` _ActualDuration_`, ` _RemainingDuration_`, ` _ActualStart_`, ` _ActualFinish_`, ` _Notes_` )
+_expression_. `UpdateTasks`( `_PercentComplete_`, `_ActualDuration_`, `_RemainingDuration_`, `_ActualStart_`, `_ActualFinish_`, `_Notes_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
-
-
-### Parameters
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _PercentComplete_|Optional|**Variant**|The percent complete of the active tasks.|
 | _ActualDuration_|Optional|**Variant**|The actual duration of the selected tasks.|
@@ -36,7 +37,7 @@ Updates the selected tasks.
 | _ActualFinish_|Optional|**Variant**|The actual finish date of the selected tasks.|
 | _Notes_|Optional|**String**|Comments in the Notes field for the selected tasks. The value can be text only, not Rich Text Format (RTF) as in the  **Notes** dialog box.|
 
-### Return Value
+## Return value
 
  **Boolean**
 
@@ -70,4 +71,4 @@ Sub Update_Tasks()
 End Sub
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

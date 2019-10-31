@@ -1,5 +1,5 @@
 ---
-title: Shape.DrawLine Method (Visio)
+title: Shape.DrawLine method (Visio)
 keywords: vis_sdr.chm11216200
 f1_keywords:
 - vis_sdr.chm11216200
@@ -8,33 +8,34 @@ api_name:
 - Visio.Shape.DrawLine
 ms.assetid: 8793104a-0ded-e2ca-54e8-acf987b9c797
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Shape.DrawLine Method (Visio)
+# Shape.DrawLine method (Visio)
 
 Adds a line to the  **Shapes** collection of a group shape.
 
 
 ## Syntax
 
- _expression_. `DrawLine`( `_xBegin_` , `_yBegin_` , `_xEnd_` , `_yEnd_` )
+_expression_. `DrawLine`( `_xBegin_` , `_yBegin_` , `_xEnd_` , `_yEnd_` )
 
- _expression_ A variable that represents a [Shape](./Visio.Shape.md) object.
-
-
-### Parameters
+_expression_ A variable that represents a **[Shape](Visio.Shape.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _xBegin_|Required| **Double**|The x-coordinate of the line's begin point.|
 | _yBegin_|Required| **Double**|The y-coordinate of the line's begin point.|
 | _xEnd_|Required| **Double**|The x-coordinate of the line's endpoint.|
 | _yEnd_|Required| **Double**|The y-coordinate of the line's endpoint.|
 
-### Return Value
+## Return value
 
 Shape
 
@@ -60,4 +61,4 @@ Public Sub DrawLine_Example()
 End Sub
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

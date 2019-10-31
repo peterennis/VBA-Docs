@@ -1,29 +1,30 @@
 ---
-title: Application.Vbe Property (Visio)
+title: Application.VBE property (Visio)
 keywords: vis_sdr.chm10014630
 f1_keywords:
 - vis_sdr.chm10014630
 ms.prod: visio
 api_name:
-- Visio.Application.Vbe
+- Visio.Application.VBE
 ms.assetid: 1ad29679-1078-5682-e375-868e32fb0ca5
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Application.Vbe Property (Visio)
+# Application.VBE property (Visio)
 
 Gets the root object of the object model exposed by Microsoft Visual Basic for Applications (VBA). Use this property to access and manipulate the VBA projects associated with currently open Microsoft Visio documents. Read-only.
 
 
 ## Syntax
 
- _expression_. `Vbe`
+_expression_.**VBE**
 
- _expression_ A variable that represents an [Application](./Visio.Application.md) object.
+_expression_ A variable that represents an **[Application](Visio.Application.md)** object.
 
 
-### Return Value
+## Return value
 
 Object
 
@@ -36,7 +37,7 @@ To get information about the object returned by the  **Vbe** property, follow th
 ### To get information about the object returned by the Vbe property
 
 
-1. In the  **Code** group on the[Developer](../visio/How-to/run-visio-in-developer-mode.md) tab, click **Visual Basic**.
+1. In the  **Code** group on the [Developer](../visio/How-to/run-visio-in-developer-mode.md) tab, click **Visual Basic**.
     
 2. In the Visual Basic Editor, on the  **Tools** menu, click **References**.
     
@@ -72,4 +73,4 @@ Public Sub Vbe_Example()
 End Sub
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

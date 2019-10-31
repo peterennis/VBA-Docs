@@ -1,5 +1,5 @@
 ---
-title: PbReplaceScope Enumeration (Publisher)
+title: PbReplaceScope enumeration (Publisher)
 keywords: vbapb10.chm65611
 f1_keywords:
 - vbapb10.chm65611
@@ -8,18 +8,20 @@ api_name:
 - Publisher.PbReplaceScope
 ms.assetid: 17c0eb7e-9572-40cf-843b-451ef6c1fb93
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# PbReplaceScope Enumeration (Publisher)
+# PbReplaceScope enumeration (Publisher)
 
 Specifies how many replacements are to be made: one, all, or none. 
 
 
 
-|**Name**|**Value**|**Description**|
+|Name|Value|Description|
 |:-----|:-----|:-----|
 | **pbReplaceScopeAll**|2|All need to be replaced.|
 | **pbReplaceScopeNone**|0|None need to be replaced.|
 | **pbReplaceScopeOne**|1|One needs to be replaced.|
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

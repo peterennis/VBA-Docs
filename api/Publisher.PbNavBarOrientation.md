@@ -1,5 +1,5 @@
 ---
-title: PbNavBarOrientation Enumeration (Publisher)
+title: PbNavBarOrientation enumeration (Publisher)
 keywords: vbapb10.chm65624
 f1_keywords:
 - vbapb10.chm65624
@@ -8,17 +8,19 @@ api_name:
 - Publisher.PbNavBarOrientation
 ms.assetid: ca999355-f53e-f506-5be9-a2dd415ce1bb
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# PbNavBarOrientation Enumeration (Publisher)
+# PbNavBarOrientation enumeration (Publisher)
 
 Represents the alignment of the navigation bar; vertical or horizontal.
 
 
 
-|**Name**|**Value**|**Description**|
+|Name|Value|Description|
 |:-----|:-----|:-----|
 | **pbNavBarOrientHorizontal**|1|Horizontal orientation|
 | **pbNavBarOrientVertical**|2|Vertical orientation|
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

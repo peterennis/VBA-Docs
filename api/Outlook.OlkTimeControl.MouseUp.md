@@ -1,5 +1,5 @@
 ---
-title: OlkTimeControl.MouseUp Event (Outlook)
+title: OlkTimeControl.MouseUp event (Outlook)
 keywords: vbaol11.chm1000405
 f1_keywords:
 - vbaol11.chm1000405
@@ -8,26 +8,27 @@ api_name:
 - Outlook.OlkTimeControl.MouseUp
 ms.assetid: fa4c6576-30af-5b91-aa60-b554c324997d
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# OlkTimeControl.MouseUp Event (Outlook)
+# OlkTimeControl.MouseUp event (Outlook)
 
 Occurs after the user releases a mouse button that has been pressed on the control.
 
 
 ## Syntax
 
- _expression_. `MouseUp`( `_Button_` , `_Shift_` , `_X_` , `_Y_` )
+_expression_.**MouseUp** (_Button_, _Shift_, _x_, _y_)
 
- _expression_ A variable that represents an [OlkTimeControl](./Outlook.OlkTimeControl.md) object.
-
-
-### Parameters
+_expression_ A variable that represents an [OlkTimeControl](Outlook.OlkTimeControl.md) object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _Button_|Required| **Integer**|An  **[OlMouseButton](Outlook.OlMouseButton.md)** constant that specifies which button on the mouse has been pressed.|
 | _Shift_|Required| **Integer**|A bitwise-OR mask of constants in the  **[OlShiftState](Outlook.OlShiftState.md)** enumeration that specifies whether the **SHIFT**,  **CTRL**, or  **ALT** keys have been pressed.|
@@ -39,3 +40,4 @@ Occurs after the user releases a mouse button that has been pressed on the contr
 
 [OlkTimeControl Object](Outlook.OlkTimeControl.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

@@ -1,5 +1,5 @@
 ---
-title: Masters.Stat Property (Visio)
+title: Masters.Stat property (Visio)
 keywords: vis_sdr.chm10814420
 f1_keywords:
 - vis_sdr.chm10814420
@@ -8,22 +8,23 @@ api_name:
 - Visio.Masters.Stat
 ms.assetid: 626b520d-ce0b-40b4-1a46-11fa9a59b0b7
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Masters.Stat Property (Visio)
+# Masters.Stat property (Visio)
 
 Returns status information for an object. Read-only.
 
 
 ## Syntax
 
- _expression_. `Stat`
+_expression_.**Stat**
 
- _expression_ A variable that represents a [Masters](./Visio.Masters.md) object.
+_expression_ A variable that represents a **[Masters](Visio.Masters.md)** object.
 
 
-### Return Value
+## Return value
 
 Integer
 
@@ -39,7 +40,7 @@ A Component Object Model (COM) object, such as a Microsoft Visio  **Document** o
 
 ## Example
 
-This Microsoft Visual Basic for Applications (VBA) macro shows how to use the  **Stat** property to check the status of a **Document** object. Executing the macro prints 0 (**visStatNormal**) and then 8 (**visStatClosed**) in the **Immediate** window.
+This Microsoft Visual Basic for Applications (VBA) macro shows how to use the  **Stat** property to check the status of a **Document** object. Executing the macro prints 0 (**visStatNormal**) and then 8 (**visStatClosed**) in the Immediate window.
 
 
 ```vb
@@ -55,4 +56,4 @@ Public Sub Stat_Example()
 End Sub
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

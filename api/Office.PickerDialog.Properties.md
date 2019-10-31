@@ -1,5 +1,5 @@
 ---
-title: PickerDialog.Properties Property (Office)
+title: PickerDialog.Properties property (Office)
 keywords: vbaof11.chm340003
 f1_keywords:
 - vbaof11.chm340003
@@ -7,30 +7,31 @@ ms.prod: office
 api_name:
 - Office.PickerDialog.Properties
 ms.assetid: 053b5d62-9d9a-68ed-c7ed-cf4df7053ecc
-ms.date: 06/08/2017
+ms.date: 01/22/2019
+localization_priority: Normal
 ---
 
 
-# PickerDialog.Properties Property (Office)
+# PickerDialog.Properties property (Office)
 
-Returns the ** PickerProperties** object to specify custom properties for data handler component. Read-only
+Returns the **[PickerProperties](office.pickerproperties.md)** object to specify custom properties for the data handler component. Read-only.
 
 
 ## Syntax
 
- _expression_. `Properties`
+_expression_.**Properties**
 
- _expression_ An expression that returns a [PickerDialog](./Office.PickerDialog.md) object.
+_expression_ An expression that returns a **[PickerDialog](Office.PickerDialog.md)** object.
 
 
 ## Remarks
 
-The properties of the  **PickerProperties** object will be passed to the data handler.
+The properties of the **PickerProperties** object will be passed to the data handler.
 
 
 ## Example
 
-The following code sets various Picker Dialog properties and retrieves the results.
+The following code sets various **PickerDialog** properties and retrieves the results.
 
 
 ```vb
@@ -51,10 +52,8 @@ Set objPickerResults = objPickerDialog.Show(True)
 
 ## See also
 
+- [PickerDialog object members](overview/Library-Reference/pickerdialog-members-office.md)
+- [PickerDialog interface](https://docs.microsoft.com/dotnet/api/microsoft.office.core.pickerdialog?view=office-pia)
+- [Object Picker dialog box interfaces](https://docs.microsoft.com/windows/desktop/ad/object-picker-dialog-box-interfaces)
 
-[PickerDialog Object](Office.PickerDialog.md)
-
-
-
-[PickerDialog Object Members](./overview/Library-Reference/pickerdialog-members-office.md)
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

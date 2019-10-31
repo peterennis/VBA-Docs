@@ -1,21 +1,23 @@
 ---
-title: XlChartElementPosition Enumeration (PowerPoint)
+title: XlChartElementPosition enumeration (PowerPoint)
 ms.prod: powerpoint
 api_name:
 - PowerPoint.XlChartElementPosition
 ms.assetid: 9d383293-0cf7-d3ec-28c9-97b100546fec
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# XlChartElementPosition Enumeration (PowerPoint)
+# XlChartElementPosition enumeration (PowerPoint)
 
 Specifies the position of the chart element.
 
 
 
-|**Name**|**Value**|**Description**|
+|Name|Value|Description|
 |:-----|:-----|:-----|
 |**xlChartElementPositionAutomatic**|-4105|Automatically sets the position of the chart element.|
 |**xlChartElementPositionCustom**|-4114|Specifies a specific position for the chart element.|
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

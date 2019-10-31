@@ -1,20 +1,21 @@
 ---
-title: MsoAnimEffect Enumeration (PowerPoint)
+title: MsoAnimEffect enumeration (PowerPoint)
 ms.prod: powerpoint
 api_name:
 - PowerPoint.MsoAnimEffect
 ms.assetid: 2a4ec4c0-9bf2-281a-420b-dd7d3f13f716
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# MsoAnimEffect Enumeration (PowerPoint)
+# MsoAnimEffect enumeration (PowerPoint)
 
 Specifies the type of animation effect.
 
 
 
-|**Name**|**Value**|**Description**|
+|Name|Value|Description|
 |:-----|:-----|:-----|
 |**msoAnimEffectAppear**|1|Appears|
 |**msoAnimEffectArcUp**|47|Arcs Up|
@@ -167,3 +168,4 @@ Specifies the type of animation effect.
 |**msoAnimEffectZip**|46|Zip effect|
 |**msoAnimEffectZoom**|23|Zoom effect|
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

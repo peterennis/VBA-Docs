@@ -1,5 +1,5 @@
 ---
-title: MailMerge.CreateHeaderSource Method (Word)
+title: MailMerge.CreateHeaderSource method (Word)
 keywords: vbawd10.chm153092198
 f1_keywords:
 - vbawd10.chm153092198
@@ -8,26 +8,27 @@ api_name:
 - Word.MailMerge.CreateHeaderSource
 ms.assetid: 607c668d-5f81-ecbe-d4c8-fbf509444683
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# MailMerge.CreateHeaderSource Method (Word)
+# MailMerge.CreateHeaderSource method (Word)
 
 Creates a Microsoft Word document that stores a header record that is used instead of the data source header record in a mail merge.
 
 
 ## Syntax
 
- _expression_. `CreateHeaderSource`( `_Name_` , `_PasswordDocument_` , `_WritePasswordDocument_` , `_HeaderRecord_` )
+_expression_. `CreateHeaderSource`( `_Name_` , `_PasswordDocument_` , `_WritePasswordDocument_` , `_HeaderRecord_` )
 
- _expression_ Required. A variable that represents a '[MailMerge](Word.MailMerge.md)' object.
-
-
-### Parameters
+_expression_ Required. A variable that represents a '[MailMerge](Word.MailMerge.md)' object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _Name_|Required| **String**|The path and file name for the new header source.|
 | _PasswordDocument_|Optional| **Variant**|The password required to open the new header source.|
@@ -36,7 +37,8 @@ Creates a Microsoft Word document that stores a header record that is used inste
 
 ## Security
 
-Avoid using hard-coded passwords in your applications. If a password is required in a procedure, request the password from the user, store it in a variable, and then use the variable in your code. For recommended best practices on how to do this, see [Security Notes for Microsoft Office Solution Developers](https://msdn.microsoft.com/en-us/library/office/ff860261.aspx). 
+> [!IMPORTANT] 
+> Avoid using hard-coded passwords in your applications. If a password is required in a procedure, request the password from the user, store it in a variable, and then use the variable in your code. For recommended best practices on how to do this, see [Security notes for Office solution developers](../Library-Reference/Concepts/security-notes-for-microsoft-office-solution-developers.md). 
 
 
 ## Remarks
@@ -72,3 +74,4 @@ End With
 
 [MailMerge Object](Word.MailMerge.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

@@ -1,5 +1,5 @@
 ---
-title: FileDialog.Filters Property (Office)
+title: FileDialog.Filters property (Office)
 keywords: vbaof11.chm256002
 f1_keywords:
 - vbaof11.chm256002
@@ -7,30 +7,31 @@ ms.prod: office
 api_name:
 - Office.FileDialog.Filters
 ms.assetid: 0aef7760-a618-c20c-0816-98be1b93e564
-ms.date: 06/08/2017
+ms.date: 01/09/2019
+localization_priority: Normal
 ---
 
 
-# FileDialog.Filters Property (Office)
+# FileDialog.Filters property (Office)
 
-Gets a  **FileDialogFilters** collection. Read-only.
+Gets a **FileDialogFilters** collection. Read-only.
 
 
 ## Syntax
 
- _expression_. `Filters`
+_expression_.**Filters**
 
- _expression_ A variable that represents a [FileDialog](./Office.FileDialog.md) object.
+_expression_ A variable that represents a **[FileDialog](Office.FileDialog.md)** object.
 
 
-### Return Value
+## Return value
 
 FileDialogFilters
 
 
 ## Example
 
-The following example displays a  **File Picker** dialog box using the **FileDialog** object and displays each selected file in a message box. The example also adds a new file filter called "Images."
+The following example displays a **File Picker** dialog box by using the **FileDialog** object, and displays each selected file in a message box. The example also adds a new file filter called **Images**.
 
 
 ```vb
@@ -64,7 +65,7 @@ Sub Main()
  'vrtSelectedItem is aString that contains the path of each selected item. 
  'You can use any file I/O functions that you want to work with this path. 
  'This example displays the path in a message box. 
- MsgBox "Selected item's path: " &amp; vrtSelectedItem 
+ MsgBox "Selected item's path: " & vrtSelectedItem 
  
  Next vrtSelectedItem 
  'If the user presses Cancel... 
@@ -81,10 +82,6 @@ End Sub
 
 ## See also
 
+- [FileDialog object members](overview/library-reference/filedialog-members-office.md)
 
-[FileDialog Object](Office.FileDialog.md)
-
-
-
-[FileDialog Object Members](./overview/Library-Reference/filedialog-members-office.md)
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

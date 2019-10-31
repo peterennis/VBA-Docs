@@ -1,5 +1,5 @@
 ---
-title: Application.DocumentOpen Event (Word)
+title: Application.DocumentOpen event (Word)
 keywords: vbawd10.chm400004
 f1_keywords:
 - vbawd10.chm400004
@@ -8,37 +8,38 @@ api_name:
 - Word.Application.DocumentOpen
 ms.assetid: 21fdd3cd-8769-899e-5749-f64c0e15b265
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Application.DocumentOpen Event (Word)
+# Application.DocumentOpen event (Word)
 
 Occurs when a document is opened.
 
 
 ## Syntax
 
-Private Sub  _expression_ _'DocumentOpen'(**_ByVal Doc As Document_**)
+_expression_.**DocumentOpen** (_Doc As Document_**)
 
- _expression_ A variable that represents an '[Application](Word.Application.md)' object declared with events in a class module.
-
-
-### Parameters
+_expression_ A variable that represents an '[Application](Word.Application.md)' object declared with events in a class module.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _Doc_|Required| **Document**|The document that's being opened.|
 
 ## Remarks
 
- For more information about using events with the **Application** object, see[Using Events with the Application Object](../word/Concepts/Objects-Properties-Methods/using-events-with-the-application-object-word.md).
+ For more information about using events with the **Application** object, see [Using events with the Application object](../word/Concepts/Objects-Properties-Methods/using-events-with-the-application-object-word.md).
 
 
 ## Example
 
-This example asks the user whether to save all other open documents when a document is opened. This code must be placed in a class module, and an instance of the class must be correctly initialized to see this example work; see [Using Events with the Application Object](../word/Concepts/Objects-Properties-Methods/using-events-with-the-application-object-word.md)for directions on how to accomplish this.
+This example asks the user whether to save all other open documents when a document is opened. This code must be placed in a class module, and an instance of the class must be correctly initialized to see this example work; see [Using events with the Application object](../word/Concepts/Objects-Properties-Methods/using-events-with-the-application-object-word.md)for directions on how to accomplish this.
 
 
 ```vb
@@ -70,3 +71,4 @@ End Sub
 
 [Application Object](Word.Application.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

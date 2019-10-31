@@ -1,5 +1,5 @@
 ---
-title: Application.CreateAdditionalData Method (Access)
+title: Application.CreateAdditionalData method (Access)
 keywords: vbaac10.chm12607
 f1_keywords:
 - vbaac10.chm12607
@@ -7,23 +7,24 @@ ms.prod: access
 api_name:
 - Access.Application.CreateAdditionalData
 ms.assetid: d27df827-1bcc-eb1e-00d2-46eebd265440
-ms.date: 06/08/2017
+ms.date: 02/05/2019
+localization_priority: Normal
 ---
 
 
-# Application.CreateAdditionalData Method (Access)
+# Application.CreateAdditionalData method (Access)
 
-Creates an  **[AdditionalData](Access.AdditionalData.md)** object that can be used to add additional tables and queries to the parent table that is being exported by the **[ExportXML](Access.Application.ExportXML.md)** method.
+Creates an **[AdditionalData](Access.AdditionalData.md)** object that can be used to add additional tables and queries to the parent table that is being exported by the **[ExportXML](Access.Application.ExportXML.md)** method.
 
 
 ## Syntax
 
- _expression_. `CreateAdditionalData`
+_expression_.**CreateAdditionalData**
 
- _expression_ A variable that represents an [Application](Access.Application.md) object.
+_expression_ A variable that represents an **[Application](Access.Application.md)** object.
 
 
-### Return Value
+## Return value
 
 AdditionalData
 
@@ -52,8 +53,6 @@ End Sub
 ```
 
 
-## See also
 
 
-[Application Object](Access.Application.md)
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

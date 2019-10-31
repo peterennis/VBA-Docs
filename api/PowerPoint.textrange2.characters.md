@@ -1,33 +1,34 @@
 ---
-title: TextRange2.Characters Property (PowerPoint)
+title: TextRange2.Characters property (PowerPoint)
 ms.assetid: 5a7f47ac-8d22-42f3-af2f-0a381315ce07
 ms.date: 06/08/2017
 ms.prod: powerpoint
+localization_priority: Normal
 ---
 
 
-# TextRange2.Characters Property (PowerPoint)
+# TextRange2.Characters property (PowerPoint)
 
 Read-only.
 
 
 ## Syntax
 
- _expression_. `Characters`( `_Start_`, `_Length_` )
+_expression_. `Characters`( `_Start_`, `_Length_` )
 
  _expression_ An expression that returns a 'TextRange2' object.
 
 
-### Parameters
+## Parameters
 
 
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _Start_|Optional|**Long**|The first character in the returned range.|
 | _Length_|Optional|**Long**|The number of characters to be returned.|
 
-### Return Value
+## Return value
 
 TextRange2
 
@@ -63,6 +64,6 @@ End With
 ## See also
 
 
-[TextRange2 Object (PowerPoint)](PowerPoint.textrange2.md)
+[TextRange2 object (PowerPoint)](PowerPoint.textrange2.md)
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

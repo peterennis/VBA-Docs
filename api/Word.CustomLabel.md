@@ -1,5 +1,5 @@
 ---
-title: CustomLabel Object (Word)
+title: CustomLabel object (Word)
 keywords: vbawd10.chm2325
 f1_keywords:
 - vbawd10.chm2325
@@ -8,10 +8,11 @@ api_name:
 - Word.CustomLabel
 ms.assetid: a89ff4e1-ff8a-8a8f-afa2-6071bb49355b
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# CustomLabel Object (Word)
+# CustomLabel object (Word)
 
 Represents a custom mailing label. The  **CustomLabel** object is a member of the **[CustomLabels](Word.customlabels.md)** collection. The **CustomLabels** collection contains all the custom mailing labels listed in the **Label Options** dialog box.
 
@@ -42,7 +43,8 @@ End If
 ```
 
 
- **Note**   **CustomLabel** objects are sorted alphabetically in the **[CustomLabels](Word.customlabels.md)** collection and their index numbers are dynamically reassigned as the contents of the collection change. For that reason, it is safer to refer to a specific **CustomLabel** object by name rather than by index number.
+> [!NOTE] 
+>  **CustomLabel** objects are sorted alphabetically in the **[CustomLabels](Word.customlabels.md)** collection and their index numbers are dynamically reassigned as the contents of the collection change. For that reason, it is safer to refer to a specific **CustomLabel** object by name rather than by index number.
 
 Use the  **[Add](Word.CustomLabels.Add.md)** method to create a custom label. The following example adds a custom mailing label named "My Label" and sets the page size.
 
@@ -61,5 +63,6 @@ ML.PageSize = wdCustomLabelA4
 
 
 
-[Word Object Model Reference](./overview/Word/object-model.md)
+[Word Object Model Reference](overview/Word/object-model.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

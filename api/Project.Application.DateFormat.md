@@ -1,5 +1,5 @@
 ---
-title: Application.DateFormat Method (Project)
+title: Application.DateFormat method (Project)
 keywords: vbapj.chm131208
 f1_keywords:
 - vbapj.chm131208
@@ -8,31 +8,32 @@ api_name:
 - Project.Application.DateFormat
 ms.assetid: b4fc14a0-5139-b7cf-8d96-443cd23fd8ec
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Application.DateFormat Method (Project)
+# Application.DateFormat method (Project)
 
 Returns a date in the specified format.
 
 
 ## Syntax
 
- _expression_. `DateFormat`( ` _Date_`, ` _Format_` )
+_expression_. `DateFormat`( `_Date_`, `_Format_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
-
-
-### Parameters
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _Date_|Required|**Variant**|The date to format.|
 | _Format_|Optional|**Long**|The date format. Can be one of the  **[PjDateFormat](Project.PjDateFormat.md)** constants. The default value is **pjDateDefault**.|
 
-### Return Value
+## Return value
 
  **Variant**
 
@@ -48,4 +49,4 @@ Sub OutputDate()
 End Sub
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

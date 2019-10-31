@@ -1,5 +1,5 @@
 ---
-title: Application.PathSeparator Property (Word)
+title: Application.PathSeparator property (Word)
 keywords: vbawd10.chm158335072
 f1_keywords:
 - vbawd10.chm158335072
@@ -8,27 +8,29 @@ api_name:
 - Word.Application.PathSeparator
 ms.assetid: 29347a13-8edb-0b02-32c3-d091eb52c9f1
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Application.PathSeparator Property (Word)
+# Application.PathSeparator property (Word)
 
-Returns the character used to separate folder names. This property returns a backslash (\). Read-only  **String** .
+Returns the character used to separate folder names. This property returns a backslash (\). Read-only  **String**.
 
 
 ## Syntax
 
- _expression_. `PathSeparator`
+_expression_. `PathSeparator`
 
- _expression_ An expression that returns an '[Application](Word.Application.md)' object.
+ _expression_ An expression that returns an **[Application](Word.Application.md)** object. 
 
 
 ## Remarks
 
-You can use  **PathSeparator** property to build Web addresses even though they contain forward slashes (/).
+You can use  **PathSeparator** property to build web addresses even though they contain forward slashes (/).
 
 
- **Note**  The  **[FullName](Word.Document.FullName.md)** property returns the path and file name, including the path separator, as a single string.
+> [!NOTE] 
+> The  **[FullName](Word.Document.FullName.md)** property returns the path and file name, including the path separator, as a single string.
 
 
 ## Example
@@ -61,3 +63,4 @@ End If
 
 [Application Object](Word.Application.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

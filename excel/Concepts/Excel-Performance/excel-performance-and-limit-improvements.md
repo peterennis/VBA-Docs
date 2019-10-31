@@ -1,15 +1,30 @@
 ---
 title: Excel performance - Performance and limit improvements
 description: Find out about performance improvements in Excel 2016 and Excel 2010. 
-ms.date: 10/06/2017 
+ms.date: 09/24/2018 
 author: FastExcel
+localization_priority: Priority
 ---
 
 # Excel performance: Performance and limit improvements
 
 **Applies to:** Excel | Excel 2016 | Excel 2013 | Excel 2010 | Office 2016 | SharePoint Server 2010 | VBA
 
-Excel 2016 introduces new features that you can use to improve performance when you're working with large or complex Excel workbooks
+Excel 2016 introduces new features that you can use to improve performance when you are working with large or complex Excel workbooks
+
+## VLOOKUP, HLOOKUP, MATCH improvements
+
+In Office 365 version 1809 and later, Excel's VLOOKUP, HLOOKUP, and MATCH for exact match on unsorted data is much faster than ever before when looking up multiple columns (or rows with HLOOKUP) from the same table range.
+
+These lookup functions now create an internal cached index for the column range being searched. This cached index is reused in any subsequent lookups that are pulling from the same row (VLOOKUP and MATCH) or column (HLOOKUP). The effect is dramatic: lookups on 5 different columns in the same table range can be up to 4 times faster than the same lookups using Excel 2010 or Excel 2016, and the improvement is larger as more columns are looked up.
+
+*For example calculating 100 rows of these 5 VLOOKUP formulas took 37 seconds to calculate using Excel 2010 and only 12 seconds using Excel 2016.*
+
+    =VLOOKUP($A900000,$A$2:$E$1000000,1,FALSE)
+    =VLOOKUP($A900000,$A$2:$E$1000000,2,FALSE)
+    =VLOOKUP($A900000,$A$2:$E$1000000,3,FALSE)
+    =VLOOKUP($A900000,$A$2:$E$1000000,4,FALSE)
+    =VLOOKUP($A900000,$A$2:$E$1000000,5,FALSE)
 
 ## LAA memory improvement for 32-bit Excel
 
@@ -92,7 +107,7 @@ The 64-bit version of Excel 2010 is not constrained to 2 GB of RAM like the 32-b
 
 In addition, because the 64-bit version of Excel enables larger data sets, both the 32-bit and 64-bit versions of Excel 2010 introduce improvements to common large data set tasks such as entering and filling down data, sorting, filtering, and copying and pasting data. Memory usage is also optimized to be more efficient in both the 32-bit and 64-bit versions of Excel. 
 
-For more information about the 64-bit version of Office 2010, see [Compatibility Between the 32-bit and 64-bit Versions of Office 2010](../../../api/overview/Excel.md) and for choosing between 64-bit and 32-bit, see [Choose between the 64-bit or 32-bit version of Office](https://support.office.com/en-us/article/Choose-between-the-64-bit-or-32-bit-version-of-Office-2dee7807-8f95-4d0c-b5fe-6c6f49b8d261#32or64Bit&32or64Bit).
+For more information about the 64-bit version of Office 2010, see [Compatibility Between the 32-bit and 64-bit Versions of Office 2010](../../../api/overview/Excel.md) and for choosing between 64-bit and 32-bit, see [Choose between the 64-bit or 32-bit version of Office](https://support.office.com/article/Choose-between-the-64-bit-or-32-bit-version-of-Office-2dee7807-8f95-4d0c-b5fe-6c6f49b8d261#32or64Bit&32or64Bit).
 
 ### Shapes
 <a name="Shapes"> </a>
@@ -148,7 +163,7 @@ Excel 2016 introduces performance and limitation improvements focused on increas
 
 - [Excel performance: Improving calculation performance](excel-improving-calcuation-performance.md)   
 - [Excel performance: Tips for optimizing performance obstructions](excel-tips-for-optimizing-performance-obstructions.md)   
-- [Excel Developer Portal](https://msdn.microsoft.com/en-us/office/aa905411.aspx)   
-- [Changes to Slow/Fast level names for Office Insider for Windows desktop](https://support.office.com/en-US/article/Changes-to-Slow-Fast-level-names-for-Office-Insider-for-Windows-desktop-055ee4f9-9ce3-4fb8-8a9a-ca6745867d52)
-    
-  
+- [Excel Developer Portal](https://msdn.microsoft.com/office/aa905411.aspx)   
+- [Changes to Slow/Fast level names for Office Insider for Windows desktop](https://support.office.com/article/Changes-to-Slow-Fast-level-names-for-Office-Insider-for-Windows-desktop-055ee4f9-9ce3-4fb8-8a9a-ca6745867d52)
+
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

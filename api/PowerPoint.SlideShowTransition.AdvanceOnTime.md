@@ -1,5 +1,5 @@
 ---
-title: SlideShowTransition.AdvanceOnTime Property (PowerPoint)
+title: SlideShowTransition.AdvanceOnTime property (PowerPoint)
 keywords: vbapp10.chm539004
 f1_keywords:
 - vbapp10.chm539004
@@ -8,22 +8,23 @@ api_name:
 - PowerPoint.SlideShowTransition.AdvanceOnTime
 ms.assetid: 934c5acc-b230-2b7b-f0f2-4647cce5b62d
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# SlideShowTransition.AdvanceOnTime Property (PowerPoint)
+# SlideShowTransition.AdvanceOnTime property (PowerPoint)
 
 Determines whether the specified slide advances automatically after a specified amount of time has elapsed. Read/write.
 
 
 ## Syntax
 
- _expression_. `AdvanceOnTime`
+_expression_. `AdvanceOnTime`
 
- _expression_ A variable that represents an [SlideShowTransition](./PowerPoint.SlideShowTransition.md) object.
+_expression_ A variable that represents an [SlideShowTransition](PowerPoint.SlideShowTransition.md) object.
 
 
-### Return Value
+## Return value
 
 MsoTriState
 
@@ -36,14 +37,14 @@ The value of the  **AdvanceOnTime** property can be one of these **MsoTriState**
 
 
 
-|**Constant**|**Description**|
+|Constant|Description|
 |:-----|:-----|
 |**msoFalse**|The specified slide does not advance automatically after a specified amount of time has elapsed. |
 |**msoTrue**| The specified slide advances automatically after a specified amount of time has elapsed.|
 
 ## Example
 
-This example sets slide one in the active presentation to advance after five seconds have passed or when the mouse is clicked ? whichever occurs first.
+This example sets slide one in the active presentation to advance after five seconds have passed or when the mouse is clicked&mdash;whichever occurs first.
 
 
 ```vb
@@ -64,3 +65,4 @@ End With
 
 [SlideShowTransition Object](PowerPoint.SlideShowTransition.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

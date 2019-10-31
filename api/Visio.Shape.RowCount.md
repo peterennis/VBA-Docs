@@ -1,5 +1,5 @@
 ---
-title: Shape.RowCount Property (Visio)
+title: Shape.RowCount property (Visio)
 keywords: vis_sdr.chm11214245
 f1_keywords:
 - vis_sdr.chm11214245
@@ -8,30 +8,31 @@ api_name:
 - Visio.Shape.RowCount
 ms.assetid: 358f07c8-f72a-134a-53d8-9b70f2400484
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Shape.RowCount Property (Visio)
+# Shape.RowCount property (Visio)
 
 Returns the number of rows in a ShapeSheet section. Read-only.
 
 
 ## Syntax
 
- _expression_. `RowCount`( `_Section_` )
+_expression_. `RowCount`( `_Section_` )
 
- _expression_ A variable that represents a [Shape](./Visio.Shape.md) object.
-
-
-### Parameters
+_expression_ A variable that represents a **[Shape](Visio.Shape.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _Section_|Required| **Integer**|The section whose rows to count.|
 
-### Return Value
+## Return value
 
 Integer
 
@@ -40,19 +41,20 @@ Integer
 
 The  _Section_ argument must be a section constant. For a list of section constants, see the **AddSection** method.
 
-Use the  **RowCount** property primarily with sections that contain a variable number of rows, such as Geometry and Connection Points sections. For sections that have a fixed number of rows, the **RowCount** property returns the number of rows in the section that possess at least one cell whose value is local to the shape, as opposed to rows whose cells are all inherited from a master or style. Inheriting from a master or style is usually better because Microsoft Office Visio does not need to store as much information. In the ShapeSheet window, cells with local values appear in blue, and cells with inherited values appear in black. You can use the **IsInherited** property to determine if a cell is inherited.
+Use the **RowCount** property primarily with sections that contain a variable number of rows, such as Geometry and Connection Points sections. For sections that have a fixed number of rows, the **RowCount** property returns the number of rows in the section that possess at least one cell whose value is local to the shape, as opposed to rows whose cells are all inherited from a master or style. Inheriting from a master or style is usually better because Microsoft Office Visio does not need to store as much information. In the ShapeSheet window, cells with local values appear in blue, and cells with inherited values appear in black. You can use the **IsInherited** property to determine if a cell is inherited.
 
 
 ## Example
 
-This Microsoft Visual Basic for Applications (VBA) macro shows how to use the  **RowCount** property to find the number of ShapeSheet rows to iterate through.
+This Microsoft Visual Basic for Applications (VBA) macro shows how to use the **RowCount** property to find the number of ShapeSheet rows to iterate through.
 
 
 
-To run this macro, open a blank drawing and the  **Computers and Monitors (US Units)** stencil, and then insert a user form that contains a label, text box, and list box. Set the width of the list box to 150.
+To run this macro, open a blank drawing and the **Computers and Monitors (US Units)** stencil, and then insert a user form that contains a label, text box, and list box. Set the width of the list box to 150.
 
 
- **Note**  The  **Computers and Monitors (US Units)** stencil is available only in Microsoft Office Visio Professional.
+> [!NOTE] 
+> The **Computers and Monitors (US Units)** stencil is available only in Microsoft Office Visio Professional.
 
 
 
@@ -123,4 +125,4 @@ Public Sub RowCount_Example()
 End Sub
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

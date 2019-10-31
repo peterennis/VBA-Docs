@@ -1,20 +1,21 @@
 ---
-title: WdPageNumberStyle Enumeration (Word)
+title: WdPageNumberStyle enumeration (Word)
 ms.prod: word
 api_name:
 - Word.WdPageNumberStyle
 ms.assetid: 1533e7b2-9d59-d980-b1e0-2cd0efe6a2c3
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# WdPageNumberStyle Enumeration (Word)
+# WdPageNumberStyle enumeration (Word)
 
 Specifies the style to apply to page numbers.
 
 
 
-|**Name**|**Value**|**Description**|
+|Name|Value|Description|
 |:-----|:-----|:-----|
 | **wdPageNumberStyleArabic**|0|Arabic style.|
 | **wdPageNumberStyleArabicFullWidth**|14|Arabic full width style.|
@@ -46,3 +47,4 @@ Specifies the style to apply to page numbers.
 | **wdPageNumberStyleUppercaseRoman**|1|Uppercase Roman style.|
 | **wdPageNumberStyleVietCardinalText**|56|Vietnamese Cardinal text style.|
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

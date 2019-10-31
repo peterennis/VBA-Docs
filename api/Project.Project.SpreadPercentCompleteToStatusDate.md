@@ -1,28 +1,29 @@
 ---
-title: Project.SpreadPercentCompleteToStatusDate Property (Project)
+title: Project.SpreadPercentCompleteToStatusDate property (Project)
 ms.prod: project-server
 api_name:
 - Project.Project.SpreadPercentCompleteToStatusDate
 ms.assetid: c1c9a8eb-8572-7bad-33b2-23157c908f60
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Project.SpreadPercentCompleteToStatusDate Property (Project)
+# Project.SpreadPercentCompleteToStatusDate property (Project)
 
  **True** if edits to total task percent complete are spread to the status date, or to the current date if the status date is "NA". **False** if edits are spread to the calculated stop date of the task. Read/write **Boolean**.
 
 
 ## Syntax
 
- _expression_. `SpreadPercentCompleteToStatusDate`
+_expression_. `SpreadPercentCompleteToStatusDate`
 
- _expression_ A variable that represents a [Project](./Project(enumerations).md) object.
+_expression_ A variable that represents a **[Project](project.project.md)** object.
 
 
 ## Example
 
-The following example checks the status date of the active project. If it has never changed from the default, but edits to total task percent complete are spread to the status date, the macro asks for a status date to use. If edits to total task percent complete are spread to the calculated stop date of the task, the macro asks the user if edits should be spread to a status date instead and, if so, asks for a status date to use.
+The following example checks the status date of the active project. If it has never changed from the default, but edits to total task percent complete are spread to the status date, the macro asks for a status date to use. If edits to total task percent complete are spread to the calculated stop date of the task, the macro asks the user if edits should be spread to a status date instead, and if so, asks for a status date to use.
 
 
 ```vb
@@ -49,4 +50,4 @@ Sub SpreadPercentComplete()
 End Sub
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

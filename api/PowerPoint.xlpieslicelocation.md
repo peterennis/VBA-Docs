@@ -1,18 +1,19 @@
 ---
-title: XlPieSliceLocation Enumeration (PowerPoint)
+title: XlPieSliceLocation enumeration (PowerPoint)
 ms.assetid: 3960e8bf-e26a-10b6-cd02-4c4f0a2c5202
 ms.date: 06/08/2017
 ms.prod: powerpoint
+localization_priority: Normal
 ---
 
 
-# XlPieSliceLocation Enumeration (PowerPoint)
+# XlPieSliceLocation enumeration (PowerPoint)
 
 Specifies which position on the slice to return the coordinate of.
 
 
 
-|**Name**|**Value**|**Description**|
+|Name|Value|Description|
 |:-----|:-----|:-----|
 |**xlCenterPoint**|5|The center point of a pie slice.|
 |**xlInnerCenterPoint**|8|The innermost center point of a doughnut slice.|
@@ -24,3 +25,4 @@ Specifies which position on the slice to return the coordinate of.
 |**xlOuterClockwisePoint**|3|The outermost clockwise point of the circumference of a slice.|
 |**xlOuterCounterClockwisePoint**|1|The outermost counterclockwise point of the circumference of a slice.|
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

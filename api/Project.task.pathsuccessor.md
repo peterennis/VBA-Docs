@@ -1,19 +1,20 @@
 ---
-title: Task.PathSuccessor Property (Project)
+title: Task.PathSuccessor property (Project)
 ms.prod: project-server
 ms.assetid: 827bf575-d93b-9959-c664-625c0e199699
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Task.PathSuccessor Property (Project)
+# Task.PathSuccessor property (Project)
 Gets a value that indicates whether the task is a successor of the selected task, when the  **Successors** item is selected in the **Task Path** drop-down list. Read-only **Boolean**.
 
 ## Syntax
 
- _expression_. `PathSuccessor`
+_expression_. `PathSuccessor`
 
- _expression_ A variable that represents a [Task](./Project.Task.md) object.
+_expression_ A variable that represents a [Task](./Project.Task.md) object.
 
 
 ## Remarks
@@ -23,7 +24,7 @@ The  **Task.PathSuccessor** property is related to the **Successors** item on th
 
 **Figure 1. Using the task path properties to highlight tasks**
 
-![Using the task path properties to highlight tasks](../images/pj15_VBA_TaskPathDrivingPredecessor.gif)The  **PathSuccessor** property does not act like the **Successors** selection in the user interface. Instead, the **PathSuccessor** property is **True** whenboth of the following conditions are true: (a) the task is a successor of the selected task, and (b) the **Successors** item is selected in **Task Path**. You can manually select a task or use VBA to select a task, and then use VBA to check whether another task is a successor to the selected task. For example, if you select the third task as in Figure 1, and the  **Successors** item is selected in **Task Path**, the following statement prints  **True** in the **Immediate** window of the VBE.
+![Using the task path properties to highlight tasks](../images/pj15_VBA_TaskPathDrivingPredecessor.gif)The  **PathSuccessor** property does not act like the **Successors** selection in the user interface. Instead, the **PathSuccessor** property is **True** whenboth of the following conditions are true: (a) the task is a successor of the selected task, and (b) the **Successors** item is selected in **Task Path**. You can manually select a task or use VBA to select a task, and then use VBA to check whether another task is a successor to the selected task. For example, if you select the third task as in Figure 1, and the  **Successors** item is selected in **Task Path**, the following statement prints  **True** in the Immediate window of the VBE.
 
 
 
@@ -127,3 +128,5 @@ Selected task ID 4, name: T4
 [PathDrivingPredecessor Property](Project.task.pathdrivingpredecessor.md)
 [PathPredecessor Property](Project.task.pathpredecessor.md)
 [PathDrivenSuccessor Property](Project.task.pathdrivensuccessor.md)
+
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

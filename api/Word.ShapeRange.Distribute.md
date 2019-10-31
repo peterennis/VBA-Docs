@@ -1,5 +1,5 @@
 ---
-title: ShapeRange.Distribute Method (Word)
+title: ShapeRange.Distribute method (Word)
 keywords: vbawd10.chm162856973
 f1_keywords:
 - vbawd10.chm162856973
@@ -8,26 +8,27 @@ api_name:
 - Word.ShapeRange.Distribute
 ms.assetid: fae7b87a-9542-7018-15fb-a4e4efee4c9b
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# ShapeRange.Distribute Method (Word)
+# ShapeRange.Distribute method (Word)
 
 Evenly distributes the shapes in the specified range of shapes. .
 
 
 ## Syntax
 
- _expression_. `Distribute`( `_Distribute_` , `_RelativeTo_` )
+_expression_. `Distribute`( `_Distribute_` , `_RelativeTo_` )
 
- _expression_ Required. A variable that represents a '[ShapeRange](Word.shaperange.md)' object.
-
-
-### Parameters
+_expression_ Required. A variable that represents a **[ShapeRange](Word.shaperange.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _Distribute_|Required| **MsoDistributeCmd**|Specifies whether to distribute shapes horizontally or vertically.|
 | _RelativeTo_|Required| **Long**| **True** to distribute the shapes evenly over the entire horizontal or vertical space on the page. **False** to distribute them within the horizontal or vertical space that the range of shapes originally occupies.|
@@ -69,3 +70,4 @@ End With
 
 [ShapeRange Collection Object](Word.shaperange.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

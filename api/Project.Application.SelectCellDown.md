@@ -1,5 +1,5 @@
 ---
-title: Application.SelectCellDown Method (Project)
+title: Application.SelectCellDown method (Project)
 keywords: vbapj.chm2050
 f1_keywords:
 - vbapj.chm2050
@@ -8,31 +8,32 @@ api_name:
 - Project.Application.SelectCellDown
 ms.assetid: 78754f19-651b-d614-fa69-5fccd6b3387c
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Application.SelectCellDown Method (Project)
+# Application.SelectCellDown method (Project)
 
 Selects cells directly below the current selection.
 
 
 ## Syntax
 
- _expression_. `SelectCellDown`( ` _NumCells_`, ` _Extend_` )
+_expression_. `SelectCellDown`( `_NumCells_`, `_Extend_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
-
-
-### Parameters
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _NumCells_|Optional|**Long**|The number of cells to select downward from the current selection. The default value is 1.|
 | _Extend_|Optional|**Boolean**|**True** if the current selection is extended to the specified cell. The default value is **False**.|
 
-### Return Value
+## Return value
 
  **Boolean**
 
@@ -90,4 +91,4 @@ Sub ShowGroupByItems()
 End Sub
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

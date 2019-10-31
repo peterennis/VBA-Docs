@@ -1,5 +1,5 @@
 ---
-title: OlTimelineViewMode Enumeration (Outlook)
+title: OlTimelineViewMode enumeration (Outlook)
 keywords: vbaol11.chm3128
 f1_keywords:
 - vbaol11.chm3128
@@ -8,18 +8,20 @@ api_name:
 - Outlook.OlTimelineViewMode
 ms.assetid: 66d8d00b-3c6b-d9dc-4d8c-fc8170bdd879
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# OlTimelineViewMode Enumeration (Outlook)
+# OlTimelineViewMode enumeration (Outlook)
 
 Indicates the view mode when using a  **[TimelineView](Outlook.TimelineView.md)** object.
 
 
 
-|**Name**|**Value**|**Description**|
+|Name|Value|Description|
 |:-----|:-----|:-----|
 | **olTimelineViewDay**|0|Displays a timeline in which the upper scale represents days and the lower scale represents hours. |
 | **olTimelineViewMonth**|2|Displays a timeline in which the upper scale represents months and the lower scale represents days.|
 | **olTimelineViewWeek**|1|Displays a timeline in which the upper scale represents weeks and the lower scale represents days.|
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

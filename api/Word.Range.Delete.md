@@ -1,5 +1,5 @@
 ---
-title: Range.Delete Method (Word)
+title: Range.Delete method (Word)
 keywords: vbawd10.chm157155455
 f1_keywords:
 - vbawd10.chm157155455
@@ -8,31 +8,32 @@ api_name:
 - Word.Range.Delete
 ms.assetid: 066b6dda-db9c-43aa-b65c-556b06b5b445
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Range.Delete Method (Word)
+# Range.Delete method (Word)
 
 Deletes the specified number of characters or words.
 
 
 ## Syntax
 
- _expression_. `Delete`( `_Unit_` , `_Count_` )
+_expression_.**Delete**( `_Unit_` , `_Count_` )
 
- _expression_ Required. A variable that represents a '[Range](Word.Range.md)' object.
-
-
-### Parameters
+_expression_ Required. A variable that represents a **[Range](Word.Range.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _Unit_|Optional| **Variant**|The unit by which the collapsed range is to be deleted. Can be one of the  **WdUnits** constants.|
 | _Count_|Optional| **Variant**|The number of units to be deleted. To delete units after the range, collapse the range and use a positive number. To delete units before the range, collapse the range and use a negative number.|
 
-### Return Value
+## Return value
 
 Long
 
@@ -67,3 +68,4 @@ End Sub
 
 [Range Object](Word.Range.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

@@ -1,5 +1,5 @@
 ---
-title: OlkDateControl.KeyPress Event (Outlook)
+title: OlkDateControl.KeyPress event (Outlook)
 keywords: vbaol11.chm1000370
 f1_keywords:
 - vbaol11.chm1000370
@@ -8,26 +8,27 @@ api_name:
 - Outlook.OlkDateControl.KeyPress
 ms.assetid: 59b22d35-001a-4e99-3b71-d7f95a73d821
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# OlkDateControl.KeyPress Event (Outlook)
+# OlkDateControl.KeyPress event (Outlook)
 
 Occurs when the user presses an ANSI key.
 
 
 ## Syntax
 
- _expression_. `KeyPress`( `_KeyAscii_` )
+_expression_. `KeyPress`( `_KeyAscii_` )
 
- _expression_ A variable that represents an [OlkDateControl](./Outlook.OlkDateControl.md) object.
-
-
-### Parameters
+_expression_ A variable that represents an [OlkDateControl](Outlook.OlkDateControl.md) object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _KeyAscii_|Required| **Long**|The numerical value of the key pressed.|
 
@@ -54,3 +55,4 @@ A  **KeyPress** event does not occur under the following conditions:
 
 [OlkDateControl Object](Outlook.OlkDateControl.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

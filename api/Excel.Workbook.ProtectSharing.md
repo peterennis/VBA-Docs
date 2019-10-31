@@ -1,5 +1,5 @@
 ---
-title: Workbook.ProtectSharing Method (Excel)
+title: Workbook.ProtectSharing method (Excel)
 keywords: vbaxl10.chm199265
 f1_keywords:
 - vbaxl10.chm199265
@@ -7,31 +7,30 @@ ms.prod: excel
 api_name:
 - Excel.Workbook.ProtectSharing
 ms.assetid: 26660bc6-136a-ffc8-987e-c96db9c08231
-ms.date: 06/08/2017
+ms.date: 05/29/2019
+localization_priority: Normal
 ---
 
 
-# Workbook.ProtectSharing Method (Excel)
+# Workbook.ProtectSharing method (Excel)
 
 Saves the workbook and protects it for sharing.
 
 
 ## Syntax
 
- _expression_. `ProtectSharing`( `_Filename_` , `_Password_` , `_WriteResPassword_` , `_ReadOnlyRecommended_` , `_CreateBackup_` , `_SharingPassword_` , `_FileFormat_` )
+_expression_.**ProtectSharing** (_FileName_, _Password_, _WriteResPassword_, _ReadOnlyRecommended_, _CreateBackup_, _SharingPassword_, _FileFormat_)
 
- _expression_ A variable that represents a [Workbook](./Excel.Workbook.md) object.
-
-
-### Parameters
+_expression_ A variable that represents a **[Workbook](Excel.Workbook.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-| _Filename_|Optional| **Variant**|A string indicating the name of the saved file. You can include a full path; if you don?t, Microsoft Excel saves the file in the current folder.|
+| _FileName_|Optional| **Variant**|A string indicating the name of the saved file. You can include a full path; if you don't, Microsoft Excel saves the file in the current folder.|
 | _Password_|Optional| **Variant**|A case-sensitive string indicating the protection password to be given to the file. Should be no longer than 15 characters.|
-| _WriteResPassword_|Optional| **Variant**|A string indicating the write-reservation password for this file. If a file is saved with the password and the password isn?t supplied when the file is opened, the file is opened read-only.|
+| _WriteResPassword_|Optional| **Variant**|A string indicating the write-reservation password for this file. If a file is saved with the password and the password isn't supplied when the file is opened, the file is opened read-only.|
 | _ReadOnlyRecommended_|Optional| **Variant**| **True** to display a message when the file is opened, recommending that the file be opened read-only.|
 | _CreateBackup_|Optional| **Variant**| **True** to create a backup file.|
 | _SharingPassword_|Optional| **Variant**|A string indicating the password to be used to protect the file for sharing.|
@@ -39,13 +38,17 @@ Saves the workbook and protects it for sharing.
 
 ## Remarks
 
-Use strong passwords that combine uppercase and lowercase letters, numbers, and symbols. Weak passwords don't mix these elements. Strong password: Y6dh!et5. Weak password: House27. Passwords should be 8 or more characters in length. A pass phrase that uses 14 or more characters is better. For more information, see Help protect your personal information with strong passwords. It is critical that you remember your password. If you forget your password, Microsoft cannot retrieve it. Store the passwords that you write down in a secure place away from the information that they help protect. 
+Use strong passwords that combine uppercase and lowercase letters, numbers, and symbols. Weak passwords don't mix these elements.
+
+- Strong password: Y6dh!et5
+- Weak password: House27
+
+Passwords should be 8 or more characters in length. A pass phrase that uses 14 or more characters is better. It is critical that you remember your password. If you forget your password, Microsoft cannot retrieve it. Store the passwords that you write down in a secure place away from the information that they help protect. 
 
 
 ## Example
 
 This example saves workbook one and protects it for sharing.
-
 
 ```vb
  
@@ -67,8 +70,5 @@ End Sub
 ```
 
 
-## See also
 
-
-[Workbook Object](Excel.Workbook.md)
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

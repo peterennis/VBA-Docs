@@ -1,12 +1,13 @@
 ---
-title: Tasks Object (Project)
+title: Tasks object (Project)
 ms.prod: project-server
 ms.assetid: b7482b5a-7fac-531e-6793-610faca2f954
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Tasks Object (Project)
+# Tasks object (Project)
 
 Contains a collection of  **[Task](Project.Task.md)** objects.
 
@@ -15,7 +16,7 @@ Contains a collection of  **[Task](Project.Task.md)** objects.
 
  **Using the Task Object**
 
-Use  **Tasks** ( _Index_ ), where _Index_ is the task index number or task name, to return a single **Task** object. The following example prints the names of every resource assigned to every task in the active project.
+Use  **Tasks** (_index_), where _index_ is the task index number or task name, to return a single **Task** object. The following example prints the names of every resource assigned to every task in the active project.
 
 
 
@@ -29,17 +30,17 @@ Dim TaskName As String, Assigned As String, Results As String
 
 For Temp = 1 To ActiveProject.Tasks.Count 
 
- TaskName = "Task: " &amp; ActiveProject.Tasks(Temp).Name &amp; vbCrLf 
+ TaskName = "Task: " & ActiveProject.Tasks(Temp).Name & vbCrLf 
 
  For Each A In ActiveProject.Tasks(Temp).Assignments 
 
- Assigned = A.ResourceName &amp; ListSeparator &amp; " " &amp; Assigned 
+ Assigned = A.ResourceName & ListSeparator & " " & Assigned 
 
  Next A 
 
- Results = Results &amp; TaskName &amp; "Resources: " &amp; _ 
+ Results = Results & TaskName & "Resources: " & _ 
 
- Left$(Assigned, Len(Assigned) - Len(ListSeparator &amp; " ")) &amp; vbCrLf &amp; vbCrLf 
+ Left$(Assigned, Len(Assigned) - Len(ListSeparator & " ")) & vbCrLf & vbCrLf 
 
  TaskName = "" 
 
@@ -64,7 +65,7 @@ Dim T As Task, Names As String
 
 For Each T In ActiveSelection.Tasks 
 
- Names = Names &amp; T.Name &amp; vbCrLf 
+ Names = Names & T.Name & vbCrLf 
 
 Next T 
 
@@ -87,7 +88,7 @@ ActiveProject.Tasks.Add "Hang clocks"
 
 
 
-|**Name**|
+|Name|
 |:-----|
 |[Add](./Project.Tasks.Add.md)|
 
@@ -95,7 +96,7 @@ ActiveProject.Tasks.Add "Hang clocks"
 
 
 
-|**Name**|
+|Name|
 |:-----|
 |[Application](./Project.Tasks.Application.md)|
 |[Count](./Project.Tasks.Count.md)|
@@ -107,3 +108,5 @@ ActiveProject.Tasks.Add "Hang clocks"
 
 
 [Project Object Model](../project/Concepts/project-object-model.md)
+
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

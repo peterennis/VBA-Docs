@@ -1,5 +1,5 @@
 ---
-title: TablesOfAuthorities.MarkAllCitations Method (Word)
+title: TablesOfAuthorities.MarkAllCitations method (Word)
 keywords: vbawd10.chm152174694
 f1_keywords:
 - vbawd10.chm152174694
@@ -8,26 +8,27 @@ api_name:
 - Word.TablesOfAuthorities.MarkAllCitations
 ms.assetid: 5f07956b-2e51-f88e-f758-a2ee055d7a36
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# TablesOfAuthorities.MarkAllCitations Method (Word)
+# TablesOfAuthorities.MarkAllCitations method (Word)
 
 Inserts a TA (Table of Authorities Entry) field after all instances of the  **ShortCitation** text.
 
 
 ## Syntax
 
- _expression_. `MarkAllCitations`( `_ShortCitation_` , `_LongCitation_` , `_LongCitationAutoText_` , `_Category_` )
+_expression_. `MarkAllCitations`( `_ShortCitation_` , `_LongCitation_` , `_LongCitationAutoText_` , `_Category_` )
 
- _expression_ Required. A variable that represents a '[TablesOfAuthorities](Word.tablesofauthorities.md)' collection.
-
-
-### Parameters
+_expression_ Required. A variable that represents a '[TablesOfAuthorities](Word.tablesofauthorities.md)' collection.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _ShortCitation_|Required| **String**|The short citation for the entry as it will appear in the  **Mark Citation** dialog box (**Insert** menu, **Index and Tables** command).|
 | _LongCitation_|Optional| **Variant**|The long citation string for the entry as it will appear in the table of authorities.|
@@ -51,3 +52,4 @@ ActiveDocument.TablesOfAuthorities.MarkAllCitations _
 
 [TablesOfAuthorities Collection Object](Word.tablesofauthorities.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

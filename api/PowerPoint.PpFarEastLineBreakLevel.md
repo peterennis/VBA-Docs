@@ -1,22 +1,24 @@
 ---
-title: PpFarEastLineBreakLevel Enumeration (PowerPoint)
+title: PpFarEastLineBreakLevel enumeration (PowerPoint)
 ms.prod: powerpoint
 api_name:
 - PowerPoint.PpFarEastLineBreakLevel
 ms.assetid: 7bae5f72-5a6c-d6fb-c09e-b686cc79b578
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# PpFarEastLineBreakLevel Enumeration (PowerPoint)
+# PpFarEastLineBreakLevel enumeration (PowerPoint)
 
 Specifies where to add the line break based upon Asian character level.
 
 
 
-|**Name**|**Value**|**Description**|
+|Name|Value|Description|
 |:-----|:-----|:-----|
 |**ppFarEastLineBreakLevelCustom**|3|Custom level|
 |**ppFarEastLineBreakLevelNormal**|1|Normal level|
 |**ppFarEastLineBreakLevelStrict**|2|Strict level|
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

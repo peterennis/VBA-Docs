@@ -1,5 +1,5 @@
 ---
-title: Presentation.LayoutDirection Property (PowerPoint)
+title: Presentation.LayoutDirection property (PowerPoint)
 keywords: vbapp10.chm583028
 f1_keywords:
 - vbapp10.chm583028
@@ -8,22 +8,23 @@ api_name:
 - PowerPoint.Presentation.LayoutDirection
 ms.assetid: 180e6c85-618f-47e4-b0e7-f9ee3f331c25
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Presentation.LayoutDirection Property (PowerPoint)
+# Presentation.LayoutDirection property (PowerPoint)
 
 Returns or sets the layout direction for the user interface. Read/write.
 
 
 ## Syntax
 
- _expression_. `LayoutDirection`
+_expression_. `LayoutDirection`
 
- _expression_ A variable that represents a [Presentation](./PowerPoint.Presentation.md) object.
+_expression_ A variable that represents a [Presentation](PowerPoint.Presentation.md) object.
 
 
-### Return Value
+## Return value
 
 PpDirection
 
@@ -54,3 +55,4 @@ Application.ActivePresentation.LayoutDirection = ppDirectionRightToLeft
 
 [Presentation Object](PowerPoint.Presentation.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

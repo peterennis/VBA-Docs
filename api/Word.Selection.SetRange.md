@@ -1,5 +1,5 @@
 ---
-title: Selection.SetRange Method (Word)
+title: Selection.SetRange method (Word)
 keywords: vbawd10.chm158662756
 f1_keywords:
 - vbawd10.chm158662756
@@ -8,26 +8,27 @@ api_name:
 - Word.Selection.SetRange
 ms.assetid: 232a681e-4205-05ae-f442-9dc1a2df96f1
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Selection.SetRange Method (Word)
+# Selection.SetRange method (Word)
 
 Sets the starting and ending character positions for the selection.
 
 
 ## Syntax
 
- _expression_. `SetRange`( `_Start_` , `_End_` )
+_expression_. `SetRange`( `_Start_` , `_End_` )
 
- _expression_ Required. A variable that represents a '[Selection](Word.Selection.md)' object.
-
-
-### Parameters
+_expression_ Required. A variable that represents a **[Selection](Word.Selection.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _Start_|Required| **Long**|The starting character position of the selection.|
 | _End_|Required| **Long**|The ending character position of the selection.|
@@ -64,3 +65,4 @@ Selection.SetRange Start:=Selection.Start, _
 
 [Selection Object](Word.Selection.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

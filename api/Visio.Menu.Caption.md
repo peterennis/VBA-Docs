@@ -1,5 +1,5 @@
 ---
-title: Menu.Caption Property (Visio)
+title: Menu.Caption property (Visio)
 keywords: vis_sdr.chm13113170
 f1_keywords:
 - vis_sdr.chm13113170
@@ -8,22 +8,23 @@ api_name:
 - Visio.Menu.Caption
 ms.assetid: e89db3a6-59cc-a87a-dfbd-f8c18e7c4c58
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Menu.Caption Property (Visio)
+# Menu.Caption property (Visio)
 
 Gets or sets the caption for a menu. Read/write.
 
 
 ## Syntax
 
- _expression_. `Caption`
+_expression_.**Caption**
 
- _expression_ A variable that represents a [Menu](./Visio.Menu.md) object.
+_expression_ A variable that represents a **[Menu](Visio.Menu.md)** object.
 
 
-### Return Value
+## Return value
 
 String
 
@@ -31,16 +32,17 @@ String
 ## Remarks
 
 
- **Note**  Starting with Visio, the Microsoft Office Fluent user interface (UI) replaces the previous system of layered menus, toolbars, and task panes. VBA objects and members that you used to customize the user interface in previous versions of Visio are still available in Visio, but they function differently.
+> [!NOTE] 
+> Starting with Visio 2010, the Microsoft Office Fluent user interface (UI) replaced the previous system of layered menus, toolbars, and task panes. VBA objects and members that you used to customize the user interface in previous versions of Visio are still available in Visio, but they function differently.
 
 
 
 
-- Use an ampersand (&;) in the string to cause the next character in the string to become the shortcut key for that menu or menu item. For example, the string "F _&;o_ rmat" causes _o_ to become the shortcut key for that menu item in that one menu.
+- Use an ampersand (&) in the string to cause the next character in the string to become the shortcut key for that menu or menu item. For example, the string "F _&o_ rmat" causes _o_ to become the shortcut key for that menu item in that one menu.
     
 - Use "" in the string to display a double quotation mark on the menu.
     
-- Use &;&; in the string to display an ampersand on the menu.
+- Use && in the string to display an ampersand on the menu.
     
 
 
@@ -97,4 +99,4 @@ Public Sub Caption_Example()
 End Sub
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

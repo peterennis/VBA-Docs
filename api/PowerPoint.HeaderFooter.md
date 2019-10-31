@@ -1,5 +1,5 @@
 ---
-title: HeaderFooter Object (PowerPoint)
+title: HeaderFooter object (PowerPoint)
 keywords: vbapp10.chm582000
 f1_keywords:
 - vbapp10.chm582000
@@ -8,10 +8,11 @@ api_name:
 - PowerPoint.HeaderFooter
 ms.assetid: 8aeafb02-adec-17c1-3108-565c78a64ed1
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# HeaderFooter Object (PowerPoint)
+# HeaderFooter object (PowerPoint)
 
 Represents a header, footer, date and time, slide number, or page number on a slide or master. All the  **HeaderFooter** objects for a slide or master are contained in a **[HeadersFooters](PowerPoint.HeadersFooters.md)** object.
 
@@ -29,7 +30,8 @@ Use one of the properties listed in the following table to return the  **HeaderF
 |**[Header](PowerPoint.HeadersFooters.Header.md)**|A  **HeaderFooter** object that represents the header for the slide. This works only for notes pages and handouts, not for slides.|
 |**[SlideNumber](PowerPoint.HeadersFooters.SlideNumber.md)**|A  **HeaderFooter** object that represent the slide number (on a slide) or page number (on a notes page or a handout).|
 
- **Note**   **HeaderFooter** objects aren't available for **Slide** objects that represent notes pages. The **HeaderFooter** object that represents a header is available only for a notes master or handout master.
+> [!NOTE] 
+>  **HeaderFooter** objects aren't available for **Slide** objects that represent notes pages. The **HeaderFooter** object that represents a header is available only for a notes master or handout master.
 
 
 ## Example
@@ -87,3 +89,4 @@ Next
 
 [PowerPoint Object Model Reference](overview/PowerPoint/object-model.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

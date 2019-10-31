@@ -1,20 +1,21 @@
 ---
-title: XlCmdType Enumeration (Excel)
+title: XlCmdType enumeration (Excel)
 ms.prod: excel
 api_name:
 - Excel.XlCmdType
 ms.assetid: 4339b577-c29c-3c78-8433-df56c35b6633
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# XlCmdType Enumeration (Excel)
+# XlCmdType enumeration (Excel)
 
 Specifies the value of the  **CommandText** property.
 
 
 
-|**Name**|**Value**|**Description**|
+|Name|Value|Description|
 |:-----|:-----|:-----|
 | **xlCmdCube**|1|Contains a cube name for an OLAP data source.|
 | **xlCmdDAX**|8|Contains a Data Analysis Expressions (DAX) formula.|
@@ -25,3 +26,4 @@ Specifies the value of the  **CommandText** property.
 | **xlCmdTable**|3|Contains a table name for accessing OLE DB data sources.|
 | **xlCmdTableCollection**|6|Contains the name of a table collection.|
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

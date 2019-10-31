@@ -1,5 +1,5 @@
 ---
-title: ChartCharacters Object (PowerPoint)
+title: ChartCharacters object (PowerPoint)
 keywords: vbapp10.chm686000
 f1_keywords:
 - vbapp10.chm686000
@@ -8,10 +8,11 @@ api_name:
 - PowerPoint.ChartCharacters
 ms.assetid: 2f659f71-f277-dab4-f2bd-631c7a2424de
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# ChartCharacters Object (PowerPoint)
+# ChartCharacters object (PowerPoint)
 
 Represents characters in an object that contains text. 
 
@@ -28,7 +29,8 @@ Use  **Characters** ( _Start_, _Length_ ), where _Start_ is the start character 
 
 
 
- **Note**  Although the following code applies to Microsoft Word, you can readily modify it to apply to PowerPoint.
+> [!NOTE] 
+> Although the following code applies to Microsoft Word, you can readily modify it to apply to PowerPoint.
 
 The  **[Characters](PowerPoint.ChartTitle.Characters.md)** property is necessary only when you need to change some of an object's text without affecting the rest (you cannot use the **Characters** property to format a portion of the text if the object does not support rich text). To change all the text at the same time, you can usually apply the appropriate method or property directly to the object. The following example formats the contents of the chart title for the first chart in the active document as italic.
 
@@ -49,3 +51,4 @@ End With
 
 [PowerPoint Object Model Reference](overview/PowerPoint/object-model.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

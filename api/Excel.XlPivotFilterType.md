@@ -1,20 +1,21 @@
 ---
-title: XlPivotFilterType Enumeration (Excel)
+title: XlPivotFilterType enumeration (Excel)
 ms.prod: excel
 api_name:
 - Excel.XlPivotFilterType
 ms.assetid: 0ae3f0fe-02e3-b0f7-1506-1961c4adcd6c
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# XlPivotFilterType Enumeration (Excel)
+# XlPivotFilterType enumeration (Excel)
 
 The type of filter applied.
 
 
 
-|**Name**|**Value**|**Description**|
+|Name|Value|Description|
 |:-----|:-----|:-----|
 | **xlBefore**|31|Filters for all dates before a specified date|
 | **xlBeforeOrEqualTo**|32|Filters for all dates on or before a specified date|
@@ -84,3 +85,4 @@ The type of filter applied.
 | **xlValueIsNotBetween**|14|Filters for all values that are not between a specified range of values|
 | **xlYearToDate**|52|Filters for all values that are within one year of a specified date|
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

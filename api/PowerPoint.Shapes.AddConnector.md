@@ -1,5 +1,5 @@
 ---
-title: Shapes.AddConnector Method (PowerPoint)
+title: Shapes.AddConnector method (PowerPoint)
 keywords: vbapp10.chm543006
 f1_keywords:
 - vbapp10.chm543006
@@ -8,41 +8,40 @@ api_name:
 - PowerPoint.Shapes.AddConnector
 ms.assetid: 407eee86-11c1-7bee-ed25-aba71a930a1c
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Shapes.AddConnector Method (PowerPoint)
+# Shapes.AddConnector method (PowerPoint)
 
 Creates a connector. Returns a  **[Shape](PowerPoint.Shape.md)** object that represents the new connector. When a connector is added, it is not connected to anything. Use the **[BeginConnect](PowerPoint.ConnectorFormat.BeginConnect.md)** and **[EndConnect](PowerPoint.ConnectorFormat.EndConnect.md)** methods to attach the beginning and end of a connector to other shapes in the document.
 
 
 ## Syntax
 
- _expression_. `AddConnector`( `_Type_`, `_BeginX_`, `_BeginY_`, `_EndX_`, `_EndY_` )
+_expression_.**AddConnector** (_Type_, _BeginX_, _BeginY_, _EndX_, _EndY_)
 
- _expression_ A variable that represents a [Shapes](./PowerPoint.Shapes.md) object.
-
-
-### Parameters
+_expression_ A variable that represents a **[Shapes](PowerPoint.Shapes.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-| _Type_|Required|**[MsoConnectorType](./Office.MsoConnectorType.md)**|The type of connector.|
+| _Type_|Required|**[MsoConnectorType](Office.MsoConnectorType.md)**|The type of connector.|
 | _BeginX_|Required|**Single**|The horizontal position, measured in points, of the connector's starting point relative to the left edge of the slide.|
 | _BeginY_|Required|**Single**|The vertical position, measured in points, of the connector's starting point relative to the top edge of the slide.|
 | _EndX_|Required|**Single**|The horizontal position, measured in points, of the connector's ending point relative to the left edge of the slide.|
 | _EndY_|Required|**Single**|The vertical position, measured in points, of the connector's ending point relative to the top edge of the slide.|
 
-### Return Value
+## Return value
 
 Shape
 
 
 ## Remarks
 
-When you attach a connector to a shape, the size and position of the connector are automatically adjusted, if necessary. Therefore, if you're going to attach a connector to other shapes, the position and dimensions you specify when adding the connector are irrelevant.
+When you attach a connector to a shape, the size and position of the connector are automatically adjusted, if necessary. Therefore, if you are going to attach a connector to other shapes, the position and dimensions you specify when adding the connector are irrelevant.
 
 
 ## Example
@@ -78,3 +77,4 @@ End Sub
 
 [Shapes Object](PowerPoint.Shapes.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

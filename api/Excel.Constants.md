@@ -1,20 +1,21 @@
 ---
-title: Constants Enumeration (Excel)
+title: Constants enumeration (Excel)
 ms.prod: excel
 api_name:
 - Excel.Constants
 ms.assetid: 498b9056-a7f4-ad18-0955-eacef759d5fd
-ms.date: 06/08/2017
+ms.date: 04/23/2019
+localization_priority: Normal
 ---
 
 
-# Constants Enumeration (Excel)
+# Constants enumeration (Excel)
 
 This enumeration groups together constants used with various Excel methods.
 
+<br/>
 
-
-|**Name**|**Value**|**Description**|
+|Name|Value|Description|
 |:-----|:-----|:-----|
 | **xl3DBar**|-4099|3D Bar|
 | **xl3DEffects1**|13|3D Effects1|
@@ -184,3 +185,4 @@ This enumeration groups together constants used with various Excel methods.
 | **xlWorksheetCell**|3|Worksheet Cell|
 | **xlWorksheetShort**|5|Worksheet Short|
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

@@ -1,5 +1,5 @@
 ---
-title: Bookmark Object (Word)
+title: Bookmark object (Word)
 keywords: vbawd10.chm2408
 f1_keywords:
 - vbawd10.chm2408
@@ -8,10 +8,11 @@ api_name:
 - Word.Bookmark
 ms.assetid: be6b0c7b-60ca-97e7-ef19-6de335da3197
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Bookmark Object (Word)
+# Bookmark object (Word)
 
 Represents a single bookmark in a document, selection, or range. The  **Bookmark** object is a member of the **[Bookmarks](Word.bookmarks.md)** collection. The **Bookmarks** collection includes all the bookmarks listed in the **Bookmark** dialog box (**Insert** menu).
 
@@ -20,7 +21,7 @@ Represents a single bookmark in a document, selection, or range. The  **Bookmark
 
 Using the Bookmark Object
 
-Use  **Bookmarks** (index), where index is the bookmark name or index number, to return a single **Bookmark** object. You must exactly match the spelling (but not necessarily the capitalization) of the bookmark name. The following example selects the bookmark named "temp" in the active document.
+Use  **Bookmarks** (_index_), where _index_ is the bookmark name or index number, to return a single **Bookmark** object. You must exactly match the spelling (but not necessarily the capitalization) of the bookmark name. The following example selects the bookmark named "temp" in the active document.
 
 
 
@@ -81,32 +82,26 @@ End If
 
 ## Methods
 
-
-
-|**Name**|
-|:-----|
-|[Copy](Word.Bookmark.Copy.md)|
-|[Delete](Word.Bookmark.Delete.md)|
-|[Select](Word.Bookmark.Select.md)|
+- [Copy](Word.Bookmark.Copy.md)
+- [Delete](Word.Bookmark.Delete.md)
+- [Select](Word.Bookmark.Select.md)
 
 ## Properties
 
+- [Application](Word.Bookmark.Application.md)
+- [Column](Word.Bookmark.Column.md)
+- [Creator](Word.Bookmark.Creator.md)
+- [Empty](Word.Bookmark.Empty.md)
+- [End](Word.Bookmark.End.md)
+- [Name](Word.Bookmark.Name.md)
+- [Parent](Word.Bookmark.Parent.md)
+- [Range](Word.Bookmark.Range.md)
+- [Start](Word.Bookmark.Start.md)
+- [StoryType](Word.Bookmark.StoryType.md)
 
-
-|**Name**|
-|:-----|
-|[Application](Word.Bookmark.Application.md)|
-|[Column](Word.Bookmark.Column.md)|
-|[Creator](Word.Bookmark.Creator.md)|
-|[Empty](Word.Bookmark.Empty.md)|
-|[End](Word.Bookmark.End.md)|
-|[Name](Word.Bookmark.Name.md)|
-|[Parent](Word.Bookmark.Parent.md)|
-|[Range](Word.Bookmark.Range.md)|
-|[Start](Word.Bookmark.Start.md)|
-|[StoryType](Word.Bookmark.StoryType.md)|
 
 ## See also
 
+- [Word Object Model Reference](overview/Word/object-model.md)
 
-[Word Object Model Reference](./overview/Word/object-model.md)
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

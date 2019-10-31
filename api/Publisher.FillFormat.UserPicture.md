@@ -1,5 +1,5 @@
 ---
-title: FillFormat.UserPicture Method (Publisher)
+title: FillFormat.UserPicture method (Publisher)
 keywords: vbapb10.chm2359319
 f1_keywords:
 - vbapb10.chm2359319
@@ -7,39 +7,37 @@ ms.prod: publisher
 api_name:
 - Publisher.FillFormat.UserPicture
 ms.assetid: b1eaf724-42b4-657f-4d88-bc8547664893
-ms.date: 06/08/2017
+ms.date: 06/07/2019
+localization_priority: Normal
 ---
 
 
-# FillFormat.UserPicture Method (Publisher)
+# FillFormat.UserPicture method (Publisher)
 
 Fills the specified shape with one large image.
 
 
 ## Syntax
 
- _expression_. **UserPicture**(**_PictureFile_**)
+_expression_.**UserPicture** (_PictureFile_)
 
- _expression_ A variable that represents a  **FillFormat** object.
-
-
-### Parameters
+_expression_ A variable that represents a **[FillFormat](publisher.fillformat.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-|PictureFile|Required| **String**|The name of the picture file.|
+|_PictureFile_|Required| **String**|The name of the picture file.|
 
 ## Remarks
 
-To fill the shape with small tiles of an image, use the  **[UserTextured](Publisher.FillFormat.UserTextured.md)** method.
+To fill the shape with small tiles of an image, use the **[UserTextured](Publisher.FillFormat.UserTextured.md)** method.
 
 
 ## Example
 
-This example adds two rectangles to the active publication. The rectangle on the left is filled with one large image of a picture; the rectangle on the right is filled with many small tiles of the same picture. (Note that PathToFile must be replaced with a valid file path for this example to work.)
-
+This example adds two rectangles to the active publication. The rectangle on the left is filled with one large image of a picture; the rectangle on the right is filled with many small tiles of the same picture. Note that `PathToFile` must be replaced with a valid file path for this example to work.
 
 ```vb
 With ActiveDocument.Pages(1).Shapes 
@@ -53,4 +51,4 @@ End With
 
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

@@ -1,5 +1,5 @@
 ---
-title: Document.FooterCenter Property (Visio)
+title: Document.FooterCenter property (Visio)
 keywords: vis_sdr.chm10550580
 f1_keywords:
 - vis_sdr.chm10550580
@@ -8,31 +8,32 @@ api_name:
 - Visio.Document.FooterCenter
 ms.assetid: 7abdcd6c-39ed-ad05-bfef-cbd979f3a8d6
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Document.FooterCenter Property (Visio)
+# Document.FooterCenter property (Visio)
 
 Gets or sets the text string that appears in the center portion of a document's footer. Read/write.
 
 
 ## Syntax
 
- _expression_. `FooterCenter`
+_expression_.**FooterCenter**
 
- _expression_ A variable that represents a [Document](./Visio.Document.md) object.
+_expression_ A variable that represents a **[Document](Visio.Document.md)** object.
 
 
-### Return Value
+## Return value
 
 String
 
 
 ## Remarks
 
-You can also set this value in the  **Center** box under **Footer** in the **Header and Footer** dialog box (click the **File** tab, click **Print**, click  **Print Preview**, and then in the  **Preview** group, click **Header &; Footer**).
+You can also set this value in the **Center** box under **Footer** in the **Header and Footer** dialog box (click the **File** tab, click **Print**, click **Print Preview**, and then in the **Preview** group, click **Header & Footer**).
 
-Both the string returned by the property and the string you pass to the property can contain escape codes that represent data. These escape codes can be concatenated with other text. For a list of valid escape codes you can use with the  **FooterCenter** property, see the **[FooterLeft](Visio.Document.FooterLeft.md)** property topic.
+Both the string returned by the property and the string you pass to the property can contain escape codes that represent data. These escape codes can be concatenated with other text. For a list of valid escape codes you can use with the **FooterCenter** property, see the **[FooterLeft](Visio.Document.FooterLeft.md)** property topic.
 
 
 ## Example
@@ -55,4 +56,4 @@ Sub FooterCenter_Example()
 End Sub
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

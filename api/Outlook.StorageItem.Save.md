@@ -1,5 +1,5 @@
 ---
-title: StorageItem.Save Method (Outlook)
+title: StorageItem.Save method (Outlook)
 keywords: vbaol11.chm2144
 f1_keywords:
 - vbaol11.chm2144
@@ -8,26 +8,27 @@ api_name:
 - Outlook.StorageItem.Save
 ms.assetid: 9462a342-294a-175e-7e8f-d416f0959f69
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# StorageItem.Save Method (Outlook)
+# StorageItem.Save method (Outlook)
 
-Saves the  **[StorageItem](Outlook.StorageItem.md)** .
+Saves the  **[StorageItem](Outlook.StorageItem.md)**.
 
 
 ## Syntax
 
- _expression_. `Save`
+_expression_.**Save**
 
- _expression_ A variable that represents a [StorageItem](./Outlook.StorageItem.md) object.
+_expression_ A variable that represents a [StorageItem](Outlook.StorageItem.md) object.
 
 
 ## Remarks
 
 If the  **StorageItem** has never been saved before, **Save** saves the item as a hidden item in the **[Folder](Outlook.Folder.md)** on which **[Folder.GetStorage](Outlook.Folder.GetStorage.md)** was called. If the **StorageItem** has been saved previously and the item has since been changed, **Save** saves the changes to the item. If the **StorageItem** has been saved previously and the item has not been changed since then, the **Save** method does nothing.
 
-For more information on saving solution data to a  **StorageItem** object, see[Creating and Saving Data to Solution Storage](../outlook/How-to/Solution-Storage/creating-and-saving-data-to-solution-storage.md).
+For more information on saving solution data to a  **StorageItem** object, see [Creating and Saving Data to Solution Storage](../outlook/How-to/Solution-Storage/creating-and-saving-data-to-solution-storage.md).
 
 
 ## Example
@@ -84,3 +85,4 @@ End Sub
 
 [StorageItem Object](Outlook.StorageItem.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

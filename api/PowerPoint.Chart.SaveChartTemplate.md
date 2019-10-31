@@ -1,5 +1,5 @@
 ---
-title: Chart.SaveChartTemplate Method (PowerPoint)
+title: Chart.SaveChartTemplate method (PowerPoint)
 keywords: vbapp10.chm684008
 f1_keywords:
 - vbapp10.chm684008
@@ -8,26 +8,27 @@ api_name:
 - PowerPoint.Chart.SaveChartTemplate
 ms.assetid: 568abe18-27d3-4944-7bca-186faa534959
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Chart.SaveChartTemplate Method (PowerPoint)
+# Chart.SaveChartTemplate method (PowerPoint)
 
 Saves a custom chart template to the list of available chart templates.
 
 
 ## Syntax
 
- _expression_. `SaveChartTemplate`( `_FileName_` )
+_expression_.**SaveChartTemplate** (_FileName_)
 
- _expression_ A variable that represents a '[Chart](PowerPoint.Chart.md)' object.
-
-
-### Parameters
+_expression_ A variable that represents a **[Chart](PowerPoint.Chart.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _FileName_|Required|**String**|The name of the chart template.|
 
@@ -41,7 +42,8 @@ By default, this method saves the active chart to the user's chart template dire
 
 
 
- **Note**  Although the following code applies to Microsoft Word, you can readily modify it to apply to PowerPoint.
+> [!NOTE] 
+> Although the following code applies to Microsoft Word, you can readily modify it to apply to PowerPoint.
 
 The following example adds a new chart template based on the first chart of the active document.
 
@@ -63,3 +65,4 @@ End With
 
 [Chart Object](PowerPoint.Chart.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

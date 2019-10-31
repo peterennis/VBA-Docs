@@ -1,5 +1,5 @@
 ---
-title: Shapes.Range Method (Publisher)
+title: Shapes.Range method (Publisher)
 keywords: vbapb10.chm2162725
 f1_keywords:
 - vbapb10.chm2162725
@@ -7,36 +7,37 @@ ms.prod: publisher
 api_name:
 - Publisher.Shapes.Range
 ms.assetid: f9ef5314-21f1-378f-1552-fcd4e46f841d
-ms.date: 06/08/2017
+ms.date: 06/14/2019
+localization_priority: Normal
 ---
 
 
-# Shapes.Range Method (Publisher)
+# Shapes.Range method (Publisher)
 
 Returns a **[ShapeRange](Publisher.ShapeRange.md)** object that represents a subset of the shapes in a **Shapes** collection.
 
 
 ## Syntax
 
-_expression_. **Range**(**_Index_**)
+_expression_.**Range** (_Index_)
 
-_expression_ A variable that represents a **Shapes** object.
+_expression_ A variable that represents a **[Shapes](Publisher.Shapes.md)** object.
 
 
-### Parameters
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-|Index|Required| **Variant**|The individual shapes that are to be included in the range. Can be an integer that specifies the index number of the shape, a string that specifies the name of the shape, or an array that contains either integers or strings. If Index is omitted, the  **Range** method returns all the objects in the specified collection.|
+|_Index_|Required| **Variant**|The individual shapes that are to be included in the range. Can be an integer that specifies the index number of the shape, a string that specifies the name of the shape, or an array that contains either integers or strings. If _Index_ is omitted, the **Range** method returns all the objects in the specified collection.|
 
-### Return value
+## Return value
 
 ShapeRange
 
 
 ## Example
 
-To specify an array of integers or strings for **_Index_**, you can use the **Array** function. For example, the following instruction returns two shapes specified by name.
+To specify an array of integers or strings for _Index_, you can use the **Array** function. For example, the following instruction returns two shapes specified by name.
 
 ```vb
 Dim arrShapes As Variant 
@@ -131,4 +132,4 @@ With ActiveDocument.Pages(1).Shapes
 End With
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

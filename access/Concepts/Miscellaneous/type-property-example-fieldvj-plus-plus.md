@@ -4,6 +4,7 @@ ROBOTS: INDEX
 ms.prod: access
 ms.assetid: ee010723-d429-e190-e8e2-b1d8c2cfcb3a
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
@@ -11,7 +12,7 @@ ms.date: 06/08/2017
 
 **Applies to:** Access 2013 | Access 2016
 
-This example demonstrates the [Type](http://msdn.microsoft.com/library/14d99172-2145-05ae-620b-459ba097f05c%28Office.15%29.aspx) property by displaying the name of the constant that corresponds to the value of the **Type** property of all the [Field](http://msdn.microsoft.com/library/1dbd535e-48ad-a5c8-a1b2-6776c1e3e19d%28Office.15%29.aspx) objects in the **_Employees_** table. The FieldType function is required for this procedure to run.
+This example demonstrates the [Type](https://msdn.microsoft.com/library/14d99172-2145-05ae-620b-459ba097f05c%28Office.15%29.aspx) property by displaying the name of the constant that corresponds to the value of the **Type** property of all the [Field](https://msdn.microsoft.com/library/1dbd535e-48ad-a5c8-a1b2-6776c1e3e19d%28Office.15%29.aspx) objects in the **_Employees_** table. The FieldType function is required for this procedure to run.
 
 
 ```csharp
@@ -169,9 +170,11 @@ public class TypeFieldX
 
 ## See also
 
-- [Access for developers forum on MSDN](https://social.msdn.microsoft.com/Forums/office/en-US/home?forum=accessdev)
+- [Access for developers forum](https://social.msdn.microsoft.com/Forums/office/home?forum=accessdev)
 - [Access help on support.office.com](https://support.office.com/search/results?query=Access)
-- [Access help on answers.microsoft.com](https://answers.microsoft.com/en-us/msoffice/forum?page=1&;tab=question&;status=all&;auth=1)
+- [Access help on answers.microsoft.com](https://answers.microsoft.com/)
 - [Access forums on UtterAccess](http://www.utteraccess.com/forum/index.php?act=idx)
 - [Access developer and VBA programming help center (FMS)](http://www.fmsinc.com/MicrosoftAccess/developer/)
 - [Access posts on StackOverflow](https://stackoverflow.com/questions/tagged/ms-access)
+
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

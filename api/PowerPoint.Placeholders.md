@@ -1,5 +1,5 @@
 ---
-title: Placeholders Object (PowerPoint)
+title: Placeholders object (PowerPoint)
 keywords: vbapp10.chm544000
 f1_keywords:
 - vbapp10.chm544000
@@ -8,10 +8,11 @@ api_name:
 - PowerPoint.Placeholders
 ms.assetid: d16e06e4-185a-1b99-52a7-4787a4990684
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Placeholders Object (PowerPoint)
+# Placeholders object (PowerPoint)
 
 A collection of all the  **Shape** objects that represent placeholders on the specified slide.
 
@@ -25,7 +26,7 @@ You can delete individual placeholders by using the [Delete](PowerPoint.ShapeNod
 
 ## Example
 
-Use the [Placeholders](PowerPoint.Shapes.Placeholders.md)property to return the  **Placeholders** collection. Use **Placeholders** (index), where index is the placeholder index number, to return a **Shape** object that represents a single placeholder. Note that for any slide that has a title, `Shapes`.Title is equivalent to  `Shapes.Placeholders(1)`.The following example adds a new slide with a Bulleted List slide layout to the beginning of the presentation, sets the text for the title, and then adds two paragraphs to the text placeholder.
+Use the [Placeholders](PowerPoint.Shapes.Placeholders.md)property to return the  **Placeholders** collection. Use **Placeholders** (_index_), where _index_ is the placeholder index number, to return a **Shape** object that represents a single placeholder. Note that for any slide that has a title, `Shapes`.Title is equivalent to  `Shapes.Placeholders(1)`.The following example adds a new slide with a Bulleted List slide layout to the beginning of the presentation, sets the text for the title, and then adds two paragraphs to the text placeholder.
 
 
 ```vb
@@ -41,3 +42,4 @@ sObj.Placeholders(2).TextFrame.TextRange.Text = _
 
 [PowerPoint Object Model Reference](overview/PowerPoint/object-model.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

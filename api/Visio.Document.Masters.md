@@ -1,5 +1,5 @@
 ---
-title: Document.Masters Property (Visio)
+title: Document.Masters property (Visio)
 keywords: vis_sdr.chm10513875
 f1_keywords:
 - vis_sdr.chm10513875
@@ -8,37 +8,38 @@ api_name:
 - Visio.Document.Masters
 ms.assetid: b139014c-6d7c-ba76-8366-bcacecc5c639
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Document.Masters Property (Visio)
+# Document.Masters property (Visio)
 
-Returns the  **Masters** collection for a document's stencil. Read-only.
+Returns the **Masters** collection for a document's stencil. Read-only.
 
 
 ## Syntax
 
- _expression_. `Masters`
+_expression_.**Masters**
 
- _expression_ A variable that represents a [Document](./Visio.Document.md) object.
+_expression_ A variable that represents a **[Document](Visio.Document.md)** object.
 
 
-### Return Value
+## Return value
 
 Masters
 
 
 ## Remarks
 
-If your Visual Studio solution includes the  **Microsoft.Office.Interop.Visio** reference, this property maps to the following types:
+If your Visual Studio solution includes the [Microsoft.Office.Interop.Visio](https://docs.microsoft.com/visualstudio/vsto/office-primary-interop-assemblies?view=vs-2019) reference, this property maps to the following types:
 
 
--  **Microsoft.Office.Interop.Visio.IVDocument.Masters**
+- **Microsoft.Office.Interop.Visio.IVDocument.Masters**
     
 
 ## Example
 
-This Microsoft Visual Basic for Applications (VBA) program shows how to use the  **Masters** property to print all the master shape names in the current document to the Immediate window.
+This Microsoft Visual Basic for Applications (VBA) program shows how to use the **Masters** property to print all the master shape names in the current document to the Immediate window.
 
 
 
@@ -88,4 +89,4 @@ Public Sub Masters_Example()
 End Sub
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

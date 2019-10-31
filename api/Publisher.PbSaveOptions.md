@@ -1,5 +1,5 @@
 ---
-title: PbSaveOptions Enumeration (Publisher)
+title: PbSaveOptions enumeration (Publisher)
 keywords: vbapb10.chm65538
 f1_keywords:
 - vbapb10.chm65538
@@ -8,18 +8,20 @@ api_name:
 - Publisher.PbSaveOptions
 ms.assetid: 0fa89e13-7e0c-8552-c88f-cf9a051a89ac
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# PbSaveOptions Enumeration (Publisher)
+# PbSaveOptions enumeration (Publisher)
 
 Specifies what Microsoft Publisher should do if there is already an open publication with unsaved changes.
 
 
 
-|**Name**|**Value**|**Description**|
+|Name|Value|Description|
 |:-----|:-----|:-----|
 | **pbDoNotSaveChanges**|3|Close the open publication without saving any changes.|
 | **pbPromptToSaveChanges**|1|Default. Prompt the user whether to save changes in the open publication.|
 | **pbSaveChanges**|2|Save the open publication before closing it.|
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

@@ -1,5 +1,5 @@
 ---
-title: Application.FileLoadLast Method (Project)
+title: Application.FileLoadLast method (Project)
 keywords: vbapj.chm117
 f1_keywords:
 - vbapj.chm117
@@ -8,30 +8,31 @@ api_name:
 - Project.Application.FileLoadLast
 ms.assetid: c775d573-d184-d3ac-ed81-3552cc9b045b
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Application.FileLoadLast Method (Project)
+# Application.FileLoadLast method (Project)
 
 Opens one of the recently used files.
 
 
 ## Syntax
 
- _expression_. `FileLoadLast`( ` _Number_` )
+_expression_. `FileLoadLast`( `_Number_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
-
-
-### Parameters
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _Number_|Optional|**Integer**|A number that specifies which of the most recently used files to open. The maximum value is 17 in a default installation of Project.|
 
-### Return Value
+## Return value
 
  **Boolean**
 
@@ -60,4 +61,4 @@ Sub OpenThe9MRUFiles()
 End Sub
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

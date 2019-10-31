@@ -6,13 +6,14 @@ f1_keywords:
 ms.prod: office
 ms.assetid: b9c97363-89a8-c8bb-f5b9-38f607a6811a
 ms.date: 08/24/2018
+localization_priority: Normal
 ---
 
 
 # Character set (0 - 127)
 
 
-|**Code**|**Character**|**Code**|**Character**|**Code**|**Character**|**Code**|**Character**|
+|Code|Character|Code|Character|Code|Character|Code|Character|
 |-----:|:-----|-----:|:-----|-----:|:-----|-----:|:-----|
 |0||32|[space]|64|@|96|`|
 |1||33|!|65|A|97|a|
@@ -20,7 +21,7 @@ ms.date: 08/24/2018
 |3||35|#|67|C|99|c|
 |4||36|$|68|D|100|d|
 |5||37|%|69|E|101|e|
-|6||38|&;|70|F|102|f|
+|6||38|&|70|F|102|f|
 |7||39|'|71|G|103|g|
 |8|* *|40|(|72|H|104|h|
 |9|* *|41|)|73|I|105|i|
@@ -60,3 +61,5 @@ The values with blanks are control characters, not characters displayed or print
 ## See also
 
 - [Chr Function](chr-function.md)
+
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

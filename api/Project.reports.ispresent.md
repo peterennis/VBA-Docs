@@ -1,30 +1,31 @@
 ---
-title: Reports.IsPresent Method (Project)
+title: Reports.IsPresent method (Project)
 ms.prod: project-server
 ms.assetid: 6040d01a-d187-2f79-945d-1e85b3539a51
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Reports.IsPresent Method (Project)
+# Reports.IsPresent method (Project)
 Indicates whether the specified custom report exists in the project.
 
 ## Syntax
 
- _expression_. `IsPresent` _(Name)_
+_expression_. `IsPresent` _(Name)_
 
- _expression_ A variable that represents a 'Reports' object.
-
-
-### Parameters
+_expression_ A variable that represents a 'Reports' object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _Name_|Required|**String**|Description|
 
-### Return value
+## Return value
 
  **Boolean**
 
@@ -56,3 +57,5 @@ End Sub
 
 [Reports Object](Project.reports.md)
 [Report Object](Project.report.md)
+
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

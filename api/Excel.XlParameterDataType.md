@@ -1,20 +1,21 @@
 ---
-title: XlParameterDataType Enumeration (Excel)
+title: XlParameterDataType enumeration (Excel)
 ms.prod: excel
 api_name:
 - Excel.XlParameterDataType
 ms.assetid: ddf44b7b-9fbd-321a-55fb-5d6942e1169a
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# XlParameterDataType Enumeration (Excel)
+# XlParameterDataType enumeration (Excel)
 
 Specifies the data type of a query parameter.
 
 
 
-|**Name**|**Value**|**Description**|
+|Name|Value|Description|
 |:-----|:-----|:-----|
 | **xlParamTypeBigInt**|-5|Big integer.|
 | **xlParamTypeBinary**|-2|Binary.|
@@ -38,3 +39,4 @@ Specifies the data type of a query parameter.
 | **xlParamTypeVarChar**|12|Variable-length string.|
 | **xlParamTypeWChar**|-8|Unicode character string.|
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

@@ -1,20 +1,21 @@
 ---
-title: MsoTextChangeCase Enumeration (Office)
+title: MsoTextChangeCase enumeration (Office)
 ms.prod: office
 api_name:
 - Office.MsoTextChangeCase
 ms.assetid: e54a2184-0a51-fb2a-e3ec-b43f6dc05d04
-ms.date: 06/08/2017
+ms.date: 01/31/2019
+localization_priority: Normal
 ---
 
 
-# MsoTextChangeCase Enumeration (Office)
+# MsoTextChangeCase enumeration (Office)
 
 Specifies the capitalization of text.
 
+<br/>
 
-
-|**Name**|**Value**|**Description**|
+|Name|Value|Description|
 |:-----|:-----|:-----|
 |**msoCaseLower**|2|Display the text as lowercase characters.|
 |**msoCaseSentence**|1|Display the text as sentence case characters. Sentence case specifies that the first letter of the sentence is capitalized and that all others should be lowercase (with some exceptions such as proper nouns, and acronyms).|
@@ -22,3 +23,4 @@ Specifies the capitalization of text.
 |**msoCaseToggle**|5|Indicates that lowercase text should be converted to uppercase and that uppercase text should be converted to lowercase text. |
 |**msoCaseUpper**|3|Display the text as uppercase characters.|
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

@@ -1,34 +1,35 @@
 ---
-title: Application.FieldConstantToFieldName Method (Project)
+title: Application.FieldConstantToFieldName method (Project)
 ms.prod: project-server
 api_name:
 - Project.Application.FieldConstantToFieldName
 ms.assetid: b8e55035-64e8-fda5-4ad6-9f5e51a55181
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Application.FieldConstantToFieldName Method (Project)
+# Application.FieldConstantToFieldName method (Project)
 
 Returns a custom field name for the specified field constant.
 
 
 ## Syntax
 
- _expression_. `FieldConstantToFieldName`( ` _Field_` )
+_expression_. `FieldConstantToFieldName`( `_Field_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
-
-
-### Parameters
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _Field_|Required|**Long**|The numerical constant for the custom field. Can be one of the  **[PjField](Project.PjField.md)** constants for local custom fields or another **Long** value for enterprise custom fields.|
 
-### Return Value
+## Return value
 
  **String**
 
@@ -38,7 +39,8 @@ Returns a custom field name for the specified field constant.
 If the Field argument is a local custom field, you can use one of the  **[PjField](Project.PjField.md)** constants. If Field is an enterprise custom field, it does not match a **PjField** constant because there can be an unlimited number of enterprise custom fields.
 
 
- **Note**  For usability and performance reasons, the number of enterprise custom fields should be limited to a few hundred or less.
+> [!NOTE] 
+> For usability and performance reasons, the number of enterprise custom fields should be limited to a few hundred or less.
 
 You can access project custom fields through the  **ProjectSummaryTask** property.
 
@@ -89,7 +91,8 @@ End Sub
 The following example shows the difference in names between the  **pjTaskStart**, **pjTaskStartText**, and similar task fields.
 
 
- **Note**  The  **pjTask*Text** fields, such as **pjTaskStartText**, are new in Project. Those fields are used to get data for dates of both automatically and manually scheduled tasks. For example, the **Start** column in a Gantt chart contains **String** data for dates, not **Variant** data. You can use fields such as **pjTaskDuration** in custom field formulas, but not in column headings.
+> [!NOTE] 
+> The  **pjTask*Text** fields, such as **pjTaskStartText**, are new in Project. Those fields are used to get data for dates of both automatically and manually scheduled tasks. For example, the **Start** column in a Gantt chart contains **String** data for dates, not **Variant** data. You can use fields such as **pjTaskDuration** in custom field formulas, but not in column headings.
 
 Columns in task views for  **Start**,  **Finish**,  **Duration**, and so forth, contain  **String** data for both auto-scheduled and manually scheduled tasks. The **Duration** column can only use **String** data, so there is no column heading for **pjTaskDuration**.
 
@@ -118,4 +121,4 @@ Sub TryNewTaskConstants()
 End Sub
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

@@ -9,6 +9,7 @@ api_name:
 - Access.AllowZeroLength
 ms.assetid: e65dd834-7daa-ad78-0560-87aad5efa1a8
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
@@ -27,7 +28,7 @@ You can use the **AllowZeroLength** property to specify whether a zero-length st
 The **AllowZeroLength** property uses the following settings.
 
 
-|**Setting**|**Visual Basic**|**Description**|
+|Setting|Visual Basic|Description|
 |:-----|:-----|:-----|
 |Yes|**True**|A zero-length string is a valid entry. This is the default value when creating a field in the Access user interface.|
 |No|**False**|A zero-length string is an invalid entry. This is the default value when creating a field programmatically.|
@@ -56,9 +57,11 @@ The **AllowZeroLength** property works independently of the **Required** propert
 
 ## See also
 
-- [Access for developers forum on MSDN](https://social.msdn.microsoft.com/Forums/office/en-US/home?forum=accessdev)
+- [Access for developers forum](https://social.msdn.microsoft.com/Forums/office/home?forum=accessdev)
 - [Access help on support.office.com](https://support.office.com/search/results?query=Access)
-- [Access help on answers.microsoft.com](https://answers.microsoft.com/en-us/msoffice/forum?page=1&;tab=question&;status=all&;auth=1)
+- [Access help on answers.microsoft.com](https://answers.microsoft.com/)
 - [Access forums on UtterAccess](http://www.utteraccess.com/forum/index.php?act=idx)
 - [Access developer and VBA programming help center (FMS)](http://www.fmsinc.com/MicrosoftAccess/developer/)
 - [Access posts on StackOverflow](https://stackoverflow.com/questions/tagged/ms-access)
+
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

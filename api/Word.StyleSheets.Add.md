@@ -1,5 +1,5 @@
 ---
-title: StyleSheets.Add Method (Word)
+title: StyleSheets.Add method (Word)
 keywords: vbawd10.chm209584130
 f1_keywords:
 - vbawd10.chm209584130
@@ -8,33 +8,34 @@ api_name:
 - Word.StyleSheets.Add
 ms.assetid: 82659cfc-6681-93c8-299c-f570f23016b2
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# StyleSheets.Add Method (Word)
+# StyleSheets.Add method (Word)
 
-Returns a  **StyleSheet** object that represents a new style sheet added to a Web document.
+Returns a  **StyleSheet** object that represents a new style sheet added to a web document.
 
 
 ## Syntax
 
- _expression_. `Add`( `_FileName_` , `_LinkType_` , `_Title_` , `_Precedence_` )
+_expression_.**Add** (_FileName_, _LinkType_, _Title_, _Precedence_)
 
- _expression_ Required. A variable that represents a '[StyleSheets](Word.StyleSheets.md)' collection.
-
-
-### Parameters
+_expression_ Required. A variable that represents a '[StyleSheets](Word.StyleSheets.md)' collection.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _FileName_|Required| **String**|The path and file name of the cascading style sheet.|
-| _LinkType_|Required| **WdStyleSheetLinkType**|Indicates whether the style sheet should be added as a link or imported into the Web document.|
+| _LinkType_|Required| **WdStyleSheetLinkType**|Indicates whether the style sheet should be added as a link or imported into the web document.|
 | _Title_|Required| **String**|The name of the style sheet.|
-| _Precedence_|Required| **WdStyleSheetPrecedence**|Indicates the level of importance compared with other cascading style sheets attached to the Web document.|
+| _Precedence_|Required| **WdStyleSheetPrecedence**|Indicates the level of importance compared with other cascading style sheets attached to the web document.|
 
-### Return Value
+## Return value
 
 StyleSheet
 
@@ -60,3 +61,4 @@ End Sub
 
 [StyleSheets Collection](Word.StyleSheets.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

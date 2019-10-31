@@ -1,5 +1,5 @@
 ---
-title: Application.SelectColumn Method (Project)
+title: Application.SelectColumn method (Project)
 keywords: vbapj.chm2046
 f1_keywords:
 - vbapj.chm2046
@@ -8,33 +8,34 @@ api_name:
 - Project.Application.SelectColumn
 ms.assetid: 5bb674e9-253e-355f-a501-d0aeaef56535
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Application.SelectColumn Method (Project)
+# Application.SelectColumn method (Project)
 
 Selects one or more columns.
 
 
 ## Syntax
 
- _expression_. `SelectColumn`( ` _Column_`, ` _Additional_`, ` _Extend_`, ` _Add_` )
+_expression_. `SelectColumn`( `_Column_`, `_Additional_`, `_Extend_`, `_Add_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
-
-
-### Parameters
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _Column_|Optional|**Integer**| The number of the column to select. (Columns are numbered from left to right, starting with 2.) The default is the active column.|
 | _Additional_|Optional|**Integer**|The number of columns to select in addition to the active column.|
 | _Extend_|Optional|**Boolean**|**True** if the active selection is extended into the new selection. The default value is **False**.|
 | _Add_|Optional|**Boolean**|**True** if the new selection is added to the active selection. The default value is **False**.|
 
-### Return Value
+## Return value
 
  **Boolean**
 
@@ -51,4 +52,4 @@ Sub Select_Column()
 End Sub
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

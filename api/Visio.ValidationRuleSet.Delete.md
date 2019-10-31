@@ -1,5 +1,5 @@
 ---
-title: ValidationRuleSet.Delete Method (Visio)
+title: ValidationRuleSet.Delete method (Visio)
 keywords: vis_sdr.chm18216165
 f1_keywords:
 - vis_sdr.chm18216165
@@ -8,39 +8,35 @@ api_name:
 - Visio.ValidationRuleSet.Delete
 ms.assetid: bd5fcd79-6cc6-7e24-b35f-944f9dee2cab
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# ValidationRuleSet.Delete Method (Visio)
+# ValidationRuleSet.Delete method (Visio)
 
-Deletes the  **[ValidationRuleSet](Visio.ValidationRuleSet.md)** object from the document.
+Deletes the **ValidationRuleSet** object from the document.
 
 
 ## Syntax
 
- _expression_. `Delete`
+_expression_.**Delete**
 
- _expression_ A variable that represents a [ValidationRuleSet](./Visio.ValidationRuleSet.md) object.
+_expression_ A variable that represents a **[ValidationRuleSet](Visio.ValidationRuleSet.md)** object.
 
 
-### Return Value
+## Return value
 
- **Nothing**
+**Nothing**
 
 
 ## Remarks
 
-Calling the  **Delete** method also deletes all **[ValidationRule](Visio.ValidationRule.md)** objects that are associated with the validation rule set.
+Calling the **Delete** method also deletes all **[ValidationRule](Visio.ValidationRule.md)** objects that are associated with the validation rule set.
 
 
 ## Example
 
-The following sample code is based on code provided by: [David Parker](https://www.bvisual.net)
-
-The following Visual Basic for Applications (VBA) example shows how to use the  **Delete** method to delete a validation rule set named "Fault Tree Analysis" from the active document.
-
-
-
+The following Visual Basic for Applications (VBA) example shows how to use the **Delete** method to delete a validation rule set named Fault Tree Analysis from the active document.
 
 ```vb
 ' Delete a rule set from the active document.
@@ -55,3 +51,4 @@ End Sub
 ```
 
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

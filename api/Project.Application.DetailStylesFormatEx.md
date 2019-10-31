@@ -1,5 +1,5 @@
 ---
-title: Application.DetailStylesFormatEx Method (Project)
+title: Application.DetailStylesFormatEx method (Project)
 keywords: vbapj.chm2164
 f1_keywords:
 - vbapj.chm2164
@@ -8,26 +8,27 @@ api_name:
 - Project.Application.DetailStylesFormatEx
 ms.assetid: 3e460e76-ff7b-f07b-058c-1e37c53e453e
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Application.DetailStylesFormatEx Method (Project)
+# Application.DetailStylesFormatEx method (Project)
 
 Sets the format of timescaled data fields in a Resource Usage view or Task Usage view, where colors can be hexadecimal values.
 
 
 ## Syntax
 
- _expression_. `DetailStylesFormatEx`( ` _Item_`, ` _Font_`, ` _Size_`, ` _Bold_`, ` _Italic_`, ` _Underline_`, ` _Color_`, ` _CellColor_`, ` _Pattern_`, ` _ShowInMenu_`, ` _Strikethrough_` )
+_expression_. `DetailStylesFormatEx`( `_Item_`, `_Font_`, `_Size_`, `_Bold_`, `_Italic_`, `_Underline_`, `_Color_`, `_CellColor_`, `_Pattern_`, `_ShowInMenu_`, `_Strikethrough_` )
 
- _expression_ An expression that returns an [Application](./Project.Application.md) object.
-
-
-### Parameters
+ _expression_ An expression that returns an **[Application](Project.Application.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _Item_|Optional|**Long**|The timescaled data field to format. If the active view is the Task Usage view, the value can be one of the  **[PjTaskTimescaledData](Project.PjTaskTimescaledData.md)** constants. If the active view is the Resource Usage view, the value can be one of the **[PjResourceTimescaledData](Project.PjResourceTimescaledData.md)** constants.|
 | _Font_|Optional|**String**|The name of the font.|
@@ -35,13 +36,13 @@ Sets the format of timescaled data fields in a Resource Usage view or Task Usage
 | _Bold_|Optional|**Boolean**|**True** if the font is bold; otherwise, **False**.|
 | _Italic_|Optional|**Boolean**|**True** if the font is italic; otherwise, **False**.|
 | _Underline_|Optional|**Boolean**|**True** if the font is underlined; otherwise, **False**.|
-| _Color_|Optional|**Long**|The color of the font. Can be a hexadecimal value, where red is the last byte. For example, the value &;HFF0000 is blue and &;H00FFFF is yellow.|
-| _CellColor_|Optional|**Long**|The color of the cell background. Can be a hexadecimal value, where red is the last byte. For example, the value &;HFF00 is green.|
+| _Color_|Optional|**Long**|The color of the font. Can be a hexadecimal value, where red is the last byte. For example, the value &HFF0000 is blue and &H00FFFF is yellow.|
+| _CellColor_|Optional|**Long**|The color of the cell background. Can be a hexadecimal value, where red is the last byte. For example, the value &HFF00 is green.|
 | _Pattern_|Optional|**Long**|The pattern for nonworking times. Can be one of the  **[PjFillPattern](Project.PjFillPattern.md)** constants.|
 | _ShowInMenu_|Optional|**Boolean**|**True** if the field specified with **Item** appears in the shortcut menu; otherwise, **False**. The default value is **False**.|
 | _Strikethrough_|Optional|**Variant**|**True** if the font is the strikethrough style.|
 
-### Return Value
+## Return value
 
  **Boolean**
 
@@ -65,6 +66,7 @@ End Sub
 ```
 
 
- **Note**  If you use any of the  **PjColor** enumeration constants for the _Color_ or _CellColor_ parameters, the color will be nearly black. For example, the value of **pjGreen** is 9, which in the **DetailStylesFormatEx** method is a very dark red. To use only the sixteen colors available with **PjColor** constants, use the **[DetailStylesFormat](Project.Application.DetailStylesFormat.md)** method.
+> [!NOTE] 
+> If you use any of the  **PjColor** enumeration constants for the _Color_ or _CellColor_ parameters, the color will be nearly black. For example, the value of **pjGreen** is 9, which in the **DetailStylesFormatEx** method is a very dark red. To use only the sixteen colors available with **PjColor** constants, use the **[DetailStylesFormat](Project.Application.DetailStylesFormat.md)** method.
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

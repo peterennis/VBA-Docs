@@ -1,5 +1,5 @@
 ---
-title: Search.Save Method (Outlook)
+title: Search.Save method (Outlook)
 keywords: vbaol11.chm2260
 f1_keywords:
 - vbaol11.chm2260
@@ -8,26 +8,27 @@ api_name:
 - Outlook.Search.Save
 ms.assetid: a6dbec81-67fd-e337-b640-4f94ab36218f
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Search.Save Method (Outlook)
+# Search.Save method (Outlook)
 
 Saves the search results to a Search Folder.
 
 
 ## Syntax
 
- _expression_. `Save` `_SchFldrName_`
+_expression_.**Save** (_SchFldrName_)
 
- _expression_ A variable that represents a [Search](./Outlook.Search.md) object.
-
-
-### Parameters
+_expression_ A variable that represents a [Search](Outlook.Search.md) object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _SchFldrName_|Required| **String**|A string that represents the Search Folder name.|
 
@@ -89,3 +90,4 @@ End Sub
 
 [Search Object](Outlook.Search.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

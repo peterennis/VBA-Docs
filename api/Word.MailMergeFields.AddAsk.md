@@ -1,5 +1,5 @@
 ---
-title: MailMergeFields.AddAsk Method (Word)
+title: MailMergeFields.AddAsk method (Word)
 keywords: vbawd10.chm153026662
 f1_keywords:
 - vbawd10.chm153026662
@@ -8,26 +8,27 @@ api_name:
 - Word.MailMergeFields.AddAsk
 ms.assetid: ea52714b-c7c3-a175-67b3-3ce9645218d2
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# MailMergeFields.AddAsk Method (Word)
+# MailMergeFields.AddAsk method (Word)
 
 Adds an ASK field to a mail merge main document. Returns a  **MailMergeField** object.
 
 
 ## Syntax
 
- _expression_. `AddAsk`( `_Range_` , `_Name_` , `_Prompt_` , `_DefaultAskText_` , `_AskOnce_` )
+_expression_. `AddAsk`( `_Range_` , `_Name_` , `_Prompt_` , `_DefaultAskText_` , `_AskOnce_` )
 
- _expression_ Required. A variable that represents a '[MailMergeFields](Word.mailmergefields.md)' collection.
-
-
-### Parameters
+_expression_ Required. A variable that represents a '[MailMergeFields](Word.mailmergefields.md)' collection.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _Range_|Required| **Range object**|The location for the ASK field.|
 | _Name_|Required| **String**|The bookmark name that the response or default text is assigned to. Use a REF field with the bookmark name to display the result in a document.|
@@ -35,7 +36,7 @@ Adds an ASK field to a mail merge main document. Returns a  **MailMergeField** o
 | _DefaultAskText_|Optional| **Variant**|The default response, which appears in the text box when the dialog box is displayed. Corresponds to the \d switch for an ASK field.|
 | _AskOnce_|Optional| **Variant**| **True** to display the dialog box only once instead of each time a new record is merged. Corresponds to the \o switch for an ASK field.|
 
-### Return Value
+## Return value
 
 MailMergeField
 
@@ -88,3 +89,4 @@ colMailMergeFields.AddAsk Range:=rngTemp, Name:="name", _
 
 [MailMergeFields Collection Object](Word.mailmergefields.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

@@ -1,5 +1,5 @@
 ---
-title: Font.DiacriticColor Property (Publisher)
+title: Font.DiacriticColor property (Publisher)
 keywords: vbapb10.chm5374003
 f1_keywords:
 - vbapb10.chm5374003
@@ -7,31 +7,31 @@ ms.prod: publisher
 api_name:
 - Publisher.Font.DiacriticColor
 ms.assetid: 6e9c816e-c7ae-c559-6b35-150a5abb820c
-ms.date: 06/08/2017
+ms.date: 06/08/2019
+localization_priority: Normal
 ---
 
 
-# Font.DiacriticColor Property (Publisher)
+# Font.DiacriticColor property (Publisher)
 
-Returns a  **[ColorFormat](Publisher.ColorFormat.md)** object representing the 24-bit color used for diacritics in a right-to-left language publication.
+Returns a **[ColorFormat](Publisher.ColorFormat.md)** object representing the 24-bit color used for diacritics in a right-to-left language publication.
 
 
 ## Syntax
 
- _expression_. **DiacriticColor**
+_expression_.**DiacriticColor**
 
- _expression_ A variable that represents a  **Font** object.
+_expression_ A variable that represents a **[Font](Publisher.Font.md)** object.
 
 
-### Return Value
+## Return value
 
 ColorFormat
 
 
 ## Example
 
-This example tests the text in the first story of the current publication to see if its color is red and it is formatted right-to-left.
-
+This example tests the text in the first story of the current publication to determine whether its color is red and if it is formatted right-to-left.
 
 ```vb
 Sub FontDiColor() 
@@ -52,4 +52,4 @@ Sub FontDiColor()
 End Sub
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

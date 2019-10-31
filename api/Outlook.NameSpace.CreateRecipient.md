@@ -1,5 +1,5 @@
 ---
-title: NameSpace.CreateRecipient Method (Outlook)
+title: NameSpace.CreateRecipient method (Outlook)
 keywords: vbaol11.chm760
 f1_keywords:
 - vbaol11.chm760
@@ -8,30 +8,31 @@ api_name:
 - Outlook.NameSpace.CreateRecipient
 ms.assetid: 7134c0d7-5f60-c63c-2dde-492d52b78fbe
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# NameSpace.CreateRecipient Method (Outlook)
+# NameSpace.CreateRecipient method (Outlook)
 
 Creates a  **[Recipient](Outlook.Recipient.md)** object.
 
 
 ## Syntax
 
- _expression_. `CreateRecipient`( `_RecipientName_` )
+_expression_. `CreateRecipient`( `_RecipientName_` )
 
- _expression_ A variable that represents a [NameSpace](./Outlook.NameSpace.md) object.
-
-
-### Parameters
+_expression_ A variable that represents a [NameSpace](Outlook.NameSpace.md) object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-| _RecipientName_|Required| **String**|The name of the recipient; it can be a string representing the display name, the alias, or the full SMTP e-mail address of the recipient.|
+| _RecipientName_|Required| **String**|The name of the recipient; it can be a string representing the display name, the alias, or the full SMTP email address of the recipient.|
 
-### Return Value
+## Return value
 
 A  **Recipient** object that represents the new recipient.
 
@@ -96,3 +97,4 @@ End Sub
 
 [NameSpace Object](Outlook.NameSpace.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

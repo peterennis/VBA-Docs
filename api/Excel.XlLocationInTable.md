@@ -1,20 +1,21 @@
 ---
-title: XlLocationInTable Enumeration (Excel)
+title: XlLocationInTable enumeration (Excel)
 ms.prod: excel
 api_name:
 - Excel.XlLocationInTable
 ms.assetid: 85718a67-04ed-9026-1777-85cb4de81886
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# XlLocationInTable Enumeration (Excel)
+# XlLocationInTable enumeration (Excel)
 
 Specifies the part of the PivotTable report that contains the upper-left corner of a range.
 
 
 
-|**Name**|**Value**|**Description**|
+|Name|Value|Description|
 |:-----|:-----|:-----|
 | **xlColumnHeader**|-4110|Column header|
 | **xlColumnItem**|5|Column item|
@@ -26,3 +27,4 @@ Specifies the part of the PivotTable report that contains the upper-left corner 
 | **xlRowItem**|4|Row item|
 | **xlTableBody**|8|Table body|
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

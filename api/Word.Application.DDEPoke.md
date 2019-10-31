@@ -1,5 +1,5 @@
 ---
-title: Application.DDEPoke Method (Word)
+title: Application.DDEPoke method (Word)
 keywords: vbawd10.chm158335288
 f1_keywords:
 - vbawd10.chm158335288
@@ -8,37 +8,33 @@ api_name:
 - Word.Application.DDEPoke
 ms.assetid: b782fc34-551f-288f-e087-5429f7ee7814
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Application.DDEPoke Method (Word)
+# Application.DDEPoke method (Word)
 
 Uses an open dynamic data exchange (DDE) channel to send data to an application.
 
 
 ## Syntax
 
- _expression_. `DDEPoke`( `_Channel_` , `_Item_` , `_Data_` )
+_expression_. `DDEPoke`( `_Channel_` , `_Item_` , `_Data_` )
 
- _expression_ A variable that represents an '[Application](Word.Application.md)' object. Optional.
-
-
-### Parameters
+_expression_ A variable that represents an **[Application](Word.Application.md)** object.  Optional.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _Channel_|Required| **Long**|The channel number returned by the  **DDEInitiate** method.|
 | _Item_|Required| **String**|The item within a DDE topic to which the specified data is to be sent.|
 | _Data_|Required| **String**|The data to be sent to the receiving application (the DDE server).|
 
 ## Remarks
-
-
- **Security Note**  
-
-
 
 If the  **DDEPoke** method isn't successful, an error occurs.
 
@@ -66,3 +62,4 @@ DDETerminate Channel:=lngChannel
 
 [Application Object](Word.Application.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

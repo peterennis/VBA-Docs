@@ -1,5 +1,5 @@
 ---
-title: Project.UpdateProjOnSave Property (Project)
+title: Project.UpdateProjOnSave property (Project)
 keywords: vbapj.chm132776
 f1_keywords:
 - vbapj.chm132776
@@ -8,23 +8,24 @@ api_name:
 - Project.Project.UpdateProjOnSave
 ms.assetid: c799b1e6-ea33-0261-88d6-de502197ac4c
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Project.UpdateProjOnSave Property (Project)
+# Project.UpdateProjOnSave property (Project)
 
  **True** if Project updates the project schedule when saving a file. Obsolete in Project. Read-only **Boolean**.
 
 
 ## Syntax
 
- _expression_. `UpdateProjOnSave`
+_expression_. `UpdateProjOnSave`
 
- _expression_ A variable that represents a [Project](./Project(enumerations).md) object.
+_expression_ A variable that represents a **[Project](project.project.md)** object.
 
 
 ## Remarks
 
 The  **UpdateProjOnSave** property returns **False** in Project and is not used. Saving a project does not update the schedule; publishing a project does update the schedule on Project Server.
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

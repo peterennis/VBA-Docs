@@ -1,5 +1,5 @@
 ---
-title: PictureFormat.OriginalFileSize Property (Publisher)
+title: PictureFormat.OriginalFileSize property (Publisher)
 keywords: vbapb10.chm3604772
 f1_keywords:
 - vbapb10.chm3604772
@@ -7,20 +7,21 @@ ms.prod: publisher
 api_name:
 - Publisher.PictureFormat.OriginalFileSize
 ms.assetid: 30704f2a-d739-7f14-d69a-73ab1f5ab8f3
-ms.date: 06/08/2017
+ms.date: 06/13/2019
+localization_priority: Normal
 ---
 
 
-# PictureFormat.OriginalFileSize Property (Publisher)
+# PictureFormat.OriginalFileSize property (Publisher)
 
-Returns a  **Long** representing the size, in bytes, of the linked picture or OLE object. Read-only.
+Returns a **Long** representing the size, in bytes, of the linked picture or OLE object. Read-only.
 
 
 ## Syntax
 
- _expression_. **OriginalFileSize**
+_expression_.**OriginalFileSize**
 
- _expression_ A variable that represents an  **PictureFormat** object.
+_expression_ A variable that represents a **[PictureFormat](Publisher.PictureFormat.md)** object.
 
 
 ## Remarks
@@ -29,18 +30,12 @@ This property only applies to linked pictures. Returns "Permission Denied" for s
 
 Use either of the following properties to determine whether a shape represents a linked picture:
 
-
--  The **[Type](Publisher.Shape.Type.md)** property of the **[Shape](Publisher.Shape.md)** object
+- The **[Type](Publisher.Shape.Type.md)** property of the **Shape** object   
+- The **[IsLinked](Publisher.PictureFormat.IsLinked.md)** property of the **PictureFormat** object
     
-- The  **[IsLinked](Publisher.PictureFormat.IsLinked.md)** property of the **[PictureFormat](Publisher.PictureFormat.md)** object
-    
-
-
-
 ## Example
 
 The following example tests each picture in the active publication, and prints selected image properties for pictures that are linked.
-
 
 ```vb
 Dim pgLoop As Page 
@@ -62,4 +57,4 @@ Next pgLoop
 
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

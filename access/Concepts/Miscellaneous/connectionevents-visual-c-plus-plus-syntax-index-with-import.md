@@ -1,24 +1,19 @@
 ---
-title: ConnectionEvents (Visual C++ Syntax Index with import)
+title: ConnectionEvents (Visual C++ syntax index with import)
 ms.prod: access
 ms.assetid: f69253dc-5997-8e2c-fdce-2aa76f841f98
-ms.date: 06/08/2017
+ms.date: 10/12/2018
+localization_priority: Normal
 ---
 
 
-# ConnectionEvents (Visual C++ Syntax Index with #import)
-
-  
+# ConnectionEvents (Visual C++ syntax index with #import)
 
 **Applies to:** Access 2013 | Access 2016
 
- **Events**
+## Events
 
-
-
-
-```c#
- 
+```cs
 HRESULT Invalid DDUE based on source, error:link not allowed in code, link filename:mdevtinfomessage_HV10294445.xml( struct Error * pError , enum 
  EventStatusEnum * adStatus , struct _Connection * pConnection ); 
  
@@ -57,9 +52,11 @@ HRESULT Invalid DDUE based on source, error:link not allowed in code, link filen
 
 ## See also
 
-- [Access for developers forum on MSDN](https://social.msdn.microsoft.com/Forums/office/en-US/home?forum=accessdev)
+- [Access for developers forum](https://social.msdn.microsoft.com/Forums/office/home?forum=accessdev)
 - [Access help on support.office.com](https://support.office.com/search/results?query=Access)
-- [Access help on answers.microsoft.com](https://answers.microsoft.com/en-us/msoffice/forum?page=1&;tab=question&;status=all&;auth=1)
+- [Access help on answers.microsoft.com](https://answers.microsoft.com/)
 - [Access forums on UtterAccess](http://www.utteraccess.com/forum/index.php?act=idx)
 - [Access developer and VBA programming help center (FMS)](http://www.fmsinc.com/MicrosoftAccess/developer/)
 - [Access posts on StackOverflow](https://stackoverflow.com/questions/tagged/ms-access)
+
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

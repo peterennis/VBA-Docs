@@ -1,5 +1,5 @@
 ---
-title: Application.WBSCodeMaskEdit Method (Project)
+title: Application.WBSCodeMaskEdit method (Project)
 keywords: vbapj.chm630
 f1_keywords:
 - vbapj.chm630
@@ -8,26 +8,27 @@ api_name:
 - Project.Application.WBSCodeMaskEdit
 ms.assetid: 37ade035-5235-54ab-92fa-962c4172dcdc
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Application.WBSCodeMaskEdit Method (Project)
+# Application.WBSCodeMaskEdit method (Project)
 
 Edits the work breakdown structure (WBS) code mask.
 
 
 ## Syntax
 
- _expression_. `WBSCodeMaskEdit`( ` _CodePrefix_`, ` _Level_`, ` _Sequence_`, ` _Length_`, ` _Separator_`, ` _CodeGenerate_`, ` _VerifyUniqueness_` )
+_expression_. `WBSCodeMaskEdit`( `_CodePrefix_`, `_Level_`, `_Sequence_`, `_Length_`, `_Separator_`, `_CodeGenerate_`, `_VerifyUniqueness_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
-
-
-### Parameters
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _CodePrefix_|Optional|**String**|The WBS code prefix for the project.|
 | _Level_|Optional|**Long**|The level of code mask to edit. The default value is one greater than the highest level currently specified for the field.|
@@ -37,7 +38,7 @@ Edits the work breakdown structure (WBS) code mask.
 | _CodeGenerate_|Optional|**Boolean**|**True** if a new WBS code is generated whenever a new task is created.|
 | _VerifyUniqueness_|Optional|**Boolean**|**True** if new WBS codes are verified to be unique.|
 
-### Return Value
+## Return value
 
  **Boolean**
 
@@ -63,4 +64,4 @@ Sub SetNewWBSCode()
 End Sub
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

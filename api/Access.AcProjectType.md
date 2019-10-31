@@ -1,5 +1,5 @@
 ---
-title: AcProjectType Enumeration (Access)
+title: AcProjectType enumeration (Access)
 keywords: vbaac10.chm10036
 f1_keywords:
 - vbaac10.chm10036
@@ -8,18 +8,20 @@ api_name:
 - Access.AcProjectType
 ms.assetid: 1c7ada0d-a60a-8aca-ab3f-9244000de3c6
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# AcProjectType Enumeration (Access)
+# AcProjectType enumeration (Access)
 
-Used with the  **ProjectType** property to determine the type of project that is currently open.
+Used with the **ProjectType** property to determine the type of project that is currently open.
 
+<br/>
 
-
-|**Name**|**Value**|**Description**|
+|Name|Value|Description|
 |:-----|:-----|:-----|
 |**acADP**|1|The current project is a Microsoft Access project.|
 |**acMDB**|2|The current project is a Microsoft Access database.|
 |**acNull**|0||
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

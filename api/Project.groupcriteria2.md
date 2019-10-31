@@ -1,12 +1,13 @@
 ---
-title: GroupCriteria2 Object (Project)
+title: GroupCriteria2 object (Project)
 ms.prod: project-server
 ms.assetid: ac785cc4-dbe3-0b1d-d1f1-6d45c93bfb1d
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# GroupCriteria2 Object (Project)
+# GroupCriteria2 object (Project)
 
 Contains a collection of  **[GroupCriterion2](Project.GroupCriterion2.md)** objects, where the group hierarchy can be maintained and cell color can be a hexadecimal value.
  
@@ -26,7 +27,7 @@ Use  **GroupCriteria2(***Index* **)**, where*Index* is the criterion index, to r
 
 
 ```vb
-ActiveProject.ResourceGroups2("Standard Rate").GroupCriteria2(1).CellColor = &amp;HFF0000
+ActiveProject.ResourceGroups2("Standard Rate").GroupCriteria2(1).CellColor = &HFF0000
 ```
 
  **Using the GroupCriteria2 Collection**
@@ -46,11 +47,11 @@ Dim Fields As String
   
 For Each GC2 In ActiveProject.TaskGroups2("Priority Keeping Outline Structure").GroupCriteria  
     If GC2.Ascending = True Then  
-       Fields = Fields &amp; GC2.Index &amp; ". " &amp; GC2.FieldName &amp; " is sorted in ascending order." _
-           &amp; vbCrLf  
+       Fields = Fields & GC2.Index & ". " & GC2.FieldName & " is sorted in ascending order." _
+           & vbCrLf  
     Else  
-        Fields = Fields &amp; GC2.Index &amp; ". " &amp; GC2.FieldName &amp; " is sorted in descending order." _
-           &amp; vbCrLf  
+        Fields = Fields & GC2.Index & ". " & GC2.FieldName & " is sorted in descending order." _
+           & vbCrLf  
     End If  
 Next GC2  
 
@@ -66,7 +67,7 @@ Use the  **[AddEx](Project.GroupCriteria2.AddEx.md)** method to add a **GroupCri
 
 ```vb
 ActiveProject.ResourceGroups2("Response Pending").GroupCriteria2.AddEx "% Work Complete", True, _  
-    CellColor:=&amp;H0101FF, GroupOn:=pjGroupOnPct1_25
+    CellColor:=&H0101FF, GroupOn:=pjGroupOnPct1_25
 ```
 
 
@@ -74,7 +75,7 @@ ActiveProject.ResourceGroups2("Response Pending").GroupCriteria2.AddEx "% Work C
 
 
 
-|**Name**|
+|Name|
 |:-----|
 |[Add](Project.GroupCriteria2.Add.md)|
 |[AddEx](Project.GroupCriteria2.AddEx.md)|
@@ -83,7 +84,7 @@ ActiveProject.ResourceGroups2("Response Pending").GroupCriteria2.AddEx "% Work C
 
 
 
-|**Name**|
+|Name|
 |:-----|
 |[Application](Project.GroupCriteria2.Application.md)|
 |[Count](Project.GroupCriteria2.Count.md)|
@@ -95,3 +96,5 @@ ActiveProject.ResourceGroups2("Response Pending").GroupCriteria2.AddEx "% Work C
 
  
 [Project Object Model](../project/Concepts/project-object-model.md)
+
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

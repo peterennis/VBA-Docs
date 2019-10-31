@@ -1,5 +1,5 @@
 ---
-title: Application.ResourceCalendarEditDays Method (Project)
+title: Application.ResourceCalendarEditDays method (Project)
 keywords: vbapj.chm620
 f1_keywords:
 - vbapj.chm620
@@ -8,26 +8,27 @@ api_name:
 - Project.Application.ResourceCalendarEditDays
 ms.assetid: 0dc0172f-bc49-347a-7c46-f6a6dc608d8f
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Application.ResourceCalendarEditDays Method (Project)
+# Application.ResourceCalendarEditDays method (Project)
 
 Edits days in a resource calendar.
 
 
 ## Syntax
 
- _expression_. `ResourceCalendarEditDays`( ` _ProjectName_`, ` _ResourceName_`, ` _StartDate_`, ` _EndDate_`, ` _WeekDay_`, ` _Working_`, ` _Default_`, ` _From1_`, ` _To1_`, ` _From2_`, ` _To2_`, ` _From3_`, ` _To3_`, ` _From4_`, ` _To4_`, ` _From5_`, ` _To5_` )
+_expression_. `ResourceCalendarEditDays`( `_ProjectName_`, `_ResourceName_`, `_StartDate_`, `_EndDate_`, `_WeekDay_`, `_Working_`, `_Default_`, `_From1_`, `_To1_`, `_From2_`, `_To2_`, `_From3_`, `_To3_`, `_From4_`, `_To4_`, `_From5_`, `_To5_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
-
-
-### Parameters
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _ProjectName_|Required|**String**|The name of the project containing the resource calendar to edit.|
 | _ResourceName_|Required|**String**|The name of the resource to edit.|
@@ -47,7 +48,7 @@ Edits days in a resource calendar.
 | _From5_|Optional|**Variant**|The start time of the fifth shift.|
 | _To5_|Optional|**Variant**|The end time of the fifth shift.|
 
-### Return Value
+## Return value
 
  **Boolean**
 
@@ -56,4 +57,4 @@ Edits days in a resource calendar.
 
 The  **ResourceCalendarEditDays** method returns a trappable error (error code 1101) when applied to material resources.
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

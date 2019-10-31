@@ -1,5 +1,5 @@
 ---
-title: Application.SelectBeginning Method (Project)
+title: Application.SelectBeginning method (Project)
 keywords: vbapj.chm2041
 f1_keywords:
 - vbapj.chm2041
@@ -8,30 +8,31 @@ api_name:
 - Project.Application.SelectBeginning
 ms.assetid: 4adf20ae-4fd2-818a-da8c-133c08cad7fb
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Application.SelectBeginning Method (Project)
+# Application.SelectBeginning method (Project)
 
 Selects the first cell in the active table or view.
 
 
 ## Syntax
 
- _expression_. `SelectBeginning`( ` _Extend_` )
+_expression_. `SelectBeginning`( `_Extend_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
-
-
-### Parameters
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _Extend_|Optional|**Boolean**|**True** if the current selection is extended to the first cell. If the active view is the Network Diagram or Resource Graph, Extend is ignored. The default value is **False**.|
 
-### Return Value
+## Return value
 
  **Boolean**
 
@@ -56,4 +57,4 @@ Sub Select_Beginning()
 End Sub
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

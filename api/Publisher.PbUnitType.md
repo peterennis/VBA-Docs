@@ -1,5 +1,5 @@
 ---
-title: PbUnitType Enumeration (Publisher)
+title: PbUnitType enumeration (Publisher)
 keywords: vbapb10.chm65543
 f1_keywords:
 - vbapb10.chm65543
@@ -8,16 +8,17 @@ api_name:
 - Publisher.PbUnitType
 ms.assetid: e14ef7b5-46c2-dec6-3af2-56da77ba5491
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# PbUnitType Enumeration (Publisher)
+# PbUnitType enumeration (Publisher)
 
 Represents the standard measurement unit for Microsoft Publisher. 
 
 
 
-|**Name**|**Value**|**Description**|
+|Name|Value|Description|
 |:-----|:-----|:-----|
 | **pbUnitCM**|1|Sets the unit of measurement to centimeters.|
 | **pbUnitEmu**|4|Sets the unit of measurement to Emu.|
@@ -31,3 +32,4 @@ Represents the standard measurement unit for Microsoft Publisher.
 | **pbUnitPoint**|3|Sets the unit of measurement to points.|
 | **pbUnitTwip**|5|Sets the unit of measurement to twip.|
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

@@ -6,6 +6,7 @@ f1_keywords:
 ms.prod: office
 ms.assetid: 886826a2-6d43-ec66-da42-7528a8470f9f
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
@@ -33,7 +34,7 @@ ms.date: 06/08/2017
   ```
 
 
-     Use a variable or constant expression if the object requires an[argument](../../Glossary/vbe-glossary.md#argument). For example, if the default for an object is a [method](../../Glossary/vbe-glossary.md#method), the object's name represents the default method. If it needs arguments, specify them positionally.
+     Use a variable or constant expression if the object requires an [argument](../../Glossary/vbe-glossary.md#argument). For example, if the default for an object is a [method](../../Glossary/vbe-glossary.md#method), the object's name represents the default method. If it needs arguments, specify them positionally.
     
 - You tried to specify a named argument with an external name:
     
@@ -58,3 +59,4 @@ ms.date: 06/08/2017
 
 For additional information, select the item in question and press F1 (in Windows) or HELP (on the Macintosh).
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

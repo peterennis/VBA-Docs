@@ -1,5 +1,5 @@
 ---
-title: Application.LinkTasksEdit Method (Project)
+title: Application.LinkTasksEdit method (Project)
 keywords: vbapj.chm2052
 f1_keywords:
 - vbapj.chm2052
@@ -8,26 +8,27 @@ api_name:
 - Project.Application.LinkTasksEdit
 ms.assetid: 51c1d75e-afb6-ae8c-162d-15e24c81bd06
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Application.LinkTasksEdit Method (Project)
+# Application.LinkTasksEdit method (Project)
 
 Edits task dependencies (task links).
 
 
 ## Syntax
 
- _expression_. `LinkTasksEdit`( ` _From_`, ` _To_`, ` _Delete_`, ` _Type_`, ` _Lag_`, ` _PredecessorProjectName_`, ` _SuccessorProjectName_` )
+_expression_. `LinkTasksEdit`( `_From_`, `_To_`, `_Delete_`, `_Type_`, `_Lag_`, `_PredecessorProjectName_`, `_SuccessorProjectName_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
-
-
-### Parameters
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _From_|Required|**Long**|**Long**. The identification number of a predecessor task.|
 | _To_|Required|**Long**|**Long**. The identification number of a successor task.|
@@ -37,7 +38,7 @@ Edits task dependencies (task links).
 | _PredecessorProjectName_|Optional|**String**|The name of the subproject in a consolidated project that contains the task identified with  **From**. If **PredecessorProjectName** is omitted, the current project is assumed.|
 | _SuccessorProjectName_|Optional|**String**|The name of the subproject in a consolidated project that contains the task identified with  **To**. If **SuccessorProjectName** is omitted, the current project is assumed.|
 
-### Return Value
+## Return value
 
  **Boolean**
 
@@ -70,4 +71,4 @@ Sub LinkFinishToStart()
 End Sub
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

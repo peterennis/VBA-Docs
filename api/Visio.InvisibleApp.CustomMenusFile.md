@@ -1,5 +1,5 @@
 ---
-title: InvisibleApp.CustomMenusFile Property (Visio)
+title: InvisibleApp.CustomMenusFile property (Visio)
 keywords: vis_sdr.chm17513350
 f1_keywords:
 - vis_sdr.chm17513350
@@ -7,46 +7,41 @@ ms.prod: visio
 api_name:
 - Visio.InvisibleApp.CustomMenusFile
 ms.assetid: 189faa67-41bb-2b87-9761-365c0c0433ba
-ms.date: 06/08/2017
+ms.date: 06/25/2019
+localization_priority: Normal
 ---
 
 
-# InvisibleApp.CustomMenusFile Property (Visio)
+# InvisibleApp.CustomMenusFile property (Visio)
 
-Gets or sets the name of the file that defines custom menus and accelerators for an  **InvisibleApp** object. Read/write.
+Gets or sets the name of the file that defines custom menus and accelerators for an **InvisibleApp** object. Read/write.
 
+> [!NOTE] 
+> Starting with Visio 2010, the Microsoft Office Fluent user interface (UI) replaced the previous system of layered menus, toolbars, and task panes. VBA objects and members that you used to customize the user interface in previous versions of Visio are still available in Visio, but they function differently.
 
 ## Syntax
 
- _expression_. `CustomMenusFile`
+_expression_.**CustomMenusFile**
 
- _expression_ A variable that represents an [InvisibleApp](./Visio.InvisibleApp.md) object.
+_expression_ A variable that represents an **[InvisibleApp](Visio.InvisibleApp.md)** object.
 
 
-### Return Value
+## Return value
 
 String
 
 
 ## Remarks
 
-
- **Note**  Starting with Visio, the Microsoft Office Fluent user interface (UI) replaces the previous system of layered menus, toolbars, and task panes. VBA objects and members that you used to customize the user interface in previous versions of Visio are still available in Visio, but they function differently.
-
-If the object is not using custom menus, the  **CustomMenusFile** property returns **Nothing** .
+If the object is not using custom menus, the **CustomMenusFile** property returns **Nothing**.
 
 
 ## Example
 
 This Microsoft Visual Basic for Applications (VBA) macro shows how to get the currently active UI for your document without replacing the application-level custom UI. It also saves any existing custom menus to a file and specifies that the current document use those menus. You must write additional code to add your custom UI items.
 
-
-
-
- **Note**  This macro uses the VBA keyword  **Kill** to delete a file on disk. Use this keyword carefully, because you cannot undo a **Kill** command once it has been run, and you will not get a prior warning message.
-
-
-
+> [!CAUTION]  
+> This macro uses the VBA keyword **Kill** to delete a file on disk. Use this keyword carefully because you cannot undo a **Kill** command after it has been run, and you will not get a prior warning message.
 
 ```vb
  
@@ -97,4 +92,4 @@ Sub CustomMenusFile_Example()
 End Sub
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

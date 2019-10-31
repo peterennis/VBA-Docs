@@ -1,5 +1,5 @@
 ---
-title: InvisibleApp.BuiltInToolbars Property (Visio)
+title: InvisibleApp.BuiltInToolbars property (Visio)
 keywords: vis_sdr.chm17513165
 f1_keywords:
 - vis_sdr.chm17513165
@@ -7,31 +7,32 @@ ms.prod: visio
 api_name:
 - Visio.InvisibleApp.BuiltInToolbars
 ms.assetid: b28f212c-b5ab-0d43-1f7a-a91a7c62043d
-ms.date: 06/08/2017
+ms.date: 06/25/2019
+localization_priority: Normal
 ---
 
 
-# InvisibleApp.BuiltInToolbars Property (Visio)
+# InvisibleApp.BuiltInToolbars property (Visio)
 
-Returns a  **UIObject** object that represents a copy of the built-in Microsoft Visio toolbars. Read-only.
+Returns a **[UIObject](visio.uiobject.md)** object that represents a copy of the built-in Microsoft Visio toolbars. Read-only.
 
+> [!NOTE] 
+> Starting with Visio 2010, the Microsoft Office Fluent user interface (UI) replaced the previous system of layered menus, toolbars, and task panes. VBA objects and members that you used to customize the user interface in previous versions of Visio are still available in Visio, but they function differently.
 
 ## Syntax
 
- _expression_. `BuiltInToolbars`( `_fIgnored_` )
+_expression_.**BuiltInToolbars** (_fIgnored_)
 
- _expression_ A variable that represents an [InvisibleApp](./Visio.InvisibleApp.md) object.
-
-
-### Parameters
+_expression_ A variable that represents an **[InvisibleApp](Visio.InvisibleApp.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _fIgnored_|Required| **Integer**|Required for backward compatibility, but ignored. It is suggested that you pass zero (0).|
 
-### Return Value
+## Return value
 
 UIObject
 
@@ -39,25 +40,21 @@ UIObject
 ## Remarks
 
 
- **Note**  Starting with Visio, the Microsoft Office Fluent user interface (UI) replaces the previous system of layered menus, toolbars, and task panes. VBA objects and members that you used to customize the user interface in previous versions of Visio are still available in Visio, but they function differently.
 
-You can use the  **BuiltInToolbars** property to obtain a **UIObject** object and modify its toolbars. You can then use the **SetCustomToolbars** method of an **Application** or **Document** object to substitute your customized toolbars for the built-in Visio toolbars.
+You can use the **BuiltInToolbars** property to obtain a **UIObject** object and modify its toolbars. You can then use the **SetCustomToolbars** method of an **Application** or **Document** object to substitute your customized toolbars for the built-in Visio toolbars.
 
-You can also use the  **SaveToFile** method of the **UIObject** object to store its toolbars in a file and reload them as custom toolbars by setting the **CustomToolbarsFile** property of an **Application** or **Document** object.
+You can also use the **SaveToFile** method of the **UIObject** object to store its toolbars in a file and reload them as custom toolbars by setting the **CustomToolbarsFile** property of an **Application** or **Document** object.
 
-Prior to Visio 5.0, the argument for this property was ( _fWhichToolbars_), which designated the type of toolbar to get (MSOffice or LotusSS). Beginning with Visio 5.0, the application no longer supports different types of toolbars and the current argument, ( _fIgnored_), is ignored.
+Prior to Visio 5.0, the argument for this property was _fWhichToolbars_, which designated the type of toolbar to get (MSOffice or LotusSS). Beginning with Visio 5.0, the application no longer supports different types of toolbars, and the current argument, _fIgnored_, is ignored.
 
 
 ## Example
 
-This Microsoft Visual Basic for Applications (VBA) macro shows how to use the  **BuiltInToolbars** property to get a copy of the built-in Visio toolbars, add a toolbar button, set the button icon, and replace the built-in toolbar set with the custom set.
+This Microsoft Visual Basic for Applications (VBA) macro shows how to use the **BuiltInToolbars** property to get a copy of the built-in Visio toolbars, add a toolbar button, set the button icon, and replace the built-in toolbar set with the custom set.
 
-Before running this macro, replace  _(path\filename)_ in the code below with the full path to and file name of an icon file (.ico) on your computer.
+Before running this macro, replace `(path\filename)` in the following code with the full path to and file name of an icon file (.ico) on your computer.
 
-To restore the built in Visio toolbars after you run this macro, call the  **ThisDocument.ClearCustomToolbars** method.
-
-
-
+To restore the built in Visio toolbars after you run this macro, call the **ThisDocument.ClearCustomToolbars** method.
 
 ```vb
  
@@ -97,4 +94,4 @@ Public Sub BuiltInToolbars_Example()
 End Sub
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

@@ -1,5 +1,5 @@
 ---
-title: MailMerge.ViewMailMergeFieldCodes Property (Publisher)
+title: MailMerge.ViewMailMergeFieldCodes property (Publisher)
 keywords: vbapb10.chm6225928
 f1_keywords:
 - vbapb10.chm6225928
@@ -7,23 +7,24 @@ ms.prod: publisher
 api_name:
 - Publisher.MailMerge.ViewMailMergeFieldCodes
 ms.assetid: 05b5e6e2-10ae-c6e0-3214-7016295703e2
-ms.date: 06/08/2017
+ms.date: 06/08/2019
+localization_priority: Normal
 ---
 
 
-# MailMerge.ViewMailMergeFieldCodes Property (Publisher)
+# MailMerge.ViewMailMergeFieldCodes property (Publisher)
 
- **True** if merge field names are displayed in a mail merge publication; **False** if information from the current record is displayed. Read/write **Boolean**. .
+**True** if merge field names are displayed in a mail merge publication; **False** if information from the current record is displayed. Read/write **Boolean**. 
 
 
 ## Syntax
 
- _expression_. **ViewMailMergeFieldCodes**
+_expression_.**ViewMailMergeFieldCodes**
 
- _expression_ A variable that represents a  **MailMerge** object.
+_expression_ A variable that represents a **[MailMerge](Publisher.MailMerge.md)** object.
 
 
-### Return Value
+## Return value
 
 Boolean
 
@@ -37,10 +38,10 @@ If the active publication is not a mail merge publication, using this property h
 
 This example hides the mail merge field codes in the active publication.
 
-
 ```vb
 ActiveDocument.MailMerge.ViewMailMergeFieldCodes = False 
 
 ```
 
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

@@ -1,5 +1,5 @@
 ---
-title: Event.Persistent Property (Visio)
+title: Event.Persistent property (Visio)
 keywords: vis_sdr.chm12614075
 f1_keywords:
 - vis_sdr.chm12614075
@@ -8,22 +8,23 @@ api_name:
 - Visio.Event.Persistent
 ms.assetid: e8912935-8c85-77ff-4dbc-4394e894af19
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Event.Persistent Property (Visio)
+# Event.Persistent property (Visio)
 
 Determines whether an event persists with its document. Read/write.
 
 
 ## Syntax
 
- _expression_. `Persistent`
+_expression_. `Persistent`
 
- _expression_ A variable that represents a [Event](./Visio.Event.md) object.
+_expression_ A variable that represents an **[Event](Visio.Event.md)** object.
 
 
-### Return Value
+## Return value
 
 Integer
 
@@ -39,6 +40,7 @@ A nonpersistent event exists as long as a reference is held on the  **Event** ob
 A persistent event exists until its  **Event** object is deleted from the source object's **EventList** collection.
 
 
- **Note**   Events handled in a Microsoft Visual Basic for Applications (VBA) project are persistent.
+> [!NOTE] 
+> Events handled in a Microsoft Visual Basic for Applications (VBA) project are persistent.
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

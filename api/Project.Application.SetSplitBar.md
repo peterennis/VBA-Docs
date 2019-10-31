@@ -1,5 +1,5 @@
 ---
-title: Application.SetSplitBar Method (Project)
+title: Application.SetSplitBar method (Project)
 keywords: vbapj.chm31
 f1_keywords:
 - vbapj.chm31
@@ -8,30 +8,31 @@ api_name:
 - Project.Application.SetSplitBar
 ms.assetid: caf26a56-43ad-1714-79e4-cab013a55f3c
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Application.SetSplitBar Method (Project)
+# Application.SetSplitBar method (Project)
 
 Positions the vertical split bar in a sheet view to display the specified number of columns.
 
 
 ## Syntax
 
- _expression_. `SetSplitBar`( ` _ShowColumns_` )
+_expression_. `SetSplitBar`( `_ShowColumns_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
-
-
-### Parameters
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _ShowColumns_|Optional|**Long**|Specifies the number of columns to display, including the locked  **ID** column. The value can be 1 through 75. The default value is the total number of columns currently displayed, including any partially hidden column.|
 
-### Return Value
+## Return value
 
  **Boolean**
 
@@ -52,4 +53,4 @@ If the standard Gantt Chart is the active view, the following statement sets the
 Application.SetSplitBar ShowColumns:=4
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

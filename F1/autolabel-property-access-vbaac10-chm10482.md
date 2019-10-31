@@ -6,6 +6,7 @@ f1_keywords:
 ms.prod: office
 ms.assetid: b265d7d1-0230-430f-bd60-46a2f493e8e9
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
@@ -13,8 +14,8 @@ ms.date: 06/08/2017
 
 Hi there! You have landed on one of our F1 Help redirector pages. Please select the topic you were looking for below.
 
-[CommandButton.AutoLabel Property (Access)](http://msdn.microsoft.com/library/f71bdc7f-9703-eeaa-70a8-70b6ddb72f85%28Office.15%29.aspx)
+[CommandButton.AutoLabel property (Access)](http://msdn.microsoft.com/library/f71bdc7f-9703-eeaa-70a8-70b6ddb72f85%28Office.15%29.aspx)
 
-[NavigationButton.AutoLabel Property (Access)](http://msdn.microsoft.com/library/addd9533-d975-1b85-e941-c560188f0d8a%28Office.15%29.aspx)
+[NavigationButton.AutoLabel property (Access)](http://msdn.microsoft.com/library/addd9533-d975-1b85-e941-c560188f0d8a%28Office.15%29.aspx)
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

@@ -1,5 +1,5 @@
 ---
-title: Section.Headers Property (Word)
+title: Section.Headers property (Word)
 keywords: vbawd10.chm156827769
 f1_keywords:
 - vbawd10.chm156827769
@@ -8,24 +8,25 @@ api_name:
 - Word.Section.Headers
 ms.assetid: 72b61449-2f93-a67a-2757-3c0441961307
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Section.Headers Property (Word)
+# Section.Headers property (Word)
 
 Returns a  **[HeadersFooters](Word.headersfooters.md)** collection that represents the headers for the specified section. Read-only.
 
 
 ## Syntax
 
- _expression_. `Headers`
+_expression_. `Headers`
 
- _expression_ A variable that represents a '[Section](Word.Section.md)' object.
+_expression_ A variable that represents a '[Section](Word.Section.md)' object.
 
 
 ## Remarks
 
-For information about returning a single member of a collection, see [Returning an Object from a Collection](../word/Concepts/Miscellaneous/returning-an-object-from-a-collection-word.md). To return a  **HeadersFooters** collection that represents the footers for the specified section, use the **[Footers](Word.Section.Footers.md)** property.
+For information about returning a single member of a collection, see [Returning an object from a collection](../word/Concepts/Miscellaneous/returning-an-object-from-a-collection-word.md). To return a  **HeadersFooters** collection that represents the footers for the specified section, use the **[Footers](Word.Section.Footers.md)** property.
 
 
 ## Example
@@ -60,3 +61,4 @@ End With
 
 [Section Object](Word.Section.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

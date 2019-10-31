@@ -1,5 +1,5 @@
 ---
-title: Application.Find Method (Project)
+title: Application.Find method (Project)
 keywords: vbapj.chm215
 f1_keywords:
 - vbapj.chm215
@@ -8,24 +8,25 @@ api_name:
 - Project.Application.Find
 ms.assetid: 0e7b1027-5609-19fa-f100-4eb7b108bae7
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Application.Find Method (Project)
+# Application.Find method (Project)
 
 Searches for an unfiltered value; returns  **True** if the value is found.
 
 
 ## Syntax
 
-_expression_. **Find** (**_Field_**, **_Test_**, **_Value_**, **_Next_**, **_MatchCase_**, **_FieldID_**, **_TestID_**)
+_expression_.**Find** (_Field_, _Test_, _Value_, _Next_, _MatchCase_, _FieldID_, _TestID_)
 
-_expression_ A variable that represents an **Application** object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
-### Parameters
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _Field_|Optional|**String**|The name of the field to search.|
 | _Test_|Optional|**String**|The type of comparison made between Field and Value. Can be one of the [comparison strings](#comparison-strings).|
@@ -37,9 +38,9 @@ _expression_ A variable that represents an **Application** object.
 
 <br/>
 
-#### Comparison strings
+### Comparison strings
 
-|**Comparison string**|**Description**|
+|Comparison string|Description|
 |:-----|:-----|
 |"equals"|The value of _Field_ equals _Value_.|
 |"does not equal"|The value of _Field_ does not equal _Value_.|
@@ -55,7 +56,7 @@ _expression_ A variable that represents an **Application** object.
 
 <br/>
 
-### Return value
+## Return value
 
  **Boolean**
 
@@ -76,4 +77,4 @@ Sub FindFieldByPriority
 End Sub
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

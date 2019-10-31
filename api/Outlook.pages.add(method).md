@@ -3,6 +3,7 @@ title: Pages.Add Method (Outlook Forms Script)
 ms.prod: outlook
 ms.assetid: be7bc499-8e25-440c-0ad9-2a6416ad8cea
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
@@ -13,22 +14,20 @@ Adds a  **[Page](Outlook.page.md)** to a **[Pages](Outlook.pages(object).md)** c
 
 ## Syntax
 
- _expression_. **Add**(**_bstrName_**,  **_bstrCaption_**,  **_lIndex_**)
+_expression_.**Add** (_bstrName_, _bstrCaption_, _lIndex_)
 
- _expression_ A variable that represents a  **Pages** object.
-
-
-### Parameters
+_expression_ A variable that represents a  **Pages** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 |bstrName|Optional| **Variant**|Specifies the name of the object being added. If a name is not specified, the system generates a default name based on the rules of the application where the form is used.|
 |bstrCaption|Optional| **Variant**|Specifies the caption to appear on a page. If a caption is not specified, the system generates a default caption based on the rules of the application where the form is used.|
 |lIndex|Optional| **Variant**|Identifies the position of a page within a  **Pages** collection. If an index is not specified, the system appends the page to the end of the **Pages** collection and assigns the appropriate index value.|
 
-### Return Value
+## Return value
 
 A  **Page** object that represents the added page.
 
@@ -45,3 +44,4 @@ You can change the  **Name** property of the object at run time only if you adde
 
  [Pages Object](Outlook.pages(object).md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

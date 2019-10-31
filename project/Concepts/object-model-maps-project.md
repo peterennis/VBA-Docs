@@ -3,14 +3,12 @@ title: Object model maps (Project)
 ms.prod: project-server
 ms.assetid: 659da12b-2d4d-4271-847e-51c64eade86a
 ROBOTS: NOINDEX
-ms.date: 06/08/2017
+ms.date: 10/10/2018
+localization_priority: Normal
 ---
 
 
 # Object model maps (Project)
-
-## In this section
-
 
 - [Project object model](project-object-model.md)
     
@@ -21,5 +19,5 @@ ms.date: 06/08/2017
 - [Resources object map (Project)](resources-object-map-project.md)
     
 - [Tasks object map (Project)](tasks-object-map-project.md)
-    
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

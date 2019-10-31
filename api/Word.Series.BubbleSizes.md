@@ -1,5 +1,5 @@
 ---
-title: Series.BubbleSizes Property (Word)
+title: Series.BubbleSizes property (Word)
 keywords: vbawd10.chm123733632
 f1_keywords:
 - vbawd10.chm123733632
@@ -8,19 +8,20 @@ api_name:
 - Word.Series.BubbleSizes
 ms.assetid: 4972506e-9a19-417d-0ef3-a259b68a7ed1
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Series.BubbleSizes Property (Word)
+# Series.BubbleSizes property (Word)
 
-Returns or sets a string that refers to the worksheet cells that contain the x-value, y-value, and size data for the bubble chart. Read/write  **Variant** .
+Returns or sets a string that refers to the worksheet cells that contain the x-value, y-value, and size data for the bubble chart. Read/write  **Variant**.
 
 
 ## Syntax
 
- _expression_. `BubbleSizes`
+_expression_.**BubbleSizes**
 
- _expression_ A variable that represents a '[Series](Word.Series.md)' object.
+_expression_ A variable that represents a '[Series](Word.Series.md)' object.
 
 
 ## Remarks
@@ -28,7 +29,8 @@ Returns or sets a string that refers to the worksheet cells that contain the x-v
  When you return the cell reference, it will return a string that describes the cells in A1-style notation. To set the size data for the bubble chart, you must use R1C1-style notation.
 
 
- **Note**  This property applies only to bubble charts.
+> [!NOTE] 
+> This property applies only to bubble charts.
 
 
 ## Example
@@ -64,3 +66,4 @@ End With
 
 [Series Object](Word.Series.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

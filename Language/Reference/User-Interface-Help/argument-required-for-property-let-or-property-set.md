@@ -6,12 +6,13 @@ f1_keywords:
 ms.prod: office
 ms.assetid: bbefad41-c17c-d1d3-52ac-32389acb3b7f
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
 # Argument required for Property Let or Property Set
 
-The purpose of  **Property Let** and **Property Set** procedures is to give a new value to a[property](../../Glossary/vbe-glossary.md#property). This error has the following causes and solutions:
+The purpose of  **Property Let** and **Property Set** procedures is to give a new value to a [property](../../Glossary/vbe-glossary.md#property). This error has the following causes and solutions:
 
 
 
@@ -24,3 +25,4 @@ The purpose of  **Property Let** and **Property Set** procedures is to give a ne
 
 For additional information, select the item in question and press F1 (in Windows) or HELP (on the Macintosh).
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

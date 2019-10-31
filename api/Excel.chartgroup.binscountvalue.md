@@ -1,28 +1,27 @@
 ---
-title: ChartGroup.BinsCountValue Property (Excel)
+title: ChartGroup.BinsCountValue property (Excel)
 keywords: vbaxl10.chm568105
 f1_keywords:
 - vbaxl10.chm568105
 ms.assetid: 933ce137-4421-54c1-e3f7-f51466f6012d
 ms.date: 06/08/2017
-ms.prod: excel
+ms.prod: 04/20/2019
+localization_priority: Normal
 ---
 
 
-# ChartGroup.BinsCountValue Property (Excel)
+# ChartGroup.BinsCountValue property (Excel)
 
-Specifies the number of bins in the histogram chart. Read/write  **Long**.
+Specifies the number of bins in the histogram chart. Read/write **Long**.
 
 
 ## Syntax
 
- _expression_. `BinsCountValue`
+_expression_.**BinsCountValue**
 
- _expression_ A variable that represents a [ChartGroup](Excel.ChartGroup(Graph object).md) object.
-
-
-## See also
+_expression_ A variable that represents a **[ChartGroup](Excel.ChartGroup(object).md)** object.
 
 
-[ChartGroup Object](Excel.ChartGroup(object).md)
 
+
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

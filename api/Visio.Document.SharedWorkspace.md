@@ -1,5 +1,5 @@
 ---
-title: Document.SharedWorkspace Property (Visio)
+title: Document.SharedWorkspace property (Visio)
 keywords: vis_sdr.chm10560136
 f1_keywords:
 - vis_sdr.chm10560136
@@ -8,22 +8,23 @@ api_name:
 - Visio.Document.SharedWorkspace
 ms.assetid: 100d635c-2b2a-4ba3-0490-bc4a4c4efb8c
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Document.SharedWorkspace Property (Visio)
+# Document.SharedWorkspace property (Visio)
 
-Returns a Microsoft Office  **SharedWorkspace** object that provides access to the Office Document Workspace object model. Read-only.
+Returns a Microsoft Office **SharedWorkspace** object that provides access to the Office Document Workspace object model. Read-only.
 
 
 ## Syntax
 
- _expression_. `SharedWorkspace`
+_expression_.**SharedWorkspace**
 
- _expression_ A variable that represents a [Document](./Visio.Document.md) object.
+_expression_ A variable that represents a **[Document](Visio.Document.md)** object.
 
 
-### Return Value
+## Return value
 
 Object
 
@@ -35,7 +36,7 @@ The Office Document Workspace object model provides a way to put documents into 
 
 ## Example
 
-This Microsoft Visual Basic for Applications (VBA) macro shows how to use the  **SharedWorkspace** property to get a **SharedWorkspace** object and create a new shared document workspace that has the same name as the default document, at the default location.
+This Microsoft Visual Basic for Applications (VBA) macro shows how to use the **SharedWorkspace** property to get a **SharedWorkspace** object and create a new shared document workspace that has the same name as the default document, at the default location.
 
 
 ```vb
@@ -48,4 +49,4 @@ Public Sub SharedWorkspace_Example
 End Sub
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

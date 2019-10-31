@@ -1,32 +1,33 @@
 ---
-title: Shapes.AddTextbox Method (Project)
+title: Shapes.AddTextbox method (Project)
 ms.prod: project-server
 ms.assetid: ee8c619f-8b35-6f94-e680-86dbeedd6d19
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Shapes.AddTextbox Method (Project)
+# Shapes.AddTextbox method (Project)
 Adds a text box to the report, and returns a  **Shape** object that represents the new text box.
 
 ## Syntax
 
- _expression_. `AddTextbox` _(Orientation,_ _Left,_ _Top,_ _Width,_ _Height)_
+_expression_. `AddTextbox` _(Orientation,_ _Left,_ _Top,_ _Width,_ _Height)_
 
- _expression_ A variable that represents a 'Shapes' object.
-
-
-### Parameters
+_expression_ A variable that represents a **[Shapes](Project.Shapes.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _Orientation_|Required|**MsoTextOrientation**|The orientation of the text box. Some constants may not be available, depending on the language that is installed.|
-| _Left_|Required|**Single**|The position, in points, of the left edge of the text box.|
-| _Top_|Required|**Single**|The position, in points, of the top edge of the text box.|
-| _Width_|Required|**Single**|The width, in points, of the text box.|
-| _Height_|Required|**Single**|The height, in points, of the text box.|
+| _Left_|Required|**Single**|The position, in [points](../language/glossary/vbe-glossary.md#point), of the left edge of the text box.|
+| _Top_|Required|**Single**|The position, in [points](../language/glossary/vbe-glossary.md#point), of the top edge of the text box.|
+| _Width_|Required|**Single**|The width, in [points](../language/glossary/vbe-glossary.md#point), of the text box.|
+| _Height_|Required|**Single**|The height, in [points](../language/glossary/vbe-glossary.md#point), of the text box.|
 | _Orientation_|Required|MSOTEXTORIENTATION||
 | _Left_|Required|FLOAT||
 | _Top_|Required|FLOAT||
@@ -34,7 +35,7 @@ Adds a text box to the report, and returns a  **Shape** object that represents t
 | _Height_|Required|FLOAT||
 |Name|Required/Optional|Data type|Description|
 
-### Return value
+## Return value
 
  **Shape**
 
@@ -88,4 +89,6 @@ End Sub
 [Shapes Object](Project.shapes.md)
 [Shape Object](Project.shape.md)
 [TextFrame2 Property](Project.shape.textframe2.md)
-[MsoTextOrientation Enumeration (Office)](https://msdn.microsoft.com/en-us/library/office/ff862778%28v=office.15%29)
+[MsoTextOrientation Enumeration (Office)](https://msdn.microsoft.com/library/office/ff862778%28v=office.15%29)
+
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

@@ -1,5 +1,5 @@
 ---
-title: ContactItem.Display Method (Outlook)
+title: ContactItem.Display method (Outlook)
 keywords: vbaol11.chm959
 f1_keywords:
 - vbaol11.chm959
@@ -8,28 +8,29 @@ api_name:
 - Outlook.ContactItem.Display
 ms.assetid: 789611b5-7079-2290-738f-64266cedbe2a
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# ContactItem.Display Method (Outlook)
+# ContactItem.Display method (Outlook)
 
 Displays a new  **[Inspector](Outlook.Inspector.md)** object for the item.
 
 
 ## Syntax
 
- _expression_. `Display`( `_Modal_` )
+_expression_. `Display`( `_Modal_` )
 
- _expression_ A variable that represents a [ContactItem](./Outlook.ContactItem.md) object.
-
-
-### Parameters
+_expression_ A variable that represents a [ContactItem](Outlook.ContactItem.md) object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-| _Modal_|Optional| **Variant**| **True** to make the window modal. The default value is **False** .|
+| _Modal_|Optional| **Variant**| **True** to make the window modal. The default value is **False**.|
 
 ## Remarks
 
@@ -43,3 +44,4 @@ If you attempt to open an "unsafe" file system object (or "freedoc" file) by usi
 
 [ContactItem Object](Outlook.ContactItem.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

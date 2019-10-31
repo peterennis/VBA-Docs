@@ -1,5 +1,5 @@
 ---
-title: ColorStop.ThemeColor Property (Excel)
+title: ColorStop.ThemeColor property (Excel)
 keywords: vbaxl10.chm851075
 f1_keywords:
 - vbaxl10.chm851075
@@ -7,23 +7,24 @@ ms.prod: excel
 api_name:
 - Excel.ColorStop.ThemeColor
 ms.assetid: bb650754-204a-3618-d431-bf7db289ceeb
-ms.date: 06/08/2017
+ms.date: 04/20/2019
+localization_priority: Normal
 ---
 
 
-# ColorStop.ThemeColor Property (Excel)
+# ColorStop.ThemeColor property (Excel)
 
-Returns or sets the theme color of the represented object. Read/write
+Returns or sets the theme color of the represented object. Read/write.
 
 
 ## Syntax
 
- _expression_. `ThemeColor`
+_expression_.**ThemeColor**
 
- _expression_ A variable that represents a [ColorStop](Excel.ColorStop.md) object.
+_expression_ A variable that represents a **[ColorStop](Excel.ColorStop.md)** object.
 
 
-### Return Value
+## Return value
 
 Long
 
@@ -31,7 +32,6 @@ Long
 ## Example
 
 Applies theme color to the active selection.
-
 
 ```vb
 Range("A1:A10").Select 
@@ -42,8 +42,6 @@ End With
 ```
 
 
-## See also
 
 
-[ColorStop Object](Excel.ColorStop.md)
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

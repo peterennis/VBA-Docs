@@ -1,5 +1,5 @@
 ---
-title: NameSpace.AddStoreEx Method (Outlook)
+title: NameSpace.AddStoreEx method (Outlook)
 keywords: vbaol11.chm777
 f1_keywords:
 - vbaol11.chm777
@@ -8,26 +8,27 @@ api_name:
 - Outlook.NameSpace.AddStoreEx
 ms.assetid: 15b8948d-cbe4-a499-ec03-b1bbf56ead82
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# NameSpace.AddStoreEx Method (Outlook)
+# NameSpace.AddStoreEx method (Outlook)
 
 Adds a Personal Folders file (.pst) in the specified format to the current profile.
 
 
 ## Syntax
 
- _expression_. `AddStoreEx`( `_Store_` , `_Type_` )
+_expression_. `AddStoreEx`( `_Store_` , `_Type_` )
 
- _expression_ A variable that represents a [NameSpace](./Outlook.NameSpace.md) object.
-
-
-### Parameters
+_expression_ A variable that represents a [NameSpace](Outlook.NameSpace.md) object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _Store_|Required| **Variant**|The path of the .pst file to be added to the profile. If the .pst file does not exist, Microsoft Outlook creates it.|
 | _Type_|Required| **[OlStoreType](Outlook.OlStoreType.md)**|The format in which the data file should be created.|
@@ -39,7 +40,7 @@ Use the  **olStoreUnicode** constant to add a new .pst file that has greater sto
 
 ## Example
 
-This Microsoft Visual Basic for Applications (VBA) example adds a new Personal Folders (.pst) file that has greater storage capacity for items and folders and supports Unicode to the user?s profile.
+This Microsoft Visual Basic for Applications (VBA) example adds a new Personal Folders (.pst) file that has greater storage capacity for items and folders and supports Unicode to the user's profile.
 
 
 ```vb
@@ -62,3 +63,4 @@ End Sub
 
 [NameSpace Object](Outlook.NameSpace.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

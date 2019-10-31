@@ -1,5 +1,5 @@
 ---
-title: ContentControlListEntry.Value Property (Word)
+title: ContentControlListEntry.Value property (Word)
 keywords: vbawd10.chm147456104
 f1_keywords:
 - vbawd10.chm147456104
@@ -8,17 +8,18 @@ api_name:
 - Word.ContentControlListEntry.Value
 ms.assetid: b37925d7-00ce-9c66-d5d3-bec840d0a2e8
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# ContentControlListEntry.Value Property (Word)
+# ContentControlListEntry.Value property (Word)
 
 Returns or sets a  **String** that represents the programmatic value of an item in a drop-down list or combo box content control. Read/write.
 
 
 ## Syntax
 
- _expression_. `Value`
+_expression_.**Value**
 
  _expression_ An expression that returns a [ContentControlListEntry](./Word.ContentControlListEntry.md) object.
 
@@ -28,7 +29,8 @@ Returns or sets a  **String** that represents the programmatic value of an item 
 Use the  **Value** property to store data that you need to use at processing time. For example, the **Text** property may contain a string that you want to display and the **Value** property may contain a number, such as an item number, that you can use to look up information in a database. Also, the value of the **Value** property is what is sent to the custom XML data, if the content control is mapped to XML data in the data store.
 
 
- **Note**  You cannot set the  **Value** property for list entries that were automatically populated from an XML schema attached to the custom XML that is mapped to this control.
+> [!NOTE] 
+> You cannot set the  **Value** property for list entries that were automatically populated from an XML schema attached to the custom XML that is mapped to this control.
 
 
 ## Example
@@ -58,3 +60,4 @@ Next
 
 [ContentControlListEntry Object](Word.ContentControlListEntry.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

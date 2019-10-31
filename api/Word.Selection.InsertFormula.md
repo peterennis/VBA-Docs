@@ -1,5 +1,5 @@
 ---
-title: Selection.InsertFormula Method (Word)
+title: Selection.InsertFormula method (Word)
 keywords: vbawd10.chm158663186
 f1_keywords:
 - vbawd10.chm158663186
@@ -8,26 +8,25 @@ api_name:
 - Word.Selection.InsertFormula
 ms.assetid: a193c4ee-a667-04af-e22c-3a5b5bbc5c3b
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Selection.InsertFormula Method (Word)
+# Selection.InsertFormula method (Word)
 
 Inserts an = (Formula) field that contains a formula at the selection.
 
 
 ## Syntax
 
- _expression_. `Formula`( `_Formula_` , `_NumberFormat_` )
+_expression_.**Formula** (_Formula_, _NumberFormat_)
 
- _expression_ Required. A variable that represents a '[Selection](Word.Selection.md)' object.
-
-
-### Parameters
+_expression_ Required. A variable that represents a **[Selection](Word.Selection.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _Formula_|Optional| **Variant**|The mathematical formula you want the = (Formula) field to evaluate. Spreadsheet-type references to table cells are valid. For example, "=SUM(A4:C4)" specifies the first three values in the fourth row. For more information about the = (Formula) field, see Field codes:= (Formula) field.|
 | _NumberFormat_|Optional| **Variant**|A format for the result of the = (Formula) field. For information about the types of formats you can apply, see Numeric Picture (\#) field switch.|
@@ -83,3 +82,4 @@ Selection.InsertFormula Formula:= "=GrossSales-45,000.00", _
 
 [Selection Object](Word.Selection.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

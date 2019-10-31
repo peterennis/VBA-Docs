@@ -1,5 +1,5 @@
 ---
-title: ChartData.Workbook Property (Word)
+title: ChartData.Workbook property (Word)
 keywords: vbawd10.chm190382080
 f1_keywords:
 - vbawd10.chm190382080
@@ -8,19 +8,20 @@ api_name:
 - Word.ChartData.Workbook
 ms.assetid: 2295d653-7a36-b258-dfb8-f48844331705
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# ChartData.Workbook Property (Word)
+# ChartData.Workbook property (Word)
 
-Returns the workbook that contains the chart data associated with the chart. Read-only  **Object** .
+Returns the workbook that contains the chart data associated with the chart. Read-only  **Object**.
 
 
 ## Syntax
 
- _expression_. `Workbook`
+_expression_.**Workbook**
 
- _expression_ A variable that represents a '[ChartData](Word.ChartData.md)' object.
+_expression_ A variable that represents a '[ChartData](Word.ChartData.md)' object.
 
 
 ## Remarks
@@ -28,7 +29,8 @@ Returns the workbook that contains the chart data associated with the chart. Rea
 
 
 
- **Note**  You must call the  **[Activate](Word.ChartData.Activate.md)** method before referencing this property; otherwise, an error occurs.
+> [!NOTE] 
+> You must call the  **[Activate](Word.ChartData.Activate.md)** method before referencing this property; otherwise, an error occurs.
 
 
 ## Example
@@ -54,3 +56,4 @@ End With
 
 [ChartData Object](Word.ChartData.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

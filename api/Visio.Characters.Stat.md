@@ -1,5 +1,5 @@
 ---
-title: Characters.Stat Property (Visio)
+title: Characters.Stat property (Visio)
 keywords: vis_sdr.chm10214420
 f1_keywords:
 - vis_sdr.chm10214420
@@ -8,22 +8,23 @@ api_name:
 - Visio.Characters.Stat
 ms.assetid: 384bd298-e3c4-fed3-d5a0-77f0aa69410a
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Characters.Stat Property (Visio)
+# Characters.Stat property (Visio)
 
 Returns status information for an object. Read-only.
 
 
 ## Syntax
 
- _expression_. `Stat`
+_expression_.**Stat**
 
- _expression_ A variable that represents a [Characters](./Visio.Characters.md) object.
+_expression_ A variable that represents a **[Characters](Visio.Characters.md)** object.
 
 
-### Return Value
+## Return value
 
 Integer
 
@@ -39,7 +40,7 @@ A Component Object Model (COM) object, such as a Microsoft Visio  **Document** o
 
 ## Example
 
-This Microsoft Visual Basic for Applications (VBA) macro shows how to use the  **Stat** property to check the status of a **Document** object. Executing the macro prints 0 (**visStatNormal**) and then 8 (**visStatClosed**) in the **Immediate** window.
+This Microsoft Visual Basic for Applications (VBA) macro shows how to use the  **Stat** property to check the status of a **Document** object. Executing the macro prints 0 (**visStatNormal**) and then 8 (**visStatClosed**) in the Immediate window.
 
 
 ```vb
@@ -55,4 +56,4 @@ Public Sub Stat_Example()
 End Sub
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

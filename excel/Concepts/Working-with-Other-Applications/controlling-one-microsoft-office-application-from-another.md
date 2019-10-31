@@ -6,6 +6,7 @@ f1_keywords:
 ms.prod: excel
 ms.assetid: 588c18f7-b9e4-60df-e209-a411c5a22fc6
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
@@ -13,9 +14,7 @@ ms.date: 06/08/2017
 
 If you want to run code in one Microsoft Office application that works with the objects in another application, follow these steps.
 
-
-### To run the code
-
+**To run the code**
 
 1. Set a reference to the other application's type library in the  **References** dialog box (**Tools** menu). Then, the objects, properties, and methods will appear in the Object Browser and the syntax will be checked at compile time. You can also get context-sensitive Help on them.
     
@@ -83,7 +82,7 @@ Sub ControlWord()
 End Sub
 ```
 
-**Sample code provided by:** Dennis Wallentin, [VSTO &; .NET &; Excel](https://xldennis.wordpress.com/)
+**Sample code provided by:** Dennis Wallentin, [VSTO & .NET & Excel](https://xldennis.wordpress.com/)
 This example takes the cells values from a named range,  **W_Data**, that contains three values and inserts those values into a Word document. The values are inserted at bookmarked locations named  **td1**,  **td2**, and  **td3**.
 For this example to run, you must have a range named  **W_Data** that contains three values on **Sheet1** in the workbook. You must have a Word document named **Test.docx** saved in the same location as the Excel workbook, and the Word document must have three bookmarks named **td1**,  **td2**, and  **td3**.
 
@@ -110,7 +109,7 @@ Set wsSheet = wbBook.Worksheets("Sheet1")
 
 vaData = wsSheet.Range("W_Data").Value
 
-' Instatiate the Word Objects.
+' Instantiate the Word Objects.
 Set wdApp = New Word.Application
 Set wdDoc = wdApp.Documents.Open(wbBook.Path & "\Test.docx")
 
@@ -148,5 +147,6 @@ End Sub
 
 MVP Bill Jelen is the author of more than two dozen books about Microsoft Excel. He is a regular guest on TechTV with Leo Laporte and is the host of MrExcel.com, which includes more than 300,000 questions and answers about Excel. 
 
-Dennis Wallentin is the author of VSTO &; .NET &; Excel, a blog that focuses on .NET Framework solutions for Excel and Excel Services. Dennis has been developing Excel solutions for over 20 years and is also the coauthor of "Professional Excel Development: The Definitive Guide to Developing Applications Using Microsoft Excel, VBA and .NET (2nd Edition)." 
+Dennis Wallentin is the author of VSTO & .NET & Excel, a blog that focuses on .NET Framework solutions for Excel and Excel Services. Dennis has been developing Excel solutions for over 20 years and is also the coauthor of "Professional Excel Development: The Definitive Guide to Developing Applications Using Microsoft Excel, VBA and .NET (2nd Edition)."
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

@@ -1,5 +1,5 @@
 ---
-title: TabStop Object (Word)
+title: TabStop object (Word)
 keywords: vbawd10.chm2388
 f1_keywords:
 - vbawd10.chm2388
@@ -8,10 +8,11 @@ api_name:
 - Word.TabStop
 ms.assetid: 5290ae79-f728-24a8-6bb0-267072cd0288
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# TabStop Object (Word)
+# TabStop object (Word)
 
 Represents a single tab stop. The  **TabStop** object is a member of the **[TabStops](Word.tabstops.md)** collection. The **TabStops** collection represents all the custom and default tab stops in a paragraph or group of paragraphs.
 
@@ -59,12 +60,13 @@ Selection.Paragraphs.TabStops(InchesToPoints(2)) _
 ```
 
 
- **Note**   Set the **DefaultTabStop** property to adjust the spacing of default tab stops.
+> [!NOTE] 
+>  Set the **DefaultTabStop** property to adjust the spacing of default tab stops.
 
 
 ## See also
 
 
-[Word Object Model Reference](./overview/Word/object-model.md)
+[Word Object Model Reference](overview/Word/object-model.md)
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

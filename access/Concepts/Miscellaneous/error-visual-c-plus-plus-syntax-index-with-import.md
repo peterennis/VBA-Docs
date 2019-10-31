@@ -1,24 +1,19 @@
 ---
-title: Error (Visual C++ Syntax Index with import)
+title: Error (Visual C++ syntax index with import)
 ms.prod: access
 ms.assetid: 830be489-5362-4f60-ac3a-537662938e80
-ms.date: 06/08/2017
+ms.date: 10/12/2018
+localization_priority: Normal
 ---
 
 
-# Error (Visual C++ Syntax Index with #import)
-
-  
+# Error (Visual C++ syntax index with #import)
 
 **Applies to:** Access 2013 | Access 2016
 
- **Properties**
+## Properties
 
-
-
-
-```
- 
+```cs
 _bstr_t GetDescription( ); 
 __declspec(property(get=GetDescription)) _bstr_t Invalid DDUE based on source, error:link not allowed in code, link filename:mdprodescription_HV10294309.xml; 
  
@@ -44,9 +39,11 @@ __declspec(property(get=GetSQLState)) _bstr_t Invalid DDUE based on source, erro
 
 ## See also
 
-- [Access for developers forum on MSDN](https://social.msdn.microsoft.com/Forums/office/en-US/home?forum=accessdev)
+- [Access for developers forum](https://social.msdn.microsoft.com/Forums/office/home?forum=accessdev)
 - [Access help on support.office.com](https://support.office.com/search/results?query=Access)
-- [Access help on answers.microsoft.com](https://answers.microsoft.com/en-us/msoffice/forum?page=1&;tab=question&;status=all&;auth=1)
+- [Access help on answers.microsoft.com](https://answers.microsoft.com/)
 - [Access forums on UtterAccess](http://www.utteraccess.com/forum/index.php?act=idx)
 - [Access developer and VBA programming help center (FMS)](http://www.fmsinc.com/MicrosoftAccess/developer/)
 - [Access posts on StackOverflow](https://stackoverflow.com/questions/tagged/ms-access)
+
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

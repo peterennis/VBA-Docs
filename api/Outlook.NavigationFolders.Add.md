@@ -1,5 +1,5 @@
 ---
-title: NavigationFolders.Add Method (Outlook)
+title: NavigationFolders.Add method (Outlook)
 keywords: vbaol11.chm2897
 f1_keywords:
 - vbaol11.chm2897
@@ -8,30 +8,31 @@ api_name:
 - Outlook.NavigationFolders.Add
 ms.assetid: f88fd69a-8684-bfc4-bc20-1cff5c44974e
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# NavigationFolders.Add Method (Outlook)
+# NavigationFolders.Add method (Outlook)
 
-Adds the specified  **[Folder](Outlook.Folder.md)** , as a **[NavigationFolder](Outlook.NavigationFolder.md)** object, to the end of the **[NavigationFolders](Outlook.NavigationFolders.md)** collection.
+Adds the specified  **[Folder](Outlook.Folder.md)**, as a **[NavigationFolder](Outlook.NavigationFolder.md)** object, to the end of the **[NavigationFolders](Outlook.NavigationFolders.md)** collection.
 
 
 ## Syntax
 
- _expression_. `Add`( `_Folder_` )
+_expression_.**Add** (_Folder_)
 
- _expression_ A variable that represents a [NavigationFolders](./Outlook.NavigationFolders.md) object.
-
-
-### Parameters
+_expression_ A variable that represents a [NavigationFolders](Outlook.NavigationFolders.md) object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _Folder_|Required| **Folder**|The folder to add.|
 
-### Return Value
+## Return value
 
 A  **NavigationFolder** object that represents the new navigation folder.
 
@@ -46,3 +47,4 @@ A folder can only appear in one navigation group. When adding a  **Folder** obje
 
 [NavigationFolders Object](Outlook.NavigationFolders.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

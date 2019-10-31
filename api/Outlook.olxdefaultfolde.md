@@ -3,6 +3,7 @@ title: OlxDefaultFolders Enumeration (Outlook View Control)
 ms.prod: outlook
 ms.assetid: 92411a91-9b80-f283-a46b-19d2b9a6562e
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
@@ -12,7 +13,7 @@ Specifies the folder type for a specified folder.
 
 
 
-|**Name**|**Value**|**Description**|
+|Name|Value|Description|
 |:-----|:-----|:-----|
 | **olFolderCalendar**|9|The Calendar folder.|
 | **olFolderContacts**|10|The Contacts folder.|
@@ -25,3 +26,4 @@ Specifies the folder type for a specified folder.
 | **olFolderSentMail**|5|The Sent Mail folder.|
 | **olFolderTasks**|13|The Tasks folder.|
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

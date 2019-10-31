@@ -1,5 +1,5 @@
 ---
-title: OlFormatNumber Enumeration (Outlook)
+title: OlFormatNumber enumeration (Outlook)
 keywords: vbaol11.chm3137
 f1_keywords:
 - vbaol11.chm3137
@@ -8,16 +8,17 @@ api_name:
 - Outlook.OlFormatNumber
 ms.assetid: bffcd79c-2822-6cd8-89f9-0e1361d9bed0
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# OlFormatNumber Enumeration (Outlook)
+# OlFormatNumber enumeration (Outlook)
 
 Indicates the format used to display number Outlook item properties.
 
 
 
-|**Name**|**Value**|**Description**|
+|Name|Value|Description|
 |:-----|:-----|:-----|
 | **olFormatNumber1Decimal**|3|Displays formatted number values, including one fixed decimal place, using the group and decimal delimiters specified in the system's regional settings. For example, the value 4010.155 is displayed as "4,010.2".|
 | **olFormatNumber2Decimal**|4|Displays formatted number values, including two fixed decimal places, using the group and decimal delimiters specified in the system's regional settings. For example, the value 4010.155 is displayed as "4,010.16".|
@@ -29,3 +30,4 @@ Indicates the format used to display number Outlook item properties.
 | **olFormatNumberScientific**|5|Displays formatted number values, using scientific notation. For example, the value 1048576 is displayed as "1.049E+06".|
 | **olFormatNumberTruncated**|2|Displays formatted number values as integers, rounding all decimal values, using the group and decimal delimiters specified in the system's regional settings. For example, the value 4010.1 is displayed as "4,010". |
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

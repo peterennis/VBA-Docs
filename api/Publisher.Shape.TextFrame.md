@@ -1,5 +1,5 @@
 ---
-title: Shape.TextFrame Property (Publisher)
+title: Shape.TextFrame property (Publisher)
 keywords: vbapb10.chm2228304
 f1_keywords:
 - vbapb10.chm2228304
@@ -7,26 +7,26 @@ ms.prod: publisher
 api_name:
 - Publisher.Shape.TextFrame
 ms.assetid: fc654905-d56b-9a6c-28fa-4b54bf2a8686
-ms.date: 06/08/2017
+ms.date: 06/13/2019
+localization_priority: Normal
 ---
 
 
-# Shape.TextFrame Property (Publisher)
+# Shape.TextFrame property (Publisher)
 
-Returns a  **[TextFrame](Publisher.TextFrame.md)** object that represents the text in a shape and the properties that control the margins and orientation of the text.
+Returns a **[TextFrame](Publisher.TextFrame.md)** object that represents the text in a shape and the properties that control the margins and orientation of the text.
 
 
 ## Syntax
 
- _expression_. **TextFrame**
+_expression_.**TextFrame**
 
- _expression_ A variable that represents a  **Shape** object.
+_expression_ A variable that represents a **[Shape](Publisher.Shape.md)** object.
 
 
 ## Example
 
-The following example adds text to the text frame of shape one in the active publication, and then formats the new text. This example assumes there is at least one shape on the first page of the active publication.
-
+The following example adds text to the text frame of shape one in the active publication, and then formats the new text. This example assumes that there is at least one shape on the first page of the active publication.
 
 ```vb
 Sub AddTextToTextFrame() 
@@ -41,4 +41,4 @@ Sub AddTextToTextFrame()
 End Sub
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

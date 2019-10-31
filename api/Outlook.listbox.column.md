@@ -3,6 +3,7 @@ title: ListBox.Column Property (Outlook Forms Script)
 ms.prod: outlook
 ms.assetid: 9ad2c048-28f2-78d9-2f9d-b90c15f7967e
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
@@ -13,16 +14,16 @@ Returns or sets a  **Variant** that represents a single value, a column of value
 
 ## Syntax
 
- _expression_. **Column**(**_pvargColumn_**,  **_pvargIndex_**)
+_expression_.**Column**(**_pvargColumn_**,  **_pvargIndex_**)
 
- _expression_ A variable that represents a  **ListBox** object.
-
-
-### Parameters
+_expression_ A variable that represents a  **ListBox** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 |pvargColumn|Optional| **Variant**|An integer with a range from 0 to one less than the total number of columns.|
 |pvargIndex|Optional| **Variant**|An integer with a range from 0 to one less than the total number of rows.|
@@ -43,4 +44,4 @@ You can also use  **Column** to copy an entire two-dimensional array of values t
 
 When copying data from a two-dimensional array,  **Column** transposes the contents of the array in the control so that the contents of `ListBox1.Column(X, Y)` is the same as `MyArray(Y, X)`. You can also use the  **[List](Outlook.listbox.list.md)** property to copy an array without transposing it.
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

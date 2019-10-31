@@ -1,5 +1,5 @@
 ---
-title: Task.Activate Method (Word)
+title: Task.Activate method (Word)
 keywords: vbawd10.chm159514634
 f1_keywords:
 - vbawd10.chm159514634
@@ -8,26 +8,25 @@ api_name:
 - Word.Task.Activate
 ms.assetid: 99c9750a-35f4-ac84-649b-fc8788dc0904
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Task.Activate Method (Word)
+# Task.Activate method (Word)
 
 Activates the  **Task** object.
 
 
 ## Syntax
 
- _expression_. `Activate`( `_Wait_` )
+_expression_.**Activate** (_Wait_)
 
- _expression_ Required. A variable that represents a '[Task](Word.Task.md)' object.
-
-
-### Parameters
+_expression_ Required. A variable that represents a '[Task](Word.Task.md)' object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _Wait_|Optional| **Variant**| **True** to wait until the user has activated Word before activating the task. **False** to immediately activate the task, even if Word isn't active.|
 
@@ -55,3 +54,4 @@ End Sub
 
 [Task Object](Word.Task.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

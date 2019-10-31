@@ -1,5 +1,5 @@
 ---
-title: MailItem.Display Method (Outlook)
+title: MailItem.Display method (Outlook)
 keywords: vbaol11.chm1323
 f1_keywords:
 - vbaol11.chm1323
@@ -8,28 +8,29 @@ api_name:
 - Outlook.MailItem.Display
 ms.assetid: 19ead642-b7bd-579f-e43b-ef5c5d0cfecb
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# MailItem.Display Method (Outlook)
+# MailItem.Display method (Outlook)
 
 Displays a new  **[Inspector](Outlook.Inspector.md)** object for the item.
 
 
 ## Syntax
 
- _expression_. `Display`( `_Modal_` )
+_expression_. `Display`( `_Modal_` )
 
- _expression_ A variable that represents a [MailItem](./Outlook.MailItem.md) object.
-
-
-### Parameters
+_expression_ A variable that represents a [MailItem](Outlook.MailItem.md) object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-| _Modal_|Optional| **Variant**| **True** to make the window modal. The default value is **False** .|
+| _Modal_|Optional| **Variant**| **True** to make the window modal. The default value is **False**.|
 
 ## Remarks
 
@@ -43,7 +44,8 @@ If you attempt to open an "unsafe" file system object (or "freedoc" file) by usi
 This Visual Basic for Applications example displays the first item in the  **Inbox** folder. This example will return an error if the **Inbox** is empty, because you are trying to display a specific item. If there are no items in the folder, a message box will be displayed to inform the user.
 
 
- **Note**  The items in the  **Items** collection object are not guaranteed to be in any particular order.
+> [!NOTE] 
+> The items in the  **Items** collection object are not guaranteed to be in any particular order.
 
 
 ```vb
@@ -78,3 +80,4 @@ End Sub
 
 [MailItem Object](Outlook.MailItem.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

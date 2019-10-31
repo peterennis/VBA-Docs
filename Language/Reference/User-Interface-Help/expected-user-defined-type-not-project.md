@@ -6,12 +6,13 @@ f1_keywords:
 ms.prod: office
 ms.assetid: f84f3542-fe4b-6aa1-1d96-5c7423661070
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
 # Expected user-defined type, not project
 
-There is no [user-defined type](../../Glossary/vbe-glossary.md#user-defined-type) by this name in the current[scope](../../Glossary/vbe-glossary.md#scope), but there is a [project](../../Glossary/vbe-glossary.md#project) by this name. You can define a[variable](../../Glossary/vbe-glossary.md#variable) as having user-defined type, but not project type. This error has the following cause and solution:
+There is no [user-defined type](../../Glossary/vbe-glossary.md#user-defined-type) by this name in the current[scope](../../Glossary/vbe-glossary.md#scope), but there is a [project](../../Glossary/vbe-glossary.md#project) by this name. You can define a [variable](../../Glossary/vbe-glossary.md#variable) as having user-defined type, but not project type. This error has the following cause and solution:
 
 
 
@@ -20,3 +21,4 @@ There is no [user-defined type](../../Glossary/vbe-glossary.md#user-defined-type
 
 For additional information, select the item in question and press F1 (in Windows) or HELP (on the Macintosh).
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

@@ -1,5 +1,5 @@
 ---
-title: Shapes.AddLine Method (Word)
+title: Shapes.AddLine method (Word)
 keywords: vbawd10.chm161415182
 f1_keywords:
 - vbawd10.chm161415182
@@ -8,33 +8,32 @@ api_name:
 - Word.Shapes.AddLine
 ms.assetid: d1c609c3-d5d1-80e8-4f95-184a9a536feb
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Shapes.AddLine Method (Word)
+# Shapes.AddLine method (Word)
 
 Adds a line to a drawing canvas.
 
 
 ## Syntax
 
- _expression_. `AddLine`( `_BeginX_` , `_BeginY_` , `_EndX_` , `_EndY_` )
+_expression_.**AddLine** (_BeginX_, _BeginY_, _EndX_, _EndY_)
 
- _expression_ Required. A variable that represents a '[Shapes](Word.shapes.md)' collection.
-
-
-### Parameters
+_expression_ Required. A variable that represents a **[Shapes](Word.Shapes.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _BeginX_|Required| **Single**|The horizontal position, measured in points, of the line's starting point, relative to the drawing canvas.|
 | _BeginY_|Required| **Single**|The vertical position, measured in points, of the line's starting point, relative to the drawing canvas.|
 | _EndX_|Required| **Single**|The horizontal position, measured in points, of the line's endpoint, relative to the drawing canvas.|
 | _EndY_|Required| **Single**|The vertical position, measured in points, of the line's endpoint, relative to the drawing canvas.|
 
-### Return Value
+## Return value
 
  **[Shape](Word.Shape.md)**
 
@@ -78,3 +77,4 @@ End Sub
 
 [Shapes Collection Object](Word.shapes.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

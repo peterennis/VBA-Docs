@@ -1,29 +1,30 @@
 ---
-title: InvisibleApp.Vbe Property (Visio)
+title: InvisibleApp.VBE property (Visio)
 keywords: vis_sdr.chm17514630
 f1_keywords:
 - vis_sdr.chm17514630
 ms.prod: visio
 api_name:
-- Visio.InvisibleApp.Vbe
+- Visio.InvisibleApp.VBE
 ms.assetid: e8b6a3dc-f3f0-a680-4198-f6b7a82565ae
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# InvisibleApp.Vbe Property (Visio)
+# InvisibleApp.VBE property (Visio)
 
 Gets the root object of the object model exposed by Microsoft Visual Basic for Applications (VBA). Use this property to access and manipulate the VBA projects associated with currently open Microsoft Visio documents. Read-only.
 
 
 ## Syntax
 
- _expression_. `Vbe`
+_expression_.**VBE**
 
- _expression_ A variable that represents an [InvisibleApp](./Visio.InvisibleApp.md) object.
+_expression_ A variable that represents an **[InvisibleApp](Visio.InvisibleApp.md)** object.
 
 
-### Return Value
+## Return value
 
 Object
 
@@ -36,7 +37,7 @@ To get information about the object returned by the  **Vbe** property, follow th
 ### To get information about the object returned by the Vbe property
 
 
-1. In the  **Code** group on the[Developer](../visio/How-to/run-visio-in-developer-mode.md) tab, click **Visual Basic**.
+1. In the  **Code** group on the [Developer](../visio/How-to/run-visio-in-developer-mode.md) tab, click **Visual Basic**.
     
 2. In the Visual Basic Editor, on the  **Tools** menu, click **References**.
     
@@ -72,4 +73,4 @@ Public Sub Vbe_Example()
 End Sub
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

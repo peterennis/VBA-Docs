@@ -1,5 +1,5 @@
 ---
-title: ChartGroup.SeriesCollection Method (Word)
+title: ChartGroup.SeriesCollection method (Word)
 keywords: vbawd10.chm263454745
 f1_keywords:
 - vbawd10.chm263454745
@@ -8,22 +8,23 @@ api_name:
 - Word.ChartGroup.SeriesCollection
 ms.assetid: 4b4b7383-0967-cd2f-979c-eda9ef691459
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# ChartGroup.SeriesCollection Method (Word)
+# ChartGroup.SeriesCollection method (Word)
 
 Returns all the series in the chart group.
 
 
 ## Syntax
 
- _expression_. `SeriesCollection`( `_Index_` )
+_expression_.**SeriesCollection** (_Index_)
 
- _expression_ A variable that represents a '[ChartGroup](Word.ChartGroup.md)' object.
+_expression_ A variable that represents a **[ChartGroup](Word.ChartGroup.md)** object.
 
 
-### Return Value
+## Return value
 
 A  **[SeriesCollection](Word.SeriesCollection.md)** object that represents all the series in the chart group.
 
@@ -49,3 +50,4 @@ End With
 
 [ChartGroup Object](Word.ChartGroup.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

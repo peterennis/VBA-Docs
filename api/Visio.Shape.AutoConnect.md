@@ -1,5 +1,5 @@
 ---
-title: Shape.AutoConnect Method (Visio)
+title: Shape.AutoConnect method (Visio)
 keywords: vis_sdr.chm11260240
 f1_keywords:
 - vis_sdr.chm11260240
@@ -8,32 +8,33 @@ api_name:
 - Visio.Shape.AutoConnect
 ms.assetid: 36b634be-9943-1aec-f8e0-70467b82eed1
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Shape.AutoConnect Method (Visio)
+# Shape.AutoConnect method (Visio)
 
 Automatically draws a connection in the specified direction between the shape and another shape on the drawing page.
 
 
 ## Syntax
 
- _expression_. `AutoConnect`( `_ToShape_` , `_PlacementDir_` , `_Connector_` )
+_expression_. `AutoConnect`( `_ToShape_` , `_PlacementDir_` , `_Connector_` )
 
- _expression_ An expression that returns a [Shape](./Visio.Shape.md) object.
-
-
-### Parameters
+ _expression_ An expression that returns a **[Shape](Visio.Shape.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _ToShape_|Required| **[IVSHAPE]**|The shape to draw the connection to.|
 | _PlacementDir_|Required| **VisAutoConnectDir**|The direction in which to draw the connection. See Remarks for possible values.|
 | _Connector_|Optional| **[UNKNOWN]**|The connector to use.|
 
-### Return Value
+## Return value
 
 Nothing
 
@@ -44,11 +45,11 @@ The  **AutoConnect** method lets you automatically draw connections between shap
 
 For the ToShape parameter, pass the  **Shape** object to which you want to draw the connection.
 
-For the PlacementDir parameter, pass a value from the  **VisAutoConnectDir** enumeration to specify the connection direction?that is, where to locate the connected shape with respect to the primary shape. Possible values for PlacementDir are as follows.
+For the PlacementDir parameter, pass a value from the  **VisAutoConnectDir** enumeration to specify the connection direction; that is, where to locate the connected shape with respect to the primary shape. Possible values for PlacementDir are as follows.
 
 
 
-|**Constant**|**Value**|**Description**|
+|Constant|Value|Description|
 |:-----|:-----|:-----|
 |visAutoConnectDirDown|2|Connect down.|
 |visAutoConnectDirLeft|3|Connect to the left.|
@@ -56,7 +57,7 @@ For the PlacementDir parameter, pass a value from the  **VisAutoConnectDir** enu
 |visAutoConnectDirRight|4|Connect to the right|
 |visAutoConnectDirUp|1|Connect up.|
 
-If your Visual Studio solution includes the  **Microsoft.Office.Interop.Visio** reference, this method maps to the following types:
+If your Visual Studio solution includes the [Microsoft.Office.Interop.Visio](https://docs.microsoft.com/visualstudio/vsto/office-primary-interop-assemblies?view=vs-2019) reference, this method maps to the following types:
 
 
 -  **Microsoft.Office.Interop.Visio.IVShape.AutoConnect(Microsoft.Office.Interop.Visio.Shape, Microsoft.Office.Interop.Visio.VisAutoConnectDir, object)**
@@ -87,4 +88,4 @@ Public Sub AutoConnect_Example()
 End Sub
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

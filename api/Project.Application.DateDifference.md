@@ -1,5 +1,5 @@
 ---
-title: Application.DateDifference Method (Project)
+title: Application.DateDifference method (Project)
 keywords: vbapj.chm131207
 f1_keywords:
 - vbapj.chm131207
@@ -8,32 +8,33 @@ api_name:
 - Project.Application.DateDifference
 ms.assetid: 7f34e866-5cd3-971d-42ee-39e7768c1273
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Application.DateDifference Method (Project)
+# Application.DateDifference method (Project)
 
 Returns the duration between two dates in minutes, for an automatically scheduled task.
 
 
 ## Syntax
 
- _expression_. `DateDifference`( ` _StartDate_`, ` _FinishDate_`, ` _Calendar_` )
+_expression_. `DateDifference`( `_StartDate_`, `_FinishDate_`, `_Calendar_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
-
-
-### Parameters
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _StartDate_|Required|**Variant**|The date used as the beginning of the duration.|
 | _FinishDate_|Required|**Variant**|The date used as the end of the duration.|
 | _Calendar_|Optional|**Object**|A resource or task base calendar object. The default value is the calendar of the active project.|
 
-### Return Value
+## Return value
 
  **Long**
 
@@ -54,4 +55,4 @@ Sub FindDuration()
 End Sub
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

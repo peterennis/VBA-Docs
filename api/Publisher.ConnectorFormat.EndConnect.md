@@ -1,5 +1,5 @@
 ---
-title: ConnectorFormat.EndConnect Method (Publisher)
+title: ConnectorFormat.EndConnect method (Publisher)
 keywords: vbapb10.chm3211282
 f1_keywords:
 - vbapb10.chm3211282
@@ -7,30 +7,29 @@ ms.prod: publisher
 api_name:
 - Publisher.ConnectorFormat.EndConnect
 ms.assetid: d37c1ab2-d73a-903b-7c5d-f38a29544728
-ms.date: 06/08/2017
+ms.date: 06/06/2019
+localization_priority: Normal
 ---
 
 
-# ConnectorFormat.EndConnect Method (Publisher)
+# ConnectorFormat.EndConnect method (Publisher)
 
 Attaches the end of the specified connector to a specified shape.
 
 
 ## Syntax
 
- _expression_. **EndConnect**(**_ConnectedShape_**,  **_ConnectionSite_**)
+_expression_.**EndConnect** (_ConnectedShape_, _ConnectionSite_)
 
- _expression_ A variable that represents a  **ConnectorFormat** object.
-
-
-### Parameters
+_expression_ A variable that represents a **[ConnectorFormat](Publisher.ConnectorFormat.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-|ConnectedShape|Required| **Shape**|The shape to which Microsoft Publisher attaches the end of the connector. The specified  **Shape** object must be in the same **Shapes** collection as the connector.|
-|ConnectionSite|Required| **Long**|A connection site on the shape specified by ConnectedShape. Must be an integer between 1 and the integer returned by the  **[ConnectionSiteCount](Publisher.Shape.ConnectionSiteCount.md)** property of the specified shape. Connection sites are numbered starting from the top of the specified shape and moving counterclockwise around the shape. If you want the connector to automatically find the shortest path between the two shapes it connects, specify any valid integer for this argument and then use the **[RerouteConnections](Publisher.Shape.RerouteConnections.md)** method after the connector is attached to shapes at both ends.|
+|_ConnectedShape_|Required| **[Shape](publisher.shape.md)** |The shape to which Microsoft Publisher attaches the end of the connector. The specified **Shape** object must be in the same **Shapes** collection as the connector.|
+|_ConnectionSite_|Required| **Long**|A connection site on the shape specified by _ConnectedShape_. Must be an integer between 1 and the integer returned by the **[ConnectionSiteCount](Publisher.Shape.ConnectionSiteCount.md)** property of the specified shape.<br/><br/>Connection sites are numbered starting from the top of the specified shape and moving counterclockwise around the shape. If you want the connector to automatically find the shortest path between the two shapes it connects, specify any valid integer for this argument and then use the **[RerouteConnections](Publisher.Shape.RerouteConnections.md)** method after the connector is attached to shapes at both ends.|
 
 ## Remarks
 
@@ -38,13 +37,12 @@ If there's already a connection between the end of the connector and another sha
 
 When you attach a connector to an object, the size and position of the connector are automatically adjusted if necessary.
 
-Use the  **[BeginConnect](Publisher.ConnectorFormat.BeginConnect.md)** method to attach the beginning of the connector to a shape.
+Use the **[BeginConnect](Publisher.ConnectorFormat.BeginConnect.md)** method to attach the beginning of the connector to a shape.
 
 
 ## Example
 
-This example adds two rectangles to the first page in the active publication and connects them with a curved connector. Note that the  **RerouteConnections** method overrides the values you supply for the **_ConnectionSite_** arguments used with the **BeginConnect** and **EndConnect** methods.
-
+This example adds two rectangles to the first page in the active publication and connects them with a curved connector. Note that the **RerouteConnections** method overrides the values that you supply for the _ConnectionSite_ arguments used with the **BeginConnect** and **EndConnect** methods.
 
 ```vb
 Dim shpRect1 As Shape 
@@ -74,4 +72,4 @@ With ActiveDocument.Pages(1).Shapes
 End With
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

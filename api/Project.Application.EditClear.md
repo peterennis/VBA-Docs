@@ -1,5 +1,5 @@
 ---
-title: Application.EditClear Method (Project)
+title: Application.EditClear method (Project)
 keywords: vbapj.chm205
 f1_keywords:
 - vbapj.chm205
@@ -8,33 +8,34 @@ api_name:
 - Project.Application.EditClear
 ms.assetid: 0f87ca1c-c87c-774a-e8dd-2f4d29a40e28
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Application.EditClear Method (Project)
+# Application.EditClear method (Project)
 
 Clears the selected cells.
 
 
 ## Syntax
 
- _expression_. `EditClear`( ` _Contents_`, ` _Formats_`, ` _Notes_`, ` _Hyperlinks_` )
+_expression_. `EditClear`( `_Contents_`, `_Formats_`, `_Notes_`, `_Hyperlinks_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
-
-
-### Parameters
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _Contents_|Optional|**Boolean**|**True** if the contents of the selected cells are cleared. The default value is **True**.|
 | _Formats_|Optional|**Boolean**|**True** if the formats of the selected cells are cleared. The default value is **False**.|
 | _Notes_|Optional|**Boolean**|**True** if the notes of the assignment, resource, or task in the selected cells are cleared. The default value is **False**.|
 | _Hyperlinks_|Optional|**Boolean**|**True** if the hyperlinks associated with the selected cells are removed. The default value is **False**.|
 
-### Return Value
+## Return value
 
  **Boolean**
 
@@ -50,4 +51,4 @@ Sub ClearAll()
 End Sub
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

@@ -1,5 +1,5 @@
 ---
-title: Global.Addons Property (Visio)
+title: Global.Addons property (Visio)
 keywords: vis_sdr.chm12813060
 f1_keywords:
 - vis_sdr.chm12813060
@@ -8,22 +8,23 @@ api_name:
 - Visio.Global.Addons
 ms.assetid: 4d1cc9ae-5a9f-1a84-7550-6fe5271b88a3
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Global.Addons Property (Visio)
+# Global.Addons property (Visio)
 
 Returns the  **Addons** collection of an **Application** or **InvisibleApp** object. Read-only.
 
 
 ## Syntax
 
- _expression_. `Addons`
+_expression_.**Addons**
 
- _expression_ A variable that represents a [Global](./Visio.Global.md) object.
+_expression_ A variable that represents a **[Global](Visio.Global.md)** object.
 
 
-### Return Value
+## Return value
 
 Addons
 
@@ -37,7 +38,7 @@ The  **Addons** collection includes an **Addon** object for each add-on in the f
 
 This Microsoft Visual Basic for Applications (VBA) macro shows how to get the  **Addons** collection and add an add-on to it.
 
-Before running this macro, replace  _path\filename_ with a valid path and file name for an add-on in your Visio project.
+Before running this macro, replace `path\filename` with a valid path and file name for an add-on in your Visio project.
 
 
 
@@ -51,9 +52,9 @@ Public Sub Addons_Example()
  
  'Add an add-on to the Addons collection. 
  Set vsoAddons = Visio.Addons 
- Set vsoAddon = vsoAddons.Add("path\filename ") 
+ Set vsoAddon = vsoAddons.Add("path\filename") 
  
 End Sub
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

@@ -1,5 +1,5 @@
 ---
-title: Row Object (Outlook)
+title: Row object (Outlook)
 keywords: vbaol11.chm3167
 f1_keywords:
 - vbaol11.chm3167
@@ -8,10 +8,11 @@ api_name:
 - Outlook.Row
 ms.assetid: 06db3fa4-1649-48bf-3b86-ffdf99a47305
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Row Object (Outlook)
+# Row object (Outlook)
 
 Represents a row of data in the  **[Table](Outlook.Table.md)** object.
 
@@ -26,9 +27,9 @@ A  **Table** is composed of rows and columns. It represents a read-only dynamic 
 
  Use **[Row.GetValues](Outlook.Row.GetValues.md)** to obtain an array of values that correspond to column values at that row in the **Table**.
 
- Use the helper functions **[Row.BinaryToString](Outlook.Row.BinaryToString.md)**, **[Row.LocalTimeToUTC](Outlook.Row.LocalTimeToUTC.md)**, and **[Row.UTCToLocalTime](Outlook.Row.UTCToLocalTime.md)** to facilitate type conversion of column values at a specific row. For more information on property value representation in a **Table**, see[Factors Affecting Property Value Representation in the Table and View Classes](../outlook/How-to/Search-and-Filter/factors-affecting-property-value-representation-in-the-table-and-view-classes.md).
+ Use the helper functions **[Row.BinaryToString](Outlook.Row.BinaryToString.md)**, **[Row.LocalTimeToUTC](Outlook.Row.LocalTimeToUTC.md)**, and **[Row.UTCToLocalTime](Outlook.Row.UTCToLocalTime.md)** to facilitate type conversion of column values at a specific row. For more information on property value representation in a **Table**, see [Factors Affecting Property Value Representation in the Table and View Classes](../outlook/How-to/Search-and-Filter/factors-affecting-property-value-representation-in-the-table-and-view-classes.md).
 
- Although additions and deletions of the underlying folder are reflected by the rows in the **Table**, the **Table** does not support any events for adding, changing, and removing of rows. If you require a writeable object from the **Table** row, obtain the Entry ID for that row from the default EntryID column in the **Table** and then use the **[GetItemFromID](Outlook.NameSpace.GetItemFromID.md)** method of the **[NameSpace](Outlook.NameSpace.md)** object to obtain a full item, such as a **[MailItem](Outlook.MailItem.md)** or **[ContactItem](Outlook.ContactItem.md)**, that supports read-write operations. For more information on default columns in a **Table**, see[Default Properties Displayed in a Table Object](../outlook/How-to/Search-and-Filter/default-properties-displayed-in-a-table-object.md).
+ Although additions and deletions of the underlying folder are reflected by the rows in the **Table**, the **Table** does not support any events for adding, changing, and removing of rows. If you require a writeable object from the **Table** row, obtain the Entry ID for that row from the default EntryID column in the **Table** and then use the **[GetItemFromID](Outlook.NameSpace.GetItemFromID.md)** method of the **[NameSpace](Outlook.NameSpace.md)** object to obtain a full item, such as a **[MailItem](Outlook.MailItem.md)** or **[ContactItem](Outlook.ContactItem.md)**, that supports read-write operations. For more information on default columns in a **Table**, see [Default Properties Displayed in a Table Object](../outlook/How-to/Search-and-Filter/default-properties-displayed-in-a-table-object.md).
 
 
 ## Example
@@ -81,7 +82,7 @@ Sub DemoTable()
  
  'PR_ATTR_HIDDEN referenced by the MAPI proptag namespace 
  
- .Add ("https://schemas.microsoft.com/mapi/proptag/0x10F4000B") 
+ .Add ("http://schemas.microsoft.com/mapi/proptag/0x10F4000B") 
  
  End With 
  
@@ -97,7 +98,7 @@ Sub DemoTable()
  
  Debug.Print (oRow("LastModificationTime")) 
  
- Debug.Print (oRow("https://schemas.microsoft.com/mapi/proptag/0x10F4000B")) 
+ Debug.Print (oRow("http://schemas.microsoft.com/mapi/proptag/0x10F4000B")) 
  
  Loop 
  
@@ -109,7 +110,7 @@ End Sub
 
 
 
-|**Name**|
+|Name|
 |:-----|
 |[BinaryToString](Outlook.Row.BinaryToString.md)|
 |[GetValues](Outlook.Row.GetValues.md)|
@@ -121,7 +122,7 @@ End Sub
 
 
 
-|**Name**|
+|Name|
 |:-----|
 |[Application](Outlook.Row.Application.md)|
 |[Class](Outlook.Row.Class.md)|
@@ -131,4 +132,6 @@ End Sub
 ## See also
 
 
-[Outlook Object Model Reference](./overview/Outlook/object-model.md)
+[Outlook Object Model Reference](overview/Outlook/object-model.md)
+
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

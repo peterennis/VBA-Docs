@@ -1,5 +1,5 @@
 ---
-title: SignatureProvider.ShowSignatureSetup Method (Office)
+title: SignatureProvider.ShowSignatureSetup method (Office)
 keywords: vbaof11.chm287002
 f1_keywords:
 - vbaof11.chm287002
@@ -7,46 +7,47 @@ ms.prod: office
 api_name:
 - Office.SignatureProvider.ShowSignatureSetup
 ms.assetid: 458efe65-acb8-f329-7ca4-b0a316869c13
-ms.date: 06/08/2017
+ms.date: 01/24/2019
+localization_priority: Normal
 ---
 
 
-# SignatureProvider.ShowSignatureSetup Method (Office)
+# SignatureProvider.ShowSignatureSetup method (Office)
 
-Provides a signature provider add-in the opportunity to display the  **Signature Setup** dialog box to the user.
+Provides a signature provider add-in the opportunity to display the **Signature Setup** dialog box to the user.
 
 
 ## Syntax
 
- _expression_. `ShowSignatureSetup`( `_ParentWindow_`, `_psigsetup_` )
+_expression_.**ShowSignatureSetup**(_ParentWindow_, _psigsetup_)
 
- _expression_ An expression that returns a [SignatureProvider](./Office.SignatureProvider.md) object.
-
-
-### Parameters
+_expression_ An expression that returns a **[SignatureProvider](Office.SignatureProvider.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-| _ParentWindow_|Required|**IOleWindow**|Contains the handle to the window containing the  **Signature Setup** dialog box.|
+| _ParentWindow_|Required|**IOleWindow**|Contains the handle to the window containing the **Signature Setup** dialog box.|
 | _psigsetup_|Required|**SignatureSetup**|Specifies initial settings of the signature provider.|
 
 ## Remarks
 
-This method is used for both the insertion time configuration process and if a user later wants to re-configure the signature line. You display the  **Signature Setup** dialog box during this callback and wait for the user to select **OK** or **Cancel**. It is not necessary to display a dialog box for signature setup unless you specifically need information from the author about the signature line. If you can provide all of the necessary details back to Microsoft Office without user input, then no dialog is necessary.
+This method is used for both the insertion time configuration process and if a user later wants to re-configure the signature line. You display the **Signature Setup** dialog box during this callback and wait for the user to select **OK** or **Cancel**. 
+
+It is not necessary to display a dialog box for signature setup unless you specifically need information from the author about the signature line. If you can provide all of the necessary details back to Microsoft Office without user input, no dialog is necessary.
 
 
 ## Example
 
-The following example, written in C#, shows the implementation of the  **ShowSignatureSetup** method in a custom signature provider project.
+The following example, written in C#, shows the implementation of the **ShowSignatureSetup** method in a custom signature provider project.
 
 
-```vb
+```cs
  public void ShowSignatureSetup(object parentWindow, SignatureSetup sigsetup) 
  { 
  bool firstInit = string.IsNullOrEmpty(sigsetup.AdditionalXml); 
- if (sigsetup != null &amp;&amp; !sigsetup.ReadOnly &amp;&amp; firstInit) 
+ if (sigsetup != null && !sigsetup.ReadOnly && firstInit) 
  { 
  sigsetup.SigningInstructions = "Please sign this document."; 
  sigsetup.ShowSignDate = true; 
@@ -58,7 +59,7 @@ The following example, written in C#, shows the implementation of the  **ShowSig
  using (SignatureSetupForm sigsetupForm = new SignatureSetupForm(sigsetup)) 
  { 
  sigsetupForm.ShowDialog(window); 
- if (!sigsetupForm.success &amp;&amp; firstInit) 
+ if (!sigsetupForm.success && firstInit) 
  throw new System.Runtime.InteropServices.COMException("Canceled", -2147467260 /*E_ABORT*/); 
  } 
  } 
@@ -72,10 +73,8 @@ The following example, written in C#, shows the implementation of the  **ShowSig
 
 ## See also
 
-
-[SignatureProvider Object](Office.SignatureProvider.md)
-
+- [SignatureProvider object members](overview/Library-Reference/signatureprovider-members-office.md)
 
 
-[SignatureProvider Object Members](./overview/Library-Reference/signatureprovider-members-office.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

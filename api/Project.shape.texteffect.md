@@ -1,19 +1,20 @@
 ---
-title: Shape.TextEffect Property (Project)
+title: Shape.TextEffect property (Project)
 ms.prod: project-server
 ms.assetid: 12fa0951-e3a5-807e-bebb-bff82650d200
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Shape.TextEffect Property (Project)
-Gets text formatting properties for the shape. Read-only  **[TextEffectFormat](https://msdn.microsoft.com/en-us/library/office/ff834714%28v=office.15%29)**.
+# Shape.TextEffect property (Project)
+Gets text formatting properties for the shape. Read-only  **[TextEffectFormat](https://msdn.microsoft.com/library/office/ff834714%28v=office.15%29)**.
 
 ## Syntax
 
- _expression_. `TextEffect`
+_expression_.**TextEffect**
 
- _expression_ A variable that represents a 'Shape' object.
+_expression_ A variable that represents a **[Shape](Project.Shape.md)** object.
 
 
 ## Example
@@ -56,4 +57,6 @@ End Sub
 
 [Shape Object](Project.shape.md)
 [ShapeRange.TextEffect Property](Project.shaperange.texteffect.md)
-[TextEffectFormat](https://msdn.microsoft.com/en-us/library/office/ff834714%28v=office.15%29)
+[TextEffectFormat](https://msdn.microsoft.com/library/office/ff834714%28v=office.15%29)
+
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

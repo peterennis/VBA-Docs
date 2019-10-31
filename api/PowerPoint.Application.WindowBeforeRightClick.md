@@ -1,5 +1,5 @@
 ---
-title: Application.WindowBeforeRightClick Event (PowerPoint)
+title: Application.WindowBeforeRightClick event (PowerPoint)
 keywords: vbapp10.chm621002
 f1_keywords:
 - vbapp10.chm621002
@@ -8,26 +8,27 @@ api_name:
 - PowerPoint.Application.WindowBeforeRightClick
 ms.assetid: e6239915-f487-3619-c84f-d436d645e6c0
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Application.WindowBeforeRightClick Event (PowerPoint)
+# Application.WindowBeforeRightClick event (PowerPoint)
 
 Occurs when you right-click a shape, a slide, a notes page, or some text. This event is triggered by the  **MouseUp** event.
 
 
 ## Syntax
 
- _expression_. `WindowBeforeRightClick`( `_Sel_`, `_Cancel_` )
+_expression_. `WindowBeforeRightClick`( `_Sel_`, `_Cancel_` )
 
- _expression_ A variable that represents an [Application](./PowerPoint.Application.md) object.
-
-
-### Parameters
+_expression_ A variable that represents an **[Application](PowerPoint.Application.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _Sel_|Required|**Selection**|The selection below the mouse pointer when the right-click occurred.|
 | _Cancel_|Required|**Boolean**|**False** when the event occurs. If the event procedure sets this argument to **True**, the default context menu does not appear when the procedure is finished.|
@@ -65,3 +66,4 @@ End Sub
 
 [Application Object](PowerPoint.Application.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

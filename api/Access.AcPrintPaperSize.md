@@ -1,5 +1,5 @@
 ---
-title: AcPrintPaperSize Enumeration (Access)
+title: AcPrintPaperSize enumeration (Access)
 keywords: vbaac10.chm13247
 f1_keywords:
 - vbaac10.chm13247
@@ -8,16 +8,17 @@ api_name:
 - Access.AcPrintPaperSize
 ms.assetid: 16730547-b26d-852d-88d2-39a7a66a5463
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# AcPrintPaperSize Enumeration (Access)
+# AcPrintPaperSize enumeration (Access)
 
-Used with the  **PaperSize** property to indicate the paper size to use when printing.
+Used with the **PaperSize** property to indicate the paper size to use when printing.
 
+<br/>
 
-
-|**Name**|**Value**|**Description**|
+|Name|Value|Description|
 |:-----|:-----|:-----|
 |**acPRPS10x14**|16|10 x 14 in.|
 |**acPRPS11x17**|17|11 x 17 in. |
@@ -62,3 +63,4 @@ Used with the  **PaperSize** property to indicate the paper size to use when pri
 |**acPRPSTabloid**|3|Tabloid (11 in. x 17 in.)|
 |**acPRPSUser**|256|User-defined|
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

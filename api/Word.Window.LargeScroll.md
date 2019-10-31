@@ -1,5 +1,5 @@
 ---
-title: Window.LargeScroll Method (Word)
+title: Window.LargeScroll method (Word)
 keywords: vbawd10.chm157417575
 f1_keywords:
 - vbawd10.chm157417575
@@ -8,26 +8,27 @@ api_name:
 - Word.Window.LargeScroll
 ms.assetid: 380be0f2-dccf-7382-8fde-631ace1c5fee
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Window.LargeScroll Method (Word)
+# Window.LargeScroll method (Word)
 
 Scrolls a window or pane by the specified number of screens.
 
 
 ## Syntax
 
- _expression_. `LargeScroll`( `_Down_` , `_Up_` , `_ToRight_` , `_ToLeft_` )
+_expression_.**LargeScroll** (_Down_, _Up_, _ToRight_, _ToLeft_)
 
- _expression_ Required. A variable that represents a '[Window](Word.Window.md)' object.
-
-
-### Parameters
+_expression_ Required. A variable that represents a **[Window](Word.Window.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _Down_|Optional| **Variant**|The number of screens to scroll the window down.|
 | _Up_|Optional| **Variant**|The number of screens to scroll the window up.|
@@ -70,3 +71,4 @@ End With
 
 [Window Object](Word.Window.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

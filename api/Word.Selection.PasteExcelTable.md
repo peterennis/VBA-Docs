@@ -1,5 +1,5 @@
 ---
-title: Selection.PasteExcelTable Method (Word)
+title: Selection.PasteExcelTable method (Word)
 keywords: vbawd10.chm158663670
 f1_keywords:
 - vbawd10.chm158663670
@@ -8,26 +8,27 @@ api_name:
 - Word.Selection.PasteExcelTable
 ms.assetid: bfa7f82c-e5c0-3919-f492-a71c9eabb919
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Selection.PasteExcelTable Method (Word)
+# Selection.PasteExcelTable method (Word)
 
 Pastes and formats a Microsoft Excel table.
 
 
 ## Syntax
 
- _expression_. `PasteExcelTable`( `_LinkedToExcel_` , `_WordFormatting_` , `_RTF_` )
+_expression_. `PasteExcelTable`( `_LinkedToExcel_` , `_WordFormatting_` , `_RTF_` )
 
- _expression_ Required. A variable that represents a '[Selection](Word.Selection.md)' object.
-
-
-### Parameters
+_expression_ Required. A variable that represents a **[Selection](Word.Selection.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _LinkedToExcel_|Required| **Boolean**| **True** links the pasted table to the original Excel file so that changes made to the Excel file are reflected in Microsoft Word.|
 | _WordFormatting_|Required| **Boolean**| **True** formats the table using the formatting in the Word document. **False** formats the table according to the original Excel file.|
@@ -53,3 +54,4 @@ End Sub
 
 [Selection Object](Word.Selection.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

@@ -1,5 +1,5 @@
 ---
-title: Application.TimelineExport Method (Project)
+title: Application.TimelineExport method (Project)
 keywords: vbapj.chm66
 f1_keywords:
 - vbapj.chm66
@@ -8,31 +8,32 @@ api_name:
 - Project.Application.TimelineExport
 ms.assetid: a2829e86-5b83-0076-33a3-4c10040ffc17
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Application.TimelineExport Method (Project)
+# Application.TimelineExport method (Project)
 
 Copies an image of the active Timeline view to the Clipboard, for pasting into other applications.
 
 
 ## Syntax
 
- _expression_. `TimelineExport`( ` _SelectionOnly_`, ` _ExportWidth_` )
+_expression_. `TimelineExport`( `_SelectionOnly_`, `_ExportWidth_` )
 
- _expression_ An expression that returns an [Application](./Project.Application.md) object.
-
-
-### Parameters
+ _expression_ An expression that returns an **[Application](Project.Application.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _SelectionOnly_|Optional|**Boolean**|**True** if the exported timeline includes only the selected items; otherwise, **False**. The default is **False**, where the entire visible timeline is exported.|
 | _ExportWidth_|Optional|**Long**|Specifies the approximate width in pixels of the exported timeline. Values can effectively range from 100 to 10,000. The default value is the actual width of the Timeline pane in Project.|
 
-### Return Value
+## Return value
 
  **Boolean**
 
@@ -40,7 +41,8 @@ Copies an image of the active Timeline view to the Clipboard, for pasting into o
 ## Remarks
 
 
- **Note**  The Timeline view must be selected.
+> [!NOTE] 
+> The Timeline view must be selected.
 
 Selecting a task in the Gantt chart does not select the same task on the timeline. To select items for export, click or control-click them on the timeline.
 
@@ -67,7 +69,7 @@ The following statement corresponds to the  **For Presentation** command in the 
 TimelineExport ExportWidth:=916
 ```
 
-The following statement corresponds to the  **For E-mail** command in the **Copy Timeline** drop-down menu. The actual width of the exported image is 554 pixels.
+The following statement corresponds to the  **For Email** command in the **Copy Timeline** drop-down menu. The actual width of the exported image is 554 pixels.
 
 
 
@@ -76,4 +78,4 @@ The following statement corresponds to the  **For E-mail** command in the **Copy
 TimelineExport ExportWidth:=600
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

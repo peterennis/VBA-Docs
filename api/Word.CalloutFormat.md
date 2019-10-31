@@ -1,5 +1,5 @@
 ---
-title: CalloutFormat Object (Word)
+title: CalloutFormat object (Word)
 keywords: vbawd10.chm2501
 f1_keywords:
 - vbawd10.chm2501
@@ -8,10 +8,11 @@ api_name:
 - Word.CalloutFormat
 ms.assetid: d54764e6-d761-582b-aa0a-baebd3a7cf6a
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# CalloutFormat Object (Word)
+# CalloutFormat object (Word)
 
 Contains properties and methods that apply to line callouts.
 
@@ -31,10 +32,29 @@ With ActiveDocument.Shapes(3).Callout
 End With
 ```
 
+## Methods
+
+- [CustomDrop](Word.CalloutFormat.CustomDrop.md)
+- [CustomLength](Word.CalloutFormat.CustomLength.md)
+- [PresetDrop](Word.CalloutFormat.PresetDrop.md)
+
+## Properties
+
+- [Accent](Word.CalloutFormat.Accent.md)
+- [Angle](Word.CalloutFormat.Angle.md)
+- [Application](Word.CalloutFormat.Application.md)
+- [AutoLength](Word.CalloutFormat.AutoLength.md)
+- [Border](Word.CalloutFormat.Border.md)
+- [Creator](Word.CalloutFormat.Creator.md)
+- [Drop](Word.CalloutFormat.Drop.md)
+- [DropType](Word.CalloutFormat.DropType.md)
+- [Gap](Word.CalloutFormat.Gap.md)
+- [Length](Word.CalloutFormat.Length.md)
+- [Parent](Word.CalloutFormat.Parent.md)
+- [Type](Word.CalloutFormat.Type.md)
 
 ## See also
 
+- [Word Object Model Reference](overview/Word/object-model.md)
 
-[Word Object Model Reference](./overview/Word/object-model.md)
-
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

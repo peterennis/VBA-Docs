@@ -3,6 +3,7 @@ title: Specifying Form Regions in the Windows Registry
 ms.prod: outlook
 ms.assetid: 0de3fcb1-b357-8300-c943-9a5a788d4976
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
@@ -43,9 +44,8 @@ There are a few ways to specify this information about the form region in the re
 
 Outlook allows you to customize the standard form for each of the Outlook message classes by adding adjoining form regions or separate form regions to the form. The following table shows the standard forms and corresponding message classes in Outlook. 
 
-
-
 | **Standard Form**| **Message Class**|
+| :--- | :--- |
 |Appointment| **IPM.Appointment**|
 |Contact| **IPM.Contact**|
 |Journal Entry| **IPM.Activity**|
@@ -75,10 +75,10 @@ After the form regions are installed on a client computer, form users can furthe
 
 The following is an example of the XML for a form region for a derived message class, **IPM.Contact.MapUser**. The form region is applied to all users on a computer. The XML file, map.xml, is located in c:\Form Regions.
 
-To register the form region, create the following key in the Windows registry:
+To register the form region, create the following value in the Windows registry:
 
-
-
+|     |     |
+| --- | --- |
 | **Key**|HKEY_LOCAL_MACHINE\Software\Microsoft\Office\Outlook\FormRegions\IPM.Contact.MapUser|
 | **Name**|MapTab|
 | **Type**|REG_SZ|
@@ -92,7 +92,7 @@ The following lists the content of map.xml:
 
 ```xml
 <?xml version="1.0"?> 
-<FormRegion xmlns="https://schemas.microsoft.com/office/outlook/12/formregion.xsd">   
+<FormRegion xmlns="http://schemas.microsoft.com/office/outlook/12/formregion.xsd">   
     <!-- Internal name --> 
     <name>MapTab</name> 
     <!-- Display name --> 
@@ -110,4 +110,4 @@ The following lists the content of map.xml:
 
 The form region is added to the form as a page following the last non-hidden built-in page in the Contact form (normally, this would follow the **All Fields** page). The page is titled **Directions** and has an internal programmatic name "MapTab". Map.xml specifies a layout file and an icon file. Note that all file paths in the xml file can be specified as full file paths, or paths relative to the location of the form region XML manifest file.
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

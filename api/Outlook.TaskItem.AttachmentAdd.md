@@ -1,30 +1,31 @@
 ---
-title: TaskItem.AttachmentAdd Event (Outlook)
+title: TaskItem.AttachmentAdd event (Outlook)
 ms.prod: outlook
 api_name:
 - Outlook.TaskItem.AttachmentAdd
 ms.assetid: 989c0e3c-ad11-8017-3b0f-f5e3636c3de6
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# TaskItem.AttachmentAdd Event (Outlook)
+# TaskItem.AttachmentAdd event (Outlook)
 
 Occurs when an attachment has been added to an instance of the parent object.
 
 
 ## Syntax
 
- _expression_. `AttachmentAdd`( `_Attachment_` )
+_expression_. `AttachmentAdd`( `_Attachment_` )
 
- _expression_ A variable that represents a [TaskItem](./Outlook.TaskItem.md) object.
-
-
-### Parameters
+_expression_ A variable that represents a [TaskItem](Outlook.TaskItem.md) object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _Attachment_|Required| **[Attachment](Outlook.Attachment.md)**|The  **Attachment** that was added to the item.|
 
@@ -81,3 +82,4 @@ End Sub
 
 [TaskItem Object](Outlook.TaskItem.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

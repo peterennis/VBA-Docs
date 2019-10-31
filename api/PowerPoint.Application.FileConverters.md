@@ -1,5 +1,5 @@
 ---
-title: Application.FileConverters Property (PowerPoint)
+title: Application.FileConverters property (PowerPoint)
 keywords: vbapp10.chm502060
 f1_keywords:
 - vbapp10.chm502060
@@ -8,26 +8,27 @@ api_name:
 - PowerPoint.Application.FileConverters
 ms.assetid: 2eaa06eb-e32c-cf07-03a2-880048468188
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Application.FileConverters Property (PowerPoint)
+# Application.FileConverters property (PowerPoint)
 
 Returns information about installed file converters. Returns  **null** if there are no converters installed. Read-only **Variant**.
 
 
 ## Syntax
 
- _expression_. `FileConverters`( `_Index1_`, `_Index2_` )
+_expression_. `FileConverters`( `_Index1_`, `_Index2_` )
 
- _expression_ A variable that represents an [Application](./PowerPoint.Application.md) object.
-
-
-### Parameters
+_expression_ A variable that represents an **[Application](PowerPoint.Application.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _Index1_|Optional|**Variant**|The long name of the converter, including the file-type search string in Windows (for example, "Lotus 1-2-3 Files (*.wk*)").|
 | _Index2_|Optional|**Variant**|The path of the converter DLL or code resource.|
@@ -87,3 +88,4 @@ End If
 
 [Application Object](PowerPoint.Application.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

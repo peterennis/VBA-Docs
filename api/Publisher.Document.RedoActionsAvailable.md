@@ -1,5 +1,5 @@
 ---
-title: Document.RedoActionsAvailable Property (Publisher)
+title: Document.RedoActionsAvailable property (Publisher)
 keywords: vbapb10.chm196727
 f1_keywords:
 - vbapb10.chm196727
@@ -7,37 +7,35 @@ ms.prod: publisher
 api_name:
 - Publisher.Document.RedoActionsAvailable
 ms.assetid: 9af11772-e807-730a-89a0-da06e979f834
-ms.date: 06/08/2017
+ms.date: 06/06/2019
+localization_priority: Normal
 ---
 
 
-# Document.RedoActionsAvailable Property (Publisher)
+# Document.RedoActionsAvailable property (Publisher)
 
-Returns the number of actions available on the redo stack. Read-only  **Long**.
+Returns the number of actions available on the redo stack. Read-only **Long**.
 
 
 ## Syntax
 
- _expression_. **RedoActionsAvailable**
+_expression_.**RedoActionsAvailable**
 
- _expression_ A variable that represents a  **Document** object.
+_expression_ A variable that represents a **[Document](Publisher.Document.md)** object.
 
 
-### Return Value
+## Return value
 
 Long
 
 
 ## Example
 
-The following example adds a rectangle that contains a text frame to the fourth page of the active publication. Some font properties and the text of the text frame are set. A test is then run to determine whether the font in the text frame is Courier. If so, the  **[Undo](Publisher.Document.Undo(method).md)** method is used with the value of the **[UndoActionsAvailable](Publisher.Document.UndoActionsAvailable.md)** property passed as a parameter to specify that all previous actions be undone.
+The following example adds a rectangle that contains a text frame to the fourth page of the active publication. Some font properties and the text of the text frame are set. A test is then run to determine whether the font in the text frame is Courier. If so, the **[Undo](Publisher.Document.Undo(method).md)** method is used with the value of the **[UndoActionsAvailable](Publisher.Document.UndoActionsAvailable.md)** property passed as a parameter to specify that all previous actions be undone.
 
-The  **[Redo](Publisher.Document.Redo(method).md)** method is then used with the value of the **RedoActionsAvailable** property minus 2 passed as a parameter to redo all actions except for the last two. A new font is specified for the text in the text frame, in addition to new text.
+The **[Redo](Publisher.Document.Redo(method).md)** method is then used with the value of the **RedoActionsAvailable** property minus 2 passed as a parameter to redo all actions except for the last two. A new font is specified for the text in the text frame, in addition to new text.
 
-This example assumes the active document contains at least four pages.
-
-
-
+This example assumes that the active document contains at least four pages.
 
 ```vb
 Dim thePage As page 
@@ -74,4 +72,4 @@ With theDoc
 End With
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

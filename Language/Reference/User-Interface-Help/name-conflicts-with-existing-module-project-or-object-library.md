@@ -6,12 +6,13 @@ f1_keywords:
 ms.prod: office
 ms.assetid: 0096e260-4af8-e133-1d64-6e606f371df2
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
 # Name conflicts with existing module, project, or object library
 
-[Modules](../../Glossary/vbe-glossary.md#module), [object libraries](../../Glossary/vbe-glossary.md#object-library), and [referenced projects](../../Glossary/vbe-glossary.md#referenced-project) must be uniquely named within a[project](../../Glossary/vbe-glossary.md#project). This error has the following causes and solutions:
+[Modules](../../Glossary/vbe-glossary.md#module), [object libraries](../../Glossary/vbe-glossary.md#object-library), and [referenced projects](../../Glossary/vbe-glossary.md#referenced-project) must be uniquely named within a [project](../../Glossary/vbe-glossary.md#project). This error has the following causes and solutions:
 
 
 
@@ -22,3 +23,4 @@ ms.date: 06/08/2017
 
 For additional information, select the item in question and press F1 (in Windows) or HELP (on the Macintosh).
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

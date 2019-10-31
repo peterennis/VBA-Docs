@@ -1,36 +1,37 @@
 ---
-title: ReportTable.GetCellText Method (Project)
+title: ReportTable.GetCellText method (Project)
 keywords: vbapj.chm132692
 f1_keywords:
 - vbapj.chm132692
 ms.prod: project-server
 ms.assetid: dcdcbd8d-28e8-eb4e-e0cd-8caac511ade3
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# ReportTable.GetCellText Method (Project)
+# ReportTable.GetCellText method (Project)
 Returns the text value of the specified cell in a  **ReportTable** object.
 
 ## Syntax
 
- _expression_. `GetCellText` _(Row,_ _Col)_
+_expression_. `GetCellText` _(Row,_ _Col)_
 
- _expression_ A variable that represents a 'ReportTable' object.
-
-
-### Parameters
+_expression_ A variable that represents a 'ReportTable' object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _Row_|Required|**Long**|The row number in the table.|
 | _Col_|Required|**Long**|The column number in the table.|
 | _Row_|Required|INT||
 | _Col_|Required|INT||
 
-### Return value
+## Return value
 
  **String**
 
@@ -44,7 +45,7 @@ The returned string ends with a newline character ( `chr(10)`, which is equivale
 
 ## Example
 
-The  **GetTableText** example finds all of the tables on the active report, gets the value of each cell in a table, removes the last character of each value (the newline character), and then prints the table cell values to the Immediate window in the VBE. To use the **GetTableText** macro, create a project with values such as the example that is specified in the[Chart Object](Project.chart.md) topic, and then do the following steps (see Figure 1):
+The  **GetTableText** example finds all of the tables on the active report, gets the value of each cell in a table, removes the last character of each value (the newline character), and then prints the table cell values to the Immediate window in the VBE. To use the **GetTableText** macro, create a project with values such as the example that is specified in the [Chart Object](Project.chart.md) topic, and then do the following steps (see Figure 1):
 
 
 1. Manually create a report. For example, on the  **PROJECT** tab of the ribbon, in the **Reports** drop-down list, choose **More Reports**. In the  **Reports** dialog box, choose **New** in the left pane, choose **Blank** in the right pane, and then choose **Select**. In the  **Report Name** dialog box, typeReport 1.
@@ -60,9 +61,7 @@ The  **GetTableText** example finds all of the tables on the active report, gets
 
 **Figure 1. The sample report contains two tables and three text boxes**
 
-![Report with two tables and three text boxes](../images/pj15_VBA_ReportTable_GetCellText.gif)?
-
-
+![Report with two tables and three text boxes](../images/pj15_VBA_ReportTable_GetCellText.gif)
 
 
 ```vb
@@ -130,3 +129,5 @@ Table name: Table 3
 
 [ReportTable Object](Project.reporttable.md)
 [ID Property](Project.shape.id.md)
+
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

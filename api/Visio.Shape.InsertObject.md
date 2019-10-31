@@ -1,5 +1,5 @@
 ---
-title: Shape.InsertObject Method (Visio)
+title: Shape.InsertObject method (Visio)
 keywords: vis_sdr.chm11216370
 f1_keywords:
 - vis_sdr.chm11216370
@@ -8,31 +8,32 @@ api_name:
 - Visio.Shape.InsertObject
 ms.assetid: 7abc6e96-6822-7237-b695-36f297a076fc
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Shape.InsertObject Method (Visio)
+# Shape.InsertObject method (Visio)
 
 Adds a new embedded object or ActiveX control to a page, master, or group.
 
 
 ## Syntax
 
- _expression_. `InsertObject`( `_ClassOrProgID_` , `_Flags_` )
+_expression_. `InsertObject`( `_ClassOrProgID_` , `_Flags_` )
 
- _expression_ A variable that represents a [Shape](./Visio.Shape.md) object.
-
-
-### Parameters
+_expression_ A variable that represents a **[Shape](Visio.Shape.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _ClassOrProgID_|Required| **String**|Identifies the type of object or control to create.|
 | _Flags_|Required| **Integer**|Flags that influence the operation.|
 
-### Return Value
+## Return value
 
 Shape
 
@@ -56,10 +57,10 @@ The  _Flags_ argument is a bitmask that can include one of the following values.
 
 
 
-|**Constant**|**Value**|**Description**|
+|Constant|Value|Description|
 |:-----|:-----|:-----|
-| **visInsertIcon**|&;H10|Displays the new shape as an icon.|
-| **visInsertDontShow**|&;H1000|Does not execute the new object's show verb.|
+| **visInsertIcon**|&H10|Displays the new shape as an icon.|
+| **visInsertDontShow**|&H1000|Does not execute the new object's show verb.|
 
 If both  **visInsertIcon** and **visInsertDontShow** are specified, the **InsertObject** method fails. If you want to insert an object that is displayed as an icon, you must allow the application to execute the object's show verb.
 
@@ -67,19 +68,19 @@ The  _Flags_ argument can also include one of the following values.
 
 
 
-|**Constant**|**Value**|
+|Constant|Value|
 |:-----|:-----|
-| **visInsertAsControl**|&;H2000|
-| **visInsertAsEmbed**|&;H4000|
+| **visInsertAsControl**|&H2000|
+| **visInsertAsEmbed**|&H4000|
 
 Values in  **visInsertAsControl** and **visInsertAsEmbed** only have an effect if the class identified by _ClassOrProgID_ is identified in the registry as a control that can be inserted. If neither **visInsertAsControl** nor **visInsertAsEmbed** is specified and the object can be either a control or an embedded object, the application inserts it as a control.
 
 In rare cases, Visio 5.0 or later versions may insert a control whereas earlier versions of Visio would have responded to the same call by inserting an embedded object. If a control is inserted, this method places the document in design mode, causing any code executing in the document to halt until the document is returned to run mode.
 
 > [!CAUTION] 
-> Use caution when you are adding ActiveX controls to your application. ActiveX controls may be designed in such a way that their use could pose a security risk. We recommend that you use controls from trusted sources only. Sign any controls you author.
+> Use caution when you are adding ActiveX controls to your application. ActiveX controls may be designed in such a way that their use could pose a security risk. We recommend that you use controls from trusted sources only. Sign any controls that you author.
 
-> [!CAUTION] 
-> Modifying the registry in any manner, whether through the Registry Editor or programmatically, always carries some degree of risk. Incorrect modification can cause serious problems that may require you to reinstall your operating system. It is a good practice to always back up a computer's registry first before modifying it. If you are running Microsoft Windows NT or Microsoft Windows 2000, you should also update your Emergency Repair Disk (ERD).
+> [!WARNING] 
+> Modifying the Windows registry in any manner, whether through the Registry Editor or programmatically, always carries some degree of risk. Incorrect modification can cause serious problems that may require you to reinstall your operating system. It is a good practice to always back up a computer's registry first before modifying it. 
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

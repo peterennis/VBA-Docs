@@ -1,5 +1,5 @@
 ---
-title: ResampleMediaTasks.Item Method (PowerPoint)
+title: ResampleMediaTasks.Item method (PowerPoint)
 keywords: vbapp10.chm728001
 f1_keywords:
 - vbapp10.chm728001
@@ -8,30 +8,31 @@ api_name:
 - PowerPoint.ResampleMediaTasks.Item
 ms.assetid: b4854abe-bde9-28b0-206b-52d7f4de5603
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# ResampleMediaTasks.Item Method (PowerPoint)
+# ResampleMediaTasks.Item method (PowerPoint)
 
 Returns a single  **ResampleMediaTask** object from the specified **ResampleMediaTasks** collection.
 
 
 ## Syntax
 
- _expression_. `Item`( `_Index_` )
+_expression_.**Item** (_Index_)
 
- _expression_ A variable that represents a [ResampleMediaTasks](./PowerPoint.ResampleMediaTasks.md) object.
-
-
-### Parameters
+_expression_ A variable that represents a [ResampleMediaTasks](PowerPoint.ResampleMediaTasks.md) object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _Index_|Required|**Integer**|The index number of the single  **ResampleMediaTask** object in the collection to be returned.|
 
-### Return Value
+## Return value
 
 ResampleMediaTask
 
@@ -41,3 +42,4 @@ ResampleMediaTask
 
 [ResampleMediaTasks Object](PowerPoint.ResampleMediaTasks.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

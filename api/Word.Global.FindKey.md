@@ -1,5 +1,5 @@
 ---
-title: Global.FindKey Property (Word)
+title: Global.FindKey property (Word)
 keywords: vbawd10.chm163119175
 f1_keywords:
 - vbawd10.chm163119175
@@ -8,26 +8,27 @@ api_name:
 - Word.Global.FindKey
 ms.assetid: 79203ae9-dcc9-ffb1-d974-0eb814268d6e
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Global.FindKey Property (Word)
+# Global.FindKey property (Word)
 
 Returns a  **[KeyBinding](Word.KeyBinding.md)** object that represents the specified key combination. Read-only.
 
 
 ## Syntax
 
- _expression_. `FindKey`( `_KeyCode_` , `_KeyCode2_` )
+_expression_. `FindKey`( `_KeyCode_` , `_KeyCode2_` )
 
- _expression_ A variable that represents a '[Global](Word.Global.md)' object. Optional.
-
-
-### Parameters
+_expression_ A variable that represents a '[Global](Word.Global.md)' object. Optional.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _KeyCode_|Required| **Long**|A key you specify by using one of the  **WdKey** constants.|
 | _KeyCode2_|Optional| **Variant**|A second key you specify by using one of the  **WdKey** constants.|
@@ -64,3 +65,4 @@ MsgBox FindKey(KeyCode:=wdKeyF1).Command
 
 [Global Object](Word.Global.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

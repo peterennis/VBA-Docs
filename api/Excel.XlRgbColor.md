@@ -1,20 +1,21 @@
 ---
-title: XlRgbColor Enumeration (Excel)
+title: XlRgbColor enumeration (Excel)
 ms.prod: excel
 api_name:
 - Excel.XlRgbColor
 ms.assetid: 435ec542-c5d4-5b27-f87b-f1d589081312
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# XlRgbColor Enumeration (Excel)
+# XlRgbColor enumeration (Excel)
 
 Specifies the RGB color.
 
 
 
-|**Name**|**Value**|**Description**|
+|Name|Value|Description|
 |:-----|:-----|:-----|
 | **rgbAliceBlue**|16775408|Alice Blue|
 | **rgbAntiqueWhite**|14150650|Antique White|
@@ -159,3 +160,4 @@ Specifies the RGB color.
 | **rgbYellow**|65535|Yellow|
 | **rgbYellowGreen**|3329434|Yellow Green|
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

@@ -1,5 +1,5 @@
 ---
-title: PbImageFormat Enumeration (Publisher)
+title: PbImageFormat enumeration (Publisher)
 keywords: vbapb10.chm65626
 f1_keywords:
 - vbapb10.chm65626
@@ -8,16 +8,17 @@ api_name:
 - Publisher.PbImageFormat
 ms.assetid: 7d266fe1-d918-383c-0034-c7da9cea28be
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# PbImageFormat Enumeration (Publisher)
+# PbImageFormat enumeration (Publisher)
 
 Represents the image format of a picture as determined by Microsoft® Windows® Graphics Device Interface (GDI+).
 
 
 
-|**Name**|**Value**|**Description**|
+|Name|Value|Description|
 |:-----|:-----|:-----|
 | **pbImageFormatCMYKJPEG**|10|CMYKJPEG|
 | **pbImageFormatDIB**|7|DIB|
@@ -30,3 +31,4 @@ Represents the image format of a picture as determined by Microsoft® Windows® 
 | **pbImageFormatUNKNOWN**|1|Unknown|
 | **pbImageFormatWMF**|3|WMF|
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

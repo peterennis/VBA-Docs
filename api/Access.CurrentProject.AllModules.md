@@ -1,5 +1,5 @@
 ---
-title: CurrentProject.AllModules Property (Access)
+title: CurrentProject.AllModules property (Access)
 keywords: vbaac10.chm12710
 f1_keywords:
 - vbaac10.chm12710
@@ -7,24 +7,23 @@ ms.prod: access
 api_name:
 - Access.CurrentProject.AllModules
 ms.assetid: 2d6f5786-c431-9c1a-b581-56fb969fb947
-ms.date: 06/08/2017
+ms.date: 02/27/2019
+localization_priority: Normal
 ---
 
 
-# CurrentProject.AllModules Property (Access)
+# CurrentProject.AllModules property (Access)
 
-You can use the  **AllModules** property to reference the **[AllModules](Access.AllModules.md)** collection and its related properties. Read-only **AllModules** object.
+You can use the **AllModules** property to reference the **[AllModules](Access.AllModules.md)** collection and its related properties. Read-only **AllModules** object.
 
 
 ## Syntax
 
- _expression_. `AllModules`
+_expression_.**AllModules**
 
- _expression_ A variable that represents a [CurrentProject](Access.CurrentProject.md) object.
-
-
-## See also
+_expression_ A variable that represents a **[CurrentProject](Access.CurrentProject.md)** object.
 
 
-[CurrentProject Object](Access.CurrentProject.md)
 
+
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

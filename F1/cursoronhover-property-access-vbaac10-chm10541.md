@@ -6,6 +6,7 @@ f1_keywords:
 ms.prod: office
 ms.assetid: c2d2abf8-62d2-4cdd-b57a-c85793681f12
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
@@ -13,8 +14,8 @@ ms.date: 06/08/2017
 
 Hi there! You have landed on one of our F1 Help redirector pages. Please select the topic you were looking for below.
 
-[NavigationButton.CursorOnHover Property (Access)](http://msdn.microsoft.com/library/85d77454-b372-d4ed-75c0-1c3f6065967a%28Office.15%29.aspx)
+[NavigationButton.CursorOnHover property (Access)](http://msdn.microsoft.com/library/85d77454-b372-d4ed-75c0-1c3f6065967a%28Office.15%29.aspx)
 
-[CommandButton.CursorOnHover Property (Access)](http://msdn.microsoft.com/library/98bfdba4-4b42-8bbc-e1d2-d68cc21defc3%28Office.15%29.aspx)
+[CommandButton.CursorOnHover property (Access)](http://msdn.microsoft.com/library/98bfdba4-4b42-8bbc-e1d2-d68cc21defc3%28Office.15%29.aspx)
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

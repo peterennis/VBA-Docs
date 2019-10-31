@@ -1,5 +1,5 @@
 ---
-title: TimelineView.Copy Method (Outlook)
+title: TimelineView.Copy method (Outlook)
 keywords: vbaol11.chm2647
 f1_keywords:
 - vbaol11.chm2647
@@ -8,31 +8,32 @@ api_name:
 - Outlook.TimelineView.Copy
 ms.assetid: 0fb16952-06bb-d8ca-a8f2-9cb2e99fa299
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# TimelineView.Copy Method (Outlook)
+# TimelineView.Copy method (Outlook)
 
 Creates a new  **[View](Outlook.View.md)** object based on the existing **[TimelineView](Outlook.TimelineView.md)** object.
 
 
 ## Syntax
 
- _expression_. `Copy`( `_Name_` , `_SaveOption_` )
+_expression_.**Copy** (_Name_, _SaveOption_)
 
- _expression_ A variable that represents a [TimelineView](./Outlook.TimelineView.md) object.
-
-
-### Parameters
+_expression_ A variable that represents a [TimelineView](Outlook.TimelineView.md) object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _Name_|Required| **String**|The name of the new view.|
 | _SaveOption_|Optional| **[OlViewSaveOption](Outlook.OlViewSaveOption.md)**|The save option for the new view.|
 
-### Return Value
+## Return value
 
 A  **View** object that represents the new view.
 
@@ -42,3 +43,4 @@ A  **View** object that represents the new view.
 
 [TimelineView Object](Outlook.TimelineView.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

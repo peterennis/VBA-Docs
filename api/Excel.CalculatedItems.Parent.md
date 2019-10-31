@@ -1,5 +1,5 @@
 ---
-title: CalculatedItems.Parent Property (Excel)
+title: CalculatedItems.Parent property (Excel)
 keywords: vbaxl10.chm249075
 f1_keywords:
 - vbaxl10.chm249075
@@ -7,24 +7,23 @@ ms.prod: excel
 api_name:
 - Excel.CalculatedItems.Parent
 ms.assetid: 7dda0130-070d-ff11-1226-78d7135163cd
-ms.date: 06/08/2017
+ms.date: 04/13/2019
+localization_priority: Normal
 ---
 
 
-# CalculatedItems.Parent Property (Excel)
+# CalculatedItems.Parent property (Excel)
 
 Returns the parent object for the specified object. Read-only.
 
 
 ## Syntax
 
- _expression_. `Parent`
+_expression_.**Parent**
 
- _expression_ A variable that represents a [CalculatedItems](Excel.CalculatedItems.md) object.
-
-
-## See also
+_expression_ A variable that represents a **[CalculatedItems](Excel.CalculatedItems.md)** object.
 
 
-[CalculatedItems Collection](Excel.CalculatedItems.md)
 
+
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

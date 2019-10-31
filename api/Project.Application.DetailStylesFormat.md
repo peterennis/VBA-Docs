@@ -1,5 +1,5 @@
 ---
-title: Application.DetailStylesFormat Method (Project)
+title: Application.DetailStylesFormat method (Project)
 keywords: vbapj.chm962
 f1_keywords:
 - vbapj.chm962
@@ -8,26 +8,27 @@ api_name:
 - Project.Application.DetailStylesFormat
 ms.assetid: df3b7963-134f-be55-715e-2e4c214b35fc
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Application.DetailStylesFormat Method (Project)
+# Application.DetailStylesFormat method (Project)
 
 Sets the format of timescaled data fields in a Resource Usage view or Task Usage view.
 
 
 ## Syntax
 
- _expression_. `DetailStylesFormat`( ` _Item_`, ` _Font_`, ` _Size_`, ` _Bold_`, ` _Italic_`, ` _Underline_`, ` _Color_`, ` _CellColor_`, ` _Pattern_`, ` _ShowInMenu_` )
+_expression_. `DetailStylesFormat`( `_Item_`, `_Font_`, `_Size_`, `_Bold_`, `_Italic_`, `_Underline_`, `_Color_`, `_CellColor_`, `_Pattern_`, `_ShowInMenu_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
-
-
-### Parameters
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _Item_|Optional|**Long**|The timescaled data field to format. If the active view is the Task Usage view, the value can be one of the  **[PjTaskTimescaledData](Project.PjTaskTimescaledData.md)** constants. If the active view is the Resource Usage view, the value can be one of the **[PjResourceTimescaledData](Project.PjResourceTimescaledData.md)** constants.|
 | _Font_|Optional|**String**|The name of the font.|
@@ -40,7 +41,7 @@ Sets the format of timescaled data fields in a Resource Usage view or Task Usage
 | _Pattern_|Optional|**Long**|The pattern for nonworking times. Can be one of the  **[PjFillPattern](Project.PjFillPattern.md)** constants.|
 | _ShowInMenu_|Optional|**Boolean**|**True** if the field specified with **Item** appears in the shortcut menu; otherwise, **False**. The default value is **False**.|
 
-### Return Value
+## Return value
 
  **Boolean**
 
@@ -65,4 +66,4 @@ Sub HighlightOverallocations()
 End Sub
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

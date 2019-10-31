@@ -1,5 +1,5 @@
 ---
-title: Document.Manager Property (Visio)
+title: Document.Manager property (Visio)
 keywords: vis_sdr.chm10513865
 f1_keywords:
 - vis_sdr.chm10513865
@@ -8,44 +8,37 @@ api_name:
 - Visio.Document.Manager
 ms.assetid: 6aa5bcfc-55b5-88ce-a9a8-d0f6a73ee69f
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Document.Manager Property (Visio)
+# Document.Manager property (Visio)
 
-Gets or sets the value of the  **Manager** box in a document's **Properties** dialog box. Read/write.
+Gets or sets the value of the **Manager** box in a document's **Properties** dialog box. Read/write.
 
 
 ## Syntax
 
- _expression_. `Manager`
+_expression_.**Manager**
 
- _expression_ A variable that represents a [Document](./Visio.Document.md) object.
+_expression_ A variable that represents a **[Document](Visio.Document.md)** object.
 
 
-### Return Value
+## Return value
 
 String
 
 
 ## Remarks
 
-Setting the  **Manager** property is equivalent to entering information in the **Manager** box in the **Properties** dialog box (click the **File** tab, click **Info**, click  **Properties**, and then click  **Advanced Properties**).
-
-
- **Security Note**  
-
-
+Setting the **Manager** property is equivalent to entering information in the **Manager** box in the **Properties** dialog box (click the **File** tab, click **Info**, click **Properties**, and then click **Advanced Properties**).
 
 
 ## Example
 
-This Microsoft Visual Basic for Applications (VBA) macro shows how to use the  **Manager** property to document the name of the manager of the author of a drawing. It adds a **Document** object to the **Documents** collection and sets the **Document** object's **Manager** property as well as other document properties.
+This Microsoft Visual Basic for Applications (VBA) macro shows how to use the **Manager** property to document the name of the manager of the author of a drawing. It adds a **Document** object to the **Documents** collection and sets the **Document** object's **Manager** property as well as other document properties.
 
-Before running this macro, substitute your own values for the items in italic in the following code. To verify that these properties have been set, open the  **Properties** dialog box.
-
-
-
+Before running this macro, substitute your own values for the items in italic in the following code. To verify that these properties have been set, open the **Properties** dialog box.
 
 ```vb
  
@@ -67,4 +60,4 @@ Public Sub Manager_Example()
 End Sub
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

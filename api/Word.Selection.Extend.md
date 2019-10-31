@@ -1,5 +1,5 @@
 ---
-title: Selection.Extend Method (Word)
+title: Selection.Extend method (Word)
 keywords: vbawd10.chm158662956
 f1_keywords:
 - vbawd10.chm158662956
@@ -8,28 +8,29 @@ api_name:
 - Word.Selection.Extend
 ms.assetid: 7f9108a1-9b23-bc45-61f5-49aca9979932
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Selection.Extend Method (Word)
+# Selection.Extend method (Word)
 
 Turns on extend mode, or if extend mode is already on, extends the selection to the next larger unit of text.
 
 
 ## Syntax
 
- _expression_. `Extend`( `_Character_` )
+_expression_.**Extend** (_Character_)
 
- _expression_ Required. A variable that represents a '[Selection](Word.Selection.md)' object.
-
-
-### Parameters
+_expression_ Required. A variable that represents a **[Selection](Word.Selection.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-| _Character_|Optional| **Variant**|The character through which the selection is extended. This argument is case sensitive and must evaluate to a  **String** or an error occurs. Also, if the value of this argument is longer than a single character, Microsoft Word ignores the command entirely.|
+| _Character_|Optional| **Variant**|The character through which the selection is extended. This argument is case-sensitive and must evaluate to a  **String** or an error occurs. Also, if the value of this argument is longer than a single character, Microsoft Word ignores the command entirely.|
 
 ## Remarks
 
@@ -88,3 +89,4 @@ End Wit
 
 [Selection Object](Word.Selection.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

@@ -1,5 +1,5 @@
 ---
-title: WorksheetFunction.Weekday Method (Excel)
+title: WorksheetFunction.Weekday method (Excel)
 keywords: vbaxl10.chm137115
 f1_keywords:
 - vbaxl10.chm137115
@@ -7,41 +7,40 @@ ms.prod: excel
 api_name:
 - Excel.WorksheetFunction.Weekday
 ms.assetid: dc3140ba-98bf-8e56-5440-5eba914b30bc
-ms.date: 06/08/2017
+ms.date: 05/25/2019
+localization_priority: Normal
 ---
 
 
-# WorksheetFunction.Weekday Method (Excel)
+# WorksheetFunction.Weekday method (Excel)
 
 Returns the day of the week corresponding to a date. The day is given as an integer, ranging from 1 (Sunday) to 7 (Saturday), by default.
 
 
 ## Syntax
 
- _expression_. `Weekday`( `_Arg1_` , `_Arg2_` )
+_expression_.**Weekday** (_Arg1_, _Arg2_)
 
- _expression_ A variable that represents a [WorksheetFunction](./Excel.WorksheetFunction.md) object.
-
-
-### Parameters
+_expression_ A variable that represents a **[WorksheetFunction](Excel.WorksheetFunction.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _Arg1_|Required| **Variant**|Serial_number - a sequential number that represents the date of the day you are trying to find. Dates should be entered by using the DATE function, or as results of other formulas or functions. For example, use DATE(2008,5,23) for the 23rd day of May, 2008. Problems can occur if dates are entered as text.|
 | _Arg2_|Optional| **Variant**|Return_type - a number that determines the type of return value.|
 
-### Return Value
+## Return value
 
-Double
+**Double**
 
 
 ## Remarks
 
+The following table represents possible values for _Arg2_.
 
-
-|**Return_type**|**Number returned**|
+|Return_type|Number returned|
 |:-----|:-----|
 |1 or omitted|Numbers 1 (Sunday) through 7 (Saturday). Behaves like previous versions of Microsoft Excel.|
 |2|Numbers 1 (Monday) through 7 (Sunday).|
@@ -54,14 +53,12 @@ Double
 |16|Numbers 1 (Saturday) through 7 (Friday)|
 |17|Numbers 1 (Sunday) through 7 (Saturday)|
 
-Microsoft Excel stores dates as sequential serial numbers so they can be used in calculations. By default, January 1, 1900 is serial number 1, and January 1, 2008 is serial number 39448 because it is 39,448 days after January 1, 1900. Microsoft Excel for the Macintosh uses a different date system as its default. 
+Excel stores dates as sequential serial numbers so they can be used in calculations. By default, January 1, 1900 is serial number 1, and January 1, 2008 is serial number 39448 because it is 39,448 days after January 1, 1900. Microsoft Excel for the Macintosh uses a different date system as its default. 
+
+> [!NOTE] 
+> Visual Basic for Applications (VBA) calculates serial dates differently than Excel. In VBA, serial number 1 is December 31, 1899, rather than January 1, 1900. 
 
 
- **Note**  Visual Basic for Applications (VBA) calculates serial dates differently than Excel. In VBA, serial number 1 is December 31, 1899, rather than January 1, 1900. 
 
 
-## See also
-
-
-[WorksheetFunction Object](Excel.WorksheetFunction.md)
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

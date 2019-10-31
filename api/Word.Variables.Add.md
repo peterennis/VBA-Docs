@@ -1,5 +1,5 @@
 ---
-title: Variables.Add Method (Word)
+title: Variables.Add method (Word)
 keywords: vbawd10.chm157614087
 f1_keywords:
 - vbawd10.chm157614087
@@ -8,31 +8,32 @@ api_name:
 - Word.Variables.Add
 ms.assetid: 5c38d785-539b-7e6c-9cd0-cfa48e1aef33
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Variables.Add Method (Word)
+# Variables.Add method (Word)
 
 Returns a  **Variable** object that represents a variable added to a document.
 
 
 ## Syntax
 
- _expression_. `Add`( `_Name_` , `_Value_` )
+_expression_.**Add** (_Name_, _Value_)
 
- _expression_ Required. A variable that represents a '[Variables](Word.variables.md)' collection.
-
-
-### Parameters
+_expression_ Required. A variable that represents a '[Variables](Word.variables.md)' collection.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _Name_|Required| **String**|The name of the document variable.|
 | _Value_|Optional| **Variant**|The value for the document variable.|
 
-### Return Value
+## Return value
 
 Variable
 
@@ -91,3 +92,4 @@ End With
 
 [Variables Collection Object](Word.variables.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

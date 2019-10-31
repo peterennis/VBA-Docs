@@ -1,5 +1,5 @@
 ---
-title: PivotField.CurrentPageName Property (Excel)
+title: PivotField.CurrentPageName property (Excel)
 keywords: vbaxl10.chm240127
 f1_keywords:
 - vbaxl10.chm240127
@@ -7,20 +7,21 @@ ms.prod: excel
 api_name:
 - Excel.PivotField.CurrentPageName
 ms.assetid: cdf3be5e-d71b-af73-e65b-63075b78bfeb
-ms.date: 06/08/2017
+ms.date: 05/04/2019
+localization_priority: Normal
 ---
 
 
-# PivotField.CurrentPageName Property (Excel)
+# PivotField.CurrentPageName property (Excel)
 
-Returns or sets the currently displayed page of the specified PivotTable report. The name of the page appears in the page field. Note that this property works only if the currently displayed page already exists. Read/write  **String** .
+Returns or sets the currently displayed page of the specified PivotTable report. The name of the page appears in the page field. Note that this property works only if the currently displayed page already exists. Read/write **String**.
 
 
 ## Syntax
 
- _expression_. `CurrentPageName`
+_expression_.**CurrentPageName**
 
- _expression_ A variable that represents a [PivotField](Excel.PivotField.md) object.
+_expression_ A variable that represents a **[PivotField](Excel.PivotField.md)** object.
 
 
 ## Remarks
@@ -30,8 +31,7 @@ This property applies to PivotTables that are connected to an OLAP data source. 
 
 ## Example
 
-This example sets the name of the currently displayed page of the first PivotTable report on the active worksheet to "USA."
-
+This example sets the name of the currently displayed page of the first PivotTable report on the active worksheet to USA.
 
 ```vb
 ActiveSheet.PivotTables("PivotTable1") _ 
@@ -40,8 +40,6 @@ ActiveSheet.PivotTables("PivotTable1") _
 ```
 
 
-## See also
 
 
-[PivotField Object](Excel.PivotField.md)
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

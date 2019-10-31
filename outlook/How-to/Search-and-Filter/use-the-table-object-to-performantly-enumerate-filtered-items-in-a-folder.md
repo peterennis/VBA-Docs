@@ -3,6 +3,7 @@ title: Use the Table Object to Performantly Enumerate Filtered Items in a Folder
 ms.prod: outlook
 ms.assetid: df82b04e-dffd-d621-10dd-34ee03df2051
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
@@ -50,7 +51,7 @@ Sub DemoTable()
  .Add ("Subject") 
  .Add ("LastModificationTime") 
  'PidTagAttributeHidden referenced by the MAPI proptag namespace 
- .Add ("https://schemas.microsoft.com/mapi/proptag/0x10F4000B") 
+ .Add ("http://schemas.microsoft.com/mapi/proptag/0x10F4000B") 
  End With 
  
  'Enumerate the table using test for EndOfTable 
@@ -58,9 +59,9 @@ Sub DemoTable()
  Set oRow = oTable.GetNextRow() 
  Debug.Print (oRow("Subject")) 
  Debug.Print (oRow("LastModificationTime")) 
- Debug.Print (oRow("https://schemas.microsoft.com/mapi/proptag/0x10F4000B")) 
+ Debug.Print (oRow("http://schemas.microsoft.com/mapi/proptag/0x10F4000B")) 
  Loop 
 End Sub
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

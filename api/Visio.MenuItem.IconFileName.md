@@ -1,5 +1,5 @@
 ---
-title: MenuItem.IconFileName Method (Visio)
+title: MenuItem.IconFileName method (Visio)
 keywords: vis_sdr.chm12916350
 f1_keywords:
 - vis_sdr.chm12916350
@@ -8,30 +8,31 @@ api_name:
 - Visio.MenuItem.IconFileName
 ms.assetid: 4ae62286-f5c9-efe5-8789-91f4dcfcc00a
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# MenuItem.IconFileName Method (Visio)
+# MenuItem.IconFileName method (Visio)
 
 Sets a custom icon file for a menu or toolbar item.
 
 
 ## Syntax
 
- _expression_. `IconFileName`( `_IconFileName_` )
+_expression_. `IconFileName`( `_IconFileName_` )
 
- _expression_ A variable that represents a [MenuItem](./Visio.MenuItem.md) object.
-
-
-### Parameters
+_expression_ A variable that represents a **[MenuItem](Visio.MenuItem.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _IconFileName_|Required| **String**|The path and name of the ICO, EXE, DLL, or VSL file to load.|
 
-### Return Value
+## Return value
 
 Nothing
 
@@ -39,7 +40,8 @@ Nothing
 ## Remarks
 
 
- **Note**  Starting with Visio, the Microsoft Office Fluent user interface (UI) replaces the previous system of layered menus, toolbars, and task panes. VBA objects and members that you used to customize the user interface in previous versions of Visio are still available in Visio, but they function differently.
+> [!NOTE] 
+> Starting with Visio 2010, the Microsoft Office Fluent user interface (UI) replaced the previous system of layered menus, toolbars, and task panes. VBA objects and members that you used to customize the user interface in previous versions of Visio are still available in Visio, but they function differently.
 
 The  **IconFileName** method loads the file that contains the icon, saves the bits, and discards the file name.
 
@@ -50,7 +52,7 @@ Unless  _IconFileName_ is a fully qualified path, the application searches for t
 
 ## Example
 
-This Microsoft Visual Basic for Applications (VBA) macro shows how use the  **IconFileName** method to set the icon for a toolbar button. It retrieves a copy of the built-in Visio toolbars, adds a toolbar button, and sets the button icon.
+This Microsoft Visual Basic for Applications (VBA) macro shows how to use the  **IconFileName** method to set the icon for a toolbar button. It retrieves a copy of the built-in Visio toolbars, adds a toolbar button, and sets the button icon.
 
 Before running this code, replace  _path_ \ _filename_ with the full path to and name of a valid icon (.ico file) on your computer.
 
@@ -94,4 +96,4 @@ Public Sub IconFileName_Example()
 End Sub
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

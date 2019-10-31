@@ -1,5 +1,5 @@
 ---
-title: Shape.TextFrame Property (Word)
+title: Shape.TextFrame property (Word)
 keywords: vbawd10.chm161480825
 f1_keywords:
 - vbawd10.chm161480825
@@ -8,24 +8,25 @@ api_name:
 - Word.Shape.TextFrame
 ms.assetid: c9ee1782-ecee-e83b-2014-62d0509237b7
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Shape.TextFrame Property (Word)
+# Shape.TextFrame property (Word)
 
 Returns a  **TextFrame** object that contains the text for the specified shape.
 
 
 ## Syntax
 
- _expression_. `TextFrame`
+_expression_.**TextFrame**
 
- _expression_ A variable that represents a '[Shape](Word.Shape.md)' object.
+_expression_ A variable that represents a **[Shape](Word.Shape.md)** object.
 
 
 ## Example
 
-This example adds a rectangle to  _myDocument_ , adds text to the rectangle, and sets the margins for the text frame.
+This example adds a rectangle to _myDocument_, adds text to the rectangle, and sets the margins for the text frame.
 
 
 ```vb
@@ -46,3 +47,4 @@ End With
 
 [Shape Object](Word.Shape.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

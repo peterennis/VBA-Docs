@@ -1,5 +1,5 @@
 ---
-title: Application.GUIDFromString Method (Access)
+title: Application.GUIDFromString method (Access)
 keywords: vbaac10.chm12558
 f1_keywords:
 - vbaac10.chm12558
@@ -7,43 +7,42 @@ ms.prod: access
 api_name:
 - Access.Application.GUIDFromString
 ms.assetid: 943da2f6-a578-f05d-5778-990b6892fc64
-ms.date: 06/08/2017
+ms.date: 02/05/2019
+localization_priority: Normal
 ---
 
 
-# Application.GUIDFromString Method (Access)
+# Application.GUIDFromString method (Access)
 
-The  **GUIDFromString** function converts a string to a GUID, which is an array of type **Byte**.
+The **GUIDFromString** function converts a string to a GUID, which is an array of type **Byte**.
 
 
 ## Syntax
 
- _expression_. `GUIDFromString`( ` _String_` )
+_expression_.**GUIDFromString** (_String_)
 
- _expression_ A variable that represents an [Application](Access.Application.md) object.
-
-
-### Parameters
+_expression_ A variable that represents an **[Application](Access.Application.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-| _String_|Required|**Variant**|A string expression which evaluates to a GUID in string form.|
+| _String_|Required|**Variant**|A string expression that evaluates to a GUID in string form.|
 
-### Return Value
+## Return value
 
 Variant
 
 
 ## Remarks
 
-The Microsoft Access database engine stores GUIDs as arrays of type  **Byte**. However, Microsoft Access can't return **Byte** data from a control on a form or report. In order to return the value of a GUID from a control, you must convert it to a string. To convert a GUID to a string, use the **StringFromGUID** function. To convert a string to a GUID, use the **GUIDFromString** function.
+The Microsoft Access database engine stores GUIDs as arrays of type **Byte**. However, Access can't return **Byte** data from a control on a form or report. To return the value of a GUID from a control, you must convert it to a string. To convert a GUID to a string, use the **[StringFromGUID](access.application.stringfromguid.md)** function. To convert a string to a GUID, use the **GUIDFromString** function.
 
 
 ## Example
 
-The following example uses the  **GUIDFromString** function to convert a string to a GUID. The string is a GUID stored in string form in a replicated Employees table. The field, s_GUID, is a hidden field added to every replicated table in a replicated database.
+The following example uses the **GUIDFromString** function to convert a string to a GUID. The string is a GUID stored in string form in a replicated Employees table. The field, **s_GUID**, is a hidden field added to every replicated table in a replicated database.
 
 
 ```vb
@@ -69,8 +68,6 @@ End Sub
 ```
 
 
-## See also
 
 
-[Application Object](Access.Application.md)
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

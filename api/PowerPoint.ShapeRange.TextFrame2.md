@@ -1,5 +1,5 @@
 ---
-title: ShapeRange.TextFrame2 Property (PowerPoint)
+title: ShapeRange.TextFrame2 property (PowerPoint)
 keywords: vbapp10.chm548086
 f1_keywords:
 - vbapp10.chm548086
@@ -8,22 +8,23 @@ api_name:
 - PowerPoint.ShapeRange.TextFrame2
 ms.assetid: 56554e58-c16b-09dd-8acc-4e2da7715bef
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# ShapeRange.TextFrame2 Property (PowerPoint)
+# ShapeRange.TextFrame2 property (PowerPoint)
 
 Returns the  **[TextFrame2](PowerPoint.TextFrame2.md)** object associated with the specified **[ShapeRange](PowerPoint.ShapeRange.md)** object that contains the alignment and anchoring properties for the specified shape range. Read-only.
 
 
 ## Syntax
 
- _expression_. `TextFrame2`
+_expression_.**TextFrame2**
 
- _expression_ An expression that returns a [ShapeRange](./PowerPoint.ShapeRange.md) object.
+ _expression_ An expression that returns a **[ShapeRange](PowerPoint.ShapeRange.md)** object.
 
 
-### Return Value
+## Return value
 
 TextFrame2
 
@@ -40,3 +41,4 @@ Use the  **[HasTextFrame](PowerPoint.ShapeRange.HasTextFrame.md)** property to d
 
 [ShapeRange Object](PowerPoint.ShapeRange.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

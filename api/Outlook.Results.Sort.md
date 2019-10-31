@@ -1,5 +1,5 @@
 ---
-title: Results.Sort Method (Outlook)
+title: Results.Sort method (Outlook)
 keywords: vbaol11.chm511
 f1_keywords:
 - vbaol11.chm511
@@ -8,26 +8,27 @@ api_name:
 - Outlook.Results.Sort
 ms.assetid: d897f4c9-ef58-cdb4-ca9e-d179af12f2b5
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Results.Sort Method (Outlook)
+# Results.Sort method (Outlook)
 
 Sorts the collection of items by the specified property. The index for the collection is reset to 1 upon completion of this method.
 
 
 ## Syntax
 
- _expression_. `Sort`( `_Property_` , `_Descending_` )
+_expression_.**Sort** (_Property_, _Descending_)
 
- _expression_ A variable that represents a [Results](./Outlook.Results.md) object.
-
-
-### Parameters
+_expression_ A variable that represents a [Results](Outlook.Results.md) object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _Property_|Required| **String**|The name of the property by which to sort, which may be enclosed in brackets (for example, "[CompanyName]"). May not be a user-defined field, and may not be a multi-valued property, such as a category.|
 | _Descending_|Optional| **Variant**| **True** to sort in descending order. The default value is **False** (ascending).|
@@ -42,3 +43,4 @@ Sorts the collection of items by the specified property. The index for the colle
 
 [Results Object](Outlook.Results.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

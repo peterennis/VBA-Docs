@@ -1,5 +1,5 @@
 ---
-title: NameSpace.GetItemFromID Method (Outlook)
+title: NameSpace.GetItemFromID method (Outlook)
 keywords: vbaol11.chm763
 f1_keywords:
 - vbaol11.chm763
@@ -8,31 +8,32 @@ api_name:
 - Outlook.NameSpace.GetItemFromID
 ms.assetid: f2abff80-4c04-998b-654b-28600424a16f
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# NameSpace.GetItemFromID Method (Outlook)
+# NameSpace.GetItemFromID method (Outlook)
 
 Returns a Microsoft Outlook item identified by the specified entry ID (if valid). 
 
 
 ## Syntax
 
- _expression_. `GetItemFromID`( `_EntryIDItem_` , `_EntryIDStore_` )
+_expression_. `GetItemFromID`( `_EntryIDItem_` , `_EntryIDStore_` )
 
- _expression_ A variable that represents a [NameSpace](./Outlook.NameSpace.md) object.
-
-
-### Parameters
+_expression_ A variable that represents a [NameSpace](Outlook.NameSpace.md) object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _EntryIDItem_|Required| **String**| The **[EntryID](Outlook.Folder.EntryID.md)** of the item.|
 | _EntryIDStore_|Optional| **Variant**|The  **[StoreID](Outlook.Folder.StoreID.md)** for the folder. _EntryIDStore_ usually must be provided when retrieving an item based on its MAPI IDs.|
 
-### Return Value
+## Return value
 
 An  **Object** value that represents the specified Outlook item.
 
@@ -49,3 +50,4 @@ For more information about Entry IDs, see the  **[EntryID](Outlook.Folder.EntryI
 
 [NameSpace Object](Outlook.NameSpace.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

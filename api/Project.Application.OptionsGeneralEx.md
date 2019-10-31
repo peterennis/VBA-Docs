@@ -1,5 +1,5 @@
 ---
-title: Application.OptionsGeneralEx Method (Project)
+title: Application.OptionsGeneralEx method (Project)
 keywords: vbapj.chm642
 f1_keywords:
 - vbapj.chm642
@@ -8,26 +8,27 @@ api_name:
 - Project.Application.OptionsGeneralEx
 ms.assetid: c82b09d5-0937-ed06-58d6-e6b5fda186ac
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Application.OptionsGeneralEx Method (Project)
+# Application.OptionsGeneralEx method (Project)
 
 Sets some options that are on the  **General**,  **Schedule**, and  **Advanced** tabs of the **Project Options** dialog box.
 
 
 ## Syntax
 
- _expression_. `OptionsGeneralEx`( ` _PlanningWizard_`, ` _WizardUsage_`, ` _WizardErrors_`, ` _WizardScheduling_`, ` _ShowTipOfDay_`, ` _AutoAddResources_`, ` _StandardRate_`, ` _OvertimeRate_`, ` _LastFile_`, ` _SummaryInfo_`, ` _UserName_`, ` _SetDefaults_`, ` _ShowWelcome_`, ` _AutoFilter_`, ` _MacroVirusProtection_`, ` _DisplayRecentFiles_`, ` _RecentFilesMaximum_`, ` _FontConversion_`, ` _ShowStartupWorkpane_`, ` _MaxUndoRecords_` )
+_expression_. `OptionsGeneralEx`( `_PlanningWizard_`, `_WizardUsage_`, `_WizardErrors_`, `_WizardScheduling_`, `_ShowTipOfDay_`, `_AutoAddResources_`, `_StandardRate_`, `_OvertimeRate_`, `_LastFile_`, `_SummaryInfo_`, `_UserName_`, `_SetDefaults_`, `_ShowWelcome_`, `_AutoFilter_`, `_MacroVirusProtection_`, `_DisplayRecentFiles_`, `_RecentFilesMaximum_`, `_FontConversion_`, `_ShowStartupWorkpane_`, `_MaxUndoRecords_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
-
-
-### Parameters
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _PlanningWizard_|Optional|**Boolean**|**True** if the Planning Wizard is active. Planning Wizard settings are on the **Advanced** tab ofn the **Project Options** dialog box.|
 | _WizardUsage_|Optional|**Boolean**|**True** if the Planning Wizard displays tips about using Project more effectively.|
@@ -50,7 +51,7 @@ Sets some options that are on the  **General**,  **Schedule**, and  **Advanced**
 | _ShowStartupWorkpane_|Optional||Because of changes in the Project object model, this argument no longer has an effect. It is retained for backward compatibility.|
 | _MaxUndoRecords_|Optional|**Variant**|The maximum number of records stored in the undo stack.|
 
-### Return Value
+## Return value
 
  **Boolean**
 
@@ -61,4 +62,4 @@ If an argument is omitted, the default value is specified by the corresponding s
 
 Using the  **OptionsGeneralEx** method without specifying any arguments displays the **Project Options** dialog box with the **General** tab selected.
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

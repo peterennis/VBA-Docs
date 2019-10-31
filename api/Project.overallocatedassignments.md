@@ -1,12 +1,13 @@
 ---
-title: OverAllocatedAssignments Object (Project)
+title: OverAllocatedAssignments object (Project)
 ms.prod: project-server
 ms.assetid: b2856ebf-cff2-04a6-53c9-123de09f2a3b
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# OverAllocatedAssignments Object (Project)
+# OverAllocatedAssignments object (Project)
 
 Represents a collection of  **[Assignment](Project.Assignment.md)** objects where the resource is overallocated.
  
@@ -43,8 +44,8 @@ Sub FindOverallocatedAssignments()
             totalNumOver = overAlloc.TotalDetectedCount  
   
             For Each a In overAlloc  
-                Debug.Print "Resource: " &amp; a.Resource.Name &amp; " is overallocated on task: " &amp; t.Name  
-                Debug.Print vbTab &amp; "Number of overallocated assignments: " &amp; numOver  
+                Debug.Print "Resource: " & a.Resource.Name & " is overallocated on task: " & t.Name  
+                Debug.Print vbTab & "Number of overallocated assignments: " & numOver  
             Next a  
         End If  
     Next t  
@@ -56,7 +57,7 @@ End Sub
 
 
 
-|**Name**|
+|Name|
 |:-----|
 |[Application](Project.OverAllocatedAssignments.Application.md)|
 |[Count](Project.OverAllocatedAssignments.Count.md)|
@@ -69,3 +70,5 @@ End Sub
 
  
 [Project Object Model](../project/Concepts/project-object-model.md)
+
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

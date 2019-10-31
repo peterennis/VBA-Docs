@@ -1,5 +1,5 @@
 ---
-title: Workbook.UpdateLinks Property (Excel)
+title: Workbook.UpdateLinks property (Excel)
 keywords: vbaxl10.chm199197
 f1_keywords:
 - vbaxl10.chm199197
@@ -7,37 +7,26 @@ ms.prod: excel
 api_name:
 - Excel.Workbook.UpdateLinks
 ms.assetid: c8d374d7-0b32-eb32-fa29-ab496d6786e7
-ms.date: 06/08/2017
+ms.date: 05/29/2019
+localization_priority: Normal
 ---
 
 
-# Workbook.UpdateLinks Property (Excel)
+# Workbook.UpdateLinks property (Excel)
 
-Returns or sets an  **[XlUpdateLink](Excel.XlUpdateLinks.md)** constant indicating a workbook's setting for updating embedded OLE links. Read/write.
+Returns or sets an **[XlUpdateLink](Excel.XlUpdateLinks.md)** constant indicating a workbook's setting for updating embedded OLE links. Read/write.
 
 
 ## Syntax
 
- _expression_. `UpdateLinks`
+_expression_.**UpdateLinks**
 
- _expression_ A variable that represents a [Workbook](./Excel.Workbook.md) object.
+_expression_ A variable that represents a **[Workbook](Excel.Workbook.md)** object.
 
-
-## Remarks
-
-
-
-
-
-| **XlUpdateLinks** can be one of these **XlUpdateLinks** constants.|
-| **xlUpdateLinksAlways** Embedded OLE links are always updated for the specified workbook.|
-| **xlUpdateLinksNever** Embedded OLE links are never updated for the specified workbook.|
-| **xlUpdateLinksUserSetting** Embedded OLE links are updated according to the user's settings for the specified workbook.|
 
 ## Example
 
 In this example, Microsoft Excel determines the setting for updating links and notifies the user.
-
 
 ```vb
 Sub UseUpdateLinks() 
@@ -62,8 +51,6 @@ End Sub
 ```
 
 
-## See also
 
 
-[Workbook Object](Excel.Workbook.md)
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

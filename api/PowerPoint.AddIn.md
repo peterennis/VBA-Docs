@@ -1,5 +1,5 @@
 ---
-title: AddIn Object (PowerPoint)
+title: AddIn object (PowerPoint)
 keywords: vbapp10.chm521000
 f1_keywords:
 - vbapp10.chm521000
@@ -8,10 +8,11 @@ api_name:
 - PowerPoint.AddIn
 ms.assetid: e98b609e-97ef-b471-f047-b647bff1e9af
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# AddIn Object (PowerPoint)
+# AddIn object (PowerPoint)
 
 Represents a single add-in, either loaded or not loaded. 
 
@@ -23,7 +24,7 @@ The  **AddIn** object is a member of the **[AddIns](PowerPoint.AddIns.md)** coll
 
 ## Example
 
-Use  **AddIns** (index), where index is the add-in's title or index number, to return a single **AddIn** object. The following example loads the My Ppt Tools add-in.
+Use  **AddIns** (_index_), where _index_ is the add-in's title or index number, to return a single **AddIn** object. The following example loads the My Ppt Tools add-in.
 
 
 ```vb
@@ -54,7 +55,7 @@ Use the [Add](PowerPoint.AddIns.Add.md)method to add a PowerPoint-specific add-i
 AddIns.Add("generic.ppa").Loaded = True
 ```
 
-Use  **AddIns** (index), where index is the add-in's title, to return a reference to the loaded add-in. The following example sets the `presAddin` variable to the add-in titled "my ppt tools" and sets the `myName` variable to the name of the add-in.
+Use  **AddIns** (_index_), where _index_ is the add-in's title, to return a reference to the loaded add-in. The following example sets the `presAddin` variable to the add-in titled "my ppt tools" and sets the `myName` variable to the name of the add-in.
 
 
 
@@ -75,3 +76,4 @@ End With
 
 [PowerPoint Object Model Reference](overview/PowerPoint/object-model.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

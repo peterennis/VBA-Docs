@@ -3,6 +3,7 @@ title: Prevent the Inspector from Displaying a Form Region When You are Reading 
 ms.prod: outlook
 ms.assetid: f84c5797-c24f-4f16-4135-c4f1999c6aba
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
@@ -14,7 +15,7 @@ When you create a form region in a custom form for mail or post items, by defaul
 ## To prevent the inspector from displaying a form region while in read mode
 
 
-- In the form region manifest XML file, specify  **false** as the value of the **showInspectorRead** element.
+- In the form region manifest XML file, specify  **False** as the value of the **showInspectorRead** element.
     
 The following example disables the inspector from displaying a form region when in read mode:
 
@@ -23,7 +24,7 @@ The following example disables the inspector from displaying a form region when 
 <showInspectorRead>false</showInspectorRead>
 ```
 
+> [!NOTE] 
+> You can assign  **showInspectorRead** either a string value or an integer value. The default value is **True** or **1**. To prevent the inspector from displaying the form region in read mode, assign either  **False** or **0**.
 
- **Note**  You can assign  **showInspectorRead** either a string value or an integer value. The default value is **true** or **1**. To prevent the inspector from displaying the form region in read mode, assign either  **false** or **0**.
-
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

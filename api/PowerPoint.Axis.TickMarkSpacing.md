@@ -1,5 +1,5 @@
 ---
-title: Axis.TickMarkSpacing Property (PowerPoint)
+title: Axis.TickMarkSpacing property (PowerPoint)
 keywords: vbapp10.chm682031
 f1_keywords:
 - vbapp10.chm682031
@@ -8,19 +8,20 @@ api_name:
 - PowerPoint.Axis.TickMarkSpacing
 ms.assetid: 85c37d23-b91a-b390-4475-a4afa21d1566
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Axis.TickMarkSpacing Property (PowerPoint)
+# Axis.TickMarkSpacing property (PowerPoint)
 
 Returns or sets the number of categories or series between tick marks. Read/write  **Long**.
 
 
 ## Syntax
 
- _expression_. `TickMarkSpacing`
+_expression_. `TickMarkSpacing`
 
- _expression_ A variable that represents an '[Axis](PowerPoint.Axis.md)' object.
+_expression_ A variable that represents an '[Axis](PowerPoint.Axis.md)' object.
 
 
 ## Remarks
@@ -35,7 +36,8 @@ Use the  **[MajorUnit](PowerPoint.Axis.MajorUnit.md)** and **[MinorUnit](PowerPo
 
 
 
- **Note**  Although the following code applies to Microsoft Word, you can readily modify it to apply to PowerPoint.
+> [!NOTE] 
+> Although the following code applies to Microsoft Word, you can readily modify it to apply to PowerPoint.
 
 The following example sets the number of categories between tick marks on the category axis of the first chart in the active document.
 
@@ -60,3 +62,4 @@ End With
 
 [Axis Object](PowerPoint.Axis.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

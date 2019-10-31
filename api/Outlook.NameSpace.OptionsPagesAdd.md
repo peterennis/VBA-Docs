@@ -1,5 +1,5 @@
 ---
-title: NameSpace.OptionsPagesAdd Event (Outlook)
+title: NameSpace.OptionsPagesAdd event (Outlook)
 keywords: vbaol11.chm319
 f1_keywords:
 - vbaol11.chm319
@@ -8,26 +8,27 @@ api_name:
 - Outlook.NameSpace.OptionsPagesAdd
 ms.assetid: 3f4920bd-ab22-90a7-490a-67122dac6c51
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# NameSpace.OptionsPagesAdd Event (Outlook)
+# NameSpace.OptionsPagesAdd event (Outlook)
 
 Occurs whenever the  **Properties** dialog box for a folder is opened.
 
 
 ## Syntax
 
- _expression_. `OptionsPagesAdd`( `_Pages_` , `_Folder_` )
+_expression_. `OptionsPagesAdd`( `_Pages_` , `_Folder_` )
 
- _expression_ A variable that represents a [NameSpace](./Outlook.NameSpace.md) object.
-
-
-### Parameters
+_expression_ A variable that represents a [NameSpace](Outlook.NameSpace.md) object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _Pages_|Required| **[PropertyPages](Outlook.PropertyPages.md)**|The collection of property pages that have been added to the dialog box. This collection includes only custom property pages. It does not include standard Microsoft Outlook property pages.|
 | _Folder_|Required| **[Folder](Outlook.Folder.md)**|This argument is only used with the  **Folder** object. The **Folder** object for which the **Properties** dialog box is being opened.|
@@ -46,3 +47,4 @@ Your program handles this event to add a custom property page. The property page
 
 [NameSpace Object](Outlook.NameSpace.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

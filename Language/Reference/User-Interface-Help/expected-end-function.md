@@ -6,12 +6,13 @@ f1_keywords:
 ms.prod: office
 ms.assetid: d70117d2-4568-d43b-35ac-9ec9ad861f02
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
 # Expected End Function
 
-An  **End**_procedure_ statement must match the[procedure](../../Glossary/vbe-glossary.md#procedure) in which it occurs. This error has the following cause and solution:
+An  **End**_procedure_ statement must match the [procedure](../../Glossary/vbe-glossary.md#procedure) in which it occurs. This error has the following cause and solution:
 
 
 
@@ -20,3 +21,4 @@ An  **End**_procedure_ statement must match the[procedure](../../Glossary/vbe-gl
 
 For additional information, select the item in question and press F1 (in Windows) or HELP (on the Macintosh).
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

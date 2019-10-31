@@ -1,5 +1,5 @@
 ---
-title: View.PasteSpecial Method (PowerPoint)
+title: View.PasteSpecial method (PowerPoint)
 keywords: vbapp10.chm512010
 f1_keywords:
 - vbapp10.chm512010
@@ -8,26 +8,25 @@ api_name:
 - PowerPoint.View.PasteSpecial
 ms.assetid: 074fb28f-19c6-3c0f-21ae-75012614485e
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# View.PasteSpecial Method (PowerPoint)
+# View.PasteSpecial method (PowerPoint)
 
 Pastes the current contents of the Clipboard into the view represented by the  **View** object.
 
 
 ## Syntax
 
- _expression_. `PasteSpecial`( `_DataType_`, `_DisplayAsIcon_`, `_IconFileName_`, `_IconIndex_`, `_IconLabel_`, `_Link_` )
+_expression_.**PasteSpecial** (_DataType_, _DisplayAsIcon_, _IconFileName_, _IconIndex_, _IconLabel_, _Link_)
 
- _expression_ A variable that represents a [View](./PowerPoint.View.md) object.
-
-
-### Parameters
+_expression_ A variable that represents a [View](PowerPoint.View.md) object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _DataType_|Optional|**PpPasteDataType**|A format for the Clipboard contents when they're inserted into the document. The default value varies, depending on the contents in the Clipboard. An error occurs if the specified data type in the DataType argument is not supported by the clipboard contents.|
 | _DisplayAsIcon_|Optional|**MsoTriState**|**msoTrue** to display the embedded object (or link) as an icon.|
@@ -40,7 +39,7 @@ Pastes the current contents of the Clipboard into the view represented by the  *
 
 An error occurs if there is no data on the Clipboard when the  **PasteSpecial** method is called.
 
- Valid views for the **PasteSpecial** method are the same as those for the **Paste** method. If the data type can?t be pasted into the view (for example, if you try to paste a picture into **Slide Sorter View**), an error occurs. 
+ Valid views for the **PasteSpecial** method are the same as those for the **Paste** method. If the data type can't be pasted into the view (for example, if you try to paste a picture into **Slide Sorter View**), an error occurs. 
 
 The DataType parameter can be one of these  **PpPasteDataType** constants
 
@@ -68,7 +67,7 @@ The DisplayAsIcon parameter can be one of these  **MsoTriState** constants.
 |**msoFalse** The default. Does not display the embedded object (or link) as an icon.|
 |**msoTrue** Displays the embedded object (or link) as an icon.|
 
-The Link paramter can be one of these  **MsoTriState** constants.
+The Link parameter can be one of these  **MsoTriState** constants.
 
 
 ||
@@ -97,3 +96,4 @@ End Sub
 
 [View Object](PowerPoint.View.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

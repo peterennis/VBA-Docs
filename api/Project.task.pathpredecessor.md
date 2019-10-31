@@ -1,22 +1,23 @@
 ---
-title: Task.PathPredecessor Property (Project)
+title: Task.PathPredecessor property (Project)
 keywords: vbapj.chm132490
 f1_keywords:
 - vbapj.chm132490
 ms.prod: project-server
 ms.assetid: f0662677-cab5-10e2-e18c-fc291bfca28b
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Task.PathPredecessor Property (Project)
+# Task.PathPredecessor property (Project)
 Gets a value that indicates whether the task is a predecessor of the selected task, when the  **Predecessors** item is selected in the **Task Path** drop-down list. Read-only **Boolean**.
 
 ## Syntax
 
- _expression_. `PathPredecessor`
+_expression_. `PathPredecessor`
 
- _expression_ A variable that represents a [Task](./Project.Task.md) object.
+_expression_ A variable that represents a [Task](./Project.Task.md) object.
 
 
 ## Remarks
@@ -26,7 +27,7 @@ The  **Task.PathPredecessor** property is related to the **Predecessors** item o
 
 **Figure 1. Using the task path properties to highlight tasks**
 
-![Using the task path properties to highlight tasks](../images/pj15_VBA_TaskPathDrivingPredecessor.gif)The  **PathPredecessor** property does not act like the **Predecessors** selection in the user interface. Instead, the **PathPredecessor** property is **True** whenboth of the following conditions are true: (a) the task is a predecessor of the selected task, and (b) the **Predecessors** item is selected in **Task Path**. You can manually select a task or use VBA to select a task, and then use VBA to check whether another task is a predecessor to the selected task. For example, if you select the third task as in Figure 1, and the  **Predecessors** item is selected in **Task Path**, the following statement prints  **True** in the **Immediate** window of the VBE.
+![Using the task path properties to highlight tasks](../images/pj15_VBA_TaskPathDrivingPredecessor.gif)The  **PathPredecessor** property does not act like the **Predecessors** selection in the user interface. Instead, the **PathPredecessor** property is **True** whenboth of the following conditions are true: (a) the task is a predecessor of the selected task, and (b) the **Predecessors** item is selected in **Task Path**. You can manually select a task or use VBA to select a task, and then use VBA to check whether another task is a predecessor to the selected task. For example, if you select the third task as in Figure 1, and the  **Predecessors** item is selected in **Task Path**, the following statement prints  **True** in the Immediate window of the VBE.
 
 
 
@@ -130,3 +131,5 @@ Selected task ID 4, name: T4
 [PathDrivingPredecessor Property](Project.task.pathdrivingpredecessor.md)
 [PathDrivenSuccessor Property](Project.task.pathdrivensuccessor.md)
 [PathSuccessor Property](Project.task.pathsuccessor.md)
+
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

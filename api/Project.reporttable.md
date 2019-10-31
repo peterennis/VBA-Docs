@@ -1,19 +1,21 @@
 ---
-title: ReportTable Object (Project)
+title: ReportTable object (Project)
 ms.prod: project-server
 ms.assetid: db9846c7-fd53-ae5a-7a43-35dfc60f4fe4
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# ReportTable Object (Project)
+# ReportTable object (Project)
 Represents a shape in the form of a table in a Project report.
  
 
 ## Remarks
 
 
- **Note**  Macro recording for the  **ReportTable** object is not implemented. That is, when you record a macro in Project and manually add a report table or edit table elements, the steps for adding and manipulating the report table are not recorded.
+> [!NOTE] 
+> Macro recording for the  **ReportTable** object is not implemented. That is, when you record a macro in Project and manually add a report table or edit table elements, the steps for adding and manipulating the report table are not recorded.
  
 
 The  **ReportTable** object is a kind of **Shape** object; it is not related to the **Table** object. Project has limited VBA support for report tables; to specify the table fields, you manually use the **Field List** task pane (see Figure 1). To show or hide the **Field List** task pane, choose the **Table Data** command in the **DESIGN** tab under **TABLE TOOLS** on the ribbon. To specify the table layout or design properties, you can use the **DESIGN** tab and the **LAYOUT** tab on the ribbon.
@@ -66,14 +68,14 @@ Sub TestReportTable()
     Set theReportTable = theShape.Table
     
     With theReportTable
-        Debug.Print "Rows: " &amp; .RowsCount
-        Debug.Print "Columns: " &amp; .ColumnsCount
-        Debug.Print "Table contents:" &amp; vbCrLf &amp; .GetCellText(1, 1)
+        Debug.Print "Rows: " & .RowsCount
+        Debug.Print "Columns: " & .ColumnsCount
+        Debug.Print "Table contents:" & vbCrLf & .GetCellText(1, 1)
     End With
 End Sub
 ```
 
-In Figure 1, the top  **ReportTable** object in the Table Tests report is created by the **TestReportTable** macro. When you first create the table, it has one row and one column; the _NumRows_ and _NumColumns_ parameters of the **AddTable** method have no effect. The number of rows and columns in the table is updated when you manually add fields to the table from the **Field List** task pane, or when you use the[UpdateTableData](Project.reporttable.updatetabledata.md) method. You can filter the fields to limit the number of rows. The **TestReportTable** macro writes the following in the Immediate window of the VBE:
+In Figure 1, the top  **ReportTable** object in the Table Tests report is created by the **TestReportTable** macro. When you first create the table, it has one row and one column; the _NumRows_ and _NumColumns_ parameters of the **AddTable** method have no effect. The number of rows and columns in the table is updated when you manually add fields to the table from the **Field List** task pane, or when you use the [UpdateTableData](Project.reporttable.updatetabledata.md) method. You can filter the fields to limit the number of rows. The **TestReportTable** macro writes the following in the Immediate window of the VBE:
  
 
  
@@ -134,7 +136,7 @@ Sub DeleteTheReport()
     reportName = "Table Tests"
     
     ' To delete the active report, change to another view.
-    ViewApplyEx Name:="&amp;Gantt Chart"
+    ViewApplyEx Name:="&Gantt Chart"
     
     ActiveProject.Reports(reportName).Delete
 End Sub
@@ -145,7 +147,7 @@ End Sub
 
 
 
-|**Name**|
+|Name|
 |:-----|
 |[GetCellText](Project.reporttable.getcelltext.md)|
 |[UpdateTableData](Project.reporttable.updatetabledata.md)|
@@ -154,7 +156,7 @@ End Sub
 
 
 
-|**Name**|
+|Name|
 |:-----|
 |[ColumnsCount](Project.reporttable.columnscount.md)|
 |[RowsCount](Project.reporttable.rowscount.md)|
@@ -170,3 +172,5 @@ End Sub
 [Chart Object](Project.chart.md)
  
 [Chart.DataTable Property](Project.chart.datatable.md)
+
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

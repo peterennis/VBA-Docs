@@ -1,5 +1,5 @@
 ---
-title: Paragraphs.Add Method (Word)
+title: Paragraphs.Add method (Word)
 keywords: vbawd10.chm156762117
 f1_keywords:
 - vbawd10.chm156762117
@@ -8,30 +8,31 @@ api_name:
 - Word.Paragraphs.Add
 ms.assetid: a75b7e4c-0a94-2bea-27bc-e6ad68ac075e
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Paragraphs.Add Method (Word)
+# Paragraphs.Add method (Word)
 
 Returns a  **Paragraph** object that represents a new, blank paragraph added to a document.
 
 
 ## Syntax
 
- _expression_. `Add`( `_Range_` )
+_expression_.**Add** (_Range_)
 
- _expression_ Required. A variable that represents a '[Paragraphs](Word.paragraphs.md)' collection.
-
-
-### Parameters
+_expression_ Required. A variable that represents a '[Paragraphs](Word.paragraphs.md)' collection.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _Range_|Optional| **Variant**|The range before which you want the new paragraph to be added. The new paragraph doesn't replace the range.|
 
-### Return Value
+## Return value
 
 Paragraph
 
@@ -84,3 +85,4 @@ ActiveDocument.Paragraphs.Add
 
 [Paragraphs Collection Object](Word.paragraphs.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

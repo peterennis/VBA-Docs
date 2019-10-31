@@ -1,14 +1,15 @@
 ---
-title: List Object (Project)
+title: List object (Project)
 ms.prod: project-server
 api_name:
 - Project.List
 ms.assetid: 3934c2e8-d810-6571-9a33-1d41edbab87a
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# List Object (Project)
+# List object (Project)
 
 Represents a collection of strings or numbers that contain field identification numbers, field names, reports, resource filters, resource tables, resource views, task filters, task tables, task views, or views. (There is no collection for  **List** objects.) It can be accessed through the **List** properties of the appropriate objects.
 
@@ -26,11 +27,11 @@ Use a property such as the  **[ReportList](./Project.Project.ReportList.md)** pr
 Dim Items As Integer, ReportNames As String 
  
 For Items = 1 To ActiveProject.ReportList.Count 
- ReportNames = ActiveProject.ReportList(Items) &amp; _ 
- ListSeparator &amp; " " &amp; ReportNames 
+ ReportNames = ActiveProject.ReportList(Items) & _ 
+ ListSeparator & " " & ReportNames 
 Next Items 
  
-MsgBox Left$(ReportNames, Len(ReportNames) - Len(ListSeparator &amp; " "))
+MsgBox Left$(ReportNames, Len(ReportNames) - Len(ListSeparator & " "))
 ```
 
 
@@ -38,10 +39,11 @@ MsgBox Left$(ReportNames, Len(ReportNames) - Len(ListSeparator &amp; " "))
 
 
 
-|**Name**|
+|Name|
 |:-----|
 |[Application](./Project.List.Application.md)|
 |[Count](./Project.List.Count.md)|
 |[Item](./Project.List.Item.md)|
 |[Parent](./Project.List.Parent.md)|
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

@@ -1,5 +1,5 @@
 ---
-title: OlViewType Enumeration (Outlook)
+title: OlViewType enumeration (Outlook)
 keywords: vbaol11.chm3096
 f1_keywords:
 - vbaol11.chm3096
@@ -8,16 +8,17 @@ api_name:
 - Outlook.OlViewType
 ms.assetid: f2fec9d0-55c2-0991-0e1b-4dd653fdf09d
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# OlViewType Enumeration (Outlook)
+# OlViewType enumeration (Outlook)
 
 Indicates the view object type.
 
 
 
-|**Name**|**Value**|**Description**|
+|Name|Value|Description|
 |:-----|:-----|:-----|
 | **olBusinessCardView**|5|Represents a  **[BusinessCardView](Outlook.businessCardView.md)** object.|
 | **olCalendarView**|2|Represents a  **[CalendarView](Outlook.CalendarView.md)** object.|
@@ -30,6 +31,6 @@ Indicates the view object type.
 
 ## Remarks
 
-Used by the  **ViewType** property of **View** objects and as a parameter to the[Views.Add Method (Outlook)](Outlook.Views.Add.md).
+Used by the  **ViewType** property of **View** objects and as a parameter to the [Views.Add method (Outlook)](Outlook.Views.Add.md).
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

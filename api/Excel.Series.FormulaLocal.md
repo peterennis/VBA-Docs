@@ -1,5 +1,5 @@
 ---
-title: Series.FormulaLocal Property (Excel)
+title: Series.FormulaLocal property (Excel)
 keywords: vbaxl10.chm578085
 f1_keywords:
 - vbaxl10.chm578085
@@ -7,20 +7,21 @@ ms.prod: excel
 api_name:
 - Excel.Series.FormulaLocal
 ms.assetid: 6e2a0912-5006-d223-30a6-618642de035d
-ms.date: 06/08/2017
+ms.date: 05/11/2019
+localization_priority: Normal
 ---
 
 
-# Series.FormulaLocal Property (Excel)
+# Series.FormulaLocal property (Excel)
 
-Returns or sets the formula for the object, using A1-style references in the language of the user. Read/write  **String** .
+Returns or sets the formula for the object, using A1-style references in the language of the user. Read/write **String**.
 
 
 ## Syntax
 
- _expression_. `FormulaLocal`
+_expression_.**FormulaLocal**
 
- _expression_ A variable that represents a [Series](Excel.Series(Graph object).md) object.
+_expression_ A variable that represents a **[Series](Excel.Series(object).md)** object.
 
 
 ## Remarks
@@ -34,8 +35,6 @@ If the range is a one- or two-dimensional range, you can set the formula to a Vi
 Setting the formula of a multiple-cell range fills all cells in the range with the formula.
 
 
-## See also
 
 
-[Series Object](Excel.Series(object).md)
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

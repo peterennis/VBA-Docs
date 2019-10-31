@@ -1,5 +1,5 @@
 ---
-title: Application.FilePageSetupCalendarTextEx Method (Project)
+title: Application.FilePageSetupCalendarTextEx method (Project)
 keywords: vbapj.chm2162
 f1_keywords:
 - vbapj.chm2162
@@ -8,26 +8,27 @@ api_name:
 - Project.Application.FilePageSetupCalendarTextEx
 ms.assetid: 370cfaa4-4a7b-e40e-be9e-d562bf9947d7
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Application.FilePageSetupCalendarTextEx Method (Project)
+# Application.FilePageSetupCalendarTextEx method (Project)
 
 Formats the text of calendar views for printing, where the text color can be a hexadecimal value.
 
 
 ## Syntax
 
- _expression_. `FilePageSetupCalendarTextEx`( ` _Name_`, ` _Item_`, ` _Font_`, ` _Size_`, ` _Bold_`, ` _Italic_`, ` _Underline_`, ` _Color_` )
+_expression_. `FilePageSetupCalendarTextEx`( `_Name_`, `_Item_`, `_Font_`, `_Size_`, `_Bold_`, `_Italic_`, `_Underline_`, `_Color_` )
 
- _expression_ An expression that returns an [Application](./Project.Application.md) object.
-
-
-### Parameters
+ _expression_ An expression that returns an **[Application](Project.Application.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _Name_|Optional|**String**|The name of the calendar to edit.|
 | _Item_|Optional|**Long**|The text item to format. Can be one of the  **[PjPageSetupCalendarItem](Project.PjPageSetupCalendarItem.md)** constants.|
@@ -36,9 +37,9 @@ Formats the text of calendar views for printing, where the text color can be a h
 | _Bold_|Optional|**Boolean**|**True** if the font is bold; otherwise, **False**.|
 | _Italic_|Optional|**Boolean**|**True** if the font is italic; otherwise, **False**.|
 | _Underline_|Optional|**Boolean**|**True** if the font is underlined; otherwise, **False**.|
-| _Color_|Optional|**Long**|The color of the text. Can be a hexadecimal RGB value, where red is the last byte. For example, the value &;H01FFFF is yellow.|
+| _Color_|Optional|**Long**|The color of the text. Can be a hexadecimal RGB value, where red is the last byte. For example, the value &H01FFFF is yellow.|
 
-### Return Value
+## Return value
 
  **Boolean**
 
@@ -48,7 +49,8 @@ Formats the text of calendar views for printing, where the text color can be a h
 Using the  **FilePageSetupCalendarTextEx** method without any arguments displays the **Text Styles** dialog box.
 
 
- **Note**   **FilePageSetupCalendarTextEx** works only for printing calendar views.
+> [!NOTE] 
+>  **FilePageSetupCalendarTextEx** works only for printing calendar views.
 
 
 ## Example
@@ -59,7 +61,7 @@ The following example formats monthly titles in red for printing.
 ```vb
 Sub File_PageSetupCalendarText() 
  
-    'Activate the Calandar view. 
+    'Activate the Calendar view. 
     ViewApply Name:="&Calendar" 
  
     FilePageSetupCalendarTextEx Item:=pjMonthlyTitles, Color:=&0101FF 
@@ -67,4 +69,4 @@ Sub File_PageSetupCalendarText()
 End Sub
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

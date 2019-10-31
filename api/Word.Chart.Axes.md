@@ -1,38 +1,38 @@
 ---
-title: Chart.Axes Method (Word)
+title: Chart.Axes method (Word)
 ms.prod: word
 api_name:
 - Word.Chart.Axes
 ms.assetid: 37f422b5-31f2-92ce-c04e-a837b0a3d407
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Chart.Axes Method (Word)
+# Chart.Axes method (Word)
 
 Returns a collection of axes on the chart.
 
 
 ## Syntax
 
- _expression_. `Axes`( `_Type_` , `_AxisGroup_` )
+_expression_.**Axes** (_Type_, _AxisGroup_)
 
- _expression_ A variable that represents a '[Chart](Word.Chart.md)' object.
-
-
-### Parameters
+_expression_ A variable that represents a **[Chart](Word.Chart.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-| _Type_|Optional| **Variant**|The axis to return. Can be one of the following  **[XlAxisType](Word.xlaxistype.md)** constants: **xlValue** , **xlCategory** , or **xlSeriesAxis** (**xlSeriesAxis** is valid only for 3-D charts).|
-| _AxisGroup_|Optional| **[XlAxisGroup](Word.xlaxisgroup.md)**|One of the enumeration values that specifies the axis group. The default is  **xlPrimary** .
- **Note**  3-D charts have only one axis group.
+| _Type_|Optional| **Variant**|The axis to return. Can be one of the following  **[XlAxisType](Word.xlaxistype.md)** constants: **xlValue**, **xlCategory**, or **xlSeriesAxis** (**xlSeriesAxis** is valid only for 3D charts).|
+| _AxisGroup_|Optional| **[XlAxisGroup](Word.xlaxisgroup.md)**|One of the enumeration values that specifies the axis group. The default is  **xlPrimary**.
+> [!NOTE] 
+> 3D charts have only one axis group.
 
 |
 
-### Return Value
+## Return value
 
 An [Axes](Word.Axes.md) object that contains the selected axes from the chart.
 
@@ -89,3 +89,4 @@ End With
 
 [Chart Object](Word.Chart.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

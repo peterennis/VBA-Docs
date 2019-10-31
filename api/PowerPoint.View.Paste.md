@@ -1,5 +1,5 @@
 ---
-title: View.Paste Method (PowerPoint)
+title: View.Paste method (PowerPoint)
 keywords: vbapp10.chm512005
 f1_keywords:
 - vbapp10.chm512005
@@ -8,19 +8,20 @@ api_name:
 - PowerPoint.View.Paste
 ms.assetid: e7878c74-92d7-8993-9b46-8647c1b59b15
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# View.Paste Method (PowerPoint)
+# View.Paste method (PowerPoint)
 
 Pastes the contents of the Clipboard into the active view. Attempting to paste an object into a view that won't accept it causes an error. 
 
 
 ## Syntax
 
- _expression_. `Paste`
+_expression_.**Paste**
 
- _expression_ A variable that represents a [View](./PowerPoint.View.md) object.
+_expression_ A variable that represents a [View](PowerPoint.View.md) object.
 
 
 ## Remarks
@@ -39,7 +40,7 @@ Use the  **[ViewType](PowerPoint.DocumentWindow.ViewType.md)** property to set t
 
 ## Example
 
-This example copies the selection in window one to the Clipboard and copies it into the view in window two. If the Clipboard contents cannot be pasted into the view in window two ? for example, if you try to paste a shape into slide sorter view ? this example fails.
+This example copies the selection in window one to the Clipboard and copies it into the view in window two. If the Clipboard contents cannot be pasted into the view in window two (for example, if you try to paste a shape into slide sorter view), this example fails.
 
 
 ```vb
@@ -73,3 +74,4 @@ End With
 
 [View Object](PowerPoint.View.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

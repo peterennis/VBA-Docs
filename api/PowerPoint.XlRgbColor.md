@@ -1,20 +1,21 @@
 ---
-title: XlRgbColor Enumeration (PowerPoint)
+title: XlRgbColor enumeration (PowerPoint)
 ms.prod: powerpoint
 api_name:
 - PowerPoint.XlRgbColor
 ms.assetid: 46ecfb82-2b84-2c22-1ac9-0aa67ad78975
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# XlRgbColor Enumeration (PowerPoint)
+# XlRgbColor enumeration (PowerPoint)
 
 Specifies the RGB color.
 
 
 
-|**Name**|**Value**|**Description**|
+|Name|Value|Description|
 |:-----|:-----|:-----|
 |**xlAliceBlue**|16775408|Alice Blue|
 |**xlAntiqueWhite**|14150650|Antique White|
@@ -161,3 +162,4 @@ Specifies the RGB color.
 |**xlYellow**|65535|Yellow|
 |**xlYellowGreen**|3329434|Yellow Green|
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

@@ -1,5 +1,5 @@
 ---
-title: Layer.CellsC Property (Visio)
+title: Layer.CellsC property (Visio)
 keywords: vis_sdr.chm11813195
 f1_keywords:
 - vis_sdr.chm11813195
@@ -8,41 +8,42 @@ api_name:
 - Visio.Layer.CellsC
 ms.assetid: da7de08d-e492-a74d-a5de-139a32798deb
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Layer.CellsC Property (Visio)
+# Layer.CellsC property (Visio)
 
 Returns a  **Cell** object that represents a ShapeSheet cell in a row in the Layers section. Read-only.
 
 
 ## Syntax
 
- _expression_. `CellsC`( `_Column_` )
+_expression_. `CellsC`( `_Column_` )
 
- _expression_ An expression that returns a [Layer](./Visio.Layer.md) object.
-
-
-### Parameters
+ _expression_ An expression that returns a **[Layer](Visio.Layer.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _Column_|Required| **Integer**|The cell index of the cell to get.|
 
-### Return Value
+## Return value
 
 Cell
 
 
 ## Remarks
 
-The following constants for the cell index are declared by the Microsoft Visio type library in ** VisCellIndices** .
+The following constants for the cell index are declared by the Microsoft Visio type library in **VisCellIndices**.
 
 
 
-|**Constant**|**Value**|
+|Constant|Value|
 |:-----|:-----|
 | **visLayerName**|0 |
 | **visLayerColor**|2 |
@@ -56,3 +57,4 @@ The following constants for the cell index are declared by the Microsoft Visio t
 | **visLayerNameUniv**|10 |
 | **visLayerColorTrans**|11|
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

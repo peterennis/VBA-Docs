@@ -6,6 +6,7 @@ f1_keywords:
 ms.prod: office
 ms.assetid: 1932b29c-eb1c-4665-9a8e-32a2c83a58cb
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
@@ -13,8 +14,8 @@ ms.date: 06/08/2017
 
 Hi there! You have landed on one of our F1 Help redirector pages. Please select the topic you were looking for below.
 
-[TextBox.Parent Property (Access)](http://msdn.microsoft.com/library/e07da876-e24c-0828-e986-d13a0cb1f78e%28Office.15%29.aspx)
+[TextBox.Parent property (Access)](http://msdn.microsoft.com/library/e07da876-e24c-0828-e986-d13a0cb1f78e%28Office.15%29.aspx)
 
-[NavigationControl.Parent Property (Access)](http://msdn.microsoft.com/library/e6b36fe8-b4d3-6571-0965-f27ac611fd29%28Office.15%29.aspx)
+[NavigationControl.Parent property (Access)](http://msdn.microsoft.com/library/e6b36fe8-b4d3-6571-0965-f27ac611fd29%28Office.15%29.aspx)
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

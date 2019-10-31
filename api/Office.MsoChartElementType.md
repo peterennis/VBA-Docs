@@ -1,20 +1,21 @@
 ---
-title: MsoChartElementType Enumeration (Office)
+title: MsoChartElementType enumeration (Office)
 ms.prod: office
 api_name:
 - Office.MsoChartElementType
 ms.assetid: bfbdb3a9-b2bc-7fd0-9c15-680daf03fc72
-ms.date: 06/08/2017
+ms.date: 01/31/2019
+localization_priority: Normal
 ---
 
 
-# MsoChartElementType Enumeration (Office)
+# MsoChartElementType enumeration (Office)
 
 Specifies whether and how to display chart elements.
 
+<br/>
 
-
-|**Name**|**Value**|**Description**|
+|Name|Value|Description|
 |:-----|:-----|:-----|
 |**msoElementChartFloorNone**|1200|Do not display chart floor.|
 |**msoElementChartFloorShow**|1201|Display chart floor.|
@@ -22,7 +23,7 @@ Specifies whether and how to display chart elements.
 |**msoElementChartTitleCenteredOverlay**|1|Display title as centered overlay.|
 |**msoElementChartTitleNone**|0|Do not display chart title.|
 |**msoElementChartWallNone**|1100|Do not display chart wall.|
-|**msoElementChartWallShow**|1101|Dispaly chart wall.|
+|**msoElementChartWallShow**|1101|Display chart wall.|
 |**msoElementDataLabelBestFit**|210|Use best fit for data label.|
 |**msoElementDataLabelBottom**|209|Display data label at bottom.|
 |**msoElementDataLabelCallout**|211|Display data label as a callout.|
@@ -80,7 +81,7 @@ Specifies whether and how to display chart elements.
 |**msoElementPrimaryValueAxisNone**|352|Do not display primary value axis.|
 |**msoElementPrimaryValueAxisShow**|353|Show primary value axis|
 |**msoElementPrimaryValueAxisThousands**|354|Use thousands for primary value axis units.|
-|**msoElementPrimaryValueAxisTitleAdjacentToAxis**|306|Place primary value axis title adjacent to the axis.|
+|**msoElementPrimaryValueAxisTitleAdjacentToAxis**|307|Place primary value axis title adjacent to the axis.|
 |**msoElementPrimaryValueAxisTitleBelowAxis**|308|Place primary value axis title below the axis.|
 |**msoElementPrimaryValueAxisTitleHorizontal**|311|Display primary value axis title horizontally.|
 |**msoElementPrimaryValueAxisTitleNone**|306|Do not display primary value axis title.|
@@ -97,8 +98,8 @@ Specifies whether and how to display chart elements.
 |**msoElementSecondaryCategoryAxisReverse**|361|Reverse secondary category axis.|
 |**msoElementSecondaryCategoryAxisShow**|359|Display secondary category axis.|
 |**msoElementSecondaryCategoryAxisThousands**|376|Use thousands for secondary category axis units.|
-|**msoElementSecondaryCategoryAxisTitleAdjacentToAxis**|313|Dispaly secondary category axis title adjacent to axis.|
-|**msoElementSecondaryCategoryAxisTitleBelowAxis**|314|Dispaly secondary category axis title below axis.|
+|**msoElementSecondaryCategoryAxisTitleAdjacentToAxis**|313|Display secondary category axis title adjacent to axis.|
+|**msoElementSecondaryCategoryAxisTitleBelowAxis**|314|Display secondary category axis title below axis.|
 |**msoElementSecondaryCategoryAxisTitleHorizontal**|317|Display secondary category axis title horizontally.|
 |**msoElementSecondaryCategoryAxisTitleNone**|312|Do not display secondary category axis title.|
 |**msoElementSecondaryCategoryAxisTitleRotated**|315|Rotate secondary category axis title.|
@@ -144,3 +145,4 @@ Specifies whether and how to display chart elements.
 |**msoElementUpDownBarsNone**|900|Do not display up/down bars.|
 |**msoElementUpDownBarsShow**|901|Display up/down bars.|
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

@@ -1,5 +1,5 @@
 ---
-title: ShapeNodes.SetEditingType Method (Word)
+title: ShapeNodes.SetEditingType method (Word)
 keywords: vbawd10.chm164495373
 f1_keywords:
 - vbawd10.chm164495373
@@ -8,26 +8,25 @@ api_name:
 - Word.ShapeNodes.SetEditingType
 ms.assetid: 315a8a0d-0caa-278d-af0e-91b468b694ab
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# ShapeNodes.SetEditingType Method (Word)
+# ShapeNodes.SetEditingType method (Word)
 
 Sets the editing type of the node specified by Index. .
 
 
 ## Syntax
 
- _expression_. `SetEditingType`( `_Index_` , `_EditingType_` )
+_expression_.**SetEditingType** (_Index_, _EditingType_)
 
- _expression_ Required. A variable that represents a '[ShapeNodes](Word.shapenodes.md)' collection.
-
-
-### Parameters
+_expression_ Required. A variable that represents a **[ShapeNodes](Word.shapenodes.md)** collection.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _Index_|Required| **Long**|The node whose editing type is to be set.|
 | _EditingType_|Required| **MsoEditingType**|The editing property of the vertex.|
@@ -60,3 +59,4 @@ End With
 
 [ShapeNodes Collection Object](Word.shapenodes.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

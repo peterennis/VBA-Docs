@@ -1,32 +1,31 @@
 ---
-title: GradientStops.Insert Method (Office)
+title: GradientStops.Insert method (Office)
 ms.prod: office
 api_name:
 - Office.GradientStops.Insert
 ms.assetid: 98aec7ed-44f9-c9b4-7a1a-e5b9a1d26d95
-ms.date: 06/08/2017
+ms.date: 01/16/2019
+localization_priority: Normal
 ---
 
 
-# GradientStops.Insert Method (Office)
+# GradientStops.Insert method (Office)
 
 Adds a stop to a gradient.
 
 
 ## Syntax
 
- _expression_. `Insert`( `_RGB_`, `_Position_`, `_Transparency_`, `_Index_` )
+_expression_.**Insert** (_RGB_, _Position_, _Transparency_, _Index_)
 
- _expression_ An expression that returns a [GradientStops](./Office.GradientStops.md) object.
-
-
-### Parameters
+_expression_ An expression that returns a **[GradientStops](Office.GradientStops.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-| _RGB_|Required|**MsoRGBType**|Specifies the color at the gradient stop.|
+| _RGB_|Required|**[MsoThemeColorSchemeIndex](office.msothemecolorschemeindex.md)**|Specifies the color at the gradient stop.|
 | _Position_|Required|**Single**|Specifies the position of the stop within the gradient expressed as a percent.|
 | _Transparency_|Optional|**Single**|Specifies the opacity of color at the gradient stop.|
 | _Index_|Optional|**Long**|The index number of the stop.|
@@ -39,7 +38,6 @@ Gradients are a smooth transition from one color state to another. The endpoints
 ## Example
 
 The following example creates three color gradient stops in Microsoft PowerPoint.
-
 
 ```vb
 Sub gradients() 
@@ -59,10 +57,6 @@ End Sub
 
 ## See also
 
+- [GradientStops object members](overview/library-reference/gradientstops-members-office.md)
 
-[GradientStops Object](Office.GradientStops.md)
-
-
-
-[GradientStops Object Members](./overview/Library-Reference/gradientstops-members-office.md)
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

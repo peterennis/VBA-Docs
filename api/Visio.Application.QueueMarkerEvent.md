@@ -1,5 +1,5 @@
 ---
-title: Application.QueueMarkerEvent Method (Visio)
+title: Application.QueueMarkerEvent method (Visio)
 keywords: vis_sdr.chm10016455
 f1_keywords:
 - vis_sdr.chm10016455
@@ -8,46 +8,45 @@ api_name:
 - Visio.Application.QueueMarkerEvent
 ms.assetid: 2afa9553-db06-12ca-f5ef-28431f56a92d
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Application.QueueMarkerEvent Method (Visio)
+# Application.QueueMarkerEvent method (Visio)
 
-Queues a  **MarkerEvent** event that fires after all other queued events.
+Queues a **MarkerEvent** event that fires after all other queued events.
 
 
 ## Syntax
 
- _expression_. `QueueMarkerEvent`( `_ContextString_` )
+_expression_.**QueueMarkerEvent** (_ContextString_)
 
- _expression_ A variable that represents an [Application](./Visio.Application.md) object.
-
-
-### Parameters
+_expression_ A variable that represents an **[Application](Visio.Application.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _ContextString_|Required| **String**|An arbitrary string that is passed with the event that fires.|
 
-### Return Value
+## Return value
 
 Long
 
 
 ## Remarks
 
-The  **QueueMarkerEvent** method works in conjunction with the **MarkerEvent** event to allow an Automation client to queue an event to itself. The **QueueMarkerEvent** method causes the application to fire a **MarkerEvent** event after it has fired all the events in its event queue.
+The **QueueMarkerEvent** method works in conjunction with the **MarkerEvent** event to allow an Automation client to queue an event to itself. The **QueueMarkerEvent** method causes the application to fire a **MarkerEvent** event after it has fired all the events in its event queue.
 
-The  **QueueMarkerEvent** method returns the sequence number of the **MarkerEvent** event to fire, and the string passed to the **QueueMarkerEvent** method (legally empty) is passed to the **MarkerEvent** event handler.
+The **QueueMarkerEvent** method returns the sequence number of the **MarkerEvent** event to fire, and the string passed to the **QueueMarkerEvent** method (legally empty) is passed to the **MarkerEvent** event handler.
 
-A client program can use either the sequence number or the string to correlate  **QueueMarkerEvent** calls with **MarkerEvent** events. In this way, the client is able to distinguish events it caused and events it did not cause.
+A client program can use either the sequence number or the string to correlate **QueueMarkerEvent** calls with **MarkerEvent** events. In this way, the client is able to distinguish events it caused and events it did not cause.
 
 
 ## Example
 
-Paste this example code into the  **ThisDocument** object and then run the **UseMarker** procedure. The output will be displayed in the Microsoft Visual Basic for Applications (VBA) Immediate window.
+Paste this example code into the **[ThisDocument](../visio/Concepts/about-the-thisdocument-object-visio.md)** object and then run the **UseMarker** procedure. The output will be displayed in the Microsoft Visual Basic for Applications (VBA) Immediate window.
 
 
 ```vb
@@ -88,4 +87,4 @@ ShapeAdded: Sheet.1
 
 Marker: I am finished...
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

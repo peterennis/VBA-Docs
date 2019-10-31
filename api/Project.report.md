@@ -1,19 +1,21 @@
 ---
-title: Report Object (Project)
+title: Report object (Project)
 ms.prod: project-server
 ms.assetid: 38ef993e-e5cd-b451-06aa-41eb0e93450e
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Report Object (Project)
+# Report object (Project)
 Represents a report in Project that can contain Office Art objects such as a  **Shape**,  **ReportTable**, or  **Chart**. The  **Report** object is a member of the **Reports** collection.
  
 
 ## Remarks
 
 
- **Note**  Macro recording for the  **Report** object is not implemented. That is, when you record a macro in Project and manually add a report or edit a report, the steps for adding and editing the report are not recorded.
+> [!NOTE] 
+> Macro recording for the  **Report** object is not implemented. That is, when you record a macro in Project and manually add a report or edit a report, the steps for adding and editing the report are not recorded.
  
 
 
@@ -59,7 +61,7 @@ Sub DeleteTheReport()
     reportName = "My New Report"
     
     ' To delete the active report, change to another view.
-    ViewApplyEx Name:="&amp;Gantt Chart"
+    ViewApplyEx Name:="&Gantt Chart"
     
     ActiveProject.Reports(reportName).Delete
 End Sub
@@ -70,7 +72,7 @@ End Sub
 
 
 
-|**Name**|
+|Name|
 |:-----|
 |[Apply](Project.report.apply.md)|
 |[Delete](Project.report.delete.md)|
@@ -79,7 +81,7 @@ End Sub
 
 
 
-|**Name**|
+|Name|
 |:-----|
 |[Application](Project.report.application.md)|
 |[Index](Project.report.index.md)|
@@ -100,3 +102,5 @@ End Sub
 [Shape Object](Project.shape.md)
  
 [ShapeRange Object](Project.shaperange.md)
+
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

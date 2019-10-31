@@ -1,5 +1,5 @@
 ---
-title: Borders.Item Method (Word)
+title: Borders.Item method (Word)
 keywords: vbawd10.chm154927104
 f1_keywords:
 - vbawd10.chm154927104
@@ -8,30 +8,31 @@ api_name:
 - Word.Borders.Item
 ms.assetid: ac2b9108-5ae1-e875-f6a0-47a8c2175fe1
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Borders.Item Method (Word)
+# Borders.Item method (Word)
 
 Returns a border in a range or selection.
 
 
 ## Syntax
 
- _expression_. `Item`( `_Index_` )
+_expression_.**Item** (_Index_)
 
- _expression_ Required. A variable that represents a '[Borders](Word.borders.md)' collection.
-
-
-### Parameters
+_expression_ Required. A variable that represents a '[Borders](Word.borders.md)' collection.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _Index_|Required| **WdBorderType**|The border to be returned.|
 
-### Return Value
+## Return value
 
 Border
 
@@ -54,3 +55,4 @@ End Sub
 
 [Borders Collection Object](Word.borders.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

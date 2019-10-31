@@ -1,5 +1,5 @@
 ---
-title: HeadersFooters Object (PowerPoint)
+title: HeadersFooters object (PowerPoint)
 keywords: vbapp10.chm542000
 f1_keywords:
 - vbapp10.chm542000
@@ -8,10 +8,11 @@ api_name:
 - PowerPoint.HeadersFooters
 ms.assetid: 5fb10c90-0611-e797-836b-3f18b273af04
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# HeadersFooters Object (PowerPoint)
+# HeadersFooters object (PowerPoint)
 
 Contains all the  **[HeaderFooter](PowerPoint.HeaderFooter.md)** objects on the specified slide, notes page, handout, or master.
 
@@ -21,7 +22,8 @@ Contains all the  **[HeaderFooter](PowerPoint.HeaderFooter.md)** objects on the 
 Each  **HeaderFooter** object represents a header, footer, date and time, or slide number.
 
 
- **Note**   **HeaderFooter** objects aren't available for **[Slide](PowerPoint.Slide.md)** objects that represent notes pages. The **HeaderFooter** object that represents a header is available only for a notes master or handout master.
+> [!NOTE] 
+>  **HeaderFooter** objects aren't available for **[Slide](PowerPoint.Slide.md)** objects that represent notes pages. The **HeaderFooter** object that represents a header is available only for a notes master or handout master.
 
 
 ## Example
@@ -40,3 +42,4 @@ ActivePresentation.Slides(1).HeadersFooters.Footer _
 
 [PowerPoint Object Model Reference](overview/PowerPoint/object-model.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

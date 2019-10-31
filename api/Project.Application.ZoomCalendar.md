@@ -1,5 +1,5 @@
 ---
-title: Application.ZoomCalendar Method (Project)
+title: Application.ZoomCalendar method (Project)
 keywords: vbapj.chm2347
 f1_keywords:
 - vbapj.chm2347
@@ -8,32 +8,33 @@ api_name:
 - Project.Application.ZoomCalendar
 ms.assetid: fc02c827-11a0-380b-9e05-b4452246ff05
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Application.ZoomCalendar Method (Project)
+# Application.ZoomCalendar method (Project)
 
 Zooms in on or out from the Calendar.
 
 
 ## Syntax
 
- _expression_. `ZoomCalendar`( ` _NumWeeks_`, ` _StartDate_`, ` _EndDate_` )
+_expression_. `ZoomCalendar`( `_NumWeeks_`, `_StartDate_`, `_EndDate_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
-
-
-### Parameters
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _NumWeeks_|Optional|**Long**|The number of weeks to display. If StartDate and EndDate are specified, NumWeeks is ignored.|
 | _StartDate_|Optional|**Variant**|The first date to display.|
 | _EndDate_|Optional|**Variant**|The last date to display.|
 
-### Return Value
+## Return value
 
  **Boolean**
 
@@ -55,4 +56,4 @@ Sub FourWeekCalendar()
 End Sub
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

@@ -1,5 +1,5 @@
 ---
-title: Range.Tables Property (Word)
+title: Range.Tables property (Word)
 keywords: vbawd10.chm157155378
 f1_keywords:
 - vbawd10.chm157155378
@@ -8,24 +8,25 @@ api_name:
 - Word.Range.Tables
 ms.assetid: 1c6604be-233c-efb2-5d05-63fc5aa78481
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Range.Tables Property (Word)
+# Range.Tables property (Word)
 
 Returns a  **Tables** collection that represents all the tables in the specified range. Read-only.
 
 
 ## Syntax
 
- _expression_. `Tables`
+_expression_. `Tables`
 
- _expression_ A variable that represents a '[Range](Word.Range.md)' object.
+_expression_ A variable that represents a **[Range](Word.Range.md)** object.
 
 
 ## Remarks
 
-For information about returning a single member of a collection, see [Returning an Object from a Collection](../word/Concepts/Miscellaneous/returning-an-object-from-a-collection-word.md).
+For information about returning a single member of a collection, see [Returning an object from a collection](../word/Concepts/Miscellaneous/returning-an-object-from-a-collection-word.md).
 
 
 ## Example
@@ -59,3 +60,4 @@ Next acell
 
 [Range Object](Word.Range.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

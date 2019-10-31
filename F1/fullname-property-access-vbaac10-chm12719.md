@@ -6,6 +6,7 @@ f1_keywords:
 ms.prod: office
 ms.assetid: 4955d6b4-ca07-42cb-ad7a-bdb0b34dc2f1
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
@@ -13,8 +14,8 @@ ms.date: 06/08/2017
 
 Hi there! You have landed on one of our F1 Help redirector pages. Please select the topic you were looking for below.
 
-[CurrentProject.FullName Property (Access)](http://msdn.microsoft.com/library/43fa4260-4e70-c314-c02d-1328b7c1b2a2%28Office.15%29.aspx)
+[CurrentProject.FullName property (Access)](http://msdn.microsoft.com/library/43fa4260-4e70-c314-c02d-1328b7c1b2a2%28Office.15%29.aspx)
 
-[CodeProject.FullName Property (Access)](http://msdn.microsoft.com/library/33361e38-631f-3427-12a9-24bb45086dc1%28Office.15%29.aspx)
+[CodeProject.FullName property (Access)](http://msdn.microsoft.com/library/33361e38-631f-3427-12a9-24bb45086dc1%28Office.15%29.aspx)
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

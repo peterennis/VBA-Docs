@@ -1,5 +1,5 @@
 ---
-title: Application.Undo Method (Excel)
+title: Application.Undo method (Excel)
 keywords: vbaxl10.chm133221
 f1_keywords:
 - vbaxl10.chm133221
@@ -7,20 +7,21 @@ ms.prod: excel
 api_name:
 - Excel.Application.Undo
 ms.assetid: b56bb8a0-2cd1-356a-03ba-47eb6f56f455
-ms.date: 06/08/2017
+ms.date: 04/05/2019
+localization_priority: Normal
 ---
 
 
-# Application.Undo Method (Excel)
+# Application.Undo method (Excel)
 
 Cancels the last user-interface action.
 
 
 ## Syntax
 
- _expression_. `Undo`
+_expression_.**Undo**
 
- _expression_ A variable that represents an [Application](Excel.Application(Graph property).md) object.
+_expression_ A variable that represents an **[Application](Excel.Application(object).md)** object.
 
 
 ## Remarks
@@ -38,8 +39,6 @@ Application.Undo
 ```
 
 
-## See also
 
 
-[Application Object](Excel.Application(object).md)
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

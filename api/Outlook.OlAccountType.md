@@ -1,5 +1,5 @@
 ---
-title: OlAccountType Enumeration (Outlook)
+title: OlAccountType enumeration (Outlook)
 keywords: vbaol11.chm3105
 f1_keywords:
 - vbaol11.chm3105
@@ -8,16 +8,17 @@ api_name:
 - Outlook.OlAccountType
 ms.assetid: 8aeafc50-3f97-8d28-7fd9-a9d8e1eafc4c
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# OlAccountType Enumeration (Outlook)
+# OlAccountType enumeration (Outlook)
 
-Specifies the type of an  **[Account](Outlook.Account.md)** .
+Specifies the type of an  **[Account](Outlook.Account.md)**.
 
 
 
-|**Name**|**Value**|**Description**|
+|Name|Value|Description|
 |:-----|:-----|:-----|
 | **olEas**|4|An account that uses Exchange ActiveSync (EAS) on mobile devices.|
 | **olExchange**|0|An Exchange account.|
@@ -26,3 +27,4 @@ Specifies the type of an  **[Account](Outlook.Account.md)** .
 | **olOtherAccount**|5|Other or unknown account.|
 | **olPop3**|2|A POP3 account.|
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

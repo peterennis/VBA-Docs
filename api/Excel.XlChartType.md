@@ -1,20 +1,19 @@
 ---
-title: XlChartType Enumeration (Excel)
+title: XlChartType enumeration (Excel)
 ms.prod: excel
 api_name:
 - Excel.XlChartType
 ms.assetid: bba4ee89-ee91-f55a-d2e0-59a73e5bfabe
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# XlChartType Enumeration (Excel)
+# XlChartType enumeration (Excel)
 
 Specifies the chart type.
 
-
-
-|**Name**|**Value**|**Description**|
+|Name|Value|Description|
 |:-----|:-----|:-----|
 | **xl3DArea**|-4098|3D Area.|
 | **xl3DAreaStacked**|78|3D Stacked Area.|
@@ -76,6 +75,7 @@ Specifies the chart type.
 | **xlRadar**|-4151|Radar.|
 | **xlRadarFilled**|82|Filled Radar.|
 | **xlRadarMarkers**|81|Radar with Data Markers.|
+| **xlRegionMap**|140|Map chart.|
 | **xlStockHLC**|88|High-Low-Close.|
 | **xlStockOHLC**|89|Open-High-Low-Close.|
 | **xlStockVHLC**|90|Volume-High-Low-Close.|
@@ -90,3 +90,4 @@ Specifies the chart type.
 | **xlXYScatterSmooth**|72|Scatter with Smoothed Lines.|
 | **xlXYScatterSmoothNoMarkers**|73|Scatter with Smoothed Lines and No Data Markers.|
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

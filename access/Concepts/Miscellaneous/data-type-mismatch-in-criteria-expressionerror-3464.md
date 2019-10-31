@@ -6,6 +6,7 @@ f1_keywords:
 ms.prod: access
 ms.assetid: 199fb82f-b7e5-ff00-f57b-07616717008b
 ms.date: 06/08/2017
+localization_priority: Priority
 ---
 
 
@@ -17,13 +18,15 @@ ms.date: 06/08/2017
 
 The criteria expression in a Find method is attempting to compare a field with a value whose data type does not match the field's data type.
 
-For more information about this error, see [Type mismatch (Error 13)](http://msdn.microsoft.com/library/cbc7e902-b468-c335-5620-1ff9a2026b9b%28Office.15%29.aspx).
+For more information about this error, see [Type mismatch (Error 13)](https://msdn.microsoft.com/library/cbc7e902-b468-c335-5620-1ff9a2026b9b%28Office.15%29.aspx).
 
 ## See also
 
-- [Access for developers forum on MSDN](https://social.msdn.microsoft.com/Forums/office/en-US/home?forum=accessdev)
+- [Access for developers forum](https://social.msdn.microsoft.com/Forums/office/home?forum=accessdev)
 - [Access help on support.office.com](https://support.office.com/search/results?query=Access)
-- [Access help on answers.microsoft.com](https://answers.microsoft.com/en-us/msoffice/forum?page=1&;tab=question&;status=all&;auth=1)
+- [Access help on answers.microsoft.com](https://answers.microsoft.com/)
 - [Access forums on UtterAccess](http://www.utteraccess.com/forum/index.php?act=idx)
 - [Access developer and VBA programming help center (FMS)](http://www.fmsinc.com/MicrosoftAccess/developer/)
 - [Access posts on StackOverflow](https://stackoverflow.com/questions/tagged/ms-access)
+
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

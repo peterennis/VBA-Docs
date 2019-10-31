@@ -1,5 +1,5 @@
 ---
-title: AcCommand Enumeration (Access)
+title: AcCommand enumeration (Access)
 keywords: vbaac10.chm10037
 f1_keywords:
 - vbaac10.chm10037
@@ -8,16 +8,17 @@ api_name:
 - Access.AcCommand
 ms.assetid: a78f91cc-3b40-5f45-c737-4d3abb2e979f
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# AcCommand Enumeration (Access)
+# AcCommand enumeration (Access)
 
-Used with the  **[RunCommand](Access.Application.RunCommand.md)** method to run built-in commands.
+Used with the **[RunCommand](Access.Application.RunCommand.md)** method to run built-in commands.
 
+<br/>
 
-
-|**Name**|**Value**|**Description**|
+|Name|Value|Description|
 |:-----|:-----|:-----|
 |**acCmdAboutMicrosoftAccess**|35||
 |**acCmdAddDataMacroAfterDelete**|720||
@@ -697,3 +698,4 @@ Used with the  **[RunCommand](Access.Application.RunCommand.md)** method to run 
 |**acCmdZoomBox**|179||
 |**acCmdZoomSelection**|371||
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

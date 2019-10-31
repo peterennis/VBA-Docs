@@ -1,5 +1,5 @@
 ---
-title: InvisibleApp.QueueMarkerEvent Method (Visio)
+title: InvisibleApp.QueueMarkerEvent method (Visio)
 keywords: vis_sdr.chm17516455
 f1_keywords:
 - vis_sdr.chm17516455
@@ -8,30 +8,29 @@ api_name:
 - Visio.InvisibleApp.QueueMarkerEvent
 ms.assetid: ed782045-49b1-dcab-de81-41a45117afe7
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# InvisibleApp.QueueMarkerEvent Method (Visio)
+# InvisibleApp.QueueMarkerEvent method (Visio)
 
 Queues a  **MarkerEvent** event that fires after all other queued events.
 
 
 ## Syntax
 
- _expression_. `QueueMarkerEvent`( `_ContextString_` , `_lpi4Ret_` )
+_expression_.**QueueMarkerEvent** (_ContextString_)
 
- _expression_ A variable that represents an [InvisibleApp](./Visio.InvisibleApp.md) object.
-
-
-### Parameters
+_expression_ A variable that represents an **[InvisibleApp](Visio.InvisibleApp.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _ContextString_|Required| **String**|An arbitrary string that is passed with the event that fires.|
 
-### Return Value
+## Return value
 
 Long
 
@@ -47,7 +46,7 @@ A client program can use either the sequence number or the string to correlate  
 
 ## Example
 
-Paste this example code into the  **ThisDocument** object and then run the **UseMarker** procedure. The output will be displayed in the Microsoft Visual Basic for Applications (VBA) Immediate window.
+Paste this example code into the  **[ThisDocument](../visio/Concepts/about-the-thisdocument-object-visio.md)** object and then run the **UseMarker** procedure. The output will be displayed in the Microsoft Visual Basic for Applications (VBA) Immediate window.
 
 
 ```vb
@@ -88,4 +87,4 @@ ShapeAdded: Sheet.1
 
 Marker: I am finished...
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

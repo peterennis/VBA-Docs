@@ -6,12 +6,13 @@ f1_keywords:
 ms.prod: office
 ms.assetid: da89e346-f3ff-5b24-1a70-d2eb22ef7c33
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
 # Automation object doesn't have a default value (Error 443)
 
-When you specify an object name without a [property](../../Glossary/vbe-glossary.md#property) or[method](../../Glossary/vbe-glossary.md#method), Visual Basic assumes you are referencing the object's default [member](../../Glossary/vbe-glossary.md#member) (property or method). However, not all objects expose a default member. This error has the following cause and solution:
+When you specify an object name without a [property](../../Glossary/vbe-glossary.md#property) or [method](../../Glossary/vbe-glossary.md#method), Visual Basic assumes you are referencing the object's default [member](../../Glossary/vbe-glossary.md#member) (property or method). However, not all objects expose a default member. This error has the following cause and solution:
 
 
 
@@ -20,3 +21,4 @@ When you specify an object name without a [property](../../Glossary/vbe-glossary
 
 For additional information, select the item in question and press F1 (in Windows) or HELP (on the Macintosh).
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

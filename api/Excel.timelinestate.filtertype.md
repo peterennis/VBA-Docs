@@ -1,34 +1,31 @@
 ---
-title: TimelineState.FilterType Property (Excel)
+title: TimelineState.FilterType property (Excel)
 keywords: vbaxl10.chm950075
 f1_keywords:
 - vbaxl10.chm950075
 ms.prod: excel
 ms.assetid: 8ba72a5e-0b0b-2d15-ccea-fb2cda537aae
-ms.date: 06/08/2017
+ms.date: 05/18/2019
+localization_priority: Normal
 ---
 
 
-# TimelineState.FilterType Property (Excel)
+# TimelineState.FilterType property (Excel)
 
-Returns the type of the date filter. [XlPivotFilterType Enumeration (Excel)](Excel.XlPivotFilterType.md) Read-only
+Returns the type of date filter. Read-only **[XlPivotFilterType](Excel.XlPivotFilterType.md)**. 
 
 
 ## Syntax
 
- _expression_. `FilterType`
+_expression_.**FilterType**
 
- _expression_ A variable that represents a[TimelineState](Excel.timelinestate.md) object.
+_expression_ A variable that represents a **[TimelineState](Excel.timelinestate.md)** object.
 
 
 ## Property value
 
- **XLPIVOTFILTERTYPE**
-
-
-## See also
+**XLPIVOTFILTERTYPE**
 
 
 
-[TimelineState Object](Excel.timelinestate.md)
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

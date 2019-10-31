@@ -1,20 +1,21 @@
 ---
-title: PpPlaceholderType Enumeration (PowerPoint)
+title: PpPlaceholderType enumeration (PowerPoint)
 ms.prod: powerpoint
 api_name:
 - PowerPoint.PpPlaceholderType
 ms.assetid: 9dc579f4-4ab0-1027-7419-20e7e7a6bf8c
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# PpPlaceholderType Enumeration (PowerPoint)
+# PpPlaceholderType enumeration (PowerPoint)
 
 Specifies the type of placeholder.
 
 
 
-|**Name**|**Value**|**Description**|
+|Name|Value|Description|
 |:-----|:-----|:-----|
 |**ppPlaceholderBitmap**|9|Bitmap|
 |**ppPlaceholderBody**|2|Body|
@@ -36,3 +37,4 @@ Specifies the type of placeholder.
 |**ppPlaceholderVerticalObject**|17|Vertical Object|
 |**ppPlaceholderVerticalTitle**|5|Vertical Title|
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

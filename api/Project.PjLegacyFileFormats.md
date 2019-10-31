@@ -1,22 +1,24 @@
 ---
-title: PjLegacyFileFormats Enumeration (Project)
+title: PjLegacyFileFormats enumeration (Project)
 ms.prod: project-server
 api_name:
 - Project.PjLegacyFileFormats
 ms.assetid: 6c037bf7-2991-fb29-5649-e79547d4e2b8
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# PjLegacyFileFormats Enumeration (Project)
+# PjLegacyFileFormats enumeration (Project)
 
 Constants that specify the action for loading legacy files.
 
 
 
-|**Name**|**Value**|**Description**|
+|Name|Value|Description|
 |:-----|:-----|:-----|
 |**pjDoNotLoadLegacyFiles**|0|Do not load legacy files.|
 |**pjEnableLegacyFilesLoad**|2|Load legacy files.|
 |**pjPromptBeforeLoadingLegacyFiles**|1|Prompt before loading legacy files.|
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

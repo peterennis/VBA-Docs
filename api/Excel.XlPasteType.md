@@ -1,18 +1,19 @@
 ---
-title: XlPasteType Enumeration (Excel)
+title: XlPasteType enumeration (Excel)
 ms.prod: excel
 api_name:
 - Excel.XlPasteType
 ms.assetid: a60202d9-b380-ed88-b7d8-66bf34e032a5
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# XlPasteType Enumeration (Excel)
+# XlPasteType enumeration (Excel)
 
 Specifies the part of the range to be pasted.
 
-|**Name**|**Value**|**Description**|
+|Name|Value|Description|
 |:-----|:-----|:-----|
 | **xlPasteAll**|-4104|Everything will be pasted.|
 | **xlPasteAllExceptBorders**|7|Everything except borders will be pasted.|
@@ -27,3 +28,4 @@ Specifies the part of the range to be pasted.
 | **xlPasteValues**|-4163|Values are pasted.|
 | **xlPasteValuesAndNumberFormats**|12|Values and Number formats are pasted.|
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

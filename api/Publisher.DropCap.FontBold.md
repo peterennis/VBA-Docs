@@ -1,5 +1,5 @@
 ---
-title: DropCap.FontBold Property (Publisher)
+title: DropCap.FontBold property (Publisher)
 keywords: vbapb10.chm5505029
 f1_keywords:
 - vbapb10.chm5505029
@@ -7,31 +7,31 @@ ms.prod: publisher
 api_name:
 - Publisher.DropCap.FontBold
 ms.assetid: 7e1b9b51-258d-080c-e5ae-cdc9d6a2ba64
-ms.date: 06/08/2017
+ms.date: 06/07/2019
+localization_priority: Normal
 ---
 
 
-# DropCap.FontBold Property (Publisher)
+# DropCap.FontBold property (Publisher)
 
-Sets or returns an  **MsoTriState**constant that represents whether the font for a dropped capital letter or WordArt text effect is bold. Read/write.
+Sets or returns an **[MsoTriState](Office.MsoTriState.md)** constant that represents whether the font for a dropped capital letter or WordArt text effect is bold. Read/write.
 
 
 ## Syntax
 
- _expression_. **FontBold**
+_expression_.**FontBold**
 
- _expression_ A variable that represents a  **DropCap** object.
+_expression_ A variable that represents a **[DropCap](Publisher.DropCap.md)** object.
 
 
 ## Remarks
 
-The  **FontBold** property value can be one of the ** [MsoTriState](./Office.MsoTriState.md)** constants declared in the Microsoft Office type library.
+The **FontBold** property value can be one of the **MsoTriState** constants declared in the Microsoft Office type library.
 
 
 ## Example
 
 This example applies bold formatting to the dropped capital letter in the specified text frame. This example assumes that the specified text frame is formatted with a dropped capital letter.
-
 
 ```vb
 Sub BoldDropCap() 
@@ -45,4 +45,4 @@ Sub BoldDropCap()
 End Sub
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

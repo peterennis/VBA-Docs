@@ -3,6 +3,7 @@ title: Create an HTML File with a Table of Contents based on Cell Data
 ms.prod: excel
 ms.assetid: 06cc875a-22dc-4d83-86e3-99fa142f2426
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
@@ -10,7 +11,7 @@ ms.date: 06/08/2017
 
 This code example shows how to take data from a worksheet and create a table of contents in an HTML file. The worksheet should have data in columns A, B, and C that correspond to the first, second, and third levels of the table of contents hierarchy. The HTML file is stored in the same working folder as the active workbook.
 
- **Sample code provided by:** Holy Macro! Books, [Holy Macro! It's 2,500 Excel VBA Examples](https://www.mrexcel.com/store/index.php?l=product_detail&;p=1)
+ **Sample code provided by:** Holy Macro! Books, [Holy Macro! It's 2,500 Excel VBA Examples](https://www.mrexcel.com/store/index.php?l=product_detail&p=1)
 
 
 
@@ -99,6 +100,6 @@ End Sub
 ## About the Contributor
 <a name="AboutContributor"> </a>
 
-Holy Macro! Books publishes entertaining books for people who use Microsoft Office. See the complete catalog at MrExcel.com. 
+Holy Macro! Books publishes entertaining books for people who use Microsoft Office. See the complete catalog at MrExcel.com.
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

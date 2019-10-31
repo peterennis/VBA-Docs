@@ -3,6 +3,7 @@ title: Creating and Saving Data to Solution Storage
 ms.prod: outlook
 ms.assetid: 5a417191-ed36-be5c-5d63-1ab618bd06cf
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
@@ -20,7 +21,7 @@ The Outlook object model supports creating and storing solution data as hidden i
     
 
 In these cases,  **Folder.GetStorage** will return an error: "Cannot create StorageItem in this folder."
-When you call  **Folder.GetStorage** specifying a subject or a message class and the specified item does not exist in the folder, the call creates and returns a **StorageItem** object with the message class **IPM.Storage**; if you specified an Entry ID, howwever, the call will return the error, "The operation failed. An object could not be found."
+When you call  **Folder.GetStorage** specifying a subject or a message class and the specified item does not exist in the folder, the call creates and returns a **StorageItem** object with the message class **IPM.Storage**; if you specified an Entry ID, however, the call will return the error, "The operation failed. An object could not be found."
 
 ## Obtaining an Existing StorageItem
 
@@ -33,4 +34,4 @@ You can call  **Folder.GetStorage** for an item that already exists in a folder.
 
 After obtaining a  **StorageItem** object, you can store private data as an attachment to the item, or as a value to the **Body** property or a custom property of the item. The initial size of the item is 0. As you store data to the item, the **[StorageItem.Size](../../../api/Outlook.StorageItem.Size.md)** is updated. Call **[StorageItem.Save](../../../api/Outlook.StorageItem.Save.md)** to update the contents of the item in the folder.
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

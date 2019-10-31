@@ -1,12 +1,13 @@
 ---
-title: Series Object (Project)
+title: Series object (Project)
 ms.prod: project-server
 ms.assetid: 38a834ec-4076-82ef-a6bd-55a1ee2624bd
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Series Object (Project)
+# Series object (Project)
 Represents a collection of related data that makes a row or a column in a chart.
  
 
@@ -49,14 +50,14 @@ Sub TestChartSeries()
             Set chartSeries = seriesCollec(i)
         
             If (IsEmpty(chartSeries.Name)) Then
-                Debug.Print "Series " &amp; i &amp; " name is an empty string."
+                Debug.Print "Series " & i & " name is an empty string."
             Else
-                Debug.Print "Series " &amp; i &amp; ": " &amp; chartSeries.Name
+                Debug.Print "Series " & i & ": " & chartSeries.Name
             End If
             
             For j = 1 To seriesCollec.Count
-                Debug.Print vbTab &amp; "X, Y values(" &amp; j &amp; "): " &amp; chartSeries.XValues(j) _
-                    &amp; ", " &amp; chartSeries.Values(j); ""
+                Debug.Print vbTab & "X, Y values(" & j & "): " & chartSeries.XValues(j) _
+                    & ", " & chartSeries.Values(j); ""
             Next j
         Next i
     End If
@@ -90,7 +91,7 @@ Series 3: Work
 
 
 
-|**Name**|
+|Name|
 |:-----|
 |[Application](Project.series.application.md)|
 |[Name](Project.series.name.md)|
@@ -103,3 +104,5 @@ Series 3: Work
 
  
 [Chart Object](Project.chart.md)
+
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

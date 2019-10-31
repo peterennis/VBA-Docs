@@ -3,6 +3,7 @@ title: Sending Email to a List of Recipients Using Excel and Outlook
 ms.prod: excel
 ms.assetid: 207b0384-30f0-412a-8d2b-c1740fb61420
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
@@ -10,7 +11,7 @@ ms.date: 06/08/2017
 
 The following code example shows how to send an email to a list of recipients based on data stored in a workbook. The recipient email addresses must be in column A, and the body text of the email must be in the first text box on the active sheet.
 
- **Sample code provided by:** Holy Macro! Books, [Holy Macro! It's 2,500 Excel VBA Examples](https://www.mrexcel.com/store/index.php?l=product_detail&;p=1)
+ **Sample code provided by:** Holy Macro! Books, [Holy Macro! It's 2,500 Excel VBA Examples](https://www.mrexcel.com/store/index.php?l=product_detail&p=1)
 
 
 
@@ -55,6 +56,6 @@ End Sub
 ## About the Contributor
 <a name="AboutContributor"> </a>
 
-Holy Macro! Books publishes entertaining books for people who use Microsoft Office. See the complete catalog at MrExcel.com. 
+Holy Macro! Books publishes entertaining books for people who use Microsoft Office. See the complete catalog at MrExcel.com.
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

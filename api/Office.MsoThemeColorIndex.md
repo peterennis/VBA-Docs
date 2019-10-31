@@ -1,20 +1,21 @@
 ---
-title: MsoThemeColorIndex Enumeration (Office)
+title: MsoThemeColorIndex enumeration (Office)
 ms.prod: office
 api_name:
 - Office.MsoThemeColorIndex
 ms.assetid: 2281eafa-c8f0-d620-d0eb-c301dfb6a426
-ms.date: 06/08/2017
+ms.date: 01/31/2019
+localization_priority: Normal
 ---
 
 
-# MsoThemeColorIndex Enumeration (Office)
+# MsoThemeColorIndex enumeration (Office)
 
 Indicates the Office theme color.
 
+<br/>
 
-
-|**Name**|**Value**|**Description**|
+|Name|Value|Description|
 |:-----|:-----|:-----|
 |**msoNotThemeColor**|0|Specifies no theme color.|
 |**msoThemeColorAccent1**|5|Specifies the Accent 1 theme color.|
@@ -35,3 +36,4 @@ Indicates the Office theme color.
 |**msoThemeColorText1**|13|Specifies the Text 1 theme color.|
 |**msoThemeColorText2**|15|Specifies the Text 2 theme color.|
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

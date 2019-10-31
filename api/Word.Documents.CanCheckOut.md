@@ -1,5 +1,5 @@
 ---
-title: Documents.CanCheckOut Method (Word)
+title: Documents.CanCheckOut method (Word)
 keywords: vbawd10.chm158072849
 f1_keywords:
 - vbawd10.chm158072849
@@ -8,30 +8,29 @@ api_name:
 - Word.Documents.CanCheckOut
 ms.assetid: eaa052ff-0194-4c3f-a8e3-5a18ae77038e
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Documents.CanCheckOut Method (Word)
+# Documents.CanCheckOut method (Word)
 
- **True** if Microsoft Word can check out a specified document from a server. Read/write **Boolean** .
+**True** if Microsoft Word can check out a specified document from a server. Read/write **Boolean**.
 
 
 ## Syntax
 
- _expression_. `CanCheckOut`( `_FileName_` )
+_expression_.**CanCheckOut** (_FileName_)
 
- _expression_ Required. A variable that represents a '[Document](Word.Document.md)' object.
-
-
-### Parameters
+_expression_ Required. A variable that represents a **[Documents](Word.Documents.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _FileName_|Required| **String**|The server path and name of the document.|
 
-### Return Value
+## Return value
 
 Boolean
 
@@ -56,9 +55,9 @@ Sub CheckInOut(docCheckOut As String)
 End Sub
 ```
 
-To call the CheckInOut subroutine, use the following subroutine and replace the "https://servername/workspace/report.doc" file name with an actual file located on a server mentioned in the Remarks section above.
+<br/>
 
-
+To call the CheckInOut subroutine, use the following subroutine and replace the "https://servername/workspace/report.doc" file name with an actual file located on a server mentioned in the Remarks section.
 
 
 ```vb
@@ -68,8 +67,6 @@ End Sub
 ```
 
 
-## See also
 
 
-[Documents Collection Object](Word.documents.md)
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

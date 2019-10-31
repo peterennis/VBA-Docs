@@ -1,5 +1,5 @@
 ---
-title: Cell.Select Method (Publisher)
+title: Cell.Select method (Publisher)
 keywords: vbapb10.chm5111843
 f1_keywords:
 - vbapb10.chm5111843
@@ -7,26 +7,26 @@ ms.prod: publisher
 api_name:
 - Publisher.Cell.Select
 ms.assetid: 37a026a3-67ec-7a13-5eb4-66e14918579d
-ms.date: 06/08/2017
+ms.date: 06/06/2019
+localization_priority: Normal
 ---
 
 
-# Cell.Select Method (Publisher)
+# Cell.Select method (Publisher)
 
 Selects the specified object.
 
 
 ## Syntax
 
- _expression_. **Select**
+_expression_.**Select**
 
- _expression_ A variable that represents a  **Cell** object.
+_expression_ A variable that represents a **[Cell](Publisher.Cell.md)** object.
 
 
 ## Example
 
 This example selects the upper-left cell from a table that has been added to the first page in the active publication.
-
 
 ```vb
 Dim shpTable As Shape 
@@ -40,10 +40,9 @@ With ActiveDocument.Pages(1).Shapes
 End With
 ```
 
+<br/>
+
 This example selects the first column from a table that has been added to the first page in the active publication.
-
-
-
 
 ```vb
 Dim shpTable As Shape 
@@ -58,10 +57,9 @@ With ActiveDocument.Pages(1).Shapes
 End With
 ```
 
+<br/>
+
 This example selects the first five characters in shape one on page one of the active publication.
-
-
-
 
 ```vb
 ActiveDocument.Pages(1).Shapes(1).TextFrame _ 
@@ -69,3 +67,5 @@ ActiveDocument.Pages(1).Shapes(1).TextFrame _
 ```
 
 
+
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

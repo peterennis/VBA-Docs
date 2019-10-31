@@ -1,5 +1,5 @@
 ---
-title: Document.CustomToolbars Property (Visio)
+title: Document.CustomToolbars property (Visio)
 keywords: vis_sdr.chm10513355
 f1_keywords:
 - vis_sdr.chm10513355
@@ -8,22 +8,23 @@ api_name:
 - Visio.Document.CustomToolbars
 ms.assetid: def64862-5298-bc3a-0509-84216725d7da
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Document.CustomToolbars Property (Visio)
+# Document.CustomToolbars property (Visio)
 
-Gets a  **UIObject** object that represents the current custom toolbars and status bars of a **Document** object. Read-only.
+Gets a **UIObject** object that represents the current custom toolbars and status bars of a **Document** object. Read-only.
 
 
 ## Syntax
 
- _expression_. `CustomToolbars`
+_expression_.**CustomToolbars**
 
- _expression_ A variable that represents a [Document](./Visio.Document.md) object.
+_expression_ A variable that represents a **[Document](Visio.Document.md)** object.
 
 
-### Return Value
+## Return value
 
 UIObject
 
@@ -31,9 +32,10 @@ UIObject
 ## Remarks
 
 
- **Note**  Starting with Visio, the Microsoft Office Fluent user interface (UI) replaces the previous system of layered menus, toolbars, and task panes. VBA objects and members that you used to customize the user interface in previous versions of Visio are still available in Visio, but they function differently.
+> [!NOTE] 
+> Starting with Visio 2010, the Microsoft Office Fluent user interface (UI) replaced the previous system of layered menus, toolbars, and task panes. VBA objects and members that you used to customize the user interface in previous versions of Visio are still available in Visio, but they function differently.
 
-If Microsoft Visio toolbars and status bars have not been customized, either programmatically, by a Visio solution, or in the user interface, the  **CustomToolbars** property returns **Nothing** .
+If Microsoft Visio toolbars and status bars have not been customized, either programmatically, by a Visio solution, or in the user interface, the **CustomToolbars** property returns **Nothing**.
 
 
 ## Example
@@ -75,4 +77,4 @@ Sub CustomToolbars_Example()
 End Sub
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

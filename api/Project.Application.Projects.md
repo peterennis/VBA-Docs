@@ -1,23 +1,24 @@
 ---
-title: Application.Projects Property (Project)
+title: Application.Projects property (Project)
 ms.prod: project-server
 api_name:
 - Project.Application.Projects
 ms.assetid: 792b7334-a424-abe1-287e-285d3ab362c7
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Application.Projects Property (Project)
+# Application.Projects property (Project)
 
 Gets a  **[Projects](Project.projects.md)** collection representing the open projects. Read-only **Projects**.
 
 
 ## Syntax
 
- _expression_. `Projects`
+_expression_. `Projects`
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Remarks
@@ -39,4 +40,4 @@ Sub SaveAndNoteTime()
 End Sub
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

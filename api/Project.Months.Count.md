@@ -1,28 +1,29 @@
 ---
-title: Months.Count Property (Project)
+title: Months.Count property (Project)
 ms.prod: project-server
 api_name:
 - Project.Months.Count
 ms.assetid: c686777e-5540-5f1c-7e50-e5138b12e280
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Months.Count Property (Project)
+# Months.Count property (Project)
 
 Gets the number of items in the  **Months** collection for a specified year from 1984 - 2149. Read-only **Integer**.
 
 
 ## Syntax
 
- _expression_. `Count`
+_expression_.**Count**
 
- _expression_ A variable that represents a 'Months' object.
+_expression_ A variable that represents a 'Months' object.
 
 
 ## Examples
 
-The following example in the  **Immediate** window of the VBE returns 12, the number of months in 2012. If you set the year to 1983 or 2150, the result is "Run-time error '1101'; the argument is not valid."
+The following example in the Immediate window of the VBE returns 12, the number of months in 2012. If you set the year to 1983 or 2150, the result is "Run-time error '1101'; the argument is not valid."
 
 
 ```vb
@@ -69,3 +70,5 @@ End Sub
 
 
 [Months Collection Object](Project.months.md)
+
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

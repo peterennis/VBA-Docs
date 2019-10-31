@@ -1,5 +1,5 @@
 ---
-title: Application.OptionsCalendar Method (Project)
+title: Application.OptionsCalendar method (Project)
 keywords: vbapj.chm649
 f1_keywords:
 - vbapj.chm649
@@ -8,26 +8,27 @@ api_name:
 - Project.Application.OptionsCalendar
 ms.assetid: bde3b645-3417-ee45-57b5-0109bc7b17ad
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Application.OptionsCalendar Method (Project)
+# Application.OptionsCalendar method (Project)
 
 Sets options for the calendar of the active project.
 
 
 ## Syntax
 
- _expression_. `OptionsCalendar`( ` _StartWeekOnMonday_`, ` _StartYearIn_`, ` _StartTime_`, ` _FinishTime_`, ` _HoursPerDay_`, ` _HoursPerWeek_`, ` _SetDefaults_`, ` _StartWeekOn_`, ` _UseFYStartYear_`, ` _DaysPerMonth_` )
+_expression_. `OptionsCalendar`( `_StartWeekOnMonday_`, `_StartYearIn_`, `_StartTime_`, `_FinishTime_`, `_HoursPerDay_`, `_HoursPerWeek_`, `_SetDefaults_`, `_StartWeekOn_`, `_UseFYStartYear_`, `_DaysPerMonth_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
-
-
-### Parameters
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _StartWeekOnMonday_|Optional|**Boolean**|**True** if the calendar week starts on Monday. **False** if the calendar week starts on Sunday. If _StartWeekOn_ is specified, _StartWeekOnMonday_ is ignored. (The _StartWeekOn_ argument is a better way to specify the start of the week.)|
 | _StartYearIn_|Optional|**Long**|The first month of the fiscal year. Can be one of the  **[PjMonth](Project.PjMonth.md)** constants.|
@@ -40,7 +41,7 @@ Sets options for the calendar of the active project.
 | _UseFYStartYear_|Optional|**Boolean**|**True** if a fiscal year is determined by the year of the first month of that fiscal year. **False** if determined by the last month of the fiscal year.For example, if  _StartYearIn_ is pjJuly (to denote July 2012) and _UseFYStartYear_ is **True**, the fiscal year ending in June 2012 would be FY2012.|
 | _DaysPerMonth_|Optional|**Double**|The default number of work days per month.|
 
-### Return Value
+## Return value
 
  **Boolean**
 
@@ -69,4 +70,4 @@ Sub Options_Calendar()
 End Sub
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

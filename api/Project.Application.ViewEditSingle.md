@@ -1,5 +1,5 @@
 ---
-title: Application.ViewEditSingle Method (Project)
+title: Application.ViewEditSingle method (Project)
 keywords: vbapj.chm303
 f1_keywords:
 - vbapj.chm303
@@ -8,26 +8,27 @@ api_name:
 - Project.Application.ViewEditSingle
 ms.assetid: 445977e9-e540-14b3-a179-ea132491265e
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Application.ViewEditSingle Method (Project)
+# Application.ViewEditSingle method (Project)
 
 Creates, edits, or copies a single-pane view.
 
 
 ## Syntax
 
- _expression_. `ViewEditSingle`( ` _Name_`, ` _Create_`, ` _NewName_`, ` _Screen_`, ` _ShowInMenu_`, ` _HighlightFilter_`, ` _Table_`, ` _Filter_`, ` _Group_` )
+_expression_. `ViewEditSingle`( `_Name_`, `_Create_`, `_NewName_`, `_Screen_`, `_ShowInMenu_`, `_HighlightFilter_`, `_Table_`, `_Filter_`, `_Group_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
-
-
-### Parameters
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _Name_|Optional|**String**| The name of a single-pane view to edit, create, or copy. The default is the name of the active view.|
 | _Create_|Optional|**Boolean**|**True** if Project creates a single-pane view. If NewName is an empty string (""), the new view is given the name specified with Name. Otherwise, the new view is a copy of the view specified with Name and is given the name specified with NewName. The default value is **False**.|
@@ -39,7 +40,7 @@ Creates, edits, or copies a single-pane view.
 | _Filter_|Optional|**String**|The name of a filter to apply to the view. Required for a new view.|
 | _Group_|Optional|**String**|The name of a group to apply to the view. If a group is required for the view, but none is specified, the default value is "No Group". The Group value is ignored if the view specified with the Screen argument does not use groups.|
 
-### Return Value
+## Return value
 
  **Boolean**
 
@@ -57,4 +58,4 @@ Sub DisplayMyTasks()
 End Sub
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

@@ -1,5 +1,5 @@
 ---
-title: Design.MoveTo Method (PowerPoint)
+title: Design.MoveTo method (PowerPoint)
 keywords: vbapp10.chm644010
 f1_keywords:
 - vbapp10.chm644010
@@ -8,26 +8,27 @@ api_name:
 - PowerPoint.Design.MoveTo
 ms.assetid: fc0d8e56-0e82-da31-3360-995ad804db7d
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Design.MoveTo Method (PowerPoint)
+# Design.MoveTo method (PowerPoint)
 
 Moves the specified object to a specific location within the same collection, renumbering all other items in the collection appropriately.
 
 
 ## Syntax
 
- _expression_. `MoveTo`( `_toPos_` )
+_expression_. `MoveTo`( `_toPos_` )
 
- _expression_ A variable that represents a [Design](./PowerPoint.Design.md) object.
-
-
-### Parameters
+_expression_ A variable that represents a [Design](PowerPoint.Design.md) object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _toPos_|Required|**Long**|The index position to which to move the animation effect.|
 
@@ -72,3 +73,4 @@ End Sub
 
 [Design Object](PowerPoint.Design.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

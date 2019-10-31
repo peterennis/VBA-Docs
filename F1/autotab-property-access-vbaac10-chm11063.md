@@ -6,6 +6,7 @@ f1_keywords:
 ms.prod: office
 ms.assetid: bbd4f7be-8f7b-435f-83d8-bc206a92782a
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
@@ -13,8 +14,8 @@ ms.date: 06/08/2017
 
 Hi there! You have landed on one of our F1 Help redirector pages. Please select the topic you were looking for below.
 
-[TextBox.AutoTab Property (Access)](http://msdn.microsoft.com/library/27b17921-cd58-e243-e091-2686c64a7c02%28Office.15%29.aspx)
+[TextBox.AutoTab property (Access)](http://msdn.microsoft.com/library/27b17921-cd58-e243-e091-2686c64a7c02%28Office.15%29.aspx)
 
-[NavigationControl.AutoTab Property (Access)](http://msdn.microsoft.com/library/3d484269-c00b-3f5e-8492-6e0ca60460b8%28Office.15%29.aspx)
+[NavigationControl.AutoTab property (Access)](http://msdn.microsoft.com/library/3d484269-c00b-3f5e-8492-6e0ca60460b8%28Office.15%29.aspx)
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

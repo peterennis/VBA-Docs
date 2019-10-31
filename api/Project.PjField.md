@@ -1,20 +1,21 @@
 ---
-title: PjField Enumeration (Project)
+title: PjField enumeration (Project)
 ms.prod: project-server
 api_name:
 - Project.PjField
 ms.assetid: f0df0929-921c-1f33-ab42-192efdaeb64d
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# PjField Enumeration (Project)
+# PjField enumeration (Project)
 
 Contains constants that specify a resource or task field in Project.
 
 
 
-|**Name**|**Value**|**Description**|
+|Name|Value|Description|
 |:-----|:-----|:-----|
 |**pjImportResource**|205521651|Represents the Import (Resource) field. |
 |**pjResourceAccrueAt**|205520915|Represents the Accrue At (Resource) field. |
@@ -1357,12 +1358,8 @@ Contains constants that specify a resource or task field in Project.
 
 ## Remarks
 
-Many properties, methods, and events use the  **PjField** enumeration. For example, see the **GetField** method and **SetField** method of the **Resource** object and **Task** object, the[SetResourceFieldByID](Project.Application.SetResourceFieldByID.md) method, and the[SetTaskFieldByID](Project.Application.SetTaskFieldByID.md) method. To convert between a field name and the field constant value, see the[FieldConstantToFieldName](Project.Application.FieldConstantToFieldName.md) method and the[FieldNameToFieldConstant](Project.Application.FieldNameToFieldConstant.md) method.
+Many properties, methods, and events use the  **PjField** enumeration. For example, see the **GetField** method and **SetField** method of the **Resource** object and **Task** object, the [SetResourceFieldByID](Project.Application.SetResourceFieldByID.md) method, and the [SetTaskFieldByID](Project.Application.SetTaskFieldByID.md) method. To convert between a field name and the field constant value, see the [FieldConstantToFieldName](Project.Application.FieldConstantToFieldName.md) method and the [FieldNameToFieldConstant](Project.Application.FieldNameToFieldConstant.md) method.
 
 For more information about working with fields in Project, see the  _Available fields reference_ topic. In Project Help, search for _Available fields_.
 
-
-## See also
-
-
-[Available fields reference](https://office.microsoft.com/en-us/project-help/available-fields-reference-HA102749299.aspx?CTT=1)
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

@@ -1,5 +1,5 @@
 ---
-title: Range.IsEqual Method (Word)
+title: Range.IsEqual method (Word)
 keywords: vbawd10.chm157155499
 f1_keywords:
 - vbawd10.chm157155499
@@ -8,30 +8,31 @@ api_name:
 - Word.Range.IsEqual
 ms.assetid: cd6269d9-4693-897d-d9b2-69f45c815ba3
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Range.IsEqual Method (Word)
+# Range.IsEqual method (Word)
 
  **True** if the range to which this method is applied is equal to the range specified by the Range argument.
 
 
 ## Syntax
 
- _expression_. `IsEqual`( `_Range_` )
+_expression_. `IsEqual`( `_Range_` )
 
- _expression_ Required. A variable that represents a '[Range](Word.Range.md)' object.
-
-
-### Parameters
+_expression_ Required. A variable that represents a **[Range](Word.Range.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _Range_|Required| **Range**|The range to compare with the  **Range** object defined by expression.|
 
-### Return Value
+## Return value
 
 Boolean
 
@@ -60,3 +61,4 @@ End If
 
 [Range Object](Word.Range.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

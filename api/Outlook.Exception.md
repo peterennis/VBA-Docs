@@ -1,5 +1,5 @@
 ---
-title: Exception Object (Outlook)
+title: Exception object (Outlook)
 keywords: vbaol11.chm296
 f1_keywords:
 - vbaol11.chm296
@@ -8,10 +8,11 @@ api_name:
 - Outlook.Exception
 ms.assetid: 010552b0-9ba6-c81b-1e3a-fd6a681e5163
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Exception Object (Outlook)
+# Exception object (Outlook)
 
 Represents information about one instance of an  **[AppointmentItem](Outlook.AppointmentItem.md)** object which is an exception to a recurring series.
 
@@ -21,7 +22,8 @@ Represents information about one instance of an  **[AppointmentItem](Outlook.App
  Unlike most of the other Microsoft Outlook objects, the **Exception** object is a read-only object. This means that you cannot create an **Exception** object but, rather, the object is created when a property of an **AppointmentItem** is altered. For example, if you change the **[Start](Outlook.AppointmentItem.Start.md)** property of one **AppointmentItem**, you have created an **Exception** in **AppointmentItem.RecurrencePattern.Exceptions**.
 
 
- **Note**  The  **[Exceptions](Outlook.Exceptions.md)** object is on the **[RecurrencePattern](Outlook.RecurrencePattern.md)**, not the **AppointmentItem** object itself.
+> [!NOTE] 
+> The  **[Exceptions](Outlook.Exceptions.md)** object is on the **[RecurrencePattern](Outlook.RecurrencePattern.md)**, not the **AppointmentItem** object itself.
 
 When you work with recurring appointment items, you should release any prior references, obtain new references to the recurring appointment item before you access or modify the item, and release these references as soon as you are finished and have saved the changes. This practice applies to the recurring  **AppointmentItem** object, and any **[Exception](Outlook.Exception.md)** or **RecurrencePattern** object. To release a reference in Visual Basic for Applications (VBA) or Visual Basic, set that existing object to **Nothing**. In C#, explicitly release the memory for that object. For a code example, see the topic for the **AppointmentItem** object.
 
@@ -70,7 +72,7 @@ End Sub
 
 
 
-|**Name**|
+|Name|
 |:-----|
 |[Application](Outlook.Exception.Application.md)|
 |[AppointmentItem](Outlook.Exception.AppointmentItem.md)|
@@ -83,4 +85,6 @@ End Sub
 ## See also
 
 
-[Outlook Object Model Reference](./overview/Outlook/object-model.md)
+[Outlook Object Model Reference](overview/Outlook/object-model.md)
+
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

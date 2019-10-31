@@ -1,5 +1,5 @@
 ---
-title: Project.GetWinprojURLs Method (Project)
+title: Project.GetWinprojURLs method (Project)
 keywords: vbapj.chm131098
 f1_keywords:
 - vbapj.chm131098
@@ -8,22 +8,23 @@ api_name:
 - Project.Project.GetWinprojURLs
 ms.assetid: 4ea8b044-9397-d17f-b057-d39105d83cf8
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Project.GetWinprojURLs Method (Project)
+# Project.GetWinprojURLs method (Project)
 
 Returns the various URLs associated with the active enterprise project as an XML string.
 
 
 ## Syntax
 
- _expression_. `GetWinprojURLs`
+_expression_. `GetWinprojURLs`
 
- _expression_ A variable that represents a [Project](./Project(enumerations).md) object.
+_expression_ A variable that represents a **[Project](project.project.md)** object.
 
 
-### Return Value
+## Return value
 
  **Variant**
 
@@ -36,9 +37,9 @@ The following is an example of the XML schema definition.
 ```xml
 <?xml version="1.0" encoding="utf-8" ?>
 <xs:schema id="WinprojURLsDataSet" 
-           targetNamespace="https://schemas.microsoft.com/office/project/server/webservices/WinprojURLsDataSet/"
- xmlns:mstns="https://schemas.microsoft.com/office/project/server/webservices/WinprojURLsDataSet/" 
-           xmlns="https://schemas.microsoft.com/office/project/server/webservices/WinprojURLsDataSet/"
+           targetNamespace="http://schemas.microsoft.com/office/project/server/webservices/WinprojURLsDataSet/"
+ xmlns:mstns="http://schemas.microsoft.com/office/project/server/webservices/WinprojURLsDataSet/" 
+           xmlns="http://schemas.microsoft.com/office/project/server/webservices/WinprojURLsDataSet/"
  xmlns:xs="https://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"
  xmlns:NameSpace1="urn:schemas-microsoft-com:xml-msdatasource" attributeFormDefault="qualified"
  elementFormDefault="qualified">
@@ -76,9 +77,9 @@ The following is an example of the XML schema definition.
 </xs:schema>
 <?xml version="1.0" encoding="utf-8" ?>
 <xs:schema id="WinprojURLsDataSet" 
-           targetNamespace="https://schemas.microsoft.com/office/project/server/webservices/WinprojURLsDataSet/"
- xmlns:mstns="https://schemas.microsoft.com/office/project/server/webservices/WinprojURLsDataSet/" 
-           xmlns="https://schemas.microsoft.com/office/project/server/webservices/WinprojURLsDataSet/"
+           targetNamespace="http://schemas.microsoft.com/office/project/server/webservices/WinprojURLsDataSet/"
+ xmlns:mstns="http://schemas.microsoft.com/office/project/server/webservices/WinprojURLsDataSet/" 
+           xmlns="http://schemas.microsoft.com/office/project/server/webservices/WinprojURLsDataSet/"
  xmlns:xs="https://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"
  xmlns:NameSpace1="urn:schemas-microsoft-com:xml-msdatasource" attributeFormDefault="qualified"
  elementFormDefault="qualified">
@@ -116,4 +117,4 @@ The following is an example of the XML schema definition.
 </xs:schema>
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

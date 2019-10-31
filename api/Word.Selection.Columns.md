@@ -1,5 +1,5 @@
 ---
-title: Selection.Columns Property (Word)
+title: Selection.Columns property (Word)
 keywords: vbawd10.chm158662958
 f1_keywords:
 - vbawd10.chm158662958
@@ -8,19 +8,20 @@ api_name:
 - Word.Selection.Columns
 ms.assetid: 444726a7-0bbe-8d66-b3ca-113af074e673
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Selection.Columns Property (Word)
+# Selection.Columns property (Word)
 
 Returns a  **Columns** collection that represents all the table columns in a selection. Read-only.
 
 
 ## Syntax
 
- _expression_. `Columns`
+_expression_.**Columns**
 
- _expression_ An expression that returns a '[Selection](Word.Selection.md)' object.
+ _expression_ An expression that returns a **[Selection](Word.Selection.md)** object.
 
 
 ## Example
@@ -41,3 +42,4 @@ End If
 
 [Selection Object](Word.Selection.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

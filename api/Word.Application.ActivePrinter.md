@@ -1,5 +1,5 @@
 ---
-title: Application.ActivePrinter Property (Word)
+title: Application.ActivePrinter property (Word)
 keywords: vbawd10.chm158335042
 f1_keywords:
 - vbawd10.chm158335042
@@ -8,24 +8,25 @@ api_name:
 - Word.Application.ActivePrinter
 ms.assetid: 835e350a-e069-e751-a7d7-1e9bb2483b4a
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Application.ActivePrinter Property (Word)
+# Application.ActivePrinter property (Word)
 
-Returns or sets the name of the active printer. Read/write  **String** .
+Returns or sets the name of the active printer. Read/write  **String**.
 
 
 ## Syntax
 
- _expression_. `ActivePrinter`
+_expression_.**ActivePrinter**
 
- _expression_ A variable that represents an '[Application](Word.Application.md)' object.
+_expression_ A variable that represents an **[Application](Word.Application.md)** object. 
 
 
 ## Remarks
 
-Setting the printer using the  **ActivePrinter** property changes the default printer. For more information, see[Setting ActivePrinter Changes System Default Printer](https://go.microsoft.com/fwlink/?LinkId=61996) .
+Setting the printer using the  **ActivePrinter** property changes the default printer. For more information, see [Setting ActivePrinter Changes System Default Printer](https://go.microsoft.com/fwlink/?LinkId=61996) .
 
 
 ## Example
@@ -61,3 +62,4 @@ Application.ActivePrinter = "HP LaserJet 4 local on LPT1:"
 
 [Application Object](Word.Application.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

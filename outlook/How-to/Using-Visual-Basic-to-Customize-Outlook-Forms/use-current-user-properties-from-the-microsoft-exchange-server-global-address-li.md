@@ -6,6 +6,7 @@ f1_keywords:
 ms.prod: outlook
 ms.assetid: fa3e6e11-a63e-fcf5-14f0-f16dc3b755dd
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
@@ -28,19 +29,20 @@ Item.UserProperties.Find("MAPI First Name") = myUser.Fields.item(&h3a06001e)
 
 |**Address Book Property**|**Reference**|
 |:-----|:-----|
-|PidTagGivenName|&;h3a06001e|
-|PidTagInitials|&;h3a0a001e|
-|PidTagSurname|&;h3a11001e|
-|PidTag7BitDisplayName|&;h39ff001e|
-|PidTagStreetAddress|&;h3a29001e|
-|PidTagLocality|&;h3a27001e|
-|PidTagStateOrProvince|&;h3a28001e|
-|PidTagPostalCode|&;h3a2a001e|
-|PidTagCountry|&;h3a26001e|
-|PidTagTitle|&;h3a17001e|
-|PidTagCompanyName|&;h3a16001e|
-|PidTagDepartmentName|&;h3a18001e|
-|PidTagOfficeLocation|&;h3a19001e|
-|PidTagAssistant|&;h3a30001e|
-|PidTagBusinessTelephoneNumber|&;h3a08001e|
+|PidTagGivenName|&h3a06001e|
+|PidTagInitials|&h3a0a001e|
+|PidTagSurname|&h3a11001e|
+|PidTag7BitDisplayName|&h39ff001e|
+|PidTagStreetAddress|&h3a29001e|
+|PidTagLocality|&h3a27001e|
+|PidTagStateOrProvince|&h3a28001e|
+|PidTagPostalCode|&h3a2a001e|
+|PidTagCountry|&h3a26001e|
+|PidTagTitle|&h3a17001e|
+|PidTagCompanyName|&h3a16001e|
+|PidTagDepartmentName|&h3a18001e|
+|PidTagOfficeLocation|&h3a19001e|
+|PidTagAssistant|&h3a30001e|
+|PidTagBusinessTelephoneNumber|&h3a08001e|
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

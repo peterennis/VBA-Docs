@@ -1,5 +1,5 @@
 ---
-title: Window.Stat Property (Visio)
+title: Window.Stat property (Visio)
 keywords: vis_sdr.chm11614420
 f1_keywords:
 - vis_sdr.chm11614420
@@ -8,22 +8,23 @@ api_name:
 - Visio.Window.Stat
 ms.assetid: 4b83c5ab-8c3d-6477-7127-d1a3ec179c2d
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Window.Stat Property (Visio)
+# Window.Stat property (Visio)
 
 Returns status information for an object. Read-only.
 
 
 ## Syntax
 
- _expression_. `Stat`
+_expression_.**Stat**
 
- _expression_ A variable that represents a [Window](./Visio.Window.md) object.
+_expression_ A variable that represents a **[Window](Visio.Window.md)** object.
 
 
-### Return Value
+## Return value
 
 Integer
 
@@ -39,7 +40,7 @@ A Component Object Model (COM) object, such as a Microsoft Visio  **Document** o
 
 ## Example
 
-This Microsoft Visual Basic for Applications (VBA) macro shows how to use the  **Stat** property to check the status of a **Document** object. Executing the macro prints 0 (**visStatNormal**) and then 8 (**visStatClosed**) in the **Immediate** window.
+This Microsoft Visual Basic for Applications (VBA) macro shows how to use the  **Stat** property to check the status of a **Document** object. Executing the macro prints 0 (**visStatNormal**) and then 8 (**visStatClosed**) in the Immediate window.
 
 
 ```vb
@@ -55,4 +56,4 @@ Public Sub Stat_Example()
 End Sub
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

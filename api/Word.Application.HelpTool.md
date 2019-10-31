@@ -1,5 +1,5 @@
 ---
-title: Application.HelpTool Method (Word)
+title: Application.HelpTool method (Word)
 keywords: vbawd10.chm158335308
 f1_keywords:
 - vbawd10.chm158335308
@@ -8,12 +8,14 @@ api_name:
 - Word.Application.HelpTool
 ms.assetid: 81a93cf3-7695-8a35-d836-fc7a20622d92
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Application.HelpTool Method (Word)
+# Application.HelpTool method (Word)
 
- **Caution**  This object, member, or enumeration is deprecated and is not intended to be used in your code.
+> [!CAUTION] 
+> This object, member, or enumeration is deprecated and is not intended to be used in your code.
 
 
 ## See also
@@ -21,3 +23,4 @@ ms.date: 06/08/2017
 
 [Application Object](Word.Application.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

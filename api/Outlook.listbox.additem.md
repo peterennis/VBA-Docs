@@ -3,6 +3,7 @@ title: ListBox.AddItem Method (Outlook Forms Script)
 ms.prod: outlook
 ms.assetid: e948d5ac-6d88-d825-e1ee-4a05fe934853
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
@@ -13,16 +14,16 @@ For a single-column  **[ListBox](Outlook.listbox.md)**, the  **AddItem** method 
 
 ## Syntax
 
- _expression_. **AddItem**(**_pvargItem_**,  **_pvargIndex_**)
+_expression_.**AddItem**(**_pvargItem_**,  **_pvargIndex_**)
 
- _expression_ A variable that represents a  **ListBox** object.
-
-
-### Parameters
+_expression_ A variable that represents a  **ListBox** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 |pvargItem|Optional| **Variant**|Specifies the item or row to add. The number of the first item or row is 0; the number of the second item or row is 1, and so on.|
 |pvargIndex|Optional| **Variant**|Integer specifying the position within the object where the new item or row is placed.|
@@ -39,4 +40,4 @@ If the control is bound to data, the  **AddItem** method fails.
 
 You can add more than one row at a time to a  **ListBox** by using **List**.
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

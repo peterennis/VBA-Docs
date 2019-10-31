@@ -1,5 +1,5 @@
 ---
-title: Research.Query Method (PowerPoint)
+title: Research.Query method (PowerPoint)
 keywords: vbapp10.chm676003
 f1_keywords:
 - vbapp10.chm676003
@@ -8,26 +8,27 @@ api_name:
 - PowerPoint.Research.Query
 ms.assetid: 21ab6e91-7719-2714-7606-883501aa94eb
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Research.Query Method (PowerPoint)
+# Research.Query method (PowerPoint)
 
 Specifies a research query.
 
 
 ## Syntax
 
- _expression_. `Query`( `_ServiceID_`, `_QueryString_`, `_QueryLanguage_`, `_UseSelection_`, `_RequeryContextXML_`, `_NewQueryContextXML_`, `_LaunchQuery_` )
+_expression_. `Query`( `_ServiceID_`, `_QueryString_`, `_QueryLanguage_`, `_UseSelection_`, `_RequeryContextXML_`, `_NewQueryContextXML_`, `_LaunchQuery_` )
 
- _expression_ An expression that returns a [Research](./PowerPoint.Research.md) object.
-
-
-### Parameters
+ _expression_ An expression that returns a [Research](PowerPoint.Research.md) object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _ServiceID_|Required|**String**|Specifies a GUID that identifies the research service.|
 | _QueryString_|Optional|**Variant**|Specifies the query string.|
@@ -35,10 +36,11 @@ Specifies a research query.
 | _UseSelection_|Optional|**Boolean**|**True** to use the current selection as the query string. This overrides the QueryString parameter if set. Default value is **False**.|
 | _RequeryContextXML_|Optional|**Variant**|Requery context information. This allows the caller to add additional information that the service may need. This is an XML string that is placed directly under the RequeryContext element in the query.|
 | _NewQueryContextXML_|Optional|**Variant**|New query context information. This allows the caller to add additional information that the service may need. This is an XML string that is placed directly under the NewQueryContext element in the query.|
-| _LaunchQuery_|Optional|**Boolean**|**True** launches the query. False displays the the **Research** task pane scoped to search the specified research service.|
+| _LaunchQuery_|Optional|**Boolean**|**True** launches the query. False displays the **Research** task pane scoped to search the specified research service.|
 
 ## See also
 
 
 [Research Object](PowerPoint.Research.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

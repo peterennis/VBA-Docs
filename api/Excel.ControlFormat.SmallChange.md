@@ -1,5 +1,5 @@
 ---
-title: ControlFormat.SmallChange Property (Excel)
+title: ControlFormat.SmallChange property (Excel)
 keywords: vbaxl10.chm630089
 f1_keywords:
 - vbaxl10.chm630089
@@ -7,26 +7,26 @@ ms.prod: excel
 api_name:
 - Excel.ControlFormat.SmallChange
 ms.assetid: 5c2c668a-3d4d-ac01-e08b-0db6278ddffd
-ms.date: 06/08/2017
+ms.date: 04/23/2019
+localization_priority: Normal
 ---
 
 
-# ControlFormat.SmallChange Property (Excel)
+# ControlFormat.SmallChange property (Excel)
 
-Returns or sets the amount that the scroll bar or spinner is incremented or decremented for a line scroll (when the user clicks an arrow). Read/write  **Long** .
+Returns or sets the amount that the scroll bar or spinner is incremented or decremented for a line scroll (when the user chooses an arrow). Read/write **Long**.
 
 
 ## Syntax
 
- _expression_. `SmallChange`
+_expression_.**SmallChange**
 
- _expression_ A variable that represents a [ControlFormat](Excel.ControlFormat.md) object.
+_expression_ A variable that represents a **[ControlFormat](Excel.ControlFormat.md)** object.
 
 
 ## Example
 
 This example creates a scroll bar and sets its linked cell, minimum, maximum, large change, and small change values.
-
 
 ```vb
 Set sb = Worksheets(1).Shapes.AddFormControl(xlScrollBar, _ 
@@ -41,8 +41,6 @@ End With
 ```
 
 
-## See also
 
 
-[ControlFormat Object](Excel.ControlFormat.md)
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

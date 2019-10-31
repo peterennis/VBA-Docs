@@ -1,5 +1,5 @@
 ---
-title: Style.SetFormulas Method (Visio)
+title: Style.SetFormulas method (Visio)
 keywords: vis_sdr.chm11416575
 f1_keywords:
 - vis_sdr.chm11416575
@@ -8,32 +8,33 @@ api_name:
 - Visio.Style.SetFormulas
 ms.assetid: ad00a51c-2bb4-9cd0-8f5c-870f8b0ae8c3
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Style.SetFormulas Method (Visio)
+# Style.SetFormulas method (Visio)
 
 Sets the formulas of one or more cells.
 
 
 ## Syntax
 
- _expression_. `SetFormulas`( `_SRCStream()_` , `_formulaArray()_` , `_Flags_` )
+_expression_. `SetFormulas`( `_SRCStream()_` , `_formulaArray()_` , `_Flags_` )
 
- _expression_ A variable that represents a [Style](./Visio.Style.md) object.
-
-
-### Parameters
+_expression_ A variable that represents a **[Style](Visio.Style.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _SID_SRCStream()_|Required| **Integer**|Stream identifying cells to be modified.|
 | _formulaArray()_|Required| **Variant**|Formulas to be assigned to identified cells.|
-| _Flags_|Required| **Integer**|Flags that influence the behavior of  **SetFormulas** .|
+| _Flags_|Required| **Integer**|Flags that influence the behavior of  **SetFormulas**.|
 
-### Return Value
+## Return value
 
 Integer
 
@@ -55,19 +56,19 @@ For  **Style** objects, _SID_SRCStream()_ should be a one-dimensional array of 3
 
 where  _sectionIdx_ is the section index of the desired cell, _rowIdx_ is its row index, and _cellIdx_ is its cell index.
 
-The  _formulaArray()_ parameter should be a one-dimensional array of 1 <= _m_ variants. Each **Variant** should be a **String** , a reference to a **String** , or empty. If _formulaArray(i)_ is empty, the _i_ 'th cell will be set to the formula in _formulaArray(j)_, where  _j_ is the index of the most recent prior entry that is not empty. If there is no prior entry that is not empty, the corresponding cell is not altered. If fewer formulas than cells are specified ( _m_ < _n_ ), the _i_ 'th cell, _i_ > _m_ , will be set to the same formula as was chosen to set the _m_ 'th cell to. Thus to set many cells to the same formula, you need pass only one copy of the formula.
+The  _formulaArray()_ parameter should be a one-dimensional array of 1 <= _m_ variants. Each **Variant** should be a **String**, a reference to a **String**, or empty. If _formulaArray(i)_ is empty, the _i_ 'th cell will be set to the formula in _formulaArray(j)_, where  _j_ is the index of the most recent prior entry that is not empty. If there is no prior entry that is not empty, the corresponding cell is not altered. If fewer formulas than cells are specified ( _m_ < _n_ ), the _i_ 'th cell, _i_ > _m_ , will be set to the same formula as was chosen to set the _m_ 'th cell to. Thus to set many cells to the same formula, you need pass only one copy of the formula.
 
 The  _Flags_ argument should be a bitmask of the following values.
 
 
 
-|**Constant**|**Value**|**Description**|
+|Constant|Value|Description|
 |:-----|:-----|:-----|
-| **visSetBlastGuards**|&;H2|Override present cell values even if they're guarded.|
-| **visSetTestCircular**|&;H4|Test for establishment of circular cell references.|
-| **visSetUniversalSyntax**|&;H8|Formulas are in universal syntax.|
+| **visSetBlastGuards**|&H2|Override present cell values even if they're guarded.|
+| **visSetTestCircular**|&H4|Test for establishment of circular cell references.|
+| **visSetUniversalSyntax**|&H8|Formulas are in universal syntax.|
 
-The value returned by the  **SetFormulas** method is the number of entries in _SID_SRCStream()_ that were successfully processed. If _i_ < _n_ entries process correctly, but an error occurs on the _i_ + 1st entry, the **SetFormulas** method raises an exception and returns _i_ . Otherwise, _n_ is returned.
+The value returned by the  **SetFormulas** method is the number of entries in _SID_SRCStream()_ that were successfully processed. If _i_ < _n_ entries process correctly, but an error occurs on the _i_ + 1st entry, the **SetFormulas** method raises an exception and returns _i_. Otherwise, _n_ is returned.
 
 
 ## Example
@@ -135,4 +136,4 @@ HandleError:
 End Sub
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

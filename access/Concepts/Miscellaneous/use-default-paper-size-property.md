@@ -7,6 +7,7 @@ f1_keywords:
 ms.prod: access
 ms.assetid: 09d23b9f-214b-e45b-f8c2-08af26bec247
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
@@ -21,7 +22,7 @@ You can use the **Use Default Paper Size** property to specify whether or not th
 
 The **Use Default Paper Size** property uses the following settings.
 
-|**Setting**|**Description**|
+|Setting|Description|
 |:-----|:-----|
 |**Yes**|Use the default paper size of the current printer when printing the form or report.|
 |**No**|(Default) Use the paper size specified when the form or report was designed when printing the form or report.|
@@ -34,9 +35,11 @@ For example, you might design a form or report while connected to a printer that
 
 ## See also
 
-- [Access for developers forum on MSDN](https://social.msdn.microsoft.com/Forums/office/en-US/home?forum=accessdev)
+- [Access for developers forum](https://social.msdn.microsoft.com/Forums/office/home?forum=accessdev)
 - [Access help on support.office.com](https://support.office.com/search/results?query=Access)
-- [Access help on answers.microsoft.com](https://answers.microsoft.com/en-us/msoffice/forum?page=1&;tab=question&;status=all&;auth=1)
+- [Access help on answers.microsoft.com](https://answers.microsoft.com/)
 - [Access forums on UtterAccess](http://www.utteraccess.com/forum/index.php?act=idx)
 - [Access developer and VBA programming help center (FMS)](http://www.fmsinc.com/MicrosoftAccess/developer/)
 - [Access posts on StackOverflow](https://stackoverflow.com/questions/tagged/ms-access)
+
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

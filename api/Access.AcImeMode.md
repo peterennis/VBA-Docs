@@ -1,5 +1,5 @@
 ---
-title: AcImeMode Enumeration (Access)
+title: AcImeMode enumeration (Access)
 keywords: vbaac10.chm10033
 f1_keywords:
 - vbaac10.chm10033
@@ -8,16 +8,17 @@ api_name:
 - Access.AcImeMode
 ms.assetid: d84e71fb-996e-f1c3-f386-eefd18da98db
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# AcImeMode Enumeration (Access)
+# AcImeMode enumeration (Access)
 
 Specifies the default startup mode for the Japanese Input Method Editor (IME). 
 
+<br/>
 
-
-|**Name**|**Value**|**Description**|
+|Name|Value|Description|
 |:-----|:-----|:-----|
 |**acImeModeAlpha**|8|Activates the IME in half-width Latin mode.|
 |**acImeModeAlphaFull**|7|Activates the IME in full-width Latin mode.|
@@ -31,3 +32,4 @@ Specifies the default startup mode for the Japanese Input Method Editor (IME).
 |**acImeModeOff**|2|Disables the IME and activates Latin text entry.|
 |**acImeModeOn**|1|Activates the IME.|
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

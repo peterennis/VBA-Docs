@@ -1,5 +1,5 @@
 ---
-title: Shape.CatalogMergeItems Property (Publisher)
+title: Shape.CatalogMergeItems property (Publisher)
 keywords: vbapb10.chm5308690
 f1_keywords:
 - vbapb10.chm5308690
@@ -7,36 +7,36 @@ ms.prod: publisher
 api_name:
 - Publisher.Shape.CatalogMergeItems
 ms.assetid: 1dcf4ae0-7a18-f1d5-2176-1912c63eefcc
-ms.date: 06/08/2017
+ms.date: 06/13/2019
+localization_priority: Normal
 ---
 
 
-# Shape.CatalogMergeItems Property (Publisher)
+# Shape.CatalogMergeItems property (Publisher)
 
-Returns a  **CatalogMergeShapes** collection that represents the shapes included in the catalog merge area. Read-only.
+Returns a **[CatalogMergeShapes](publisher.catalogmergeshapes.md)** collection that represents the shapes included in the catalog merge area. Read-only.
 
 
 ## Syntax
 
- _expression_. **CatalogMergeItems**
+_expression_.**CatalogMergeItems**
 
- _expression_ A variable that represents a  **Shape** object.
+_expression_ A variable that represents a **[Shape](Publisher.Shape.md)** object.
 
 
-### Return Value
+## Return value
 
 CatalogMergeShapes
 
 
 ## Remarks
 
-The catalog merge area can contain picture and text data fields you have inserted, in addition to other design elements you choose.
+The catalog merge area can contain picture and text data fields that you have inserted, in addition to other design elements that you choose.
 
 
 ## Example
 
-The following example tests whether any page in the specified publication contains a catalog merge area and, if it does, it returns a list of the shapes it contains.
-
+The following example tests whether any page in the specified publication contains a catalog merge area, and if it does, it returns a list of the shapes that it contains.
 
 ```vb
 Sub ListCatalogMergeAreaContents() 
@@ -67,4 +67,4 @@ Sub ListCatalogMergeAreaContents()
 End Sub
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

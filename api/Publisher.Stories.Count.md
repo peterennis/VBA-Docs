@@ -1,5 +1,5 @@
 ---
-title: Stories.Count Property (Publisher)
+title: Stories.Count property (Publisher)
 keywords: vbapb10.chm5701635
 f1_keywords:
 - vbapb10.chm5701635
@@ -7,26 +7,26 @@ ms.prod: publisher
 api_name:
 - Publisher.Stories.Count
 ms.assetid: 3380c5fc-cfd7-98d6-9c19-4a2fe9877166
-ms.date: 06/08/2017
+ms.date: 06/14/2019
+localization_priority: Normal
 ---
 
 
-# Stories.Count Property (Publisher)
+# Stories.Count property (Publisher)
 
-Returns a  **Long** that represents the number of items in the specified collection.
+Returns a **Long** that represents the number of items in the specified collection.
 
 
 ## Syntax
 
- _expression_. **Count**
+_expression_.**Count**
 
- _expression_ A variable that represents a  **Stories** object.
+_expression_ A variable that represents a **[Stories](Publisher.Stories.md)** object.
 
 
 ## Example
 
 This example displays the number of pages in the active document.
-
 
 ```vb
 Sub CountNumberOfPages() 
@@ -35,10 +35,9 @@ Sub CountNumberOfPages()
 End Sub
 ```
 
+<br/>
+
 This example displays the number of shapes in the active document.
-
-
-
 
 ```vb
 Sub CountNumberOfShapes() 
@@ -53,4 +52,4 @@ Sub CountNumberOfShapes()
 End Sub
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

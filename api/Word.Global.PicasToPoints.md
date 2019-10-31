@@ -1,5 +1,5 @@
 ---
-title: Global.PicasToPoints Method (Word)
+title: Global.PicasToPoints method (Word)
 keywords: vbawd10.chm163119477
 f1_keywords:
 - vbawd10.chm163119477
@@ -8,30 +8,31 @@ api_name:
 - Word.Global.PicasToPoints
 ms.assetid: c1fb493b-d63d-484f-9d9b-c6781a0ff027
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Global.PicasToPoints Method (Word)
+# Global.PicasToPoints method (Word)
 
-Converts a measurement from picas to points (1 pica = 12 points). Returns the converted measurement as a  **Single** .
+Converts a measurement from picas to points (1 pica = 12 points). Returns the converted measurement as a  **Single**.
 
 
 ## Syntax
 
- _expression_. `PicasToPoints`( `_Picas_` )
+_expression_. `PicasToPoints`( `_Picas_` )
 
- _expression_ A variable that represents a '[Global](Word.Global.md)' object. Optional.
-
-
-### Parameters
+_expression_ A variable that represents a '[Global](Word.Global.md)' object. Optional.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _Picas_|Required| **Single**|The pica value to be converted to points.|
 
-### Return Value
+## Return value
 
 Single
 
@@ -63,3 +64,4 @@ Selection.ParagraphFormat.FirstLineIndent = PicasToPoints(3)
 
 [Global Object](Word.Global.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

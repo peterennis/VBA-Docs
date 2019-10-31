@@ -1,5 +1,5 @@
 ---
-title: Range.PasteAndFormat Method (Word)
+title: Range.PasteAndFormat method (Word)
 keywords: vbawd10.chm157155740
 f1_keywords:
 - vbawd10.chm157155740
@@ -8,26 +8,27 @@ api_name:
 - Word.Range.PasteAndFormat
 ms.assetid: 39dd8d10-0ab7-10d3-9e48-39a5e342553d
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Range.PasteAndFormat Method (Word)
+# Range.PasteAndFormat method (Word)
 
 Pastes the selected table cells and formats them as specified.
 
 
 ## Syntax
 
- _expression_. `PasteAndFormat`( `_Type_` )
+_expression_. `PasteAndFormat`( `_Type_` )
 
- _expression_ Required. A variable that represents a '[Range](Word.Range.md)' object.
-
-
-### Parameters
+_expression_ Required. A variable that represents a **[Range](Word.Range.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _Type_|Required| **WdRecoveryType**|The type of formatting to use when pasting the selected table cells.|
 
@@ -48,3 +49,4 @@ End Sub
 
 [Range Object](Word.Range.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

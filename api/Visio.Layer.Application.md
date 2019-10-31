@@ -1,5 +1,5 @@
 ---
-title: Layer.Application Property (Visio)
+title: Layer.Application property (Visio)
 keywords: vis_sdr.chm11813090
 f1_keywords:
 - vis_sdr.chm11813090
@@ -8,24 +8,25 @@ api_name:
 - Visio.Layer.Application
 ms.assetid: addba1f4-29c0-e0d1-cf54-c8275a24cc15
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Layer.Application Property (Visio)
+# Layer.Application property (Visio)
 
 Returns the instance of Microsoft Visio that is associated with an object. Read-only.
 
 
 ## Syntax
 
- _expression_. `Application`
+_expression_.**Application**
 
- _expression_ A variable that represents a [Layer](./Visio.Layer.md) object.
+_expression_ A variable that represents a **[Layer](Visio.Layer.md)** object.
 
 
-### Return Value
+## Return value
 
-Application
+**[Application](visio.application.md)**
 
 
 ## Example
@@ -49,4 +50,4 @@ Public Sub Application_Example()
 End Sub
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

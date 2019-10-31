@@ -1,5 +1,5 @@
 ---
-title: SignatureInfo.SelectCertificateDetailByThumbprint Method (Office)
+title: SignatureInfo.SelectCertificateDetailByThumbprint method (Office)
 keywords: vbaof11.chm286016
 f1_keywords:
 - vbaof11.chm286016
@@ -7,27 +7,26 @@ ms.prod: office
 api_name:
 - Office.SignatureInfo.SelectCertificateDetailByThumbprint
 ms.assetid: 997010ee-330f-433d-c62c-bf211b8351d6
-ms.date: 06/08/2017
+ms.date: 01/24/2019
+localization_priority: Normal
 ---
 
 
-# SignatureInfo.SelectCertificateDetailByThumbprint Method (Office)
+# SignatureInfo.SelectCertificateDetailByThumbprint method (Office)
 
-Displays a dialog box containing information about a digital certificate following vertification of the user from a thumbprint.
+Displays a dialog box containing information about a digital certificate following verification of the user from a thumbprint.
 
 
 ## Syntax
 
- _expression_. `SelectCertificateDetailByThumbprint`( `_bstrThumbprint_` )
+_expression_.**SelectCertificateDetailByThumbprint**(_bstrThumbprint_)
 
- _expression_ An expression that returns a [SignatureInfo](./Office.SignatureInfo.md) object.
-
-
-### Parameters
+_expression_ An expression that returns a **[SignatureInfo](Office.SignatureInfo.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _bstrThumbprint_|Required|**String**|Contains information about the signer identified by the thumbprint.|
 
@@ -50,10 +49,8 @@ End Sub
 
 ## See also
 
-
-[SignatureInfo Object](Office.SignatureInfo.md)
-
+- [SignatureInfo object members](overview/Library-Reference/signatureinfo-members-office.md)
 
 
-[SignatureInfo Object Members](./overview/Library-Reference/signatureinfo-members-office.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

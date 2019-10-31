@@ -1,5 +1,5 @@
 ---
-title: ActionSetting.AnimateAction Property (PowerPoint)
+title: ActionSetting.AnimateAction property (PowerPoint)
 keywords: vbapp10.chm567005
 f1_keywords:
 - vbapp10.chm567005
@@ -8,33 +8,34 @@ api_name:
 - PowerPoint.ActionSetting.AnimateAction
 ms.assetid: cf6c13e4-1fc5-8335-16b3-9a9f30c246ea
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# ActionSetting.AnimateAction Property (PowerPoint)
+# ActionSetting.AnimateAction property (PowerPoint)
 
 Specifies whether the color of the specified shape is momentarily inverted when the specified mouse action occurs. Read/write.
 
 
 ## Syntax
 
- _expression_. `AnimateAction`
+_expression_. `AnimateAction`
 
- _expression_ A variable that represents an [ActionSetting](./PowerPoint.ActionSetting.md) object.
+_expression_ A variable that represents an **[ActionSetting](PowerPoint.ActionSetting.md)** object.
 
 
-### Return Value
+## Return value
 
 MsoTriState
 
 
 ## Remarks
 
-The value of the  **AnimateAction** property can be one of these **MsoTriState** constants.
+The value of the **AnimateAction** property can be one of these **MsoTriState** constants.
 
 
 
-|**Constant**|**Description**|
+|Constant|Description|
 |:-----|:-----|
 |**msoFalse**|The color of the specified shape is not momentarily inverted when the specified mouse action occurs.|
 |**msoTrue**| The color of the specified shape is momentarily inverted when the specified mouse action occurs.|
@@ -58,3 +59,4 @@ End With
 
 [ActionSetting Object](PowerPoint.ActionSetting.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

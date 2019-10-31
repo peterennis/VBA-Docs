@@ -1,20 +1,21 @@
 ---
-title: WdInternationalIndex Enumeration (Word)
+title: WdInternationalIndex enumeration (Word)
 ms.prod: word
 api_name:
 - Word.WdInternationalIndex
 ms.assetid: 1a66f0c8-8b91-a44c-88dd-b0ca8033df72
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# WdInternationalIndex Enumeration (Word)
+# WdInternationalIndex enumeration (Word)
 
 Specifies information specific to the current country/region and international settings.
 
 
 
-|**Name**|**Value**|**Description**|
+|Name|Value|Description|
 |:-----|:-----|:-----|
 | **wd24HourClock**|21|Returns  **True** if you are using 24-hour time; returns **False** if you are using 12-hour time.|
 | **wdCurrencyCode**|20|Returns the currency symbol ($ in U.S. English).|
@@ -27,3 +28,4 @@ Specifies information specific to the current country/region and international s
 | **wdThousandsSeparator**|19|Returns the thousands separator (, in U.S. English).|
 | **wdTimeSeparator**|24|Returns the time separator (: in U.S. English).|
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

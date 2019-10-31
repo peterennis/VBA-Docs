@@ -1,5 +1,5 @@
 ---
-title: NameSpace.GetRecipientFromID Method (Outlook)
+title: NameSpace.GetRecipientFromID method (Outlook)
 keywords: vbaol11.chm764
 f1_keywords:
 - vbaol11.chm764
@@ -8,30 +8,31 @@ api_name:
 - Outlook.NameSpace.GetRecipientFromID
 ms.assetid: 8475e869-ce1f-cd10-0c02-79a6dd5f9a8e
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# NameSpace.GetRecipientFromID Method (Outlook)
+# NameSpace.GetRecipientFromID method (Outlook)
 
 Returns the  **[Recipient](Outlook.Recipient.md)** object that is identified by the specified entry ID (if valid).
 
 
 ## Syntax
 
- _expression_. `GetRecipientFromID`( `_EntryID_` )
+_expression_. `GetRecipientFromID`( `_EntryID_` )
 
- _expression_ A variable that represents a '[NameSpace](Outlook.NameSpace.md)' object.
-
-
-### Parameters
+_expression_ A variable that represents a '[NameSpace](Outlook.NameSpace.md)' object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _EntryID_|Required| **String**|The  **[EntryID](Outlook.Recipient.EntryID.md)** of the recipient.|
 
-### Return Value
+## Return value
 
 A  **Recipient** object that represents the specified recipient.
 
@@ -104,3 +105,4 @@ End Sub
 
 [NameSpace Object](Outlook.NameSpace.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

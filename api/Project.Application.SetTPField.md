@@ -1,5 +1,5 @@
 ---
-title: Application.SetTPField Method (Project)
+title: Application.SetTPField method (Project)
 keywords: vbapj.chm1513
 f1_keywords:
 - vbapj.chm1513
@@ -8,26 +8,27 @@ api_name:
 - Project.Application.SetTPField
 ms.assetid: 66867c0a-e5a7-9492-463b-0cb955f020df
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Application.SetTPField Method (Project)
+# Application.SetTPField method (Project)
 
 Sets a value for the percent complete field of one or more tasks in the Team Planner view.
 
 
 ## Syntax
 
- _expression_. `SetTPField`( ` _Field_`, ` _Value_`, ` _AllSelectedTasks_`, ` _Create_`, ` _TaskID_`, ` _ProjectName_` )
+_expression_. `SetTPField`( `_Field_`, `_Value_`, `_AllSelectedTasks_`, `_Create_`, `_TaskID_`, `_ProjectName_` )
 
- _expression_ An expression that returns an [Application](./Project.Application.md) object.
-
-
-### Parameters
+ _expression_ An expression that returns an **[Application](Project.Application.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _Field_|Required|**String**|The  _Field_ argument can be only "% Complete". You can also use the **FieldConstantToFieldName** method with **pjTaskPercentComplete**, as in the example.|
 | _Value_|Required|**String**|Value of the  _Field_ argument. Values can range from "0" to "100" for percent complete.|
@@ -36,7 +37,7 @@ Sets a value for the percent complete field of one or more tasks in the Team Pla
 | _TaskID_|Optional|**Long**|Not used in Project.|
 | _ProjectName_|Optional|**String**|Not used in Project.|
 
-### Return Value
+## Return value
 
  **Boolean**
 
@@ -55,4 +56,4 @@ Sub TestSetTPField()
 End Sub
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

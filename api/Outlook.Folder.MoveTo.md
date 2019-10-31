@@ -1,5 +1,5 @@
 ---
-title: Folder.MoveTo Method (Outlook)
+title: Folder.MoveTo method (Outlook)
 keywords: vbaol11.chm1998
 f1_keywords:
 - vbaol11.chm1998
@@ -8,26 +8,27 @@ api_name:
 - Outlook.Folder.MoveTo
 ms.assetid: 5e8ece38-aaba-4971-643e-969956c2a196
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Folder.MoveTo Method (Outlook)
+# Folder.MoveTo method (Outlook)
 
 Moves a folder to the specified destination folder.
 
 
 ## Syntax
 
- _expression_. `MoveTo`( `_DestinationFolder_` )
+_expression_. `MoveTo`( `_DestinationFolder_` )
 
- _expression_ A variable that represents a '[Folder](Outlook.Folder.md)' object.
-
-
-### Parameters
+_expression_ A variable that represents a '[Folder](Outlook.Folder.md)' object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _DestinationFolder_|Required| **Folder**|The destination  **Folder** for the **Folder** that is being moved.|
 
@@ -61,3 +62,4 @@ End Sub
 
 [Folder Object](Outlook.Folder.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

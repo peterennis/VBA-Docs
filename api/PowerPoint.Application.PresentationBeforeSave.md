@@ -1,5 +1,5 @@
 ---
-title: Application.PresentationBeforeSave Event (PowerPoint)
+title: Application.PresentationBeforeSave event (PowerPoint)
 keywords: vbapp10.chm621018
 f1_keywords:
 - vbapp10.chm621018
@@ -8,26 +8,27 @@ api_name:
 - PowerPoint.Application.PresentationBeforeSave
 ms.assetid: 40943fe2-796f-45db-db0d-44b66854e196
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Application.PresentationBeforeSave Event (PowerPoint)
+# Application.PresentationBeforeSave event (PowerPoint)
 
 Occurs before a presentation is saved.
 
 
 ## Syntax
 
- _expression_. `PresentationBeforeSave`( `_Pres_`, `_Cancel_` )
+_expression_. `PresentationBeforeSave`( `_Pres_`, `_Cancel_` )
 
- _expression_ A variable that represents an [Application](./PowerPoint.Application.md) object.
-
-
-### Parameters
+_expression_ A variable that represents an **[Application](PowerPoint.Application.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _Pres_|Required|**Presentation**|The presentation being saved.|
 | _Cancel_|Required|**Boolean**|**True** to cancel the save process.|
@@ -36,12 +37,12 @@ Occurs before a presentation is saved.
 
 This event is triggered as the  **Save As** dialog box appears.
 
-To access the  **Application** events, declare an **Application** variable in the General Declarations section of your code. Then set the variable equal to the **Application** object for which you want to access events. For information about using events with the Microsoft PowerPoint **Application** object, see[How to: Use Events with the Application Object](../powerpoint/How-to/use-events-with-the-application-object.md).
+To access the  **Application** events, declare an **Application** variable in the General Declarations section of your code. Then set the variable equal to the **Application** object for which you want to access events. For information about using events with the Microsoft PowerPoint **Application** object, see [How to: Use Events with the Application Object](../powerpoint/How-to/use-events-with-the-application-object.md).
 
 
 ## Example
 
-This example checks if there are revisions in a presentation and, if there are, asks whether to save the presentation. If a user's response is no, the save process is canceled. This example assumes an  **Application** object called PPTApp has been declared by using the **WithEvents** keyword.
+This example checks if there are revisions in a presentation, and if there are, asks whether to save the presentation. If a user's response is no, the save process is canceled. This example assumes an  **Application** object called PPTApp has been declared by using the **WithEvents** keyword.
 
 
 ```vb
@@ -77,3 +78,5 @@ End Sub
 [Application Object](PowerPoint.Application.md)
 
 [AutoSave](../Library-Reference/Concepts/how-autosave-impacts-addins-and-macros.md)
+
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

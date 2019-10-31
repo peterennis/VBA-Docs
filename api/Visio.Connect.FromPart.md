@@ -1,5 +1,5 @@
 ---
-title: Connect.FromPart Property (Visio)
+title: Connect.FromPart property (Visio)
 keywords: vis_sdr.chm10313585
 f1_keywords:
 - vis_sdr.chm10313585
@@ -8,33 +8,32 @@ api_name:
 - Visio.Connect.FromPart
 ms.assetid: 3ef8eaf8-b405-057d-6afd-ccfa16dfab62
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Connect.FromPart Property (Visio)
+# Connect.FromPart property (Visio)
 
 Returns the part of a shape from which a connection originates. Read-only.
 
 
 ## Syntax
 
- _expression_. `FromPart`
+_expression_.**FromPart**
 
- _expression_ A variable that represents a [Connect](./Visio.Connect.md) object.
+_expression_ A variable that represents a **[Connect](Visio.Connect.md)** object.
 
 
-### Return Value
+## Return value
 
 Integer
 
 
 ## Remarks
 
-The following constants declared by the Microsoft Visio type library show return values for the  **FromPart** property.
+The following constants declared by the Microsoft Visio type library show return values for the **FromPart** property.
 
-
-
-|**Constant**|**Value**|
+|Constant|Value|
 |:-----|:-----|
 | **visConnectFromError**|-1|
 | **visFromNone**|0|
@@ -52,7 +51,7 @@ The following constants declared by the Microsoft Visio type library show return
 | **visEnd**|12|
 | **visFromAngle**|13|
 | **visFromPin**|14|
-| **visControlPoint**|100 + zero-based row index (for example,  **visControlPoint** = 100 if the control point is in row 0; **visControlPoint** = 101 if the control point is in row 1)|
+| **visControlPoint**|100 + zero-based row index (for example, **visControlPoint** = 100 if the control point is in row 0; **visControlPoint** = 101 if the control point is in row 1)|
 
 ## Example
 
@@ -138,4 +137,4 @@ Public Sub FromPart_Example()
 End Sub
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

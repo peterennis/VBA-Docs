@@ -1,5 +1,5 @@
 ---
-title: AcExportXMLOtherFlags Enumeration (Access)
+title: AcExportXMLOtherFlags enumeration (Access)
 keywords: vbaac10.chm13251
 f1_keywords:
 - vbaac10.chm13251
@@ -8,16 +8,17 @@ api_name:
 - Access.AcExportXMLOtherFlags
 ms.assetid: ebc80f42-56e8-e024-241a-a2ddc5d752ca
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# AcExportXMLOtherFlags Enumeration (Access)
+# AcExportXMLOtherFlags enumeration (Access)
 
-Use with the  **ExportXML** method to specify other behaviors associated with exporting to XML.
+Use with the **ExportXML** method to specify other behaviors associated with exporting to XML.
 
+<br/>
 
-
-|**Name**|**Value**|**Description**|
+|Name|Value|Description|
 |:-----|:-----|:-----|
 |**acEmbedSchema**|1|Writes schema information into the document specified by the DataTarget argument; this value takes precedence over the SchemaTarget argument.|
 |**acExcludePrimaryKeyAndIndexes**|2|Does not export primary key and index schema properties.|
@@ -26,3 +27,4 @@ Use with the  **ExportXML** method to specify other behaviors associated with ex
 |**acPersistReportML**|16|Persists the exported object's ReportML information.|
 |**acRunFromServer**|4|Creates an Active Server Pages (ASP) wrapper; otherwise, default is an HTML wrapper. Applies only when you are exporting reports.|
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

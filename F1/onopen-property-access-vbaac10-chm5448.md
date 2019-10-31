@@ -6,6 +6,7 @@ f1_keywords:
 ms.prod: office
 ms.assetid: 3564ae2e-e35c-4959-a9f3-dacb593c49fd
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
@@ -13,8 +14,8 @@ ms.date: 06/08/2017
 
 Hi there! You have landed on one of our F1 Help redirector pages. Please select the topic you were looking for below.
 
-[Form.OnOpen Property (Access)](http://msdn.microsoft.com/library/151b9103-a25d-a595-6cab-20b737909fa6%28Office.15%29.aspx)
+[Form.OnOpen property (Access)](http://msdn.microsoft.com/library/151b9103-a25d-a595-6cab-20b737909fa6%28Office.15%29.aspx)
 
-[Report.OnOpen Property (Access)](http://msdn.microsoft.com/library/e381f9a5-c409-7ae5-e266-cb3a046eb919%28Office.15%29.aspx)
+[Report.OnOpen property (Access)](http://msdn.microsoft.com/library/e381f9a5-c409-7ae5-e266-cb3a046eb919%28Office.15%29.aspx)
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

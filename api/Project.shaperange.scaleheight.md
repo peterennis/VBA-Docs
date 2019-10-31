@@ -1,36 +1,35 @@
 ---
-title: ShapeRange.ScaleHeight Method (Project)
+title: ShapeRange.ScaleHeight method (Project)
 ms.prod: project-server
 ms.assetid: 5f6f353d-6045-2a50-3a55-b0c380dafd2d
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# ShapeRange.ScaleHeight Method (Project)
+# ShapeRange.ScaleHeight method (Project)
 Scales the height of the range of shapes by a specified factor.
 
 ## Syntax
 
- _expression_. `ScaleHeight` _(Factor,_ _RelativeToOriginalSize,_ _fScale)_
+_expression_.**ScaleHeight** (_Factor_, _RelativeToOriginalSize_, _fScale_)
 
- _expression_ A variable that represents a 'ShapeRange' object.
-
-
-### Parameters
+_expression_ A variable that represents a 'ShapeRange' object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _Factor_|Required|**Single**|The ratio between the height of the shape after you resize it and the current height. For example, to make a rectangle 50 percent higher, specify 1.5 for the  _Factor_ parameter.|
-| _RelativeToOriginalSize_|Required|**[MsoTriState](https://msdn.microsoft.com/en-us/library/office/ff860737%28v=office.15%29)**|**msoFalse** scales each shape relative to its current size. For Project, the value must be **msoFalse**.|
-| _fScale_|Optional|**[MsoScaleFrom](https://msdn.microsoft.com/en-us/library/office/ff863348%28v=office.15%29)**|Specifies which part of the shape retains its position when the shape is scaled.|
-| _Factor_|Required|FLOAT||
-| _RelativeToOriginalSize_|Required|MSOTRISTATE||
-| _fScale_|Optional|MSOSCALEFROM||
-|Name|Required/Optional|Data type|Description|
+| _RelativeToOriginalSize_|Required|**[MsoTriState](https://msdn.microsoft.com/library/office/ff860737%28v=office.15%29)**|**msoFalse** scales each shape relative to its current size. For Project, the value must be **msoFalse**.|
+| _fScale_|Optional|**[MsoScaleFrom](https://msdn.microsoft.com/library/office/ff863348%28v=office.15%29)**|Specifies which part of the shape retains its position when the shape is scaled.|
 
-### Return value
+
+
+## Return value
 
  **Nothing**
 
@@ -73,5 +72,7 @@ End Sub
 
 
 [ShapeRange Object](Project.shaperange.md)
-[MsoTriState](https://msdn.microsoft.com/en-us/library/office/ff860737%28v=office.15%29)
-[MsoScaleFrom](https://msdn.microsoft.com/en-us/library/office/ff863348%28v=office.15%29)
+[MsoTriState](https://msdn.microsoft.com/library/office/ff860737%28v=office.15%29)
+[MsoScaleFrom](https://msdn.microsoft.com/library/office/ff863348%28v=office.15%29)
+
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

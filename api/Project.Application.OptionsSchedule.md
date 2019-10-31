@@ -1,5 +1,5 @@
 ---
-title: Application.OptionsSchedule Method (Project)
+title: Application.OptionsSchedule method (Project)
 keywords: vbapj.chm644
 f1_keywords:
 - vbapj.chm644
@@ -8,26 +8,27 @@ api_name:
 - Project.Application.OptionsSchedule
 ms.assetid: 24035b34-0364-e830-864a-801150e2668d
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Application.OptionsSchedule Method (Project)
+# Application.OptionsSchedule method (Project)
 
 Sets scheduling options.
 
 
 ## Syntax
 
- _expression_. `OptionsSchedule`( ` _ScheduleMessages_`, ` _StartOnCurrentDate_`, ` _AutoLink_`, ` _AutoSplit_`, ` _CriticalSlack_`, ` _TaskType_`, ` _DurationUnits_`, ` _WorkUnits_`, ` _AutoTrack_`, ` _SetDefaults_`, ` _AssignmentUnits_`, ` _EffortDriven_`, ` _HonorConstraints_`, ` _ShowEstimated_`, ` _NewTasksEstimated_` )
+_expression_. `OptionsSchedule`( `_ScheduleMessages_`, `_StartOnCurrentDate_`, `_AutoLink_`, `_AutoSplit_`, `_CriticalSlack_`, `_TaskType_`, `_DurationUnits_`, `_WorkUnits_`, `_AutoTrack_`, `_SetDefaults_`, `_AssignmentUnits_`, `_EffortDriven_`, `_HonorConstraints_`, `_ShowEstimated_`, `_NewTasksEstimated_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
-
-
-### Parameters
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _ScheduleMessages_|Optional|**Variant**|**Boolean**. **True** if messages display when scheduling problems occur; otherwise, **False**.|
 | _StartOnCurrentDate_|Optional|**Boolean**|**True** if new tasks start on the current date. **False** if new tasks start on the project start date (projects scheduled from the start date) or on the project finish date (projects scheduled from the finish date).|
@@ -45,7 +46,7 @@ Sets scheduling options.
 | _ShowEstimated_|Optional|**Boolean**|**True** if task durations in new projects are displayed with the estimated character; otherwise, **False**.|
 | _NewTasksEstimated_|Optional|**Boolean**|**True** if new tasks in the active project have estimated durations; otherwise, **False**.|
 
-### Return Value
+## Return value
 
 Boolean
 
@@ -68,4 +69,4 @@ Sub Options_Schedule()
 End Sub
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

@@ -1,5 +1,5 @@
 ---
-title: Application.FilePageSetupView Method (Project)
+title: Application.FilePageSetupView method (Project)
 keywords: vbapj.chm2360
 f1_keywords:
 - vbapj.chm2360
@@ -8,26 +8,27 @@ api_name:
 - Project.Application.FilePageSetupView
 ms.assetid: 46a90db8-a635-3592-77ed-c051afa36946
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Application.FilePageSetupView Method (Project)
+# Application.FilePageSetupView method (Project)
 
 Sets up view-specific options for printing.
 
 
 ## Syntax
 
- _expression_. `FilePageSetupView`( ` _Name_`, ` _AllSheetColumns_`, ` _RepeatColumns_`, ` _PrintNotes_`, ` _PrintBlankPages_`, ` _BestPageFitTimescale_`, ` _PrintColumnTotals_`, ` _PrintRowTotals_` )
+_expression_. `FilePageSetupView`( `_Name_`, `_AllSheetColumns_`, `_RepeatColumns_`, `_PrintNotes_`, `_PrintBlankPages_`, `_BestPageFitTimescale_`, `_PrintColumnTotals_`, `_PrintRowTotals_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
-
-
-### Parameters
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _Name_|Optional|**String**|The name of the view or report for which to set up pages for printing.|
 | _AllSheetColumns_|Optional|**Boolean**|**True** if all table columns print. **False** if only visible table columns print. This argument is only available when the Task Usage view, Resource Usage view, or one of the Gantt views is the active view.|
@@ -38,7 +39,7 @@ Sets up view-specific options for printing.
 | _PrintColumnTotals_|Optional|**Variant**|NOT available at this time.|
 | _PrintRowTotals_|Optional|**Variant**|NOT available at this time.|
 
-### Return Value
+## Return value
 
  **Boolean**
 
@@ -47,4 +48,4 @@ Sets up view-specific options for printing.
 
 Using the  **FilePageSetupView** method without specifying any arguments displays the **Page Setup** dialog box with the **View** tab selected.The **FilePageSetupView** method is not available when the Calendar is the active view.
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

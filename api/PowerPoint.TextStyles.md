@@ -1,5 +1,5 @@
 ---
-title: TextStyles Object (PowerPoint)
+title: TextStyles object (PowerPoint)
 keywords: vbapp10.chm578000
 f1_keywords:
 - vbapp10.chm578000
@@ -8,10 +8,11 @@ api_name:
 - PowerPoint.TextStyles
 ms.assetid: 5c56df6d-8f37-ebe7-2955-c6c5de1ed771
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# TextStyles Object (PowerPoint)
+# TextStyles object (PowerPoint)
 
 A collection of three text styles - title text, body text, and default text - each of which is represented by a  **[TextStyle](PowerPoint.TextStyle.md)** object.
 
@@ -23,7 +24,7 @@ Each text style contains a  **[TextFrame](PowerPoint.TextFrame.md)** object that
 
 ## Example
 
-Use  **TextStyles** (index), where index is either **ppBodyStyle**, **ppDefaultStyle**, or **ppTitleStyle**, to return a single **TextStyle** object. This example sets the margins for the notes body area on all the notes pages in the active presentation.
+Use  **TextStyles** (_index_), where _index_ is either **ppBodyStyle**, **ppDefaultStyle**, or **ppTitleStyle**, to return a single **TextStyle** object. This example sets the margins for the notes body area on all the notes pages in the active presentation.
 
 
 ```vb
@@ -42,3 +43,4 @@ End With
 
 [PowerPoint Object Model Reference](overview/PowerPoint/object-model.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

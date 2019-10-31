@@ -1,20 +1,21 @@
 ---
-title: PpNumberedBulletStyle Enumeration (PowerPoint)
+title: PpNumberedBulletStyle enumeration (PowerPoint)
 ms.prod: powerpoint
 api_name:
 - PowerPoint.PpNumberedBulletStyle
 ms.assetid: e94c69d3-20c4-102c-491c-c3f99217d5f6
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# PpNumberedBulletStyle Enumeration (PowerPoint)
+# PpNumberedBulletStyle enumeration (PowerPoint)
 
 Specifies the bullet style.
 
 
 
-|**Name**|**Value**|**Description**|
+|Name|Value|Description|
 |:-----|:-----|:-----|
 |**ppBulletAlphaLCParenBoth**|8|Lowercase alphabetical characters with both parentheses.|
 |**ppBulletAlphaLCParenRight**|9|Lowercase alphabetical characters with closing parenthesis.|
@@ -59,3 +60,4 @@ Specifies the bullet style.
 |**ppBulletTradChinPeriod**|22|Traditional Chinese with a period.|
 |**ppBulletTradChinPlain**|21|Traditional Chinese without a period.|
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

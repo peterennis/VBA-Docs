@@ -1,5 +1,5 @@
 ---
-title: Chart.SetElement Method (PowerPoint)
+title: Chart.SetElement method (PowerPoint)
 keywords: vbapp10.chm684044
 f1_keywords:
 - vbapp10.chm684044
@@ -8,26 +8,27 @@ api_name:
 - PowerPoint.Chart.SetElement
 ms.assetid: c9f05df8-a85a-c401-c9bc-33f3a2cc4561
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Chart.SetElement Method (PowerPoint)
+# Chart.SetElement method (PowerPoint)
 
 Sets chart elements on a chart. Read/write  **MsoChartElementType**.
 
 
 ## Syntax
 
- _expression_. `SetElement`( `_Element_` )
+_expression_.**SetElement** (_Element_)
 
- _expression_ A variable that represents a '[Chart](PowerPoint.Chart.md)' object.
-
-
-### Parameters
+_expression_ A variable that represents a **[Chart](PowerPoint.Chart.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _Element_|Required|**MsoChartElementType**|One of the enumeration values that specifies the chart element type.|
 
@@ -54,7 +55,8 @@ For charts, the following commands in the  **Layout** tab correspond to the **Se
 
 
 
- **Note**  Although the following code applies to Microsoft Word, you can readily modify it to apply to PowerPoint.
+> [!NOTE] 
+> Although the following code applies to Microsoft Word, you can readily modify it to apply to PowerPoint.
 
 The following example sets chart elements by using the various constant values to an active chart.
 
@@ -97,3 +99,4 @@ End With
 
 [Chart Object](PowerPoint.Chart.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

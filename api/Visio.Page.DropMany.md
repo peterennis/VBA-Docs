@@ -1,5 +1,5 @@
 ---
-title: Page.DropMany Method (Visio)
+title: Page.DropMany method (Visio)
 keywords: vis_sdr.chm10916240
 f1_keywords:
 - vis_sdr.chm10916240
@@ -8,39 +8,40 @@ api_name:
 - Visio.Page.DropMany
 ms.assetid: 81fc5b8d-3152-de69-2f8e-90d530aa5e08
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Page.DropMany Method (Visio)
+# Page.DropMany method (Visio)
 
 Creates one or more new  **Shape** objects on a page. It returns an array of the IDs of the **Shape** objects it produces.
 
 
 ## Syntax
 
- _expression_. `DropMany`( `_ObjectsToInstance()_` , `_xyArray()_` , `_IDArray()_` )
+_expression_. `DropMany`( `_ObjectsToInstance()_` , `_xyArray()_` , `_IDArray()_` )
 
- _expression_ A variable that represents a [Page](./Visio.Page.md) object.
-
-
-### Parameters
+_expression_ A variable that represents a **[Page](Visio.Page.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _ObjectsToInstance()_|Required| **Variant**|Identifies masters or other objects from which to make shapes.|
 | _xyArray()_|Required| **Double**|An array of alternating x and y values specifying the positions for the new shapes.|
 | _IDArray()_|Required| **Integer**|Out parameter. An array that returns the IDs of the created shapes.|
 
-### Return Value
+## Return value
 
 Integer
 
 
 ## Remarks
 
-Using the  **DropMany** method is like using the **Page** , **Master** , or **Shape** object's **Drop** method, except you can use the **DropMany** method to create many new **Shape** objects at once, rather than one per method call. The **DropMany** method creates new **Shape** objects on the page, in the master, or in the group shape to which it is applied (this shape is called the "target object" in the following discussion).
+Using the  **DropMany** method is like using the **Page**, **Master**, or **Shape** object's **Drop** method, except you can use the **DropMany** method to create many new **Shape** objects at once, rather than one per method call. The **DropMany** method creates new **Shape** objects on the page, in the master, or in the group shape to which it is applied (this shape is called the "target object" in the following discussion).
 
 You can identify which master to drop by passing the  **DropMany** method a **Master** object or the master's index or the master's name. When you pass an object, **DropMany** isn't constrained to just dropping a master from the document stencil of the document onto which it is being dropped. The object can be a master from another document or another type of object.
 
@@ -51,7 +52,7 @@ Passing integers (master indices) or strings (master names) to  **DropMany** is 
 
 
 
-- If  _ObjectsToInstance(i)_ is a reference to an OLE object that provides an **IDataObject** interface (in Microsoft Visual Basic for Applications, a reference to a selection, shape, master, guide, or OLE object), the object it is referencing is instanced. This is essentially equivalent to calling **Drop**_(ObjectsToInstance(i),x,y)_ .
+- If  _ObjectsToInstance(i)_ is a reference to an OLE object that provides an **IDataObject** interface (in Microsoft Visual Basic for Applications, a reference to a selection, shape, master, guide, or OLE object), the object it is referencing is instanced. This is essentially equivalent to calling **Drop**_(ObjectsToInstance(i),x,y)_.
     
 - If  _ObjectsToInstance(i)_ is the integer _j_ , an instance of the **Master** object in the document stencil of the target object's document whose 1-based index is _j_ is made. The EventDrop cell in the Events section of the new shape is not triggered. Use the **Drop** method instead if you want the EventDrop cell to be triggered.
     
@@ -61,15 +62,15 @@ Passing integers (master indices) or strings (master names) to  **DropMany** is 
     
 
 
-The  _xyArray()_ argument should be a one-dimensional array of 2 _m_ doubles with lower bound _xylb_ and upper bound _xyub_ , where _m_ >= _n_ . The values in the array tell the **DropMany** method where to position the **Shape** objects it produces. _ObjectsToInstance_( _vlb_ + ( _ i_ - 1)) is dropped at ( _xy_ [( _i_ - 1)2 + _xylb_ ], _xy_ [(i - 1)2 + _xylb_ + 1]) for 1 <= _i_ <= _n_ .
+The  _xyArray()_ argument should be a one-dimensional array of 2 _m_ doubles with lower bound _xylb_ and upper bound _xyub_ , where _m_ >= _n_. The values in the array tell the **DropMany** method where to position the **Shape** objects it produces. _ObjectsToInstance_( _vlb_ + ( _i_ - 1)) is dropped at ( _xy_ [( _i_ - 1)2 + _xylb_ ], _xy_ [(i - 1)2 + _xylb_ + 1]) for 1 <= _i_ <= _n_.
 
 Note that  _m_ > _n_ is allowed. For _n_ < _i_ <= _m_ , the _i_ 'th thing instanced is the same thing as the _n_ 'th thing instanced. Thus to make _m_ >= 1 instances of the same thing, you can pass an _ObjectsToInstance()_ array with one entry and an _m_ entry _xyArray()_ array.
 
-If the entity being instanced is a master, the pin of the new  **Shape** object is positioned at the given _xy_ . Otherwise, the center of the **Shape** objects is positioned at the given _xy_ .
+If the entity being instanced is a master, the pin of the new  **Shape** object is positioned at the given _xy_. Otherwise, the center of the **Shape** objects is positioned at the given _xy_.
 
 The value returned by the  **DropMany** method is the number of _xy_ entries in _xyArray()_ that the **DropMany** method successfully processed. If all entries were processed successfully, _m_ is returned. If some entries are successfully processed prior to an error occurring, the produced **Shape** objects are not deleted and this raises an exception but still returns a positive value.
 
-Presuming all  _m_ _xy_ entries are processed correctly, the number of new **Shape** objects produced by the **DropMany** method is usually equal to _m_ . In rare cases (for example, if a **Selection** object gets instanced), more than _m_**Shape** objects may be produced. The caller can determine the number of produced **Shape** objects by comparing the number of shapes in the target object before and after the **DropMany** method is executed. The caller can assert the new **Shape** objects are those with the highest indices in the target object's **Shapes** collection.
+Presuming all  _m_ _xy_ entries are processed correctly, the number of new **Shape** objects produced by the **DropMany** method is usually equal to _m_. In rare cases (for example, if a **Selection** object gets instanced), more than _m_**Shape** objects may be produced. The caller can determine the number of produced **Shape** objects by comparing the number of shapes in the target object before and after the **DropMany** method is executed. The caller can assert the new **Shape** objects are those with the highest indices in the target object's **Shapes** collection.
 
 If the  **DropMany** method returns zero (0), _IDArray_ returns **null** (**Nothing**). Otherwise, it returns a one-dimensional array of _m_ integers indexed from 0 to _m_ - 1. _IDArray()_ is an out parameter that is allocated by the **DropMany** method and ownership is passed to the program that called the **DropMany** method. The caller should eventually perform the **SafeArrayDestroy** procedure on the returned array. (Microsoft Visual Basic and Microsoft Visual Basic for Applications take care of this for you.)
 
@@ -78,7 +79,8 @@ If  _IDArray_ returns non- **null** (not **Nothing**), _IDArray_( _i_ - 1), 1 <=
 
 
 
- **Note**  Beginning with Microsoft Visio 2000, you can use both local and universal names to refer to Visio shapes, masters, documents, pages, rows, add-ons, cells, hyperlinks, styles, fonts, master shortcuts, UI objects, and layers. When a user names a shape, for example, the user is specifying a local name. Beginning with Microsoft Office Visio 2003, the ShapeSheet spreadsheet displays only universal names in cell formulas and values. (In prior versions, universal names were not visible in the user interface.) 
+> [!NOTE] 
+> Beginning with Microsoft Visio 2000, you can use both local and universal names to refer to Visio shapes, masters, documents, pages, rows, add-ons, cells, hyperlinks, styles, fonts, master shortcuts, UI objects, and layers. When a user names a shape, for example, the user is specifying a local name. Beginning with Microsoft Office Visio 2003, the ShapeSheet spreadsheet displays only universal names in cell formulas and values. (In prior versions, universal names were not visible in the user interface.) 
 
  As a developer, you can use universal names in a program when you don't want to change a name each time a solution is localized. Use the **DropMany** method to drop more than one shape when you are using local names to identify the shapes. Use the **DropManyU** method to drop more than one shape when you are using universal names to identify the shapes.
 
@@ -136,4 +138,4 @@ Public Sub DropMany_Example()
 End Sub
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

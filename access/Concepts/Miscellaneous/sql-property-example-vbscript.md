@@ -4,6 +4,7 @@ ROBOTS: INDEX
 ms.prod: access
 ms.assetid: 423b24b7-b435-870c-cce8-78274dd9af83
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
@@ -11,7 +12,7 @@ ms.date: 06/08/2017
 
 **Applies to:** Access 2013 | Access 2016
 
-The following code shows how to set the [RDS.DataControl](http://msdn.microsoft.com/library/ac430669-7628-696c-c036-b5d35405d788%28Office.15%29.aspx) SQL parameter at design time and bind it to a data-aware control using the database called _Pubs_, which ships with Microsoft SQL Server. To test the example, copy the following code into a normal ASP document named **SQLDesignVBS.asp** on your Web server.
+The following code shows how to set the [RDS.DataControl](https://msdn.microsoft.com/library/ac430669-7628-696c-c036-b5d35405d788%28Office.15%29.aspx) SQL parameter at design time and bind it to a data-aware control using the database called _Pubs_, which ships with Microsoft SQL Server. To test the example, copy the following code into a normal ASP document named **SQLDesignVBS.asp** on your Web server.
 
 ```vb
 <!-- BeginSQLDesignVBS --><%@ Language=VBScript %>
@@ -92,9 +93,11 @@ End Sub-->
 
 ## See also
 
-- [Access for developers forum on MSDN](https://social.msdn.microsoft.com/Forums/office/en-US/home?forum=accessdev)
+- [Access for developers forum](https://social.msdn.microsoft.com/Forums/office/home?forum=accessdev)
 - [Access help on support.office.com](https://support.office.com/search/results?query=Access)
-- [Access help on answers.microsoft.com](https://answers.microsoft.com/en-us/msoffice/forum?page=1&;tab=question&;status=all&;auth=1)
+- [Access help on answers.microsoft.com](https://answers.microsoft.com/)
 - [Access forums on UtterAccess](http://www.utteraccess.com/forum/index.php?act=idx)
 - [Access developer and VBA programming help center (FMS)](http://www.fmsinc.com/MicrosoftAccess/developer/)
 - [Access posts on StackOverflow](https://stackoverflow.com/questions/tagged/ms-access)
+
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

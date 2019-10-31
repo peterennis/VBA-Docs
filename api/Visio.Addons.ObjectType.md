@@ -1,5 +1,5 @@
 ---
-title: Addons.ObjectType Property (Visio)
+title: Addons.ObjectType property (Visio)
 keywords: vis_sdr.chm12513960
 f1_keywords:
 - vis_sdr.chm12513960
@@ -7,36 +7,36 @@ ms.prod: visio
 api_name:
 - Visio.Addons.ObjectType
 ms.assetid: d5a0ed1c-d242-3cf3-de0e-419e76bf71b6
-ms.date: 06/08/2017
+ms.date: 06/24/2019
+localization_priority: Normal
 ---
 
 
-# Addons.ObjectType Property (Visio)
+# Addons.ObjectType property (Visio)
 
 Returns an object's type. Read-only.
 
 
 ## Syntax
 
- _expression_. `ObjectType`
+_expression_.**ObjectType**
 
- _expression_ A variable that represents an [Addons](./Visio.Addons.md) object.
+_expression_ A variable that represents an **[Addons](Visio.Addons.md)** object.
 
 
-### Return Value
+## Return value
 
 Integer
 
 
 ## Remarks
 
-Constants representing object types are prefixed with  **visObjType** and are declared by the Visio type library in **[VisObjectTypes](Visio.VisObjectTypes.md)** .
+Constants representing object types are prefixed with **visObjType** and are declared by the Visio type library in **[VisObjectTypes](Visio.VisObjectTypes.md)**.
 
 
 ## Example
 
-This example shows how to use the  **ObjectType** property of a page to iterate recursively through a group and identify the top shape.
-
+This example shows how to use the **ObjectType** property of a page to iterate recursively through a group and identify the top shape.
 
 ```vb
 Public Sub ObjectType_Example() 
@@ -95,4 +95,4 @@ Function GetTopShape(vsoShape As Visio.Shape) As String
 End Function
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

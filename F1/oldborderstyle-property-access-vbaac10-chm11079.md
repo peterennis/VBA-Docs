@@ -6,6 +6,7 @@ f1_keywords:
 ms.prod: office
 ms.assetid: 56586caf-7db9-482e-a253-0e4a716f01e0
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
@@ -13,8 +14,8 @@ ms.date: 06/08/2017
 
 Hi there! You have landed on one of our F1 Help redirector pages. Please select the topic you were looking for below.
 
-[NavigationControl.OldBorderStyle Property (Access)](http://msdn.microsoft.com/library/57f378e9-7211-1d05-15d0-0bc1b2f2f4b3%28Office.15%29.aspx)
+[NavigationControl.OldBorderStyle property (Access)](http://msdn.microsoft.com/library/57f378e9-7211-1d05-15d0-0bc1b2f2f4b3%28Office.15%29.aspx)
 
-[TextBox.OldBorderStyle Property (Access)](http://msdn.microsoft.com/library/6064f8b9-31ec-da00-0346-cd259b917daa%28Office.15%29.aspx)
+[TextBox.OldBorderStyle property (Access)](http://msdn.microsoft.com/library/6064f8b9-31ec-da00-0346-cd259b917daa%28Office.15%29.aspx)
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

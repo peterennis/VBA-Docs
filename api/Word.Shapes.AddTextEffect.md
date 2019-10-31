@@ -1,5 +1,5 @@
 ---
-title: Shapes.AddTextEffect Method (Word)
+title: Shapes.AddTextEffect method (Word)
 keywords: vbawd10.chm161415186
 f1_keywords:
 - vbawd10.chm161415186
@@ -8,26 +8,27 @@ api_name:
 - Word.Shapes.AddTextEffect
 ms.assetid: 1f1fca1b-f357-8526-75a4-b05a378736bc
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Shapes.AddTextEffect Method (Word)
+# Shapes.AddTextEffect method (Word)
 
 Adds a WordArt shape to a drawing canvas. Returns a  **Shape** object that represents the WordArt and adds it to the **CanvasShapes** collection.
 
 
 ## Syntax
 
- _expression_. `AddTextEffect`( `_PresetTextEffect_` , `_Text_` , `_FontName_` , `_FontSize_` , `_FontBold_` , `_FontItalic_` , `_Left_` , `_Top_` )
+_expression_. `AddTextEffect`( `_PresetTextEffect_` , `_Text_` , `_FontName_` , `_FontSize_` , `_FontBold_` , `_FontItalic_` , `_Left_` , `_Top_` )
 
- _expression_ Required. A variable that represents a '[Shapes](Word.shapes.md)' collection.
-
-
-### Parameters
+_expression_ Required. A variable that represents a **[Shapes](Word.Shapes.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _PresetTextEffect_|Required| **MsoPresetTextEffect**|A preset text effect. The values of the  **MsoPresetTextEffect** constants correspond to the formats listed in the **WordArt Gallery** dialog box (numbered from left to right and from top to bottom).|
 | _Text_|Required| **String**|The text in the WordArt.|
@@ -75,3 +76,4 @@ End Sub
 
 [Shapes Collection Object](Word.shapes.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

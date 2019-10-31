@@ -1,5 +1,5 @@
 ---
-title: OlkLabel.MouseUp Event (Outlook)
+title: OlkLabel.MouseUp event (Outlook)
 keywords: vbaol11.chm1000106
 f1_keywords:
 - vbaol11.chm1000106
@@ -8,26 +8,27 @@ api_name:
 - Outlook.OlkLabel.MouseUp
 ms.assetid: edc01865-1bbd-5e87-a857-3e91b28167d2
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# OlkLabel.MouseUp Event (Outlook)
+# OlkLabel.MouseUp event (Outlook)
 
 Occurs after the user releases a mouse button that has been pressed on the control.
 
 
 ## Syntax
 
- _expression_. `MouseUp`( `_Button_` , `_Shift_` , `_X_` , `_Y_` )
+_expression_.**MouseUp** (_Button_, _Shift_, _x_, _y_)
 
- _expression_ A variable that represents an [OlkLabel](./Outlook.OlkLabel.md) object.
-
-
-### Parameters
+_expression_ A variable that represents an [OlkLabel](Outlook.OlkLabel.md) object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _Button_|Required| **Integer**|An  **[OlMouseButton](Outlook.OlMouseButton.md)** constant that specifies which button on the mouse has been pressed.|
 | _Shift_|Required| **Integer**|A bitwise-OR mask of constants in the  **[OlShiftState](Outlook.OlShiftState.md)** enumeration that specifies whether the **SHIFT**,  **CTRL**, or  **ALT** keys have been pressed.|
@@ -39,3 +40,4 @@ Occurs after the user releases a mouse button that has been pressed on the contr
 
 [OlkLabel Object](Outlook.OlkLabel.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

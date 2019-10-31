@@ -1,5 +1,5 @@
 ---
-title: Project.ReadWssData Method (Project)
+title: Project.ReadWssData method (Project)
 keywords: vbapj.chm132840
 f1_keywords:
 - vbapj.chm132840
@@ -8,30 +8,31 @@ api_name:
 - Project.Project.ReadWssData
 ms.assetid: 97ff4d8e-8f0b-3b7f-9515-56376967e5bd
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Project.ReadWssData Method (Project)
+# Project.ReadWssData method (Project)
 
 Returns the Project Workspace URLs for the active enterprise project as an XML string.
 
 
 ## Syntax
 
- _expression_. `ReadWssData`( ` _ProjectGuid_` )
+_expression_. `ReadWssData`( `_ProjectGuid_` )
 
- _expression_ A variable that represents a [Project](./Project(enumerations).md) object.
-
-
-### Parameters
+_expression_ A variable that represents a **[Project](project.project.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _ProjectGuid_|Required|**String**|A valid Project GUID.|
 
-### Return Value
+## Return value
 
  **Variant**
 
@@ -43,11 +44,11 @@ The following is an example of the XML schema definition.
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
-<xs:schema xmlns:mstns="https://schemas.microsoft.com/office/project/server/webservices/ProjectWSSInfoDataSet/" 
+<xs:schema xmlns:mstns="http://schemas.microsoft.com/office/project/server/webservices/ProjectWSSInfoDataSet/" 
            xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" 
-           xmlns="https://schemas.microsoft.com/office/project/server/webservices/ProjectWSSInfoDataSet/" 
+           xmlns="http://schemas.microsoft.com/office/project/server/webservices/ProjectWSSInfoDataSet/" 
            attributeFormDefault="qualified" elementFormDefault="qualified" 
-           targetNamespace="https://schemas.microsoft.com/office/project/server/webservices/ProjectWSSInfoDataSet/" 
+           targetNamespace="http://schemas.microsoft.com/office/project/server/webservices/ProjectWSSInfoDataSet/" 
            id="ProjectWSSInfoDataSet" xmlns:xs="https://www.w3.org/2001/XMLSchema">
   <xs:element msdata:IsDataSet="true" msdata:UseCurrentLocale="true" name="ProjectWSSInfoDataSet">
     <xs:complexType>
@@ -85,4 +86,4 @@ The following is an example of the XML schema definition.
 
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

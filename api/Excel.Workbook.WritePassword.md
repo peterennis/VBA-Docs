@@ -1,5 +1,5 @@
 ---
-title: Workbook.WritePassword Property (Excel)
+title: Workbook.WritePassword property (Excel)
 keywords: vbaxl10.chm199210
 f1_keywords:
 - vbaxl10.chm199210
@@ -7,26 +7,26 @@ ms.prod: excel
 api_name:
 - Excel.Workbook.WritePassword
 ms.assetid: ac89063e-6ef5-f7c5-abb0-4e6ef1c5fd05
-ms.date: 06/08/2017
+ms.date: 05/29/2019
+localization_priority: Normal
 ---
 
 
-# Workbook.WritePassword Property (Excel)
+# Workbook.WritePassword property (Excel)
 
-Returns or sets a  **String** for the write password of a workbook. Read/write.
+Returns or sets a **String** for the write password of a workbook. Read/write.
 
 
 ## Syntax
 
- _expression_. `WritePassword`
+_expression_.**WritePassword**
 
- _expression_ A variable that represents a [Workbook](./Excel.Workbook.md) object.
+_expression_ A variable that represents a **[Workbook](Excel.Workbook.md)** object.
 
 
 ## Example
 
 In this example, if the active workbook is not protected against saving changes, Microsoft Excel sets the password to a string as the write password for the active workbook.
-
 
 ```vb
 Sub UseWritePassword() 
@@ -44,8 +44,5 @@ End Sub
 ```
 
 
-## See also
 
-
-[Workbook Object](Excel.Workbook.md)
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

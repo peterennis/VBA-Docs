@@ -1,18 +1,19 @@
 ---
-title: XlLineStyle Enumeration (Word)
+title: XlLineStyle enumeration (Word)
 ms.prod: word
 ms.assetid: b2d00c5f-f769-deab-be78-545e7f8f1fab
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# XlLineStyle Enumeration (Word)
+# XlLineStyle enumeration (Word)
 
 Specifies the line style for the border.
 
 
 
-|**Name**|**Value**|**Description**|
+|Name|Value|Description|
 |:-----|:-----|:-----|
 | **xlContinuous**|1|A continuous line.|
 | **xlDash**|-4115|A dashed line.|
@@ -23,3 +24,4 @@ Specifies the line style for the border.
 | **xlLineStyleNone**|-4142|No line.|
 | **xlSlantDashDot**|13|Slanted dashes.|
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

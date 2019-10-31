@@ -1,5 +1,5 @@
 ---
-title: PbParagraphAlignmentType Enumeration (Publisher)
+title: PbParagraphAlignmentType enumeration (Publisher)
 keywords: vbapb10.chm65550
 f1_keywords:
 - vbapb10.chm65550
@@ -8,16 +8,17 @@ api_name:
 - Publisher.PbParagraphAlignmentType
 ms.assetid: bfcf7b96-e774-322b-7dba-e6cbc4f1cb1a
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# PbParagraphAlignmentType Enumeration (Publisher)
+# PbParagraphAlignmentType enumeration (Publisher)
 
  Represents the alignment for the specified paragraphs.
 
 
 
-|**Name**|**Value**|**Description**|
+|Name|Value|Description|
 |:-----|:-----|:-----|
 | **pbParagraphAlignmentCenter**|1|Center alignment|
 | **pbParagraphAlignmentDistribute**|4|Distribute alignment|
@@ -29,7 +30,8 @@ ms.date: 06/08/2017
 | **pbParagraphAlignmentInterWord**|3|Inter Word|
 | **pbParagraphAlignmentJustified**|6|Justified|
 | **pbParagraphAlignmentKashida**|11|Kashida|
-| **pbParagraphAlignmentLeft**|0|Left aligment|
+| **pbParagraphAlignmentLeft**|0|Left alignment|
 | **pbParagraphAlignmentMixed**|-9999999|Mixed alignment|
 | **pbParagraphAlignmentRight**|2|Right alignment|
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

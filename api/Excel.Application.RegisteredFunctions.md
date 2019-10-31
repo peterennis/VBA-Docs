@@ -1,5 +1,5 @@
 ---
-title: Application.RegisteredFunctions Property (Excel)
+title: Application.RegisteredFunctions property (Excel)
 keywords: vbaxl10.chm133198
 f1_keywords:
 - vbaxl10.chm133198
@@ -7,50 +7,46 @@ ms.prod: excel
 api_name:
 - Excel.Application.RegisteredFunctions
 ms.assetid: c8922122-7de8-ebbb-0dfd-1dfe3974278e
-ms.date: 06/08/2017
+ms.date: 04/05/2019
+localization_priority: Normal
 ---
 
 
-# Application.RegisteredFunctions Property (Excel)
+# Application.RegisteredFunctions property (Excel)
 
-Returns information about functions in either dynamic-link libraries (DLLs) or code resources that were registered with the REGISTER or REGISTER.ID macro functions. Read-only  **Variant** .
+Returns information about functions in either dynamic-link libraries (DLLs) or code resources that were registered with the REGISTER or REGISTER.ID macro functions. Read-only **Variant**.
 
 
 ## Syntax
 
- _expression_. `RegisteredFunctions`( `_Index1_` , `_Index2_` )
+_expression_.**RegisteredFunctions** (_Index1_, _Index2_)
 
- _expression_ A variable that represents an [Application](Excel.Application(Graph property).md) object.
-
-
-### Parameters
+_expression_ A variable that represents an **[Application](Excel.Application(object).md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _Index1_|Optional| **Variant**|The name of the DLL or code resource.|
 | _Index2_|Optional| **Variant**|The name of the function.|
 
 ## Remarks
 
-If you don?t specify the index arguments, this property returns an array that contains a list of all registered functions. Each row in the array contains information about a single function, as shown in the following table.
+If you don't specify the index arguments, this property returns an array that contains a list of all registered functions. Each row in the array contains information about a single function, as shown in the following table.
 
-
-
-|**Column**|**Contents**|
+|Column|Contents|
 |:-----|:-----|
-|1|The name of the DLL or code resource|
-|2|The name of the procedure in the DLL or code resource|
-|3|Strings specifying the data types of the return values, and the number and data types of the arguments|
+|1|The name of the DLL or code resource.|
+|2|The name of the procedure in the DLL or code resource.|
+|3|Strings specifying the data types of the return values, and the number and data types of the arguments.|
 
-If there are no registered functions, this property returns  **null** .
+If there are no registered functions, this property returns **null**.
 
 
 ## Example
 
 This example creates a list of registered functions, placing one registered function in each row on Sheet1. Column A contains the full path and file name of the DLL or code resource, column B contains the function name, and column C contains the argument data type code.
-
 
 ```vb
 theArray = Application.RegisteredFunctions 
@@ -67,8 +63,6 @@ End If
 ```
 
 
-## See also
 
 
-[Application Object](Excel.Application(object).md)
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

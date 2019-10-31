@@ -1,5 +1,5 @@
 ---
-title: Application.OptionsSave Method (Project)
+title: Application.OptionsSave method (Project)
 keywords: vbapj.chm650
 f1_keywords:
 - vbapj.chm650
@@ -8,26 +8,27 @@ api_name:
 - Project.Application.OptionsSave
 ms.assetid: 658a4b31-8bd6-8dbb-852f-a7f604386215
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Application.OptionsSave Method (Project)
+# Application.OptionsSave method (Project)
 
 Sets save options for project files.
 
 
 ## Syntax
 
- _expression_. `OptionsSave`( ` _DefaultSaveFormat_`, ` _DefaultProjectsPath_`, ` _DefaultUserTemplatesPath_`, ` _DefaultWorkgroupTemplatesPath_`, ` _ExpandDatabaseTimephasedData_`, ` _AutomaticSave_`, ` _AutomaticSaveInterval_`, ` _AutomaticSaveOptions_`, ` _AutomaticSavePrompt_`, ` _SetDefaultsDatabase_` )
+_expression_. `OptionsSave`( `_DefaultSaveFormat_`, `_DefaultProjectsPath_`, `_DefaultUserTemplatesPath_`, `_DefaultWorkgroupTemplatesPath_`, `_ExpandDatabaseTimephasedData_`, `_AutomaticSave_`, `_AutomaticSaveInterval_`, `_AutomaticSaveOptions_`, `_AutomaticSavePrompt_`, `_SetDefaultsDatabase_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
-
-
-### Parameters
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _DefaultSaveFormat_|Optional|**String**|Specifies the default format when saving a file. Can be one of the following strings: "MSProject.mpp", "MSProject.mpt", "MSProject.mpp12", or "MSProject.mpp9".|
 | _DefaultProjectsPath_|Optional|**String**|Specifies the default location for project files.|
@@ -40,7 +41,7 @@ Sets save options for project files.
 | _AutomaticSavePrompt_|Optional|**Boolean**|**True** if alerts display when automatically saving files.|
 | _SetDefaultsDatabase_|Optional|**Boolean**|**True** if the value specified in the **Database save options** section, found on the **Save** tab of the **Options** dialog box, is used as the default value for new projects. The default value is **False**.|
 
-### Return Value
+## Return value
 
  **Boolean**
 
@@ -63,4 +64,4 @@ Sub Options_Save()
 End Sub
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

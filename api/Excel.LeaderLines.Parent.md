@@ -1,5 +1,5 @@
 ---
-title: LeaderLines.Parent Property (Excel)
+title: LeaderLines.Parent property (Excel)
 keywords: vbaxl10.chm605075
 f1_keywords:
 - vbaxl10.chm605075
@@ -7,24 +7,23 @@ ms.prod: excel
 api_name:
 - Excel.LeaderLines.Parent
 ms.assetid: ad43b787-ecf3-fcf7-9079-4de99b1c9d2e
-ms.date: 06/08/2017
+ms.date: 04/27/2019
+localization_priority: Normal
 ---
 
 
-# LeaderLines.Parent Property (Excel)
+# LeaderLines.Parent property (Excel)
 
 Returns the parent object for the specified object. Read-only.
 
 
 ## Syntax
 
- _expression_. `Parent`
+_expression_.**Parent**
 
- _expression_ A variable that represents a [LeaderLines](Excel.LeaderLines(Graph property).md) object.
-
-
-## See also
+_expression_ A variable that represents a **[LeaderLines](excel.leaderlines(object).md)** object.
 
 
-[LeaderLines Object](Excel.LeaderLines(object).md)
 
+
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

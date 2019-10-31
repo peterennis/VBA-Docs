@@ -1,5 +1,5 @@
 ---
-title: Shape.DrawOval Method (Visio)
+title: Shape.DrawOval method (Visio)
 keywords: vis_sdr.chm11216210
 f1_keywords:
 - vis_sdr.chm11216210
@@ -8,33 +8,34 @@ api_name:
 - Visio.Shape.DrawOval
 ms.assetid: 7f561251-251e-6aa9-5291-5919ccce1a9e
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Shape.DrawOval Method (Visio)
+# Shape.DrawOval method (Visio)
 
 Adds an oval (ellipse) to the  **Shapes** collection of a group shape.
 
 
 ## Syntax
 
- _expression_. `DrawOval`( `_x1_` , `_y1_` , `_x2_` , `_y2_` )
+_expression_. `DrawOval`( `_x1_` , `_y1_` , `_x2_` , `_y2_` )
 
- _expression_ A variable that represents a [Shape](./Visio.Shape.md) object.
-
-
-### Parameters
+_expression_ A variable that represents a **[Shape](Visio.Shape.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _x1_|Required| **Double**|The x-coordinate of one corner of the ellipse's width-height box.|
 | _y1_|Required| **Double**|The y-coordinate of one corner of the ellipse's width-height box.|
 | _x2_|Required| **Double**|The x-coordinate of the other corner of the ellipse's width-height box.|
 | _y2_|Required| **Double**|The y-coordinate of the other corner of the ellipse's width-height box.|
 
-### Return Value
+## Return value
 
 Shape
 
@@ -60,4 +61,4 @@ Public Sub DrawOval_Example()
 End Sub
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

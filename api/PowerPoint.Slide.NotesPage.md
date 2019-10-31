@@ -1,5 +1,5 @@
 ---
-title: Slide.NotesPage Property (PowerPoint)
+title: Slide.NotesPage property (PowerPoint)
 keywords: vbapp10.chm531022
 f1_keywords:
 - vbapp10.chm531022
@@ -8,22 +8,23 @@ api_name:
 - PowerPoint.Slide.NotesPage
 ms.assetid: 8d102704-1660-cc5f-6701-d7bc67b5924b
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Slide.NotesPage Property (PowerPoint)
+# Slide.NotesPage property (PowerPoint)
 
 Returns a  **[SlideRange](PowerPoint.SlideRange.md)** object that represents the notes pages for the specified slide or range of slides. Read-only.
 
 
 ## Syntax
 
- _expression_. `NotesPage`
+_expression_. `NotesPage`
 
- _expression_ A variable that represents a [Slide](./PowerPoint.Slide.md) object.
+_expression_ A variable that represents a [Slide](PowerPoint.Slide.md) object.
 
 
-### Return Value
+## Return value
 
 SlideRange
 
@@ -47,7 +48,8 @@ End With
 ```
 
 
- **Note**  The following properties and methods will fail if applied to a  **SlideRange** object that represents a notes page: **Copy** method, **Cut** method, **Delete** method, **Duplicate** method, **HeadersFooters** property, **Hyperlinks** property, **Layout** property, **PrintSteps** property, **SlideShowTransition** property.
+> [!NOTE] 
+> The following properties and methods will fail if applied to a  **SlideRange** object that represents a notes page: **Copy** method, **Cut** method, **Delete** method, **Duplicate** method, **HeadersFooters** property, **Hyperlinks** property, **Layout** property, **PrintSteps** property, **SlideShowTransition** property.
 
 
 ## See also
@@ -55,3 +57,4 @@ End With
 
 [Slide Object](PowerPoint.Slide.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

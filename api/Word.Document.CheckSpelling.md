@@ -1,5 +1,5 @@
 ---
-title: Document.CheckSpelling Method (Word)
+title: Document.CheckSpelling method (Word)
 keywords: vbawd10.chm158007428
 f1_keywords:
 - vbawd10.chm158007428
@@ -8,26 +8,25 @@ api_name:
 - Word.Document.CheckSpelling
 ms.assetid: a61a9c8b-0dee-f6e4-cefc-daca612c99c1
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Document.CheckSpelling Method (Word)
+# Document.CheckSpelling method (Word)
 
 Begins a spelling check for the specified document or range. .
 
 
 ## Syntax
 
- _expression_. `CheckSpelling`( `_CustomDictionary_` , `_IgnoreUppercase_` , `_AlwaysSuggest_` , `_CustomDictionary2_` , `_CustomDictionary3_` , `_CustomDictionary4_` , `_CustomDictionary5_` , `_CustomDictionary6_` , `_CustomDictionary7_` , `_CustomDictionary8_` , `_CustomDictionary9_` , `_CustomDictionary10_` )
+_expression_.**CheckSpelling** (_CustomDictionary_, _IgnoreUppercase_, _AlwaysSuggest_, _CustomDictionary2_, _CustomDictionary3_, _CustomDictionary4_, _CustomDictionary5_, _CustomDictionary6_, _CustomDictionary7_, _CustomDictionary8_, _CustomDictionary9_, _CustomDictionary10_)
 
- _expression_ Required. A variable that represents a '[Document](Word.Document.md)' object.
-
-
-### Parameters
+_expression_ Required. A variable that represents a **[Document](Word.Document.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _IgnoreUppercase_|Optional| **Variant**| **True** if capitalization is ignored. If this argument is omitted, the current value of the **IgnoreUppercase** property is used.|
 | _AlwaysSuggest_|Optional| **Variant**| **True** for Microsoft Word to always suggest alternative spellings. If this argument is omitted, the current value of the **SuggestSpellingCorrections** property is used.|
@@ -52,3 +51,4 @@ ActiveDocument.CheckSpelling
 
 [Document Object](Word.Document.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

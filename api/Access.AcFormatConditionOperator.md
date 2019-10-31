@@ -1,5 +1,5 @@
 ---
-title: AcFormatConditionOperator Enumeration (Access)
+title: AcFormatConditionOperator enumeration (Access)
 keywords: vbaac10.chm10040
 f1_keywords:
 - vbaac10.chm10040
@@ -8,16 +8,17 @@ api_name:
 - Access.AcFormatConditionOperator
 ms.assetid: 74521f38-826e-6ada-87c3-f66782d084b4
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# AcFormatConditionOperator Enumeration (Access)
+# AcFormatConditionOperator enumeration (Access)
 
-Specifies the operator to apply when using the  **Add** method to create a conditional format.
+Specifies the operator to apply when using the **Add** method to create a conditional format.
 
+<br/>
 
-
-|**Name**|**Value**|**Description**|
+|Name|Value|Description|
 |:-----|:-----|:-----|
 |**acBetween**|0|The value must be between the values specified by the Expression1 and Expression2 arguments. |
 |**acEqual**|2|The value must equal to the value specified by the Expression1 argument.|
@@ -28,3 +29,4 @@ Specifies the operator to apply when using the  **Add** method to create a condi
 |**acNotBetween**|1|The value must not be between the values specified by the Expression1 and Expression2 arguments. |
 |**acNotEqual**|3|The value must not be equal to the value specified by the Expression1 argument.|
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

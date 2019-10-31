@@ -1,5 +1,5 @@
 ---
-title: NavigationModules.GetNavigationModule Method (Outlook)
+title: NavigationModules.GetNavigationModule method (Outlook)
 keywords: vbaol11.chm3240
 f1_keywords:
 - vbaol11.chm3240
@@ -8,30 +8,31 @@ api_name:
 - Outlook.NavigationModules.GetNavigationModule
 ms.assetid: 7c1a1313-94a4-fa68-7e70-66d85496fec0
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# NavigationModules.GetNavigationModule Method (Outlook)
+# NavigationModules.GetNavigationModule method (Outlook)
 
-Retrieves a  **[NavigationModule](Outlook.NavigationModule.md)** object with the specified navigation module type from the Navigation Pane.
+Retrieves a  **[NavigationModule](Outlook.NavigationModule.md)** object with the specified navigation module type from the navigation pane.
 
 
 ## Syntax
 
- _expression_. `GetNavigationModule`( `_ModuleType_` )
+_expression_. `GetNavigationModule`( `_ModuleType_` )
 
- _expression_ An expression that returns a [NavigationModules](./Outlook.NavigationModules.md) object.
-
-
-### Parameters
+ _expression_ An expression that returns a [NavigationModules](Outlook.NavigationModules.md) object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _ModuleType_|Required| **[OlNavigationModuleType](Outlook.OlNavigationModuleType.md)**|The type of navigation module to be retrieved.|
 
-### Return Value
+## Return value
 
 A  **NavigationModule** object that represents the navigation module with the specified navigation module type.
 
@@ -41,3 +42,4 @@ A  **NavigationModule** object that represents the navigation module with the sp
 
 [NavigationModules Object](Outlook.NavigationModules.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

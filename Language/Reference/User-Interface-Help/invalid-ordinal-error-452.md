@@ -6,6 +6,7 @@ f1_keywords:
 ms.prod: office
 ms.assetid: 10f033c8-d76e-710d-4014-ba2d171745a9
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
@@ -15,7 +16,7 @@ Your call to a [dynamic-link library (DLL)](../../Glossary/vbe-glossary.md#dynam
 
 
 
-- An attempt to convert the  _num_ expression to an ordinal failed. Make sure the[expression](../../Glossary/vbe-glossary.md#expression) represents a valid number or call the[procedure](../../Glossary/vbe-glossary.md#procedure) by name.
+- An attempt to convert the  _num_ expression to an ordinal failed. Make sure the [expression](../../Glossary/vbe-glossary.md#expression) represents a valid number or call the [procedure](../../Glossary/vbe-glossary.md#procedure) by name.
     
 - The  _num_ specified doesn't specify any function in the DLL. Make sure _num_ identifies a valid function in the DLL.
     
@@ -26,3 +27,4 @@ Your call to a [dynamic-link library (DLL)](../../Glossary/vbe-glossary.md#dynam
 
 For additional information, select the item in question and press F1 (in Windows) or HELP (on the Macintosh).
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

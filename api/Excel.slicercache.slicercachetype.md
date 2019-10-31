@@ -1,38 +1,35 @@
 ---
-title: SlicerCache.SlicerCacheType Property (Excel)
+title: SlicerCache.SlicerCacheType property (Excel)
 keywords: vbaxl10.chm897093
 f1_keywords:
 - vbaxl10.chm897093
 ms.prod: excel
 ms.assetid: aa26c507-e223-fdd7-1bf6-82b35b206298
-ms.date: 06/08/2017
+ms.date: 05/16/2019
+localization_priority: Normal
 ---
 
 
-# SlicerCache.SlicerCacheType Property (Excel)
+# SlicerCache.SlicerCacheType property (Excel)
 
-Returns the type of the slicer cache - slicer or timeline. Read-only
-
+Returns the type of the slicer cache: slicer (**xlSlicer**) or timeline (**xlTimeline**) . Read-only **[XlSlicerCacheType](excel.xlslicercachetype.md)**.
 
 ## Syntax
 
- _expression_. `SlicerCacheType`
+_expression_.**SlicerCacheType**
 
- _expression_ A variable that represents a[SlicerCache Object (Excel)](Excel.SlicerCache.md) object.
+_expression_ A variable that represents a **[SlicerCache](Excel.SlicerCache.md)** object.
 
 
-## Returns
+## Return value
 
-[XlSlicerCacheType Enumeration (Excel)](Excel.xlslicercachetype.md)
+**XlSlicerCacheType**
 
 
 ## Property value
 
- **XLSLICERCACHETYPE**
+**XLSLICERCACHETYPE**
 
 
-## See also
 
-
-[SlicerCache Object](Excel.SlicerCache.md)
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

@@ -1,5 +1,5 @@
 ---
-title: Window Object (Project)
+title: Window object (Project)
 keywords: vbapj.chm131356
 f1_keywords:
 - vbapj.chm131356
@@ -8,10 +8,11 @@ api_name:
 - Project.Window
 ms.assetid: b5dcb82d-1f5a-1334-0f03-3e23d3b9d940
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Window Object (Project)
+# Window object (Project)
 
 Represents a window in the application or project. The  **Window** object is a member of the **[Windows](Project.windows(object).md)** collection.
  
@@ -20,7 +21,8 @@ Represents a window in the application or project. The  **Window** object is a m
 ## Remarks
 
 
- **Note**  The  **Windows** collection is maintained for backward compatibility. We recommended that you use the **[Windows2](Project.windows2(object).md)** collection for all new development.
+> [!NOTE] 
+> The  **Windows** collection is maintained for backward compatibility. We recommended that you use the **[Windows2](Project.windows2(object).md)** collection for all new development.
  
 
 The  **Application.Windows** collection contains all the windows in the application, whereas the **Project.Windows** collection contains only the windows in the specified project.
@@ -95,7 +97,7 @@ Application.WindowNewWindow
 
 
 
-|**Name**|
+|Name|
 |:-----|
 |[Activate](Project.Window.Activate.md)|
 |[Close](Project.Window.Close.md)|
@@ -107,7 +109,7 @@ Application.WindowNewWindow
 
 
 
-|**Name**|
+|Name|
 |:-----|
 |[ActivePane](Project.Window.ActivePane.md)|
 |[Application](Project.Window.Application.md)|
@@ -123,3 +125,4 @@ Application.WindowNewWindow
 |[Width](Project.Window.Width.md)|
 |[WindowState](Project.Window.WindowState.md)|
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

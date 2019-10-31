@@ -1,5 +1,5 @@
 ---
-title: Shape.CellsSRC Property (Visio)
+title: Shape.CellsSRC property (Visio)
 keywords: vis_sdr.chm11213205
 f1_keywords:
 - vis_sdr.chm11213205
@@ -8,39 +8,40 @@ api_name:
 - Visio.Shape.CellsSRC
 ms.assetid: 8fb6fd7b-e0ca-c694-3b9d-5390d4192565
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Shape.CellsSRC Property (Visio)
+# Shape.CellsSRC property (Visio)
 
 Returns a  **Cell** object that represents a ShapeSheet cell identified by section, row, and column indices. Read-only.
 
 
 ## Syntax
 
- _expression_. `CellsSRC`( `_Section_` , `_Row_` , `_Column_` )
+_expression_. `CellsSRC`( `_Section_` , `_Row_` , `_Column_` )
 
- _expression_ A variable that represents a [Shape](./Visio.Shape.md) object.
-
-
-### Parameters
+_expression_ A variable that represents a **[Shape](Visio.Shape.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _Section_|Required| **Integer**|The cell's section index.|
 | _Row_|Required| **Integer**|The cell's row index.|
 | _Column_|Required| **Integer**|The cell's column index.|
 
-### Return Value
+## Return value
 
 Cell
 
 
 ## Remarks
 
-To access any shape formula by its section, row, and column indices, use the  **CellsSRC** property. Constants for section, row, and column indices are declared by the Visio type library as members of **[VisSectionIndices](Visio.vissectionindices.md)** , **[VisRowIndices](Visio.visrowindices.md)** , and **[VisCellIndices](Visio.viscellindices.md)** , respectively.
+To access any shape formula by its section, row, and column indices, use the  **CellsSRC** property. Constants for section, row, and column indices are declared by the Visio type library as members of **[VisSectionIndices](Visio.vissectionindices.md)**, **[VisRowIndices](Visio.visrowindices.md)**, and **[VisCellIndices](Visio.viscellindices.md)**, respectively.
 
 The  **CellsSRC** property might raise an exception if index values for section, row, and column do not identify an actual cell, depending on the section. However, even if no exception is raised, subsequent methods invoked on the returned object fail. You can determine if a cell with particular index values exists by using the **CellsSRCExists** property.
 
@@ -53,7 +54,7 @@ The  **CellsSRC** property is typically used to iterate through the cells in a s
 Set vsoCell = Cells("PinX")
 ```
 
-If your Visual Studio solution includes the  **Microsoft.Office.Interop.Visio** reference, this property maps to the following types:
+If your Visual Studio solution includes the [Microsoft.Office.Interop.Visio](https://docs.microsoft.com/visualstudio/vsto/office-primary-interop-assemblies?view=vs-2019) reference, this property maps to the following types:
 
 
 -  **Microsoft.Office.Interop.Visio.IVShape.get_CellsSRC**
@@ -160,4 +161,4 @@ Public Sub CellsSRC_Example()
 End Sub
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

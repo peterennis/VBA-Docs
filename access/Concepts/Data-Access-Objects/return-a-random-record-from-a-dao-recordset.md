@@ -1,12 +1,13 @@
 ---
-title: Return a Random Record from a DAO Recordset
+title: Return a random record from a DAO Recordset
 ms.prod: access
 ms.assetid: 16d8998f-0aca-a5e6-dec4-2be93c41a595
-ms.date: 06/08/2017
+ms.date: 09/21/2018
+localization_priority: Normal
 ---
 
 
-# Return a Random Record from a DAO Recordset
+# Return a random record from a DAO Recordset
 
 Access does not have a built-in mechanism for returning a random record from a set of records. This topic describes a sample user-defined function that you can use to return a random record. 
 
@@ -47,4 +48,4 @@ NoRecords:
 End Function 
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

@@ -1,5 +1,5 @@
 ---
-title: IVBUndoUnit.Do Method (Visio)
+title: IVBUndoUnit.Do method (Visio)
 keywords: vis_sdr.chm17360155
 f1_keywords:
 - vis_sdr.chm17360155
@@ -8,30 +8,31 @@ api_name:
 - Visio.IVBUndoUnit.Do
 ms.assetid: 3d33e1fe-328a-0337-412a-861b3e19d8b2
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# IVBUndoUnit.Do Method (Visio)
+# IVBUndoUnit.Do method (Visio)
 
 Called by the Undo Manager to tell an undo unit to perform its action.
 
 
 ## Syntax
 
- _expression_. `Do`( `_pMgr_` )
+_expression_. `Do`( `_pMgr_` )
 
- _expression_ A variable that represents an 'IVBUndoUnit' object.
-
-
-### Parameters
+_expression_ A variable that represents an **[IVBUndoUnit](visio.ivbundounit.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _pMgr_|Required| **[IVBUNDOMANAGER]**|A pointer to an  **IVBUndoManager** interface.|
 
-### Return Value
+## Return value
 
 Nothing
 
@@ -46,4 +47,4 @@ If the  **Do** method is passed a **Nothing** pointer, the unit should carry out
 
 For more information about the  **Do** method and using the **IVBUndoUnit** interface to create undo units, search for "creating undo units" on MSDN.
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

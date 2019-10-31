@@ -1,30 +1,31 @@
 ---
-title: AppointmentItem.PropertyChange Event (Outlook)
+title: AppointmentItem.PropertyChange event (Outlook)
 ms.prod: outlook
 api_name:
 - Outlook.AppointmentItem.PropertyChange
 ms.assetid: 82bb6104-ce62-8fb6-1472-d84fd36e94ac
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# AppointmentItem.PropertyChange Event (Outlook)
+# AppointmentItem.PropertyChange event (Outlook)
 
 Occurs when an explicit built-in property (for example,  **[Subject](Outlook.AppointmentItem.Subject.md)**) of an instance of the parent object is changed.
 
 
 ## Syntax
 
- _expression_. `PropertyChange`( `_Name_` )
+_expression_. `PropertyChange`( `_Name_` )
 
- _expression_ A variable that represents an [AppointmentItem](./Outlook.AppointmentItem.md) object.
-
-
-### Parameters
+_expression_ A variable that represents an [AppointmentItem](Outlook.AppointmentItem.md) object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _Name_|Required| **String**|The name of the property that was changed.|
 
@@ -74,3 +75,4 @@ End Sub
 
 [AppointmentItem Object](Outlook.AppointmentItem.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

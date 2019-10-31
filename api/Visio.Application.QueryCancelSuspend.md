@@ -1,30 +1,31 @@
 ---
-title: Application.QueryCancelSuspend Event (Visio)
+title: Application.QueryCancelSuspend event (Visio)
 ms.prod: visio
 api_name:
 - Visio.Application.QueryCancelSuspend
 ms.assetid: 1beb9459-f331-d20b-59f0-da505a375a4f
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Application.QueryCancelSuspend Event (Visio)
+# Application.QueryCancelSuspend event (Visio)
 
-Occurs before the operating system enters a suspended state. If any event handler returns  **True** , the Microsoft Visio instance will deny the operating system's request.
+Occurs before the operating system enters a suspended state. If any event handler returns **True**, the Microsoft Visio instance will deny the operating system's request.
 
 
 ## Syntax
 
-Private Sub  _expression_ _'QueryCancelSuspend'(**_ByVal app As [IVAPPLICATION]_**)
+_expression_.**QueryCancelSuspend** (_app_)
 
- _expression_ A variable that represents an [Application](./Visio.Application.md) object.
-
-
-### Parameters
+_expression_ A variable that represents an **[Application](Visio.Application.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _app_|Required| **[IVAPPLICATION]**|The instance of Visio that responds to the operating system request.|
 
@@ -35,9 +36,9 @@ Private Sub  _expression_ _'QueryCancelSuspend'(**_ByVal app As [IVAPPLICATION]_
 
 
 
-- If any event handler returns  **True** (cancel), the instance fires **SuspendCanceled** and does not enter a suspended state.
+- If any event handler returns **True** (cancel), the instance fires **SuspendCanceled** and does not enter a suspended state.
     
-- If all handlers return  **False** (don't cancel), the instance fires **BeforeSuspend** and then enters a suspended state.
+- If all handlers return **False** (don't cancel), the instance fires **BeforeSuspend** and then enters a suspended state.
     
 
 
@@ -47,12 +48,18 @@ While a Visio instance is firing a query or cancel event, it responds to inquiri
 
 If you are using Microsoft Visual Basic or Visual Basic for Applications (VBA), the syntax in this topic describes a common, efficient way to handle events.
 
-If you want to create your own  **Event** objects, use the **Add** or **AddAdvise** method. To create an **Event** object that runs an add-on, use the **Add** method as it applies to the **EventList** collection. To create an **Event** object that receives notification, use the **AddAdvise** method. To find an event code for the event you want to create, see[Event codes](../visio/Concepts/event-codesvisio.md).
+If you want to create your own **Event** objects, use the **[Add](visio.eventlist.add.md)** or **[AddAdvise](visio.eventlist.addadvise.md)** method. 
+
+To create an **Event** object that runs an add-on, use the **Add** method as it applies to the **EventList** collection. 
+
+To create an **Event** object that receives notification, use the **AddAdvise** method. 
+
+To find an event code for the event that you want to create, see [Event codes](../visio/Concepts/event-codesvisio.md).
 
 
 ## Example
 
-This VBA macro shows how to capture the  **QueryCancelSuspend** event and allow the operating system to suspend. Declare a **WithEvents** variable to capture events fired by the **Application** object.
+This VBA macro shows how to capture the **QueryCancelSuspend** event and allow the operating system to suspend. Declare a **WithEvents** variable to capture events fired by the **Application** object.
 
 
 ```vb
@@ -68,4 +75,4 @@ Private Function vsoApplication_QueryCancelSuspend(ByVal _
 End Function
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

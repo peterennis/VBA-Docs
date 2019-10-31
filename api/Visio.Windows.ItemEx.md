@@ -1,5 +1,5 @@
 ---
-title: Windows.ItemEx Property (Visio)
+title: Windows.ItemEx property (Visio)
 keywords: vis_sdr.chm11751730
 f1_keywords:
 - vis_sdr.chm11751730
@@ -8,30 +8,31 @@ api_name:
 - Visio.Windows.ItemEx
 ms.assetid: 24adeef0-20ca-4e00-ff39-c49ec5e72f87
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Windows.ItemEx Property (Visio)
+# Windows.ItemEx property (Visio)
 
 Returns a  **Window** object from a collection. Read-only.
 
 
 ## Syntax
 
- _expression_. `ItemEx`( `_CaptionOrIndex_` )
+_expression_. `ItemEx`( `_CaptionOrIndex_` )
 
- _expression_ A variable that represents a [Windows](./Visio.Windows.md) object.
-
-
-### Parameters
+_expression_ A variable that represents a **[Windows](Visio.Windows.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _CaptionOrIndex_|Required| **Variant**|Contains the caption or index of the window to retrieve. See Remarks for details.|
 
-### Return Value
+## Return value
 
 Window
 
@@ -67,4 +68,4 @@ Sub ItemEx_Example()
 End Sub
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

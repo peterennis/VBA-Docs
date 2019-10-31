@@ -3,6 +3,7 @@ title: Use Information Rights Management for Visio
 ms.prod: visio
 ms.assetid: 3912bf98-3669-4de1-958a-f2fa7ec5cdad
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
@@ -31,14 +32,14 @@ To use IRM for Visio, you must install the following:
 
 - Visio
     
--  [Windows Rights Management Client](https://www.microsoft.com/en-us/download/details.aspx?id=4909)
+-  [Windows Rights Management Client](https://www.microsoft.com/download/details.aspx?id=4909)
     
 
 ## Protecting a Visio document
 
-To protect the active document, use the  [Permission.Add](https://msdn.microsoft.com/en-us/library/office/ff863139%28v=office.15%29.aspx) method. To check whether a document is protected, use the **Enabled** property of the **Permission** object.
+To protect the active document, use the  [Permission.Add](https://msdn.microsoft.com/library/office/ff863139%28v=office.15%29.aspx) method. To check whether a document is protected, use the **Enabled** property of the **Permission** object.
 
-To remove protection from the active document, use the  [Permission.RemoveAll](https://msdn.microsoft.com/en-us/library/office/ff861135%28v=office.15%29.aspx) method, or use the [UserPermission.Remove](https://msdn.microsoft.com/en-us/library/office/ff864865%28v=office.15%29.aspx) method for each user that has access.
+To remove protection from the active document, use the  [Permission.RemoveAll](https://msdn.microsoft.com/library/office/ff861135%28v=office.15%29.aspx) method, or use the [UserPermission.Remove](https://msdn.microsoft.com/library/office/ff864865%28v=office.15%29.aspx) method for each user that has access.
 
 
 ## Managing user access to an IRM-protected document
@@ -61,11 +62,11 @@ To give permissions on the active document to a specified user, use the  **Permi
 | **msoPermissionObjModel**|A user can access the document programmatically. All users need this permission to work with a protected document or to check their permissions on the document.|
 | **msoPermissionFullControl**|Full control over the document. All permissions are enabled.|
 
-To check permissions for a user, use the  [UserPermission.Permission](https://msdn.microsoft.com/en-us/library/office/ff862094%28v=office.15%29.aspx) property.
+To check permissions for a user, use the  [UserPermission.Permission](https://msdn.microsoft.com/library/office/ff862094%28v=office.15%29.aspx) property.
 
-To apply permissions by using an administrative policy, use the  [Permission.ApplyPolicy](https://msdn.microsoft.com/en-us/library/office/ff864678%28v=office.15%29.aspx) method. Use the **PermissionFromPolicy**,  **PolicyName**, and  **PolicyDescription** properties to return policy information.
+To apply permissions by using an administrative policy, use the  [Permission.ApplyPolicy](https://msdn.microsoft.com/library/office/ff864678%28v=office.15%29.aspx) method. Use the **PermissionFromPolicy**,  **PolicyName**, and  **PolicyDescription** properties to return policy information.
 
-To remove permissions for a specified user, use the  [UserPermission.Remove](https://msdn.microsoft.com/en-us/library/office/ff864865%28v=office.15%29.aspx) method. To remove all restrictions on the active document, use the [Permission.RemoveAll](https://msdn.microsoft.com/en-us/library/office/ff861135%28v=office.15%29.aspx) method.
+To remove permissions for a specified user, use the  [UserPermission.Remove](https://msdn.microsoft.com/library/office/ff864865%28v=office.15%29.aspx) method. To remove all restrictions on the active document, use the [Permission.RemoveAll](https://msdn.microsoft.com/library/office/ff861135%28v=office.15%29.aspx) method.
 
 
 ## Accessing an IRM-protected document
@@ -209,4 +210,4 @@ Dim irmPermission As Office.Permission
  Set irmPermission = Nothing
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

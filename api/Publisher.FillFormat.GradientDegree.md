@@ -1,5 +1,5 @@
 ---
-title: FillFormat.GradientDegree Property (Publisher)
+title: FillFormat.GradientDegree property (Publisher)
 keywords: vbapb10.chm2359555
 f1_keywords:
 - vbapb10.chm2359555
@@ -7,36 +7,36 @@ ms.prod: publisher
 api_name:
 - Publisher.FillFormat.GradientDegree
 ms.assetid: b2eba471-5f03-4904-f876-edea4d40a908
-ms.date: 06/08/2017
+ms.date: 06/07/2019
+localization_priority: Normal
 ---
 
 
-# FillFormat.GradientDegree Property (Publisher)
+# FillFormat.GradientDegree property (Publisher)
 
-Returns a  **Single** indicating how dark or light a one-color gradient fill is. A value of 0 (zero) means that black is mixed in with the shape's foreground color to form the gradient; a value of 1 means that white is mixed in; and values between 0 and 1 mean that a darker or lighter shade of the foreground color is mixed in. Read-only.
+Returns a **Single** indicating how dark or light a one-color gradient fill is. A value of 0 (zero) means that black is mixed in with the shape's foreground color to form the gradient; a value of 1 means that white is mixed in; and values between 0 and 1 mean that a darker or lighter shade of the foreground color is mixed in. Read-only.
 
 
 ## Syntax
 
- _expression_. **GradientDegree**
+_expression_.**GradientDegree**
 
- _expression_ A variable that represents a  **FillFormat** object.
+_expression_ A variable that represents a **[FillFormat](publisher.fillformat.md)** object.
 
 
-### Return Value
+## Return value
 
 Single
 
 
 ## Remarks
 
-Use the  **[OneColorGradient](Publisher.FillFormat.OneColorGradient.md)** method to set the gradient degree for the fill.
+Use the **[OneColorGradient](Publisher.FillFormat.OneColorGradient.md)** method to set the gradient degree for the fill.
 
 
 ## Example
 
 This example adds a rectangle to the active publication and sets the degree of its fill gradient to match that of the shape named Rectangle 2. If Rectangle 2 doesn't have a one-color gradient fill, this example generates an error.
-
 
 ```vb
 Dim sngDegree As Single 
@@ -55,4 +55,4 @@ End With
 
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

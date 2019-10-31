@@ -1,20 +1,21 @@
 ---
-title: PjBarEndShape Enumeration (Project)
+title: PjBarEndShape enumeration (Project)
 ms.prod: project-server
 api_name:
 - Project.PjBarEndShape
 ms.assetid: 0598711b-46ad-1940-103b-12345f32efd8
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# PjBarEndShape Enumeration (Project)
+# PjBarEndShape enumeration (Project)
 
 Contains constants that specify the shape of a task bar on a Gantt chart.
 
 
 
-|**Name**|**Value**|**Description**|
+|Name|Value|Description|
 |:-----|:-----|:-----|
 |**pjArrowDown**|14|Arrow pointing down.|
 |**pjArrowUp**|8|Arrow pointing up.|
@@ -42,3 +43,4 @@ Contains constants that specify the shape of a task bar on a Gantt chart.
 |**pjTriangleRight**|6|Triangle pointing right.|
 |**pjTriangleUp**|4|Circled triangle pointing up.|
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

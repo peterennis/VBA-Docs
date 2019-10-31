@@ -1,5 +1,5 @@
 ---
-title: Document.Merge Method (Word)
+title: Document.Merge method (Word)
 keywords: vbawd10.chm158007658
 f1_keywords:
 - vbawd10.chm158007658
@@ -8,26 +8,25 @@ api_name:
 - Word.Document.Merge
 ms.assetid: e7ab537d-dfd3-177b-722a-6fe693c158d8
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Document.Merge Method (Word)
+# Document.Merge method (Word)
 
 Merges the changes marked with revision marks from one document to another.
 
 
 ## Syntax
 
- _expression_. `Merge`( `_Name_` , `_MergeTarget_` , `_DetectFormatChanges_` , `_UseFormattingFrom_` , `_AddToRecentFiles_` )
+_expression_.**Merge** (_Name_, _MergeTarget_, _DetectFormatChanges_, _UseFormattingFrom_, _AddToRecentFiles_)
 
- _expression_ Required. A variable that represents a '[Document](Word.Document.md)' object.
-
-
-### Parameters
+_expression_ Required. A variable that represents a **[Document](Word.Document.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _Name_|Required| **String**|The path and file name of the document with which to merge.|
 | _MergeTarget_|Optional| **WdMergeTarget**|Specifies where to place the final merged content.|
@@ -51,3 +50,4 @@ If InStr(1, ActiveDocument.Name, "sales2.doc", 1) Then _
 
 [Document Object](Word.Document.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

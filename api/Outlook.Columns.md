@@ -1,5 +1,5 @@
 ---
-title: Columns Object (Outlook)
+title: Columns object (Outlook)
 keywords: vbaol11.chm3190
 f1_keywords:
 - vbaol11.chm3190
@@ -8,10 +8,11 @@ api_name:
 - Outlook.Columns
 ms.assetid: 628bf0cf-4ee8-5e5c-09d7-89d7adf256ca
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Columns Object (Outlook)
+# Columns object (Outlook)
 
 Represents the collection of  **[Column](Outlook.Column.md)** objects in a **[Table](Outlook.Table.md)** object.
 
@@ -71,7 +72,7 @@ Sub RemoveAllAndAddColumns()
  
  'PR_ATTR_HIDDEN referenced by the MAPI proptag namespace 
  
- .Add ("https://schemas.microsoft.com/mapi/proptag/0x10F4000B") 
+ .Add ("http://schemas.microsoft.com/mapi/proptag/0x10F4000B") 
  
  End With 
  
@@ -87,7 +88,7 @@ Sub RemoveAllAndAddColumns()
  
  Debug.Print (oRow("LastModificationTime")) 
  
- Debug.Print (oRow("https://schemas.microsoft.com/mapi/proptag/0x10F4000B")) 
+ Debug.Print (oRow("http://schemas.microsoft.com/mapi/proptag/0x10F4000B")) 
  
  Loop 
  
@@ -99,7 +100,7 @@ End Sub
 
 
 
-|**Name**|
+|Name|
 |:-----|
 |[Add](Outlook.Columns.Add.md)|
 |[Item](Outlook.Columns.Item.md)|
@@ -110,7 +111,7 @@ End Sub
 
 
 
-|**Name**|
+|Name|
 |:-----|
 |[Application](Outlook.Columns.Application.md)|
 |[Class](Outlook.Columns.Class.md)|
@@ -121,4 +122,6 @@ End Sub
 ## See also
 
 
-[Outlook Object Model Reference](./overview/Outlook/object-model.md)
+[Outlook Object Model Reference](overview/Outlook/object-model.md)
+
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

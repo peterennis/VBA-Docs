@@ -1,5 +1,5 @@
 ---
-title: Application.CreateItemFromTemplate Method (Outlook)
+title: Application.CreateItemFromTemplate method (Outlook)
 keywords: vbaol11.chm715
 f1_keywords:
 - vbaol11.chm715
@@ -8,31 +8,32 @@ api_name:
 - Outlook.Application.CreateItemFromTemplate
 ms.assetid: 5e6c0ec4-779d-3743-afdb-606ad512ba95
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Application.CreateItemFromTemplate Method (Outlook)
+# Application.CreateItemFromTemplate method (Outlook)
 
 Creates a new Microsoft Outlook item from an Outlook template (.oft) and returns the new item.
 
 
 ## Syntax
 
- _expression_. `CreateItemFromTemplate`( `_TemplatePath_` , `_InFolder_` )
+_expression_. `CreateItemFromTemplate`( `_TemplatePath_` , `_InFolder_` )
 
- _expression_ A variable that represents an [Application](./Outlook.Application.md) object.
-
-
-### Parameters
+_expression_ A variable that represents an **[Application](Outlook.Application.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _TemplatePath_|Required| **String**|The path and file name of the Outlook template for the new item.|
 | _InFolder_|Optional| **Variant**|The folder in which the item is to be created. If this argument is omitted, the default folder for the item type will be used.|
 
-### Return Value
+## Return value
 
 An  **Object** value that represents the new Outlook item.
 
@@ -87,3 +88,4 @@ End Sub
 
 [Application Object](Outlook.Application.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

@@ -1,20 +1,21 @@
 ---
-title: XlLinkStatus Enumeration (Excel)
+title: XlLinkStatus enumeration (Excel)
 ms.prod: excel
 api_name:
 - Excel.XlLinkStatus
 ms.assetid: 3bcf7b71-bd31-4073-2e4c-aa8643e5be2b
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# XlLinkStatus Enumeration (Excel)
+# XlLinkStatus enumeration (Excel)
 
 Specifies the status of a link.
 
 
 
-|**Name**|**Value**|**Description**|
+|Name|Value|Description|
 |:-----|:-----|:-----|
 | **xlLinkStatusCopiedValues**|10|Copied values.|
 | **xlLinkStatusIndeterminate**|5|Unable to determine status.|
@@ -28,3 +29,4 @@ Specifies the status of a link.
 | **xlLinkStatusSourceNotOpen**|8|Not open.|
 | **xlLinkStatusSourceOpen**|9|Source document is open.|
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

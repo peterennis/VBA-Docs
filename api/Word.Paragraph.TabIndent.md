@@ -1,5 +1,5 @@
 ---
-title: Paragraph.TabIndent Method (Word)
+title: Paragraph.TabIndent method (Word)
 keywords: vbawd10.chm156696882
 f1_keywords:
 - vbawd10.chm156696882
@@ -8,26 +8,27 @@ api_name:
 - Word.Paragraph.TabIndent
 ms.assetid: 71878527-31e3-8d0b-7d12-3ced2cc6b5ab
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Paragraph.TabIndent Method (Word)
+# Paragraph.TabIndent method (Word)
 
 Sets the left indent for the specified paragraphs to a specified number of tab stops. .
 
 
 ## Syntax
 
- _expression_. `TabIndent`( `_Count_` )
+_expression_. `TabIndent`( `_Count_` )
 
- _expression_ Required. A variable that represents a '[Paragraph](Word.Paragraph.md)' object.
-
-
-### Parameters
+_expression_ Required. A variable that represents a '[Paragraph](Word.Paragraph.md)' object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _Count_|Required| **Integer**|The number of tab stops to indent (if positive) or the number of tab stops to remove from the indent (if negative).|
 
@@ -60,3 +61,4 @@ ActiveDocument.Paragraphs(1).TabIndent(-1)
 
 [Paragraph Object](Word.Paragraph.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

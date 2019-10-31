@@ -1,5 +1,5 @@
 ---
-title: OlNavigationModuleType Enumeration (Outlook)
+title: OlNavigationModuleType enumeration (Outlook)
 keywords: vbaol11.chm3145
 f1_keywords:
 - vbaol11.chm3145
@@ -8,16 +8,17 @@ api_name:
 - Outlook.OlNavigationModuleType
 ms.assetid: 2140a094-6bee-aba1-03cd-71fa2c55842e
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# OlNavigationModuleType Enumeration (Outlook)
+# OlNavigationModuleType enumeration (Outlook)
 
 Identifies the navigation module type of a  **[NavigationModule](Outlook.NavigationModule.md)** object.
 
 
 
-|**Name**|**Value**|**Description**|
+|Name|Value|Description|
 |:-----|:-----|:-----|
 | **olModuleCalendar**|1|A  **[CalendarModule](Outlook.CalendarModule.md)** object that represents the **Calendar** navigation module.|
 | **olModuleContacts**|2|A  **[ContactsModule](Outlook.ContactsModule.md)** object that represents the **Contacts** navigation module.|
@@ -31,7 +32,7 @@ Identifies the navigation module type of a  **[NavigationModule](Outlook.Navigat
 
 ## Remarks
 
-This enumeration is used by the [NavigationModule.NavigationModuleType Property (Outlook)](Outlook.NavigationModule.NavigationModuleType.md) for the following objects to identify the type of navigation module:
+This enumeration is used by the [NavigationModule.NavigationModuleType property (Outlook)](Outlook.NavigationModule.NavigationModuleType.md) for the following objects to identify the type of navigation module:
 
 
 1.  **CalendarModule**
@@ -50,6 +51,6 @@ This enumeration is used by the [NavigationModule.NavigationModuleType Property 
     
 8.  **TasksModule**
     
-The enumeration is also used by the [NavigationModules.GetNavigationModule Method (Outlook)](Outlook.NavigationModules.GetNavigationModule.md) to identify the navigation module type of the **NavigationModule** to retrieve.
+The enumeration is also used by the [NavigationModules.GetNavigationModule method (Outlook)](Outlook.NavigationModules.GetNavigationModule.md) to identify the navigation module type of the **NavigationModule** to retrieve.
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

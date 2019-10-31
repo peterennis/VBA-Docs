@@ -1,12 +1,13 @@
 ---
-title: Bookmarks Object (Word)
+title: Bookmarks object (Word)
 ms.prod: word
 ms.assetid: 827bed64-3034-0eb4-401d-f117cdb98898
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Bookmarks Object (Word)
+# Bookmarks object (Word)
 
 A collection of  **[Bookmark](Word.Bookmark.md)** objects that represent the bookmarks in the specified selection, range, or document.
 
@@ -31,7 +32,7 @@ Use the  **[Add](Word.Bookmarks.Add.md)** method to set a bookmark for a range i
 ActiveDocument.Bookmarks.Add Name:="temp", Range:=Selection.Range
 ```
 
-Use  **Bookmarks** (index), where index is the bookmark name or index number, to return a single **Bookmark** object. You must exactly match the spelling (but not necessarily the capitalization) of the bookmark name. The following example selects the bookmark named "temp" in the active document.
+Use  **Bookmarks** (_index_), where _index_ is the bookmark name or index number, to return a single **Bookmark** object. You must exactly match the spelling (but not necessarily the capitalization) of the bookmark name. The following example selects the bookmark named "temp" in the active document.
 
 
 
@@ -51,12 +52,25 @@ MsgBox ActiveDocument.Bookmarks(2).Name
 
 Remarks
 
-The  **[ShowHidden](Word.Bookmarks.ShowHidden.md)** property effects the number of elements in the **Bookmarks** collection. If **ShowHidden** is **True** , hidden bookmarks are included in the **Bookmarks** collection.
+The  **[ShowHidden](Word.Bookmarks.ShowHidden.md)** property effects the number of elements in the **Bookmarks** collection. If **ShowHidden** is **True**, hidden bookmarks are included in the **Bookmarks** collection.
 
+## Methods
+
+- [Add](Word.Bookmarks.Add.md)
+- [Exists](Word.Bookmarks.Exists.md)
+- [Item](Word.Bookmarks.Item.md)
+
+## Properties
+
+- [Application](Word.Bookmarks.Application.md)
+- [Count](Word.Bookmarks.Count.md)
+- [Creator](Word.Bookmarks.Creator.md)
+- [DefaultSorting](Word.Bookmarks.DefaultSorting.md)
+- [Parent](Word.Bookmarks.Parent.md)
+- [ShowHidden](Word.Bookmarks.ShowHidden.md)
 
 ## See also
 
+- [Word Object Model Reference](overview/Word/object-model.md)
 
-
-[Word Object Model Reference](./overview/Word/object-model.md)
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

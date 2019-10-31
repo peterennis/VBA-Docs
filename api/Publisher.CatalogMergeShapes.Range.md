@@ -1,5 +1,5 @@
 ---
-title: CatalogMergeShapes.Range Method (Publisher)
+title: CatalogMergeShapes.Range method (Publisher)
 keywords: vbapb10.chm8388612
 f1_keywords:
 - vbapb10.chm8388612
@@ -7,36 +7,37 @@ ms.prod: publisher
 api_name:
 - Publisher.CatalogMergeShapes.Range
 ms.assetid: e92dcac4-4694-8a22-61da-09fcd98c72ce
-ms.date: 06/08/2017
+ms.date: 06/06/2019
+localization_priority: Normal
 ---
 
 
-# CatalogMergeShapes.Range Method (Publisher)
+# CatalogMergeShapes.Range method (Publisher)
 
 Returns a **[ShapeRange](Publisher.ShapeRange.md)** object that represents a subset of the shapes in a **Shapes** collection.
 
 
 ## Syntax
 
-_expression_. **Range**(**_Index_**)
+_expression_.**Range** (_Index_)
 
-_expression_ A variable that represents a **CatalogMergeShapes** object.
+_expression_ A variable that represents a **[CatalogMergeShapes](Publisher.CatalogMergeShapes.md)** object.
 
 
-### Parameters
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-|Index|Required| **Variant**|The individual shapes that are to be included in the range. Can be an integer that specifies the index number of the shape, a string that specifies the name of the shape, or an array that contains either integers or strings. If Index is omitted, the **Range** method returns all the objects in the specified collection.|
+|_Index_|Required| **Variant**|The individual shapes that are to be included in the range. Can be an integer that specifies the index number of the shape, a string that specifies the name of the shape, or an array that contains either integers or strings. If _Index_ is omitted, the **Range** method returns all the objects in the specified collection.|
 
-### Return value
+## Return value
 
 ShapeRange
 
 
 ## Example
 
-To specify an array of integers or strings for **_Index_**, you can use the **Array** function. For example, the following instruction returns two shapes specified by name.
+To specify an array of integers or strings for _Index_, you can use the **Array** function. For example, the following instruction returns two shapes specified by name.
 
 ```vb
 Dim arrShapes As Variant 
@@ -58,7 +59,7 @@ ActiveDocument.Pages(1).Shapes.Range(Array(1, 3)).Fill _
 
 <br/>
 
-This example sets the fill pattern for the shapes named "Oval 4" and "Rectangle 5" on the first page.
+This example sets the fill pattern for the shapes named Oval 4 and Rectangle 5 on the first page.
 
 ```vb
 Dim arrShapes As Variant 
@@ -131,4 +132,4 @@ With ActiveDocument.Pages(1).Shapes
 End With
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

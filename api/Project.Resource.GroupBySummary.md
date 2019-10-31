@@ -1,23 +1,24 @@
 ---
-title: Resource.GroupBySummary Property (Project)
+title: Resource.GroupBySummary property (Project)
 ms.prod: project-server
 api_name:
 - Project.Resource.GroupBySummary
 ms.assetid: 75bf2466-fa8f-8930-4b75-36198d9a6f4c
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Resource.GroupBySummary Property (Project)
+# Resource.GroupBySummary property (Project)
 
- **True** if the selected item in a resource view is in a group summary row; otherwise, **false**. Read-only **Boolean**.
+ **True** if the selected item in a resource view is in a group summary row; otherwise, **False**. Read-only **Boolean**.
 
 
 ## Syntax
 
- _expression_. `GroupBySummary`
+_expression_. `GroupBySummary`
 
- _expression_ A variable that represents a [Resource](./Project.Resource.md) object.
+_expression_ A variable that represents a [Resource](./Project.Resource.md) object.
 
 
 ## Remarks
@@ -75,4 +76,4 @@ Sub ShowGroupByItems()
 End Sub
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

@@ -1,5 +1,5 @@
 ---
-title: OlkDateControl.Exit Event (Outlook)
+title: OlkDateControl.Exit event (Outlook)
 keywords: vbaol11.chm1000368
 f1_keywords:
 - vbaol11.chm1000368
@@ -8,24 +8,25 @@ api_name:
 - Outlook.OlkDateControl.Exit
 ms.assetid: 6a8ec569-4e08-0400-95ad-934cbe2c20e4
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# OlkDateControl.Exit Event (Outlook)
+# OlkDateControl.Exit event (Outlook)
 
 Occurs just after the focus passes from this control to another control on the same form.
 
 
 ## Syntax
 
-_expression_. **Exit** (**_Cancel_**)
+_expression_.**Exit** (**_Cancel_**)
 
 _expression_ A variable that represents an **OlkDateControl** object.
 
 
-### Parameters
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 |_Cancel_|Required|**Boolean**|**False** when the event occurs. If the event procedure sets this argument to **True**, the exit operation is not completed and the focus remains in this control.|
 
@@ -35,3 +36,4 @@ _expression_ A variable that represents an **OlkDateControl** object.
 
 - [OlkDateControl Object](Outlook.OlkDateControl.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

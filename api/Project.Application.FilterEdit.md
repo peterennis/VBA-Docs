@@ -1,5 +1,5 @@
 ---
-title: Application.FilterEdit Method (Project)
+title: Application.FilterEdit method (Project)
 keywords: vbapj.chm503
 f1_keywords:
 - vbapj.chm503
@@ -8,23 +8,24 @@ api_name:
 - Project.Application.FilterEdit
 ms.assetid: e576d3e2-5ac9-006a-2151-dc918b71eef8
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Application.FilterEdit Method (Project)
+# Application.FilterEdit method (Project)
 
 Creates, edits, or copies a filter.
 
 ## Syntax
 
-_expression_. **FilterEdit** (**_Name_**, **_TaskFilter_**, **_Create_**, **_OverwriteExisting_**, **_Parenthesis_**, **_NewName_**, **_FieldName_**, **_NewFieldName_**, **_Test_**, **_Value_**, **_Operation_**, **_ShowInMenu_**, **_ShowSummaryTasks_**)
+_expression_.**FilterEdit** (_Name_, _TaskFilter_, _Create_, _OverwriteExisting_, _Parenthesis_, _NewName_, _FieldName_, _NewFieldName_, _Test_, _Value_, _Operation_, _ShowInMenu_, _ShowSummaryTasks_)
 
-_expression_ A variable that represents an **Application** object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
-### Parameters
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _Name_|Required|**String**|The name of a filter to edit, create, or copy.|
 | _TaskFilter_|Required|**Boolean**|**True** if the filter specified with Name contains task information. **False** if the filter contains resource information.|
@@ -42,9 +43,9 @@ _expression_ A variable that represents an **Application** object.
 
 <br/>
 
-#### Comparison strings
+### Comparison strings
 
-|**Comparison string**|**Description**|
+|Comparison string|Description|
 |:-----|:-----|
 |"equals"|The value of _FieldName_ equals _Value_.|
 |"does not equal"|The value of _FieldName_ does not equal _Value_.|
@@ -59,7 +60,7 @@ _expression_ A variable that represents an **Application** object.
 |"contains exactly"|_FieldName_ exactly contains _Value_.|
 
 
-### Return value
+## Return value
 
 **Boolean**
 
@@ -90,4 +91,4 @@ Sub CreateAndApplyHighestPriorityFilter()
 End Sub    
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

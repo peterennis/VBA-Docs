@@ -1,5 +1,5 @@
 ---
-title: Application.OptionsInterfaceEx Method (Project)
+title: Application.OptionsInterfaceEx method (Project)
 keywords: vbapj.chm651
 f1_keywords:
 - vbapj.chm651
@@ -8,26 +8,27 @@ api_name:
 - Project.Application.OptionsInterfaceEx
 ms.assetid: da4dc69c-021f-7ecb-22f6-aebf1d9252dd
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Application.OptionsInterfaceEx Method (Project)
+# Application.OptionsInterfaceEx method (Project)
 
 Sets some display options and Project Guide options.
 
 
 ## Syntax
 
- _expression_. `OptionsInterfaceEx`( ` _ShowResourceAssignmentIndicators_`, ` _ShowEditToStartFinishDates_`, ` _ShowEditsToWorkUnitsDurationIndicators_`, ` _ShowDeletionInNameColumn_`, ` _DisplayProjectGuide_`, ` _ProjectGuideUseDefaultFunctionalLayoutPage_`, ` _ProjectGuideFunctionalLayoutPage_`, ` _ProjectGuideUseDefaultContent_`, ` _ProjectGuideContent_`, ` _SetAsDefaults_`, ` _UseOMIDs_` )
+_expression_. `OptionsInterfaceEx`( `_ShowResourceAssignmentIndicators_`, `_ShowEditToStartFinishDates_`, `_ShowEditsToWorkUnitsDurationIndicators_`, `_ShowDeletionInNameColumn_`, `_DisplayProjectGuide_`, `_ProjectGuideUseDefaultFunctionalLayoutPage_`, `_ProjectGuideFunctionalLayoutPage_`, `_ProjectGuideUseDefaultContent_`, `_ProjectGuideContent_`, `_SetAsDefaults_`, `_UseOMIDs_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
-
-
-### Parameters
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _ShowResourceAssignmentIndicators_|Optional|**Boolean**|**True** if Project displays indicators and options buttons for resource assignments. The default value is **False**.|
 | _ShowEditToStartFinishDates_|Optional|**Boolean**|**True** if Project displays actions on the undo stack for edits to start and finish dates. The default value is **False**.|
@@ -41,7 +42,7 @@ Sets some display options and Project Guide options.
 | _SetAsDefaults_|Optional|**Boolean**|**True** if the Project Guide settings for the active project should be used as the default for all new projects. The default value is **False**.|
 | _UseOMIDs_|Optional|**Variant**|**True** if Project uses internal IDs to match different-language or renamed Organizer items between projects. The default is **True**. See also the **[UseOMIDs](Project.Application.UseOMIDs.md)** property.|
 
-### Return Value
+## Return value
 
  **Boolean**
 
@@ -51,8 +52,9 @@ Sets some display options and Project Guide options.
 If an argument is omitted, the default value is specified by the setting on the  **Display** tab of the **Project Options** dialog box. The _UseOMIDs_ default value is the **Use internal IDs** option on the **Advanced** tab.
 
 
- **Note**  The  **Project Options** dialog box does not include settings for the Project Guide, which is deprecated in Project. Project Guide options can only be set programmatically, for using custom project guides. Instead of creating new project guide content, developers should create task pane apps.
+> [!NOTE] 
+> The  **Project Options** dialog box does not include settings for the Project Guide, which is deprecated in Project. Project Guide options can only be set programmatically, for using custom project guides. Instead of creating new project guide content, developers should create task pane apps.
 
 Using the  **OptionsInterfaceEx** method with no arguments displays the **Project Options** dialog box with the **General** tab selected. The **OptionsInterfaceEx** method is not available when a report view is active.
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

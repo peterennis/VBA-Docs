@@ -6,6 +6,7 @@ f1_keywords:
 ms.prod: office
 ms.assetid: 55b4c056-c787-b30a-bc8c-30e552a3cdbb
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
@@ -25,7 +26,7 @@ The specified name is already used at this level of [scope](../../Glossary/vbe-g
 
   Check the current procedure, [module](../../Glossary/vbe-glossary.md#module), or [project](../../Glossary/vbe-glossary.md#project) and remove any duplicate declarations.
     
-- A **Const** statement uses the same name as an existing variable or procedure. Remove or rename the[constant](../../Glossary/vbe-glossary.md#constant) in question.
+- A **Const** statement uses the same name as an existing variable or procedure. Remove or rename the [constant](../../Glossary/vbe-glossary.md#constant) in question.
     
 - You declared a fixed [array](../../Glossary/vbe-glossary.md#array) more than once.
     
@@ -38,3 +39,4 @@ Note that a [module-level](../../Glossary/vbe-glossary.md#module-level) variable
 
 For additional information, select the item in question and press F1 (in Windows) or HELP (on the Macintosh).
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

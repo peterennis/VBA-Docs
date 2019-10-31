@@ -1,5 +1,5 @@
 ---
-title: MasterShortcut.Icon Property (Visio)
+title: MasterShortcut.Icon property (Visio)
 keywords: vis_sdr.chm16050665
 f1_keywords:
 - vis_sdr.chm16050665
@@ -8,22 +8,23 @@ api_name:
 - Visio.MasterShortcut.Icon
 ms.assetid: c0dafec6-ca3b-f791-c5b1-3da19f0d98ee
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# MasterShortcut.Icon Property (Visio)
+# MasterShortcut.Icon property (Visio)
 
 Returns the icon contained in a master shortcut. Read/write.
 
 
 ## Syntax
 
- _expression_. `Icon`
+_expression_. `Icon`
 
- _expression_ A variable that represents a [MasterShortcut](./Visio.MasterShortcut.md) object.
+_expression_ A variable that represents a **[MasterShortcut](Visio.MasterShortcut.md)** object.
 
 
-### Return Value
+## Return value
 
 IPictureDisp
 
@@ -39,13 +40,13 @@ To get information about the  **StdPicture** object that supports the **IPicture
 
 
 
-1. In the  **Code** group on the[Developer](../visio/How-to/run-visio-in-developer-mode.md) tab, click **Visual Basic**.
+1. In the  **Code** group on the [Developer](../visio/How-to/run-visio-in-developer-mode.md) tab, click **Visual Basic**.
     
 2. On the  **View** menu, click **Object Browser**.
     
 3. In the  **Project/Library** list, click **stdole**.
     
-4. Under  **Classes**, examine the class named  **StdPicture** .
+4. Under  **Classes**, examine the class named  **StdPicture**.
     
 
 
@@ -53,4 +54,4 @@ For details about the  **IPictureDisp** interface, see the Microsoft Platform SD
 
 Currently, only in-process solutions can use the  **Icon** property because the **IPictureDisp** interface cannot be marshaled.
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

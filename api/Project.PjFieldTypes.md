@@ -1,20 +1,21 @@
 ---
-title: PjFieldTypes Enumeration (Project)
+title: PjFieldTypes enumeration (Project)
 ms.prod: project-server
 api_name:
 - Project.PjFieldTypes
 ms.assetid: cfe9a065-ca8c-cc6b-6616-1aad96da760a
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# PjFieldTypes Enumeration (Project)
+# PjFieldTypes enumeration (Project)
 
 Contains constants that specify the type of custom field.
 
 
 
-|**Name**|**Value**|**Description**|
+|Name|Value|Description|
 |:-----|:-----|:-----|
 |**pjCostField**|0|Cost custom field.|
 |**pjDateField**|1|Date custom field.|
@@ -25,3 +26,4 @@ Contains constants that specify the type of custom field.
 |**pjStartField**|6|Start date custom field.|
 |**pjTextField**|7|Text custom field.|
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

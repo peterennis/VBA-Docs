@@ -1,5 +1,5 @@
 ---
-title: Application.CentimetersToPoints Method (Publisher)
+title: Application.CentimetersToPoints method (Publisher)
 keywords: vbapb10.chm131141
 f1_keywords:
 - vbapb10.chm131141
@@ -7,44 +7,42 @@ ms.prod: publisher
 api_name:
 - Publisher.Application.CentimetersToPoints
 ms.assetid: 6eda6692-ea9a-c4ad-6991-066fdc23bd2c
-ms.date: 06/08/2017
+ms.date: 06/04/2019
+localization_priority: Normal
 ---
 
 
-# Application.CentimetersToPoints Method (Publisher)
+# Application.CentimetersToPoints method (Publisher)
 
-Converts a measurement from centimeters to points (1 cm = 28.35 points). Returns the converted measurement as a  **Single**.
+Converts a measurement from centimeters to [points](../language/glossary/vbe-glossary.md#point) (1 cm = 28.35 points). Returns the converted measurement as a **Single**.
 
 
 ## Syntax
 
- _expression_. **CentimetersToPoints**(**_Value_**)
+_expression_.**CentimetersToPoints** (_Value_)
 
- _expression_ A variable that represents an  **Application** object.
-
-
-### Parameters
+_expression_ A variable that represents an **[Application](Publisher.Application.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-|Value|Required| **Single**|The centimeter value to be converted to points.|
+|_Value_|Required| **Single**|The centimeter value to be converted to points.|
 
-### Return Value
+## Return value
 
 Single
 
 
 ## Remarks
 
-Use the  **[PointsToCentimeters](Publisher.Application.PointsToCentimeters.md)** method to convert measurements in points to centimeters.
+Use the **[PointsToCentimeters](Publisher.Application.PointsToCentimeters.md)** method to convert measurements in points to centimeters.
 
 
 ## Example
 
 This example converts measurements in centimeters entered by the user to measurements in points.
-
 
 ```vb
 Dim strInput As String 
@@ -71,8 +69,5 @@ Loop
 ```
 
 
-## See also
 
-
- [Application Object](Publisher.Application.md)
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

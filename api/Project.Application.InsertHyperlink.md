@@ -1,5 +1,5 @@
 ---
-title: Application.InsertHyperlink Method (Project)
+title: Application.InsertHyperlink method (Project)
 keywords: vbapj.chm1309
 f1_keywords:
 - vbapj.chm1309
@@ -8,33 +8,34 @@ api_name:
 - Project.Application.InsertHyperlink
 ms.assetid: d5a6ffc3-8cfe-e6c9-c347-4e3a739f6b1a
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Application.InsertHyperlink Method (Project)
+# Application.InsertHyperlink method (Project)
 
 Inserts a hyperlink on the selected assignment, resource, or task.
 
 
 ## Syntax
 
- _expression_. `InsertHyperlink`( ` _Name_`, ` _Address_`, ` _SubAddress_`, ` _ScreenTip_` )
+_expression_. `InsertHyperlink`( `_Name_`, `_Address_`, `_SubAddress_`, `_ScreenTip_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
-
-
-### Parameters
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _Name_|Optional|**String**|The name of the hyperlink as it appears in the Hyperlink field.|
 | _Address_|Optional|**String**|The address of the target document.|
 | _SubAddress_|Optional|**String**|A location within the target document.|
 | _ScreenTip_|Optional|**String**|The ScreenTip text for the hyperlink.|
 
-### Return Value
+## Return value
 
  **Boolean**
 
@@ -60,4 +61,4 @@ Sub Insert_Hyperlink()
 End Sub
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

@@ -1,26 +1,21 @@
 ---
-title: Recordset (Visual C++ Syntax Index with import)
+title: Recordset (Visual C++ syntax index with import)
 ms.prod: access
 ms.assetid: 807e0ce2-2f28-cb4f-41ae-fa4834504a01
-ms.date: 06/08/2017
+ms.date: 10/12/2018
+localization_priority: Normal
 ---
 
 
-# Recordset (Visual C++ Syntax Index with #import)
-
-  
+# Recordset (Visual C++ syntax index with #import)
 
 **Applies to:** Access 2013 | Access 2016
 
- **Methods**
+## Methods
 
-
-
-
-```c#
- 
-HRESULT Invalid DDUE based on source, error:link not allowed in code, link filename:mdmthaddnew_HV10294007.xml( const _variant_t &; FieldList  = vtMissing, 
- const _variant_t &; Values  =vtMissing); 
+```cs
+HRESULT Invalid DDUE based on source, error:link not allowed in code, link filename:mdmthaddnew_HV10294007.xml( const _variant_t & FieldList  = vtMissing, 
+ const _variant_t & Values  =vtMissing); 
  
 HRESULT Invalid DDUE based on source, error:link not allowed in code, link filename:mdmthadocancel_HV10294125.xml( ); 
  
@@ -33,22 +28,22 @@ _RecordsetPtr Invalid DDUE based on source, error:link not allowed in code, link
 HRESULT Invalid DDUE based on source, error:link not allowed in code, link filename:mdmthclose_HV10294173.xml( ); 
  
 enum CompareEnum Invalid DDUE based on source, error:link not allowed in code, link filename:mdmthcomparebookmarks_HV10294199.xml( const _variant_t 
- &; Bookmark1 , const _variant_t &; Bookmark2  ); 
+ & Bookmark1 , const _variant_t & Bookmark2  ); 
  
 HRESULT Invalid DDUE based on source, error:link not allowed in code, link filename:mdmthrstdelete_HV10294295.xml( enum AffectEnum AffectRecords ); 
  
 HRESULT Invalid DDUE based on source, error:link not allowed in code, link filename:mdmthfindmethodado_HV10294381.xml( _bstr_t Criteria , long SkipRecords , enum 
- SearchDirectionEnum SearchDirection , const _variant_t &; Start  = 
+ SearchDirectionEnum SearchDirection , const _variant_t & Start  = 
  vtMissing ); 
  
-_variant_t Invalid DDUE based on source, error:link not allowed in code, link filename:mdmthgetrows_HV10294398.xml( long Rows , const _variant_t &; Start  = 
- vtMissing, const _variant_t &; Fields  = vtMissing ); 
+_variant_t Invalid DDUE based on source, error:link not allowed in code, link filename:mdmthgetrows_HV10294398.xml( long Rows , const _variant_t & Start  = 
+ vtMissing, const _variant_t & Fields  = vtMissing ); 
  
 _bstr_t Invalid DDUE based on source, error:link not allowed in code, link filename:mdmthgetstringmethod_recordset_ado_HV10294404.xml( enum 
  StringFormatEnum StringFormat , long NumRows , _bstr_t 
  ColumnDelimeter , _bstr_t RowDelimeter , _bstr_t NullExpr ); 
  
-HRESULT Invalid DDUE based on source, error:link not allowed in code, link filename:mdmthmove_HV10294521.xml( long NumRecords , const _variant_t &; Start  = vtMissing); 
+HRESULT Invalid DDUE based on source, error:link not allowed in code, link filename:mdmthmove_HV10294521.xml( long NumRecords , const _variant_t & Start  = vtMissing); 
  
 HRESULT Invalid DDUE based on source, error:link not allowed in code, link filename:mdmthmovefirst_HV10294526.xml( ); 
 HRESULT MoveLast( ); 
@@ -57,35 +52,32 @@ HRESULT MovePrevious( );
  
 _RecordsetPtr Invalid DDUE based on source, error:link not allowed in code, link filename:mdmthnextrec_HV10294541.xml( VARIANT * RecordsAffected ); 
  
-HRESULT Invalid DDUE based on source, error:link not allowed in code, link filename:mdmthrstopen_HV10294566.xml( const _variant_t &; Source , const _variant_t &; 
+HRESULT Invalid DDUE based on source, error:link not allowed in code, link filename:mdmthrstopen_HV10294566.xml( const _variant_t & Source , const _variant_t & 
  ActiveConnection , enum CursorTypeEnum CursorType , enum LockTypeEnum 
  LockType , long Options ); 
  
 HRESULT Invalid DDUE based on source, error:link not allowed in code, link filename:mdmthadorequery_HV10294728.xml( long Options ); 
  
-HRESULT Invalid DDUE based on source, error:link not allowed in code, link filename:mdmthupdate_HV10294888.xml( const _variant_t &; Fields  = vtMissing, const 
- _variant_t &; Values  =vtMissing); 
+HRESULT Invalid DDUE based on source, error:link not allowed in code, link filename:mdmthupdate_HV10294888.xml( const _variant_t & Fields  = vtMissing, const 
+ _variant_t & Values  =vtMissing); 
  
 HRESULT Invalid DDUE based on source, error:link not allowed in code, link filename:mdmthupdatebatch_HV10294893.xml( enum AffectEnum AffectRecords ); 
  
 HRESULT Invalid DDUE based on source, error:link not allowed in code, link filename:mdmthadoresync_HV10294735.xml( enum AffectEnum AffectRecords , enum 
  ResyncEnum ResyncValues  ); 
  
-HRESULT Invalid DDUE based on source, error:link not allowed in code, link filename:mdmthrstsave_HV10294750.xml( const _variant_t &; Destination , enum 
+HRESULT Invalid DDUE based on source, error:link not allowed in code, link filename:mdmthrstsave_HV10294750.xml( const _variant_t & Destination , enum 
  PersistFormatEnum PersistFormat  ); 
  
-HRESULT Invalid DDUE based on source, error:link not allowed in code, link filename:mdmthseek_HV10294763.xml( const _variant_t &; KeyValues, enum SeekEnumSeekOption ); 
+HRESULT Invalid DDUE based on source, error:link not allowed in code, link filename:mdmthseek_HV10294763.xml( const _variant_t & KeyValues, enum SeekEnumSeekOption ); 
  
 VARIANT_BOOL Invalid DDUE based on source, error:link not allowed in code, link filename:mdmthsupports_HV10294844.xml( enum CursorOptionEnum CursorOptions ); 
 
 ```
 
- **Properties**
+## Properties
 
-
-
-```c#
- 
+```cs
 enum PositionEnum GetAbsolutePage( ); 
 void PutAbsolutePage( enum PositionEnum pl ); 
 __declspec(property(get=GetAbsolutePage,put=PutAbsolutePage)) enum 
@@ -100,7 +92,7 @@ IDispatchPtr GetActiveCommand( );
 __declspec(property(get=GetActiveCommand)) IDispatchPtr Invalid DDUE based on source, error:link not allowed in code, link filename:mdproactivecommand_HV10293982.xml; 
  
 void Invalid DDUE based on source, error:link not allowed in code, link filename:mdproactivecon_HV10293988.xml( IDispatch * pvar ); 
-void PutActiveConnection( const _variant_t &; pvar ); 
+void PutActiveConnection( const _variant_t & pvar ); 
 _variant_t GetActiveConnection( ); 
  
 enum CursorLocationEnum GetCursorLocation( ); 
@@ -115,7 +107,7 @@ VARIANT_BOOL GetEndOfFile( ); // Actually, GetEOF. Renamed in #import.
 __declspec(property(get=GetEndOfFile)) VARIANT_BOOL Invalid DDUE based on source, error:link not allowed in code, link filename:mdprobof_HV10294113.xml; 
  
 _variant_t GetBookmark( ); 
-void PutBookmark( const _variant_t &; pvBookmark ); 
+void PutBookmark( const _variant_t & pvBookmark ); 
 __declspec(property(get=GetBookmark,put=PutBookmark)) _variant_t 
  Invalid DDUE based on source, error:link not allowed in code, link filename:mdprobookmark_HV10294117.xml; 
  
@@ -146,7 +138,7 @@ FieldsPtr GetFields( );
 __declspec(property(get=GetFields)) FieldsPtr Invalid DDUE based on source, error:link not allowed in code, link filename:mdcolfields_HV10294366.xml; 
  
 _variant_t GetFilter( ); 
-void PutFilter( const _variant_t &; Criteria ); 
+void PutFilter( const _variant_t & Criteria ); 
 __declspec(property(get=GetFilter,put=PutFilter)) _variant_t Invalid DDUE based on source, error:link not allowed in code, link filename:mdprofilter_HV10294373.xml; 
  
 _bstr_t GetIndex( ); 
@@ -201,9 +193,11 @@ __declspec(property(get=GetStayInSync,put=PutStayInSync)) VARIANT_BOOL
 
 ## See also
 
-- [Access for developers forum on MSDN](https://social.msdn.microsoft.com/Forums/office/en-US/home?forum=accessdev)
+- [Access for developers forum](https://social.msdn.microsoft.com/Forums/office/home?forum=accessdev)
 - [Access help on support.office.com](https://support.office.com/search/results?query=Access)
-- [Access help on answers.microsoft.com](https://answers.microsoft.com/en-us/msoffice/forum?page=1&;tab=question&;status=all&;auth=1)
+- [Access help on answers.microsoft.com](https://answers.microsoft.com/)
 - [Access forums on UtterAccess](http://www.utteraccess.com/forum/index.php?act=idx)
 - [Access developer and VBA programming help center (FMS)](http://www.fmsinc.com/MicrosoftAccess/developer/)
 - [Access posts on StackOverflow](https://stackoverflow.com/questions/tagged/ms-access)
+
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

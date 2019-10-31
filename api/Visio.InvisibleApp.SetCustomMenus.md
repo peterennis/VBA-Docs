@@ -1,5 +1,5 @@
 ---
-title: InvisibleApp.SetCustomMenus Method (Visio)
+title: InvisibleApp.SetCustomMenus method (Visio)
 keywords: vis_sdr.chm17516560
 f1_keywords:
 - vis_sdr.chm17516560
@@ -8,30 +8,31 @@ api_name:
 - Visio.InvisibleApp.SetCustomMenus
 ms.assetid: 5538c47c-fe24-e00b-b7c4-64ccf2100d84
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# InvisibleApp.SetCustomMenus Method (Visio)
+# InvisibleApp.SetCustomMenus method (Visio)
 
 Replaces the current built-in or custom menus of an application or document.
 
 
 ## Syntax
 
- _expression_. `SetCustomMenus`( `_MenusObject_` )
+_expression_.**SetCustomMenus** (_MenusObject_)
 
- _expression_ A variable that represents an [InvisibleApp](./Visio.InvisibleApp.md) object.
-
-
-### Parameters
+_expression_ A variable that represents an **[InvisibleApp](Visio.InvisibleApp.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _MenusObject_|Required| **[IVUIOBJECT]**|An expression that returns a  **UIObject** object that represents the new custom menus.|
 
-### Return Value
+## Return value
 
 Nothing
 
@@ -39,7 +40,8 @@ Nothing
 ## Remarks
 
 
- **Note**  Starting with Visio, the Microsoft Office Fluent user interface (UI) replaces the previous system of layered menus, toolbars, and task panes. VBA objects and members that you used to customize the user interface in previous versions of Visio are still available in Visio, but they function differently.
+> [!NOTE] 
+> Starting with Visio 2010, the Microsoft Office Fluent user interface (UI) replaced the previous system of layered menus, toolbars, and task panes. VBA objects and members that you used to customize the user interface in previous versions of Visio are still available in Visio, but they function differently.
 
 If the  **UIObject** object was created in a separate process by using the CreateObject procedure instead of getting the appropriate property of an **Application** or **Document** object, the **SetCustomMenus** method returns an error.
 
@@ -97,4 +99,4 @@ Public Sub SetCustomMenus_Example()
 End Sub
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

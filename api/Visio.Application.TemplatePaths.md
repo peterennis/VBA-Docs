@@ -1,5 +1,5 @@
 ---
-title: Application.TemplatePaths Property (Visio)
+title: Application.TemplatePaths property (Visio)
 keywords: vis_sdr.chm10014510
 f1_keywords:
 - vis_sdr.chm10014510
@@ -8,22 +8,23 @@ api_name:
 - Visio.Application.TemplatePaths
 ms.assetid: 149a9ef2-e255-3dad-2177-b29c173fa66d
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Application.TemplatePaths Property (Visio)
+# Application.TemplatePaths property (Visio)
 
 Gets or sets the paths where Microsoft Visio looks for templates. Read/write.
 
 
 ## Syntax
 
- _expression_. `TemplatePaths`
+_expression_.**TemplatePaths**
 
- _expression_ A variable that represents an [Application](./Visio.Application.md) object.
+_expression_ A variable that represents an **[Application](Visio.Application.md)** object.
 
 
-### Return Value
+## Return value
 
  **String**
 
@@ -42,11 +43,11 @@ Setting the  **TemplatePaths** property replaces existing values for **Templates
 
 
 ```vb
-Application.TemplatePaths = Application.TemplatePaths & ";" & "newpath ".
+Application.TemplatePaths = Application.TemplatePaths & ";" & "newpath".
 ```
 
-
- **Caution**  Modifying the registry in any manner, whether in the Registry Editor or programmatically, always carries some degree of risk. Incorrect modification can cause serious problems that may require you to reinstall your operating system. It is a good practice to always back up a computer's registry first before modifying it. If you are running Microsoft Windows NT or Microsoft Windows 2000, you should also update your Emergency Repair Disk (ERD). 
+> [!WARNING] 
+> Modifying the Windows registry in any manner, whether in the Registry Editor or programmatically, always carries some degree of risk. Incorrect modification can cause serious problems that may require you to reinstall your operating system. It is a good practice to always back up a computer's registry first before modifying it. 
 
 
 ## Example
@@ -69,7 +70,7 @@ Public Sub TemplatePaths_Example()
     strMessage = "The current content of the Visio Templates path box is:"  
     strMessage = strMessage & vbCrLf & strTemplatePath  
     MsgBox strMessage, vbInformation + vbOKOnly, strTitle  
-    strMessage = "Type in an additional path for Visio to look for templates. "  
+    strMessage = "Type in an additional path for Visio to look for templates."  
     strNewPath = InputBox$(strMessage, strTitle)  
  
     'Make sure the folder exists and that it's not 
@@ -96,4 +97,4 @@ Public Sub TemplatePaths_Example()
 End Sub
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

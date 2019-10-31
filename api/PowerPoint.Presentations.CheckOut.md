@@ -1,5 +1,5 @@
 ---
-title: Presentations.CheckOut Method (PowerPoint)
+title: Presentations.CheckOut method (PowerPoint)
 keywords: vbapp10.chm522007
 f1_keywords:
 - vbapp10.chm522007
@@ -8,30 +8,31 @@ api_name:
 - PowerPoint.Presentations.CheckOut
 ms.assetid: c6145ab1-f6d5-265a-8244-40b5fa67aedf
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Presentations.CheckOut Method (PowerPoint)
+# Presentations.CheckOut method (PowerPoint)
 
-Copies a specified presentation from a server to a local computer for editing. Returns a  **String** that represents the local path and file name of the presentation checked out.
+Copies a specified presentation from a server to a local computer for editing. Returns a **String** that represents the local path and file name of the presentation checked out.
 
 
 ## Syntax
 
- _expression_. `CheckOut`( `_FileName_` )
+_expression_.**CheckOut** (_FileName_)
 
- _expression_ A variable that represents a [Presentations](./PowerPoint.Presentations.md) object.
-
-
-### Parameters
+_expression_ A variable that represents a [Presentations](PowerPoint.Presentations.md) object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _FileName_|Required|**String**|The server path and name of the presentation.|
 
-### Return Value
+## Return value
 
 Nothing
 
@@ -81,3 +82,4 @@ End Sub
 
 [Presentations Object](PowerPoint.Presentations.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

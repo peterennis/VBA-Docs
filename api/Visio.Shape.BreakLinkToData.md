@@ -1,5 +1,5 @@
 ---
-title: Shape.BreakLinkToData Method (Visio)
+title: Shape.BreakLinkToData method (Visio)
 keywords: vis_sdr.chm11260195
 f1_keywords:
 - vis_sdr.chm11260195
@@ -8,33 +8,35 @@ api_name:
 - Visio.Shape.BreakLinkToData
 ms.assetid: 1f4ed559-061e-f016-739c-e760e634dba8
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Shape.BreakLinkToData Method (Visio)
+# Shape.BreakLinkToData method (Visio)
 
 Breaks the link between the shape and the data row to which it is linked in the specified data recordset.
 
 
- **Note**  This Visio object or member is available only to licensed users of Visio Professional 2013.
+> [!NOTE] 
+> This Visio object or member is available only to licensed users of Visio Professional 2013.
 
 
 ## Syntax
 
- _expression_. `BreakLinkToData`( `_DataRecordsetID_` )
+_expression_. `BreakLinkToData`( `_DataRecordsetID_` )
 
- _expression_ An expression that returns a [Shape](./Visio.Shape.md) object.
-
-
-### Parameters
+ _expression_ An expression that returns a **[Shape](Visio.Shape.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _DataRecordsetID_|Required| **Long**|The ID of the data recordset containing the data row the shape is linked to.|
 
-### Return Value
+## Return value
 
 Nothing
 
@@ -69,4 +71,4 @@ Public Sub BreakLinkToData_Example()
 End Sub
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

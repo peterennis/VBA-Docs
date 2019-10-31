@@ -1,5 +1,5 @@
 ---
-title: PictureFormat.IncrementContrast Method (Word)
+title: PictureFormat.IncrementContrast method (Word)
 keywords: vbawd10.chm164298763
 f1_keywords:
 - vbawd10.chm164298763
@@ -8,26 +8,27 @@ api_name:
 - Word.PictureFormat.IncrementContrast
 ms.assetid: afde4afa-53b6-7dd2-57b2-c25a800fb69d
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# PictureFormat.IncrementContrast Method (Word)
+# PictureFormat.IncrementContrast method (Word)
 
 Changes the contrast of the picture by the specified amount.
 
 
 ## Syntax
 
- _expression_. `IncrementContrast`( `_Increment_` )
+_expression_.**IncrementContrast** (_Increment_)
 
- _expression_ Required. A variable that represents a '[PictureFormat](Word.PictureFormat.md)' object.
-
-
-### Parameters
+_expression_ Required. A variable that represents a '[PictureFormat](Word.PictureFormat.md)' object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _Increment_|Required| **Single**|Specifies how much to change the value of the  **Contrast** property for the picture. A positive value increases the contrast; a negative value decreases the contrast.|
 
@@ -62,3 +63,4 @@ Next shapeLoop
 
 [PictureFormat Object](Word.PictureFormat.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

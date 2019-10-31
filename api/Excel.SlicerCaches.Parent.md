@@ -1,5 +1,5 @@
 ---
-title: SlicerCaches.Parent Property (Excel)
+title: SlicerCaches.Parent property (Excel)
 keywords: vbaxl10.chm894075
 f1_keywords:
 - vbaxl10.chm894075
@@ -7,29 +7,28 @@ ms.prod: excel
 api_name:
 - Excel.SlicerCaches.Parent
 ms.assetid: da3c9e59-6486-4b6f-de34-b04195bc14c6
-ms.date: 06/08/2017
+ms.date: 05/16/2019
+localization_priority: Normal
 ---
 
 
-# SlicerCaches.Parent Property (Excel)
+# SlicerCaches.Parent property (Excel)
 
-Returns the parent  **[Workbook](Excel.Workbook.md)** object for the collection. Read-only.
+Returns the parent **[Workbook](Excel.Workbook.md)** object for the collection. Read-only.
 
 
 ## Syntax
 
- _expression_. `Parent`
+_expression_.**Parent**
 
- _expression_ A variable that represents a '[SlicerCaches](Excel.SlicerCaches.md)' collection.
-
-
-### Return Value
-
- **Workbook**
+_expression_ A variable that represents a **[SlicerCaches](Excel.SlicerCaches.md)** object.
 
 
-## See also
+## Return value
+
+**Workbook**
 
 
-[SlicerCaches Object](Excel.SlicerCaches.md)
 
+
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

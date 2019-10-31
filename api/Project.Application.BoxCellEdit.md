@@ -1,5 +1,5 @@
 ---
-title: Application.BoxCellEdit Method (Project)
+title: Application.BoxCellEdit method (Project)
 keywords: vbapj.chm2393
 f1_keywords:
 - vbapj.chm2393
@@ -8,26 +8,27 @@ api_name:
 - Project.Application.BoxCellEdit
 ms.assetid: 27063852-3dc4-57b2-c82a-6210674810ca
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Application.BoxCellEdit Method (Project)
+# Application.BoxCellEdit method (Project)
 
 Sets the properties of an individual cell in a data template for a Network Diagram view (PERT chart).
 
 
 ## Syntax
 
- _expression_. `BoxCellEdit`( ` _Name_`, ` _Cell_`, ` _FieldName_`, ` _Font_`, ` _FontSize_`, ` _FontColor_`, ` _Bold_`, ` _Italic_`, ` _Underline_`, ` _HorizontalAlignment_`, ` _VerticalAlignment_`, ` _TextLineLimit_`, ` _ShowLabel_`, ` _Label_`, ` _DateFormat_` )
+_expression_. `BoxCellEdit`( `_Name_`, `_Cell_`, `_FieldName_`, `_Font_`, `_FontSize_`, `_FontColor_`, `_Bold_`, `_Italic_`, `_Underline_`, `_HorizontalAlignment_`, `_VerticalAlignment_`, `_TextLineLimit_`, `_ShowLabel_`, `_Label_`, `_DateFormat_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
-
-
-### Parameters
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _Name_|Required|**String**| The name of the data template containing the cell to edit.|
 | _Cell_|Required|**Long**|The cell to edit. Can be one of the  **[PjCell](Project.PjCell.md)** constants.|
@@ -45,7 +46,7 @@ Sets the properties of an individual cell in a data template for a Network Diagr
 | _Label_|Optional|**String**|Specifies the cell label.|
 | _DateFormat_|Optional|**Long**|Specifies the date format for the cell when  **FieldName** is a date field. Can be one of the **[PjDateFormat](Project.PjDateFormat.md)** constants.|
 
-### Return Value
+## Return value
 
  **Boolean**
 
@@ -73,4 +74,4 @@ Sub ModifyCriticalDataTemplate()
 End Sub
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

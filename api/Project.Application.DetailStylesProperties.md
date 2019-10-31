@@ -1,5 +1,5 @@
 ---
-title: Application.DetailStylesProperties Method (Project)
+title: Application.DetailStylesProperties method (Project)
 keywords: vbapj.chm952
 f1_keywords:
 - vbapj.chm952
@@ -8,33 +8,34 @@ api_name:
 - Project.Application.DetailStylesProperties
 ms.assetid: f066f826-eef2-7f97-dafa-998f7bd70f42
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Application.DetailStylesProperties Method (Project)
+# Application.DetailStylesProperties method (Project)
 
 Sets the format of details in a usage view.
 
 
 ## Syntax
 
- _expression_. `DetailStylesProperties`( ` _AlignCellData_`, ` _RepeatRowLabel_`, ` _ShortLabels_`, ` _DisplayDetailsColumn_` )
+_expression_. `DetailStylesProperties`( `_AlignCellData_`, `_RepeatRowLabel_`, `_ShortLabels_`, `_DisplayDetailsColumn_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
-
-
-### Parameters
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _AlignCellData_|Optional|**Long**|Specifies the alignment of data in cells. Can be one of the following  **PjAlignment** constants: **pjCenter**, **pjLeft**, or **pjRight**. The default value is **pjRight**.|
 | _RepeatRowLabel_|Optional|**Boolean**|**True** if details headers are repeated on all assignment rows. The default value is **True**.|
 | _ShortLabels_|Optional|**Boolean**|**True** if Project displays short details header names. The default value is **True**.|
 | _DisplayDetailsColumn_|Optional|**Long**|Specifies whether a details column displays. Can be one of the following  **PjYesNoAutomatic** constants: **pjAuto**, **pjNo**, or **pjYes**. The default value is **pjYes**.|
 
-### Return Value
+## Return value
 
  **Boolean**
 
@@ -58,4 +59,4 @@ Sub DetailStyles_Remove()
 End Sub
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

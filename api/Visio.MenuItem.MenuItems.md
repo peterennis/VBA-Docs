@@ -1,5 +1,5 @@
 ---
-title: MenuItem.MenuItems Property (Visio)
+title: MenuItem.MenuItems property (Visio)
 keywords: vis_sdr.chm12913905
 f1_keywords:
 - vis_sdr.chm12913905
@@ -8,22 +8,23 @@ api_name:
 - Visio.MenuItem.MenuItems
 ms.assetid: eee46c53-4b9e-806d-c0be-7a4f907ee314
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# MenuItem.MenuItems Property (Visio)
+# MenuItem.MenuItems property (Visio)
 
 Returns the  **MenuItems** collection of a **MenuItem** object. Read-only.
 
 
 ## Syntax
 
- _expression_. `MenuItems`
+_expression_. `MenuItems`
 
- _expression_ A variable that represents a [MenuItem](./Visio.MenuItem.md) object.
+_expression_ A variable that represents a **[MenuItem](Visio.MenuItem.md)** object.
 
 
-### Return Value
+## Return value
 
 MenuItems
 
@@ -31,7 +32,8 @@ MenuItems
 ## Remarks
 
 
- **Note**  Starting with Visio, the Microsoft Office Fluent user interface (UI) replaces the previous system of layered menus, toolbars, and task panes. VBA objects and members that you used to customize the user interface in previous versions of Visio are still available in Visio, but they function differently.
+> [!NOTE] 
+> Starting with Visio 2010, the Microsoft Office Fluent user interface (UI) replaced the previous system of layered menus, toolbars, and task panes. VBA objects and members that you used to customize the user interface in previous versions of Visio are still available in Visio, but they function differently.
 
 If a  **Menu** object represents a hierarchical menu, its **MenuItems** collection contains submenu items. Otherwise, its **MenuItems** collection is empty.
 
@@ -88,4 +90,4 @@ Public Sub Menus_Example()
 End Sub
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

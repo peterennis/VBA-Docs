@@ -1,5 +1,5 @@
 ---
-title: Workbook.SheetSelectionChange Event (Excel)
+title: Workbook.SheetSelectionChange event (Excel)
 keywords: vbaxl10.chm503085
 f1_keywords:
 - vbaxl10.chm503085
@@ -7,27 +7,26 @@ ms.prod: excel
 api_name:
 - Excel.Workbook.SheetSelectionChange
 ms.assetid: a3829af1-2917-9526-1d64-91eeb6c198ce
-ms.date: 06/08/2017
+ms.date: 05/29/2019
+localization_priority: Normal
 ---
 
 
-# Workbook.SheetSelectionChange Event (Excel)
+# Workbook.SheetSelectionChange event (Excel)
 
 Occurs when the selection changes on any worksheet (doesn't occur if the selection is on a chart sheet).
 
 
 ## Syntax
 
- _expression_. `SheetSelectionChange`( `_Sh_` , `_Target_` )
+_expression_.**SheetSelectionChange** (_Sh_, _Target_)
 
- _expression_ An expression that returns a [Workbook](./Excel.Workbook.md) object.
-
-
-### Parameters
+_expression_ An expression that returns a **[Workbook](Excel.Workbook.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _Sh_|Required| **Object**|The worksheet that contains the new selection.|
 | _Target_|Required| **Range**|The new selected range.|
@@ -35,7 +34,6 @@ Occurs when the selection changes on any worksheet (doesn't occur if the selecti
 ## Example
 
 This example displays the sheet name and address of the selected range in the status bar.
-
 
 ```vb
 Private Sub Workbook_SheetSelectionChange(ByVal Sh As Object, _ 
@@ -45,8 +43,5 @@ End Sub
 ```
 
 
-## See also
 
-
-[Workbook Object](Excel.Workbook.md)
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

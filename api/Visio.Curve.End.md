@@ -1,5 +1,5 @@
 ---
-title: Curve.End Property (Visio)
+title: Curve.End property (Visio)
 keywords: vis_sdr.chm15550575
 f1_keywords:
 - vis_sdr.chm15550575
@@ -8,34 +8,35 @@ api_name:
 - Visio.Curve.End
 ms.assetid: dce413f4-3c3b-c79f-4dbc-cbe1a8fbcca7
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Curve.End Property (Visio)
+# Curve.End property (Visio)
 
-Returns the endpoint of a  **Curve** object. Read-only.
+Returns the endpoint of a **Curve** object. Read-only.
 
 
 ## Syntax
 
- _expression_. `End`
+_expression_.**End**
 
- _expression_ A variable that represents a [Curve](./Visio.Curve.md) object.
+_expression_ A variable that represents a **[Curve](Visio.Curve.md)** object.
 
 
-### Return Value
+## Return value
 
 Double
 
 
 ## Remarks
 
-The  **End** property of a **Curve** object returns the endpoint of a curve. A **Curve** object describes itself in terms of its parameter domain, which is the range [Start(),End()] where End() produces the curve's endpoint.
+The **End** property of a **Curve** object returns the endpoint of a curve. A **Curve** object describes itself in terms of its parameter domain, which is the range [Start(),End()] where End() produces the curve's endpoint.
 
 
 ## Example
 
-This Microsoft Visual Basic for Applications (VBA) macro shows how to use the  **End** property to determine the endpoint of a curve.
+This Microsoft Visual Basic for Applications (VBA) macro shows how to use the **End** property to determine the endpoint of a curve.
 
 
 ```vb
@@ -82,4 +83,4 @@ Sub End_Example()
 End Sub
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

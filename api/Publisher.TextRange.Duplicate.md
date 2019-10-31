@@ -1,5 +1,5 @@
 ---
-title: TextRange.Duplicate Property (Publisher)
+title: TextRange.Duplicate property (Publisher)
 keywords: vbapb10.chm5308466
 f1_keywords:
 - vbapb10.chm5308466
@@ -7,31 +7,31 @@ ms.prod: publisher
 api_name:
 - Publisher.TextRange.Duplicate
 ms.assetid: 545dbfdb-4cd5-99b1-1ba3-b723e8d7b827
-ms.date: 06/08/2017
+ms.date: 06/15/2019
+localization_priority: Normal
 ---
 
 
-# TextRange.Duplicate Property (Publisher)
+# TextRange.Duplicate property (Publisher)
 
-Returns a  **[TextRange](Publisher.TextRange.md)** object that represents a duplicate of the specified text range.
+Returns a **TextRange** object that represents a duplicate of the specified text range.
 
 
 ## Syntax
 
- _expression_. **Duplicate**
+_expression_.**Duplicate**
 
- _expression_ A variable that represents a  **TextRange** object.
+_expression_ A variable that represents a **[TextRange](Publisher.TextRange.md)** object.
 
 
-### Return Value
+## Return value
 
 TextRange
 
 
 ## Example
 
-This example sets the value of a string variable to the contents of the specified text box on the first page of the active publication. Then it creates a new page with a text box and sets the contents of the new text box equal to the value of the string variable.
-
+This example sets the value of a string variable to the contents of the specified text box on the first page of the active publication. It then creates a new page with a text box and sets the contents of the new text box equal to the value of the string variable.
 
 ```vb
 Sub DuplicateTextBoxContents() 
@@ -50,4 +50,4 @@ Sub DuplicateTextBoxContents()
 End Sub
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

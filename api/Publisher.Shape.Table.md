@@ -1,5 +1,5 @@
 ---
-title: Shape.Table Property (Publisher)
+title: Shape.Table property (Publisher)
 keywords: vbapb10.chm2228328
 f1_keywords:
 - vbapb10.chm2228328
@@ -7,26 +7,26 @@ ms.prod: publisher
 api_name:
 - Publisher.Shape.Table
 ms.assetid: a9b29d1f-2459-556c-56f8-f8f809b879c9
-ms.date: 06/08/2017
+ms.date: 06/13/2019
+localization_priority: Normal
 ---
 
 
-# Shape.Table Property (Publisher)
+# Shape.Table property (Publisher)
 
-Returns a  **Table** object that represents a table in Microsoft Publisher.
+Returns a **[Table](publisher.table.md)** object that represents a table in Microsoft Publisher.
 
 
 ## Syntax
 
- _expression_. **Table**
+_expression_.**Table**
 
- _expression_ A variable that represents a  **Shape** object.
+_expression_ A variable that represents a **[Shape](Publisher.Shape.md)** object.
 
 
 ## Example
 
 The following example adds a 5x5 table on the first page of the active publication, and then selects the first column of the new table.
-
 
 ```vb
 Sub NewTable() 
@@ -38,10 +38,9 @@ Sub NewTable()
 End Sub
 ```
 
+<br/>
+
 The following example selects the specified table in the active publication. This example assumes that there is at least one shape on the first page of the active publication.
-
-
-
 
 ```vb
 Sub SelectTable() 
@@ -54,4 +53,4 @@ Sub SelectTable()
 End Sub
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

@@ -1,5 +1,5 @@
 ---
-title: Adjustments.Item Property (Word)
+title: Adjustments.Item property (Word)
 keywords: vbawd10.chm163840000
 f1_keywords:
 - vbawd10.chm163840000
@@ -8,26 +8,27 @@ api_name:
 - Word.Adjustments.Item
 ms.assetid: 10628688-e927-df50-a16a-e25878676c82
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Adjustments.Item Property (Word)
+# Adjustments.Item property (Word)
 
-Returns or sets the adjustment value specified by the  _Index_ argument. Read/write **Single** .
+Returns or sets the adjustment value specified by the  _Index_ argument. Read/write **Single**.
 
 
 ## Syntax
 
- _expression_. `Item`( `_Index_` )
+_expression_.**Item** (_Index_)
 
  _expression_ An expression that returns an '[Adjustments](Word.Adjustments.md)' object.
 
 
-### Parameters
+## Parameters
 
 
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _Index_|Required| **Long**|The index number of the adjustment.|
 
@@ -76,3 +77,4 @@ End With
 
 [Adjustments Object](Word.Adjustments.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

@@ -1,5 +1,5 @@
 ---
-title: Master.CreateShortcut Method (Visio)
+title: Master.CreateShortcut method (Visio)
 keywords: vis_sdr.chm10716150
 f1_keywords:
 - vis_sdr.chm10716150
@@ -8,22 +8,23 @@ api_name:
 - Visio.Master.CreateShortcut
 ms.assetid: e808ba09-b85a-52bb-55e2-ced37f426a3b
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Master.CreateShortcut Method (Visio)
+# Master.CreateShortcut method (Visio)
 
 Creates a shortcut for a master.
 
 
 ## Syntax
 
- _expression_. `CreateShortcut`
+_expression_. `CreateShortcut`
 
- _expression_ A variable that represents a [Master](./Visio.Master.md) object.
+_expression_ A variable that represents a **[Master](Visio.Master.md)** object.
 
 
-### Return Value
+## Return value
 
 MasterShortcut
 
@@ -35,7 +36,8 @@ The new master shortcut is created in the same document as the target master and
 
 
 
- **Note**  Starting with Microsoft Office Visio 2003, only user-created stencils are editable. By default, Visio stencils are not editable. 
+> [!NOTE] 
+> Starting with Microsoft Office Visio 2003, only user-created stencils are editable. By default, Visio stencils are not editable. 
 
 The new shortcut's name is "Shortcut to X", where "X" is the name of the target master. The shortcut's  **TargetDocumentName** and **TargetMasterName** properties identify the target master. So once a shortcut has been created, it can be moved or copied into other documents.
 
@@ -60,4 +62,4 @@ Public Sub CreateShortcut_Example()
 End Sub
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

@@ -1,24 +1,19 @@
 ---
-title: Connection (Visual C++ Syntax Index with import)
+title: Connection (Visual C++ syntax index with import)
 ms.prod: access
 ms.assetid: 3217a7d7-1c70-89f7-74a4-172371521358
-ms.date: 06/08/2017
+ms.date: 10/12/2018
+localization_priority: Normal
 ---
 
 
-# Connection (Visual C++ Syntax Index with #import)
-
-  
+# Connection (Visual C++ syntax index with #import)
 
 **Applies to:** Access 2013 | Access 2016
 
- **Methods**
+## Methods
 
-
-
-
-```c#
- 
+```cs
 HRESULT Invalid DDUE based on source, error:link not allowed in code, link filename:mdmthadocancel_HV10294125.xml( ); 
  
 HRESULT Invalid DDUE based on source, error:link not allowed in code, link filename:mdmthclose_HV10294173.xml( ); 
@@ -34,17 +29,14 @@ HRESULT Invalid DDUE based on source, error:link not allowed in code, link filen
  _bstr_t Password , long Options ); 
  
 _RecordsetPtr Invalid DDUE based on source, error:link not allowed in code, link filename:mdmthopenschema_HV10294568.xml( enum SchemaEnum Schema , const 
- _variant_t &; Restrictions  = vtMissing, const _variant_t &; 
+ _variant_t & Restrictions  = vtMissing, const _variant_t & 
  SchemaID  =vtMissing); 
 
 ```
 
- **Properties**
+## Properties
 
-
-
-```c#
- 
+```cs
 _bstr_t GetConnectionString( ); 
 void PutConnectionString( _bstr_t pbstr ); 
 __declspec(property(get=GetConnectionString,put=PutConnectionString)) 
@@ -103,9 +95,11 @@ __declspec(property(get=GetState)) long Invalid DDUE based on source, error:link
 
 ## See also
 
-- [Access for developers forum on MSDN](https://social.msdn.microsoft.com/Forums/office/en-US/home?forum=accessdev)
+- [Access for developers forum](https://social.msdn.microsoft.com/Forums/office/home?forum=accessdev)
 - [Access help on support.office.com](https://support.office.com/search/results?query=Access)
-- [Access help on answers.microsoft.com](https://answers.microsoft.com/en-us/msoffice/forum?page=1&;tab=question&;status=all&;auth=1)
+- [Access help on answers.microsoft.com](https://answers.microsoft.com/)
 - [Access forums on UtterAccess](http://www.utteraccess.com/forum/index.php?act=idx)
 - [Access developer and VBA programming help center (FMS)](http://www.fmsinc.com/MicrosoftAccess/developer/)
 - [Access posts on StackOverflow](https://stackoverflow.com/questions/tagged/ms-access)
+
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

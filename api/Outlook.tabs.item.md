@@ -6,6 +6,7 @@ f1_keywords:
 ms.prod: outlook
 ms.assetid: 3ceaf249-e2e8-4ef2-96f8-6379fbb81c4a
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
@@ -16,20 +17,20 @@ Returns a member of a collection, either by position or by name.
 
 ## Syntax
 
- _expression_. **Item**(**_varg_**)
+_expression_.**Item**(**_varg_**)
 
- _expression_ A variable that represents a  **Tabs** object.
-
-
-### Parameters
+_expression_ A variable that represents a  **Tabs** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 |varg|Required| **Variant**|A member's name or index within a collection.|
 
-### Return Value
+## Return value
 
 An Object that corresponds to the specified member in the collection.
 
@@ -40,4 +41,4 @@ The  _varg_ can be either a **String** or an **Integer**. If it is a  **String**
 
 If an invalid index or name is specified, an error occurs.
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

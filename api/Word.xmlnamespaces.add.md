@@ -1,38 +1,39 @@
 ---
-title: XMLNamespaces.Add Method (Word)
+title: XMLNamespaces.Add method (Word)
 keywords: vbawd10.chm248971365
 f1_keywords:
 - vbawd10.chm248971365
 ms.prod: word
 ms.assetid: 2b70fb44-adf0-31e9-0528-bda1189b85f5
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# XMLNamespaces.Add Method (Word)
+# XMLNamespaces.Add method (Word)
 
  Returns an **XMLNamespace** object that represents a schema that is added to the Schema Library and made available to users in Microsoft Word.
 
 
 ## Syntax
 
- _expression_. `Add`( `_Path_` , `_NamespaceURI_` , `_Alias_` , `_InstallForAllUsers_` )
+_expression_.**Add** (_Path_, _NamespaceURI_, _Alias_, _InstallForAllUsers_)
 
- _expression_ Required. A variable that represents a '' collection.
-
-
-### Parameters
+_expression_ Required. A variable that represents a '' collection.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _Path_|Required| **String**|The path and file name of the schema. This may be a local file path, a network path, or an Internet address.|
 | _NamespaceURI_|Optional| **String**|The namespace Uniform Resource Indicator as specified in the schema. The NamespaceURI parameter is case-sensitive and must be spelled exactly as specified in schema.|
 | _Alias_|Optional| **String**|The name of the schema as it appears on the  **Schemas** tab in the **Templates and Add-ins** dialog box.|
-| _InstallForAllUsers_|Optional| **Boolean**| **True** if all users that log on to a computer can access and use the new schema. The default is **False** .|
+| _InstallForAllUsers_|Optional| **Boolean**| **True** if all users that log on to a computer can access and use the new schema. The default is **False**.|
 
-### Return Value
+## Return value
 
 XMLNamespace
 
@@ -54,8 +55,4 @@ End Sub
 ```
 
 
-## See also
-
-
-
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

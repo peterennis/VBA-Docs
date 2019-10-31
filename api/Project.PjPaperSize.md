@@ -1,20 +1,21 @@
 ---
-title: PjPaperSize Enumeration (Project)
+title: PjPaperSize enumeration (Project)
 ms.prod: project-server
 api_name:
 - Project.PjPaperSize
 ms.assetid: d1ed803e-52fa-40cf-76a0-a3f41b1729f7
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# PjPaperSize Enumeration (Project)
+# PjPaperSize enumeration (Project)
 
 Contains constants that specify the paper size.
 
 
 
-|**Name**|**Value**|**Description**|
+|Name|Value|Description|
 |:-----|:-----|:-----|
 |**pjPaper10x11**|45|10x11 inches size.|
 |**pjPaper10x14**|16|10x14 inches size.|
@@ -136,6 +137,6 @@ Contains constants that specify the paper size.
 
 ## Remarks
 
-The  **PjPaperSize** enumeration is used by the[Application.FilePageSetupPage](Project.Application.FilePageSetupPage.md) method.
+The  **PjPaperSize** enumeration is used by the [Application.FilePageSetupPage](Project.Application.FilePageSetupPage.md) method.
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

@@ -1,5 +1,5 @@
 ---
-title: Timing Object (PowerPoint)
+title: Timing object (PowerPoint)
 keywords: vbapp10.chm653000
 f1_keywords:
 - vbapp10.chm653000
@@ -8,10 +8,11 @@ api_name:
 - PowerPoint.Timing
 ms.assetid: 11f7dab2-f9ed-1883-ab74-93f1be481af6
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Timing Object (PowerPoint)
+# Timing object (PowerPoint)
 
 Represents timing properties for an animation effect.
 
@@ -40,7 +41,7 @@ Use the following read/write properties of the  **Timing** object to manipulate 
 
 ## Example
 
-To return a  **Timing** object, use the[Timing](PowerPoint.AnimationBehavior.Timing.md)property of the  **[AnimationBehavior](PowerPoint.AnimationBehavior.md)** or **[Effect](PowerPoint.Effect.md)** object. The following example sets timing duration information for the main animation.
+To return a  **Timing** object, use the [Timing](PowerPoint.AnimationBehavior.Timing.md)property of the  **[AnimationBehavior](PowerPoint.AnimationBehavior.md)** or **[Effect](PowerPoint.Effect.md)** object. The following example sets timing duration information for the main animation.
 
 
 ```vb
@@ -53,3 +54,4 @@ ActiveWindow.Selection.SlideRange(1).TimeLine.MainSequence(1).Timing.Duration = 
 
 [PowerPoint Object Model Reference](overview/PowerPoint/object-model.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

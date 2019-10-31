@@ -1,5 +1,5 @@
 ---
-title: ColorScheme.Colors Property (Publisher)
+title: ColorScheme.Colors property (Publisher)
 keywords: vbapb10.chm2686978
 f1_keywords:
 - vbapb10.chm2686978
@@ -7,44 +7,37 @@ ms.prod: publisher
 api_name:
 - Publisher.ColorScheme.Colors
 ms.assetid: e6599096-3f99-e7ca-0c38-1cc7d4e0a1cd
-ms.date: 06/08/2017
+ms.date: 06/06/2019
+localization_priority: Normal
 ---
 
 
-# ColorScheme.Colors Property (Publisher)
+# ColorScheme.Colors property (Publisher)
 
-Returns a  **[ColorFormat](Publisher.ColorFormat.md)** object representing a color from the specified color scheme.
+Returns a **[ColorFormat](Publisher.ColorFormat.md)** object representing a color from the specified color scheme.
 
 
 ## Syntax
 
- _expression_. **Colors**(**_ColorIndex_**)
+_expression_.**Colors** (_ColorIndex_)
 
- _expression_ A variable that represents a  **ColorScheme** object.
-
-
-### Parameters
+_expression_ A variable that represents a **[ColorScheme](Publisher.ColorScheme.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-|ColorIndex|Required| **PbSchemeColorIndex**| The color from the scheme to return based on its function in the scheme.|
+|_ColorIndex_|Required| **[PbSchemeColorIndex](Publisher.PbSchemeColorIndex.md)**| The color from the scheme to return based on its function in the scheme. Can be one of the **PbSchemeColorIndex** constants declared in the Microsoft Publisher type library.|
 
-### Return Value
+## Return value
 
 ColorFormat
 
 
-## Remarks
-
-The ColorIndex parameter can be one of the  **[PbSchemeColorIndex](Publisher.PbSchemeColorIndex.md)** constants declared in the Microsoft Publisher type library.
-
-
 ## Example
 
-The following example loops through the  **ColorSchemes** collection and looks for color schemes where the followed hyperlink color matches the color with the RGB value of 128.
-
+The following example loops through the **[ColorSchemes](Publisher.ColorSchemes.md)** collection and looks for color schemes where the followed hyperlink color matches the color with the RGB value of 128.
 
 ```vb
 Dim cscLoop As ColorScheme 
@@ -62,4 +55,4 @@ For Each cscLoop In Application.ColorSchemes
 Next cscLoop
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

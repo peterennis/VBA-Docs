@@ -1,20 +1,21 @@
 ---
-title: XlWindowType Enumeration (Excel)
+title: XlWindowType enumeration (Excel)
 ms.prod: excel
 api_name:
 - Excel.XlWindowType
 ms.assetid: eca25770-feb6-3723-9bbd-4d2186b8eafa
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# XlWindowType Enumeration (Excel)
+# XlWindowType enumeration (Excel)
 
 Specifies how the chart is displayed.
 
 
 
-|**Name**|**Value**|**Description**|
+|Name|Value|Description|
 |:-----|:-----|:-----|
 | **xlChartAsWindow**|5|The chart will open in a new window.|
 | **xlChartInPlace**|4|The chart will be displayed on the current worksheet.|
@@ -22,3 +23,4 @@ Specifies how the chart is displayed.
 | **xlInfo**|-4129|This constant has been deprecated.|
 | **xlWorkbook**|1|This constant applies to Macintosh only.|
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

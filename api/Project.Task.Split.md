@@ -1,30 +1,29 @@
 ---
-title: Task.Split Method (Project)
+title: Task.Split method (Project)
 ms.prod: project-server
 api_name:
 - Project.Task.Split
 ms.assetid: 847c5cfd-a10f-ea6a-aa49-2e2e88d1840e
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Task.Split Method (Project)
+# Task.Split method (Project)
 
 Splits the task into two portions.
 
 
 ## Syntax
 
- _expression_. `Split`( ` _StartSplitOn_`, ` _EndSplitOn_` )
+_expression_.**Split** (_StartSplitOn_, _EndSplitOn_)
 
- _expression_ A variable that represents a [Task](./Project.Task.md) object.
-
-
-### Parameters
+_expression_ A variable that represents a [Task](./Project.Task.md) object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _StartSplitOn_|Required|**Variant**|The start date of the task split. If a time is not specified, the project's default end time for the working period is used.|
 | _EndSplitOn_|Required|**Variant**|The end date of the task split. If a time is not specified, the project's default start time for the working period is used. If  _EndSplitOn_ is on or before the date specified with _StartSplitOn_, the split is not created.|
@@ -51,4 +50,4 @@ Sub CreateSplit()
 End Sub
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

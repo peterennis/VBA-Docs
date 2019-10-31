@@ -1,5 +1,5 @@
 ---
-title: Application.BaseCalendarEditDays Method (Project)
+title: Application.BaseCalendarEditDays method (Project)
 keywords: vbapj.chm615
 f1_keywords:
 - vbapj.chm615
@@ -8,26 +8,27 @@ api_name:
 - Project.Application.BaseCalendarEditDays
 ms.assetid: 3a65015e-c174-985a-5235-099db363c003
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Application.BaseCalendarEditDays Method (Project)
+# Application.BaseCalendarEditDays method (Project)
 
 Changes one or more days in a base calendar.
 
 
 ## Syntax
 
- _expression_. `BaseCalendarEditDays`( ` _Name_`, ` _StartDate_`, ` _EndDate_`, ` _WeekDay_`, ` _Working_`, ` _From1_`, ` _To1_`, ` _From2_`, ` _To2_`, ` _From3_`, ` _To3_`, ` _Default_`, ` _From4_`, ` _To4_`, ` _From5_`, ` _To5_` )
+_expression_. `BaseCalendarEditDays`( `_Name_`, `_StartDate_`, `_EndDate_`, `_WeekDay_`, `_Working_`, `_From1_`, `_To1_`, `_From2_`, `_To2_`, `_From3_`, `_To3_`, `_Default_`, `_From4_`, `_To4_`, `_From5_`, `_To5_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
-
-
-### Parameters
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _Name_|Required|**String**|**String**. The name of the base calendar to change.|
 | _StartDate_|Optional|**Variant**|The first date to change. If  **StartDate** is specified without **EndDate**, that date is the only day affected. If **WeekDay** is specified, **StartDate** is ignored.|
@@ -46,7 +47,7 @@ Changes one or more days in a base calendar.
 | _From5_|Optional|**Variant**|The start time of the fifth shift.|
 | _To5_|Optional|**Variant**|The end time of the fifth shift.|
 
-### Return Value
+## Return value
 
  **Boolean**
 
@@ -73,4 +74,4 @@ Sub MakeSelectedDaysNonWorking()
 End Sub
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

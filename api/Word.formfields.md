@@ -1,12 +1,13 @@
 ---
-title: FormFields Object (Word)
+title: FormFields object (Word)
 ms.prod: word
 ms.assetid: a44a0f57-123b-cade-e306-ba6dc179b619
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# FormFields Object (Word)
+# FormFields object (Word)
 
 A collection of  **FormField** objects that represent all the form fields in a selection, range, or document.
 
@@ -20,7 +21,7 @@ Use the  **FormFields** property to return the **FormFields** collection. The fo
 For Each aField In ActiveDocument.FormFields 
  If aField.Type = wdFieldFormTextInput Then count = count + 1 
 Next aField 
-MsgBox "There are " &amp; count &amp; " text boxes in this document"
+MsgBox "There are " & count & " text boxes in this document"
 ```
 
 Use the  **Add** method with the **FormFields** object to add a form field. The following example adds a check box at the beginning of the active document and then selects the check box.
@@ -60,7 +61,7 @@ End If
 
 
 
-|**Name**|
+|Name|
 |:-----|
 |[Add](Word.FormFields.Add.md)|
 |[Item](Word.FormFields.Item.md)|
@@ -69,7 +70,7 @@ End If
 
 
 
-|**Name**|
+|Name|
 |:-----|
 |[Application](Word.FormFields.Application.md)|
 |[Count](Word.FormFields.Count.md)|
@@ -80,4 +81,6 @@ End If
 ## See also
 
 
-[Word Object Model Reference](./overview/Word/object-model.md)
+[Word Object Model Reference](overview/Word/object-model.md)
+
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

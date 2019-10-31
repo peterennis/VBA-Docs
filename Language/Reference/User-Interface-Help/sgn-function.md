@@ -1,28 +1,28 @@
 ---
-title: Sgn Function
+title: Sgn function (Visual Basic for Applications)
 keywords: vblr6.chm1009021
 f1_keywords:
 - vblr6.chm1009021
 ms.prod: office
 ms.assetid: 9da078d4-8c97-ea76-c095-46a4e46518ac
-ms.date: 06/08/2017
+ms.date: 12/13/2018
+localization_priority: Normal
 ---
 
 
-# Sgn Function
+# Sgn function
 
-
-
-Returns a  **Variant** (**Integer**) indicating the sign of a number.
+Returns a **Variant** (**Integer**) indicating the sign of a number.
 
 ## Syntax
 
-**Sgn(**_number_**)**
-The required  _number_[argument](../../Glossary/vbe-glossary.md#argument) can be any valid[numeric expression](../../Glossary/vbe-glossary.md#numeric-expression).
- **Return Values**
+**Sgn**(_number_)
 
+The required _number_ [argument](../../Glossary/vbe-glossary.md#argument) can be any valid [numeric expression](../../Glossary/vbe-glossary.md#numeric-expression).
 
-|**If  _number_ is**|**Sgn returns**|
+## Return values
+
+|If _number_ is|Sgn returns|
 |:-----|:-----|
 |Greater than zero|1|
 |Equal to zero|0|
@@ -30,12 +30,11 @@ The required  _number_[argument](../../Glossary/vbe-glossary.md#argument) can be
 
 ## Remarks
 
-The sign of the  _number_ argument determines the return value of the **Sgn** function.
+The sign of the _number_ argument determines the return value of the **Sgn** function.
 
 ## Example
 
-This example uses the  **Sgn** function to determine the sign of a number.
-
+This example uses the **Sgn** function to determine the sign of a number.
 
 ```vb
 Dim MyVar1, MyVar2, MyVar3, MySign
@@ -45,4 +44,8 @@ MySign = Sgn(MyVar2)    ' Returns -1.
 MySign = Sgn(MyVar3)    ' Returns 0.
 ```
 
+## See also
 
+- [Functions (Visual Basic for Applications)](../functions-visual-basic-for-applications.md)
+
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

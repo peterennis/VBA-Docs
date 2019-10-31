@@ -1,5 +1,5 @@
 ---
-title: DataRecordsetChangedEvent.ObjectType Property (Visio)
+title: DataRecordsetChangedEvent.ObjectType property (Visio)
 keywords: vis_sdr.chm17213960
 f1_keywords:
 - vis_sdr.chm17213960
@@ -8,31 +8,33 @@ api_name:
 - Visio.DataRecordsetChangedEvent.ObjectType
 ms.assetid: e30c13c2-241b-c875-1376-b8a5f0204c51
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# DataRecordsetChangedEvent.ObjectType Property (Visio)
+# DataRecordsetChangedEvent.ObjectType property (Visio)
 
-Returns  **visObjTypeDataRecordsetChangedEvent** , the type of a **DataRecordsetChangedEvent** object. Read-only.
+Returns **visObjTypeDataRecordsetChangedEvent**, the type of a **DataRecordsetChangedEvent** object. Read-only.
 
 
- **Note**  This Visio object or member is available only to licensed users of Visio Professional 2013.
+> [!NOTE] 
+> This Visio object or member is available only to licensed users of Visio Professional 2013.
 
 
 ## Syntax
 
- _expression_. `ObjectType`
+_expression_.**ObjectType**
 
- _expression_ An expression that returns a [DataRecordsetChangedEvent](./Visio.DataRecordsetChangedEvent.md) object.
+_expression_ An expression that returns a **[DataRecordsetChangedEvent](Visio.DataRecordsetChangedEvent.md)** object.
 
 
-### Return Value
+## Return value
 
 Integer
 
 
 ## Remarks
 
-Constants representing object types are prefixed with  **visObjType** and are declared by the Visio type library in **[VisObjectTypes](Visio.VisObjectTypes.md)** .
+Constants representing object types are prefixed with **visObjType** and are declared by the Visio type library in **[VisObjectTypes](Visio.VisObjectTypes.md)**.
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

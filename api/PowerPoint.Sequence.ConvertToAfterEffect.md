@@ -1,5 +1,5 @@
 ---
-title: Sequence.ConvertToAfterEffect Method (PowerPoint)
+title: Sequence.ConvertToAfterEffect method (PowerPoint)
 keywords: vbapp10.chm651009
 f1_keywords:
 - vbapp10.chm651009
@@ -8,33 +8,34 @@ api_name:
 - PowerPoint.Sequence.ConvertToAfterEffect
 ms.assetid: bbd340a5-d0c4-1db9-259c-ee43c079309a
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Sequence.ConvertToAfterEffect Method (PowerPoint)
+# Sequence.ConvertToAfterEffect method (PowerPoint)
 
 Specifies what an effect should do after it is finished. Returns an  **[Effect](PowerPoint.Effect.md)** object that represents an after effect.
 
 
 ## Syntax
 
- _expression_. `ConvertToAfterEffect`( `_Effect_`, `_After_`, `_DimColor_`, `_DimSchemeColor_` )
+_expression_. `ConvertToAfterEffect`( `_Effect_`, `_After_`, `_DimColor_`, `_DimSchemeColor_` )
 
- _expression_ A variable that represents a [Sequence](./PowerPoint.Sequence.md) object.
-
-
-### Parameters
+_expression_ A variable that represents a [Sequence](PowerPoint.Sequence.md) object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _Effect_|Required|**Effect**|The effect to which the after effect will be added.|
 | _After_|Required|**[MsoAnimAfterEffect](PowerPoint.MsoAnimAfterEffect.md)**|The behavior of the after effect.|
 | _DimColor_|Optional|**MsoRGBType**|A single color to apply the after effect.|
 | _DimSchemeColor_|Optional|**[PpColorSchemeIndex](PowerPoint.PpColorSchemeIndex.md)**|A predefined color scheme to apply to the after effect.|
 
-### Return Value
+## Return value
 
 Effect
 
@@ -77,3 +78,4 @@ End Sub
 
 [Sequence Object](PowerPoint.Sequence.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

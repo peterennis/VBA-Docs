@@ -1,5 +1,5 @@
 ---
-title: Views.Remove Method (Outlook)
+title: Views.Remove method (Outlook)
 keywords: vbaol11.chm548
 f1_keywords:
 - vbaol11.chm548
@@ -8,26 +8,27 @@ api_name:
 - Outlook.Views.Remove
 ms.assetid: 73a92be6-8dc4-6fb9-7f20-0ff678445737
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Views.Remove Method (Outlook)
+# Views.Remove method (Outlook)
 
 Removes an object from the collection.
 
 
 ## Syntax
 
- _expression_. `Remove` `_Index_`
+_expression_.**Remove** (_Index_)
 
- _expression_ A variable that represents a [Views](./Outlook.Views.md) object.
-
-
-### Parameters
+_expression_ A variable that represents a [Views](Outlook.Views.md) object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _Index_|Required| **Variant**|The name or 1-based index value of an object within a collection.|
 
@@ -76,3 +77,4 @@ End Sub
 
 [Views Object](Outlook.Views.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

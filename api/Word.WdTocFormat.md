@@ -1,20 +1,21 @@
 ---
-title: WdTocFormat Enumeration (Word)
+title: WdTocFormat enumeration (Word)
 ms.prod: word
 api_name:
 - Word.WdTocFormat
 ms.assetid: 2f21ad4a-f200-a2cf-4ce4-db7f304c0708
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# WdTocFormat Enumeration (Word)
+# WdTocFormat enumeration (Word)
 
 Specifies the type of formatting to apply to the table of contents in the active document.
 
 
 
-|**Name**|**Value**|**Description**|
+|Name|Value|Description|
 |:-----|:-----|:-----|
 | **wdTOCClassic**|1|Classic formatting.|
 | **wdTOCDistinctive**|2|Distinctive formatting.|
@@ -24,3 +25,4 @@ Specifies the type of formatting to apply to the table of contents in the active
 | **wdTOCSimple**|6|Simple formatting.|
 | **wdTOCTemplate**|0|Template formatting.|
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

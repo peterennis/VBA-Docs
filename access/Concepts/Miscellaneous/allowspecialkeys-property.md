@@ -9,6 +9,7 @@ api_name:
 - Access.AllowSpecialKeys
 ms.assetid: 5628e6b6-f253-a435-5bce-58b6727382cc
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
@@ -23,7 +24,7 @@ You can use the **AllowSpecialKeys** property to specify whether or not special 
 
 The **AllowSpecialKeys** property uses the following settings.
 
-|**Setting**|**Description**|
+|Setting|Description|
 |:-----|:-----|
 |**True** (-1)|Enable the special key sequences.|
 |**False** (0)|Disable the special key sequences.|
@@ -35,9 +36,9 @@ To view the **Access Options** dialog box, click the **Microsoft Office button**
 
 To set the **AllowSpecialKeys** property by using a macro or Visual Basic, you must first either set the property in the **Access Options** dialog box once or create the property in the following ways:
 
-- In a Microsoft Access database, you can add it by using the **[CreateProperty](http://msdn.microsoft.com/library/f2039be9-5fd8-f673-dfbf-0a71540cdc98%28Office.15%29.aspx)** method and append it to the **Properties** collection of the **Database** object.
+- In a Microsoft Access database, you can add it by using the **[CreateProperty](https://msdn.microsoft.com/library/f2039be9-5fd8-f673-dfbf-0a71540cdc98%28Office.15%29.aspx)** method and append it to the **Properties** collection of the **Database** object.
     
-- In a Microsoft Access project (.adp), you can add it to the **[AccessObjectProperties](http://msdn.microsoft.com/library/2df86891-6038-d147-2a32-f1c77b841067%28Office.15%29.aspx)** collection of the **[CurrentProject](http://msdn.microsoft.com/library/e6baae73-1eeb-b48f-d35e-b3e921378561%28Office.15%29.aspx)** object by using the **[Add](http://msdn.microsoft.com/library/8f86d5f8-b9af-87d3-fae4-e1a24d7225b6%28Office.15%29.aspx)** method.
+- In a Microsoft Access project (.adp), you can add it to the **[AccessObjectProperties](https://msdn.microsoft.com/library/2df86891-6038-d147-2a32-f1c77b841067%28Office.15%29.aspx)** collection of the **[CurrentProject](https://msdn.microsoft.com/library/e6baae73-1eeb-b48f-d35e-b3e921378561%28Office.15%29.aspx)** object by using the **[Add](https://msdn.microsoft.com/library/8f86d5f8-b9af-87d3-fae4-e1a24d7225b6%28Office.15%29.aspx)** method.
     
 
 ## Remarks
@@ -57,9 +58,11 @@ This property's setting doesn't take effect until the next time the application 
 
 ## See also
 
-- [Access for developers forum on MSDN](https://social.msdn.microsoft.com/Forums/office/en-US/home?forum=accessdev)
+- [Access for developers forum](https://social.msdn.microsoft.com/Forums/office/home?forum=accessdev)
 - [Access help on support.office.com](https://support.office.com/search/results?query=Access)
-- [Access help on answers.microsoft.com](https://answers.microsoft.com/en-us/msoffice/forum?page=1&;tab=question&;status=all&;auth=1)
+- [Access help on answers.microsoft.com](https://answers.microsoft.com/)
 - [Access forums on UtterAccess](http://www.utteraccess.com/forum/index.php?act=idx)
 - [Access developer and VBA programming help center (FMS)](http://www.fmsinc.com/MicrosoftAccess/developer/)
 - [Access posts on StackOverflow](https://stackoverflow.com/questions/tagged/ms-access)
+
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

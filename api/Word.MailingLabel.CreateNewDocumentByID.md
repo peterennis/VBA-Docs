@@ -1,5 +1,5 @@
 ---
-title: MailingLabel.CreateNewDocumentByID Method (Word)
+title: MailingLabel.CreateNewDocumentByID method (Word)
 keywords: vbawd10.chm152502378
 f1_keywords:
 - vbawd10.chm152502378
@@ -8,26 +8,27 @@ api_name:
 - Word.MailingLabel.CreateNewDocumentByID
 ms.assetid: 5b2d0b50-89cd-e37b-48d3-f4475009ba79
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# MailingLabel.CreateNewDocumentByID Method (Word)
+# MailingLabel.CreateNewDocumentByID method (Word)
 
 Creates a new label document using either the default label options or ones that you specify. Returns a  **Document** object that represents the new document.
 
 
 ## Syntax
 
- _expression_. `CreateNewDocumentByID`( `_LabelID_` , `_Address_` , `_AutoText_` , `_ExtractAddress_` , `_LaserTray_` , `_PrintEPostageLabel_` , `_Vertical_` )
+_expression_. `CreateNewDocumentByID`( `_LabelID_` , `_Address_` , `_AutoText_` , `_ExtractAddress_` , `_LaserTray_` , `_PrintEPostageLabel_` , `_Vertical_` )
 
  _expression_ An expression that returns a '[MailingLabel](Word.MailingLabel.md)' object.
 
 
-### Parameters
+## Parameters
 
 
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _LabelID_|Optional| **Variant**|The mailing label identification.|
 | _Address_|Optional| **Variant**|The text for the mailing label.|
@@ -37,7 +38,7 @@ Creates a new label document using either the default label options or ones that
 | _PrintEPostageLabel_|Optional| **Variant**| **True** to print postage using an Internet e-postage vendor.|
 | _Vertical_|Optional| **Variant**| **True** formats text vertically on the label. Used for Asian-language mailing labels.|
 
-### Return Value
+## Return value
 
 Document
 
@@ -47,3 +48,4 @@ Document
 
 [MailingLabel Object](Word.MailingLabel.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

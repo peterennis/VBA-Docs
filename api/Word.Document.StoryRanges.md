@@ -1,5 +1,5 @@
 ---
-title: Document.StoryRanges Property (Word)
+title: Document.StoryRanges property (Word)
 keywords: vbawd10.chm158007352
 f1_keywords:
 - vbawd10.chm158007352
@@ -8,24 +8,25 @@ api_name:
 - Word.Document.StoryRanges
 ms.assetid: 6afc9e1a-950c-e1b0-15d5-73afeb72fc59
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Document.StoryRanges Property (Word)
+# Document.StoryRanges property (Word)
 
 Returns a  **[StoryRanges](Word.storyranges.md)** collection that represents all the stories in the specified document. Read-only.
 
 
 ## Syntax
 
- _expression_. `StoryRanges`
+_expression_. `StoryRanges`
 
- _expression_ A variable that represents a '[Document](Word.Document.md)' object.
+_expression_ A variable that represents a **[Document](Word.Document.md)** object.
 
 
 ## Remarks
 
-For information about returning a single member of a collection, see [Returning an Object from a Collection](../word/Concepts/Miscellaneous/returning-an-object-from-a-collection-word.md).
+For information about returning a single member of a collection, see [Returning an object from a collection](../word/Concepts/Miscellaneous/returning-an-object-from-a-collection-word.md).
 
 
 ## Example
@@ -58,3 +59,4 @@ MsgBox ActiveDocument.StoryRanges(wdPrimaryHeaderStory).Text
 
 [Document Object](Word.Document.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

@@ -1,5 +1,5 @@
 ---
-title: Page.YOffsetWithinReaderSpread Property (Publisher)
+title: Page.YOffsetWithinReaderSpread property (Publisher)
 keywords: vbapb10.chm393237
 f1_keywords:
 - vbapb10.chm393237
@@ -7,31 +7,31 @@ ms.prod: publisher
 api_name:
 - Publisher.Page.YOffsetWithinReaderSpread
 ms.assetid: 765adae3-af5d-ae37-5b1c-284cce8891ca
-ms.date: 06/08/2017
+ms.date: 06/11/2019
+localization_priority: Normal
 ---
 
 
-# Page.YOffsetWithinReaderSpread Property (Publisher)
+# Page.YOffsetWithinReaderSpread property (Publisher)
 
-Returns a  **Single** that represents the distance (in points) from the top edge of the reader spread to the top edge of the page. Read-only.
+Returns a **Single** that represents the distance (in [points](../language/glossary/vbe-glossary.md#point)) from the top edge of the reader spread to the top edge of the page. Read-only.
 
 
 ## Syntax
 
- _expression_. **YOffsetWithinReaderSpread**
+_expression_.**YOffsetWithinReaderSpread**
 
- _expression_ A variable that represents a  **Page** object.
+_expression_ A variable that represents a **[Page](Publisher.Page.md)** object.
 
 
-### Return Value
+## Return value
 
 Single
 
 
 ## Example
 
-This example creates a shape on the second and third pages of the active publication and then sets the position of the shape on the third page to the diagonally opposite corner of the page from the shape on the second page. For this example to work, the active publication must have at least three pages.
-
+This example creates a shape on the second and third pages of the active publication, and then sets the position of the shape on the third page to the diagonally opposite corner of the page from the shape on the second page. For this example to work, the active publication must have at least three pages.
 
 ```vb
 Sub OffsetShapePositions() 
@@ -69,4 +69,4 @@ Sub OffsetShapePositions()
 End Sub
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

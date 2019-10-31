@@ -1,20 +1,21 @@
 ---
-title: WdContentControlType Enumeration (Word)
+title: WdContentControlType enumeration (Word)
 ms.prod: word
 api_name:
 - Word.WdContentControlType
 ms.assetid: 6bf57b23-d12f-b942-4a30-cd1deed09407
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# WdContentControlType Enumeration (Word)
+# WdContentControlType enumeration (Word)
 
 Indicates the type of content control.
 
 
 
-|**Name**|**Value**|**Description**|
+|Name|Value|Description|
 |:-----|:-----|:-----|
 | **wdContentControlBuildingBlockGallery**|5|Specifies a building block gallery content control.|
 | **wdContentControlCheckbox**|8|Specifies a checkbox content control.|
@@ -27,3 +28,4 @@ Indicates the type of content control.
 | **wdContentControlRichText**|0|Specifies a rich-text content control.|
 | **wdContentControlText**|1|Specifies a text content control|
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

@@ -1,22 +1,23 @@
 ---
-title: XlPictureConvertorType Enumeration (Excel)
+title: XlPictureConvertorType enumeration (Excel)
 ms.prod: excel
 api_name:
 - Excel.XlPictureConvertorType
 ms.assetid: c70bdac4-b174-5679-c1dd-99fb8acf08c7
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# XlPictureConvertorType Enumeration (Excel)
+# XlPictureConvertorType enumeration (Excel)
 
 Specifies how to convert a graphic.
 
 
 
-|**Name**|**Value**|**Description**|
+|Name|Value|Description|
 |:-----|:-----|:-----|
-| **xlBMP**|1|Windows version 2.0?compatible bitmap|
+| **xlBMP**|1|Windows version 2.0 - compatible bitmap|
 | **xlCGM**|7|Computer Graphics Metafile|
 | **xlDRW**|4|DRW|
 | **xlDXF**|5|DXF|
@@ -30,3 +31,4 @@ Specifies how to convert a graphic.
 | **xlWMF**|2|Windows Metafile|
 | **xlWPG**|3|WordPerfect/DrawPerfect Graphic|
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

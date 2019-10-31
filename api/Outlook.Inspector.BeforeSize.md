@@ -1,5 +1,5 @@
 ---
-title: Inspector.BeforeSize Event (Outlook)
+title: Inspector.BeforeSize event (Outlook)
 keywords: vbaol11.chm471
 f1_keywords:
 - vbaol11.chm471
@@ -8,28 +8,29 @@ api_name:
 - Outlook.Inspector.BeforeSize
 ms.assetid: ee0b12af-0edc-bd06-c67c-67469df128dd
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Inspector.BeforeSize Event (Outlook)
+# Inspector.BeforeSize event (Outlook)
 
-Occurs when the user sizes the current  **[Inspector](Outlook.Inspector.md)** .
+Occurs when the user sizes the current  **[Inspector](Outlook.Inspector.md)**.
 
 
 ## Syntax
 
- _expression_. `BeforeSize`( `_Cancel_` )
+_expression_. `BeforeSize`( `_Cancel_` )
 
- _expression_ A variable that represents an [Inspector](./Outlook.Inspector.md) object.
-
-
-### Parameters
+_expression_ A variable that represents an [Inspector](Outlook.Inspector.md) object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-| _Cancel_|Required| **Boolean**| **False** when the event occurs. If the event procedure sets this argument to **True** , the operation is not completed and the **Inspector** is not sized.|
+| _Cancel_|Required| **Boolean**| **False** when the event occurs. If the event procedure sets this argument to **True**, the operation is not completed and the **Inspector** is not sized.|
 
 ## Remarks
 
@@ -46,7 +47,7 @@ Public WithEvents myIns As Outlook.Inspector
  
  
  
-Public Sub Initalize_Handler() 
+Public Sub Initialize_Handler() 
  
  Set myIns = Application.ActiveInspector 
  
@@ -81,3 +82,4 @@ End Sub
 
 [Inspector Object](Outlook.Inspector.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

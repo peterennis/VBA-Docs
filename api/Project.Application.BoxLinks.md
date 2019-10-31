@@ -1,5 +1,5 @@
 ---
-title: Application.BoxLinks Method (Project)
+title: Application.BoxLinks method (Project)
 keywords: vbapj.chm44
 f1_keywords:
 - vbapj.chm44
@@ -8,26 +8,27 @@ api_name:
 - Project.Application.BoxLinks
 ms.assetid: da12c972-9647-9e1f-2909-1e0a18aff32b
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Application.BoxLinks Method (Project)
+# Application.BoxLinks method (Project)
 
 Specifies the appearance of link lines in the active Network Diagram view.
 
 
 ## Syntax
 
- _expression_. `BoxLinks`( ` _Style_`, ` _ShowArrows_`, ` _ShowLabels_`, ` _ColorMode_`, ` _CriticalColor_`, ` _NoncriticalColor_` )
+_expression_. `BoxLinks`( `_Style_`, `_ShowArrows_`, `_ShowLabels_`, `_ColorMode_`, `_CriticalColor_`, `_NoncriticalColor_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
-
-
-### Parameters
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _Style_|Optional|**Long**|Specifies the style of link lines. Can be one of the following  **[PjLinkStyle](Project.PjLinkStyle.md)** constants: **pjLinkStraight** or **pjLinkRectilinear**.|
 | _ShowArrows_|Optional|**Boolean**|**True** if link lines have arrows showing the direction of the link; otherwise, **False**.|
@@ -36,7 +37,7 @@ Specifies the appearance of link lines in the active Network Diagram view.
 | _CriticalColor_|Optional|**Long**|The color of link lines between critical tasks. The default value is  **pjRed**. Can be one of the **[PjColor](Project.PjColor.md)** constants.|
 | _NoncriticalColor_|Optional|**Long**| The color of link lines between noncritical tasks. Can be one of the **[PjColor](Project.PjColor.md)** constants. The default value is **pjBlack**.|
 
-### Return Value
+## Return value
 
  **Boolean**
 
@@ -64,4 +65,4 @@ Sub BoxLink_ChangeColor()
 End Sub
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

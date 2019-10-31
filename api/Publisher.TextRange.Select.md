@@ -1,5 +1,5 @@
 ---
-title: TextRange.Select Method (Publisher)
+title: TextRange.Select method (Publisher)
 keywords: vbapb10.chm5308457
 f1_keywords:
 - vbapb10.chm5308457
@@ -7,26 +7,26 @@ ms.prod: publisher
 api_name:
 - Publisher.TextRange.Select
 ms.assetid: 36097502-2b06-37ac-3148-43a82cca4411
-ms.date: 06/08/2017
+ms.date: 06/15/2019
+localization_priority: Normal
 ---
 
 
-# TextRange.Select Method (Publisher)
+# TextRange.Select method (Publisher)
 
 Selects the specified object.
 
 
 ## Syntax
 
- _expression_. **Select**
+_expression_.**Select**
 
- _expression_ A variable that represents a  **TextRange** object.
+_expression_ A variable that represents a **[TextRange](Publisher.TextRange.md)** object.
 
 
 ## Example
 
 This example selects the upper-left cell from a table that has been added to the first page in the active publication.
-
 
 ```vb
 Dim shpTable As Shape 
@@ -40,10 +40,9 @@ With ActiveDocument.Pages(1).Shapes
 End With
 ```
 
+<br/>
+
 This example selects the first column from a table that has been added to the first page in the active publication.
-
-
-
 
 ```vb
 Dim shpTable As Shape 
@@ -58,14 +57,13 @@ With ActiveDocument.Pages(1).Shapes
 End With
 ```
 
+<br/>
+
 This example selects the first five characters in shape one on page one of the active publication.
-
-
-
 
 ```vb
 ActiveDocument.Pages(1).Shapes(1).TextFrame _ 
  .TextRange.Characters(1, 5).Select
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

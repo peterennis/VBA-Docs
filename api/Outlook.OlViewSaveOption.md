@@ -1,5 +1,5 @@
 ---
-title: OlViewSaveOption Enumeration (Outlook)
+title: OlViewSaveOption enumeration (Outlook)
 keywords: vbaol11.chm3095
 f1_keywords:
 - vbaol11.chm3095
@@ -8,16 +8,17 @@ api_name:
 - Outlook.OlViewSaveOption
 ms.assetid: c08bab4d-ecdd-a2ac-1cdc-fa910f9585e0
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# OlViewSaveOption Enumeration (Outlook)
+# OlViewSaveOption enumeration (Outlook)
 
 Specifies the folders in which the view is available and the read permissions attached to the view.
 
 
 
-|**Name**|**Value**|**Description**|
+|Name|Value|Description|
 |:-----|:-----|:-----|
 | **olViewSaveOptionAllFoldersOfType**|2|Indicates that the view is available in all folders of the same type.|
 | **olViewSaveOptionThisFolderEveryone**|0|Indicates that the view is only available in the current folder and is available to all users.|
@@ -25,6 +26,6 @@ Specifies the folders in which the view is available and the read permissions at
 
 ## Remarks
 
-Used by the  **Copy** method and **SaveOption** property of **View** objects.
+Used by the **Copy** method and **SaveOption** property of **View** objects.
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

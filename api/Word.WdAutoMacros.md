@@ -1,20 +1,21 @@
 ---
-title: WdAutoMacros Enumeration (Word)
+title: WdAutoMacros enumeration (Word)
 ms.prod: word
 api_name:
 - Word.WdAutoMacros
 ms.assetid: cd724f11-d18a-a97c-b46c-c4aa354f9e2d
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# WdAutoMacros Enumeration (Word)
+# WdAutoMacros enumeration (Word)
 
 Specifies an auto macro that is stored in the document.
 
 
 
-|**Name**|**Value**|**Description**|
+|Name|Value|Description|
 |:-----|:-----|:-----|
 | **wdAutoClose**|3|AutoClose macro.|
 | **wdAutoExec**|0|AutoExec macro.|
@@ -23,3 +24,4 @@ Specifies an auto macro that is stored in the document.
 | **wdAutoOpen**|2|AutoOpen macro.|
 | **wdAutoSync**|5|AutoSync macro.|
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

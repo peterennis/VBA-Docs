@@ -1,5 +1,5 @@
 ---
-title: Application.SetTaskFieldByID Method (Project)
+title: Application.SetTaskFieldByID method (Project)
 keywords: vbapj.chm95
 f1_keywords:
 - vbapj.chm95
@@ -8,26 +8,27 @@ api_name:
 - Project.Application.SetTaskFieldByID
 ms.assetid: b4c74d96-d25b-707e-15f1-5e7f05363360
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Application.SetTaskFieldByID Method (Project)
+# Application.SetTaskFieldByID method (Project)
 
 Sets the value of a task field specified by the field identification number.
 
 
 ## Syntax
 
- _expression_. `SetTaskFieldByID`( ` _FieldID_`, ` _Value_`, ` _AllSelectedTasks_`, ` _Create_`, ` _TaskID_`, ` _ProjectName_` )
+_expression_. `SetTaskFieldByID`( `_FieldID_`, `_Value_`, `_AllSelectedTasks_`, `_Create_`, `_TaskID_`, `_ProjectName_` )
 
- _expression_ An expression that returns an [Application](./Project.Application.md) object.
-
-
-### Parameters
+ _expression_ An expression that returns an **[Application](Project.Application.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _FieldID_|Required|**PjField**|Field identification number. Can be one of the task fields specified by a  **[PjField](Project.PjField.md)** constant or a number returned by the **[FieldNameToFieldConstant](Project.Application.FieldNameToFieldConstant.md)** method.|
 | _Value_|Required|**String**|The value of the task field.|
@@ -36,7 +37,7 @@ Sets the value of a task field specified by the field identification number.
 | _TaskID_|Optional|**Variant**|The identification number of the task containing the field to set. If  _AllSelectedResources_ is **True**, _TaskID_ is ignored.|
 | _ProjectName_|Optional|**Variant**|If the active project is a consolidated project, specifies the name of the project for the task specified by  _TaskID_. If  _TaskID_ is not specified, _ProjectName_ is ignored. The default value is the name of the active project.|
 
-### Return Value
+## Return value
 
  **Boolean**
 
@@ -45,4 +46,4 @@ Sets the value of a task field specified by the field identification number.
 
 To set a task field by name, use the  **[SetTaskField](Project.Application.SetTaskField.md)** method.
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

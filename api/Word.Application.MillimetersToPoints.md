@@ -1,5 +1,5 @@
 ---
-title: Application.MillimetersToPoints Method (Word)
+title: Application.MillimetersToPoints method (Word)
 keywords: vbawd10.chm158335348
 f1_keywords:
 - vbawd10.chm158335348
@@ -8,30 +8,31 @@ api_name:
 - Word.Application.MillimetersToPoints
 ms.assetid: 13cf2786-709a-d473-0b6d-4fddabb465b8
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Application.MillimetersToPoints Method (Word)
+# Application.MillimetersToPoints method (Word)
 
-Converts a measurement from millimeters to points (1 mm = 2.85 points). Returns the converted measurement as a  **Single** .
+Converts a measurement from millimeters to points (1 mm = 2.85 points). Returns the converted measurement as a  **Single**.
 
 
 ## Syntax
 
- _expression_. `MillimetersToPoints`( `_Millimeters_` )
+_expression_. `MillimetersToPoints`( `_Millimeters_` )
 
- _expression_ A variable that represents an '[Application](Word.Application.md)' object. Optional.
-
-
-### Parameters
+_expression_ A variable that represents an **[Application](Word.Application.md)** object.  Optional.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _Millimeters_|Required| **Single**|The millimeter value to be converted to points.|
 
-### Return Value
+## Return value
 
 Single
 
@@ -60,3 +61,4 @@ Selection.Font.Spacing = MillimetersToPoints(1)
 
 [Application Object](Word.Application.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

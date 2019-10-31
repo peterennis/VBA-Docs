@@ -1,5 +1,5 @@
 ---
-title: OlkCheckBox.KeyPress Event (Outlook)
+title: OlkCheckBox.KeyPress event (Outlook)
 keywords: vbaol11.chm1000157
 f1_keywords:
 - vbaol11.chm1000157
@@ -8,26 +8,27 @@ api_name:
 - Outlook.OlkCheckBox.KeyPress
 ms.assetid: aae8dbfc-d85c-a977-8543-602ff18518fd
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# OlkCheckBox.KeyPress Event (Outlook)
+# OlkCheckBox.KeyPress event (Outlook)
 
 Occurs when the user presses an ANSI key.
 
 
 ## Syntax
 
- _expression_. `KeyPress`( `_KeyAscii_` )
+_expression_. `KeyPress`( `_KeyAscii_` )
 
- _expression_ A variable that represents an [OlkCheckBox](./Outlook.OlkCheckBox.md) object.
-
-
-### Parameters
+_expression_ A variable that represents an [OlkCheckBox](Outlook.OlkCheckBox.md) object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _KeyAscii_|Required| **Long**|The numerical value of the key pressed.|
 
@@ -54,3 +55,4 @@ A  **KeyPress** event does not occur under the following conditions:
 
 [OlkCheckBox Object](Outlook.OlkCheckBox.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

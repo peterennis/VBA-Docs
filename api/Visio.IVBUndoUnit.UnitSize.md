@@ -1,5 +1,5 @@
 ---
-title: IVBUndoUnit.UnitSize Property (Visio)
+title: IVBUndoUnit.UnitSize property (Visio)
 keywords: vis_sdr.chm17360165
 f1_keywords:
 - vis_sdr.chm17360165
@@ -8,22 +8,23 @@ api_name:
 - Visio.IVBUndoUnit.UnitSize
 ms.assetid: 4e6fac31-60d2-e6d5-324d-c593b0456c95
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# IVBUndoUnit.UnitSize Property (Visio)
+# IVBUndoUnit.UnitSize property (Visio)
 
 Returns the size of the undo unit in memory, in bytes. Read-only.
 
 
 ## Syntax
 
- _expression_. `UnitSize`
+_expression_. `UnitSize`
 
- _expression_ A variable that represents a 'IVBUndoUnit' object.
+_expression_ A variable that represents an **[IVBUndoUnit](visio.ivbundounit.md)** object.
 
 
-### Return Value
+## Return value
 
 Long
 
@@ -36,4 +37,4 @@ If you are creating an undo unit for your solution, the  **UnitSize** property i
 
 For more information about the  **UnitSize** property and using the **IVBUndoUnit** interface to create undo units, search for "Creating Undo Units" on MSDN, the Microsoft Developer Network.
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

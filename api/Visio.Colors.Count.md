@@ -1,5 +1,5 @@
 ---
-title: Colors.Count Property (Visio)
+title: Colors.Count property (Visio)
 keywords: vis_sdr.chm12313330
 f1_keywords:
 - vis_sdr.chm12313330
@@ -8,29 +8,30 @@ api_name:
 - Visio.Colors.Count
 ms.assetid: ade1336b-fc3f-ef2d-0365-914a480260ad
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Colors.Count Property (Visio)
+# Colors.Count property (Visio)
 
 Returns the number of objects in a collection. Read-only.
 
 
 ## Syntax
 
- _expression_. `Count`
+_expression_.**Count**
 
- _expression_ A variable that represents a [Colors](./Visio.Colors.md) object.
+_expression_ A variable that represents a **[Colors](Visio.Colors.md)** object.
 
 
-### Return Value
+## Return value
 
 Long
 
 
 ## Example
 
-This Microsoft Visual Basic for Applications (VBA) macro shows how to use the  **Count** property to iterate through a **Documents** collection. It displays the names of all the open Microsoft Visio documents in the **Immediate** window.
+This Microsoft Visual Basic for Applications (VBA) macro shows how to use the  **Count** property to iterate through a **Documents** collection. It displays the names of all the open Microsoft Visio documents in the Immediate window.
 
 
 ```vb
@@ -51,4 +52,4 @@ Public Sub Count_Example()
 End Sub
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

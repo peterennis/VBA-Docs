@@ -1,5 +1,5 @@
 ---
-title: Application.BoxCellLayout Method (Project)
+title: Application.BoxCellLayout method (Project)
 keywords: vbapj.chm2392
 f1_keywords:
 - vbapj.chm2392
@@ -8,26 +8,27 @@ api_name:
 - Project.Application.BoxCellLayout
 ms.assetid: 9b1ab0f5-d3ef-3258-aa01-ae1dea264ec5
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Application.BoxCellLayout Method (Project)
+# Application.BoxCellLayout method (Project)
 
 Sets the cell layout and size properties for a data template in the Network Diagram view. The initial layout of a new data template is 2 rows by 2 columns of 100% width cells with cell merging enabled.
 
 
 ## Syntax
 
- _expression_. `BoxCellLayout`( ` _Name_`, ` _CellRows_`, ` _CellColumns_`, ` _CellWidth_`, ` _MergeCells_` )
+_expression_. `BoxCellLayout`( `_Name_`, `_CellRows_`, `_CellColumns_`, `_CellWidth_`, `_MergeCells_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
-
-
-### Parameters
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _Name_|Required|**String**|**String**. The name of the data template to edit.|
 | _CellRows_|Optional|**Long**|A value from 1 through 4 that specifies the number of rows of cells in the data template.|
@@ -35,7 +36,7 @@ Sets the cell layout and size properties for a data template in the Network Diag
 | _CellWidth_|Optional|**Integer**|A value from 100 through 200 that specifies the percentage by which to enlarge the width of the template cells.|
 | _MergeCells_|Optional|**Boolean**|**True** if blank cells are merged with the cell to the left.|
 
-### Return Value
+## Return value
 
  **Boolean**
 
@@ -61,4 +62,4 @@ Sub ModifyCriticalDataTemplate()
 End Sub
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

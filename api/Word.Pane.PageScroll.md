@@ -1,5 +1,5 @@
 ---
-title: Pane.PageScroll Method (Word)
+title: Pane.PageScroll method (Word)
 keywords: vbawd10.chm157286505
 f1_keywords:
 - vbawd10.chm157286505
@@ -8,26 +8,27 @@ api_name:
 - Word.Pane.PageScroll
 ms.assetid: d96a9e10-6d57-14d7-5f4c-ab2aeffed22b
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Pane.PageScroll Method (Word)
+# Pane.PageScroll method (Word)
 
 Scrolls through the specified window page by page.
 
 
 ## Syntax
 
- _expression_. `PageScroll`( `_Down_` , `_Up_` )
+_expression_. `PageScroll`( `_Down_` , `_Up_` )
 
- _expression_ Required. A variable that represents a '[Pane](Word.Pane.md)' object.
-
-
-### Parameters
+_expression_ Required. A variable that represents a '[Pane](Word.Pane.md)' object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _Down_|Optional| **Variant**|The number of pages to be scrolled down. If this argument is omitted, this value is assumed to be 1.|
 | _Up_|Optional| **Variant**|The number of pages to be scrolled up.|
@@ -55,3 +56,4 @@ ActiveDocument.ActiveWindow.ActivePane.PageScroll Up:=1
 
 [Pane Object](Word.Pane.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

@@ -1,20 +1,21 @@
 ---
-title: WdRecoveryType Enumeration (Word)
+title: WdRecoveryType enumeration (Word)
 ms.prod: word
 api_name:
 - Word.WdRecoveryType
 ms.assetid: 031525aa-6df9-2b28-8507-fa3c869beba8
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# WdRecoveryType Enumeration (Word)
+# WdRecoveryType enumeration (Word)
 
 Specifies the formatting to use when pasting the selected table cells.
 
 
 
-|**Name**|**Value**|**Description**|
+|Name|Value|Description|
 |:-----|:-----|:-----|
 | **wdChart**|14|Pastes a Microsoft Office Excel chart as an embedded OLE object.|
 | **wdChartLinked**|15|Pastes an Excel chart and links it to the original Excel spreadsheet.|
@@ -35,3 +36,4 @@ Specifies the formatting to use when pasting the selected table cells.
 | **wdTableOverwriteCells**|23|Pastes table cells and overwrites existing table cells.|
 | **wdUseDestinationStylesRecovery**|19|Uses the styles that are in use in the destination document.|
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

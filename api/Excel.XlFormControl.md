@@ -1,20 +1,21 @@
 ---
-title: XlFormControl Enumeration (Excel)
+title: XlFormControl enumeration (Excel)
 ms.prod: excel
 api_name:
 - Excel.XlFormControl
 ms.assetid: fad54f9d-4ef2-b2ac-d187-131e5bdd18e1
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# XlFormControl Enumeration (Excel)
+# XlFormControl enumeration (Excel)
 
 Specifies the type of the form control.
 
 
 
-|**Name**|**Value**|**Description**|
+|Name|Value|Description|
 |:-----|:-----|:-----|
 | **xlButtonControl**|0|Button.|
 | **xlCheckBox**|1|Check box.|
@@ -27,3 +28,4 @@ Specifies the type of the form control.
 | **xlScrollBar**|8|Scroll bar.|
 | **xlSpinner**|9|Spinner.|
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

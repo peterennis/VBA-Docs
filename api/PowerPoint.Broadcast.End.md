@@ -1,5 +1,5 @@
 ---
-title: Broadcast.End Method (PowerPoint)
+title: Broadcast.End method (PowerPoint)
 keywords: vbapp10.chm732004
 f1_keywords:
 - vbapp10.chm732004
@@ -8,30 +8,31 @@ api_name:
 - PowerPoint.Broadcast.End
 ms.assetid: b4ccda97-aa08-77ff-3a2f-8600721a55b0
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Broadcast.End Method (PowerPoint)
+# Broadcast.End method (PowerPoint)
 
 Elevates to the system to delete the document from the Broadcast Documents library. 
 
 
 ## Syntax
 
- _expression_. `End`
+_expression_.**End**
 
- _expression_ A variable that represents a [Broadcast](./PowerPoint.Broadcast.md) object.
-
-
-### Parameters
+_expression_ A variable that represents a [Broadcast](PowerPoint.Broadcast.md) object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 |Required| _FileID_|**String**|The file to be removed from the Broadcast Documents library.|
 
-### Return Value
+## Return value
 
 None
 
@@ -46,3 +47,4 @@ This method validates that the user who made the request is the creator of the d
 
 [Broadcast Object](PowerPoint.Broadcast.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

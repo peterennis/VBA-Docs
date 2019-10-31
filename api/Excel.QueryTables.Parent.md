@@ -1,5 +1,5 @@
 ---
-title: QueryTables.Parent Property (Excel)
+title: QueryTables.Parent property (Excel)
 keywords: vbaxl10.chm520075
 f1_keywords:
 - vbaxl10.chm520075
@@ -7,24 +7,23 @@ ms.prod: excel
 api_name:
 - Excel.QueryTables.Parent
 ms.assetid: c12b6aca-8e95-5560-647b-f63259ef9584
-ms.date: 06/08/2017
+ms.date: 05/03/2019
+localization_priority: Normal
 ---
 
 
-# QueryTables.Parent Property (Excel)
+# QueryTables.Parent property (Excel)
 
 Returns the parent object for the specified object. Read-only.
 
 
 ## Syntax
 
- _expression_. `Parent`
+_expression_.**Parent**
 
- _expression_ A variable that represents a [QueryTables](Excel.QueryTables.md) object.
-
-
-## See also
+_expression_ A variable that represents a **[QueryTables](Excel.QueryTables.md)** object.
 
 
-[QueryTables Object](Excel.QueryTables.md)
 
+
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

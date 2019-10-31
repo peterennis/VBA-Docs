@@ -4,6 +4,7 @@ ROBOTS: INDEX
 ms.prod: access
 ms.assetid: ee4f1d71-82c4-3b0d-94b6-ad3f5a7608b8
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
@@ -22,7 +23,7 @@ _expr_ [ **Not** ] **In**( _value1, value2, …_ )
 
 The **In** operator syntax has these parts:
 
-|**Part**|**Description**|
+|Part|Description|
 |:-----|:-----|
 | _expr_|Expression identifying the field that contains the data you want to evaluate.|
 | _value1_, _value2_|Expression or list of expressions against which you want to evaluate _expr_.|
@@ -44,7 +45,7 @@ The following example uses the Orders table in the Northwind.mdb database to cre
 
 This example calls the EnumFields procedure, which you can find in the SELECT statement example.
 
-```sql
+```vb
 Sub InX() 
  
     Dim dbs As Database, rst As Recordset 
@@ -74,9 +75,11 @@ End Sub
 
 ## See also
 
-- [Access for developers forum on MSDN](https://social.msdn.microsoft.com/Forums/office/en-US/home?forum=accessdev)
+- [Access for developers forum](https://social.msdn.microsoft.com/Forums/office/home?forum=accessdev)
 - [Access help on support.office.com](https://support.office.com/search/results?query=Access)
-- [Access help on answers.microsoft.com](https://answers.microsoft.com/en-us/msoffice/forum?page=1&;tab=question&;status=all&;auth=1)
+- [Access help on answers.microsoft.com](https://answers.microsoft.com/)
 - [Access forums on UtterAccess](http://www.utteraccess.com/forum/index.php?act=idx)
 - [Access developer and VBA programming help center (FMS)](http://www.fmsinc.com/MicrosoftAccess/developer/)
 - [Access posts on StackOverflow](https://stackoverflow.com/questions/tagged/ms-access)
+
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

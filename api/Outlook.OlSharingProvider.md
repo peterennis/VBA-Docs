@@ -1,5 +1,5 @@
 ---
-title: OlSharingProvider Enumeration (Outlook)
+title: OlSharingProvider enumeration (Outlook)
 keywords: vbaol11.chm3146
 f1_keywords:
 - vbaol11.chm3146
@@ -8,16 +8,17 @@ api_name:
 - Outlook.OlSharingProvider
 ms.assetid: b42c20dc-e90d-264b-38d7-686cd74a547f
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# OlSharingProvider Enumeration (Outlook)
+# OlSharingProvider enumeration (Outlook)
 
 Indicates the sharing provider associated with a  **[SharingItem](Outlook.SharingItem.md)** object.
 
 
 
-|**Name**|**Value**|**Description**|
+|Name|Value|Description|
 |:-----|:-----|:-----|
 | **olProviderExchange**|1|Represents the Exchange sharing provider.|
 | **olProviderFederate**|7|Represents a federated sharing provider. A  **SharingItem** object with this type of provider is used for sharing relationships across organizational boundares (for example, between two organizations using Microsoft Exchange Server 2010).|
@@ -28,3 +29,4 @@ Indicates the sharing provider associated with a  **[SharingItem](Outlook.Sharin
 | **olProviderUnknown**|0|Represents an unknown sharing provider. This value is used if the sharing provider GUID in the sharing message does not match the GUID of any of the sharing providers represented in this enumeration.|
 | **olProviderWebCal**|2|Represents the WebCal sharing provider.|
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

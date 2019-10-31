@@ -1,5 +1,5 @@
 ---
-title: UserAccessList.Count Property (Excel)
+title: UserAccessList.Count property (Excel)
 keywords: vbaxl10.chm726073
 f1_keywords:
 - vbaxl10.chm726073
@@ -7,24 +7,23 @@ ms.prod: excel
 api_name:
 - Excel.UserAccessList.Count
 ms.assetid: a162316a-de05-cb47-3afc-e4fbe3bcd661
-ms.date: 06/08/2017
+ms.date: 05/18/2019
+localization_priority: Normal
 ---
 
 
-# UserAccessList.Count Property (Excel)
+# UserAccessList.Count property (Excel)
 
-Returns a  **Long** value that represents the number of objects in the collection.
+Returns a **Long** value that represents the number of objects in the collection.
 
 
 ## Syntax
 
- _expression_. `Count`
+_expression_.**Count**
 
- _expression_ A variable that represents an [UserAccessList](./Excel.UserAccessList.md) object.
-
-
-## See also
+_expression_ A variable that represents a **[UserAccessList](Excel.UserAccessList.md)** object.
 
 
-[UserAccessList Object](Excel.UserAccessList.md)
 
+
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

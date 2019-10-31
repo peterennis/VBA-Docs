@@ -1,5 +1,5 @@
 ---
-title: Range.CheckSpelling Method (Word)
+title: Range.CheckSpelling method (Word)
 keywords: vbawd10.chm157155533
 f1_keywords:
 - vbawd10.chm157155533
@@ -8,26 +8,25 @@ api_name:
 - Word.Range.CheckSpelling
 ms.assetid: 41873962-8cac-84a4-4e01-712985513cd4
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Range.CheckSpelling Method (Word)
+# Range.CheckSpelling method (Word)
 
 Begins a spelling check for the specified document or range.
 
 
 ## Syntax
 
- _expression_. `CheckSpelling`( `_CustomDictionary_` , `_IgnoreUppercase_` , `_AlwaysSuggest_` , `_CustomDictionary2_` , `_CustomDictionary3_` , `_CustomDictionary4_` , `_CustomDictionary5_` , `_CustomDictionary6_` , `_CustomDictionary7_` , `_CustomDictionary8_` , `_CustomDictionary9_` , `_CustomDictionary10_` )
+_expression_.**CheckSpelling** (_CustomDictionary_, _IgnoreUppercase_, _AlwaysSuggest_, _CustomDictionary2_, _CustomDictionary3_, _CustomDictionary4_, _CustomDictionary5_, _CustomDictionary6_, _CustomDictionary7_, _CustomDictionary8_, _CustomDictionary9_, _CustomDictionary10_)
 
- _expression_ Required. A variable that represents a '[Range](Word.Range.md)' object.
-
-
-### Parameters
+_expression_ Required. A variable that represents a **[Range](Word.Range.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _CustomDictionary_|Optional| **Variant**|Either an expression that returns a  **Dictionary** object or the file name of the custom dictionary.|
 | _IgnoreUppercase_|Optional| **Variant**| **True** if capitalization is ignored. If this argument is omitted, the current value of the **IgnoreUppercase** property is used.|
@@ -65,3 +64,4 @@ range2.CheckSpelling IgnoreUpperCase:=False, _
 
 [Range Object](Word.Range.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

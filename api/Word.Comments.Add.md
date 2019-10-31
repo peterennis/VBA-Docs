@@ -1,5 +1,5 @@
 ---
-title: Comments.Add Method (Word)
+title: Comments.Add method (Word)
 keywords: vbawd10.chm155189252
 f1_keywords:
 - vbawd10.chm155189252
@@ -8,31 +8,32 @@ api_name:
 - Word.Comments.Add
 ms.assetid: bf3e2f9b-b7d6-f669-c82a-70ff58aaedfe
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Comments.Add Method (Word)
+# Comments.Add method (Word)
 
 Returns a  **Comment** object that represents a comment added to a range.
 
 
 ## Syntax
 
- _expression_. `Add`( `_Range_` , `_Text_` )
+_expression_.**Add** (_Range_, _Text_)
 
- _expression_ Required. A variable that represents a '[Comments](Word.comments.md)' collection.
-
-
-### Parameters
+_expression_ Required. A variable that represents a '[Comments](Word.comments.md)' collection.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _Range_|Required| **Range object**|The range to have a comment added to it.|
 | _Text_|Optional| **Variant**|The text of the comment.|
 
-### Return Value
+## Return value
 
 Comment
 
@@ -71,3 +72,4 @@ End Sub
 
 [Comments Collection Object](Word.comments.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

@@ -1,23 +1,24 @@
 ---
-title: ChartGroup.HasRadarAxisLabels Property (PowerPoint)
+title: ChartGroup.HasRadarAxisLabels property (PowerPoint)
 ms.prod: powerpoint
 api_name:
 - PowerPoint.ChartGroup.HasRadarAxisLabels
 ms.assetid: ae8102a3-db43-410e-06fe-ab9f7f7ab6ff
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# ChartGroup.HasRadarAxisLabels Property (PowerPoint)
+# ChartGroup.HasRadarAxisLabels property (PowerPoint)
 
  **True** if a radar chart has axis labels. Read/write **Boolean**.
 
 
 ## Syntax
 
- _expression_. `HasRadarAxisLabels`
+_expression_.**HasRadarAxisLabels**
 
- _expression_ A variable that represents a '[ChartGroup](PowerPoint.ChartGroup.md)' object.
+_expression_ A variable that represents a **[ChartGroup](PowerPoint.ChartGroup.md)** object.
 
 
 ## Remarks
@@ -30,7 +31,8 @@ This property applies only to radar charts.
 
 
 
- **Note**  Although the following code applies to Microsoft Word, you can readily modify it to apply to PowerPoint.
+> [!NOTE] 
+> Although the following code applies to Microsoft Word, you can readily modify it to apply to PowerPoint.
 
 The following example enables radar axis labels for chart group one of the first chart in the active document and sets their color. You should run the example on a radar chart.
 
@@ -63,3 +65,4 @@ End With
 
 [ChartGroup Object](PowerPoint.ChartGroup.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

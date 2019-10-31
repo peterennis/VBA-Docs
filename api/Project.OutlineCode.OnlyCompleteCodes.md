@@ -1,23 +1,24 @@
 ---
-title: OutlineCode.OnlyCompleteCodes Property (Project)
+title: OutlineCode.OnlyCompleteCodes property (Project)
 ms.prod: project-server
 api_name:
 - Project.OutlineCode.OnlyCompleteCodes
 ms.assetid: eb0b8dc2-2cb8-a86b-2711-fa4c6f215971
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# OutlineCode.OnlyCompleteCodes Property (Project)
+# OutlineCode.OnlyCompleteCodes property (Project)
 
  **True** if only outline codes with values at all levels of the code mask can be used. Read/write **Boolean**.
 
 
 ## Syntax
 
- _expression_. `OnlyCompleteCodes`
+_expression_. `OnlyCompleteCodes`
 
- _expression_ A variable that represents an [OutlineCode](./Project.OutlineCode.md) object.
+_expression_ A variable that represents an [OutlineCode](./Project.OutlineCode.md) object.
 
 
 ## Remarks
@@ -30,7 +31,8 @@ For enterprise text fields with a lookup table,  **OnlyCompleteCodes** is always
 The following example adds a custom outline code to store the location of resources and configures the outline code such that only the full name of a code can be associated with a resource.
 
 
- **Note**  The  **OnlyCompleteCodes** property can be set only after the lookup table contains entries. If you try to set **OnlyCompleteCodes** before creating lookup table entries, the result is run-time error 7, "Out of memory."
+> [!NOTE] 
+> The  **OnlyCompleteCodes** property can be set only after the lookup table contains entries. If you try to set **OnlyCompleteCodes** before creating lookup table entries, the result is run-time error 7, "Out of memory."
 
 
 ```vb
@@ -90,4 +92,4 @@ Sub EditLocationLookupTable(objLookupTable As LookupTable)
 End Sub
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

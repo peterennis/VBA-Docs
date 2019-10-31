@@ -1,26 +1,27 @@
 ---
-title: Application.GetCacheStatusForProject Property (Project)
+title: Application.GetCacheStatusForProject property (Project)
 ms.prod: project-server
 ms.assetid: 71ab8ee0-83fc-c80f-3583-ce66b167d044
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Application.GetCacheStatusForProject Property (Project)
+# Application.GetCacheStatusForProject property (Project)
 Gets the state of a specified job that the active cache in Project Professional sends to the Project Server Queue System. Read-only  **PjCacheJobState**.
 
 ## Syntax
 
- _expression_. `GetCacheStatusForProject`
+_expression_. `GetCacheStatusForProject`
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
-
-
-### Parameters
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _ProjectName_|Required|**String**|The name of the project; can be the active project or a different project that is open.|
 | _ProjectJobType_|Required|**PjJobType**|Can be one of the [PjJobType](Project.pjjobtype.md) constants for the save, publish, or check-in operation.|
@@ -32,7 +33,7 @@ When you use Project Professional to perform an operation that uses one of the q
 
 ## Example
 
-The  **TestCacheStatus** macro in the following example saves the active project, calls **WaitForJob** to wait for the queue to finish successfully, and then publishes the project. The **WaitForJob** macro periodically checks the job state by calling **GetCacheStatusForProject** and prints the job status to the **Immediate** window. If it finds the same status more than ten times in succession, the **WaitForJob** macro assumes there is a problem and exits. The example uses a **Sleep** method that can be run in either a 64-bit Project installation or a 32-bit Project installation.
+The  **TestCacheStatus** macro in the following example saves the active project, calls **WaitForJob** to wait for the queue to finish successfully, and then publishes the project. The **WaitForJob** macro periodically checks the job state by calling **GetCacheStatusForProject** and prints the job status to the Immediate window. If it finds the same status more than ten times in succession, the **WaitForJob** macro assumes there is a problem and exits. The example uses a **Sleep** method that can be run in either a 64-bit Project installation or a 32-bit Project installation.
 
 
 ```vb
@@ -142,3 +143,5 @@ Publish completed: WinProj test 1
 
 [PjCacheJobState Enumeration](Project.pjcachejobstate.md)
 [PjJobType Enumeration](Project.pjjobtype.md)
+
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

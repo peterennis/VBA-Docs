@@ -1,5 +1,5 @@
 ---
-title: TextRange.Lines Method (Publisher)
+title: TextRange.Lines method (Publisher)
 keywords: vbapb10.chm5308455
 f1_keywords:
 - vbapb10.chm5308455
@@ -7,47 +7,45 @@ ms.prod: publisher
 api_name:
 - Publisher.TextRange.Lines
 ms.assetid: 56862090-b2ff-403b-d016-e37108d5ccc1
-ms.date: 06/08/2017
+ms.date: 06/15/2019
+localization_priority: Normal
 ---
 
 
-# TextRange.Lines Method (Publisher)
+# TextRange.Lines method (Publisher)
 
-Returns a  **[TextRange](Publisher.TextRange.md)** object that represents the specified lines.
+Returns a **TextRange** object that represents the specified lines.
 
 
 ## Syntax
 
- _expression_. **Lines**(**_Start_**,  **_Length_**)
+_expression_.**Lines** (_Start_, _Length_)
 
- _expression_ A variable that represents a  **TextRange** object.
-
-
-### Parameters
+_expression_ A variable that represents a **[TextRange](Publisher.TextRange.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-|Start|Required| **Long**|The first line in the returned range.|
-|Length|Optional| **Long**|The number of lines to be returned. Default is 1.|
+|_Start_|Required| **Long**|The first line in the returned range.|
+|_Length_|Optional| **Long**|The number of lines to be returned. The default is 1.|
 
-### Return Value
+## Return value
 
 TextRange
 
 
 ## Remarks
 
-If  **_Start_** is greater than the number of lines in the specified text, the returned range starts with the last line in the specified range.
+If _Start_ is greater than the number of lines in the specified text, the returned range starts with the last line in the specified range.
 
-If  **_Length_** is greater than the number of lines from the specified starting line to the end of the text, the returned range contains all those lines.
+If _Length_ is greater than the number of lines from the specified starting line to the end of the text, the returned range contains all those lines.
 
 
 ## Example
 
 This example replaces the first three lines of the first shape on the first page with the specified string.
-
 
 ```vb
 Sub ReplaceLines() 
@@ -60,4 +58,4 @@ Sub ReplaceLines()
 End Sub
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

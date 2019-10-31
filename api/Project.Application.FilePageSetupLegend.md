@@ -1,5 +1,5 @@
 ---
-title: Application.FilePageSetupLegend Method (Project)
+title: Application.FilePageSetupLegend method (Project)
 keywords: vbapj.chm2359
 f1_keywords:
 - vbapj.chm2359
@@ -8,24 +8,25 @@ api_name:
 - Project.Application.FilePageSetupLegend
 ms.assetid: b4118a37-f777-b806-9bb4-3f7e6766eda7
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Application.FilePageSetupLegend Method (Project)
+# Application.FilePageSetupLegend method (Project)
 
 Creates a legend for printing views of task data.
 
 
 ## Syntax
 
-_expression_. **FilePageSetupLegend** (**_Name_**, **_TextWidth_**, **_LegendOn_**, **_Alignment_**, **_Text_**, **_LabelFontName_**, **_LabelFontSize_**, **_LabelFontBold_**, **_LabelFontItalic_**, **_LabelFontUnderline_**, **_LabelFontColor_**)
+_expression_.**FilePageSetupLegend** (_Name_, _TextWidth_, _LegendOn_, _Alignment_, _Text_, _LabelFontName_, _LabelFontSize_, _LabelFontBold_, _LabelFontItalic_, _LabelFontUnderline_, _LabelFontColor_)
 
-_expression_ A variable that represents an **Application** object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
-### Parameters
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _Name_|Optional|**String**|The name of the view or report for which to set up legends for printing.|
 | _TextWidth_|Optional|**Integer**|The width of the text, in inches or centimeters.|
@@ -41,40 +42,40 @@ _expression_ A variable that represents an **Application** object.
 
 <br/>
 
-#### Format codes
+### Format codes
 
 |**Format code**|**Description**|
 |:-----|:-----|
-|&;B|Turns bold printing on or off.|
-|&;I|Turns italic printing on or off.|
-|&;U|Turns underline printing on or off.|
-|&;""fontname""|Prints characters that follow the format code in the specified font. For example, &;""Arial"".|
-|&;nn|Prints characters that follow the format code in the specified font size. Use a two-digit number to specify a size in points. For example, &;08.|
-|&;P""path""|Inserts the specified image. For example, &;P"" _[My Documents]_ \Image.gif"". The term _[My Documents]_ represents the full path to your My Documents folder.|
-|&;[Date]|Prints the current system date.|
-|&;[Time]|Prints the current system time.|
-|&;[File]|Prints the file name.|
-|&;[Page]|Prints the page number.|
-|&;[Pages]|Prints the total number of pages in the document.|
-|&;[Project Title]|Prints the title.|
-|&;[Company]|Prints the company name.|
-|&;[Manager]|Prints the manager name.|
-|&;[Start Date]|Prints the project start date.|
-|&;[Finish Date]|Prints the project finish date.|
-|&;[Current Date]|Prints the project current date.|
-|&;[Status Date]|Prints the project status date.|
-|&;[View]|Prints the view name.|
-|&;[Report]|Prints the report name.|
-|&;[Filter]|Prints the filter name.|
-|&;[Saved Date]|Prints the last saved date.|
-|&;[Subject]|Prints the subject.|
-|&;[Author]|Prints the author.|
-|&;[Keyword]|Prints the keyword(s).|
-|&;[_Field_Name_]|Prints the value of the field specified with _Field_Name_. If a macro will be run in more than one language, the field specified with _Field_Name_ must use the name localized for each language. For example, &;[Actual Cost].|
+|&B|Turns bold printing on or off.|
+|&I|Turns italic printing on or off.|
+|&U|Turns underline printing on or off.|
+|&""fontname""|Prints characters that follow the format code in the specified font. For example, &""Arial"".|
+|&nn|Prints characters that follow the format code in the specified font size. Use a two-digit number to specify a size in points. For example, &08.|
+|&P""path""|Inserts the specified image. For example, &P"" _[My Documents]_ \Image.gif"". The term _[My Documents]_ represents the full path to your My Documents folder.|
+|&[Date]|Prints the current system date.|
+|&[Time]|Prints the current system time.|
+|&[File]|Prints the file name.|
+|&[Page]|Prints the page number.|
+|&[Pages]|Prints the total number of pages in the document.|
+|&[Project Title]|Prints the title.|
+|&[Company]|Prints the company name.|
+|&[Manager]|Prints the manager name.|
+|&[Start Date]|Prints the project start date.|
+|&[Finish Date]|Prints the project finish date.|
+|&[Current Date]|Prints the project current date.|
+|&[Status Date]|Prints the project status date.|
+|&[View]|Prints the view name.|
+|&[Report]|Prints the report name.|
+|&[Filter]|Prints the filter name.|
+|&[Saved Date]|Prints the last saved date.|
+|&[Subject]|Prints the subject.|
+|&[Author]|Prints the author.|
+|&[Keyword]|Prints the keyword(s).|
+|&[_Field_Name_]|Prints the value of the field specified with _Field_Name_. If a macro will be run in more than one language, the field specified with _Field_Name_ must use the name localized for each language. For example, &[Actual Cost].|
 
 <br/>
 
-#### PjColor constants
+### PjColor constants
 
 |||
 |:-----|:-----|
@@ -90,7 +91,7 @@ _expression_ A variable that represents an **Application** object.
 
 <br/>
 
-### Return value
+## Return value
 
  **Boolean**
 
@@ -124,4 +125,4 @@ Public Function GetFontFormatCode(strFontName As String) As String
 End Function
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

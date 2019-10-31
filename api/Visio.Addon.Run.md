@@ -1,5 +1,5 @@
 ---
-title: Addon.Run Method (Visio)
+title: Addon.Run method (Visio)
 keywords: vis_sdr.chm12416490
 f1_keywords:
 - vis_sdr.chm12416490
@@ -7,42 +7,39 @@ ms.prod: visio
 api_name:
 - Visio.Addon.Run
 ms.assetid: 223d87ff-8fd6-b68c-a716-3ff30659f898
-ms.date: 06/08/2017
+ms.date: 06/24/2019
+localization_priority: Normal
 ---
 
 
-# Addon.Run Method (Visio)
+# Addon.Run method (Visio)
 
-Runs the add-on represented by an  **Addon** object.
+Runs the add-on represented by an **Addon** object.
 
 
 ## Syntax
 
- _expression_. `Run`( `_ArgString_` )
+_expression_.**Run** (_ArgString_)
 
- _expression_ An expression that returns a [Addon](./Visio.Addon.md) object.
-
-
-### Parameters
+ _expression_ An expression that returns an **[Addon](Visio.Addon.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _ArgString_|Required| **String**|The argument string to pass to the add-on.|
 
-### Return Value
+## Return value
 
 Nothing
 
 
 ## Remarks
 
-If the add-on is implemented by an EXE file, the arguments are passed in the command line string. If the add-on is implemented by a VSL file, the arguments are passed in a member of the argument structure that accompanies the run message sent to the  **VisioLibMain** procedure of the VSL.
+If the add-on is implemented by an EXE file, the arguments are passed in the command-line string. 
+
+If the add-on is implemented by a VSL file, the arguments are passed in a member of the argument structure that accompanies the run message sent to the **VisioLibMain** procedure of the VSL.
 
 
- **Security Note**  
-
-
-
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

@@ -1,5 +1,5 @@
 ---
-title: Form.DataChange Event (Access)
+title: Form.DataChange event (Access)
 keywords: vbaac10.chm13685
 f1_keywords:
 - vbaac10.chm13685
@@ -7,43 +7,37 @@ ms.prod: access
 api_name:
 - Access.Form.DataChange
 ms.assetid: 026fddb4-2a43-095c-9460-98c12378735c
-ms.date: 06/08/2017
+ms.date: 03/08/2019
+localization_priority: Normal
 ---
 
 
-# Form.DataChange Event (Access)
+# Form.DataChange event (Access)
 
 Occurs when certain properties are changed or when certain methods are executed in the specified PivotTable view.
 
 
 ## Syntax
 
- _expression_. `DataChange`( ` _Reason_`, )
+_expression_.**DataChange** (_Reason_)
 
- _expression_ A variable that represents a [Form](Access.Form.md) object.
-
-
-### Parameters
+_expression_ A variable that represents a **[Form](Access.Form.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-| _Reason_|Required|**Long**|A  **PivotDataReasonEnum** constant that indicates the reason that this event was triggered.|
+| _Reason_|Required|**Long**|A **PivotDataReasonEnum** constant that indicates the reason that this event was triggered.|
 
-### Return Value
+## Return value
 
-nothing
+Nothing
 
 
 ## Example
 
-The following example demonstrates the syntax for a subroutine that traps the  **DataChange** event.
-
-
-
-
-
+The following example demonstrates the syntax for a subroutine that traps the **DataChange** event.
 
 ```vb
 Private Sub Form_DataChange(Reason As Long) 
@@ -54,8 +48,5 @@ End Sub
 ```
 
 
-## See also
 
-
-[Form Object](Access.Form.md)
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

@@ -1,5 +1,5 @@
 ---
-title: Range.Table Method (Excel)
+title: Range.Table method (Excel)
 keywords: vbaxl10.chm144208
 f1_keywords:
 - vbaxl10.chm144208
@@ -7,32 +7,31 @@ ms.prod: excel
 api_name:
 - Excel.Range.Table
 ms.assetid: 804b0e1d-e92d-387d-1054-90643bfd16ff
-ms.date: 06/08/2017
+ms.date: 05/11/2019
+localization_priority: Normal
 ---
 
 
-# Range.Table Method (Excel)
+# Range.Table method (Excel)
 
 Creates a data table based on input values and formulas that you define on a worksheet.
 
 
 ## Syntax
 
- _expression_. `Table`( `_RowInput_` , `_ColumnInput_` )
+_expression_.**Table** (_RowInput_, _ColumnInput_)
 
- _expression_ A variable that represents a [Range](Excel.Range(Graph property).md) object.
-
-
-### Parameters
+_expression_ A variable that represents a **[Range](excel.range(object).md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _RowInput_|Optional| **Variant**|A single cell to use as the row input for your table.|
 | _ColumnInput_|Optional| **Variant**|A single cell to use as the column input for your table.|
 
-### Return Value
+## Return value
 
 Variant
 
@@ -45,7 +44,6 @@ Use data tables to perform a what-if analysis by changing certain constant value
 ## Example
 
 This example creates a formatted multiplication table in cells A1:K11 on Sheet1.
-
 
 ```vb
 Set dataTableRange = Worksheets("Sheet1").Range("A1:K11") 
@@ -66,8 +64,5 @@ End With
 ```
 
 
-## See also
 
-
-[Range Object](Excel.Range(object).md)
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

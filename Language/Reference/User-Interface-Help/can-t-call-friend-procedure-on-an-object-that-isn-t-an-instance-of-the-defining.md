@@ -6,12 +6,13 @@ f1_keywords:
 ms.prod: office
 ms.assetid: a926e392-f2b3-5f65-41a7-211eeb31e92e
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
 # Can't call Friend procedure on an object that isn't an instance of the defining class (Error 97)
 
-A  **Friend** procedure is callable from a[module](../../Glossary/vbe-glossary.md#module) that is outside the[class](../../Glossary/vbe-glossary.md#class), but part of the [project](../../Glossary/vbe-glossary.md#project) within which the class is defined. This error has the following causes and solutions:
+A  **Friend** procedure is callable from a [module](../../Glossary/vbe-glossary.md#module) that is outside the [class](../../Glossary/vbe-glossary.md#class), but part of the [project](../../Glossary/vbe-glossary.md#project) within which the class is defined. This error has the following causes and solutions:
 
 
 
@@ -22,3 +23,4 @@ A  **Friend** procedure is callable from a[module](../../Glossary/vbe-glossary.m
 
 For additional information, select the item in question and press F1 (in Windows) or HELP (on the Macintosh).
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

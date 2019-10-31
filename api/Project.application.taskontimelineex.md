@@ -1,31 +1,32 @@
 ---
-title: Application.TaskOnTimelineEx Method (Project)
+title: Application.TaskOnTimelineEx method (Project)
 keywords: vbapj.chm159
 f1_keywords:
 - vbapj.chm159
 ms.assetid: 4307f842-0ccc-d7ac-f386-ec8d259011c6
 ms.date: 06/08/2017
 ms.prod: project-server
+localization_priority: Normal
 ---
 
 
-# Application.TaskOnTimelineEx Method (Project)
+# Application.TaskOnTimelineEx method (Project)
 
 Manages tasks on the Timeline pane or for a specified custom timeline, including specifying the bar that you want to add or remove. Introduced in Office 2016.
 
 
 ## Syntax
 
- _expression_. `TaskOnTimelineEx`( _TaskID_,  _TaskID_,  _Remove_,  _TimelineViewName_,  _ShowDialog_,  _BarIndex_)
+_expression_.**TaskOnTimelineEx** (_TaskID_,  _TaskID_,  _Remove_,  _TimelineViewName_,  _ShowDialog_,  _BarIndex_)
 
- _expression_ A variable that represents a [Application](./Project.Application.md) object.
-
-
-### Parameters
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _TaskID_|Optional|**Long**|Specifies the identification number of a task to add to the timeline or remove from the timeline. If  _TaskID_ is specified, selected tasks are ignored.|
 | _Remove_|Optional|**Boolean**|**True** if the task specified by _TaskID_ or the selected tasks are removed from the timeline; otherwise, **False**. The default value is **False**.|
@@ -33,8 +34,8 @@ Manages tasks on the Timeline pane or for a specified custom timeline, including
 | _ShowDialog_|Optional|**Boolean**|**True** if Project displays the **Add Tasks to Timeline** dialog box; otherwise, **False**. Any tasks that are already on the timeline have a check by their names. If _ShowDialog_ is **True**, Project ignores the _TaskID_ and _Remove_ arguments. The default value is **False**.|
 | _BarIndex_|Optional|**Variant**|The bar that you want to add or remove.|
 
-### Return Value
+## Return value
 
  **BOOL**
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

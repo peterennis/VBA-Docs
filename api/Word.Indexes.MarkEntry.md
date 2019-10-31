@@ -1,5 +1,5 @@
 ---
-title: Indexes.MarkEntry Method (Word)
+title: Indexes.MarkEntry method (Word)
 keywords: vbawd10.chm159121509
 f1_keywords:
 - vbawd10.chm159121509
@@ -8,26 +8,27 @@ api_name:
 - Word.Indexes.MarkEntry
 ms.assetid: e0c88e2b-6a5c-0ae9-3639-393a454c546b
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Indexes.MarkEntry Method (Word)
+# Indexes.MarkEntry method (Word)
 
 Inserts an XE (Index Entry) field after the specified range. The method returns a  **Field** object representing the XE field.
 
 
 ## Syntax
 
- _expression_. `MarkEntry`( `_Range_` , `_Entry_` , `_EntryAutoText_` , `_CrossReference_` , `_CrossReferenceAutoText_` , `_BookmarkName_` , `_Bold_` , `_Italic_` , `_Reading_` )
+_expression_. `MarkEntry`( `_Range_` , `_Entry_` , `_EntryAutoText_` , `_CrossReference_` , `_CrossReferenceAutoText_` , `_BookmarkName_` , `_Bold_` , `_Italic_` , `_Reading_` )
 
- _expression_ Required. A variable that represents an '[Indexes](Word.indexes.md)' collection.
-
-
-### Parameters
+_expression_ Required. A variable that represents an '[Indexes](Word.indexes.md)' collection.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _Range_|Required| **Range object**|The location of the entry. The XE field is inserted after Range.|
 | _Entry_|Optional| **Variant**|The text that appears in the index. To indicate a subentry, include the main entry text and the subentry text, separated by a colon (:) (for example, "Introduction:The Product").|
@@ -39,7 +40,7 @@ Inserts an XE (Index Entry) field after the specified range. The method returns 
 | _Italic_|Optional| **Variant**| **True** to add italic formatting to the entry page numbers in the index.|
 | _Reading_|Optional| **Variant**| **True** shows an index entry in the right location when indexes are sorted phonetically (East Asian languages only).|
 
-### Return Value
+## Return value
 
 Field
 
@@ -62,3 +63,4 @@ End If
 
 [Indexes Collection Object](Word.indexes.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

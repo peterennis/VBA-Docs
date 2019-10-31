@@ -1,5 +1,5 @@
 ---
-title: Application.DeleteFromDatabase Method (Project)
+title: Application.DeleteFromDatabase method (Project)
 keywords: vbapj.chm135
 f1_keywords:
 - vbapj.chm135
@@ -8,26 +8,27 @@ api_name:
 - Project.Application.DeleteFromDatabase
 ms.assetid: 22bed2ff-0e8b-e589-1479-06c482f296a9
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Application.DeleteFromDatabase Method (Project)
+# Application.DeleteFromDatabase method (Project)
 
 Deletes a project stored in a database.
 
 
 ## Syntax
 
- _expression_. `DeleteFromDatabase`( ` _Name_`, ` _UserID_`, ` _DatabasePassWord_`, ` _FormatID_` )
+_expression_. `DeleteFromDatabase`( `_Name_`, `_UserID_`, `_DatabasePassWord_`, `_FormatID_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
-
-
-### Parameters
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _Name_|Optional|**String**|The name of the source file or data source to open, and the name of the project to delete from the database.|
 | _UserID_|Optional|**String**| A user ID to use when accessing the database.|
@@ -41,7 +42,7 @@ Deletes a project stored in a database.
 |"MSProject.mdb"|Microsoft Access database|
 |
 
-### Return Value
+## Return value
 
  **Boolean**
 
@@ -50,7 +51,7 @@ Deletes a project stored in a database.
 
 The Name argument must contain a file name string, or an ODBC data source name (DSN), and the project name string. The syntax for a data source is < _DataSourceName_ >\ _Projectname_. The less than (<) and greater than (>) symbols must be included, and a backslash ( \ ) must separate the data source name from the project name. The _DataSourceName_ itself can either be one of the ODBC data source names installed on the computer, a file DSN, or a path and file name for a file-based database.
 
-In the following examples, _ [My Documents]_ is the full path of your My Documents folder, and _[Program Files]_ is the full path of your Program Files folder:
+In the following examples, _[My Documents]_ is the full path of your My Documents folder, and _[Program Files]_ is the full path of your Program Files folder:
 
 "<Corporate SQL Database>\Factory Construction" 
 
@@ -85,4 +86,4 @@ Sub KillProjects()
 End Sub
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

@@ -1,5 +1,5 @@
 ---
-title: Trendlines.Add Method (PowerPoint)
+title: Trendlines.Add method (PowerPoint)
 keywords: vbapp10.chm65717
 f1_keywords:
 - vbapp10.chm65717
@@ -8,26 +8,25 @@ api_name:
 - PowerPoint.Trendlines.Add
 ms.assetid: d7bd5d75-233f-bdc7-87a4-297b69031838
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Trendlines.Add Method (PowerPoint)
+# Trendlines.Add method (PowerPoint)
 
 Creates a new trendline.
 
 
 ## Syntax
 
- _expression_. `Add`( `_Type_`, `_Order_`, `_Period_`, `_Forward_`, `_Backward_`, `_Intercept_`, `_DisplayEquation_`, `_DisplayRSquared_`, `_Name_` )
+_expression_.**Add** (_Type_, _Order_, _Period_, _Forward_, _Backward_, _Intercept_, _DisplayEquation_, _DisplayRSquared_, _Name_)
 
- _expression_ A variable that represents a '[Trendlines](PowerPoint.Trendlines.md)' object.
-
-
-### Parameters
+_expression_ A variable that represents a '[Trendlines](PowerPoint.Trendlines.md)' object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _Type_|Optional|**[XlTrendlineType](PowerPoint.XlTrendlineType.md)**|One of the enumeration values that specifies the trendline type. The default is  **xlLinear**.|
 | _Order_|Optional|**Variant**|The trendline order. Required ifType is set to  **xlPolynomial**. If specified, the value must be an integer from 2 through 6.|
@@ -35,14 +34,15 @@ Creates a new trendline.
 | _Forward_|Optional|**Variant**|The number of periods (or units on a scatter chart) that the trendline extends forward.|
 | _Backward_|Optional|**Variant**|The number of periods (or units on a scatter chart) that the trendline extends backward.|
 | _Intercept_|Optional|**Variant**|The trendline intercept. If specified, the value must be a double-precision floating-point number. If omitted, the intercept is automatically set by the regression, and the  **[InterceptIsAuto](PowerPoint.Trendline.InterceptIsAuto.md)** property of the resulting **[Trendline](PowerPoint.Trendline.md)** object is set to **True**.
- **Note**  This parameter is applicable only ifType is set to  **xlExponential**, **xlLinear**, or **xlPolynomial**.
+> [!NOTE] 
+> This parameter is applicable only ifType is set to  **xlExponential**, **xlLinear**, or **xlPolynomial**.
 
 |
 | _DisplayEquation_|Optional|**Variant**|**True** to display the equation of the trendline on the chart (in the same data label as the R-squared value). The default is **False**.|
 | _DisplayRSquared_|Optional|**Variant**|**True** to display the R-squared value of the trendline on the chart (in the same data label as the equation). The default is **False**.|
 | _Name_|Optional|**Variant**|The name of the trendline. If omitted, Microsoft Word generates a name, and the  **[NameIsAuto](PowerPoint.Trendline.NameIsAuto.md)** property of the resulting **[Trendline](PowerPoint.Trendline.md)** object is set to **True**.|
 
-### Return Value
+## Return value
 
 A  **[Trendline](PowerPoint.Trendline.md)** object that represents the new trendline.
 
@@ -52,7 +52,8 @@ A  **[Trendline](PowerPoint.Trendline.md)** object that represents the new trend
 
 
 
- **Note**  Although the following code applies to Microsoft Word, you can readily modify it to apply to PowerPoint.
+> [!NOTE] 
+> Although the following code applies to Microsoft Word, you can readily modify it to apply to PowerPoint.
 
 The following example creates a new linear trendline for the first chart in the active document.
 
@@ -73,3 +74,4 @@ End With
 
 [Trendlines Object](PowerPoint.Trendlines.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

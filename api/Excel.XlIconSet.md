@@ -1,20 +1,21 @@
 ---
-title: XlIconSet Enumeration (Excel)
+title: XlIconSet enumeration (Excel)
 ms.prod: excel
 api_name:
 - Excel.XlIconSet
 ms.assetid: 450f6b95-1cc9-776a-e16e-0735008ecd85
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# XlIconSet Enumeration (Excel)
+# XlIconSet enumeration (Excel)
 
 Specifies the type of icon set.
 
 
 
-|**Name**|**Value**|**Description**|
+|Name|Value|Description|
 |:-----|:-----|:-----|
 | **xl3Arrows**|1|3 Arrows|
 | **xl3ArrowsGray**|2|3 Arrows Gray|
@@ -33,3 +34,4 @@ Specifies the type of icon set.
 | **xl5CRV**|15|5 CRV|
 | **xl5Quarters**|16|5 Quarters|
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

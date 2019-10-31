@@ -1,5 +1,5 @@
-﻿---
-title: SlideRange Object (PowerPoint)
+---
+title: SlideRange object (PowerPoint)
 keywords: vbapp10.chm532000
 f1_keywords:
 - vbapp10.chm532000
@@ -8,10 +8,11 @@ api_name:
 - PowerPoint.SlideRange
 ms.assetid: 440ab59d-744a-209f-bf28-d0acd3a21e1a
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# SlideRange Object (PowerPoint)
+# SlideRange object (PowerPoint)
 
 A collection that represents a notes page or a slide range, which is a set of slides that can contain as little as a single slide or as much as all the slides in a presentation. 
 
@@ -49,7 +50,7 @@ The following examples describe how to:
 
 ## Example
 
-Use  **Slides.Range** (index), where index is the name or index number of the slide or an array that contains either names or index numbers of slides, to return a **SlideRange** collection that represents a set of slides in a presentation. You can use the **Array** function to construct an array of names or index numbers. The following example sets the background fill for slides one and three in the active presentation.
+Use  **Slides.Range** (_index_), where _index_ is the name or index number of the slide or an array that contains either names or index numbers of slides, to return a **SlideRange** collection that represents a set of slides in a presentation. You can use the **Array** function to construct an array of names or index numbers. The following example sets the background fill for slides one and three in the active presentation.
 
 
 ```vb
@@ -94,7 +95,7 @@ With Windows(1).Selection.SlideRange
 End With
 ```
 
-Use  **Selection.SlideRange** (index), where index is the slide name or index number, to return a single slide from the selection. The following example sets the background fill for slide two in the collection of selected slides in window one, assuming that there are at least two slides selected.
+Use  **Selection.SlideRange** (_index_), where _index_ is the slide name or index number, to return a single slide from the selection. The following example sets the background fill for slide two in the collection of selected slides in window one, assuming that there are at least two slides selected.
 
 
 
@@ -125,3 +126,4 @@ ActivePresentation.Slides(1).NotesPage.Shapes _
 
 [PowerPoint Object Model Reference](overview/PowerPoint/object-model.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

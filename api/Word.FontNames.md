@@ -1,21 +1,22 @@
 ---
-title: FontNames Object (Word)
+title: FontNames object (Word)
 ms.prod: word
 api_name:
 - Word.FontNames
 ms.assetid: d3a9a52f-b441-ac63-3e12-25dbf1022f38
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# FontNames Object (Word)
+# FontNames object (Word)
 
 Represents a list of the names of all the available fonts.
 
 
 ## Remarks
 
-Use the  **FontNames** , **LandscapeFontNames** , or **PortraitFontNames** property to return the **FontNames** object. The following example displays the number of portrait fonts available.
+Use the  **FontNames**, **LandscapeFontNames**, or **PortraitFontNames** property to return the **FontNames** object. The following example displays the number of portrait fonts available.
 
 
 ```vb
@@ -43,12 +44,14 @@ MsgBox FontNames(1)
 ```
 
 
- **Note**  You cannot add names to or remove names from the list of available font names.
+> [!NOTE] 
+> You cannot add names to or remove names from the list of available font names.
 
 
 ## See also
 
 
 
-[Word Object Model Reference](./overview/Word/object-model.md)
+[Word Object Model Reference](overview/Word/object-model.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

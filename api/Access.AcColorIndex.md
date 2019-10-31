@@ -1,5 +1,5 @@
 ---
-title: AcColorIndex Enumeration (Access)
+title: AcColorIndex enumeration (Access)
 keywords: vbaac10.chm10041
 f1_keywords:
 - vbaac10.chm10041
@@ -8,23 +8,24 @@ api_name:
 - Access.AcColorIndex
 ms.assetid: 10e54a60-f96f-3e1a-571a-86bdb8b00a15
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# AcColorIndex Enumeration (Access)
+# AcColorIndex enumeration (Access)
 
 Specifies the color to apply.
 
+<br/>
 
-
-|**Name**|**Value**|**Description**|
+|Name|Value|Description|
 |:-----|:-----|:-----|
 |**acColorIndexAqua**|14|Aqua color.|
 |**acColorIndexBlack**|0|Black color.|
 |**acColorIndexBlue**|12|Blue color.|
 |**acColorIndexBrightGreen**|10|Bright green color.|
 |**acColorIndexDarkBlue**|4|Dark blue color.|
-|**acColorIndexFuschia**|13|Fuchsia color.|
+|**acColorIndexFuchsia**|13|Fuchsia color.|
 |**acColorIndexGray**|7|Gray color.|
 |**acColorIndexGreen**|2|Green color.|
 |**acColorIndexMaroon**|1|Maroon color.|
@@ -36,3 +37,4 @@ Specifies the color to apply.
 |**acColorIndexWhite**|15|White color.|
 |**acColorIndexYellow**|11|Yellow color.|
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

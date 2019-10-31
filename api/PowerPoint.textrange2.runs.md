@@ -1,33 +1,34 @@
 ---
-title: TextRange2.Runs Property (PowerPoint)
+title: TextRange2.Runs property (PowerPoint)
 ms.assetid: 1799ac12-3ebb-4790-a433-9b1f27ecdb38
 ms.date: 06/08/2017
 ms.prod: powerpoint
+localization_priority: Normal
 ---
 
 
-# TextRange2.Runs Property (PowerPoint)
+# TextRange2.Runs property (PowerPoint)
 
 Gets a  **TextRange2** object that represents the specified subset of text runs. A text run consists of a range of characters that share the same font attributes. Read-only.
 
 
 ## Syntax
 
- _expression_. `Runs`( `_Start_`, `_Length_` )
+_expression_. `Runs`( `_Start_`, `_Length_` )
 
  _expression_ An expression that returns a 'TextRange2' object.
 
 
-### Parameters
+## Parameters
 
 
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _Start_|Optional|**Long**|The first run in the returned range.|
 | _Length_|Optional|**Long**|The number of runs to be returned.|
 
-### Return Value
+## Return value
 
 TextRange2
 
@@ -72,6 +73,6 @@ End With
 ## See also
 
 
-[TextRange2 Object (PowerPoint)](PowerPoint.textrange2.md)
+[TextRange2 object (PowerPoint)](PowerPoint.textrange2.md)
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

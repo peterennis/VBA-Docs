@@ -1,5 +1,5 @@
 ---
-title: Window.Activate Method (Visio)
+title: Window.Activate method (Visio)
 keywords: vis_sdr.chm11616000
 f1_keywords:
 - vis_sdr.chm11616000
@@ -8,31 +8,32 @@ api_name:
 - Visio.Window.Activate
 ms.assetid: e34a74e0-8a47-a0bb-4ac5-6fdc8c9e5e08
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Window.Activate Method (Visio)
+# Window.Activate method (Visio)
 
 Activates a window.
 
 
 ## Syntax
 
- _expression_. `Activate`
+_expression_.**Activate**
 
- _expression_ An expression that returns a [Window](./Visio.Window.md) object.
+ _expression_ An expression that returns a **[Window](Visio.Window.md)** object.
 
 
-### Return Value
+## Return value
 
 Nothing
 
 
 ## Remarks
 
-Microsoft Visio can have more than one window open at a time; however, only one window is active. Activating a window can change the objects returned by the  **ActiveWindow** , **ActivePage** , and **ActiveDocument** properties.
+Microsoft Visio can have more than one window open at a time; however, only one window is active. Activating a window can change the objects returned by the  **ActiveWindow**, **ActivePage**, and **ActiveDocument** properties.
 
-If your Visual Studio solution includes the  **Microsoft.Office.Interop.Visio** reference, this method maps to the following types:
+If your Visual Studio solution includes the [Microsoft.Office.Interop.Visio](https://docs.microsoft.com/visualstudio/vsto/office-primary-interop-assemblies?view=vs-2019) reference, this method maps to the following types:
 
 
 -  **Microsoft.Office.Interop.Visio.IVWindow.Activate()**
@@ -61,4 +62,4 @@ Public Sub Activate_Example()
 End Sub  
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

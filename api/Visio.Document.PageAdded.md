@@ -1,5 +1,5 @@
 ---
-title: Document.PageAdded Event (Visio)
+title: Document.PageAdded event (Visio)
 keywords: vis_sdr.chm10519200
 f1_keywords:
 - vis_sdr.chm10519200
@@ -8,26 +8,27 @@ api_name:
 - Visio.Document.PageAdded
 ms.assetid: 3a49fcb4-fa41-e13e-ea2c-beb87aff3e40
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Document.PageAdded Event (Visio)
+# Document.PageAdded event (Visio)
 
 Occurs after a new page is added to a document.
 
 
 ## Syntax
 
-Private Sub  _expression_ _'PageAdded'(**_ByVal Page As [IVPAGE]_**)
+_expression_.**PageAdded** (_Page_)
 
- _expression_ A variable that represents a [Document](./Visio.Document.md) object.
-
-
-### Parameters
+_expression_ A variable that represents a **[Document](Visio.Document.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _Page_|Required| **[IVPAGE]**|The page that was added.|
 
@@ -35,14 +36,20 @@ Private Sub  _expression_ _'PageAdded'(**_ByVal Page As [IVPAGE]_**)
 
 If you are using Microsoft Visual Basic or Visual Basic for Applications (VBA), the syntax in this topic describes a common, efficient way to handle events.
 
-If you want to create your own  **Event** objects, use the **Add** or **AddAdvise** method. To create an **Event** object that runs an add-on, use the **Add** method as it applies to the **EventList** collection. To create an **Event** object that receives notification, use the **AddAdvise** method. To find an event code for the event you want to create, see[Event codes](../visio/Concepts/event-codesvisio.md).
+If you want to create your own **Event** objects, use the **[Add](visio.eventlist.add.md)** or **[AddAdvise](visio.eventlist.addadvise.md)** method. 
+
+To create an **Event** object that runs an add-on, use the **Add** method as it applies to the **EventList** collection. 
+
+To create an **Event** object that receives notification, use the **AddAdvise** method. 
+
+To find an event code for the event that you want to create, see [Event codes](../visio/Concepts/event-codesvisio.md).
 
 
 ## Example
 
-This example shows how to create a class module to handle events fired by a source object in Microsoft Visio, for example, the  **Document** object. The module consists of the function **VisEventProc** , which uses a **Select Case** block to check for three events: **DocumentSaved** , **PageAdded** , and **ShapesDeleted** . Other events fall under the default case (**Case Else**). Each **Case** block constructs a string ( _strMessage_ ) that contains the name and event code of the event that fired. Finally, the function displays the string in the Immediate window.
+This example shows how to create a class module to handle events fired by a source object in Microsoft Visio, for example, the **Document** object. The module consists of the function **VisEventProc**, which uses a **Select Case** block to check for three events: **DocumentSaved**, **PageAdded**, and **ShapesDeleted**. Other events fall under the default case (**Case Else**). Each **Case** block constructs a string ( _strMessage_ ) that contains the name and event code of the event that fired. Finally, the function displays the string in the Immediate window.
 
-Copy this sample code into a new class module in VBA or Visual Basic, naming the module clsEventSink. You can then use an event-sink module to create an instance of the clsEventSink class and  **Event** objects that send notifications of event firings to the class instance. To see how to create an event-sink module, refer to the example for the **AddAdvise** method.
+Copy this sample code into a new class module in VBA or Visual Basic, naming the module clsEventSink. You can then use an event-sink module to create an instance of the clsEventSink class and **Event** objects that send notifications of event firings to the class instance. To see how to create an event-sink module, refer to the example for the **AddAdvise** method.
 
 
 
@@ -83,4 +90,4 @@ Private Function IVisEventProc_VisEventProc( _
 End Function
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

@@ -1,20 +1,21 @@
 ---
-title: WdWrapTypeMerged Enumeration (Word)
+title: WdWrapTypeMerged enumeration (Word)
 ms.prod: word
 api_name:
 - Word.WdWrapTypeMerged
 ms.assetid: a227f0d4-2a0a-fa91-07f1-e94cd8eff798
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# WdWrapTypeMerged Enumeration (Word)
+# WdWrapTypeMerged enumeration (Word)
 
 Specifies how Microsoft Word wraps text around pictures.
 
 
 
-|**Name**|**Value**|**Description**|
+|Name|Value|Description|
 |:-----|:-----|:-----|
 | **wdWrapMergeBehind**|3|Behind text.|
 | **wdWrapMergeFront**|4|In front of text.|
@@ -24,3 +25,4 @@ Specifies how Microsoft Word wraps text around pictures.
 | **wdWrapMergeTight**|2|Tight.|
 | **wdWrapMergeTopBottom**|6|Top and bottom.|
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

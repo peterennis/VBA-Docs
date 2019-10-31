@@ -1,5 +1,5 @@
 ---
-title: OlAttachmentBlockLevel Enumeration (Outlook)
+title: OlAttachmentBlockLevel enumeration (Outlook)
 keywords: vbaol11.chm3261
 f1_keywords:
 - vbaol11.chm3261
@@ -8,22 +8,23 @@ api_name:
 - Outlook.OlAttachmentBlockLevel
 ms.assetid: 651fced7-9853-255e-66ed-7aa5f52c1b9c
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# OlAttachmentBlockLevel Enumeration (Outlook)
+# OlAttachmentBlockLevel enumeration (Outlook)
 
 Specifies whether there is any restriction on the type of attachments for an item.
 
 
 
-|**Name**|**Value**|**Description**|
+|Name|Value|Description|
 |:-----|:-----|:-----|
 | **olAttachmentBlockLevelNone**|0|There is no restriction on the type of the attachment based on its file extension.|
 | **olAttachmentBlockLevelOpen**|1|There is a restriction on the type of the attachment based on its file extension such that users must first save the attachment to disk before opening it.|
 
 ## Remarks
 
-Attachments with the [BlockLevel](Outlook.Attachment.BlockLevel.md) equal to **olAttachmentBlockLevelOpen** are on the Level 2 list of attachments that administrators maintain for attachment security. For more information on attachment security in Outlook, see the[Office Resource Kit](https://technet.microsoft.com/en-us/library/cc303401%28office.14%29.aspx) Web site.
+Attachments with the [BlockLevel](Outlook.Attachment.BlockLevel.md) equal to **olAttachmentBlockLevelOpen** are on the Level 2 list of attachments that administrators maintain for attachment security. For more information on attachment security in Outlook, see the [Office Resource Kit](https://docs.microsoft.com/previous-versions/office/office-2010/cc303401(v=office.14)) website.
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

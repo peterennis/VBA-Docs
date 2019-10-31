@@ -1,5 +1,5 @@
 ---
-title: Application.WindowBeforeDoubleClick Event (PowerPoint)
+title: Application.WindowBeforeDoubleClick event (PowerPoint)
 keywords: vbapp10.chm621003
 f1_keywords:
 - vbapp10.chm621003
@@ -8,33 +8,34 @@ api_name:
 - PowerPoint.Application.WindowBeforeDoubleClick
 ms.assetid: 9b270238-1658-df56-4208-9cb98666519c
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Application.WindowBeforeDoubleClick Event (PowerPoint)
+# Application.WindowBeforeDoubleClick event (PowerPoint)
 
 Occurs when you double-click the items in the views listed in the following table.
 
 
 ## Syntax
 
- _expression_. `WindowBeforeDoubleClick`( `_Sel_`, `_Cancel_` )
+_expression_. `WindowBeforeDoubleClick`( `_Sel_`, `_Cancel_` )
 
- _expression_ A variable that represents an [Application](./PowerPoint.Application.md) object.
-
-
-### Parameters
+_expression_ A variable that represents an **[Application](PowerPoint.Application.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _Sel_|Required|**Selection**|The selection below the mouse pointer when the double-click occurs.|
 | _Cancel_|Required|**Boolean**|**False** when the event occurs. If the event procedure sets this argument to **True**, the default double-click action isn't performed when the procedure is finished.|
 
 ## Remarks
 
-For information about using events with the  **Application** object, see[How to: Use Events with the Application Object](../powerpoint/How-to/use-events-with-the-application-object.md).
+For information about using events with the  **Application** object, see [How to: Use Events with the Application Object](../powerpoint/How-to/use-events-with-the-application-object.md).
 
 
 
@@ -76,3 +77,4 @@ End Sub
 
 [Application Object](PowerPoint.Application.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

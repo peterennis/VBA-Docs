@@ -1,5 +1,5 @@
 ---
-title: Document.ParseLine Method (Visio)
+title: Document.ParseLine method (Visio)
 keywords: vis_sdr.chm10516425
 f1_keywords:
 - vis_sdr.chm10516425
@@ -8,39 +8,38 @@ api_name:
 - Visio.Document.ParseLine
 ms.assetid: 46603de4-afa0-7903-f585-0a1aaa5c74c7
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Document.ParseLine Method (Visio)
+# Document.ParseLine method (Visio)
 
 Parses a line of Microsoft Visual Basic code.
 
 
 ## Syntax
 
- _expression_. `ParseLine`( `_Line_` )
+_expression_.**ParseLine** (_Line_)
 
- _expression_ A variable that represents a [Document](./Visio.Document.md) object.
-
-
-### Parameters
+_expression_ A variable that represents a **[Document](Visio.Document.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _Line_|Required| **String**|A string interpreted as Visual Basic code.|
 
-### Return Value
+## Return value
 
 Nothing
 
 
 ## Remarks
 
-The  **ParseLine** method tells the Microsoft Visual Basic for Applications (VBA) project of the **Document** object to parse the string passed to it as an argument.
+The **ParseLine** method tells the Microsoft Visual Basic for Applications (VBA) project of the **Document** object to parse the string passed to it as an argument.
 
- The **ParseLine** method raises an exception if the string fails to parse.
+The **ParseLine** method raises an exception if the string fails to parse.
 
 
 ## Example
@@ -70,4 +69,4 @@ Public Sub LineParser(strString As String)
 End Sub
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

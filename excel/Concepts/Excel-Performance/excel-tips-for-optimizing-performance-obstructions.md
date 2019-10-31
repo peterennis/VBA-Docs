@@ -3,6 +3,7 @@ title: Excel performance - Tips for optimizing performance obstructions
 description: Learn about ways to optimize Excel functionality such as links, lookups, formulas, functions, and VBA code to avoid common obstructions and improve performance.
 ms.date: 10/06/2017 
 author: FastExcel
+localization_priority: Normal
 ---
 
 # Excel performance: Tips for optimizing performance obstructions
@@ -116,7 +117,9 @@ Dynamic ranges have the following advantages and disadvantages:
 
 ## Improve lookup calculation time
 
-Lookups are frequently significant calculation obstructions. Fortunately, there are many ways of improving lookup calculation time. If you use the exact match option, the calculation time for the function is proportional to the number of cells scanned before a match is found. For lookups over large ranges, this time can be significant.
+In Office 365 version 1809 and later, Excel's VLOOKUP, HLOOKUP, and MATCH for exact match on unsorted data is much faster than ever before when looking up multiple columns (or rows with HLOOKUP) from the same table range.
+
+That said, for earlier Excel versions, Lookups continue to be frequently significant calculation obstructions. Fortunately, there are many ways of improving lookup calculation time. If you use the exact match option, the calculation time for the function is proportional to the number of cells scanned before a match is found. For lookups over large ranges, this time can be significant.
 
 Lookup time using the approximate match options of **VLOOKUP**, **HLOOKUP**, and **MATCH** on sorted data is fast and is not significantly increased by the length of the range you are looking up. Characteristics are the same as binary search.
 
@@ -426,7 +429,7 @@ Most native Excel functions work well with multi-threaded calculation. However, 
 - CUBEKPIMEMBER
 - CUBESETCOUNT
 - ADDRESS where the fifth parameter (the `sheet_name`) is given
-- Any database function (DSUM, DAVERAGE, and so on) that refers to a pivot table
+- Any database function (DSUM, DAVERAGE, and so on) that refers to a PivotTable
 - ERROR.TYPE
 - HYPERLINK
 
@@ -822,5 +825,6 @@ This article covered ways to optimize Excel functionality such as links, lookups
 
 -  [Excel performance: Improving calculation performance](excel-improving-calcuation-performance.md)    
 -  [Excel performance: Performance and limit improvements](excel-performance-and-limit-improvements.md)   
--  [Excel Developer Portal](https://msdn.microsoft.com/en-us/office/aa905411.aspx)
+-  [Excel Developer Portal](https://msdn.microsoft.com/office/aa905411.aspx)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

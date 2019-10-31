@@ -1,5 +1,5 @@
 ---
-title: OlActionShowOn Enumeration (Outlook)
+title: OlActionShowOn enumeration (Outlook)
 keywords: vbaol11.chm3051
 f1_keywords:
 - vbaol11.chm3051
@@ -8,16 +8,17 @@ api_name:
 - Outlook.OlActionShowOn
 ms.assetid: 6a6e4156-d593-b5c7-8ed1-e133d61332df
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# OlActionShowOn Enumeration (Outlook)
+# OlActionShowOn enumeration (Outlook)
 
 Identifies where an  **[Action](Outlook.Action.md)** is displayed as an available action.
 
 
 
-|**Name**|**Value**|**Description**|
+|Name|Value|Description|
 |:-----|:-----|:-----|
 | **olDontShow**|0|Indicates that the action will not be displayed on the menu or toolbar.|
 | **olMenu**|1|Indicates that the action will be displayed as an available action on the menu.|
@@ -27,4 +28,4 @@ Identifies where an  **[Action](Outlook.Action.md)** is displayed as an availabl
 
 Displaying an action on a toolbar is only supported in versions of Outlook without the Office Fluent ribbon, before Microsoft Office Outlook 2007. In versions of Outlook that contain the Ribbon, custom actions are displayed only on the  **Custom Actions** menu on the ribbon for an inspector, and on the context menu of an item.
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

@@ -1,5 +1,5 @@
 ---
-title: Styles.Add Method (Visio)
+title: Styles.Add method (Visio)
 keywords: vis_sdr.chm11516680
 f1_keywords:
 - vis_sdr.chm11516680
@@ -8,26 +8,27 @@ api_name:
 - Visio.Styles.Add
 ms.assetid: def0d922-048a-eab6-51cd-6052ba96fea8
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Styles.Add Method (Visio)
+# Styles.Add method (Visio)
 
 Adds a new  **Style** object to a **Styles** collection.
 
 
 ## Syntax
 
- _expression_. `Add`( `_StyleName_` , `_BasedOn_` , `_fIncludesText_` , `_fIncludesLine_` , `_fIncludesFill_` )
+_expression_.**Add** (_StyleName_, _BasedOn_, _fIncludesText_, _fIncludesLine_, _fIncludesFill_)
 
- _expression_ A variable that represents a [Styles](./Visio.Styles.md) object.
-
-
-### Parameters
+_expression_ A variable that represents a **[Styles](Visio.Styles.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _StyleName_|Required| **String**|The new style name.|
 | _BasedOn_|Required| **String**|The name of the style on which to base the new style.|
@@ -35,7 +36,7 @@ Adds a new  **Style** object to a **Styles** collection.
 | _fIncludesLine_|Required| **Integer**|Zero to disable line attributes, or non-zero to enable them.|
 | _fIncludesFill_|Required| **Integer**|Zero to disable fill attributes, or non-zero to enable them.|
 
-### Return Value
+## Return value
 
 Style
 
@@ -74,4 +75,4 @@ Public Sub AddStyle_Example()
 End Sub
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

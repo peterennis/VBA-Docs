@@ -1,5 +1,5 @@
 ---
-title: TextRange.InsertSymbol Method (Publisher)
+title: TextRange.InsertSymbol method (Publisher)
 keywords: vbapb10.chm5308452
 f1_keywords:
 - vbapb10.chm5308452
@@ -7,45 +7,43 @@ ms.prod: publisher
 api_name:
 - Publisher.TextRange.InsertSymbol
 ms.assetid: 607d12da-5a2d-4e0e-b45e-92275ce97bab
-ms.date: 06/08/2017
+ms.date: 06/15/2019
+localization_priority: Normal
 ---
 
 
-# TextRange.InsertSymbol Method (Publisher)
+# TextRange.InsertSymbol method (Publisher)
 
-Returns a  **[TextRange](Publisher.TextRange.md)** object that represents a symbol inserted in place of the specified range or selection.
+Returns a **TextRange** object that represents a symbol inserted in place of the specified range or selection.
 
 
 ## Syntax
 
- _expression_. **InsertSymbol**(**_FontName_**,  **_CharIndex_**)
+_expression_.**InsertSymbol** (_FontName_, _CharIndex_)
 
- _expression_ A variable that represents a  **TextRange** object.
-
-
-### Parameters
+_expression_ A variable that represents a **[TextRange](Publisher.TextRange.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-|FontName|Required| **String**|The name of the font that contains the symbol.|
-|CharIndex|Required| **Long**|The Unicode character for the specified symbol.|
+|_FontName_|Required| **String**|The name of the font that contains the symbol.|
+|_CharIndex_|Required| **Long**|The Unicode character for the specified symbol.|
 
-### Return Value
+## Return value
 
 TextRange
 
 
 ## Remarks
 
-If you do not want to replace the range or selection, use the  [TextRange.Collapse Method (Publisher)](Publisher.TextRange.Collapse.md) before you use this method.
+If you do not want to replace the range or selection, use the **[Collapse](Publisher.TextRange.Collapse.md)** method before you use this method.
 
 
 ## Example
 
 This example inserts a double-headed arrow at the cursor.
-
 
 ```vb
 Sub Insert Arrow() 
@@ -59,4 +57,4 @@ Sub Insert Arrow()
 End Sub
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

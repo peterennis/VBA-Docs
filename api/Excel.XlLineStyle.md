@@ -1,20 +1,21 @@
 ---
-title: XlLineStyle Enumeration (Excel)
+title: XlLineStyle enumeration (Excel)
 ms.prod: excel
 api_name:
 - Excel.XlLineStyle
 ms.assetid: 602b5473-4a2e-e8a3-b846-8db77972f0b6
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# XlLineStyle Enumeration (Excel)
+# XlLineStyle enumeration (Excel)
 
 Specifies the line style for the border.
 
 
 
-|**Name**|**Value**|**Description**|
+|Name|Value|Description|
 |:-----|:-----|:-----|
 | **xlContinuous**|1|Continuous line.|
 | **xlDash**|-4115|Dashed line.|
@@ -25,3 +26,4 @@ Specifies the line style for the border.
 | **xlLineStyleNone**|-4142|No line.|
 | **xlSlantDashDot**|13|Slanted dashes.|
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

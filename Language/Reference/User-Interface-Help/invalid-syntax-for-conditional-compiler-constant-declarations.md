@@ -6,6 +6,7 @@ f1_keywords:
 ms.prod: office
 ms.assetid: 815e6833-9813-5341-838d-55e0b4a4aae5
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
@@ -15,7 +16,7 @@ Entering [conditional compiler constants](../../Glossary/vbe-glossary.md#conditi
 
 
 
-- You used improper syntax when entering a constant declaration in the in an  **Options** dialog box. The only valid syntax is a simple assignment of an integer value to the[identifier](../../Glossary/vbe-glossary.md#identifier). Make sure the syntax for the entry is as follows, with each constant separated by a colon (**:**):
+- You used improper syntax when entering a constant declaration in the in an  **Options** dialog box. The only valid syntax is a simple assignment of an integer value to the [identifier](../../Glossary/vbe-glossary.md#identifier). Make sure the syntax for the entry is as follows, with each constant separated by a colon (**:**):
     
   ```vb
   constantname= [{+ | - }]integervalue: [{+ | - }]constantname=integervalue  [...] 
@@ -28,3 +29,4 @@ Entering [conditional compiler constants](../../Glossary/vbe-glossary.md#conditi
 
 For additional information, select the item in question and press F1 (in Windows) or HELP (on the Macintosh).
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

@@ -1,5 +1,5 @@
 ---
-title: Chart.BarShape Property (PowerPoint)
+title: Chart.BarShape property (PowerPoint)
 keywords: vbapp10.chm684005
 f1_keywords:
 - vbapp10.chm684005
@@ -8,19 +8,20 @@ api_name:
 - PowerPoint.Chart.BarShape
 ms.assetid: fae46b36-9d4c-3646-db91-95691d8ce2af
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Chart.BarShape Property (PowerPoint)
+# Chart.BarShape property (PowerPoint)
 
-Returns or sets the shape used for every series in a 3-D bar or column chart. Read/write  **[XlBarShape](PowerPoint.XlBarShape.md)**.
+Returns or sets the shape used for every series in a 3D bar or column chart. Read/write  **[XlBarShape](PowerPoint.XlBarShape.md)**.
 
 
 ## Syntax
 
- _expression_. `BarShape`
+_expression_.**BarShape**
 
- _expression_ A variable that represents a '[Chart](PowerPoint.Chart.md)' object.
+_expression_ A variable that represents a **[Chart](PowerPoint.Chart.md)** object.
 
 
 ## Example
@@ -28,7 +29,8 @@ Returns or sets the shape used for every series in a 3-D bar or column chart. Re
 
 
 
- **Note**  Although the following code applies to Microsoft Word, you can readily modify it to apply to PowerPoint.
+> [!NOTE] 
+> Although the following code applies to Microsoft Word, you can readily modify it to apply to PowerPoint.
 
 The following example sets the shape used with the first series of the first chart in the active document.
 
@@ -53,3 +55,4 @@ End With
 
 [Chart Object](PowerPoint.Chart.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

@@ -1,5 +1,5 @@
 ---
-title: Document.Subject Property (Visio)
+title: Document.Subject property (Visio)
 keywords: vis_sdr.chm10514465
 f1_keywords:
 - vis_sdr.chm10514465
@@ -8,41 +8,42 @@ api_name:
 - Visio.Document.Subject
 ms.assetid: b954ca88-c7f7-0c1f-ed30-8ea3eb3bc0e3
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Document.Subject Property (Visio)
+# Document.Subject property (Visio)
 
-Gets or sets the value of the  **Subject** field in a document's properties. Read/write.
+Gets or sets the value of the **Subject** field in a document's properties. Read/write.
 
 
 ## Syntax
 
- _expression_. `Subject`
+_expression_.**Subject**
 
- _expression_ A variable that represents a [Document](./Visio.Document.md) object.
+_expression_ A variable that represents a **[Document](Visio.Document.md)** object.
 
 
-### Return Value
+## Return value
 
 String
 
 
 ## Remarks
 
-Setting the  **Subject** property is equivalent to entering information in the **Subject** box in the **Properties** dialog box (click the **File** tab, click **Info**, click  **Properties**, and then click  **Advanced Properties**).
+Setting the **Subject** property is equivalent to entering information in the **Subject** box in the **Properties** dialog box (click the **File** tab, click **Info**, click **Properties**, and then click **Advanced Properties**).
 
 
- **Security Note**  
+  
 
 
 
 
 ## Example
 
-This Microsoft Visual Basic for Applications (VBA) macro shows how to use the  **Subject** property to document the subject of a drawing. It adds a **Document** object to the **Documents** collection and sets the **Document** object's **Subject** property as well as other document properties.
+This Microsoft Visual Basic for Applications (VBA) macro shows how to use the **Subject** property to document the subject of a drawing. It adds a **Document** object to the **Documents** collection and sets the **Document** object's **Subject** property as well as other document properties.
 
-Before running this macro, substitute your own values for the items in italic in the following code. To verify that these properties have been set, open the  **Properties** dialog box.
+Before running this macro, substitute your own values for the items in italic in the following code. To verify that these properties have been set, open the **Properties** dialog box.
 
 
 
@@ -67,4 +68,4 @@ Public Sub Subject_Example()
 End Sub
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

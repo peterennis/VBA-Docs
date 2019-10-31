@@ -1,5 +1,5 @@
 ---
-title: Document.FooterRight Property (Visio)
+title: Document.FooterRight property (Visio)
 keywords: vis_sdr.chm10550595
 f1_keywords:
 - vis_sdr.chm10550595
@@ -8,31 +8,32 @@ api_name:
 - Visio.Document.FooterRight
 ms.assetid: 17db938c-6b1b-6cd1-7f4e-65aca275f30b
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Document.FooterRight Property (Visio)
+# Document.FooterRight property (Visio)
 
 Gets or sets the text string that appears in the right portion of a document's footer. Read/write.
 
 
 ## Syntax
 
- _expression_. `FooterRight`
+_expression_.**FooterRight**
 
- _expression_ A variable that represents a [Document](./Visio.Document.md) object.
+_expression_ A variable that represents a **[Document](Visio.Document.md)** object.
 
 
-### Return Value
+## Return value
 
 String
 
 
 ## Remarks
 
-You can also set this value in the  **Right** box under **Footer** in the **Header and Footer** dialog box (click the **File** tab, click **Print**, click  **Print Preview**, and then in the  **Preview** group, click **Header &; Footer**).
+You can also set this value in the **Right** box under **Footer** in the **Header and Footer** dialog box (click the **File** tab, click **Print**, click **Print Preview**, and then in the **Preview** group, click **Header & Footer**).
 
-Both the string returned by  **FooterRight** and the string to which you set **FooterRight** can contain escape codes that represent data. These escape codes can be concatenated with other text. For a list of valid escape codes you can use with the **FooterRight** property, see the **[FooterLeft](Visio.Document.FooterLeft.md)** property topic.
+Both the string returned by **FooterRight** and the string to which you set **FooterRight** can contain escape codes that represent data. These escape codes can be concatenated with other text. For a list of valid escape codes you can use with the **FooterRight** property, see the **[FooterLeft](Visio.Document.FooterLeft.md)** property topic.
 
 
 ## Example
@@ -55,4 +56,4 @@ Sub FooterRight_Example()
 End Sub
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

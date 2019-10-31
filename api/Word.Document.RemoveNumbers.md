@@ -1,5 +1,5 @@
 ---
-title: Document.RemoveNumbers Method (Word)
+title: Document.RemoveNumbers method (Word)
 keywords: vbawd10.chm158007436
 f1_keywords:
 - vbawd10.chm158007436
@@ -8,26 +8,27 @@ api_name:
 - Word.Document.RemoveNumbers
 ms.assetid: 2f481145-f1ef-7b80-0287-3c14a5f3d2d5
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Document.RemoveNumbers Method (Word)
+# Document.RemoveNumbers method (Word)
 
 Removes numbers or bullets from the specified document.
 
 
 ## Syntax
 
- _expression_. `RemoveNumbers`( `_NumberType_` )
+_expression_. `RemoveNumbers`( `_NumberType_` )
 
- _expression_ A variable that represents a '[Document](Word.Document.md)' object.
-
-
-### Parameters
+_expression_ A variable that represents a **[Document](Word.Document.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _NumberType_|Optional| **WdNumberType**|The type of number to be removed.|
 
@@ -57,3 +58,4 @@ End If
 
 [Document Object](Word.Document.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

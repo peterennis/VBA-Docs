@@ -1,5 +1,5 @@
 ---
-title: SynonymInfo.Found Property (Word)
+title: SynonymInfo.Found property (Word)
 keywords: vbawd10.chm161153026
 f1_keywords:
 - vbawd10.chm161153026
@@ -8,19 +8,20 @@ api_name:
 - Word.SynonymInfo.Found
 ms.assetid: a69e196b-4db1-fae7-172f-92f00264443b
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# SynonymInfo.Found Property (Word)
+# SynonymInfo.Found property (Word)
 
- **True** if the thesaurus finds synonyms, antonyms, related words, or related expressions for the word or phrase. Read-only **Boolean** .
+ **True** if the thesaurus finds synonyms, antonyms, related words, or related expressions for the word or phrase. Read-only **Boolean**.
 
 
 ## Syntax
 
- _expression_. `Found`
+_expression_. `Found`
 
- _expression_ A variable that represents a '[SynonymInfo](Word.SynonymInfo.md)' object.
+_expression_ A variable that represents a '[SynonymInfo](Word.SynonymInfo.md)' object.
 
 
 ## Example
@@ -79,3 +80,4 @@ End With
 
 [SynonymInfo Object](Word.SynonymInfo.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

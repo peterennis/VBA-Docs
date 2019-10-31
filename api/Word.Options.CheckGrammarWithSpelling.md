@@ -1,5 +1,5 @@
 ---
-title: Options.CheckGrammarWithSpelling Property (Word)
+title: Options.CheckGrammarWithSpelling property (Word)
 keywords: vbawd10.chm162988317
 f1_keywords:
 - vbawd10.chm162988317
@@ -8,19 +8,20 @@ api_name:
 - Word.Options.CheckGrammarWithSpelling
 ms.assetid: b08d1bc4-bc9c-c9b3-0448-92a051809a25
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Options.CheckGrammarWithSpelling Property (Word)
+# Options.CheckGrammarWithSpelling property (Word)
 
- **True** if Word checks grammar while checking spelling. Read/write **Boolean** .
+ **True** if Word checks grammar while checking spelling. Read/write **Boolean**.
 
 
 ## Syntax
 
- _expression_. `CheckGrammarWithSpelling`
+_expression_. `CheckGrammarWithSpelling`
 
- _expression_ A variable that represents a '[Options](Word.Options.md)' object.
+_expression_ A variable that represents a '[Options](Word.Options.md)' object.
 
 
 ## Remarks
@@ -32,7 +33,7 @@ To check spelling or grammar from a Visual Basic procedure, use the  **[CheckSpe
 
 ## Example
 
-This example returns the status of the  **Check grammar with spelling** option on the **Spelling &; Grammar** tab in the **Options** dialog box. If the option is selected, the procedure checks both spelling and grammar for the active document; otherwise, only spelling is checked.
+This example returns the status of the  **Check grammar with spelling** option on the **Spelling & Grammar** tab in the **Options** dialog box. If the option is selected, the procedure checks both spelling and grammar for the active document; otherwise, only spelling is checked.
 
 
 ```vb
@@ -49,3 +50,4 @@ End If
 
 [Options Object](Word.Options.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

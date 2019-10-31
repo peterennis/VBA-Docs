@@ -1,5 +1,5 @@
 ---
-title: Application.LookUpTableAddEx Method (Project)
+title: Application.LookUpTableAddEx method (Project)
 keywords: vbapj.chm635
 f1_keywords:
 - vbapj.chm635
@@ -8,26 +8,27 @@ api_name:
 - Project.Application.LookUpTableAddEx
 ms.assetid: 5f316f1e-de4b-2fe4-6d3e-84a9944adaed
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Application.LookUpTableAddEx Method (Project)
+# Application.LookUpTableAddEx method (Project)
 
 Appends items to the lookup table of a custom outline code definition.
 
 
 ## Syntax
 
- _expression_. `LookUpTableAddEx`( ` _FieldID_`, ` _Level_`, ` _Code_`, ` _Description_`, ` _Phonetic_` )
+_expression_. `LookUpTableAddEx`( `_FieldID_`, `_Level_`, `_Code_`, `_Description_`, `_Phonetic_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
-
-
-### Parameters
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _FieldID_|Required|**Long**|Specifies the custom outline code to edit. Can be one of the  **[PjCustomField](Project.PjCustomField.md)** constants.|
 | _Level_|Optional|**Long**|Specifies the level of the new code. The default value is the level of the last item in the lookup table.|
@@ -35,7 +36,7 @@ Appends items to the lookup table of a custom outline code definition.
 | _Description_|Optional|**String**|A description for the field specified in the Code argument.|
 | _Phonetic_|Optional|**String**|The phonetic spelling of the Code argument, used for sorting order in Japanese. For languages other than Japanese, Phonetic is ignored.|
 
-### Return Value
+## Return value
 
  **Boolean**
 
@@ -57,4 +58,4 @@ Sub LookupTableProblem()
 End Sub
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

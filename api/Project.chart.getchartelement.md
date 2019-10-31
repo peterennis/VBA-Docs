@@ -1,42 +1,37 @@
 ---
-title: Chart.GetChartElement Method (Project)
+title: Chart.GetChartElement method (Project)
 keywords: vbapj.chm131624
 f1_keywords:
 - vbapj.chm131624
 ms.prod: project-server
 ms.assetid: f2705f1d-7252-41ec-848b-f7f9cc26663e
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Chart.GetChartElement Method (Project)
+# Chart.GetChartElement method (Project)
 Returns information about the chart element at specified X and Y coordinates. This method will be removed in the released version of Project 2013.
 
 ## Syntax
 
- _expression_. `GetChartElement` _(x,_? _y,_? _ElementID,_? _Arg1,_? _Arg2)_
+_expression_.**GetChartElement** (_x_, _y_, _ElementID_, _Arg1_, _Arg2_)
 
- _expression_ A variable that represents a 'Chart' object.
-
-
-### Parameters
+_expression_ A variable that represents a **[Chart](Project.Chart.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data type**|**Description**|
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _x_|Required|**Long**|The X coordinate of the chart element.|
 | _y_|Required|**Long**|The Y coordinate of the chart element.|
-| _ElementID_|Required|**Long**|When the  **GetChartElement** method returns, _ElementID_ contains the **Office.XLChartItem** value of the chart element at the specified coordinates. For more information, see[Remarks](#pj15_VBAGetChartElement_Remarks).|
-| _Arg1_|Required|**Long**|When the method returns,  _Arg1_ contains information related to the chart element. For more information, see[Remarks](#pj15_VBAGetChartElement_Remarks).|
-| _Arg2_|Required|**Long**|When the method returns,  _Arg2_ contains information related to the chart element. For more information, see[Remarks](#pj15_VBAGetChartElement_Remarks).|
-| _x_|Required|INT32||
-| _y_|Required|INT32||
-| _ElementID_|Required|INT32||
-| _Arg1_|Required|INT32||
-| _Arg2_|Required|INT32||
+| _ElementID_|Required|**Long**|When the  **GetChartElement** method returns, _ElementID_ contains the **Office.XLChartItem** value of the chart element at the specified coordinates. For more information, see [Remarks](#pj15_VBAGetChartElement_Remarks).|
+| _Arg1_|Required|**Long**|When the method returns,  _Arg1_ contains information related to the chart element. For more information, see [Remarks](#pj15_VBAGetChartElement_Remarks).|
+| _Arg2_|Required|**Long**|When the method returns,  _Arg2_ contains information related to the chart element. For more information, see [Remarks](#pj15_VBAGetChartElement_Remarks).|
 
-### Return value
+
+## Return value
 
 The  **GetChartElement** method returns **Nothing**. Returned values are in the  _ElementID_,  _Arg1_, and  _Arg2_ parameters.
 
@@ -90,9 +85,9 @@ The value of  _ElementID_ after the method returns determines whether _Arg1_ and
 |**xlXErrorBars**|10|SeriesIndex|None|
 |**xlYErrorBars**|11|SeriesIndex|None|
 
-?
 
-Table 2 describes the meaning of  _Arg1_ and _Arg2_ after the method returns. Values in the **Argument** column are from Table 1.
+
+Table 2 describes the meaning of _Arg1_ and _Arg2_ after the method returns. Values in the **Argument** column are from Table 1.
 
 
 **Table 2. Meaning of data in Arg1 and Arg2**
@@ -105,9 +100,9 @@ Table 2 describes the meaning of  _Arg1_ and _Arg2_ after the method returns. Va
 |DropZoneType|Specifies the drop zone type: column, data, page, or row field. Can be one of the following  **Office.XlPivotFieldOrientation** constants: **xlColumnField**,  **xlDataField**,  **xlPageField**, or  **xlRowField**. The column and row field constants specify the series and category fields, respectively.|
 |GroupIndex|Specifies the offset within the  **Office.IMsoChart.ChartGroups** collection for a specific chart group.|
 |PivotFieldIndex|Specifies the offset within the  **Excel.PivotFields** collection for a specific column (series), data, page, or row (category) field. The value is **-1** if the drop zone type is **xlDataField**.|
-|PointIndex|Specifies the offset within the  **Office.IMsoSeries.Points** collection for a specific point within a series. A value of **?1** indicates that all data points are selected.|
+|PointIndex|Specifies the offset within the  **Office.IMsoSeries.Points** collection for a specific point within a series. A value of **1** indicates that all data points are selected.|
 |SeriesIndex|Specifies the offset within the  **Office.IMsoChart.SeriesCollection** for a specific series.|
-|ShapeIndex|Specifies the offset within the [Shapes](./overview/Project.md) collection for a specific shape.|
+|ShapeIndex|Specifies the offset within the [Shapes](overview/Project.md) collection for a specific shape.|
 |TrendlineIndex|Specifies the offset within the  **Office.IMsoSeries.Trendlines** collection for a specific trendline within a series.|
 
 ## Example
@@ -148,3 +143,5 @@ End Sub
 
 
 [Chart Object](Project.chart.md)
+
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

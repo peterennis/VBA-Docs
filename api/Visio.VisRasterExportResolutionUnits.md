@@ -1,5 +1,5 @@
 ---
-title: VisRasterExportResolutionUnits Enumeration (Visio)
+title: VisRasterExportResolutionUnits enumeration (Visio)
 keywords: vis_sdr.chm70770
 f1_keywords:
 - vis_sdr.chm70770
@@ -8,10 +8,11 @@ api_name:
 - Visio.VisRasterExportResolutionUnits
 ms.assetid: bc3fbcf3-7b15-0bc2-4e03-6badf4be00ce
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# VisRasterExportResolutionUnits Enumeration (Visio)
+# VisRasterExportResolutionUnits enumeration (Visio)
 
 
 
@@ -19,8 +20,9 @@ Specifies constants that define the raster export resolution units; passed to th
 
 
 
-|**Name**|**Value**|**Description**|
+|Name|Value|Description|
 |:-----|:-----|:-----|
 | **visRasterPixelsPerInch**|0|Pixels per inch.|
 | **visRasterPixelsPerCm**|1|Pixels per centimeter.|
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

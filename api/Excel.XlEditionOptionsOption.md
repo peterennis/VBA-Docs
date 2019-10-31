@@ -1,20 +1,21 @@
 ---
-title: XlEditionOptionsOption Enumeration (Excel)
+title: XlEditionOptionsOption enumeration (Excel)
 ms.prod: excel
 api_name:
 - Excel.XlEditionOptionsOption
 ms.assetid: 95a42882-88b4-ceea-bfff-50e3df39ece1
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# XlEditionOptionsOption Enumeration (Excel)
+# XlEditionOptionsOption enumeration (Excel)
 
 This enumeration is only for Macintosh and should not be used.
 
 
 
-|**Name**|**Value**|**Description**|
+|Name|Value|Description|
 |:-----|:-----|:-----|
 | **xlAutomaticUpdate**|4|Automatic update.|
 | **xlCancel**|1|Cancel.|
@@ -25,3 +26,4 @@ This enumeration is only for Macintosh and should not be used.
 | **xlSendPublisher**|2|Send to Microsoft Publisher.|
 | **xlUpdateSubscriber**|2|Update subscriber.|
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

@@ -1,5 +1,5 @@
 ---
-title: ParagraphFormat.LockToBaseLine Property (Publisher)
+title: ParagraphFormat.LockToBaseLine property (Publisher)
 keywords: vbapb10.chm5439540
 f1_keywords:
 - vbapb10.chm5439540
@@ -7,34 +7,33 @@ ms.prod: publisher
 api_name:
 - Publisher.ParagraphFormat.LockToBaseLine
 ms.assetid: 4430bab6-a338-e61d-681c-6063d4a5c3b3
-ms.date: 06/08/2017
+ms.date: 06/12/2019
+localization_priority: Normal
 ---
 
 
-# ParagraphFormat.LockToBaseLine Property (Publisher)
+# ParagraphFormat.LockToBaseLine property (Publisher)
 
-Returns an  **MsoTristate** that represents whether or not text will be positioned along baseline guides. Read/write.
+Returns an **[MsoTriState](office.msotristate.md)** constant that represents whether text is positioned along baseline guides. Read/write.
 
 
 ## Syntax
 
- _expression_. **LockToBaseLine**
+_expression_.**LockToBaseLine**
 
- _expression_ A variable that represents a  **ParagraphFormat** object.
+_expression_ A variable that represents a **[ParagraphFormat](Publisher.ParagraphFormat.md)** object.
 
 
-### Return Value
+## Return value
 
 MsoTristate
 
 
 ## Remarks
 
-The  **LockToBaseLine** property value can be one of the **MsoTriState** constants declared in the Microsoft Office type library and shown in the following table.
+The **LockToBaseLine** property value can be one of the **MsoTriState** constants declared in the Microsoft Office type library and shown in the following table.
 
-
-
-|**Constant**|**Description**|
+|Constant|Description|
 |:-----|:-----|
 | **msoFalse**| The text is not aligned to baselines.|
 | **msoTriStateMixed**|The specified paragraphs contain both text that is aligned to baselines and text that is not aligned to baselines.|
@@ -42,8 +41,7 @@ The  **LockToBaseLine** property value can be one of the **MsoTriState** constan
 
 ## Example
 
-The following example sets the  **LockToBaseLine** property to **True**.
-
+The following example sets the **LockToBaseLine** property to **True**.
 
 ```vb
 Dim objParaForm As ParagraphFormat 
@@ -53,4 +51,4 @@ objParaForm.LockToBaseLine = msoTrue
 
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

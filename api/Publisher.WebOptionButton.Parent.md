@@ -1,5 +1,5 @@
 ---
-title: WebOptionButton.Parent Property (Publisher)
+title: WebOptionButton.Parent property (Publisher)
 keywords: vbapb10.chm4259842
 f1_keywords:
 - vbapb10.chm4259842
@@ -7,26 +7,26 @@ ms.prod: publisher
 api_name:
 - Publisher.WebOptionButton.Parent
 ms.assetid: 242ae3ff-591b-8180-6f00-b3ad118e6d28
-ms.date: 06/08/2017
+ms.date: 06/18/2019
+localization_priority: Normal
 ---
 
 
-# WebOptionButton.Parent Property (Publisher)
+# WebOptionButton.Parent property (Publisher)
 
-Returns an object that represents the parent object of the specified object. For example, for a  **[TextFrame](Publisher.TextFrame.md)** object, returns a **[Shape](Publisher.Shape.md)** object representing the parent shape of the text frame. Read-only.
+Returns an object that represents the parent object of the specified object. For example, for a **[TextFrame](Publisher.TextFrame.md)** object, returns a **[Shape](Publisher.Shape.md)** object representing the parent shape of the text frame. Read-only.
 
 
 ## Syntax
 
- _expression_. **Parent**
+_expression_.**Parent**
 
- _expression_ A variable that represents a  **WebOptionButton** object.
+_expression_ A variable that represents a **[WebOptionButton](Publisher.WebOptionButton.md)** object.
 
 
 ## Example
 
 This example accesses the parent object of the selected shape, and then adds a new shape to it and sets the fill for the new shape.
-
 
 ```vb
 Sub ParentObject() 
@@ -41,10 +41,9 @@ Sub ParentObject()
 End Sub
 ```
 
+<br/>
+
 This example returns the parent object of a text frame, which is the first shape in the active publication, and then fills the shape with a pattern.
-
-
-
 
 ```vb
 Sub ParentShape() 
@@ -54,4 +53,4 @@ Sub ParentShape()
 End Sub
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

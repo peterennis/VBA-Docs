@@ -1,5 +1,5 @@
 ---
-title: Application.ViewEditCombination Method (Project)
+title: Application.ViewEditCombination method (Project)
 keywords: vbapj.chm304
 f1_keywords:
 - vbapj.chm304
@@ -8,26 +8,27 @@ api_name:
 - Project.Application.ViewEditCombination
 ms.assetid: f5d49a1d-7ead-e704-7be2-8d06e54e221f
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Application.ViewEditCombination Method (Project)
+# Application.ViewEditCombination method (Project)
 
 Creates, edits, or copies a combination view.
 
 
 ## Syntax
 
- _expression_. `ViewEditCombination`( ` _Name_`, ` _Create_`, ` _NewName_`, ` _TopView_`, ` _BottomView_`, ` _ShowInMenu_` )
+_expression_. `ViewEditCombination`( `_Name_`, `_Create_`, `_NewName_`, `_TopView_`, `_BottomView_`, `_ShowInMenu_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
-
-
-### Parameters
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _Name_|Optional|**String**|The name of a two-pane view to edit, create, or copy. The default is the name of the active view.|
 | _Create_|Optional|**Boolean**|**True** if Project creates a two-pane view. If NewName is an empty string (""), the new view is given the name specified with Name. Otherwise, the new view is a copy of the view specified with Name and is given the name specified with NewName. The default value is **False.**|
@@ -36,7 +37,7 @@ Creates, edits, or copies a combination view.
 | _BottomView_|Optional|**String**|The name of the view to display in the lower pane. The view specified by Name displays in the upper pane.|
 | _ShowInMenu_|Optional|**Boolean**|**True** if the view name appears on the **Other Views** drop-down menu. The default value is **False.**|
 
-### Return Value
+## Return value
 
  **Boolean**
 
@@ -53,4 +54,4 @@ Sub CheckResourcesView()
 End Sub
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

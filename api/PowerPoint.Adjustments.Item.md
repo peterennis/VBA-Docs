@@ -1,5 +1,5 @@
 ---
-title: Adjustments.Item Property (PowerPoint)
+title: Adjustments.Item property (PowerPoint)
 keywords: vbapp10.chm550003
 f1_keywords:
 - vbapp10.chm550003
@@ -8,30 +8,31 @@ api_name:
 - PowerPoint.Adjustments.Item
 ms.assetid: 54cc6850-0fe8-8887-2acc-dc91085b7451
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Adjustments.Item Property (PowerPoint)
+# Adjustments.Item property (PowerPoint)
 
 Returns or sets the adjustment value specified by the Index argument. Read/write.
 
 
 ## Syntax
 
- _expression_. `Item`( `_Index_` )
+_expression_.**Item** (_Index_)
 
- _expression_ A variable that represents an [Adjustments](./PowerPoint.Adjustments.md) object.
-
-
-### Parameters
+_expression_ A variable that represents an [Adjustments](PowerPoint.Adjustments.md) object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _Index_|Required|**Long**|The index number of the adjustment.|
 
-### Return Value
+## Return value
 
 Single
 
@@ -45,7 +46,7 @@ AutoShapes, connectors, and WordArt objects can have up to eight adjustments.
 
 ## Example
 
-This example adds two crosses to  `myDocument` and then sets the value for adjustment one (the only one on this type of AutoShape) on each cross.
+This example adds two crosses to _myDocument_ and then sets the value for adjustment one (the only one on this type of AutoShape) on each cross.
 
 
 ```vb
@@ -83,3 +84,4 @@ End With
 
 [Adjustments Object](PowerPoint.Adjustments.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

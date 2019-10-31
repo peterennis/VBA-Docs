@@ -6,12 +6,13 @@ f1_keywords:
 ms.prod: office
 ms.assetid: 3086d4cc-8896-e0c8-5c39-d033c2614164
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
 # The edit may make the object module incompatible with the previously specified compatible ActiveX component
 
-If a Compatible ActiveX component already exists as a previously distributed [executable file](../../Glossary/vbe-glossary.md#executable-file) or[dynamic-link library (DLL)](../../Glossary/vbe-glossary.md#dynamic-link-library-dll), you must be careful not to change its interface. This warning has the following cause and solution:
+If a Compatible ActiveX component already exists as a previously distributed [executable file](../../Glossary/vbe-glossary.md#executable-file) or [dynamic-link library (DLL)](../../Glossary/vbe-glossary.md#dynamic-link-library-dll), you must be careful not to change its interface. This warning has the following cause and solution:
 
 
 
@@ -25,3 +26,4 @@ If a Compatible ActiveX component already exists as a previously distributed [ex
 
 For additional information, select the item in question and press F1 (in Windows) or HELP (on the Macintosh).
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

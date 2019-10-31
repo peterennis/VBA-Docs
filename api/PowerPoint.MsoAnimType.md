@@ -1,20 +1,21 @@
 ---
-title: MsoAnimType Enumeration (PowerPoint)
+title: MsoAnimType enumeration (PowerPoint)
 ms.prod: powerpoint
 api_name:
 - PowerPoint.MsoAnimType
 ms.assetid: be1ca705-045f-1585-774d-958f8f27bd01
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# MsoAnimType Enumeration (PowerPoint)
+# MsoAnimType enumeration (PowerPoint)
 
 Specifies the type of animation.
 
 
 
-|**Name**|**Value**|**Description**|
+|Name|Value|Description|
 |:-----|:-----|:-----|
 |**msoAnimTypeColor**|2|Color|
 |**msoAnimTypeCommand**|6|Command|
@@ -27,3 +28,4 @@ Specifies the type of animation.
 |**msoAnimTypeScale**|3|Scale|
 |**msoAnimTypeSet**|8|Set|
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

@@ -1,5 +1,5 @@
 ---
-title: Application.RecentFiles Property (Word)
+title: Application.RecentFiles property (Word)
 keywords: vbawd10.chm158334983
 f1_keywords:
 - vbawd10.chm158334983
@@ -8,24 +8,25 @@ api_name:
 - Word.Application.RecentFiles
 ms.assetid: 517fb0cf-2dfb-f0a0-0882-f233198768d6
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Application.RecentFiles Property (Word)
+# Application.RecentFiles property (Word)
 
 Returns a  **[RecentFiles](Word.recentfiles.md)** collection that represents the most recently accessed files.
 
 
 ## Syntax
 
- _expression_. `RecentFiles`
+_expression_.**RecentFiles**
 
- _expression_ A variable that represents an '[Application](Word.Application.md)' object.
+_expression_ A variable that represents an **[Application](Word.Application.md)** object. 
 
 
 ## Remarks
 
-For information about returning a single member of a collection, see [Returning an Object from a Collection](../word/Concepts/Miscellaneous/returning-an-object-from-a-collection-word.md).
+For information about returning a single member of a collection, see [Returning an object from a collection](../word/Concepts/Miscellaneous/returning-an-object-from-a-collection-word.md).
 
 
 ## Example
@@ -54,3 +55,4 @@ Next rFile
 
 [Application Object](Word.Application.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

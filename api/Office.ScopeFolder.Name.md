@@ -1,5 +1,5 @@
 ---
-title: ScopeFolder.Name Property (Office)
+title: ScopeFolder.Name property (Office)
 keywords: vbaof11.chm259001
 f1_keywords:
 - vbaof11.chm259001
@@ -7,30 +7,31 @@ ms.prod: office
 api_name:
 - Office.ScopeFolder.Name
 ms.assetid: da1cc239-2988-2b57-11d1-8313ae3d5566
-ms.date: 06/08/2017
+ms.date: 01/23/2019
+localization_priority: Normal
 ---
 
 
-# ScopeFolder.Name Property (Office)
+# ScopeFolder.Name property (Office)
 
 Gets the name of a searchable folder. Read-only.
 
 
 ## Syntax
 
- _expression_. `Name`
+_expression_.**Name**
 
- _expression_ A variable that represents a [ScopeFolder](./Office.ScopeFolder.md) object.
+_expression_ A variable that represents a **[ScopeFolder](Office.ScopeFolder.md)** object.
 
 
-### Return Value
+## Return value
 
 String
 
 
 ## Remarks
 
- **ScopeFolder** objects are intended for use with the **SearchFolders** collection. The **SearchFolders** collection defines the folders that are searched.
+**ScopeFolder** objects are intended for use with the **[SearchFolders](office.searchfolders.md)** collection. The **SearchFolders** collection defines the folders that are searched.
 
 
 ## Example
@@ -45,17 +46,15 @@ Dim sf As ScopeFolder
  Set sf = SearchScopes.Item(1).ScopeFolder 
  strScopeFolder = sf.Name 
  
- MsgBox ("The name of the folder that will be searched is " &amp; strScopeFolder) 
+ MsgBox ("The name of the folder that will be searched is " & strScopeFolder) 
 
 ```
 
 
 ## See also
 
-
-[ScopeFolder Object](Office.ScopeFolder.md)
-
+- [ScopeFolder object members](overview/Library-Reference/scopefolder-members-office.md)
 
 
-[ScopeFolder Object Members](./overview/Library-Reference/scopefolder-members-office.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

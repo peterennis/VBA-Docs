@@ -1,5 +1,5 @@
 ---
-title: Application.ConnectorToolDataObject Property (Visio)
+title: Application.ConnectorToolDataObject property (Visio)
 keywords: vis_sdr.chm10051835
 f1_keywords:
 - vis_sdr.chm10051835
@@ -7,36 +7,36 @@ ms.prod: visio
 api_name:
 - Visio.Application.ConnectorToolDataObject
 ms.assetid: 7b1eedad-3d62-c2a1-5ba7-200a594ba32f
-ms.date: 06/08/2017
+ms.date: 06/25/2019
+localization_priority: Normal
 ---
 
 
-# Application.ConnectorToolDataObject Property (Visio)
+# Application.ConnectorToolDataObject property (Visio)
 
-Returns an  **IDataObject** interface representing the active **Connector** tool used in the Microsoft Visio user interface. Read-only.
+Returns an **IDataObject** interface representing the active **Connector** tool used in the Microsoft Visio user interface. Read-only.
 
 
 ## Syntax
 
- _expression_. `ConnectorToolDataObject`
+_expression_.**ConnectorToolDataObject**
 
- _expression_ A variable that represents an [Application](./Visio.Application.md) object.
+_expression_ A variable that represents an **[Application](Visio.Application.md)** object.
 
 
-### Return Value
+## Return value
 
 IDataObject
 
 
 ## Remarks
 
- By default, **ConnectorToolDataObject** returns the built-in Visio **Connector** tool. If a master from a stencil is the active connector, **ConnectorToolDataObject** returns a data object for that master. If Visio fails to retrieve the internal **IDataObject** , it raises an exception.
+By default, **ConnectorToolDataObject** returns the built-in Visio **Connector** tool. If a master from a stencil is the active connector, **ConnectorToolDataObject** returns a data object for that master. If Visio fails to retrieve the internal **IDataObject**, it raises an exception.
 
 
 ## Example
 
-The following Microsoft Visual Basic for Applications (VBA) macro shows how to use the  **ConnectorToolDataObject** property to connect two shapes. It drops two masters on the page and connects them with a **Dynamic Connector** shape, using dynamic glue. Before running this macro, open the **Basic Shapes** stencil, if it is not already open.
-
+The following Microsoft Visual Basic for Applications (VBA) macro shows how to use the **ConnectorToolDataObject** property to connect two shapes. It drops two masters on the page and connects them with a **Dynamic Connector** shape, using dynamic glue. Before running this macro, open the **Basic Shapes** stencil if it is not already open.
 
 ```vb
 Public Sub ConnectorToolDataObject_Example() 
@@ -62,8 +62,7 @@ Public Sub ConnectorToolDataObject_Example()
  Set vsoCell4 = ActivePage.Shapes(2).CellsSRC(7, 1, 0) 
  vsoCell3.GlueTo vsoCell4 
  
- 
 End Sub
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

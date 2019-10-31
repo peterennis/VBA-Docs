@@ -1,5 +1,5 @@
 ---
-title: Axis.HasMinorGridlines Property (PowerPoint)
+title: Axis.HasMinorGridlines property (PowerPoint)
 keywords: vbapp10.chm682009
 f1_keywords:
 - vbapp10.chm682009
@@ -8,19 +8,20 @@ api_name:
 - PowerPoint.Axis.HasMinorGridlines
 ms.assetid: 4ee1c716-296b-eeaf-8d14-bcb6e0919611
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Axis.HasMinorGridlines Property (PowerPoint)
+# Axis.HasMinorGridlines property (PowerPoint)
 
  **True** if the axis has minor gridlines. Read/write **Boolean**.
 
 
 ## Syntax
 
- _expression_. `HasMinorGridlines`
+_expression_.**HasMinorGridlines**
 
- _expression_ A variable that represents an '[Axis](PowerPoint.Axis.md)' object.
+_expression_ A variable that represents an '[Axis](PowerPoint.Axis.md)' object.
 
 
 ## Remarks
@@ -33,7 +34,8 @@ Only axes in the primary axis group can have gridlines.
 
 
 
- **Note**  Although the following code applies to Microsoft Word, you can readily modify it to apply to PowerPoint.
+> [!NOTE] 
+> Although the following code applies to Microsoft Word, you can readily modify it to apply to PowerPoint.
 
 The following example sets the color of the minor gridlines for the value axis of the first chart in the active document.
 
@@ -70,3 +72,4 @@ End With
 
 [Axis Object](PowerPoint.Axis.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

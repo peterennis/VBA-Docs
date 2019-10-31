@@ -1,20 +1,21 @@
 ---
-title: WdLanguageID Enumeration (Word)
+title: WdLanguageID enumeration (Word)
 ms.prod: word
 api_name:
 - Word.WdLanguageID
 ms.assetid: 9b3ef147-95f3-0eb6-db0c-0166fe7d2da2
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# WdLanguageID Enumeration (Word)
+# WdLanguageID enumeration (Word)
 
 Specifies the language to use.
 
 
 
-|**Name**|**Value**|**Description**|
+|Name|Value|Description|
 |:-----|:-----|:-----|
 | **wdAfrikaans**|1078|African language.|
 | **wdAlbanian**|1052|Albanian language.|
@@ -221,3 +222,4 @@ Specifies the language to use.
 | **wdYoruba**|1130|Yoruba language.|
 | **wdZulu**|1077|Zulu language.|
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

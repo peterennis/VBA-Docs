@@ -1,5 +1,5 @@
 ---
-title: XmlMap.ExportXml Method (Excel)
+title: XmlMap.ExportXml method (Excel)
 keywords: vbaxl10.chm754090
 f1_keywords:
 - vbaxl10.chm754090
@@ -7,50 +7,42 @@ ms.prod: excel
 api_name:
 - Excel.XmlMap.ExportXml
 ms.assetid: ffb4e656-157e-e5f3-1ddd-314172ba5839
-ms.date: 06/08/2017
+ms.date: 05/21/2019
+localization_priority: Normal
 ---
 
 
-# XmlMap.ExportXml Method (Excel)
+# XmlMap.ExportXml method (Excel)
 
-Exports the contents of cells mapped to the specified  **[XmlMap](Excel.XmlMap.md)** object to a **String** variable.
+Exports the contents of cells mapped to the specified **XmlMap** object to a **String** variable.
 
 
 ## Syntax
 
- _expression_. `ExportXml`( `_Data_` )
+_expression_.**ExportXml** (_Data_)
 
- _expression_ A variable that represents a [XmlMap](./Excel.XmlMap.md) object.
-
-
-### Parameters
+_expression_ A variable that represents an **[XmlMap](Excel.XmlMap.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _Data_|Required| **String**|The variable to export the data to.|
 
-### Return Value
+## Return value
 
-[XlXmlExportResult](Excel.XlXmlExportResult.md)
+**[XlXmlExportResult](Excel.XlXmlExportResult.md)**
 
 
 ## Remarks
 
-
-
-| **XlXmlExportResult** can be one of the following **XlXmlExportResult** constants.|
-| **xlXmlExportSuccess** . Export successful. No errors to report.|
-| **xlXmlExportValidationFailed** . The data being exported failed schema validation, but was exported anyway.|
-
-To export the contents of the mapped cells to an XML data file, use the  **[Export](Excel.XmlMap.Export.md)** method.
+To export the contents of the mapped cells to an XML data file, use the **[Export](Excel.XmlMap.Export.md)** method.
 
 
 ## Example
 
-The following example exports the contents of the cells mapped to the "Contacts" schema map to a variable named  `strContactData`.
-
+The following example exports the contents of the cells mapped to the Contacts schema map to a variable named  `strContactData`.
 
 ```vb
 Sub ExportToString() 
@@ -61,8 +53,6 @@ End Sub
 ```
 
 
-## See also
 
 
-[XmlMap Object](Excel.XmlMap.md)
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

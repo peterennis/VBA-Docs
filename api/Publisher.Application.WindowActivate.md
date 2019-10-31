@@ -1,5 +1,5 @@
 ---
-title: Application.WindowActivate Event (Publisher)
+title: Application.WindowActivate event (Publisher)
 keywords: vbapb10.chm268435457
 f1_keywords:
 - vbapb10.chm268435457
@@ -7,39 +7,33 @@ ms.prod: publisher
 api_name:
 - Publisher.Application.WindowActivate
 ms.assetid: a7e4e396-9661-763c-8e41-dc279757af94
-ms.date: 06/08/2017
+ms.date: 06/05/2019
+localization_priority: Normal
 ---
 
 
-# Application.WindowActivate Event (Publisher)
+# Application.WindowActivate event (Publisher)
 
 Occurs when the application window is activated.
 
 
 ## Syntax
 
- _expression_. **WindowActivate**(**_Wn_**, )
+_expression_.**WindowActivate** (_Wn_)
 
- _expression_ A variable that represents an  **Application** object.
-
-
-### Parameters
+_expression_ A variable that represents an **[Application](Publisher.Application.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-|Wn|Required| **Window**|The window that is being activated.|
-
-## Remarks
-
-For information about using events with the Application object, see  [Using Events with the Application Object](../publisher/Concepts/using-events-with-the-application-object-publisher.md).
+|_Wn_|Required| **Window**|The window that is being activated.|
 
 
 ## Example
 
-This example maximizes the Microsoft Publisher window when it is activated. This code must be placed in a class module, and an instance of the class must be correctly initialized to see this example work; see  [Using Events with the Application Object](../publisher/Concepts/using-events-with-the-application-object-publisher.md)for directions on how to accomplish this.
-
+This example maximizes the Microsoft Publisher window when it is activated. This code must be placed in a class module, and an instance of the class must be correctly initialized to see this example work. For directions about how to accomplish this, see [Using events with the Application object](../publisher/Concepts/using-events-with-the-application-object-publisher.md). 
 
 ```vb
 Public WithEvents appPublisher as Publisher.Application 
@@ -51,8 +45,5 @@ End Sub
 ```
 
 
-## See also
 
-
- [Application Object](Publisher.Application.md)
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

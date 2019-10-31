@@ -1,5 +1,5 @@
 ---
-title: MenuItem.AddOnArgs Property (Visio)
+title: MenuItem.AddOnArgs property (Visio)
 keywords: vis_sdr.chm12913045
 f1_keywords:
 - vis_sdr.chm12913045
@@ -8,22 +8,23 @@ api_name:
 - Visio.MenuItem.AddOnArgs
 ms.assetid: 71e4be8f-3176-c3e8-c25f-7d58efef9ab6
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# MenuItem.AddOnArgs Property (Visio)
+# MenuItem.AddOnArgs property (Visio)
 
 Gets or sets the argument string that you send to the add-on associated with a particular menu item. Read/write.
 
 
 ## Syntax
 
- _expression_. `AddOnArgs`
+_expression_.**AddOnArgs**
 
- _expression_ A variable that represents a [MenuItem](./Visio.MenuItem.md) object.
+_expression_ A variable that represents a **[MenuItem](Visio.MenuItem.md)** object.
 
 
-### Return Value
+## Return value
 
 String
 
@@ -31,7 +32,8 @@ String
 ## Remarks
 
 
- **Note**  Starting with Visio, the Microsoft Office Fluent user interface (UI) replaces the previous system of layered menus, toolbars, and task panes. VBA objects and members that you used to customize the user interface in previous versions of Visio are still available in Visio, but they function differently.
+> [!NOTE] 
+> Starting with Visio 2010, the Microsoft Office Fluent user interface (UI) replaced the previous system of layered menus, toolbars, and task panes. VBA objects and members that you used to customize the user interface in previous versions of Visio are still available in Visio, but they function differently.
 
 An argument's string can be anything appropriate for the add-on. However, the arguments are packaged together with other information into a command string, which cannot exceed 127 characters. For best results, limit arguments to 50 characters.
 
@@ -42,9 +44,9 @@ An object's  **AddOnName** property indicates the name of the add-on to which th
 
 ## Example
 
-This Microsoft Visual Basic for Applications (VBA) macro shows how to set the  **AddOnArgs** property of a menu item. It also shows how to add a menu and menu item to the drawing window menu set and how to set some of the menu item's other properties, such as **Caption** , **AddOnName** , and **ActionText** .
+This Microsoft Visual Basic for Applications (VBA) macro shows how to set the  **AddOnArgs** property of a menu item. It also shows how to add a menu and menu item to the drawing window menu set and how to set some of the menu item's other properties, such as **Caption**, **AddOnName**, and **ActionText**.
 
-This example assumes that you already have a macro in the current Visual Basic project, and that that macro takes one argument called "Arg1". Before running this example, replace  _macroname_ with the name of your macro.
+This example assumes that you already have a macro in the current Visual Basic project, and that macro takes one argument called "Arg1". Before running this example, replace  _macroname_ with the name of your macro.
 
 To restore the built-in user interface after running this macro, use the  **ThisDocument.ClearCustomMenus** method.
 
@@ -97,4 +99,4 @@ Public Sub AddOnArgs_Example()
 End Sub
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

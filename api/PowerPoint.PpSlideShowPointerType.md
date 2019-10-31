@@ -1,20 +1,21 @@
 ---
-title: PpSlideShowPointerType Enumeration (PowerPoint)
+title: PpSlideShowPointerType enumeration (PowerPoint)
 ms.prod: powerpoint
 api_name:
 - PowerPoint.PpSlideShowPointerType
 ms.assetid: 158966a4-188a-1b54-9044-52bca1281a9c
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# PpSlideShowPointerType Enumeration (PowerPoint)
+# PpSlideShowPointerType enumeration (PowerPoint)
 
 Specifies the type of pointer for the slideshow.
 
 
 
-|**Name**|**Value**|**Description**|
+|Name|Value|Description|
 |:-----|:-----|:-----|
 |**ppSlideShowPointerAlwaysHidden**|3|Pointer is always hidden.|
 |**ppSlideShowPointerArrow**|1|Arrow pointer used.|
@@ -23,3 +24,4 @@ Specifies the type of pointer for the slideshow.
 |**ppSlideShowPointerNone**|0|No pointer used.|
 |**ppSlideShowPointerPen**|2|Pen pointer used.|
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

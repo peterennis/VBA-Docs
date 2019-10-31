@@ -6,6 +6,7 @@ f1_keywords:
 ms.prod: office
 ms.assetid: 32a3f1d3-f3af-4250-a880-4c0a53dfd3c4
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
@@ -13,8 +14,8 @@ ms.date: 06/08/2017
 
 Hi there! You have landed on one of our F1 Help redirector pages. Please select the topic you were looking for below.
 
-[ComboBox.ShowOnlyRowSourceValues Property (Access)](http://msdn.microsoft.com/library/3400539d-64c2-bd83-6d82-b70bf9ba6654%28Office.15%29.aspx)
+[ComboBox.ShowOnlyRowSourceValues property (Access)](http://msdn.microsoft.com/library/3400539d-64c2-bd83-6d82-b70bf9ba6654%28Office.15%29.aspx)
 
-[ListBox.ShowOnlyRowSourceValues Property (Access)](http://msdn.microsoft.com/library/35fc7924-ba76-d322-99ae-f5e355536bc0%28Office.15%29.aspx)
+[ListBox.ShowOnlyRowSourceValues property (Access)](http://msdn.microsoft.com/library/35fc7924-ba76-d322-99ae-f5e355536bc0%28Office.15%29.aspx)
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

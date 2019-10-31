@@ -1,5 +1,5 @@
 ---
-title: Curve.Application Property (Visio)
+title: Curve.Application property (Visio)
 keywords: vis_sdr.chm15513090
 f1_keywords:
 - vis_sdr.chm15513090
@@ -8,29 +8,30 @@ api_name:
 - Visio.Curve.Application
 ms.assetid: a521ec53-a31b-c2a3-6f07-c016b430be25
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Curve.Application Property (Visio)
+# Curve.Application property (Visio)
 
 Returns the instance of Microsoft Visio that is associated with an object. Read-only.
 
 
 ## Syntax
 
- _expression_. `Application`
+_expression_.**Application**
 
- _expression_ A variable that represents a [Curve](./Visio.Curve.md) object.
+_expression_ A variable that represents a **[Curve](Visio.Curve.md)** object.
 
 
-### Return Value
+## Return value
 
-Application
+**[Application](visio.application.md)**
 
 
 ## Example
 
-The following Microsoft Visual Basic for Applications (VBA) macro gets the  **Application** object associated with the active document and prints its process ID number in the Immediate window.
+The following Microsoft Visual Basic for Applications (VBA) macro gets the **Application** object associated with the active document and prints its process ID number in the Immediate window.
 
 
 ```vb
@@ -49,4 +50,4 @@ Public Sub Application_Example()
 End Sub
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

@@ -1,5 +1,5 @@
 ---
-title: Application.AfterPresentationOpen Event (PowerPoint)
+title: Application.AfterPresentationOpen event (PowerPoint)
 keywords: vbapp10.chm621021
 f1_keywords:
 - vbapp10.chm621021
@@ -8,26 +8,27 @@ api_name:
 - PowerPoint.Application.AfterPresentationOpen
 ms.assetid: 3f783486-0ceb-166d-017b-0a41bd15cfa6
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Application.AfterPresentationOpen Event (PowerPoint)
+# Application.AfterPresentationOpen event (PowerPoint)
 
 Occurs after an existing presentation is opened.
 
 
 ## Syntax
 
- _expression_. `AfterPresentationOpen`( `_Pres_` )
+_expression_. `AfterPresentationOpen`( `_Pres_` )
 
- _expression_ An expression that returns a [Application](./PowerPoint.Application.md) object.
-
-
-### Parameters
+ _expression_ An expression that returns an **[Application](PowerPoint.Application.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _Pres_|Required|**Presentation**|The presentation that is opened.|
 
@@ -64,3 +65,4 @@ End Sub
 
 [Application Object](PowerPoint.Application.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

@@ -1,14 +1,15 @@
 ---
-title: ProtectedViewWindows Object (Word)
+title: ProtectedViewWindows object (Word)
 ms.prod: word
 api_name:
 - Word.ProtectedViewWindows
 ms.assetid: 62c2f4d5-1080-548e-730b-388308144dfe
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# ProtectedViewWindows Object (Word)
+# ProtectedViewWindows object (Word)
 
 A collection of all the [ProtectedViewWindow](Word.ProtectedViewWindow.md) objects that are currently open in Word.
 
@@ -20,18 +21,18 @@ Use the  **ProtectedViewWindows** property to return the **ProtectedViewWindows*
 
 ## Example
 
-The following code example displays the number of protected view windows that are open.
+The following code example displays the number of Protected View windows that are open.
 
 
 ```vb
 MsgBox "There are " & ProtectedViewWindows.Count & _ 
- " protected view windows currently open."
+ " Protected View windows currently open."
 ```
 
 
 ## See also
 
 
-[Word Object Model Reference](./overview/Word/object-model.md)
+[Word Object Model Reference](overview/Word/object-model.md)
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

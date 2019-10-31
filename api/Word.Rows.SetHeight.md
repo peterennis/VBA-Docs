@@ -1,5 +1,5 @@
 ---
-title: Rows.SetHeight Method (Word)
+title: Rows.SetHeight method (Word)
 keywords: vbawd10.chm155975883
 f1_keywords:
 - vbawd10.chm155975883
@@ -8,26 +8,27 @@ api_name:
 - Word.Rows.SetHeight
 ms.assetid: 6c6dc63d-c17c-ad39-4d7a-bb5b608e776e
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Rows.SetHeight Method (Word)
+# Rows.SetHeight method (Word)
 
 Sets the height of table rows.
 
 
 ## Syntax
 
- _expression_. `SetHeight`( `_RowHeight_` , `_HeightRule_` )
+_expression_. `SetHeight`( `_RowHeight_` , `_HeightRule_` )
 
- _expression_ Required. A variable that represents a '[Rows](Word.rows.md)' collection.
-
-
-### Parameters
+_expression_ Required. A variable that represents a **[Rows](Word.Rows.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _RowHeight_|Required| **Single**|The height of the row or rows, in points.|
 | _HeightRule_|Required| **WdRowHeightRule**|The rule for determining the height of the specified rows.|
@@ -52,3 +53,4 @@ aTable.Rows.SetHeight RowHeight:=InchesToPoints(0.5), _
 
 [Rows Collection Object](Word.rows.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

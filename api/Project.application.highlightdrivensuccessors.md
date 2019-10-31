@@ -1,35 +1,36 @@
 ---
-title: Application.HighlightDrivenSuccessors Method (Project)
+title: Application.HighlightDrivenSuccessors method (Project)
 keywords: vbapj.chm150
 f1_keywords:
 - vbapj.chm150
 ms.prod: project-server
 ms.assetid: 2c93505b-541f-15a7-31ff-fcddcfa0bb55
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Application.HighlightDrivenSuccessors Method (Project)
+# Application.HighlightDrivenSuccessors method (Project)
 Sets or clears task driven successor highlighting for the task path feature.
 
 ## Syntax
 
- _expression_. `HighlightDrivenSuccessors` _(Set)_
+_expression_. `HighlightDrivenSuccessors` _(Set)_
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
-
-
-### Parameters
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _Set_|Optional|**Variant**|**True** to set task driven successor highlighting; **False** to clear the task driven successor highlighting.|
-| _Set_|Optional|VARIANT||
+| _Set_|Optional|**Variant**||
 |Name|Required/Optional|Data type|Description|
 
-### Return value
+## Return value
 
  **Boolean**
 
@@ -41,7 +42,7 @@ The  **HighlightDrivenSuccessors** method corresponds to the **Driven Successors
 
 ## Example
 
-Create a project where task 4 is a driven successor of task 3, and then run the following statements in the  **Immediate** window of the VBE. The **PathDrivenSuccessor** statement prints **True**.
+Create a project where task 4 is a driven successor of task 3, and then run the following statements in the Immediate window of the VBE. The **PathDrivenSuccessor** statement prints **True**.
 
 
 ```vb
@@ -59,3 +60,5 @@ Application.HighlightDrivenSuccessors True
 
 
 [Task.PathDrivenSuccessor Property](Project.task.pathdrivensuccessor.md)
+
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

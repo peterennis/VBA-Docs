@@ -1,5 +1,5 @@
 ---
-title: Application.ScreenUpdating Property (Visio)
+title: Application.ScreenUpdating property (Visio)
 keywords: vis_sdr.chm10014295
 f1_keywords:
 - vis_sdr.chm10014295
@@ -8,41 +8,43 @@ api_name:
 - Visio.Application.ScreenUpdating
 ms.assetid: 934e697f-da6c-5793-433b-dddb5d806920
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Application.ScreenUpdating Property (Visio)
+# Application.ScreenUpdating property (Visio)
 
 Determines whether the screen is updated (redrawn) during a series of actions. Read/write.
 
 
 ## Syntax
 
- _expression_. `ScreenUpdating`
+_expression_.**ScreenUpdating**
 
- _expression_ A variable that represents an [Application](./Visio.Application.md) object.
+_expression_ A variable that represents an **[Application](Visio.Application.md)** object.
 
 
-### Return Value
+## Return value
 
 Integer
 
 
 ## Remarks
 
-Use the  **ScreenUpdating** property to increase performance during a series of actions. For example, you can turn off screen updating while a series of shapes are created so that the screen is not redrawn after each shape appears. Then you can turn screen updating on to update the screen.
+Use the **ScreenUpdating** property to increase performance during a series of actions. For example, you can turn off screen updating while a series of shapes are created so that the screen is not redrawn after each shape appears. Then you can turn screen updating on to update the screen.
 
 If you send a large number of commands to a Microsoft Visio instance while screen updating is turned off, the Visio instance may redisplay the screen occasionally to flush its buffers.
 
 If a program neglects to turn screen updating on after turning it off, the Visio instance turns screen updating back on when a user performs an operation. 
 
 
- **Note**  The  **ShowChanges** and **ScreenUpdating** properties are similar in that they are both designed to increase performance during a series of actions, but they work differently. Setting the **ShowChanges** property also sets the **ScreenUpdating** property, but setting the **ScreenUpdating** property does not set the **ShowChanges** property. For a comparison of these two properties, see the **ShowChanges** property.
+> [!NOTE] 
+> The **ShowChanges** and **ScreenUpdating** properties are similar in that they are both designed to increase performance during a series of actions, but they work differently. Setting the **ShowChanges** property also sets the **ScreenUpdating** property, but setting the **ScreenUpdating** property does not set the **ShowChanges** property. For a comparison of these two properties, see the **ShowChanges** property.
 
 
 ## Example
 
-This Microsoft Visual Basic code snippet shows how to use the  **ScreenUpdating** property.
+This Microsoft Visual Basic code snippet shows how to use the **ScreenUpdating** property.
 
 
 ```vb
@@ -60,4 +62,4 @@ Visio.Application.ScreenUpdating = True
 
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

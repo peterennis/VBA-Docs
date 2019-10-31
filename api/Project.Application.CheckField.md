@@ -1,5 +1,5 @@
 ---
-title: Application.CheckField Method (Project)
+title: Application.CheckField method (Project)
 keywords: vbapj.chm7
 f1_keywords:
 - vbapj.chm7
@@ -8,24 +8,25 @@ api_name:
 - Project.Application.CheckField
 ms.assetid: a3360541-faa7-169e-1b23-5b3937fc6c07
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Application.CheckField Method (Project)
+# Application.CheckField method (Project)
 
 **True** if the selected tasks or resources meet the specified criteria.
 
 
 ## Syntax
 
- _expression_. `CheckField` (`_Field_`, `_Value_`, `_Test_`, `_Op_`, `_Field2_`, `_Value2_`, `_Test2_`)
+_expression_. `CheckField` (`_Field_`, `_Value_`, `_Test_`, `_Op_`, `_Field2_`, `_Value2_`, `_Test2_`)
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
-### Parameters
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _Field_|Required|**String**|The name of the field to search.|
 | _Value_|Required|**String**|The value to compare with the value of the field specified with **Field**.|
@@ -37,9 +38,9 @@ ms.date: 06/08/2017
 
 <br/>
 
-#### Comparison strings
+### Comparison strings
 
-|**Comparison string**|**Description**|
+|Comparison string|Description|
 |:-----|:-----|
 |"equals"|The value of **Field** equals **Value**.|
 |"does not equal"|The value of **Field** does not equal **Value**.|
@@ -55,7 +56,7 @@ ms.date: 06/08/2017
 
 <br/>
 
-### Return value
+## Return value
 
  **Variant**
 
@@ -81,4 +82,4 @@ Sub Check_Field()
 End Sub
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

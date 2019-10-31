@@ -1,5 +1,5 @@
 ---
-title: Windows.Count Property (Visio)
+title: Windows.Count property (Visio)
 keywords: vis_sdr.chm11713330
 f1_keywords:
 - vis_sdr.chm11713330
@@ -8,29 +8,30 @@ api_name:
 - Visio.Windows.Count
 ms.assetid: 8923a141-36c9-04ff-fd73-e192cf76a4e1
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Windows.Count Property (Visio)
+# Windows.Count property (Visio)
 
 Returns the number of objects in a collection. Read-only.
 
 
 ## Syntax
 
- _expression_. `Count`
+_expression_.**Count**
 
- _expression_ A variable that represents a [Windows](./Visio.Windows.md) object.
+_expression_ A variable that represents a **[Windows](Visio.Windows.md)** object.
 
 
-### Return Value
+## Return value
 
 Integer
 
 
 ## Example
 
-This Microsoft Visual Basic for Applications (VBA) macro shows how to use the  **Count** property to iterate through a **Documents** collection. It displays the names of all the open Microsoft Visio documents in the **Immediate** window.
+This Microsoft Visual Basic for Applications (VBA) macro shows how to use the  **Count** property to iterate through a **Documents** collection. It displays the names of all the open Microsoft Visio documents in the Immediate window.
 
 
 ```vb
@@ -51,4 +52,4 @@ Public Sub Count_Example()
 End Sub
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

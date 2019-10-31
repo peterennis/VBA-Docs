@@ -1,5 +1,5 @@
 ---
-title: PbDateTimeFormat Enumeration (Publisher)
+title: PbDateTimeFormat enumeration (Publisher)
 keywords: vbapb10.chm65560
 f1_keywords:
 - vbapb10.chm65560
@@ -8,16 +8,17 @@ api_name:
 - Publisher.PbDateTimeFormat
 ms.assetid: a9cafc4a-18ab-df84-3adb-995a935bd2d0
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# PbDateTimeFormat Enumeration (Publisher)
+# PbDateTimeFormat enumeration (Publisher)
 
 A format for the date and time.
 
 
 
-|**Name**|**Value**|**Description**|
+|Name|Value|Description|
 |:-----|:-----|:-----|
 | **pbDateEnglish**|8|English|
 | **pbDateISO**|4|ISO|
@@ -42,3 +43,4 @@ A format for the date and time.
 | **pbTimeSec24**|16|Time in 24-hour format|
 | **pbTimeSecPM**|14|Time including seconds in A.M./P.M. format|
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

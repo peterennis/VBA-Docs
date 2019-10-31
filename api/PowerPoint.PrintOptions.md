@@ -1,5 +1,5 @@
 ---
-title: PrintOptions Object (PowerPoint)
+title: PrintOptions object (PowerPoint)
 keywords: vbapp10.chm517000
 f1_keywords:
 - vbapp10.chm517000
@@ -8,15 +8,17 @@ api_name:
 - PowerPoint.PrintOptions
 ms.assetid: 19ce56ba-b0d0-4086-db86-e32feade70bd
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# PrintOptions Object (PowerPoint)
+# PrintOptions object (PowerPoint)
 
 Contains print options for a presentation.
 
 
- **Note**  Specifying the optional arguments From, To, Copies, and Collate for the  **[PrintOut](PowerPoint.Presentation.PrintOut.md)** method sets the corresponding properties of the **PrintOptions** object.
+> [!NOTE] 
+> Specifying the optional arguments From, To, Copies, and Collate for the  **[PrintOut](PowerPoint.Presentation.PrintOut.md)** method sets the corresponding properties of the **PrintOptions** object.
 
 
 ## Example
@@ -39,7 +41,7 @@ With ActivePresentation
 End With
 ```
 
-Use the [RangeType](PowerPoint.PrintOptions.RangeType.md) property to specify whether to print the entire presentation or only a specified part of it. If you want to print only certain slides, set the **RangeType** property to **ppPrintSlideRange**, and use the[Ranges](PowerPoint.PrintOptions.Ranges.md) property to specify which pages to print. The following example prints slides 1, 4, 5, and 6 in the active presentation
+Use the [RangeType](PowerPoint.PrintOptions.RangeType.md) property to specify whether to print the entire presentation or only a specified part of it. If you want to print only certain slides, set the **RangeType** property to **ppPrintSlideRange**, and use the [Ranges](PowerPoint.PrintOptions.Ranges.md) property to specify which pages to print. The following example prints slides 1, 4, 5, and 6 in the active presentation
 
 
 
@@ -63,3 +65,4 @@ End With
 
 [PowerPoint Object Model Reference](overview/PowerPoint/object-model.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

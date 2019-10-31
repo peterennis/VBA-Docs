@@ -1,5 +1,5 @@
 ---
-title: ContentControlListEntry Object (Word)
+title: ContentControlListEntry object (Word)
 keywords: vbawd10.chm2250
 f1_keywords:
 - vbawd10.chm2250
@@ -8,20 +8,22 @@ api_name:
 - Word.ContentControlListEntry
 ms.assetid: b4e51492-4283-22e7-0f9a-2cfa1abaa306
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# ContentControlListEntry Object (Word)
+# ContentControlListEntry object (Word)
 
 A  **ContentControlListEntry** object represents a list item in a drop-down list or combo box content control. A **ContentControlListEntry** object is a member of the **[ContentControlListEntries](Word.ContentControlListEntries.md)** collection for a **ContentControl** object.
 
 
 ## Remarks
 
-Use the  **[Add](Word.ContentControlListEntries.Add.md)** method of the **ContentControlListEntries** collection to create a new **ContentControlListEntry** object. Use the **[Item](./overview/Word.md)** method, or **[DropdownListEntries](Word.ContentControl.DropdownListEntries.md)** (Index), where Index is the ordinal position of the content control list item, to access an individual list item within the **ContentControlListEntries** collection.
+Use the  **[Add](Word.ContentControlListEntries.Add.md)** method of the **ContentControlListEntries** collection to create a new **ContentControlListEntry** object. Use the **[Item](overview/Word.md)** method, or **[DropdownListEntries](Word.ContentControl.DropdownListEntries.md)** (Index), where Index is the ordinal position of the content control list item, to access an individual list item within the **ContentControlListEntries** collection.
 
 
- **Note**  List entries must have unique display names. Attempting to add a list item that already exists raises a run-time error.
+> [!NOTE] 
+> List entries must have unique display names. Attempting to add a list item that already exists raises a run-time error.
 
 The following code example uses the  **Add** method to add several list items to a new drop-down list content control, and then uses the **Item** method to access the third item in the list and change the display text.
 
@@ -124,7 +126,7 @@ Set objCc = ActiveDocument.ContentControls(3)
 For Each objLE In objCC.DropdownListEntries 
  If objLE.Text <> "Other" Then 
  strText = objLE.Text 
- objLE.Value = "My favorite animal is the " &amp; strText &amp; "." 
+ objLE.Value = "My favorite animal is the " & strText & "." 
  End If 
 Next
 ```
@@ -154,7 +156,7 @@ Next
 
 
 
-|**Name**|
+|Name|
 |:-----|
 |[Delete](Word.ContentControlListEntry.Delete.md)|
 |[MoveDown](Word.ContentControlListEntry.MoveDown.md)|
@@ -165,7 +167,7 @@ Next
 
 
 
-|**Name**|
+|Name|
 |:-----|
 |[Application](Word.ContentControlListEntry.Application.md)|
 |[Creator](Word.ContentControlListEntry.Creator.md)|
@@ -177,4 +179,6 @@ Next
 ## See also
 
 
-[Word Object Model Reference](./overview/Word/object-model.md)
+[Word Object Model Reference](overview/Word/object-model.md)
+
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

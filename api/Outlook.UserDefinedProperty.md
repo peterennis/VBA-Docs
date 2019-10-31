@@ -1,5 +1,5 @@
 ---
-title: UserDefinedProperty Object (Outlook)
+title: UserDefinedProperty object (Outlook)
 keywords: vbaol11.chm3151
 f1_keywords:
 - vbaol11.chm3151
@@ -8,28 +8,29 @@ api_name:
 - Outlook.UserDefinedProperty
 ms.assetid: aebe38db-0ff9-79d2-b5a7-751fea7c97f3
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# UserDefinedProperty Object (Outlook)
+# UserDefinedProperty object (Outlook)
 
-Represents the definition of a user-defined property for a  **[Folder](Outlook.Folder.md)** object.
+Represents the definition of a user-defined property for a **[Folder](Outlook.Folder.md)** object.
 
 
 ## Remarks
 
-Use  **[UserDefinedProperties](Outlook.Folder.UserDefinedProperties.md)** ( _index_), where  _index_ is a name or index number, to return a single **UserDefinedProperty** object.
+Use **[UserDefinedProperties](Outlook.Folder.UserDefinedProperties.md)** (_index_), where _index_ is a name or index number, to return a single **UserDefinedProperty** object.
 
-Use the  **[Add](Outlook.UserDefinedProperties.Add.md)** method of the **[UserDefinedProperties](Outlook.Folder.UserDefinedProperties.md)** collection for a **Folder** object to define a user-defined property for that folder.
+Use the **[Add](Outlook.UserDefinedProperties.Add.md)** method of the **[UserDefinedProperties](Outlook.Folder.UserDefinedProperties.md)** collection for a **Folder** object to define a user-defined property for that folder.
 
-Use the  **[Type](Outlook.UserDefinedProperty.Type.md)** property to return the user-defined property type and the **[DisplayFormat](Outlook.UserDefinedProperty.DisplayFormat.md)** property to return the display format for the user-defined property. If the **Type** property is set to **olCombination** or **olFormula**, use the **[Formula](Outlook.UserDefinedProperty.Formula.md)** property to return the formula used to generate values for the user-defined property.
+Use the **[Type](Outlook.UserDefinedProperty.Type.md)** property to return the user-defined property type and the **[DisplayFormat](Outlook.UserDefinedProperty.DisplayFormat.md)** property to return the display format for the user-defined property. If the **Type** property is set to **olCombination** or **olFormula**, use the **[Formula](Outlook.UserDefinedProperty.Formula.md)** property to return the formula used to generate values for the user-defined property.
 
-The  **UserDefinedProperty** object represents only the definition of a user-defined property, which is applicable to all Outlook items contained by the folder. To retrieve or change user-defined property values for an Outlook item in that folder, use the **[UserProperties](Outlook.MailItem.UserProperties.md)** property of the Outlook item, such as a **[MailItem](Outlook.MailItem.md)** object, to retrieve the **[UserProperties](Outlook.UserProperties.md)** collection for that item. You can then use the **[UserProperty](Outlook.UserProperty.md)** object for the appropriate user-defined property to retrieve or change the value of that user-defined property for the Outlook item.
+The **UserDefinedProperty** object represents only the definition of a user-defined property, which is applicable to all Outlook items contained by the folder. To retrieve or change user-defined property values for an Outlook item in that folder, use the **[UserProperties](Outlook.MailItem.UserProperties.md)** property of the Outlook item, such as a **[MailItem](Outlook.MailItem.md)** object, to retrieve the **[UserProperties](Outlook.UserProperties.md)** collection for that item. You can then use the **[UserProperty](Outlook.UserProperty.md)** object for the appropriate user-defined property to retrieve or change the value of that user-defined property for the Outlook item.
 
 
 ## Example
 
-The following Visual Basic for Applications (VBA) example displays the name of a specified  **Folder** object, as well as the name and type of every **UserDefinedProperty** object contained in the **UserDefinedProperties** collection of the specified **Folder** object, to the **Immediate** window.
+The following Visual Basic for Applications (VBA) example displays the name of a specified **Folder** object, as well as the name and type of every **UserDefinedProperty** object contained in the **UserDefinedProperties** collection of the specified **Folder** object, to the Immediate window.
 
 
 ```vb
@@ -38,7 +39,7 @@ Sub DisplayUserProperties(ByRef FolderToCheck As Folder)
  
  ' Print the name of the specified Folder object 
  ' reference to the Immediate window. 
- Debug.Print "--- Folder: " &amp; FolderToCheck.Name 
+ Debug.Print "--- Folder: " & FolderToCheck.Name 
  
  ' Check if there are any user-defined properties 
  ' associated with the Folder object reference. 
@@ -54,35 +55,35 @@ Sub DisplayUserProperties(ByRef FolderToCheck As Folder)
  ' Retrieve the type of the user-defined property. 
  Select Case objProperty.Type 
  Case OlUserPropertyType.olCombination 
- strPropertyInfo = strPropertyInfo &amp; " (Combination)" 
+ strPropertyInfo = strPropertyInfo & " (Combination)" 
  Case OlUserPropertyType.olCurrency 
- strPropertyInfo = strPropertyInfo &amp; " (Currency)" 
+ strPropertyInfo = strPropertyInfo & " (Currency)" 
  Case OlUserPropertyType.olDateTime 
- strPropertyInfo = strPropertyInfo &amp; " (Date/Time)" 
+ strPropertyInfo = strPropertyInfo & " (Date/Time)" 
  Case OlUserPropertyType.olDuration 
- strPropertyInfo = strPropertyInfo &amp; " (Duration)" 
+ strPropertyInfo = strPropertyInfo & " (Duration)" 
  Case OlUserPropertyType.olEnumeration 
- strPropertyInfo = strPropertyInfo &amp; " (Enumeration)" 
+ strPropertyInfo = strPropertyInfo & " (Enumeration)" 
  Case OlUserPropertyType.olFormula 
- strPropertyInfo = strPropertyInfo &amp; " (Formula)" 
+ strPropertyInfo = strPropertyInfo & " (Formula)" 
  Case OlUserPropertyType.olInteger 
- strPropertyInfo = strPropertyInfo &amp; " (Integer)" 
+ strPropertyInfo = strPropertyInfo & " (Integer)" 
  Case OlUserPropertyType.olKeywords 
- strPropertyInfo = strPropertyInfo &amp; " (Keywords)" 
+ strPropertyInfo = strPropertyInfo & " (Keywords)" 
  Case OlUserPropertyType.olNumber 
- strPropertyInfo = strPropertyInfo &amp; " (Number)" 
+ strPropertyInfo = strPropertyInfo & " (Number)" 
  Case OlUserPropertyType.olOutlookInternal 
- strPropertyInfo = strPropertyInfo &amp; " (Outlook Internal)" 
+ strPropertyInfo = strPropertyInfo & " (Outlook Internal)" 
  Case OlUserPropertyType.olPercent 
- strPropertyInfo = strPropertyInfo &amp; " (Percent)" 
+ strPropertyInfo = strPropertyInfo & " (Percent)" 
  Case OlUserPropertyType.olSmartFrom 
- strPropertyInfo = strPropertyInfo &amp; " (Smart From)" 
+ strPropertyInfo = strPropertyInfo & " (Smart From)" 
  Case OlUserPropertyType.olText 
- strPropertyInfo = strPropertyInfo &amp; " (Text)" 
+ strPropertyInfo = strPropertyInfo & " (Text)" 
  Case OlUserPropertyType.olYesNo 
- strPropertyInfo = strPropertyInfo &amp; " (Yes/No)" 
+ strPropertyInfo = strPropertyInfo & " (Yes/No)" 
  Case Else 
- strPropertyInfo = strPropertyInfo &amp; " (Unknown)" 
+ strPropertyInfo = strPropertyInfo & " (Unknown)" 
  End Select 
  
  ' Print the name and type of the user-defined property 
@@ -99,7 +100,7 @@ End Sub
 
 
 
-|**Name**|
+|Name|
 |:-----|
 |[Delete](Outlook.UserDefinedProperty.Delete.md)|
 
@@ -107,7 +108,7 @@ End Sub
 
 
 
-|**Name**|
+|Name|
 |:-----|
 |[Application](Outlook.UserDefinedProperty.Application.md)|
 |[Class](Outlook.UserDefinedProperty.Class.md)|
@@ -121,4 +122,6 @@ End Sub
 ## See also
 
 
-[Outlook Object Model Reference](./overview/Outlook/object-model.md)
+[Outlook Object Model Reference](overview/Outlook/object-model.md)
+
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

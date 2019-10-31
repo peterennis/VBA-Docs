@@ -1,5 +1,5 @@
 ---
-title: NameSpace.CompareEntryIDs Method (Outlook)
+title: NameSpace.CompareEntryIDs method (Outlook)
 keywords: vbaol11.chm794
 f1_keywords:
 - vbaol11.chm794
@@ -8,33 +8,34 @@ api_name:
 - Outlook.NameSpace.CompareEntryIDs
 ms.assetid: 4e935803-9c73-03d2-17c9-dcaf169fdbbe
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# NameSpace.CompareEntryIDs Method (Outlook)
+# NameSpace.CompareEntryIDs method (Outlook)
 
 Returns a  **Boolean** value that indicates if two entry ID values refer to the same Outlook item.
 
 
 ## Syntax
 
- _expression_. `CompareEntryIDs`( `_FirstEntryID_` , `_SecondEntryID_` )
+_expression_. `CompareEntryIDs`( `_FirstEntryID_` , `_SecondEntryID_` )
 
- _expression_ An expression that returns a [NameSpace](./Outlook.NameSpace.md) object.
-
-
-### Parameters
+ _expression_ An expression that returns a [NameSpace](Outlook.NameSpace.md) object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _FirstEntryID_|Required| **String**|The first entry ID to be compared.|
 | _SecondEntryID_|Required| **String**|The second entry ID to be compared.|
 
-### Return Value
+## Return value
 
- **True** if the entry ID values refer to the same Outlook item; otherwise, **False** .
+ **True** if the entry ID values refer to the same Outlook item; otherwise, **False**.
 
 
 ## Remarks
@@ -76,7 +77,7 @@ Function IsRecipientTheOrganizer( _
  
  Const PR_SENT_REPRESENTING_ENTRYID As String = _ 
  
- "https://schemas.microsoft.com/mapi/proptag/0x00410102" 
+ "http://schemas.microsoft.com/mapi/proptag/0x00410102" 
  
  
  
@@ -249,3 +250,4 @@ End Function
 
 [NameSpace Object](Outlook.NameSpace.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

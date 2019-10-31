@@ -1,20 +1,21 @@
 ---
-title: WdDictionaryType Enumeration (Word)
+title: WdDictionaryType enumeration (Word)
 ms.prod: word
 api_name:
 - Word.WdDictionaryType
 ms.assetid: eeabf89d-561e-e631-8dd8-ccd1765a81fa
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# WdDictionaryType Enumeration (Word)
+# WdDictionaryType enumeration (Word)
 
 Specifies a proofing tool type.
 
 
 
-|**Name**|**Value**|**Description**|
+|Name|Value|Description|
 |:-----|:-----|:-----|
 | **wdGrammar**|1|Grammar.|
 | **wdHangulHanjaConversion**|8|Dictionary for converting between Hangul and Hanja. Available only if you have enabled support for Korean through Microsoft Office Language Settings.|
@@ -27,3 +28,4 @@ Specifies a proofing tool type.
 | **wdSpellingMedical**|7|Medical dictionary.|
 | **wdThesaurus**|2|Thesaurus.|
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

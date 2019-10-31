@@ -1,5 +1,5 @@
 ---
-title: InvisibleApp.SaveAsWebObject Property (Visio)
+title: InvisibleApp.SaveAsWebObject property (Visio)
 keywords: vis_sdr.chm17551660
 f1_keywords:
 - vis_sdr.chm17551660
@@ -8,22 +8,23 @@ api_name:
 - Visio.InvisibleApp.SaveAsWebObject
 ms.assetid: 9020e7db-b696-7484-c024-fd92906e486b
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# InvisibleApp.SaveAsWebObject Property (Visio)
+# InvisibleApp.SaveAsWebObject property (Visio)
 
 Returns a reference to the  **IDispatch** interface of a **VisSaveAsWeb** object. Read-only.
 
 
 ## Syntax
 
- _expression_. `SaveAsWebObject`
+_expression_.**SaveAsWebObject**
 
- _expression_ A variable that represents an [InvisibleApp](./Visio.InvisibleApp.md) object.
+_expression_ A variable that represents an **[InvisibleApp](Visio.InvisibleApp.md)** object.
 
 
-### Return Value
+## Return value
 
 Object
 
@@ -35,7 +36,7 @@ Once you have a reference to the  **VisSaveAsWeb** object, you can use the objec
 To be able to work with the Save as Web Page API, you must get a reference to the  **Microsoft Visio 14.0 Save As Web Type Library** in your Microsoft Visual Basic or Microsoft Visual Basic for Applications (VBA) project. To get this reference in VBA, use the following procedure:
 
 
-1. In the  **Code** group on the[Developer](../visio/How-to/run-visio-in-developer-mode.md) tab, click **Visual Basic**.
+1. In the  **Code** group on the [Developer](../visio/How-to/run-visio-in-developer-mode.md) tab, click **Visual Basic**.
     
 2. On the  **Tools** menu, click **References**.
     
@@ -44,9 +45,9 @@ To be able to work with the Save as Web Page API, you must get a reference to th
 
 ## Example
 
-This VBA macro shows how to use the  **SaveAsWebObject** property to get a **VisSaveAsWeb** object. It also shows how to get a **VisWebPageSettings** object, configure Web-page settings, and create a Web page to display the active Visio document. The macro gets a Visio **Application** object and passes it to the **SaveAsWeb** procedure, which gets the **VisSaveAsWeb** object, configures the settings, and creates the Web page.
+This VBA macro shows how to use the  **SaveAsWebObject** property to get a **VisSaveAsWeb** object. It also shows how to get a **VisWebPageSettings** object, configure Web-page settings, and create a webpage to display the active Visio document. The macro gets a Visio **Application** object and passes it to the **SaveAsWeb** procedure, which gets the **VisSaveAsWeb** object, configures the settings, and creates the webpage.
 
-Before running this macro, get a reference to the  **Microsoft Visio 14.0 Save As Web Type Library** as described above, and replace _path\filename_ in the code with the full path to and name of the .htm file you want to create on your computer to display the Web page.
+Before running this macro, get a reference to the  **Microsoft Visio 14.0 Save As Web Type Library** as described above, and replace `path\filename` in the code with the full path to and name of the .htm file you want to create on your computer to display the webpage.
 
 
 
@@ -86,4 +87,4 @@ Public Sub SaveAsWeb (vsoApplication as Visio.Application)
 End Sub
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

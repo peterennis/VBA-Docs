@@ -1,5 +1,5 @@
 ---
-title: Page.LinkShapesToDataRows Method (Visio)
+title: Page.LinkShapesToDataRows method (Visio)
 keywords: vis_sdr.chm10960155
 f1_keywords:
 - vis_sdr.chm10960155
@@ -8,36 +8,38 @@ api_name:
 - Visio.Page.LinkShapesToDataRows
 ms.assetid: 306c8edf-04ea-1e54-b3cf-63ea0352c242
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Page.LinkShapesToDataRows Method (Visio)
+# Page.LinkShapesToDataRows method (Visio)
 
 Links multiple rows in the specified data recordset, as specified by their data row IDs, to multiple shapes on the page, and optionally applies the current data graphic to the linked shapes.
 
 
- **Note**  This Visio object or member is available only to licensed users of Visio Professional 2013.
+> [!NOTE] 
+> This Visio object or member is available only to licensed users of Visio Professional 2013.
 
 
 ## Syntax
 
- _expression_. `LinkShapesToDataRows`( `_DataRecordsetID_` , `_DataRowIDs()_` , `_ShapeIDs()_` , `_ApplyDataGraphicAfterLink_` )
+_expression_. `LinkShapesToDataRows`( `_DataRecordsetID_` , `_DataRowIDs()_` , `_ShapeIDs()_` , `_ApplyDataGraphicAfterLink_` )
 
- _expression_ An expression that returns a [Page](./Visio.Page.md) object.
-
-
-### Parameters
+ _expression_ An expression that returns a **[Page](Visio.Page.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _DataRecordsetID_|Required| **Long**|The ID of a data recordset contained in the current document containing the data to link to.|
 | _DataRowIDs()_|Required| **Long**|An array of type  **Long** of data row IDs of rows in the data recordset specified in DataRecordsetID, to be linked to the shapes specified in ShapeIDs().|
 | _ShapeIDs()_|Required| **Long**| An array of type **Long** of shape IDs of shapes on the page to be linked to the data rows specified in DataRowIDs() in the data recordset specified in DataRecordsetID.|
 | _ApplyDataGraphicAfterLink_|Optional| **Boolean**|Whether to apply the current data graphic to the linked shapes. See Remarks for more information.|
 
-### Return Value
+## Return value
 
 Nothing
 
@@ -84,4 +86,4 @@ Public Sub LinkShapesToDataRows_Example()
 End Sub
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

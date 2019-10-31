@@ -1,5 +1,5 @@
 ---
-title: Font.Ligatures Property (Word)
+title: Font.Ligatures property (Word)
 keywords: vbawd10.chm156369070
 f1_keywords:
 - vbawd10.chm156369070
@@ -8,19 +8,20 @@ api_name:
 - Word.Font.Ligatures
 ms.assetid: f1b0ff39-5eb5-e5a3-e0ff-3e88639670f9
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Font.Ligatures Property (Word)
+# Font.Ligatures property (Word)
 
 Returns or sets the ligatures setting for the specified  **Font** object. Read/write[WdLigatures](Word.WdLigatures.md).
 
 
 ## Syntax
 
- _expression_. `Ligatures`
+_expression_. `Ligatures`
 
- _expression_ An expression that returns a '[Font](Word.Font.md)' object.
+ _expression_ An expression that returns a **[Font](Word.Font.md)** object.
 
 
 ## Remarks
@@ -31,14 +32,14 @@ The following table lists the four basic values for ligatures.
 
 
 
-|**Value**|**Description**|
+|Value|Description|
 |:-----|:-----|
 |Standard|Designed to enhance readability and attractiveness. Standard ligatures in Latin languages include "fi", "fl", and "ff".|
 |Contextual|Designed to enhance readability and attractiveness by providing the best ligature choice given the surrounding text.|
 |Historical|Older, ornamental ligatures that may look archaic to the modern reader. Not specifically designed for readability.|
 |Discretional|Designed to be ornamental and not designed to be readable.|
 
- Combinations of these four basic values form the set of available values for the **Ligatures** property. This set of values is represented in the[WdLigatures](Word.WdLigatures.md) enumeration.
+ Combinations of these four basic values form the set of available values for the **Ligatures** property. This set of values is represented in the [WdLigatures](Word.WdLigatures.md) enumeration.
 
 
 ## Example
@@ -56,3 +57,4 @@ ActiveDocument.Range.Font.Ligatures = wdLigaturesDiscretional
 
 [Font Object](Word.Font.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

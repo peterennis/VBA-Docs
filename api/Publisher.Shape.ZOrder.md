@@ -1,5 +1,5 @@
 ---
-title: Shape.ZOrder Method (Publisher)
+title: Shape.ZOrder method (Publisher)
 keywords: vbapb10.chm2228272
 f1_keywords:
 - vbapb10.chm2228272
@@ -7,55 +7,42 @@ ms.prod: publisher
 api_name:
 - Publisher.Shape.ZOrder
 ms.assetid: 05143a2b-924e-b5a3-390d-9493627bfa9f
-ms.date: 06/08/2017
+ms.date: 06/13/2019
+localization_priority: Normal
 ---
 
 
-# Shape.ZOrder Method (Publisher)
+# Shape.ZOrder method (Publisher)
 
 Moves the specified shape in front of or behind other shapes in the collection (that is, changes the shape's position in the z-order).
 
 
 ## Syntax
 
- _expression_. **ZOrder**(**_ZOrderCmd_**)
+_expression_.**ZOrder** (_ZOrderCmd_)
 
- _expression_ A variable that represents a  **Shape** object.
-
-
-### Parameters
+_expression_ A variable that represents a **[Shape](Publisher.Shape.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-|ZOrderCmd|Required| **MsoZOrderCmd**|Specifies where to move the specified shape relative to the other shapes.|
+|_ZOrderCmd_ |Required| **[MsoZOrderCmd](office.msozordercmd.md)**|Specifies where to move the specified shape relative to the other shapes. Can be one of the **MsoZOrderCmd** constants declared in the Microsoft Office type library. |
 
-### Return Value
+## Return value
 
 Nothing
 
 
 ## Remarks
 
-The ZOrderCmd parameter can be one of the  **MsoZOrderCmd** constants declared in the Microsoft Office type library and shown in the following table.
-
-
-
-| **msoBringForward**|
-| **msoBringInFrontOfText**|
-| **msoBringToFront**|
-| **msoSendBackward**|
-| **msoSendBehindText**|
-| **msoSendToBack**|
-
-Use the  [ZOrderPosition](Publisher.Shape.ZOrderPosition.md)property to determine a shape's current position in the z-order.
+Use the **[ZOrderPosition](Publisher.Shape.ZOrderPosition.md)** property to determine a shape's current position in the z-order.
 
 
 ## Example
 
 This example adds an oval to the active publication and then places the oval second from the back in the z-order if there is at least one other shape on the page.
-
 
 ```vb
 With ActiveDocument.Pages(1).Shapes _ 
@@ -68,4 +55,4 @@ End With
 
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

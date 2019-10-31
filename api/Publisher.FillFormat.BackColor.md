@@ -1,5 +1,5 @@
 ---
-title: FillFormat.BackColor Property (Publisher)
+title: FillFormat.BackColor property (Publisher)
 keywords: vbapb10.chm2359552
 f1_keywords:
 - vbapb10.chm2359552
@@ -7,31 +7,31 @@ ms.prod: publisher
 api_name:
 - Publisher.FillFormat.BackColor
 ms.assetid: 61c6171b-f707-6741-68d2-5389bb3fac10
-ms.date: 06/08/2017
+ms.date: 06/07/2019
+localization_priority: Normal
 ---
 
 
-# FillFormat.BackColor Property (Publisher)
+# FillFormat.BackColor property (Publisher)
 
-Returns or sets a  **[ColorFormat](Publisher.ColorFormat.md)** object representing the background color for the specified fill or patterned line. .
+Returns or sets a **[ColorFormat](Publisher.ColorFormat.md)** object representing the background color for the specified fill or patterned line. 
 
 
 ## Syntax
 
- _expression_. **BackColor**
+_expression_.**BackColor**
 
- _expression_ A variable that represents a  **FillFormat** object.
+_expression_ A variable that represents a **[FillFormat](publisher.fillformat.md)** object.
 
 
 ## Remarks
 
-Use the  **[ForeColor](Publisher.FillFormat.ForeColor.md)** property to set the foreground color for a fill or line.
+Use the **[ForeColor](Publisher.FillFormat.ForeColor.md)** property to set the foreground color for a fill or line.
 
 
 ## Example
 
 This example adds a rectangle to the active publication and then sets the foreground color, background color, and gradient for the rectangle's fill.
-
 
 ```vb
 With ActiveDocument.Pages(1).Shapes.AddShape _ 
@@ -44,10 +44,9 @@ With ActiveDocument.Pages(1).Shapes.AddShape _
 End With
 ```
 
+<br/>
+
 This example adds a patterned line to the active publication.
-
-
-
 
 ```vb
 With ActiveDocument.Pages(1).Shapes.AddLine _ 
@@ -60,4 +59,4 @@ End With
 
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

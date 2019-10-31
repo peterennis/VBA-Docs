@@ -1,5 +1,5 @@
 ---
-title: AutoCorrect.Entries Property (Word)
+title: AutoCorrect.Entries property (Word)
 keywords: vbawd10.chm155779078
 f1_keywords:
 - vbawd10.chm155779078
@@ -8,24 +8,25 @@ api_name:
 - Word.AutoCorrect.Entries
 ms.assetid: eaf66013-5417-742b-9bf1-cbf83626a8e5
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# AutoCorrect.Entries Property (Word)
+# AutoCorrect.Entries property (Word)
 
 Returns an  **[AutoCorrectEntries](Word.autocorrectentries.md)** collection that represents the current list of AutoCorrect entries.
 
 
 ## Syntax
 
- _expression_. `Entries`
+_expression_. `Entries`
 
- _expression_ A variable that represents an '[AutoCorrect](Word.AutoCorrect.md)' object.
+_expression_ A variable that represents an '[AutoCorrect](Word.AutoCorrect.md)' object.
 
 
 ## Remarks
 
-This list corresponds to the list of AutoCorrect entries on the  **AutoCorrect** tab in the **AutoCorrect** dialog box. Read-only. For information about returning a single member of a collection, see[Returning an Object from a Collection](../word/Concepts/Miscellaneous/returning-an-object-from-a-collection-word.md).
+This list corresponds to the list of AutoCorrect entries on the  **AutoCorrect** tab in the **AutoCorrect** dialog box. Read-only. For information about returning a single member of a collection, see [Returning an object from a collection](../word/Concepts/Miscellaneous/returning-an-object-from-a-collection-word.md).
 
 
 ## Example
@@ -74,3 +75,4 @@ End If
 
 [AutoCorrect Object](Word.AutoCorrect.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

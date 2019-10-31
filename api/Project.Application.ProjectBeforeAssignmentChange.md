@@ -1,30 +1,31 @@
 ---
-title: Application.ProjectBeforeAssignmentChange Event (Project)
+title: Application.ProjectBeforeAssignmentChange event (Project)
 ms.prod: project-server
 api_name:
 - Project.Application.ProjectBeforeAssignmentChange
 ms.assetid: 9d94303c-f8f6-1681-0829-23f240afc570
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Application.ProjectBeforeAssignmentChange Event (Project)
+# Application.ProjectBeforeAssignmentChange event (Project)
 
 Occurs before the user changes the value of an assignment field.
 
 
 ## Syntax
 
- _expression_. `ProjectBeforeAssignmentChange`( ` _asg_`, ` _Field_`, ` _NewVal_`, ` _Cancel_` )
+_expression_. `ProjectBeforeAssignmentChange`( `_asg_`, `_Field_`, `_NewVal_`, `_Cancel_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
-
-
-### Parameters
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _asg_|Required|**Assignment**|The assignment whose field is being changed.|
 | _Field_|Required|**PjAssignmentField**| The field being changed. If more than one field is changed by the user, the event is triggered for each field changed. Can be one of the following **[PjAssignmentField](Project.PjAssignmentField.md)** constants.|
@@ -35,7 +36,7 @@ Occurs before the user changes the value of an assignment field.
 
 Project events do not occur when the project is embedded in another document or application.
 
-The  **ProjectBeforeAssignmentChange** event doesn't occur when timescaled data changes, when an entire resource or task row is pasted, when an assignment is changed as the result of a drag-and-drop operation in the Resource Usage view, during resource pool operations, when inserting or removing a subproject, or when changes have been made using a custom form. For more information and sample code for creating and testing an event handler, see[Using Events with Application and Project Objects](../project/Concepts/using-events-with-application-and-project-objects.md).
+The  **ProjectBeforeAssignmentChange** event doesn't occur when timescaled data changes, when an entire resource or task row is pasted, when an assignment is changed as the result of a drag-and-drop operation in the Resource Usage view, during resource pool operations, when inserting or removing a subproject, or when changes have been made using a custom form. For more information and sample code for creating and testing an event handler, see [Using Events with Application and Project Objects](../project/Concepts/using-events-with-application-and-project-objects.md).
 
 
 ## Example
@@ -54,4 +55,4 @@ Private Sub App_ProjectBeforeAssignmentChange(ByVal asg As Assignment, ByVal Fie
 End Sub
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

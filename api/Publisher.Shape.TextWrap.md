@@ -1,5 +1,5 @@
 ---
-title: Shape.TextWrap Property (Publisher)
+title: Shape.TextWrap property (Publisher)
 keywords: vbapb10.chm2228352
 f1_keywords:
 - vbapb10.chm2228352
@@ -7,26 +7,26 @@ ms.prod: publisher
 api_name:
 - Publisher.Shape.TextWrap
 ms.assetid: e641d9a5-5b63-06d0-a0c3-d3feb1910159
-ms.date: 06/08/2017
+ms.date: 06/13/2019
+localization_priority: Normal
 ---
 
 
-# Shape.TextWrap Property (Publisher)
+# Shape.TextWrap property (Publisher)
 
-Returns a  **[WrapFormat](Publisher.WrapFormat.md)** object that represents the properties for wrapping text around a shape or shape range.
+Returns a **[WrapFormat](Publisher.WrapFormat.md)** object that represents the properties for wrapping text around a shape or shape range.
 
 
 ## Syntax
 
- _expression_. **TextWrap**
+_expression_.**TextWrap**
 
- _expression_ A variable that represents a  **Shape** object.
+_expression_ A variable that represents a **[Shape](Publisher.Shape.md)** object.
 
 
 ## Example
 
-The following example adds an oval to the active publication and specifies that publication text wrap around the left and right sides of the square that circumscribes the oval. There will be a 0.1-inch margin between the publication text and the top, bottom, left side, and right side of the square.
-
+The following example adds an oval to the active publication and specifies that the publication text wrap around the left and right sides of the square that circumscribes the oval. There will be a 0.1-inch margin between the publication text and the top, bottom, left side, and right side of the square.
 
 ```vb
 Sub SetTextWrapFormatProperties() 
@@ -46,4 +46,4 @@ Sub SetTextWrapFormatProperties()
 End Sub
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

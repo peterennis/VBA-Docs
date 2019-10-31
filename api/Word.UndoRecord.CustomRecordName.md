@@ -1,5 +1,5 @@
 ---
-title: UndoRecord.CustomRecordName Property (Word)
+title: UndoRecord.CustomRecordName property (Word)
 keywords: vbawd10.chm56098820
 f1_keywords:
 - vbawd10.chm56098820
@@ -8,19 +8,20 @@ api_name:
 - Word.UndoRecord.CustomRecordName
 ms.assetid: 97da07e1-3b9f-de7d-c2d8-af6af2bb2374
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# UndoRecord.CustomRecordName Property (Word)
+# UndoRecord.CustomRecordName property (Word)
 
 Returns a  **String** that specifies the entry that appears on the undo stack when all custom undo actions have completed. Read-only.
 
 
 ## Syntax
 
- _expression_. `CustomRecordName`
+_expression_. `CustomRecordName`
 
- _expression_ A variable that represents a '[UndoRecord](Word.UndoRecord.md)' object.
+_expression_ A variable that represents an **[UndoRecord](Word.UndoRecord.md)** object.
 
 
 ## Remarks
@@ -33,7 +34,8 @@ If custom undo records are nested within other custom undo records, this propert
 The following code example creates nested custom undo records. When the code completes, a message about each undo record is inserted into the active document, and "First call" appears as the entry on the undo stack.
 
 
- **Note**  To run this code example, place it the code file for  **ThisDocument** in the Visual Basic for Applications Project Explorer.
+> [!NOTE] 
+> To run this code example, place it the code file for  **ThisDocument** in the Visual Basic for Applications Project Explorer.
 
 
 ```vb
@@ -72,3 +74,4 @@ End Sub
 
 [UndoRecord Object](Word.UndoRecord.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

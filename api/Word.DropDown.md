@@ -1,5 +1,5 @@
 ---
-title: DropDown Object (Word)
+title: DropDown object (Word)
 keywords: vbawd10.chm2341
 f1_keywords:
 - vbawd10.chm2341
@@ -8,17 +8,18 @@ api_name:
 - Word.DropDown
 ms.assetid: 55233d61-d6d0-30f9-6825-ebbdbeb928b6
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# DropDown Object (Word)
+# DropDown object (Word)
 
 Represents a drop-down form field that contains a list of items in a form.
 
 
 ## Remarks
 
-Use  **FormFields** (index), where index is the index number or the bookmark name associated with the drop-down form field, to return a single **FormField** object. Use the **DropDown** property with the **FormField** object to return a **DropDown** object. The following example selects the first item in the drop-down form field named "DropDown" in the active document.
+Use  **FormFields** (_index_), where _index_ is the index number or the bookmark name associated with the drop-down form field, to return a single **FormField** object. Use the **DropDown** property with the **FormField** object to return a **DropDown** object. The following example selects the first item in the drop-down form field named "DropDown" in the active document.
 
 
 ```vb
@@ -74,7 +75,7 @@ End With
 
 
 
-|**Name**|
+|Name|
 |:-----|
 |[Application](Word.DropDown.Application.md)|
 |[Creator](Word.DropDown.Creator.md)|
@@ -87,4 +88,6 @@ End With
 ## See also
 
 
-[Word Object Model Reference](./overview/Word/object-model.md)
+[Word Object Model Reference](overview/Word/object-model.md)
+
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

@@ -6,12 +6,13 @@ f1_keywords:
 ms.prod: office
 ms.assetid: 63598821-9427-e71d-2168-d4448a684005
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
 # Invalid property-array index (Error 381)
 
-A [property](../../Glossary/vbe-glossary.md#property) value may consist of an[array](../../Glossary/vbe-glossary.md#array) of values. This error has the following cause and solution:
+A [property](../../Glossary/vbe-glossary.md#property) value may consist of an [array](../../Glossary/vbe-glossary.md#array) of values. This error has the following cause and solution:
 
 
 
@@ -20,3 +21,4 @@ A [property](../../Glossary/vbe-glossary.md#property) value may consist of an[ar
 
 For additional information, select the item in question and press F1 (in Windows) or HELP (on the Macintosh).
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

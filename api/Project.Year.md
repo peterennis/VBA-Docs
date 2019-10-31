@@ -1,5 +1,5 @@
 ---
-title: Year Object (Project)
+title: Year object (Project)
 keywords: vbapj.chm131361
 f1_keywords:
 - vbapj.chm131361
@@ -8,10 +8,11 @@ api_name:
 - Project.Year
 ms.assetid: 060e541f-f709-65dd-c955-5d04c1554373
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Year Object (Project)
+# Year object (Project)
 
 Represents a year in a project calendar. The  **Year** object is a member of the **[Years](Project.years.md)** collection.
  
@@ -54,8 +55,8 @@ For Each r In ActiveSelection.Resources()
             End If
         Next d
     End With
-    MsgBox "There are " &amp; workingDays &amp; " working days in " _
-        &amp; r.Name &amp; "'s calendar for month " &amp; theMonth
+    MsgBox "There are " & workingDays & " working days in " _
+        & r.Name & "'s calendar for month " & theMonth
 Next r
 ```
 
@@ -76,11 +77,11 @@ Sub CountYears()
     Dim temp As String
         
     For c = 1 To ActiveProject.Calendar.Years.Count
-        temp = temp &amp; ListSeparator &amp; " " &amp; _
+        temp = temp & ListSeparator & " " & _
             ActiveProject.Calendar.Years(c + 1983).Name
     Next c
             
-    MsgBox Right$(temp, Len(temp) - Len(ListSeparator &amp; " "))
+    MsgBox Right$(temp, Len(temp) - Len(ListSeparator & " "))
 End Sub
 ```
 
@@ -101,7 +102,7 @@ Figure 1 shows the results of the  **CountYears** macro.
 
 
 
-|**Name**|
+|Name|
 |:-----|
 |[Default](Project.Year.Default.md)|
 
@@ -109,7 +110,7 @@ Figure 1 shows the results of the  **CountYears** macro.
 
 
 
-|**Name**|
+|Name|
 |:-----|
 |[Application](Project.Year.Application.md)|
 |[Calendar](Project.Year.Calendar.md)|
@@ -125,3 +126,4 @@ Figure 1 shows the results of the  **CountYears** macro.
 |[Shift5](Project.Year.Shift5.md)|
 |[Working](Project.Year.Working.md)|
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

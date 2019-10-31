@@ -1,5 +1,5 @@
 ---
-title: ContentControl.SetUncheckedSymbol Method (Word)
+title: ContentControl.SetUncheckedSymbol method (Word)
 keywords: vbawd10.chm266534942
 f1_keywords:
 - vbawd10.chm266534942
@@ -8,26 +8,27 @@ api_name:
 - Word.ContentControl.SetUncheckedSymbol
 ms.assetid: b563d0cd-e504-7aea-9c91-5c6daf257c35
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# ContentControl.SetUncheckedSymbol Method (Word)
+# ContentControl.SetUncheckedSymbol method (Word)
 
 Sets the symbol used to represent the unchecked state of a check box content control.
 
 
 ## Syntax
 
- _expression_. `SetCheckedSymbol`( `_CharacterNumber_` , `_Font_` )
+_expression_. `SetCheckedSymbol`( `_CharacterNumber_` , `_Font_` )
 
  _expression_ An expression that returns a '[ContentControl](Word.ContentControl.md)' object.
 
 
-### Parameters
+## Parameters
 
 
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _CharacterNumber_|Required| **Long**|The Unicode character number for the specified symbol. This value will always be the sum of 31 (the number of control symbols at the beginning of the font) and the number that corresponds to the position of the symbol in the table of symbols (counting from left to right). For example, to specify a delta character at position 37 in the table of symbols in the Symbol font, set CharacterNumber to 68.|
 | _Font_|Optional| **String**|The name of the font that contains the symbol.|
@@ -51,3 +52,4 @@ objCC.SetUncheckedSymbol CharacterNumber:=&H2610, Font:="MS Gothic"
 
 [ContentControl Object](Word.ContentControl.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

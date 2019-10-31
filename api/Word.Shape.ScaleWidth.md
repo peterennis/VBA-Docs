@@ -1,5 +1,5 @@
 ---
-title: Shape.ScaleWidth Method (Word)
+title: Shape.ScaleWidth method (Word)
 keywords: vbawd10.chm161480724
 f1_keywords:
 - vbawd10.chm161480724
@@ -8,26 +8,25 @@ api_name:
 - Word.Shape.ScaleWidth
 ms.assetid: 4fabc0eb-6962-6e31-3bba-bacaa3cd3be4
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Shape.ScaleWidth Method (Word)
+# Shape.ScaleWidth method (Word)
 
 Scales the width of the shape by a specified factor.
 
 
 ## Syntax
 
- _expression_. `ScaleWidth`( `_Factor_` , `_RelativeToOriginalSize_` , `_Scale_` )
+_expression_.**ScaleWidth** (_Factor_, _RelativeToOriginalSize_, _Scale_)
 
- _expression_ Required. A variable that represents a '[Shape](Word.Shape.md)' object.
-
-
-### Parameters
+_expression_ Required. A variable that represents a **[Shape](Word.Shape.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _Factor_|Required| **Single**|Specifies the ratio between the width of the shape after you resize it and the current or original width. For example, to make a rectangle 50 percent larger, specify 1.5 for this argument.|
 | _RelativeToOriginalSize_|Required| **MsoTriState**| **True** to scale the shape relative to its original size. **False** to scale it relative to its current size. You can specify **True** for this argument only if the specified shape is a picture or an OLE object.|
@@ -40,7 +39,7 @@ For pictures and OLE objects, you can indicate whether you want to scale the sha
 
 ## Example
 
-This example scales all pictures and OLE objects on  _myDocument_ to 175 percent of their original height and width, and it scales all other shapes to 175 percent of their current height and width.
+This example scales all pictures and OLE objects on _myDocument_ to 175 percent of their original height and width, and it scales all other shapes to 175 percent of their current height and width.
 
 
 ```vb
@@ -65,3 +64,4 @@ Next
 
 [Shape Object](Word.Shape.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

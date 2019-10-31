@@ -1,5 +1,5 @@
 ---
-title: Window.GetWindowRect Method (Visio)
+title: Window.GetWindowRect method (Visio)
 keywords: vis_sdr.chm11616330
 f1_keywords:
 - vis_sdr.chm11616330
@@ -8,33 +8,34 @@ api_name:
 - Visio.Window.GetWindowRect
 ms.assetid: 272714c6-3502-4baa-5006-2dcec8c0dfbd
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Window.GetWindowRect Method (Visio)
+# Window.GetWindowRect method (Visio)
 
 Gets the size and position of the client area of a window.
 
 
 ## Syntax
 
- _expression_. `GetWindowRect`( `_pnLeft_` , `_pnTop_` , `_pnWidth_` , `_pnHeight_` )
+_expression_. `GetWindowRect`( `_pnLeft_` , `_pnTop_` , `_pnWidth_` , `_pnHeight_` )
 
- _expression_ A variable that represents a [Window](./Visio.Window.md) object.
-
-
-### Parameters
+_expression_ A variable that represents a **[Window](Visio.Window.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _pnLeft_|Required| **Long**|The coordinate of the left side of the window.|
 | _pnTop_|Required| **Long**|The coordinate of the top of the window.|
 | _pnWidth_|Required| **Long**|The distance in pixels from the left side to the right side of the window.|
 | _pnHeight_|Required| **Long**|The distance in pixels from the top to the bottom of the window.|
 
-### Return Value
+## Return value
 
 Nothing
 
@@ -46,7 +47,7 @@ The  **GetWindowRect** method gets the size and position of the client area of t
 
 ## Example
 
-The following example shows how to use the  **GetWindowRect** method to get the size and position of a **Window** object. It opens the **Pan &; Zoom** window and prints the window's coordinates, width, and height in the Immediate window.
+The following example shows how to use the  **GetWindowRect** method to get the size and position of a **Window** object. It opens the **Pan & Zoom** window and prints the window's coordinates, width, and height in the Immediate window.
 
 
 ```vb
@@ -74,4 +75,4 @@ Public Sub GetWindowRect_Example()
 End Sub
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

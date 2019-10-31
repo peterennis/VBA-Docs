@@ -1,5 +1,5 @@
 ---
-title: Section Object (Word)
+title: Section object (Word)
 keywords: vbawd10.chm2393
 f1_keywords:
 - vbawd10.chm2393
@@ -8,10 +8,11 @@ api_name:
 - Word.Section
 ms.assetid: 3fe563d8-fc05-c17a-e67b-c50eea7e7f13
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Section Object (Word)
+# Section object (Word)
 
 Represents a single section in a selection, range, or document. The  **Section** object is a member of the **[Sections](Word.sections.md)** collection. The **Sections** collection includes all the sections in a selection, range, or document.
 
@@ -50,14 +51,15 @@ Selection.Paragraphs(1).Range.InsertBreak _
 ```
 
 
- **Note**  The  **Headers** and **Footers** properties of the specified **Section** object return a **HeadersFooters** object.
+> [!NOTE] 
+> The  **Headers** and **Footers** properties of the specified **Section** object return a **HeadersFooters** object.
 
 
 ## Properties
 
 
 
-|**Name**|
+|Name|
 |:-----|
 |[Application](Word.Section.Application.md)|
 |[Borders](Word.Section.Borders.md)|
@@ -73,4 +75,6 @@ Selection.Paragraphs(1).Range.InsertBreak _
 ## See also
 
 
-[Word Object Model Reference](./overview/Word/object-model.md)
+[Word Object Model Reference](overview/Word/object-model.md)
+
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

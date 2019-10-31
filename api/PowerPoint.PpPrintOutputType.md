@@ -1,20 +1,21 @@
 ---
-title: PpPrintOutputType Enumeration (PowerPoint)
+title: PpPrintOutputType enumeration (PowerPoint)
 ms.prod: powerpoint
 api_name:
 - PowerPoint.PpPrintOutputType
 ms.assetid: 1e917d29-7621-e805-77f1-75cf1eec8b7f
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# PpPrintOutputType Enumeration (PowerPoint)
+# PpPrintOutputType enumeration (PowerPoint)
 
 A value that indicates which component (slides, handouts, notes pages, or an outline) of the presentation is to be printed.
 
 
 
-|**Name**|**Value**|**Description**|
+|Name|Value|Description|
 |:-----|:-----|:-----|
 |**ppPrintOutputBuildSlides**|7|Build Slides|
 |**ppPrintOutputFourSlideHandouts**|8|Four Slide Handouts|
@@ -27,3 +28,4 @@ A value that indicates which component (slides, handouts, notes pages, or an out
 |**ppPrintOutputThreeSlideHandouts**|3|Three Slide Handouts|
 |**ppPrintOutputTwoSlideHandouts**|2|Two Slide Handouts|
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

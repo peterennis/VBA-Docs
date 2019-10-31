@@ -1,5 +1,5 @@
 ---
-title: Document.AddUndoUnit Method (Visio)
+title: Document.AddUndoUnit method (Visio)
 keywords: vis_sdr.chm10516075
 f1_keywords:
 - vis_sdr.chm10516075
@@ -8,47 +8,43 @@ api_name:
 - Visio.Document.AddUndoUnit
 ms.assetid: 3b9d903a-8854-fa64-a9c5-85ac71d58f54
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Document.AddUndoUnit Method (Visio)
+# Document.AddUndoUnit method (Visio)
 
-Adds an object that supports the  **IOleUndoUnit** or **IVBUndoUnit** interface to the Microsoft Visio undo queue.
+Adds an object that supports the **IOleUndoUnit** or **IVBUndoUnit** interface to the Microsoft Visio undo queue.
 
 
 ## Syntax
 
- _expression_. `AddUndoUnit`( `_pUndoUnit_` )
+_expression_.**AddUndoUnit** (_pUndoUnit_)
 
- _expression_ A variable that represents a [Document](./Visio.Document.md) object.
-
-
-### Parameters
+_expression_ A variable that represents a **[Document](Visio.Document.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-| _pUndoUnit_|Required| **[UNKNOWN]**|A reference to an object that supports the  **IOleUndoUnit** or **IVBUndoUnit** interface.|
+| _pUndoUnit_|Required| **[UNKNOWN]**|A reference to an object that supports the **IOleUndoUnit** or **IVBUndoUnit** interface.|
 
-### Return Value
+## Return value
 
 Nothing
 
 
 ## Remarks
 
-For information about implementing the  **IOleUndoUnit** interface on your object, see the Microsoft Platform SDK on MSDN, the Microsoft Developer Network. For information about implementing the **IVBUndoUnit** interface, see Developing Microsoft Visio Solutions on MSDN.
+For information about implementing the **IOleUndoUnit** interface on your object, see the Microsoft Platform SDK on MSDN, the Microsoft Developer Network. For information about implementing the **IVBUndoUnit** interface, see Developing Microsoft Visio Solutions on MSDN.
 
 
 ## Example
 
-The following procedure shows how to use the  **AddUndoUnit** method to add an object to the Visio undo queue. When a shape is added to the active document, the procedure checks to see if it was added as a result of an undo or redo action, and if not, it adds an Undo unit.
+The following procedure shows how to use the **AddUndoUnit** method to add an object to the Visio undo queue. When a shape is added to the active document, the procedure checks to see if it was added as a result of an undo or redo action, and if not, it adds an Undo unit.
 
-This procedure is a member of class  **clsParticipateInUndo** , which is defined in one of two related class modules in the Code Samples Library in the Visio SDK, and is not intended to be run independently. (The other class module defines class **clsVBUndoUnits** .) For more information on these class modules, see the Visio SDK on MSDN.
-
-
-
+This procedure is a member of class **clsParticipateInUndo**, which is defined in one of two related class modules in the Code Samples Library in the Visio SDK, and is not intended to be run independently. (The other class module defines class **clsVBUndoUnits**.) For more information on these class modules, see the Visio SDK on MSDN.
 
 ```vb
  
@@ -91,4 +87,4 @@ mvsoDocument_ShapeAdded_Err:
 End Sub
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

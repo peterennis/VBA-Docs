@@ -1,5 +1,5 @@
 ---
-title: Application.WindowNewWindow Method (Project)
+title: Application.WindowNewWindow method (Project)
 keywords: vbapj.chm701
 f1_keywords:
 - vbapj.chm701
@@ -8,33 +8,34 @@ api_name:
 - Project.Application.WindowNewWindow
 ms.assetid: fe0c2bcb-7bee-3bec-9c47-3015938ae75d
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Application.WindowNewWindow Method (Project)
+# Application.WindowNewWindow method (Project)
 
 Creates a window.
 
 
 ## Syntax
 
- _expression_. `WindowNewWindow`( ` _Projects_`, ` _View_`, ` _AllProjects_`, ` _ShowDialog_` )
+_expression_. `WindowNewWindow`( `_Projects_`, `_View_`, `_AllProjects_`, `_ShowDialog_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
-
-
-### Parameters
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _Projects_|Optional|**String**|The names of one or more projects, separated by the list separator character. The new window contains data from the projects you specify. The default is to create a copy of the active window.|
 | _View_|Optional|**String**|The name of an initial view for the new window. The default is equal to the value returned by the  **DefaultView** property.|
 | _AllProjects_|Optional|**Boolean**|**True** if the new window contains data from all open projects. When **True**, AllProjects overrides Projects. The default value is **False**.|
 | _ShowDialog_|Optional|**Boolean**|**True** if the **New Window** dialog box is displayed so that a view or project can be selected. The default value is **False.**|
 
-### Return Value
+## Return value
 
  **Boolean**
 
@@ -50,4 +51,4 @@ Sub NewCombineProjectsInNewWindow()
 End Sub
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

@@ -1,5 +1,5 @@
 ---
-title: Control.Dropdown Method (Access)
+title: Control.Dropdown method (Access)
 keywords: vbaac10.chm10135
 f1_keywords:
 - vbaac10.chm10135
@@ -7,23 +7,24 @@ ms.prod: access
 api_name:
 - Access.Control.Dropdown
 ms.assetid: 45957d42-3e81-f7eb-9579-e5e75c833f59
-ms.date: 06/08/2017
+ms.date: 02/28/2019
+localization_priority: Normal
 ---
 
 
-# Control.Dropdown Method (Access)
+# Control.Dropdown method (Access)
 
-You can use the  **Dropdown** method to force the list in the specified combo box to drop down.
+You can use the **Dropdown** method to force the list in the specified combo box to drop down.
 
 
 ## Syntax
 
- _expression_. `Dropdown`
+_expression_.**Dropdown**
 
- _expression_ A variable that represents a [Control](Access.Control.md) object.
+_expression_ A variable that represents a **[Control](Access.Control.md)** object.
 
 
-### Return Value
+## Return value
 
 Nothing
 
@@ -37,8 +38,7 @@ If the specified combo box control doesn't have the focus, an error occurs. The 
 
 ## Example
 
-The following example shows how you can use the  **Dropdown** method within the **GotFocus** event procedure to force a combo box named SupplierID to drop down when it receives the focus.
-
+The following example shows how you can use the **Dropdown** method within the **GotFocus** event procedure to force a combo box named **SupplierID** to drop down when it receives the focus.
 
 ```vb
 Private Sub SupplierID_GotFocus() 
@@ -47,8 +47,5 @@ End Sub
 ```
 
 
-## See also
 
-
-[Control Object](Access.Control.md)
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

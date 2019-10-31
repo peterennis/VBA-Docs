@@ -1,5 +1,5 @@
 ---
-title: Application.CalendarBarStylesEdit Method (Project)
+title: Application.CalendarBarStylesEdit method (Project)
 keywords: vbapj.chm2339
 f1_keywords:
 - vbapj.chm2339
@@ -8,26 +8,27 @@ api_name:
 - Project.Application.CalendarBarStylesEdit
 ms.assetid: 6ae39422-20bb-dd77-0d0b-0d130dfdbfe5
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Application.CalendarBarStylesEdit Method (Project)
+# Application.CalendarBarStylesEdit method (Project)
 
 Changes the style of the specified type of bar in the Calendar view.
 
 
 ## Syntax
 
- _expression_. `CalendarBarStylesEdit`( ` _Item_`, ` _Bar_`, ` _Pattern_`, ` _Color_`, ` _Align_`, ` _Wrap_`, ` _Shadow_`, ` _Field1_`, ` _Field2_`, ` _Field3_`, ` _Field4_`, ` _Field5_`, ` _SplitPattern_` )
+_expression_. `CalendarBarStylesEdit`( `_Item_`, `_Bar_`, `_Pattern_`, `_Color_`, `_Align_`, `_Wrap_`, `_Shadow_`, `_Field1_`, `_Field2_`, `_Field3_`, `_Field4_`, `_Field5_`, `_SplitPattern_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
-
-
-### Parameters
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _Item_|Required|**Long**|The type of calendar bar style to edit. Can be one of the following  **[PjBarItem](Project.PjBarItem.md)** constants: **pjBarNonCritical**, **pjBarCritical**, **pjBarSummary**, **pjBarMilestone**, **pjBarMarked**, **pjBarHighlighted**, **pjBarProjectSummary**, or **pjBarExternalTask**.|
 | _Bar_|Optional|**Long**|The bar type. Can be one of the following  **[PjCalendarBarType](Project.PjCalendarBarType.md)** constants: **pjNormalBar**, **pjLineBar**, or **pjNoBar**.|
@@ -43,7 +44,7 @@ Changes the style of the specified type of bar in the Calendar view.
 | _Field5_|Optional|**String**|The fifth field to display in the bar.|
 | _SplitPattern_|Optional|**Long**|The line pattern used to display split tasks. Can be one of the following  **[PjLineType](Project.PjLineType.md)** constants: **pjNoLines**, **pjDash**, **pjCloseDot**, **pjContinuous**, or **pjDot**.|
 
-### Return Value
+## Return value
 
  **Boolean**
 
@@ -53,7 +54,8 @@ Changes the style of the specified type of bar in the Calendar view.
 Specifying a value for any of  _Field1_ through _Field5_ requires that all preceding _Field_ arguments also be specified. For example, specifying _Field3_ also requires _Field1_ and _Field2_ to be specified.
 
 
- **Note**  The  _Field1_ to _Field5_ parameters cannot use the **PjFields** constants. To see the field names that you can add to calendar bars, open the Calendar view, click the **Format** tab in the **Calendar Tools** group. Click **Bar Styles** on the Ribbon, and then click the ** Field(s)** drop-down list.
+> [!NOTE] 
+> The  _Field1_ to _Field5_ parameters cannot use the **PjFields** constants. To see the field names that you can add to calendar bars, open the Calendar view, click the **Format** tab in the **Calendar Tools** group. Click **Bar Styles** on the Ribbon, and then click the **Field(s)** drop-down list.
 
 To edit calendar bar styles where  _Color_ can be an RGB value, use the **[CalendarBarStylesEditEx](Project.Application.CalendarBarStylesEditEx.md)** method.
 
@@ -76,4 +78,4 @@ Sub CalendarBar_StyleEdit()
 End Sub
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

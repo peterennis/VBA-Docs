@@ -6,12 +6,13 @@ f1_keywords:
 ms.prod: office
 ms.assetid: 909bc653-f7cc-ae95-3e43-efe06f69a629
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
 # Can't change data types of array elements
 
-**ReDim** can only be used to change the number of elements in an[array](../../Glossary/vbe-glossary.md#array). This error has the following cause and solution:
+**ReDim** can only be used to change the number of elements in an [array](../../Glossary/vbe-glossary.md#array). This error has the following cause and solution:
 
 - You tried to redeclare the [data type](../../Glossary/vbe-glossary.md#data-type) of an array using **ReDim**.
     
@@ -30,3 +31,4 @@ ms.date: 06/08/2017
 
 For additional information, select the item in question and press F1 (in Windows) or HELP (on the Macintosh).
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

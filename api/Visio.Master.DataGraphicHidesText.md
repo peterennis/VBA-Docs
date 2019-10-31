@@ -1,5 +1,5 @@
 ---
-title: Master.DataGraphicHidesText Property (Visio)
+title: Master.DataGraphicHidesText property (Visio)
 keywords: vis_sdr.chm10760115
 f1_keywords:
 - vis_sdr.chm10760115
@@ -8,25 +8,27 @@ api_name:
 - Visio.Master.DataGraphicHidesText
 ms.assetid: c1a08780-0873-3d8b-1872-edc8a6515840
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Master.DataGraphicHidesText Property (Visio)
+# Master.DataGraphicHidesText property (Visio)
 
 Displays or hides the text of a shape or of the primary shape in a selection when a data graphic is applied to the shape or to the selection. Read/write.
 
 
- **Note**  This Visio object or member is available only to licensed users of Visio Professional 2013.
+> [!NOTE] 
+> This Visio object or member is available only to licensed users of Visio Professional 2013.
 
 
 ## Syntax
 
- _expression_. `DataGraphicHidesText`
+_expression_. `DataGraphicHidesText`
 
- _expression_ An expression that returns a [Master](./Visio.Master.md) object.
+ _expression_ An expression that returns a **[Master](Visio.Master.md)** object.
 
 
-### Return Value
+## Return value
 
 Boolean
 
@@ -37,6 +39,6 @@ Setting the  **DataGraphicHidesText** property to **False** (0) displays the sha
 
 The value of the  **DataGraphicHidesText** property corresponds to the setting of the **HIde shape text when data graphic is applied** box under **Display options** in the **New Data Graphic** or **Edit Data Graphic** dialog box.
 
-A data graphic is a  **Master** object of type **visTypeDataGraphic** . Before you can set any property of a data graphic master, you must use the **[Master.Open](Visio.Master.Open.md)** method to open a copy of the data graphic master for editing. When you are finished setting properties, use the **Master.Close** method to commit changes.
+A data graphic is a  **Master** object of type **visTypeDataGraphic**. Before you can set any property of a data graphic master, you must use the **[Master.Open](Visio.Master.Open.md)** method to open a copy of the data graphic master for editing. When you are finished setting properties, use the **Master.Close** method to commit changes.
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

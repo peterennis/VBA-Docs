@@ -1,5 +1,5 @@
 ---
-title: Document.Template Property (Visio)
+title: Document.Template property (Visio)
 keywords: vis_sdr.chm10514505
 f1_keywords:
 - vis_sdr.chm10514505
@@ -8,34 +8,35 @@ api_name:
 - Visio.Document.Template
 ms.assetid: c9e579d7-4448-4dc7-0130-1b38d41cbf1a
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Document.Template Property (Visio)
+# Document.Template property (Visio)
 
 Returns the name of the template from which the document was created. Read-only.
 
 
 ## Syntax
 
- _expression_. `Template`
+_expression_.**Template**
 
- _expression_ A variable that represents a [Document](./Visio.Document.md) object.
+_expression_ A variable that represents a **[Document](Visio.Document.md)** object.
 
 
-### Return Value
+## Return value
 
 String
 
 
 ## Remarks
 
-If the document is based on no template, the  **Template** property returns an empty string (''").
+If the document is based on no template, the **Template** property returns an empty string (''").
 
 
 ## Example
 
-This Microsoft Visual Basic for Applications (VBA) macro shows how to use the  **Template** property to get the name of the template from which the document was created.
+This Microsoft Visual Basic for Applications (VBA) macro shows how to use the **Template** property to get the name of the template from which the document was created.
 
 
 ```vb
@@ -52,4 +53,4 @@ Public Sub Template_Example()
 End Sub
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

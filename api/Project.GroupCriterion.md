@@ -1,14 +1,15 @@
 ---
-title: GroupCriterion Object (Project)
+title: GroupCriterion object (Project)
 ms.prod: project-server
 api_name:
 - Project.GroupCriterion
 ms.assetid: 9c3f7a79-c65f-925c-98ae-c217bd6ed8f7
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# GroupCriterion Object (Project)
+# GroupCriterion object (Project)
 
 Represents a criterion in a group definition. The  **GroupCriterion** object is a member of the **[GroupCriteria](Project.groupcriteria.md)** collection.
  
@@ -55,9 +56,9 @@ Dim Fields As String
  
 For Each GC In ActiveProject.TaskGroups("Priority Keeping Outline Structure").GroupCriteria 
  If GC.Ascending = True Then 
- Fields = Fields &amp; GC.Index &amp; ". " &amp; GC.FieldName &amp; " is sorted in ascending order." &amp; vbCrLf 
+ Fields = Fields & GC.Index & ". " & GC.FieldName & " is sorted in ascending order." & vbCrLf 
  Else 
- Fields = Fields &amp; GC.Index &amp; ". " &amp; GC.FieldName &amp; " is sorted in descending order." &amp; vbCrLf 
+ Fields = Fields & GC.Index & ". " & GC.FieldName & " is sorted in descending order." & vbCrLf 
  End If 
 Next GC 
  
@@ -80,7 +81,7 @@ ActiveProject.ResourceGroups("Response Pending").GroupCriteria.Add "% Work Compl
 
 
 
-|**Name**|
+|Name|
 |:-----|
 |[Delete](Project.GroupCriterion.Delete.md)|
 
@@ -88,7 +89,7 @@ ActiveProject.ResourceGroups("Response Pending").GroupCriteria.Add "% Work Compl
 
 
 
-|**Name**|
+|Name|
 |:-----|
 |[Application](Project.GroupCriterion.Application.md)|
 |[Ascending](Project.GroupCriterion.Ascending.md)|
@@ -108,3 +109,4 @@ ActiveProject.ResourceGroups("Response Pending").GroupCriteria.Add "% Work Compl
 |[Pattern](Project.GroupCriterion.Pattern.md)|
 |[StartAt](Project.GroupCriterion.StartAt.md)|
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

@@ -1,5 +1,5 @@
 ---
-title: Global.DDETerminate Method (Word)
+title: Global.DDETerminate method (Word)
 keywords: vbawd10.chm163119418
 f1_keywords:
 - vbawd10.chm163119418
@@ -8,35 +8,27 @@ api_name:
 - Word.Global.DDETerminate
 ms.assetid: 2502d0a7-c90b-1169-7b7b-a5d2b26445a6
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Global.DDETerminate Method (Word)
+# Global.DDETerminate method (Word)
 
 Closes the specified dynamic data exchange (DDE) channel to another application.
 
 
 ## Syntax
 
- _expression_. `DDETerminate`( `_Channel_` )
+_expression_. `DDETerminate`( `_Channel_` )
 
- _expression_ A variable that represents a '[Global](Word.Global.md)' object. Optional.
-
-
-### Parameters
+_expression_ A variable that represents a '[Global](Word.Global.md)' object. Optional.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _Channel_|Required| **Long**|The channel number returned by the  **DDEInitiate** method.|
-
-## Remarks
-
-
- **Security Note**  
-
-
 
 
 ## Example
@@ -58,3 +50,4 @@ DDETerminate Channel:=lngChannel
 
 [Global Object](Word.Global.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

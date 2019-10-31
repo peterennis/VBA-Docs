@@ -1,5 +1,5 @@
 ---
-title: PbTabLeaderType Enumeration (Publisher)
+title: PbTabLeaderType enumeration (Publisher)
 keywords: vbapb10.chm65558
 f1_keywords:
 - vbapb10.chm65558
@@ -8,16 +8,17 @@ api_name:
 - Publisher.PbTabLeaderType
 ms.assetid: 56ad8132-a365-c036-c820-359d0cd9098b
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# PbTabLeaderType Enumeration (Publisher)
+# PbTabLeaderType enumeration (Publisher)
 
 Represents the leader character for a tab stop. 
 
 
 
-|**Name**|**Value**|**Description**|
+|Name|Value|Description|
 |:-----|:-----|:-----|
 | **pbTabLeaderBullet**|5|Leader bullet tab|
 | **pbTabLeaderDashes**|2|Leader dashes tab|
@@ -25,3 +26,4 @@ Represents the leader character for a tab stop.
 | **pbTabLeaderLine**|3|Tab leader line|
 | **pbTabLeaderNone**|0|Tab leader none|
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

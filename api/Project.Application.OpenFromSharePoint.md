@@ -1,5 +1,5 @@
 ---
-title: Application.OpenFromSharePoint Method (Project)
+title: Application.OpenFromSharePoint method (Project)
 keywords: vbapj.chm2293
 f1_keywords:
 - vbapj.chm2293
@@ -8,31 +8,32 @@ api_name:
 - Project.Application.OpenFromSharePoint
 ms.assetid: 415f8b11-5c6f-d9df-fb58-61ff7f392b5f
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Application.OpenFromSharePoint Method (Project)
+# Application.OpenFromSharePoint method (Project)
 
 Opens a project from a task list in SharePoint 2013. 
 
 
 ## Syntax
 
- _expression_. `OpenFromSharePoint`( ` _SiteURL_`, ` _ListName_` )
+_expression_. `OpenFromSharePoint`( `_SiteURL_`, `_ListName_` )
 
- _expression_ An expression that returns an [Application](./Project.Application.md) object.
-
-
-### Parameters
+ _expression_ An expression that returns an **[Application](Project.Application.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _SiteURL_|Optional|**String**|Specifies the URL of the SharePoint site.|
 | _ListName_|Optional|**String**|Specifies the name of the task list.|
 
-### Return Value
+## Return value
 
  **Boolean**
 
@@ -40,7 +41,8 @@ Opens a project from a task list in SharePoint 2013.
 ## Remarks
 
 
- **Note**  Project must not be connected to a Project Server instance. Synchronization with SharePoint task lists is designed for users who do not have access to Project Server.
+> [!NOTE] 
+> Project must not be connected to a Project Server instance. Synchronization with SharePoint task lists is designed for users who do not have access to Project Server.
 
 
 ## Example
@@ -54,4 +56,4 @@ Sub OpenSharePointTaskList()
 End Sub
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

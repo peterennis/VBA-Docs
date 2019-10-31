@@ -1,5 +1,5 @@
 ---
-title: UserDefinedProperty.Type Property (Outlook)
+title: UserDefinedProperty.Type property (Outlook)
 keywords: vbaol11.chm7
 f1_keywords:
 - vbaol11.chm7
@@ -8,24 +8,25 @@ api_name:
 - Outlook.UserDefinedProperty.Type
 ms.assetid: 94895d2b-7b3e-e455-3b58-58abd8279c10
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# UserDefinedProperty.Type Property (Outlook)
+# UserDefinedProperty.Type property (Outlook)
 
 Returns an  **[OlUserPropertyType](Outlook.OlUserPropertyType.md)** constant indicating the type of the **[UserDefinedProperty](Outlook.UserDefinedProperty.md)** object. Read-only.
 
 
 ## Syntax
 
- _expression_. `Type`
+_expression_.**Type**
 
- _expression_ A variable that represents a [UserDefinedProperty](./Outlook.UserDefinedProperty.md) object.
+_expression_ A variable that represents a [UserDefinedProperty](Outlook.UserDefinedProperty.md) object.
 
 
 ## Example
 
-The following Visual Basic for Applications (VBA) example displays the name of a specified  **[Folder](Outlook.Folder.md)** object, as well as the name and type of every **UserDefinedProperty** object contained in the **[UserDefinedProperties](Outlook.Folder.UserDefinedProperties.md)** collection of the specified **Folder** object, to the **Immediate** window.
+The following Visual Basic for Applications (VBA) example displays the name of a specified  **[Folder](Outlook.Folder.md)** object, as well as the name and type of every **UserDefinedProperty** object contained in the **[UserDefinedProperties](Outlook.Folder.UserDefinedProperties.md)** collection of the specified **Folder** object, to the Immediate window.
 
 
 ```vb
@@ -152,3 +153,4 @@ End Sub
 
 [UserDefinedProperty Object](Outlook.UserDefinedProperty.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

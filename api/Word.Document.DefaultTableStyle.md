@@ -1,5 +1,5 @@
 ---
-title: Document.DefaultTableStyle Property (Word)
+title: Document.DefaultTableStyle property (Word)
 keywords: vbawd10.chm158007661
 f1_keywords:
 - vbawd10.chm158007661
@@ -8,24 +8,25 @@ api_name:
 - Word.Document.DefaultTableStyle
 ms.assetid: b6782b12-09a6-77b0-a52d-81d4028e7c19
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Document.DefaultTableStyle Property (Word)
+# Document.DefaultTableStyle property (Word)
 
 Returns a  **Variant** that represents the table style that is applied to all newly created tables in a document. Read-only.
 
 
 ## Syntax
 
- _expression_. `DefaultTableStyle`
+_expression_. `DefaultTableStyle`
 
- _expression_ An expression that returns a '[Document](Word.Document.md)' object.
+ _expression_ An expression that returns a **[Document](Word.Document.md)** object.
 
 
 ## Example
 
-This example checks to see if the default table style used in the active document is named "Table Normal" and, if it is, changes the default table style to "TableStyle1." This example assumes that you have a table style named "TableStyle1."
+This example checks to see if the default table style used in the active document is named "Table Normal", and if it is, changes the default table style to "TableStyle1." This example assumes that you have a table style named "TableStyle1."
 
 
 ```vb
@@ -45,3 +46,4 @@ End Sub
 
 [Document Object](Word.Document.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

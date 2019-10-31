@@ -1,20 +1,21 @@
 ---
-title: WdRevisionType Enumeration (Word)
+title: WdRevisionType enumeration (Word)
 ms.prod: word
 api_name:
 - Word.WdRevisionType
 ms.assetid: da4bf509-04f1-f220-ae77-c3bb575dd5d8
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# WdRevisionType Enumeration (Word)
+# WdRevisionType enumeration (Word)
 
 Specifies the type of a change that is marked with a revision mark.
 
 
 
-|**Name**|**Value**|**Description**|
+|Name|Value|Description|
 |:-----|:-----|:-----|
 | **wdNoRevision**|0|No revision.|
 | **wdRevisionCellDeletion**|17|Table cell deleted.|
@@ -39,3 +40,4 @@ Specifies the type of a change that is marked with a revision mark.
 | **wdRevisionStyleDefinition**|13|Style definition changed.|
 | **wdRevisionTableProperty**|11|Table property changed.|
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

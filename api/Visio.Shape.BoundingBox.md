@@ -1,5 +1,5 @@
 ---
-title: Shape.BoundingBox Method (Visio)
+title: Shape.BoundingBox method (Visio)
 keywords: vis_sdr.chm11216090
 f1_keywords:
 - vis_sdr.chm11216090
@@ -8,26 +8,27 @@ api_name:
 - Visio.Shape.BoundingBox
 ms.assetid: 68053d27-b7da-9ae7-7557-5d49c8d3e1d6
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Shape.BoundingBox Method (Visio)
+# Shape.BoundingBox method (Visio)
 
 Returns a rectangle that tightly encloses a shape.
 
 
 ## Syntax
 
- _expression_. `BoundingBox`( `_Flags_` , `_lpr8Left_` , `_lpr8Bottom_` , `_lpr8Right_` , `_lpr8Top_` )
+_expression_. `BoundingBox`( `_Flags_` , `_lpr8Left_` , `_lpr8Bottom_` , `_lpr8Right_` , `_lpr8Top_` )
 
- _expression_ A variable that represents a [Shape](./Visio.Shape.md) object.
-
-
-### Parameters
+_expression_ A variable that represents a **[Shape](Visio.Shape.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _Flags_|Required| **Integer**|Flags that influence the bounding box calculated for each shape that contributes to the resulting bounding box.|
 | _lpr8Left_|Required| **Double**|Returns the x-coordinate of the left edge of the bounding box.|
@@ -35,7 +36,7 @@ Returns a rectangle that tightly encloses a shape.
 | _lpr8Right_|Required| **Double**|Returns the x-coordinate of the right edge of the bounding box.|
 | _lpr8Top_|Required| **Double**|Returns the y-coordinate of the top edge of the bounding box.|
 
-### Return Value
+## Return value
 
 Nothing
 
@@ -44,7 +45,7 @@ Nothing
 
 For a  **Shape** object, the **BoundingBox** method returns a rectangle that tightly encloses the shape and its subshapes.
 
-For a  **Page** , **Master** , or **Selection** object, the **BoundingBox** method returns a rectangle that tightly encloses the page's, master's, or selection's shapes and their subshapes.
+For a  **Page**, **Master**, or **Selection** object, the **BoundingBox** method returns a rectangle that tightly encloses the page's, master's, or selection's shapes and their subshapes.
 
 If the  **BoundingBox** method returns an error, or if it is asked to return the rectangle enclosing zero shapes, the rectangle returned is { left: 0, bottom: 0, right: -1, top: -1 }; otherwise, the rectangle returned has left less than or equal to (<=) right, and bottom less than or equal to (<=) top. The numbers returned are in internal units (inches).
 
@@ -52,31 +53,31 @@ The bounding rectangle returned for an individual shape depends on its  **Type**
 
 
 
-|**Constant**|**Description**|
+|Constant|Description|
 |:-----|:-----|
-| **visTypePage**|Equivalent to  **Page.BoundingBox** or **Master.BoundingBox** .|
+| **visTypePage**|Equivalent to  **Page.BoundingBox** or **Master.BoundingBox**.|
 | **visTypeGroup**|Rectangle that tightly encloses the group and its subshapes.|
 | **visTypeShape**|Determined rectangle depends on flags. See the following table.|
 | **visTypeForeignObject**|Determined rectangle depends on flags. See the following table.|
 | **visTypeGuide**|Determined rectangle depends on flags. See the following table.|
 
-The method will raise an exception for object type  **visTypeDoc** .
+The method will raise an exception for object type  **visTypeDoc**.
 
 The  _Flags_ argument has several bits that control the bounding box retrieved for each shape. If more than one of the bits described in the following table is set, the rectangle determined for the shape covers all rectangles implied by the bits.
 
 
 
-|**Flag**|**Value**|**Description**|
+|**Flag**|Value|Description|
 |:-----|:-----|:-----|
-| **visBBoxUprightWH**|&;H1|Returns a rectangle that is the smallest rectangle parallel to the local coordinate system of the shape's parent that encloses the shape's width-height box.If the shape is not rotated, its upright width-height box and its width-height box are the same. Paths in the shape's geometry need not and often do not lie entirely within the shape's width-height box.|
-| **visBBoxUprightText**|&;H2|Returns a rectangle that is the smallest rectangle parallel to the local coordinate system of the shape's parent that encloses the shape's text.|
-| **visBBoxExtents**|&;H4|Returns a rectangle that is the smallest rectangle parallel to the local coordinate system of the shape's parent that encloses the paths stroked by the shape's geometry.This may be larger or smaller than the shape's upright width-height box. The extents box determined for a shape of type  **visTypeForeignObject** equals that shape's upright width-height box.|
-| **visBBoxIncludeHidden**|&;H10|Includes hidden geometry.|
-| **visBBoxIgnoreVisible**|&;H20|Ignores visible geometry.|
-| **visBBoxIncludeDataGraphics**|&;H10000|Includes data-graphic callout shapes (and their sub-shapes) that are applied to the shape. Off by default.|
-| **visBBoxIncludeGuides**|&;H1000|Includes extents for shapes of type  **visTypeguide** . By default, the extents of shapes of type **visTypeGuide** are ignored.If you request guide extents, then only the _x_ positions of vertical guides and the _y_ positions of horizontal guides contribute to the rectangle that is returned. If any vertical guides are reported on, an infinite _y_ extent is returned. If any horizontal guides are reported on, an infinite _ x_ extent is returned. If any rotated guides are reported on, infinite _x_ and _y_ extents are returned.|
-| **visBBoxDrawingCoords**|&;H2000|Returns numbers in the drawing coordinate system of the page or master whose shapes are being considered. By default, the returned numbers are drawing units in the local coordinate system of the parent of the considered shapes.|
-| **visBBoxNoNonPrint**|&;H4000|Ignores the extents of shapes that are nonprinting. A shape is nonprinting if the value of its NonPrinting cell is non-zero or it belongs only to nonprinting layers.|
+| **visBBoxUprightWH**|&H1|Returns a rectangle that is the smallest rectangle parallel to the local coordinate system of the shape's parent that encloses the shape's width-height box.If the shape is not rotated, its upright width-height box and its width-height box are the same. Paths in the shape's geometry need not and often do not lie entirely within the shape's width-height box.|
+| **visBBoxUprightText**|&H2|Returns a rectangle that is the smallest rectangle parallel to the local coordinate system of the shape's parent that encloses the shape's text.|
+| **visBBoxExtents**|&H4|Returns a rectangle that is the smallest rectangle parallel to the local coordinate system of the shape's parent that encloses the paths stroked by the shape's geometry.This may be larger or smaller than the shape's upright width-height box. The extents box determined for a shape of type  **visTypeForeignObject** equals that shape's upright width-height box.|
+| **visBBoxIncludeHidden**|&H10|Includes hidden geometry.|
+| **visBBoxIgnoreVisible**|&H20|Ignores visible geometry.|
+| **visBBoxIncludeDataGraphics**|&H10000|Includes data-graphic callout shapes (and their sub-shapes) that are applied to the shape. Off by default.|
+| **visBBoxIncludeGuides**|&H1000|Includes extents for shapes of type  **visTypeguide**. By default, the extents of shapes of type **visTypeGuide** are ignored.If you request guide extents, then only the _x_ positions of vertical guides and the _y_ positions of horizontal guides contribute to the rectangle that is returned. If any vertical guides are reported on, an infinite _y_ extent is returned. If any horizontal guides are reported on, an infinite _x_ extent is returned. If any rotated guides are reported on, infinite _x_ and _y_ extents are returned.|
+| **visBBoxDrawingCoords**|&H2000|Returns numbers in the drawing coordinate system of the page or master whose shapes are being considered. By default, the returned numbers are drawing units in the local coordinate system of the parent of the considered shapes.|
+| **visBBoxNoNonPrint**|&H4000|Ignores the extents of shapes that are nonprinting. A shape is nonprinting if the value of its NonPrinting cell is non-zero or it belongs only to nonprinting layers.|
 
 The extents rectangle is determined using the center of the shape's strokes; it does not take into account the width of the strokes. Nor does the rectangle include any area covered by shadows or line end markers. Microsoft Visio does not expose a means to determine a shape's "black bits" box, that is, the extents box adjusted to account for stroke widths, shadows, and line ends.
 
@@ -220,4 +221,4 @@ Private Function ShapesOverlap(vsoShape1 As IVShape, vsoShape2 As IVShape) As Bo
 End Function
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

@@ -1,14 +1,15 @@
 ---
-title: Prompt a User Before Closing a Form
+title: Prompt a user before closing a form
 ms.prod: access
 ms.assetid: 3a29f7c0-5692-49f0-bbfe-f9132d5b582f
-ms.date: 06/08/2017
+ms.date: 09/25/2018
+localization_priority: Normal
 ---
 
 
-# Prompt a User Before Closing a Form
+# Prompt a user before closing a form
 
-The following example illustrates how to prompt the user to verify that the form should closed.
+The following example illustrates how to prompt the user to verify that the form should be closed.
 
 
 ```vb
@@ -21,4 +22,4 @@ Private Sub Form_Unload(Cancel As Integer)
 End Sub
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

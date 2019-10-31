@@ -1,5 +1,5 @@
 ---
-title: Shape.ParentGroupShape Property (Publisher)
+title: Shape.ParentGroupShape property (Publisher)
 keywords: vbapb10.chm2228338
 f1_keywords:
 - vbapb10.chm2228338
@@ -7,31 +7,31 @@ ms.prod: publisher
 api_name:
 - Publisher.Shape.ParentGroupShape
 ms.assetid: ced4c348-4ef5-c703-fdea-65c33d37b4c0
-ms.date: 06/08/2017
+ms.date: 06/13/2019
+localization_priority: Normal
 ---
 
 
-# Shape.ParentGroupShape Property (Publisher)
+# Shape.ParentGroupShape property (Publisher)
 
-Returns a  **[Shape](Publisher.Shape.md)** object that represents the common parent shape of a child shape or a range of child shapes.
+Returns a **Shape** object that represents the common parent shape of a child shape or a range of child shapes.
 
 
 ## Syntax
 
- _expression_. **ParentGroupShape**
+_expression_.**ParentGroupShape**
 
- _expression_ A variable that represents a  **Shape** object.
+_expression_ A variable that represents a **[Shape](Publisher.Shape.md)** object.
 
 
-### Return Value
+## Return value
 
 Shape
 
 
 ## Example
 
-This example creates two shapes in the active document and groups those shapes. Then using one shape in the group, it accesses the parent group and fills all shapes in the parent group with the same fill pattern. This example assumes that the active document does not currently contain any shapes. If it does, an error may occur.
-
+This example creates two shapes in the active document and groups those shapes. Using one shape in the group, it accesses the parent group and fills all shapes in the parent group with the same fill pattern. This example assumes that the active document does not currently contain any shapes. If it does, an error may occur.
 
 ```vb
 Sub ParentGroupShape() 
@@ -52,4 +52,4 @@ Sub ParentGroupShape()
 End Sub
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

@@ -1,5 +1,5 @@
 ---
-title: Ruler Object (PowerPoint)
+title: Ruler object (PowerPoint)
 keywords: vbapp10.chm570000
 f1_keywords:
 - vbapp10.chm570000
@@ -8,17 +8,18 @@ api_name:
 - PowerPoint.Ruler
 ms.assetid: dc6b78ae-4745-0bc8-1d28-831b1f30f86c
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Ruler Object (PowerPoint)
+# Ruler object (PowerPoint)
 
 Represents the ruler for the text in the specified shape or for all text in the specified text style. Contains tab stops and the indentation settings for text outline levels.
 
 
 ## Example
 
-Use the [Ruler](PowerPoint.TextFrame.Ruler.md)property of the  **TextFrame** object to return the **Ruler** object that represents the ruler for the text in the specified shape. Use the[TabStops](PowerPoint.Ruler.TabStops.md)property to return the  **TabStops** object that contains the tab stops on the ruler. Use the[Levels](PowerPoint.Ruler.Levels.md)property to return the  **RulerLevels** object that contains the indentation settings for text outline levels. The following example sets a left-aligned tab stop at 2 inches (144 Points) and sets a hanging indent for the text in object two on slide one in the active presentation.
+Use the [Ruler](PowerPoint.TextFrame.Ruler.md)property of the  **TextFrame** object to return the **Ruler** object that represents the ruler for the text in the specified shape. Use the [TabStops](PowerPoint.Ruler.TabStops.md)property to return the  **TabStops** object that contains the tab stops on the ruler. Use the [Levels](PowerPoint.Ruler.Levels.md)property to return the  **RulerLevels** object that contains the indentation settings for text outline levels. The following example sets a left-aligned tab stop at 2 inches (144 Points) and sets a hanging indent for the text in object two on slide one in the active presentation.
 
 
 ```vb
@@ -52,3 +53,4 @@ End With
 
 [PowerPoint Object Model Reference](overview/PowerPoint/object-model.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

@@ -1,5 +1,5 @@
 ---
-title: CustomLabels.Add Method (Word)
+title: CustomLabels.Add method (Word)
 keywords: vbawd10.chm152436837
 f1_keywords:
 - vbawd10.chm152436837
@@ -8,31 +8,32 @@ api_name:
 - Word.CustomLabels.Add
 ms.assetid: 12bfd8d5-ab6e-7946-563c-0bb9c21393c9
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# CustomLabels.Add Method (Word)
+# CustomLabels.Add method (Word)
 
 Adds a custom mailing label to the  **CustomLabels** collection. Returns a **CustomLabel** object that represents the custom mailing label.
 
 
 ## Syntax
 
- _expression_. `Add`( `_Name_` , `_DotMatrix_` )
+_expression_.**Add** (_Name_, _DotMatrix_)
 
- _expression_ Required. A variable that represents a '[CustomLabels](Word.customlabels.md)' collection.
-
-
-### Parameters
+_expression_ Required. A variable that represents a '[CustomLabels](Word.customlabels.md)' collection.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _Name_|Required| **String**|The name for the custom mailing labels.|
 | _DotMatrix_|Optional| **Variant**| **True** to have the mailing labels printed on a dot-matrix printer.|
 
-### Return Value
+## Return value
 
 CustomLabel
 
@@ -63,3 +64,4 @@ End Sub
 
 [CustomLabels Collection Object](Word.customlabels.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

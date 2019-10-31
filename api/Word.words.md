@@ -1,15 +1,16 @@
-﻿---
-title: Words Object (Word)
+---
+title: Words object (Word)
 keywords: vbawd10.chm2396
 f1_keywords:
 - vbawd10.chm2396
 ms.prod: word
 ms.assetid: a718f69f-1db1-231a-9d65-bf20b48778ed
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Words Object (Word)
+# Words object (Word)
 
 A collection of words in a selection, range, or document. Each item in the  **Words** collection is a **Range** object that represents one word. There is no Word object.
 
@@ -20,7 +21,7 @@ Use the  **Words** property to return the **Words** object. The following code e
 
 
 ```vb
-MsgBox Selection.Words.Count &amp; " words are selected"
+MsgBox Selection.Words.Count & " words are selected"
 ```
 
 Use  **Words** (Index), where Index is the index number, to return a **Range** object that represents one word. The index number represents the position of the word in the **Words** collection. The following code example formats the first word in the selection as 24-point italic.
@@ -59,7 +60,8 @@ numWords = temp.Words
 ```
 
 
- **Note**  For more information about calling built-in dialog boxes, see [Displaying built-in Word dialog boxes](../word/Concepts/Customizing-Word/displaying-built-in-word-dialog-boxes.md).
+> [!NOTE] 
+> For more information about calling built-in dialog boxes, see [Displaying built-in Word dialog boxes](../word/Concepts/Customizing-Word/displaying-built-in-word-dialog-boxes.md).
 
 The  **Add** method is not available for the **Words** collection. Instead, use the **InsertAfter** method or the **InsertBefore** method to add text to a **Range** object. The following code example inserts text after the first word in the active document.
 
@@ -75,7 +77,7 @@ ActiveDocument.Range.Words(1).InsertAfter "New text "
 
 
 
-|**Name**|
+|Name|
 |:-----|
 |[Item](Word.Words.Item.md)|
 
@@ -83,7 +85,7 @@ ActiveDocument.Range.Words(1).InsertAfter "New text "
 
 
 
-|**Name**|
+|Name|
 |:-----|
 |[Application](Word.Words.Application.md)|
 |[Count](Word.Words.Count.md)|
@@ -95,4 +97,6 @@ ActiveDocument.Range.Words(1).InsertAfter "New text "
 ## See also
 
 
-[Word Object Model Reference](./overview/Word/object-model.md)
+[Word Object Model Reference](overview/Word/object-model.md)
+
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

@@ -1,5 +1,5 @@
 ---
-title: Shape.Tags Property (Publisher)
+title: Shape.Tags property (Publisher)
 keywords: vbapb10.chm2228329
 f1_keywords:
 - vbapb10.chm2228329
@@ -7,26 +7,26 @@ ms.prod: publisher
 api_name:
 - Publisher.Shape.Tags
 ms.assetid: 282f77c8-f075-1eeb-65e8-f1126def32ff
-ms.date: 06/08/2017
+ms.date: 06/13/2019
+localization_priority: Normal
 ---
 
 
-# Shape.Tags Property (Publisher)
+# Shape.Tags property (Publisher)
 
-Returns a  **[Tags](Publisher.Tags.md)** collection representing tags or custom properties applied to a shape, shape range, page, or publication.
+Returns a **[Tags](Publisher.Tags.md)** collection representing tags or custom properties applied to a shape, shape range, page, or publication.
 
 
 ## Syntax
 
- _expression_. **Tags**
+_expression_.**Tags**
 
- _expression_ A variable that represents a  **Shape** object.
+_expression_ A variable that represents a **[Shape](Publisher.Shape.md)** object.
 
 
 ## Example
 
 This example adds a tag to each oval shape on the first page of the active publication.
-
 
 ```vb
 Dim shp As Shape 
@@ -56,4 +56,4 @@ End With
 
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

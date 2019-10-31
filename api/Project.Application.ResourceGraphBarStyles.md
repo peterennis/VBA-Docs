@@ -1,5 +1,5 @@
 ---
-title: Application.ResourceGraphBarStyles Method (Project)
+title: Application.ResourceGraphBarStyles method (Project)
 keywords: vbapj.chm2057
 f1_keywords:
 - vbapj.chm2057
@@ -8,26 +8,27 @@ api_name:
 - Project.Application.ResourceGraphBarStyles
 ms.assetid: b8d2baf3-7025-e330-a582-451ec0d115c0
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Application.ResourceGraphBarStyles Method (Project)
+# Application.ResourceGraphBarStyles method (Project)
 
 Sets the styles of bars on the Resource Graph view.
 
 
 ## Syntax
 
- _expression_. `ResourceGraphBarStyles`( ` _TopLeftShowAs_`, ` _TopLeftColor_`, ` _TopLeftPattern_`, ` _BottomLeftShowAs_`, ` _BottomLeftColor_`, ` _BottomLeftPattern_`, ` _TopRightShowAs_`, ` _TopRightColor_`, ` _TopRightPattern_`, ` _BottomRightShowAs_`, ` _BottomRightColor_`, ` _BottomRightPattern_`, ` _ShowValues_`, ` _ShowAvailabilityLine_`, ` _PercentBarOverlap_`, ` _ProposedLeftShowAs_`, ` _ProposedLeftColor_`, ` _ProposedLeftPattern_`, ` _ProposedRightShowAs_`, ` _ProposedRightColor_`, ` _ProposedRightPattern_` )
+_expression_. `ResourceGraphBarStyles`( `_TopLeftShowAs_`, `_TopLeftColor_`, `_TopLeftPattern_`, `_BottomLeftShowAs_`, `_BottomLeftColor_`, `_BottomLeftPattern_`, `_TopRightShowAs_`, `_TopRightColor_`, `_TopRightPattern_`, `_BottomRightShowAs_`, `_BottomRightColor_`, `_BottomRightPattern_`, `_ShowValues_`, `_ShowAvailabilityLine_`, `_PercentBarOverlap_`, `_ProposedLeftShowAs_`, `_ProposedLeftColor_`, `_ProposedLeftPattern_`, `_ProposedRightShowAs_`, `_ProposedRightColor_`, `_ProposedRightPattern_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
-
-
-### Parameters
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _TopLeftShowAs_|Optional|**Integer**|The bar type for the overallocated resources category in the upper-left corner of the  **Bar Styles** dialog box. Can be one of the following **[PjResourceGraphStyle](Project.PjResourceGraphStyle.md)** constants: **pjBar**, **pjArea**, **pjStep**, **pjLine**, **pjStepLine**, or **pjDoNotShow**.|
 | _TopLeftColor_|Optional|**Integer**|The bar color for the overallocated resources category in the upper-left corner of the  **Bar Styles** dialog box. Can be one of the **[PjColor](Project.PjColor.md)** constants.|
@@ -51,7 +52,7 @@ Sets the styles of bars on the Resource Graph view.
 | _ProposedRightColor_|Optional|**Integer**|The bar color for the proposed bookings category in the bottom right section of the  **Bar Styles** dialog box. Can be one of the **PjColor** constants.|
 | _ProposedRightPattern_|Optional|**Integer**|The bar pattern for the proposed bookings category in the bottom right section of the  **Bar Styles** dialog box. Can be one of the **PjResourceGraphPattern** constants.|
 
-### Return Value
+## Return value
 
  **Boolean**
 
@@ -73,4 +74,4 @@ Application.ResourceGraphBarStylesEx ProposedRightShowAs:=pjStepLine, ProposedRi
 
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

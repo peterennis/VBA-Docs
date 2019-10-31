@@ -1,5 +1,5 @@
 ---
-title: Application.WizardCatalogVisible Property (Publisher)
+title: Application.WizardCatalogVisible property (Publisher)
 keywords: vbapb10.chm131173
 f1_keywords:
 - vbapb10.chm131173
@@ -7,23 +7,24 @@ ms.prod: publisher
 api_name:
 - Publisher.Application.WizardCatalogVisible
 ms.assetid: 99323335-aabd-6799-b6aa-c5d95b88064f
-ms.date: 06/08/2017
+ms.date: 06/05/2019
+localization_priority: Normal
 ---
 
 
-# Application.WizardCatalogVisible Property (Publisher)
+# Application.WizardCatalogVisible property (Publisher)
 
-Returns or sets a  **Boolean** indicating whether the Wizard Catalog is visible. Read/write.
+Returns or sets a **Boolean** indicating whether the Wizard Catalog is visible. Read/write.
 
 
 ## Syntax
 
- _expression_. **WizardCatalogVisible**
+_expression_.**WizardCatalogVisible**
 
- _expression_ A variable that represents a  **Application** object.
+_expression_ A variable that represents an **[Application](Publisher.Application.md)** object.
 
 
-### Return Value
+## Return value
 
 Boolean
 
@@ -31,7 +32,6 @@ Boolean
 ## Example
 
 The following example stores the current state of the Wizard Catalog so that it can restore it later.
-
 
 ```vb
 Sub WizardCatalogExample() 
@@ -50,8 +50,5 @@ End Sub
 ```
 
 
-## See also
 
-
- [Application Object](Publisher.Application.md)
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

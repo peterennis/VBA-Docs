@@ -1,12 +1,13 @@
 ---
-title: Months Object (Project)
+title: Months object (Project)
 ms.prod: project-server
 ms.assetid: 5db0ed37-cc23-7bc8-ebe5-fdaf6275b5db
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Months Object (Project)
+# Months object (Project)
 
 Contains a collection of  **[Month](Project.Month.md)** objects.
  
@@ -48,8 +49,8 @@ For Each R In ActiveSelection.Resources()
                 End If 
             Next D 
 
-            MsgBox "There are " &amp; WorkingDays &amp; " working days in " &amp; _
-                .Months(M).Name &amp; " for " &amp; R.Name &amp; "." 
+            MsgBox "There are " & WorkingDays & " working days in " & _
+                .Months(M).Name & " for " & R.Name & "." 
         Next M 
     End With 
 Next R
@@ -75,7 +76,7 @@ ActiveProject.Calendar.Years(2012).Months.Count
 
 
 
-|**Name**|
+|Name|
 |:-----|
 |[Application](Project.Months.Application.md)|
 |[Count](Project.Months.Count.md)|
@@ -87,3 +88,5 @@ ActiveProject.Calendar.Years(2012).Months.Count
 
  
 [Project Object Model](../project/Concepts/project-object-model.md)
+
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

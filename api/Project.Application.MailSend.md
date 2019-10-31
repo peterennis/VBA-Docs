@@ -1,5 +1,5 @@
 ---
-title: Application.MailSend Method (Project)
+title: Application.MailSend method (Project)
 keywords: vbapj.chm120
 f1_keywords:
 - vbapj.chm120
@@ -8,26 +8,27 @@ api_name:
 - Project.Application.MailSend
 ms.assetid: 250c7eed-2bfa-f80f-13d1-c7ca8d6453d1
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Application.MailSend Method (Project)
+# Application.MailSend method (Project)
 
 Sends a mail message.
 
 
 ## Syntax
 
- _expression_. `MailSend`( ` _To_`, ` _Cc_`, ` _Subject_`, ` _Body_`, ` _Enclosures_`, ` _IncludeDocument_`, ` _ReturnReceipt_`, ` _Bcc_`, ` _Urgent_`, ` _SaveCopy_`, ` _AddRecipient_` )
+_expression_. `MailSend`( `_To_`, `_Cc_`, `_Subject_`, `_Body_`, `_Enclosures_`, `_IncludeDocument_`, `_ReturnReceipt_`, `_Bcc_`, `_Urgent_`, `_SaveCopy_`, `_AddRecipient_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
-
-
-### Parameters
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _To_|Optional|**String**|The user names of the primary recipients of the message, separated by commas.|
 | _Cc_|Optional|**String**|The user names of the secondary recipients of the message, separated by commas.|
@@ -41,7 +42,7 @@ Sends a mail message.
 | _SaveCopy_|Optional|**Boolean**|**True** if a copy of the message is saved in the SentItems folder. This argument is only supported in Microsoft Project for the Macintosh version 4.0.|
 | _AddRecipient_|Optional|**Boolean**|**True** if recipients of the message are added to a personal address book. This argument is only supported in Microsoft Project for the Macintosh version 4.0.|
 
-### Return Value
+## Return value
 
  **Boolean**
 
@@ -50,4 +51,4 @@ Sends a mail message.
 
 If the  **MailSend** method is used without specifying any arguments and there are no existing routing slips, a standard compose mail window appears with the active project as an embedded object. Otherwise, using the **MailSend** method without specifying any arguments prompts whether or not to use the routing slip.
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

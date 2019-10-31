@@ -1,20 +1,21 @@
 ---
-title: XlMarkerStyle Enumeration (Excel)
+title: XlMarkerStyle enumeration (Excel)
 ms.prod: excel
 api_name:
 - Excel.XlMarkerStyle
 ms.assetid: 404f138e-b3ed-556e-23e8-105114c2f66b
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# XlMarkerStyle Enumeration (Excel)
+# XlMarkerStyle enumeration (Excel)
 
 Specifies the marker style for a point or series in a line chart, scatter chart, or radar chart.
 
 
 
-|**Name**|**Value**|**Description**|
+|Name|Value|Description|
 |:-----|:-----|:-----|
 | **xlMarkerStyleAutomatic**|-4105|Automatic markers|
 | **xlMarkerStyleCircle**|8|Circular markers|
@@ -29,3 +30,4 @@ Specifies the marker style for a point or series in a line chart, scatter chart,
 | **xlMarkerStyleTriangle**|3|Triangular markers|
 | **xlMarkerStyleX**|-4168|Square markers with an X|
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

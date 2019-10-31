@@ -1,5 +1,5 @@
 ---
-title: RulerLevel.LeftMargin Property (PowerPoint)
+title: RulerLevel.LeftMargin property (PowerPoint)
 keywords: vbapp10.chm572004
 f1_keywords:
 - vbapp10.chm572004
@@ -8,22 +8,23 @@ api_name:
 - PowerPoint.RulerLevel.LeftMargin
 ms.assetid: ea9e94ac-c56b-5acd-761d-ba0f45e8da3c
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# RulerLevel.LeftMargin Property (PowerPoint)
+# RulerLevel.LeftMargin property (PowerPoint)
 
 Returns or sets the left indent for the specified outline level, in points. Read/write.
 
 
 ## Syntax
 
- _expression_. `LeftMargin`
+_expression_.**LeftMargin**
 
- _expression_ A variable that represents a [RulerLevel](./PowerPoint.RulerLevel.md) object.
+_expression_ A variable that represents a [RulerLevel](PowerPoint.RulerLevel.md) object.
 
 
-### Return Value
+## Return value
 
 Single
 
@@ -33,7 +34,8 @@ Single
 If a paragraph begins with a bullet, the bullet position is determined by the  **FirstMargin** property, and the position of the first text character in the paragraph is determined by the **LeftMargin** property.
 
 
- **Note**  The  **[RulerLevels](PowerPoint.RulerLevels.md)** collection contains five **RulerLevel** objects, each of which corresponds to one of the possible outline levels. The **LeftMargin** property value for the **RulerLevel** object that corresponds to the first outline level has a valid range of (-9.0 to 4095.875). The valid range for the **LeftMargin** property values for the **RulerLevel** objects that correspond to the second through the fifth outline levels are determined as follows:
+> [!NOTE] 
+> The  **[RulerLevels](PowerPoint.RulerLevels.md)** collection contains five **RulerLevel** objects, each of which corresponds to one of the possible outline levels. The **LeftMargin** property value for the **RulerLevel** object that corresponds to the first outline level has a valid range of (-9.0 to 4095.875). The valid range for the **LeftMargin** property values for the **RulerLevel** objects that correspond to the second through the fifth outline levels are determined as follows:
 
 
 - The maximum value is always 4095.875.
@@ -68,3 +70,4 @@ End With
 
 [RulerLevel Object](PowerPoint.RulerLevel.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

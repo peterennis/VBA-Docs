@@ -1,5 +1,5 @@
 ---
-title: Folder.BeforeItemMove Event (Outlook)
+title: Folder.BeforeItemMove event (Outlook)
 keywords: vbaol11.chm2752
 f1_keywords:
 - vbaol11.chm2752
@@ -8,26 +8,27 @@ api_name:
 - Outlook.Folder.BeforeItemMove
 ms.assetid: db75bc05-c80e-e6b8-d017-2150bc942712
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Folder.BeforeItemMove Event (Outlook)
+# Folder.BeforeItemMove event (Outlook)
 
 Occurs when an item is about to be moved or deleted from a folder, either as a result of user action or through program code. 
 
 
 ## Syntax
 
- _expression_. `BeforeItemMove`( `_Item_` , `_MoveTo_` , `_Cancel_` )
+_expression_. `BeforeItemMove`( `_Item_` , `_MoveTo_` , `_Cancel_` )
 
- _expression_ A variable that represents a [Folder](./Outlook.Folder.md) object.
-
-
-### Parameters
+_expression_ A variable that represents a [Folder](Outlook.Folder.md) object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _Item_|Required| **Object**|Represents the Outlook item that is to be moved or deleted.|
 | _MoveTo_|Required| **[Folder](Outlook.Folder.md)**|Represents the folder to which the item is being moved. |
@@ -45,3 +46,4 @@ If the action is a permanent delete, the  _MoveTo_ folder returned in the event 
 
 [Folder Object](Outlook.Folder.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

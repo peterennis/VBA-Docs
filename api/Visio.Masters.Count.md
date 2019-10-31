@@ -1,5 +1,5 @@
 ---
-title: Masters.Count Property (Visio)
+title: Masters.Count property (Visio)
 keywords: vis_sdr.chm10813330
 f1_keywords:
 - vis_sdr.chm10813330
@@ -8,29 +8,30 @@ api_name:
 - Visio.Masters.Count
 ms.assetid: baf61642-ccf8-ad9e-b131-8741f3b2c8ba
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Masters.Count Property (Visio)
+# Masters.Count property (Visio)
 
 Returns the number of objects in a collection. Read-only.
 
 
 ## Syntax
 
- _expression_. `Count`
+_expression_.**Count**
 
- _expression_ A variable that represents a [Masters](./Visio.Masters.md) object.
+_expression_ A variable that represents a **[Masters](Visio.Masters.md)** object.
 
 
-### Return Value
+## Return value
 
 Integer
 
 
 ## Example
 
-This Microsoft Visual Basic for Applications (VBA) macro shows how to use the  **Count** property to iterate through a **Documents** collection. It displays the names of all the open Microsoft Visio documents in the **Immediate** window.
+This Microsoft Visual Basic for Applications (VBA) macro shows how to use the  **Count** property to iterate through a **Documents** collection. It displays the names of all the open Microsoft Visio documents in the Immediate window.
 
 
 ```vb
@@ -51,4 +52,4 @@ Public Sub Count_Example()
 End Sub
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

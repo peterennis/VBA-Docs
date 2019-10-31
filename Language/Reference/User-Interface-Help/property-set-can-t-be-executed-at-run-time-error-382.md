@@ -6,12 +6,13 @@ f1_keywords:
 ms.prod: office
 ms.assetid: ab039acc-a840-41e7-b5ce-b31ef1452304
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
 # Property Set can't be executed at run time (Error 382)
 
-It may not be possible to obtain a reference to a [property](../../Glossary/vbe-glossary.md#property) at[run time](../../Glossary/vbe-glossary.md#run-time).This error has the following cause and solution:
+It may not be possible to obtain a reference to a [property](../../Glossary/vbe-glossary.md#property) at [run time](../../Glossary/vbe-glossary.md#run-time).This error has the following cause and solution:
 
 
 
@@ -20,3 +21,4 @@ It may not be possible to obtain a reference to a [property](../../Glossary/vbe-
 
 For additional information, select the item in question and press F1 (in Windows) or HELP (on the Macintosh).
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

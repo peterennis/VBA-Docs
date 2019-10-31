@@ -1,5 +1,5 @@
 ---
-title: Hyperlink.CreateURL Method (Visio)
+title: Hyperlink.CreateURL method (Visio)
 keywords: vis_sdr.chm15016155
 f1_keywords:
 - vis_sdr.chm15016155
@@ -8,30 +8,31 @@ api_name:
 - Visio.Hyperlink.CreateURL
 ms.assetid: 3a9cdcb3-19cd-fe03-51a7-24b916b870cc
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Hyperlink.CreateURL Method (Visio)
+# Hyperlink.CreateURL method (Visio)
 
 Returns a fully qualified and optionally canonicalized representation of the hyperlink's absolute address.
 
 
 ## Syntax
 
- _expression_. `CreateURL`( `_CanonicalForm_` )
+_expression_. `CreateURL`( `_CanonicalForm_` )
 
- _expression_ A variable that represents a [Hyperlink](./Visio.Hyperlink.md) object.
-
-
-### Parameters
+_expression_ A variable that represents a **[Hyperlink](Visio.Hyperlink.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _CanonicalForm_|Required| **Integer**| **True** (non-zero) if canonical form; otherwise, **False** (0).|
 
-### Return Value
+## Return value
 
 String
 
@@ -114,4 +115,4 @@ Sub CreateURL_Example()
 End Sub
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

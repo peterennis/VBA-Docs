@@ -1,5 +1,5 @@
 ---
-title: Application.AddIns Property (Excel)
+title: Application.AddIns property (Excel)
 keywords: vbaxl10.chm132081
 f1_keywords:
 - vbaxl10.chm132081
@@ -7,30 +7,31 @@ ms.prod: excel
 api_name:
 - Excel.Application.AddIns
 ms.assetid: 0798690a-910a-b832-e143-df51d7c061ca
-ms.date: 06/08/2017
+ms.date: 04/04/2019
+localization_priority: Normal
 ---
 
 
-# Application.AddIns Property (Excel)
+# Application.AddIns property (Excel)
 
-Returns an  **[AddIns](Excel.AddIns.md)** collection that represents all the add-ins listed in the **Add-Ins** dialog box (**Add-Ins** command on the **Developer** tab). Read-only.
+Returns an **[AddIns](Excel.AddIns.md)** collection that represents all the add-ins listed in the **Add-Ins** dialog box (**Add-Ins** command on the **Developer** tab). Read-only.
 
 
 ## Syntax
 
- _expression_. `AddIns`
+_expression_.**AddIns**
 
- _expression_ A variable that represents an [Application](Excel.Application(Graph property).md) object.
+_expression_ A variable that represents an **[Application](Excel.Application(object).md)** object.
 
 
 ## Remarks
 
-Using this method without an object qualifier is equivalent to  `Application.Addins`.
+Using this method without an object qualifier is equivalent to Application.Addins.
 
 
 ## Example
 
-This example displays the status of the Analysis ToolPak add-in. Note that the string used as the index to the  **AddIns** collection is the title of the add-in, not the add-in's file name.
+This example displays the status of the Analysis ToolPak add-in. Note that the string used as the index to the **AddIns** collection is the title of the add-in, not the add-in's file name.
 
 
 ```vb
@@ -42,8 +43,6 @@ End If
 ```
 
 
-## See also
 
 
-[Application Object](Excel.Application(object).md)
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

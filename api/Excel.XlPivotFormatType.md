@@ -1,20 +1,21 @@
 ---
-title: XlPivotFormatType Enumeration (Excel)
+title: XlPivotFormatType enumeration (Excel)
 ms.prod: excel
 api_name:
 - Excel.XlPivotFormatType
 ms.assetid: 2616630b-34e0-0140-5b6e-5e005e164e46
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# XlPivotFormatType Enumeration (Excel)
+# XlPivotFormatType enumeration (Excel)
 
 Specifies the type of report formatting to be applied to the specified PivotTable report.
 
 
 
-|**Name**|**Value**|**Description**|
+|Name|Value|Description|
 |:-----|:-----|:-----|
 | **xlPTClassic**|20|PivotTable classic format.|
 | **xlPTNone**|21|Does not apply formatting to the PivotTable report.|
@@ -39,3 +40,4 @@ Specifies the type of report formatting to be applied to the specified PivotTabl
 | **xlTable8**|17|Use the xlTable8 formatting for the PivotTable.|
 | **xlTable9**|18|Use the xlTable9 formatting for the PivotTable.|
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

@@ -1,5 +1,5 @@
 ---
-title: VisRasterExportDataCompression Enumeration (Visio)
+title: VisRasterExportDataCompression enumeration (Visio)
 keywords: vis_sdr.chm70750
 f1_keywords:
 - vis_sdr.chm70750
@@ -8,17 +8,18 @@ api_name:
 - Visio.VisRasterExportDataCompression
 ms.assetid: 28fbd635-2b8f-7830-27d7-3b85c3879f19
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# VisRasterExportDataCompression Enumeration (Visio)
+# VisRasterExportDataCompression enumeration (Visio)
 
 
 
 Specifies constants that identify the types of raster export data compression; passed to and returned by the ApplicationSettings.RasterExportDataCompression property.
 
 
-|**Name**|**Value**|**Description**|**Applicable File Format**|
+|Name|Value|Description|**Applicable File Format**|
 |:-----|:-----|:-----|:-----|
 | **visRasterNone**|0|No compression; the default for BMP.|BMP|
 | **visRasterRLE**|1|RLE compression.|BMP|
@@ -28,3 +29,4 @@ Specifies constants that identify the types of raster export data compression; p
 | **visRasterLZW**|5|LZW compression.|TIFF|
 | **visRasterModifiedHuffman**|6|Modified Huffman compression.|TIFF|
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

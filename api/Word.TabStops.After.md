@@ -1,5 +1,5 @@
 ---
-title: TabStops.After Method (Word)
+title: TabStops.After method (Word)
 keywords: vbawd10.chm156565607
 f1_keywords:
 - vbawd10.chm156565607
@@ -8,26 +8,27 @@ api_name:
 - Word.TabStops.After
 ms.assetid: 4c081809-dfd9-b379-0f7b-ec1ef39eacfc
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# TabStops.After Method (Word)
+# TabStops.After method (Word)
 
 Returns the next  **TabStop** object to the right of Position.
 
 
 ## Syntax
 
- _expression_. `After`( `_Position_` )
+_expression_. `After`( `_Position_` )
 
- _expression_ Required. A variable that represents a '[TabStops](Word.tabstops.md)' collection.
-
-
-### Parameters
+_expression_ Required. A variable that represents a '[TabStops](Word.tabstops.md)' collection.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _Position_|Required| **Single**|A location on the ruler, in points.|
 
@@ -51,3 +52,4 @@ tabTemp.Alignment = wdAlignTabCenter
 
 [TabStops Collection Object](Word.tabstops.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

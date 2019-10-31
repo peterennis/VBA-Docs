@@ -1,5 +1,5 @@
 ---
-title: Application.GanttBarStyleEdit Method (Project)
+title: Application.GanttBarStyleEdit method (Project)
 keywords: vbapj.chm2060
 f1_keywords:
 - vbapj.chm2060
@@ -8,26 +8,27 @@ api_name:
 - Project.Application.GanttBarStyleEdit
 ms.assetid: a955c65c-5579-bd76-150e-d98b5045302d
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Application.GanttBarStyleEdit Method (Project)
+# Application.GanttBarStyleEdit method (Project)
 
 Changes or creates a Gantt bar style.
 
 
 ## Syntax
 
- _expression_. `GanttBarStyleEdit`( ` _Item_`, ` _Create_`, ` _Name_`, ` _StartShape_`, ` _StartType_`, ` _StartColor_`, ` _MiddleShape_`, ` _MiddleColor_`, ` _MiddlePattern_`, ` _EndShape_`, ` _EndType_`, ` _EndColor_`, ` _ShowFor_`, ` _Row_`, ` _From_`, ` _To_`, ` _BottomText_`, ` _TopText_`, ` _LeftText_`, ` _RightText_`, ` _InsideText_` )
+_expression_. `GanttBarStyleEdit`( `_Item_`, `_Create_`, `_Name_`, `_StartShape_`, `_StartType_`, `_StartColor_`, `_MiddleShape_`, `_MiddleColor_`, `_MiddlePattern_`, `_EndShape_`, `_EndType_`, `_EndColor_`, `_ShowFor_`, `_Row_`, `_From_`, `_To_`, `_BottomText_`, `_TopText_`, `_LeftText_`, `_RightText_`, `_InsideText_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
-
-
-### Parameters
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _Item_|Required|**String**|The name or row number of the Gantt bar style to change in the  **Bar Styles** dialog box.|
 | _Create_|Optional|**Boolean**|**True** if a new Gantt bar style is created and inserted in the **Bar Styles** dialog box before the Gantt bar style specified with **Item**. If **Item** is "-1", the new Gantt bar style is added to the end of the list of styles. The default value is **False**.|
@@ -51,7 +52,7 @@ Changes or creates a Gantt bar style.
 | _RightText_|Optional|**String**|The task field to display to the right of the Gantt bar.|
 | _InsideText_|Optional|**String**|The task field to display inside the Gantt bar.|
 
-### Return Value
+## Return value
 
  **Boolean**
 
@@ -74,4 +75,4 @@ Sub CreateGanttBar()
 End Sub
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

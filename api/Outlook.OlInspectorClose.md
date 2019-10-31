@@ -1,5 +1,5 @@
 ---
-title: OlInspectorClose Enumeration (Outlook)
+title: OlInspectorClose enumeration (Outlook)
 keywords: vbaol11.chm3063
 f1_keywords:
 - vbaol11.chm3063
@@ -8,16 +8,17 @@ api_name:
 - Outlook.OlInspectorClose
 ms.assetid: 96df6281-7281-dae3-c088-74e512b381c8
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# OlInspectorClose Enumeration (Outlook)
+# OlInspectorClose enumeration (Outlook)
 
 Indicates the save mode.
 
 
 
-|**Name**|**Value**|**Description**|
+|Name|Value|Description|
 |:-----|:-----|:-----|
 | **olDiscard**|1|Changes to the document are discarded.|
 | **olPromptForSave**|2|User is prompted to save documents.|
@@ -25,6 +26,6 @@ Indicates the save mode.
 
 ## Remarks
 
-Used as a parameter to the  **Close** method of item objects and the[Inspector.Close Method (Outlook)](Outlook.Inspector.Close(method).md) to indicate the save mode.
+Used as a parameter to the  **Close** method of item objects and the [Inspector.Close method (Outlook)](Outlook.Inspector.Close(method).md) to indicate the save mode.
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

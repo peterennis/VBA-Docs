@@ -1,5 +1,5 @@
 ---
-title: Application.IsSearchSynchronous Method (Outlook)
+title: Application.IsSearchSynchronous method (Outlook)
 keywords: vbaol11.chm729
 f1_keywords:
 - vbaol11.chm729
@@ -8,32 +8,33 @@ api_name:
 - Outlook.Application.IsSearchSynchronous
 ms.assetid: cd757b43-5e3f-1504-9944-7431bda6f004
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Application.IsSearchSynchronous Method (Outlook)
+# Application.IsSearchSynchronous method (Outlook)
 
 Returns a  **Boolean** indicating if a search will be synchronous or asynchronous.
 
 
 ## Syntax
 
- _expression_. `IsSearchSynchronous`( `_LookInFolders_` )
+_expression_. `IsSearchSynchronous`( `_LookInFolders_` )
 
- _expression_ A variable that represents an '[Application](Outlook.Application.md)' object.
-
-
-### Parameters
+_expression_ A variable that represents an **[Application](Outlook.Application.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _LookInFolders_|Required| **String**|The path name of the folders that the search will search through. You must enclose the folder path with single quotes.|
 
-### Return Value
+## Return value
 
- **True** if the search is synchronous; otherwise, **False** .
+ **True** if the search is synchronous; otherwise, **False**.
 
 
 ## Remarks
@@ -72,3 +73,4 @@ End Sub
 
 [Application Object](Outlook.Application.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

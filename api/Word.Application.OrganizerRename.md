@@ -1,5 +1,5 @@
 ---
-title: Application.OrganizerRename Method (Word)
+title: Application.OrganizerRename method (Word)
 keywords: vbawd10.chm158335296
 f1_keywords:
 - vbawd10.chm158335296
@@ -8,26 +8,27 @@ api_name:
 - Word.Application.OrganizerRename
 ms.assetid: abbe323c-b882-e497-608f-80004e166c8a
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Application.OrganizerRename Method (Word)
+# Application.OrganizerRename method (Word)
 
 Renames the specified style, AutoText entry, toolbar, or macro project item in a document or template.
 
 
 ## Syntax
 
- _expression_. `OrganizerRename`( `_Source_` , `_Name_` , `_NewName_` , `_Object_` )
+_expression_. `OrganizerRename`( `_Source_` , `_Name_` , `_NewName_` , `_Object_` )
 
- _expression_ Required. A variable that represents an '[Application](Word.Application.md)' object.
-
-
-### Parameters
+_expression_ Required. A variable that represents an **[Application](Word.Application.md)** object. 
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _Source_|Required| **String**|The file name of the document or template that contains the item you want to rename.|
 | _Name_|Required| **String**|The name of the style, AutoText entry, toolbar, or macro you want to rename.|
@@ -71,3 +72,4 @@ Application.OrganizerRename Source:=dotTemp, Name:="Module1", _
 
 [Application Object](Word.Application.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

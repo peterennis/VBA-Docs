@@ -1,20 +1,21 @@
 ---
-title: WdMergeSubType Enumeration (Word)
+title: WdMergeSubType enumeration (Word)
 ms.prod: word
 api_name:
 - Word.WdMergeSubType
 ms.assetid: 9268d2b8-9156-972a-2cfe-42bd8160442c
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# WdMergeSubType Enumeration (Word)
+# WdMergeSubType enumeration (Word)
 
 Specifies the data source to be attached to the current document.
 
 
 
-|**Name**|**Value**|**Description**|
+|Name|Value|Description|
 |:-----|:-----|:-----|
 | **wdMergeSubTypeAccess**|1|Microsoft Access.|
 | **wdMergeSubTypeOAL**|2|Office Address List.|
@@ -26,3 +27,4 @@ Specifies the data source to be attached to the current document.
 | **wdMergeSubTypeWord2000**|8|Microsoft Word 2000.|
 | **wdMergeSubTypeWorks**|4|Microsoft Works.|
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

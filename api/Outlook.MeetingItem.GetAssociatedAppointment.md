@@ -1,5 +1,5 @@
 ---
-title: MeetingItem.GetAssociatedAppointment Method (Outlook)
+title: MeetingItem.GetAssociatedAppointment method (Outlook)
 keywords: vbaol11.chm1455
 f1_keywords:
 - vbaol11.chm1455
@@ -8,30 +8,31 @@ api_name:
 - Outlook.MeetingItem.GetAssociatedAppointment
 ms.assetid: 8344d40d-5c1d-ead3-87cb-fd795b831712
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# MeetingItem.GetAssociatedAppointment Method (Outlook)
+# MeetingItem.GetAssociatedAppointment method (Outlook)
 
 Returns an  **[AppointmentItem](Outlook.AppointmentItem.md)** object that represents the appointment associated with the meeting request.
 
 
 ## Syntax
 
- _expression_. `GetAssociatedAppointment`( `_AddToCalendar_` )
+_expression_. `GetAssociatedAppointment`( `_AddToCalendar_` )
 
- _expression_ A variable that represents a [MeetingItem](./Outlook.MeetingItem.md) object.
-
-
-### Parameters
+_expression_ A variable that represents a [MeetingItem](Outlook.MeetingItem.md) object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _AddToCalendar_|Required| **Boolean**| **True** to add the meeting to the default **Calendar** folder.|
 
-### Return Value
+## Return value
 
 An  **AppointmentItem** object that represents the associated appointment.
 
@@ -81,3 +82,4 @@ End Sub
 
 [MeetingItem Object](Outlook.MeetingItem.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

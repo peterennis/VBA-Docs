@@ -1,5 +1,5 @@
 ---
-title: Application.TaskMove Method (Project)
+title: Application.TaskMove method (Project)
 keywords: vbapj.chm2289
 f1_keywords:
 - vbapj.chm2289
@@ -8,32 +8,33 @@ api_name:
 - Project.Application.TaskMove
 ms.assetid: 7a847c59-b07c-6bf2-90a3-b62d0d080cc6
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Application.TaskMove Method (Project)
+# Application.TaskMove method (Project)
 
 Moves the start date of one or more selected tasks the specified number of days.
 
 
 ## Syntax
 
- _expression_. `TaskMove`( ` _MoveForward_`, ` _IsWorkingDuration_`, ` _MoveDays_` )
+_expression_. `TaskMove`( `_MoveForward_`, `_IsWorkingDuration_`, `_MoveDays_` )
 
- _expression_ An expression that returns an [Application](./Project.Application.md) object.
-
-
-### Parameters
+ _expression_ An expression that returns an **[Application](Project.Application.md)** object.
 
 
+## Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+
+
+|Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _MoveForward_|Optional|**Variant**|**True** if the task moves forward in time. **False** if the task moves backward in time. The default is **True**.|
-| _IsWorkingDuration_|Optional|**Variant**|**True** if the the number of days specified by _MoveDays_ is only for working days. **False** if the number of days specified by _MoveDays_ includes both working and nonworking days. The default is **True**.|
+| _IsWorkingDuration_|Optional|**Variant**|**True** if the number of days specified by _MoveDays_ is only for working days. **False** if the number of days specified by _MoveDays_ includes both working and nonworking days. The default is **True**.|
 | _MoveDays_|Optional|**Integer**|Specifies the number of days to move the selected tasks. The default value is 1.|
 
-### Return Value
+## Return value
 
  **Boolean**
 
@@ -65,4 +66,4 @@ If you change the selected task to automatically scheduled, the statement can mo
 Application.TaskMove MoveForward:=False
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

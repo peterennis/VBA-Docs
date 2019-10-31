@@ -2,49 +2,37 @@
 title: Visual Basic language reference
 ms.prod: office
 ms.assetid: ea3d048c-6984-42a0-8a27-27172aa69620
-ms.date: 06/08/2017
+ms.date: 08/14/2019
+localization_priority: Priority
 ---
 
 
 # Visual Basic language reference
 
-## In this section
+Provides documentation about Visual Basic the language: all its methods, properties, statements, functions, operators, and objects. 
 
+[!include[Add-ins note](~/includes/addinsnote.md)]
 
-- [Ambiguous selection](../ambiguous-selection.md)
-    
-- [Keyword Not Found](../keyword-not-found.md)
-    
-- [Character Sets](../character-sets.md)
-    
-- [Constants (Visual Basic for Applications)](../constants-visual-basic-for-applications.md)
-    
-- [Data Types](../data-types.md)
-    
+- [Character sets](../character-sets.md)
+- [Constants](../constants-visual-basic-for-applications.md)
+- [Data types](../data-types.md)
 - [Directives](../directives.md)
-    
-- [Error Messages](../error-messages.md)
-    
-- [Events (Visual Basic for Applications)](../events-visual-basic-for-applications.md)
-    
-- [Functions (Visual Basic for Applications)](../functions-visual-basic-for-applications.md)
-    
-- [Keywords (Visual Basic for Applications)](../keywords-visual-basic-for-applications.md)
-    
-- [Keyword Summaries](../keyword-summaries.md)
-    
-- [Methods (Visual Basic for Applications)](../methods-visual-basic-for-applications.md)
-    
-- [Object Browser (Visual Basic for Applications)](../object-browser-visual-basic-for-applications.md)
-    
-- [Objects (Visual Basic for Applications)](../objects-visual-basic-for-applications.md)
-    
+- [Events](../events-visual-basic-for-applications.md)
+- [Functions](../functions-visual-basic-for-applications.md)
+- [Keywords](keywords-by-task.md) 
+- [Microsoft Forms](reference-microsoft-forms.md)
+- [Objects](../objects-visual-basic-for-applications.md)
 - [Operators](../operators.md)
-    
-- [Properties (Visual Basic for Applications)](../properties-visual-basic-for-applications.md)
-    
 - [Statements](../statements.md)
-    
-- [Strings](../strings.md)
-    
+- [Visual Basic Add-in Model](visual-basic-add-in-model-reference.md)
 
+
+## See also
+
+- [Methods and Properties (now under Objects)](../objects-visual-basic-for-applications.md) 
+- [Object Browser](../object-browser-visual-basic-for-applications.md)
+- [Visual Basic user interface help](visual-basic-user-interface-help.md)
+- [Object library reference for Office (members, properties, methods)](https://docs.microsoft.com/office/vba/api/overview/library-reference/reference-object-library-reference-for-office)
+- [Office client development reference](https://docs.microsoft.com/office/client-developer/office-client-development)
+
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

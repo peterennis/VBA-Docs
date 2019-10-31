@@ -1,21 +1,22 @@
 ---
-title: StartDriver.Suggestions Property (Project)
+title: StartDriver.Suggestions property (Project)
 ms.prod: project-server
 api_name:
 - Project.StartDriver.Suggestions
 ms.assetid: 39cfa3ae-ca39-7260-ebe4-a0abe40b3799
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# StartDriver.Suggestions Property (Project)
+# StartDriver.Suggestions property (Project)
 
 Gets a combination of  **[PjTaskWarnings](Project.PjTaskWarnings.md)** values that indicate whether there are potential problems that should be fixed for a specified task. Read-only **Long**.
 
 
 ## Syntax
 
- _expression_. `Suggestions`
+_expression_. `Suggestions`
 
  _expression_ An expression that returns a [StartDriver](./Project.StartDriver.md) object.
 
@@ -25,7 +26,8 @@ Gets a combination of  **[PjTaskWarnings](Project.PjTaskWarnings.md)** values th
 If there are no suggestions for a task, the value of  **Suggestions** is 0. Because the value of **pjTaskWarningsResourceBeyondMaxUnit** is 64 and the value of **pjTaskWarningsResourceOverallocated** is 128, if **Suggestions** is 192, the task has both of the potential problems.
 
 
- **Note**  The  **PjTaskWarnings** enumeration can be used with both the **Suggestions** property and the **[Warnings](Project.StartDriver.Warnings.md)** property.
+> [!NOTE] 
+> The  **PjTaskWarnings** enumeration can be used with both the **Suggestions** property and the **[Warnings](Project.StartDriver.Warnings.md)** property.
 
 
 ## Example
@@ -109,3 +111,5 @@ End Function
 
 
 [StartDriver Object](Project.StartDriver.md)
+
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

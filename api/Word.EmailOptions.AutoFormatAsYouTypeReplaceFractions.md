@@ -1,5 +1,5 @@
 ---
-title: EmailOptions.AutoFormatAsYouTypeReplaceFractions Property (Word)
+title: EmailOptions.AutoFormatAsYouTypeReplaceFractions property (Word)
 keywords: vbawd10.chm165347595
 f1_keywords:
 - vbawd10.chm165347595
@@ -8,19 +8,20 @@ api_name:
 - Word.EmailOptions.AutoFormatAsYouTypeReplaceFractions
 ms.assetid: 41a0273c-11c5-2053-fd7b-aaed13e1d9a1
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# EmailOptions.AutoFormatAsYouTypeReplaceFractions Property (Word)
+# EmailOptions.AutoFormatAsYouTypeReplaceFractions property (Word)
 
- **True** if typed fractions are replaced with fractions from the current character set as you type; for example, "1/2" is replaced with "½." Read/write **Boolean** .
+ **True** if typed fractions are replaced with fractions from the current character set as you type; for example, "1/2" is replaced with "½." Read/write **Boolean**.
 
 
 ## Syntax
 
- _expression_. `AutoFormatAsYouTypeReplaceFractions`
+_expression_. `AutoFormatAsYouTypeReplaceFractions`
 
- _expression_ A variable that represents an '[EmailOptions](Word.EmailOptions.md)' collection.
+_expression_ A variable that represents an '[EmailOptions](Word.EmailOptions.md)' collection.
 
 
 ## Example
@@ -49,3 +50,4 @@ blnAutoFormat = Options.AutoFormatAsYouTypeReplaceFractions
 
 [EmailOptions Object](Word.EmailOptions.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

@@ -1,5 +1,5 @@
 ---
-title: UIObject.AccelTables Property (Visio)
+title: UIObject.AccelTables property (Visio)
 keywords: vis_sdr.chm14913005
 f1_keywords:
 - vis_sdr.chm14913005
@@ -8,22 +8,23 @@ api_name:
 - Visio.UIObject.AccelTables
 ms.assetid: 01cdfc77-47b3-b160-fbaa-9e7d615abff2
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# UIObject.AccelTables Property (Visio)
+# UIObject.AccelTables property (Visio)
 
 Returns the  **AccelTables** collection of a **UIObject** object. Read-only.
 
 
 ## Syntax
 
- _expression_. `AccelTables`
+_expression_. `AccelTables`
 
- _expression_ A variable that represents a [UIObject](./Visio.UIObject.md) object.
+_expression_ A variable that represents a **[UIObject](Visio.UIObject.md)** object.
 
 
-### Return Value
+## Return value
 
 AccelTables
 
@@ -31,7 +32,8 @@ AccelTables
 ## Remarks
 
 
- **Note**  Starting with Visio, the Microsoft Office Fluent user interface (UI) replaces the previous system of layered menus, toolbars, and task panes. VBA objects and members that you used to customize the user interface in previous versions of Visio are still available in Visio, but they function differently.
+> [!NOTE] 
+> Starting with Visio 2010, the Microsoft Office Fluent user interface (UI) replaced the previous system of layered menus, toolbars, and task panes. VBA objects and members that you used to customize the user interface in previous versions of Visio are still available in Visio, but they function differently.
 
 If a  **UIObject** object represents menu items and accelerators (for example, if you used the **BuiltInMenus** property of an **Application** object to retrieve the **UIObject** object), its **AccelTables** collection represents tables of accelerator keys for that **UIObject** object.
 
@@ -92,4 +94,4 @@ Public Sub AccelTables_Example()
 End Sub
 ```
 
-
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

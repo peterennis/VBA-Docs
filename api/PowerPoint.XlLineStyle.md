@@ -1,20 +1,21 @@
 ---
-title: XlLineStyle Enumeration (PowerPoint)
+title: XlLineStyle enumeration (PowerPoint)
 ms.prod: powerpoint
 api_name:
 - PowerPoint.XlLineStyle
 ms.assetid: b9d0f590-e0f5-ebe0-f24f-35c840eb5fed
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# XlLineStyle Enumeration (PowerPoint)
+# XlLineStyle enumeration (PowerPoint)
 
 Specifies the line style for the border.
 
 
 
-|**Name**|**Value**|**Description**|
+|Name|Value|Description|
 |:-----|:-----|:-----|
 |**xlContinuous**|1|A continuous line.|
 |**xlDash**|-4115|A dashed line.|
@@ -25,3 +26,4 @@ Specifies the line style for the border.
 |**xlLineStyleNone**|-4142|No line.|
 |**xlSlantDashDot**|13|Slanted dashes.|
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]

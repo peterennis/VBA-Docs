@@ -1,5 +1,5 @@
 ---
-title: Shape.SetShapesDefaultProperties Method (Word)
+title: Shape.SetShapesDefaultProperties method (Word)
 keywords: vbawd10.chm161480726
 f1_keywords:
 - vbawd10.chm161480726
@@ -8,19 +8,20 @@ api_name:
 - Word.Shape.SetShapesDefaultProperties
 ms.assetid: 372bf936-720a-bb15-a7cc-0bb8ca20181d
 ms.date: 06/08/2017
+localization_priority: Normal
 ---
 
 
-# Shape.SetShapesDefaultProperties Method (Word)
+# Shape.SetShapesDefaultProperties method (Word)
 
 Applies the formatting of the default shape for a document to the specified shape.
 
 
 ## Syntax
 
- _expression_. `SetShapesDefaultProperties`
+_expression_.**SetShapesDefaultProperties**
 
- _expression_ Required. A variable that represents a '[Shape](Word.Shape.md)' object.
+_expression_ Required. A variable that represents a **[Shape](Word.Shape.md)** object.
 
 
 ## Remarks
@@ -30,7 +31,7 @@ New shapes inherit many of their attributes from the default shape.
 
 ## Example
 
-This example adds a rectangle to  _myDocument_ , formats the rectangle's fill, applies the rectangle's formatting to the default shape, and then adds another (smaller) rectangle to the document. The second rectangle has the same fill as the first one.
+This example adds a rectangle to _myDocument_ , formats the rectangle's fill, applies the rectangle's formatting to the default shape, and then adds another (smaller) rectangle to the document. The second rectangle has the same fill as the first one.
 
 
 ```vb
@@ -56,3 +57,4 @@ End With
 
 [Shape Object](Word.Shape.md)
 
+[!include[Support and feedback](~/includes/feedback-boilerplate.md)]
