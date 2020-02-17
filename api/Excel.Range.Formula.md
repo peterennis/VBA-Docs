@@ -14,8 +14,7 @@ localization_priority: Normal
 
 # Range.Formula property (Excel)
 
-Returns or sets a **Variant** value that represents the object's formula in A1-style notation and in the macro language.
-
+Returns or sets a **Variant** value that represents the object's implicitly intersecting formula in A1-style notation. 
 
 ## Syntax
 
@@ -23,8 +22,9 @@ _expression_.**Formula**
 
 _expression_ A variable that represents a **[Range](excel.range(object).md)** object.
 
-
 ## Remarks
+
+In Dynamic Arrays enabled Excel, Range.Formula2 supercedes Range.Formula. Range.Formula will continue to be supported to maintain backcompatibility. A discussion on Dynamic Arrays and Range.Formula2 can be found here. 
 
 This property is not available for OLAP data sources.
 
@@ -34,8 +34,9 @@ If you set the value or formula of a cell to a date, Microsoft Excel verifies th
 
 If the range is a one- or two-dimensional range, you can set the formula to a Visual Basic array of the same dimensions. Similarly, you can put the formula into a Visual Basic array.
 
-Setting the formula for a multiple-cell range fills all cells in the range with the formula.
+Formulas set using Range.Formula may trigger implicit intersection. 
 
+Setting the formula for a multiple-cell range fills all cells in the range with the formula.
 
 ## Example
 
