@@ -4263,9 +4263,9 @@
 ##### [Change the color of the horizontal axis of a sparkline](../excel/Concepts/Sparklines/change-the-color-of-the-horizontal-axis-of-a-sparkline.md)
 ##### [Find all the sparklines on a sheet](../excel/Concepts/Sparklines/find-all-the-sparklines-on-a-sheet.md)
 #### Excel performance
-##### [Improve calculation performance](../excel/Concepts/Excel-Performance/excel-improving-calcuation-performance.md)
-##### [Performance and limit improvements](../excel/Concepts/Excel-Performance/excel-performance-and-limit-improvements.md)
-##### [Tips for optimizing performance obstructions](../excel/Concepts/Excel-Performance/excel-tips-for-optimizing-performance-obstructions.md)
+##### [Improve calculation performance](../excel/Concepts/excel-performance/excel-improving-calculation-performance.md)
+##### [Performance and limit improvements](../excel/Concepts/excel-performance/excel-performance-and-limit-improvements.md)
+##### [Tips for optimizing performance obstructions](../excel/Concepts/excel-performance/excel-tips-for-optimizing-performance-obstructions.md)
 ### Object model
 #### [Overview](overview/Excel/object-model.md)
 #### [AboveAverage object](Excel.AboveAverage.md)
@@ -17757,6 +17757,7 @@
 ###### [Save](PowerPoint.Presentation.Save.md)
 ###### [SaveAs](PowerPoint.Presentation.SaveAs.md)
 ###### [SaveCopyAs](PowerPoint.Presentation.SaveCopyAs.md)
+###### [SaveCopyAs2](PowerPoint.Presentation.SaveCopyAs2.md)
 ###### [SendFaxOverInternet](PowerPoint.Presentation.SendFaxOverInternet.md)
 ###### [SetPasswordEncryptionOptions](PowerPoint.Presentation.SetPasswordEncryptionOptions.md)
 ###### [UpdateLinks](PowerPoint.Presentation.UpdateLinks.md)
@@ -17813,6 +17814,7 @@
 ###### [Permission](PowerPoint.Presentation.Permission.md)
 ###### [PrintOptions](PowerPoint.Presentation.PrintOptions.md)
 ###### [ReadOnly](PowerPoint.Presentation.ReadOnly.md)
+###### [ReadOnlyRecommended](PowerPoint.Presentation.ReadOnlyRecommended.md)
 ###### [RemovePersonalInformation](PowerPoint.Presentation.RemovePersonalInformation.md)
 ###### [Research](PowerPoint.Presentation.Research.md)
 ###### [Saved](PowerPoint.Presentation.Saved.md)
